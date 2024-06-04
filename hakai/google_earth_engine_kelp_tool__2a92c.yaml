@@ -1,0 +1,197 @@
+contact:
+- inCitation: true
+  individual:
+    name: Reshitnyk, Luba
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - author
+  - principalInvestigator
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Technology Team, Geospatial
+    position: Geospatial Science
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - custodian
+  - owner
+  - distributor
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - publisher
+  - originator
+  - author
+  - editor
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: Readme file for Hakai Kelp GEEK Tool
+  name:
+    en: Hakai Institute Google Drive
+  url: https://drive.google.com/drive/folders/1dsTcPq4BQ_NApt-1-5yJYdhDOR05_l9W?usp=sharing
+identification:
+  abstract:
+    en: "The Hakai Google Earth Engine Kelp tool (GEEK tool) was developed as a collaboration\
+      \ between the Hakai Institute, University of Victoria, and Department of Fisheries\
+      \ and Oceans to take advantage of the cloud computing capabilities for analyzing\
+      \ Landsat satellite imagery (30 m) to extract canopy-kelp extent. The original\
+      \ methodology is described in Nijland et al. 2019*. \n\nNote: This dataset is\
+      \ intended as a “view-only” as we continue to improve the outputs. It is meant\
+      \ to demonstrate the utility of the Landsat archive for mapping kelp. These\
+      \ data are viewable on the GEEK webmap found here.\n\nThis data package contains\
+      \ two datasets:\n\nAnnual maximum summer extent of canopy-forming kelp (1984\
+      \ - 2019) as rasters.\nDecadal maximum summer extent of canopy-forming kelp\
+      \ (1984 - 1990, 1991 - 2000, 2001 - 2010, 2011 - 2020)\n\nThis dataset was generated\
+      \ following changes to the original GEEK methodologies. The settings used to\
+      \ generate the rasters were image scenes with:\n\nImagescene month range = May\
+      \ 1 - Sept 30\nMaximum clouds in scene = 80%\nMaximum tide = 3.2 m (+0.5 MWL\
+      \ of Central Coast tides based on KIM-1 methods)\nMinimum tide = 0 m\nShoreline\
+      \ buffer applied to landmask = 1 pixel (30 m)\nMinimum NDVI* (for an individual\
+      \ pixel to be classified as kelp) = -0.05\nMinimum number of times an individual\
+      \ kelp pixel has be to detected as kelp in a single year = 30% of all detections\
+      \ in a given year\nMinimum K mean (the average of the NDVI for all pixels at\
+      \ a given location detected as kelp) = -0.05\n* NDVI = normalized difference\
+      \ vegetation index. \n\nThese parameters were chosen based on accuracy assessment\
+      \ using kelp extent derived from WorldView-2 imagery (2 m) from July 2014 and\
+      \ August 2014. These data were resampled to 30 m. While many of the iterations\
+      \ run for the tool produced very similar results, settings were selected that\
+      \ maximized kelp accuracy for the 2014 comparison. \n\nThe results of the accuracy\
+      \ assessment were:\n50% error of commission\n25% error of omission\n\nSimply\
+      \ put, the current methods lead to a high level of “false positives” but do\
+      \ capture kelp extent accurately when compared to the validation dataset. This\
+      \ error can be attributed to the sensitivity of using a single NDVI to detect\
+      \ kelp. We see variation of NDVI thresholds both within a single scene and between\
+      \ scenes. \n\nThe intention of the times series dataset is meant to account\
+      \ for some of this error as pixels detected only one each decade are removed.\n\
+      \nThis dataset is as a part of the Hakai Habitat Mapping Program. The overarching\
+      \ objective of the Hakai Habitat Mapping program is to generate spatial inventories\
+      \ of coastal habitats, investigate how these habitats are changing through time\
+      \ and the drivers of that change.\n\n*Nijland, W., Reshitnyk, L., & Rubidge,\
+      \ E. (2019). Satellite remote sensing of canopy-forming kelp on a complex coastline:\
+      \ A novel procedure using the Landsat image archive. Remote Sensing of Environment,\
+      \ 220, 41-50. doi:10.1016/j.rse.2018.10.032"
+    fr: "L'outil Hakai Google Earth Engine Kelp (outil GEEK) a été développé dans\
+      \ le cadre d'une collaboration entre l'Institut Hakai, l'Université de Victoria\
+      \ et le ministère des Pêches et des Océans pour tirer parti des capacités de\
+      \ cloud computing pour analyser l'imagerie satellite Landsat (30 m) afin d'extraire\
+      \ l'étendue de la canopée et du varech. La méthodologie originale est décrite\
+      \ dans Nijland et al. 2019*. \n\nRemarque : Ce jeu de données est conçu comme\
+      \ une « lecture seule », car nous continuons à améliorer les résultats. Il vise\
+      \ à démontrer l'utilité de l'archive Landsat pour cartographier le varech. Ces\
+      \ données sont visibles sur la carte Web GEEK disponible ici.\n\nCe package\
+      \ de données contient deux jeux de données :\n\nEtendue annuelle maximale estivale\
+      \ du varech formant la canopée (1984 - 2019) en tant que rasters.\nEtendue maximale\
+      \ décennale du varech formant la canopée (1984 - 1990, 1991 - 2000, 2001 - 2010,\
+      \ 2011 - 2020)\n\nCe jeu de données a été généré à la suite de modifications\
+      \ apportées aux méthodologies GEEK originales. Les paramètres utilisés pour\
+      \ générer les rasters étaient des scènes d'images avec :\n\nPlage de mois Imagescene\
+      \ = 1er mai - 30 septembre\nClouds maximum dans la scène = 80%\nMarée maximale\
+      \ = 3,2 m (+0,5 MWL des marées de la côte centrale selon les méthodes KIM-1)\n\
+      Marée minimale = 0 m\nTampon de rivage appliqué au masque de terrain = 1 pixel\
+      \ (30 m)\nNDVI* minimum (pour qu'un pixel individuel soit classé comme varech)\
+      \ = -0,05\nNombre minimum de fois qu'un pixel de varech individuel doit être\
+      \ détecté en tant que varech au cours d'une seule année = 30 % de toutes les\
+      \ détections d'une année donnée\nK moyenne minimale (moyenne du NDVI pour tous\
+      \ les pixels à un emplacement donné détecté comme varech) = -0,05\n* NDVI =\
+      \ indice de végétation de différence normalisée. \n\nCes paramètres ont été\
+      \ choisis sur la base d'une évaluation de la précision à l'aide d'une étendue\
+      \ de varech dérivée d'images WorldView-2 (2 m) de juillet 2014 et août 2014.\
+      \ Ces données ont été rééchantillonnées à 30 m. Bien que de nombreuses itérations\
+      \ exécutées pour l'outil aient donné des résultats très similaires, des paramètres\
+      \ ont été sélectionnés qui ont maximisé la précision du varech pour la comparaison\
+      \ de 2014. \n\nLes résultats de l'évaluation de la précision ont été les suivants :\n\
+      Erreur de commission de 50 %\nErreur d'omission de 25 %\n\nEn termes simples,\
+      \ les méthodes actuelles conduisent à un niveau élevé de « faux positifs »,\
+      \ mais elles capturent avec précision l'étendue du varech par rapport au jeu\
+      \ de données de validation. Cette erreur peut être attribuée à la sensibilité\
+      \ de l'utilisation d'un seul NDVI pour détecter le varech. Nous observons des\
+      \ variations des seuils NDVI à la fois au sein d'une seule scène et entre les\
+      \ scènes. \n\nL'objectif du jeu de données de séries chronologiques est censé\
+      \ prendre en compte une partie de cette erreur, car les pixels détectés seulement\
+      \ un par décennie sont supprimés.\n\nCe jeu de données fait partie du programme\
+      \ de cartographie de l'habitat de Hakai. L'objectif principal du programme de\
+      \ cartographie de l'habitat de Hakai est de générer des inventaires spatiaux\
+      \ des habitats côtiers, d'étudier comment ces habitats évoluent au fil du temps\
+      \ et les moteurs de ce changement.\n\n*Nijland, W., Reshitnyk, L. et Rubidge,\
+      \ E. (2019). Télédétection par satellite de varech formant une canopée sur un\
+      \ littoral complexe : une nouvelle procédure utilisant les archives d'images\
+      \ Landsat. Télédétection de l'environnement, 220, 41-50. doi:10.1016/j.rse.2018.10.032"
+  associated_resources: []
+  dates:
+    publication: '2021-02-16'
+    revision: '2021-02-16'
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - Landsat
+      - Google Earth Engine
+      - kelp
+      - habitat mapping
+      - remote sensing
+      - Macrocystis pyrifera
+      - Nereocystis luetkeana
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: Google Earth Engine Kelp Tool - Central Coast Output - Version 1.0.0
+    fr: Outil de varech moteur Google Earth - Sortie Central Coast - Version 1.0.0
+metadata:
+  dates:
+    publication: '2022-03-02'
+    revision: '2022-03-02T00:48:36.223Z'
+  identifier: 2a92ca16-f5c6-4362-acea-6bb5117b8d65
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTFUcWNIVGxwZEVLNTE
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -130.35642493
+  - 50.22213452
+  - -126.18162025
+  - 52.9911972
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive

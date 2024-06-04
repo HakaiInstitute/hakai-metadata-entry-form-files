@@ -1,0 +1,2726 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/2.0 https://schemas.isotc211.org/19115/-3/mdb/2.0/mdb.xsd"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0"
+  xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
+  xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0"
+  xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
+  xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0"
+  xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0"
+  xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0"
+  xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0"
+  xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0"
+  xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0"
+  xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
+  xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
+  xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0"
+  xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+  xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0"
+  xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
+  xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0"
+  xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <mdb:metadataIdentifier>
+    <mcc:MD_Identifier>
+      <mcc:authority>
+        <cit:CI_Citation>
+          <cit:title>
+            <gco:CharacterString>ca.cioos</gco:CharacterString>
+          </cit:title>
+        </cit:CI_Citation>
+      </mcc:authority>
+      <mcc:code>
+        <gco:CharacterString>2a92ca16-f5c6-4362-acea-6bb5117b8d65</gco:CharacterString>
+      </mcc:code>
+    </mcc:MD_Identifier>
+  </mdb:metadataIdentifier>
+  <mdb:defaultLocale>
+    <lan:PT_Locale>
+      <lan:language>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+      </lan:language>
+      <lan:country>
+        <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
+      </lan:country>
+      <lan:characterEncoding>
+        <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/CharacterSetCode.xml" codeListValue="utf8" />
+      </lan:characterEncoding>
+    </lan:PT_Locale>
+  </mdb:defaultLocale>
+  <mdb:metadataScope>
+    <mdb:MD_MetadataScope>
+      <mdb:resourceScope>
+        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+      </mdb:resourceScope>
+    </mdb:MD_MetadataScope>
+  </mdb:metadataScope>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="resourceProvider"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Victoria</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial Science</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Victoria</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial Science</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Victoria</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial Science</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Victoria</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial Science</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Victoria</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial Science</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="processor"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Victoria</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial Science</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Victoria</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial Science</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="originator"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Victoria</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial Science</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Victoria</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial Science</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="editor"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Victoria</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial Science</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:dateInfo>
+    <cit:CI_Date>
+      <cit:date>
+        <gco:DateTime>2022-03-02T00:48:36.223Z</gco:DateTime>
+      </cit:date>
+      <cit:dateType>
+        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
+      </cit:dateType>
+    </cit:CI_Date>
+  </mdb:dateInfo>
+  <mdb:dateInfo>
+    <cit:CI_Date>
+      <cit:date>
+        <gco:Date>2022-03-02</gco:Date>
+      </cit:date>
+      <cit:dateType>
+        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+      </cit:dateType>
+    </cit:CI_Date>
+  </mdb:dateInfo>
+  <mdb:metadataStandard>
+    <cit:CI_Citation>
+      <cit:title>
+        <gco:CharacterString>ISO 19115-1 Geographic information - Metadata</gco:CharacterString>
+      </cit:title>
+      <cit:edition>
+        <gco:CharacterString>First Edition 2014-04-01</gco:CharacterString>
+      </cit:edition>
+    </cit:CI_Citation>
+  </mdb:metadataStandard>
+  <mdb:metadataStandard>
+    <cit:CI_Citation>
+      <cit:title>
+        <gco:CharacterString>ISO 19115-2 Geographic information - Metadata</gco:CharacterString>
+      </cit:title>
+      <cit:edition>
+        <gco:CharacterString>Second Edition 2019-01</gco:CharacterString>
+      </cit:edition>
+    </cit:CI_Citation>
+  </mdb:metadataStandard>
+  <mdb:metadataStandard>
+    <cit:CI_Citation>
+      <cit:title>
+        <gco:CharacterString>ISO 19115-1 Geographic Information - Metadata Amendment 1</gco:CharacterString>
+      </cit:title>
+      <cit:edition>
+        <gco:CharacterString>2018-02</gco:CharacterString>
+      </cit:edition>
+    </cit:CI_Citation>
+  </mdb:metadataStandard>
+  <mdb:metadataProfile>
+    <cit:CI_Citation>
+      <cit:title>
+        <gco:CharacterString>Canadian Integrated Ocean Observing System Metadata Profile of ISO 19115</gco:CharacterString>
+      </cit:title>
+      <cit:date>
+        <cit:CI_Date>
+          <cit:date>
+            <gco:Date>2019-11-06</gco:Date>
+          </cit:date>
+          <cit:dateType>
+            <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+          </cit:dateType>
+        </cit:CI_Date>
+      </cit:date>
+    </cit:CI_Citation>
+  </mdb:metadataProfile>
+  <mdb:otherLocale>
+    <lan:PT_Locale>
+      <lan:language>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+      </lan:language>
+      <lan:country>
+        <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
+      </lan:country>
+      <lan:characterEncoding>
+        <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/CharacterSetCode.xml" codeListValue="utf8" />
+      </lan:characterEncoding>
+    </lan:PT_Locale>
+  </mdb:otherLocale>
+  <mdb:otherLocale>
+    <lan:PT_Locale>
+      <lan:language>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+      </lan:language>
+      <lan:country>
+        <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
+      </lan:country>
+      <lan:characterEncoding>
+        <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/CharacterSetCode.xml" codeListValue="utf8" />
+      </lan:characterEncoding>
+    </lan:PT_Locale>
+  </mdb:otherLocale>
+  <mdb:identificationInfo>
+    <mri:MD_DataIdentification>
+      <mri:citation>
+        <cit:CI_Citation>
+          <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Google Earth Engine Kelp Tool - Central Coast Output - Version 1.0.0</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Outil de varech moteur Google Earth - Sortie Central Coast - Version 1.0.0</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </cit:title>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2021-02-16</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2021-02-16</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Reshitnyk, Luba</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Reshitnyk, Luba</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Reshitnyk, Luba</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Reshitnyk, Luba</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="processor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="originator"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="editor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+        </cit:CI_Citation>
+      </mri:citation>
+      <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
+        <gco:CharacterString>The Hakai Google Earth Engine Kelp tool (GEEK tool) was developed as a collaboration between the Hakai Institute, University of Victoria, and Department of Fisheries and Oceans to take advantage of the cloud computing capabilities for analyzing Landsat satellite imagery (30 m) to extract canopy-kelp extent. The original methodology is described in Nijland et al. 2019*. 
+
+Note: This dataset is intended as a “view-only” as we continue to improve the outputs. It is meant to demonstrate the utility of the Landsat archive for mapping kelp. These data are viewable on the GEEK webmap found here.
+
+This data package contains two datasets:
+
+Annual maximum summer extent of canopy-forming kelp (1984 - 2019) as rasters.
+Decadal maximum summer extent of canopy-forming kelp (1984 - 1990, 1991 - 2000, 2001 - 2010, 2011 - 2020)
+
+This dataset was generated following changes to the original GEEK methodologies. The settings used to generate the rasters were image scenes with:
+
+Imagescene month range = May 1 - Sept 30
+Maximum clouds in scene = 80%
+Maximum tide = 3.2 m (+0.5 MWL of Central Coast tides based on KIM-1 methods)
+Minimum tide = 0 m
+Shoreline buffer applied to landmask = 1 pixel (30 m)
+Minimum NDVI* (for an individual pixel to be classified as kelp) = -0.05
+Minimum number of times an individual kelp pixel has be to detected as kelp in a single year = 30% of all detections in a given year
+Minimum K mean (the average of the NDVI for all pixels at a given location detected as kelp) = -0.05
+* NDVI = normalized difference vegetation index. 
+
+These parameters were chosen based on accuracy assessment using kelp extent derived from WorldView-2 imagery (2 m) from July 2014 and August 2014. These data were resampled to 30 m. While many of the iterations run for the tool produced very similar results, settings were selected that maximized kelp accuracy for the 2014 comparison. 
+
+The results of the accuracy assessment were:
+50% error of commission
+25% error of omission
+
+Simply put, the current methods lead to a high level of “false positives” but do capture kelp extent accurately when compared to the validation dataset. This error can be attributed to the sensitivity of using a single NDVI to detect kelp. We see variation of NDVI thresholds both within a single scene and between scenes. 
+
+The intention of the times series dataset is meant to account for some of this error as pixels detected only one each decade are removed.
+
+This dataset is as a part of the Hakai Habitat Mapping Program. The overarching objective of the Hakai Habitat Mapping program is to generate spatial inventories of coastal habitats, investigate how these habitats are changing through time and the drivers of that change.
+
+*Nijland, W., Reshitnyk, L., &amp; Rubidge, E. (2019). Satellite remote sensing of canopy-forming kelp on a complex coastline: A novel procedure using the Landsat image archive. Remote Sensing of Environment, 220, 41-50. doi:10.1016/j.rse.2018.10.032</gco:CharacterString>
+        <lan:PT_FreeText>
+          <lan:textGroup>
+            <lan:LocalisedCharacterString locale="#fr">L&#39;outil Hakai Google Earth Engine Kelp (outil GEEK) a été développé dans le cadre d&#39;une collaboration entre l&#39;Institut Hakai, l&#39;Université de Victoria et le ministère des Pêches et des Océans pour tirer parti des capacités de cloud computing pour analyser l&#39;imagerie satellite Landsat (30 m) afin d&#39;extraire l&#39;étendue de la canopée et du varech. La méthodologie originale est décrite dans Nijland et al. 2019*. 
+
+Remarque : Ce jeu de données est conçu comme une « lecture seule », car nous continuons à améliorer les résultats. Il vise à démontrer l&#39;utilité de l&#39;archive Landsat pour cartographier le varech. Ces données sont visibles sur la carte Web GEEK disponible ici.
+
+Ce package de données contient deux jeux de données :
+
+Etendue annuelle maximale estivale du varech formant la canopée (1984 - 2019) en tant que rasters.
+Etendue maximale décennale du varech formant la canopée (1984 - 1990, 1991 - 2000, 2001 - 2010, 2011 - 2020)
+
+Ce jeu de données a été généré à la suite de modifications apportées aux méthodologies GEEK originales. Les paramètres utilisés pour générer les rasters étaient des scènes d&#39;images avec :
+
+Plage de mois Imagescene = 1er mai - 30 septembre
+Clouds maximum dans la scène = 80%
+Marée maximale = 3,2 m (+0,5 MWL des marées de la côte centrale selon les méthodes KIM-1)
+Marée minimale = 0 m
+Tampon de rivage appliqué au masque de terrain = 1 pixel (30 m)
+NDVI* minimum (pour qu&#39;un pixel individuel soit classé comme varech) = -0,05
+Nombre minimum de fois qu&#39;un pixel de varech individuel doit être détecté en tant que varech au cours d&#39;une seule année = 30 % de toutes les détections d&#39;une année donnée
+K moyenne minimale (moyenne du NDVI pour tous les pixels à un emplacement donné détecté comme varech) = -0,05
+* NDVI = indice de végétation de différence normalisée. 
+
+Ces paramètres ont été choisis sur la base d&#39;une évaluation de la précision à l&#39;aide d&#39;une étendue de varech dérivée d&#39;images WorldView-2 (2 m) de juillet 2014 et août 2014. Ces données ont été rééchantillonnées à 30 m. Bien que de nombreuses itérations exécutées pour l&#39;outil aient donné des résultats très similaires, des paramètres ont été sélectionnés qui ont maximisé la précision du varech pour la comparaison de 2014. 
+
+Les résultats de l&#39;évaluation de la précision ont été les suivants :
+Erreur de commission de 50 %
+Erreur d&#39;omission de 25 %
+
+En termes simples, les méthodes actuelles conduisent à un niveau élevé de « faux positifs », mais elles capturent avec précision l&#39;étendue du varech par rapport au jeu de données de validation. Cette erreur peut être attribuée à la sensibilité de l&#39;utilisation d&#39;un seul NDVI pour détecter le varech. Nous observons des variations des seuils NDVI à la fois au sein d&#39;une seule scène et entre les scènes. 
+
+L&#39;objectif du jeu de données de séries chronologiques est censé prendre en compte une partie de cette erreur, car les pixels détectés seulement un par décennie sont supprimés.
+
+Ce jeu de données fait partie du programme de cartographie de l&#39;habitat de Hakai. L&#39;objectif principal du programme de cartographie de l&#39;habitat de Hakai est de générer des inventaires spatiaux des habitats côtiers, d&#39;étudier comment ces habitats évoluent au fil du temps et les moteurs de ce changement.
+
+*Nijland, W., Reshitnyk, L. et Rubidge, E. (2019). Télédétection par satellite de varech formant une canopée sur un littoral complexe : une nouvelle procédure utilisant les archives d&#39;images Landsat. Télédétection de l&#39;environnement, 220, 41-50. doi:10.1016/j.rse.2018.10.032</lan:LocalisedCharacterString>
+          </lan:textGroup>
+        </lan:PT_FreeText>
+      </mri:abstract>
+      <mri:credit>
+        <gco:CharacterString></gco:CharacterString>
+      </mri:credit>
+      <mri:status>
+        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="completed"></mcc:MD_ProgressCode>
+      </mri:status>
+      <mri:topicCategory>
+        <mri:MD_TopicCategoryCode>oceans</mri:MD_TopicCategoryCode>
+      </mri:topicCategory>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_GeographicBoundingBox>
+              <gex:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gex:extentTypeCode>
+              <gex:westBoundLongitude>
+                <gco:Decimal>-130.35642493</gco:Decimal>
+              </gex:westBoundLongitude>
+              <gex:eastBoundLongitude>
+                <gco:Decimal>-126.18162025</gco:Decimal>
+              </gex:eastBoundLongitude>
+              <gex:southBoundLatitude>
+                <gco:Decimal>50.22213452</gco:Decimal>
+              </gex:southBoundLatitude>
+              <gex:northBoundLatitude>
+                <gco:Decimal>52.9911972</gco:Decimal>
+              </gex:northBoundLatitude>
+            </gex:EX_GeographicBoundingBox>
+          </gex:geographicElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:verticalElement>
+            <gex:EX_VerticalExtent>
+              <gex:minimumValue>
+                <gco:Real>0.0</gco:Real>
+              </gex:minimumValue>
+              <gex:maximumValue>
+                <gco:Real>0.0</gco:Real>
+              </gex:maximumValue>
+              <gex:verticalCRSId>
+                <mrs:MD_ReferenceSystem>
+                  <mrs:referenceSystemIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>5831</gco:CharacterString>
+                      </mcc:code>
+                      <mcc:codeSpace>
+                        <gco:CharacterString>EPSG</gco:CharacterString>
+                      </mcc:codeSpace>
+                      <mcc:version>
+                        <gco:CharacterString>2012-08-10</gco:CharacterString>
+                      </mcc:version>
+                      <mcc:description>
+                        <gco:CharacterString>EPSG::5831 - Instantaneous Water Level depth - Depth relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                      </mcc:description>
+                    </mcc:MD_Identifier>
+                  </mrs:referenceSystemIdentifier>
+                  <mrs:referenceSystemType>
+                    <mrs:MD_ReferenceSystemTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ReferenceSystemTypeCode" codeListValue="vertical">vertical</mrs:MD_ReferenceSystemTypeCode>
+                  </mrs:referenceSystemType>
+                </mrs:MD_ReferenceSystem>
+              </gex:verticalCRSId>
+              <gex:verticalCRS xlink:href="http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::5831" xlink:title="instantaneous water level depth" xlink:actuate="onRequest" />
+            </gex:EX_VerticalExtent>
+          </gex:verticalElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:temporalElement>
+            <gex:EX_TemporalExtent>
+              <gex:extent>
+                <gml:TimePeriod gml:id="time_period">
+                  <gml:beginPosition indeterminatePosition="unknown" />
+                  <gml:endPosition indeterminatePosition="unknown" />
+                </gml:TimePeriod>
+              </gex:extent>
+            </gex:EX_TemporalExtent>
+          </gex:temporalElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:resourceMaintenance>
+        <mmi:MD_MaintenanceInformation>
+          <mmi:maintenanceAndUpdateFrequency>
+            <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
+          </mmi:maintenanceAndUpdateFrequency>
+          <mmi:maintenanceNote>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTFUcWNIVGxwZEVLNTE</gco:CharacterString>
+          </mmi:maintenanceNote>
+        </mmi:MD_MaintenanceInformation>
+      </mri:resourceMaintenance>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Oceans</gco:CharacterString>
+          </mri:keyword>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>Government of Canada Core Subject Thesaurus</gco:CharacterString>
+              </cit:title>
+              <cit:date>
+                <cit:CI_Date>
+                  <cit:date>
+                    <gco:Date>2016-10-13</gco:Date>
+                  </cit:date>
+                  <cit:dateType>
+                    <cit:CI_DateTypeCode codeList="http://wiki.esipfed.org/index.php/ISO_19115-3_Codelists#CI_DateTypeCode" codeListValue="revision"/>
+                  </cit:dateType>
+                </cit:CI_Date>
+              </cit:date>
+              <cit:edition>
+                <gco:CharacterString>N/A</gco:CharacterString>
+              </cit:edition>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Downloadable Data</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Landsat</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Google Earth Engine</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>kelp</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>habitat mapping</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>remote sensing</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Macrocystis pyrifera</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Nereocystis luetkeana</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>other</gco:CharacterString>
+          </mri:keyword>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>default</gco:CharacterString>
+              </cit:title>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>other</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Autre</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>eov</gco:CharacterString>
+              </cit:title>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords></mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:resourceConstraints>
+        <mco:MD_LegalConstraints>
+          <mco:reference>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>Creative Commons Attribution 4.0 Attribution</gco:CharacterString>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>CC-BY-4.0</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://creativecommons.org/licenses/by/4.0</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Citation>
+          </mco:reference>
+          <mco:useConstraints>
+            <mco:MD_RestrictionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_RestrictionCode" codeListValue="licence" />
+          </mco:useConstraints>
+        </mco:MD_LegalConstraints>
+      </mri:resourceConstraints>
+      <mri:resourceConstraints>
+        <mco:MD_Constraints>
+          <mco:useLimitation>
+            <gco:CharacterString>Appropriate credit must be given to Hakai Institute and the authors of the dataset.</gco:CharacterString>
+          </mco:useLimitation>
+        </mco:MD_Constraints>
+      </mri:resourceConstraints>
+      <mri:supplementalInformation>
+        <gco:CharacterString></gco:CharacterString>
+      </mri:supplementalInformation>
+    </mri:MD_DataIdentification>
+  </mdb:identificationInfo>
+  <mdb:distributionInfo>
+    <mrd:MD_Distribution>
+      <mrd:distributor>
+        <mrd:MD_Distributor>
+          <mrd:distributorContact>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </mrd:distributorContact>
+        </mrd:MD_Distributor>
+      </mrd:distributor>
+      <mrd:distributor>
+        <mrd:MD_Distributor>
+          <mrd:distributorContact>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>www.hakai.org</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Technology Team, Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </mrd:distributorContact>
+        </mrd:MD_Distributor>
+      </mrd:distributor>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://hecate.hakai.org/auth/access-request.php#</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name>
+                <gco:CharacterString>Hakai Data Access Online Request Form</gco:CharacterString>
+              </cit:name>
+              <cit:description>
+                <gco:CharacterString>Online form for requesting access to particular datasets owned by Hakai</gco:CharacterString>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://drive.google.com/drive/folders/1dsTcPq4BQ_NApt-1-5yJYdhDOR05_l9W?usp=sharing</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name>
+                <gco:CharacterString>Hakai Institute Google Drive</gco:CharacterString>
+              </cit:name>
+              <cit:description>
+                <gco:CharacterString>Readme file for Hakai Kelp GEEK Tool</gco:CharacterString>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+    </mrd:MD_Distribution>
+  </mdb:distributionInfo>
+  <mdb:metadataMaintenance>
+    <mmi:MD_MaintenanceInformation>
+      <mmi:maintenanceAndUpdateFrequency>
+        <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
+      </mmi:maintenanceAndUpdateFrequency>
+    </mmi:MD_MaintenanceInformation>
+  </mdb:metadataMaintenance>
+</mdb:MD_Metadata>
