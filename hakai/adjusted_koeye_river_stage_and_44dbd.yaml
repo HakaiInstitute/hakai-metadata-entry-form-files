@@ -1,0 +1,145 @@
+contact:
+- inCitation: true
+  individual:
+    email: watlas@wildsalmoncenter.org
+    name: Atlas, Will
+  organization:
+    name: Wild Salmon Centre
+  roles:
+  - author
+  - principalInvestigator
+  - pointOfContact
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+  organization:
+    name: Hakai Institute
+  roles:
+  - author
+  - pointOfContact
+- inCitation: false
+  individual:
+    email: emily.haughton@hakai.org
+    name: Haughton, Emily
+  organization:
+    name: Hakai Institute
+  roles:
+  - custodian
+distribution:
+- description:
+    en: Adjusted stream stage and temperature data for the Koeye River
+    fr: Données ajustées sur le stade et la température du cours d'eau pour la rivière
+      Ko
+  name:
+    en: Koeye River Adjusted stream stage and temperature from 2013 to 2021
+  url: https://github.com/HakaiInstitute/Koeye-adjusted-stage-and-temperature
+identification:
+  abstract:
+    en: "The Koeye River stream elevation gauge was first installed in September 2013.\
+      \ This original gauge was a Hobo U20 water level logger, and was installed upstream\
+      \ of the smolt-trap site on the lower Koeye River in a still built from perforated\
+      \ PVC pipe with a cement block as it’s base. This gauge operated more or less\
+      \ continuously until May 27, 2019, when the battery finally died. Throughout\
+      \ this 6-year period the original stream gauge in Koeye provided vital insights\
+      \ into the flow conditions encountered by juvenile and adult salmon in the Koeye\
+      \ River, and stream elevation data from the site were used as a covariate in\
+      \ a number of analyses, including relating adult sockeye survival and smolt\
+      \ capture probability during the spring smolt trapping season to river flow.\
+      \ \n\nA second stream elevation gauge (also a Hobo U20) was installed by Hakai\
+      \ in late August of 2017. This gauge was installed using a much more robust\
+      \ and permanent anchoring and still system. This gauge continues to operate,\
+      \ providing ongoing monitoring of flow conditions in the lower Koeye River,\
+      \ however in order to use these data in existing analyses there was a need to\
+      \ calibrate the Hakai gauge with the original gauge dataset. \n\nAnalysis –\
+      \ \nTo calibrate the two gauge datasets we used a generalized additive model\
+      \ (gam) written in the statistical program R. This model assumed that residual\
+      \ errors followed a gaussian distribution and related the original Koeye gauge\
+      \ values (response variable) to the new Hakai gauge values (predictor variable).\
+      \ Goodness of fit was evaluated visually using residual plots. We then extrapolated\
+      \ the estimated relationship between the two gauge datasets to generate predictions\
+      \ of the old gauge height for dates after May 27, 2019 using the predict() function\
+      \ in R."
+    fr: "La jauge d'altitude de la rivière Koeye a été installée pour la première\
+      \ fois en septembre 2013. Cette jauge originale était un enregistreur de niveau\
+      \ d'eau Hobo U20 et a été installée en amont du site du piège à saumoneaux sur\
+      \ le cours inférieur de la rivière Koeye dans un alambic construit à partir\
+      \ de tuyaux en PVC perforés avec un bloc de ciment comme base. Cette jauge a\
+      \ fonctionné plus ou moins continuellement jusqu'au 27 mai 2019, date à laquelle\
+      \ la batterie est finalement morte. Tout au long de cette période de six ans,\
+      \ le manomètre original de Koeye a fourni des informations vitales sur les conditions\
+      \ d'écoulement rencontrées par les saumons juvéniles et adultes dans la rivière\
+      \ Koeye, et les données d'altitude du ruisseau du site ont été utilisées comme\
+      \ covariable dans un certain nombre d'analyses, y compris la mise en relation\
+      \ de la survie du saumon rouge adulte et probabilité de capture de saumoneaux\
+      \ pendant la saison printanière de piégeage des saumoneaux par rapport au débit\
+      \ \n\nUne deuxième jauge d'élévation de cours d'eau (également un Hobo U20)\
+      \ a été installée par Hakai fin août 2017. Cette jauge a été installée à l'aide\
+      \ d'un système d'ancrage et de fixation permanent beaucoup plus robuste et permanent.\
+      \ Cette jauge continue de fonctionner, fournissant une surveillance continue\
+      \ des conditions d'écoulement dans le cours inférieur de la rivière Koeye, mais\
+      \ afin d'utiliser ces données dans les analyses existantes, il était nécessaire\
+      \ d'étalonner la jauge Hakai avec l'ensemble de données de jauges d'origine.\
+      \ \n\nAnalyse — \nPour calibrer les deux ensembles de données de jauge, nous\
+      \ avons utilisé un modèle additif généralisé (gam) écrit dans le programme statistique\
+      \ R. Ce modèle supposait que les erreurs résiduelles suivaient une distribution\
+      \ gaussienne et reliait les valeurs de la jauge Koeye d'origine (variable de\
+      \ réponse) aux nouvelles valeurs de jauge de Hakai (variable prédictive). La\
+      \ qualité de l'ajustement a été évaluée visuellement à l'aide de graphiques\
+      \ résiduels. Nous avons ensuite extrapolé la relation estimée entre les deux\
+      \ jeux de données de jauge pour générer des prévisions de l'ancienne hauteur\
+      \ de gabarit pour les dates postérieures au 27 mai 2019 à l'aide de la fonction\
+      \ predict () de R."
+  associated_resources: []
+  dates:
+    creation: '2013-09-14'
+    publication: '2022-07-08'
+  identifier: https://doi.org/10.21966/eh5c-jh12
+  keywords:
+    default:
+      en:
+      - stream temperature
+      - stream stage
+      - juvenile salmon
+      - watersheds
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2013-09-14T19:00:00.000Z'
+  temporal_end: '2021-10-19T19:00:00.000Z'
+  title:
+    en: Adjusted Koeye River stage and temperature from 2013 to 2021
+    fr: Étape et température ajustées de la rivière Koeye de 2013 à 2021
+metadata:
+  dates:
+    publication: '2022-07-08'
+    revision: '2022-07-08T20:03:02.679Z'
+  identifier: 44dbd3c8-93bf-4e2f-9532-cbaebcf4a2be
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-N0C02Vz2evmfRBJ4dmZ
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  bbox:
+  - -127.9
+  - 51.75
+  - -127.7
+  - 51.82
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
