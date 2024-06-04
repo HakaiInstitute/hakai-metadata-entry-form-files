@@ -1,0 +1,140 @@
+contact:
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+- inCitation: true
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: This layer describes the intertidal and shallow subtidal substrate types for
+      the McMullin Island Group on the Central Coast of British Columbia. The imagery
+      was segmented using E-Cognition Developer software and manually classified in
+      ESRI
+  name:
+    en: Intertidal and shallow sub-tidal substrate types for the McMullin Group Islands,
+      British Columbia, Canada
+  url: https://drive.google.com/open?id=12Spn0fnOC91dLOahgcf94_lrELHvXFX6
+- description:
+    en: This document describes the attributes assigned to each polygon in the layer.
+  url: https://hecate.hakai.org/geonetwork/srv/api/records/3732444b-7a97-4d9c-9f2e-2fc6f9618bae/attachments/UAV_Substrate_Layer_Meta_McMullins.pdf
+- description:
+    en: UAS methods for obtaining imagery used to digitize substrate types
+  url: https://hecate.hakai.org/geonetwork/srv/api/records/3732444b-7a97-4d9c-9f2e-2fc6f9618bae/attachments/General
+    UAS Methodology Orthomosaics Only.pdf
+identification:
+  abstract:
+    en: 'This polygon layer describes the type and extent of intertidal and shallow
+      subtidal substrates for the McMullin Island Group on the Central Coast of British
+      Columbia, Canada.
+
+
+      Substrates and kelp were manually delineated using 9-10cm resolution orthomosaics
+      from imagery captured at tide heights lower than +1.0 m mean low water. The
+      orthomosaics were obtained using an unoccupied aerial system (UAS) and post-processed
+      using the Pix4Dmapper software package (see attached UAS methods). The imagery
+      was segmented using E-Cognition Developer software and manually classified in
+      ESRI ArcGIS 10.5.1. For areas with high-density kelp, we assumed the substrate
+      was rock. Areas covered with low-density kelp were also considered rock unless
+      sand could be detected mixed amongst the rock and then the category of mixed
+      was applied. Eelgrass extent was digitized from a towed underwater video system.
+      Detailed methods for the eelgrass delineation procedure can be seen at the linked
+      record, ''Eelgrass Extent 2014 - Central Coast''.'
+    fr: 'Cette couche polygonale décrit le type et l''étendue des substrats intertidaux
+      et subtidaux peu profonds pour le groupe de l''île McMullin sur la côte centrale
+      de la Colombie-Britannique, au Canada.
+
+
+      Les substrats et le varech ont été délimités manuellement à l''aide d''orthomosaïques
+      de résolution de 9 à 10 cm à partir d''images capturées à des hauteurs de marées
+      inférieures à +1,0 m en moyenne des basses eaux. Les orthomosaïques ont été
+      obtenues à l''aide d''un système aérien inoccupé (UAS) et post-traitées à l''aide
+      du progiciel Pix4Dmapper (voir les méthodes UAS ci-jointes). L''imagerie a été
+      segmentée à l''aide du logiciel E-Cognition Developer et classée manuellement
+      dans ESRI ArcGIS 10.5.1. Pour les zones à forte densité de varech, nous avons
+      supposé que le substrat était de la roche. Les zones couvertes de varech de
+      faible densité ont également été considérées comme rocheuses à moins que du
+      sable ne puisse être détecté mélangé dans la roche, puis que la catégorie de
+      mélange ait été appliquée. L''étendue de la zostère a été numérisée à partir
+      d''un système vidéo sous-marin remorqué. Les méthodes détaillées de la procédure
+      de délimitation de la zostère zostère peuvent être consultées dans l''enregistrement
+      lié, « Eelgrass Extent 2014 - Central Coast ».'
+  associated_resources: []
+  dates:
+    publication: '2018-07-22'
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - substrate
+      - habitat
+      - intertidal
+      - shallow subtidal
+      - UAS
+      - ocean
+      - nearshore
+      - kelp
+      - seagrass
+      - imagery
+      - canopy
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: Nearshore substrates of the McMullin Group Islands - British Columbia - 2017
+    fr: Substrats littoraux des îles du Groupe McMullin - Colombie-Britannique - 2017
+metadata:
+  dates:
+    publication: '2021-09-23'
+    revision: '2021-09-23T21:16:46.421Z'
+  identifier: 3732444b-7a97-4d9c-9f2e-2fc6f9618bae
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/None/-MVZnUmI5R3pHdHJYVXQ
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -128.44047408
+  - 52.02922276
+  - -128.39240889
+  - 52.06790383
+  vertical:
+  - 0.0
+  - 500.0
+  vertical_positive: depthPositive
