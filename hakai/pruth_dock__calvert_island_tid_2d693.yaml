@@ -1,0 +1,140 @@
+contact:
+- inCitation: false
+  individual:
+    email: jessy.barrette@hakai.org
+    name: Barrette, Jessy
+    orcid: https://orcid.org/0000-0002-0422-2589
+    position: Marine Instrument Specialist
+  organization:
+    address: 1713 Hyacinthe Bay Road
+    city: Campbell River
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+- inCitation: true
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: ERDDAP Dataset
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiPruthDockProvisional.html
+identification:
+  abstract:
+    en: The Hakai Institute maintains a weather and tide station on the main dock
+      of its remote station located on Calvert Island within Pruth Bay. The weather
+      station measures the air temperature, wind speed and direction, humidity, atmospheric
+      pressure, UV radiation, solar radiation, PAR, and precipitation since July 2014.
+      In June 2018, a tide station was installed to measure the water level within
+      the bay. The station is a combination of a primary radar sensor mounted below
+      the dock above the water and a secondary vented pressure sensor mounted within
+      the water 2m below the lowest tides.
+    fr: L'Institut Hakai maintient une station météorologique et marée sur le quai
+      principal de sa station éloignée située sur l'île Calvert, dans la baie de Pruth.
+      La station météorologique mesure la température de l'air, la vitesse et la direction
+      du vent, l'humidité, la pression atmosphérique, le rayonnement UV, le rayonnement
+      solaire, le PAR et les précipitations depuis juillet 2014. En juin 2018, une
+      station de marée a été installée pour mesurer le niveau d'eau dans la baie.
+      La station est une combinaison d'un capteur radar primaire monté sous le quai
+      au-dessus de l'eau et d'un capteur de pression ventilé secondaire monté dans
+      l'eau à 2 m sous les marées les plus basses.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2014-07-24'
+    publication: '2021-10-01'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/8d4w-sr07
+  keywords:
+    default:
+      en:
+      - Weather station
+      - tide station
+      - water level
+      fr:
+      - Station météorologique
+      - station marégraphique
+      - niveau d'eau
+    eov:
+      en:
+      - seaSurfaceHeight
+      - other
+      fr:
+      - Niveau de l'eau
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  project:
+  - Oceanography
+  - Watersheds
+  status: published
+  temporal_begin: '2014-07-24T19:00:00.000Z'
+  title:
+    en: Pruth Dock, Calvert Island Tide and Weather Station Provisional
+    fr: Station de marée et de météo de Pruth Dock, Calvert Island Provisoire
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2024-03-14'
+    revision: '2024-03-15T14:31:48.669Z'
+  identifier: 2d693456-7e65-46be-95d7-6bb697320017
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MkxD-S6TxIvv2e6_OGH
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: This is data is provisional only. Please handle with care.
+      fr: Ces données ne sont que provisoires. Veuillez manipuler avec précaution.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform: []
+spatial:
+  bbox:
+  - -128.1302805556
+  - 51.6544888889
+  - -128.1302805556
+  - 51.6544888889
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
