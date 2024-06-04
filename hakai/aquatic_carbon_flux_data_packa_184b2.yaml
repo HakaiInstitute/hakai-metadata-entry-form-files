@@ -1,0 +1,265 @@
+contact:
+- inCitation: true
+  individual:
+    email: aaoliver@ualberta.ca
+    name: Oliver, Allison A.
+  organization:
+    address: CW 405, Biological Sciences Building
+    city: Edmonton
+    country: Canada
+    name: University of Alberta
+    ror: https://ror.org/0160cpw27
+    url: http://ualberta.ca/
+  roles:
+  - author
+  - owner
+  - custodian
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Tank, Suzanne
+    orcid: https://orcid.org/0000-0002-5371-6577
+  organization:
+    country: Canada
+    email: data@hakai.org
+  roles:
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - principalInvestigator
+- inCitation: true
+  individual:
+    name: Korver, Maartje C.
+    orcid: https://orcid.org/0000-0003-1062-4864
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Floyd, William
+    orcid: https://orcid.org/0000-0001-7487-5721
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Sanborn, Paul
+    orcid: https://orcid.org/0000-0003-0920-4803
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Bulmer, Chuck
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Lertzman, Ken
+    orcid: https://orcid.org/0000-0002-4211-2188
+  roles:
+  - author
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+  - distributor
+  - pointOfContact
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: 'DOC Daily Load Dataset: Oliver et al. 2017'
+    fr: 'Données de charge quotidienne DOC : Oliver et al. 2017'
+  name:
+    en: Data package - part 1
+  url: https://drive.google.com/a/hakai.org/file/d/0Byed_WX-ZNMaM3BtUW5KQ2ZtLW8/view?usp=sharing
+- description:
+    en: Chemistry Dataset Oliver et al. 2017
+    fr: Ensemble de données sur la chimie Oliver et al. 2017
+  name:
+    en: Data package - part 2
+  url: https://drive.google.com/a/hakai.org/file/d/0Byed_WX-ZNMaSkItaW5ocTY4UjQ/view?usp=sharing
+- name:
+    en: Oliver et al. (2017)
+  url: https://www.researchgate.net/publication/312575744_Globally_significant_yields_of_dissolved_organic_carbon_from_small_watersheds_of_the_Pacific_coastal_temperate_rainforest
+identification:
+  abstract:
+    en: "Overview\nThis chemistry dataset was used to assess patterns in watershed\
+      \ export of dissolved organic carbon (DOC) concentrations, DOC flux, and characterization\
+      \ of dissolved organic matter (DOM) for preparation and publication of the manuscript:\
+      \ Oliver et al. 2017, Globally-significant yields of dissolved organic carbon\
+      \ from small watersheds of the Pacific coastal temperate rainforest, doi: 10.5194/bg-2017-5,\
+      \ Biogeosciences. Chemistry and discharge data were collected from the stream\
+      \ outlet stations of the seven focal watersheds at the Hakai watersheds observatory\
+      \ on Calvert and Hecate Islands, British Columbia Central Coast.\n\nBrief summary\
+      \ of methods\nFor detailed information on sample collection and methods of analysis\
+      \ please refer to Oliver et al. 2017.\n\nStream water grab samples were collected\
+      \ every 2-3 weeks (or ~monthly in winter) from May 2013 to July 2016 (n= 402)\
+      \ from stream outlets of the seven focal watersheds monitored within the Kwakshua\
+      \ Channel watersheds. Samples were run for analysis of dissolved organic carbon\
+      \ (DOC), iron (Fe), and optical characterization of dissolved organic matter\
+      \ (DOM) using spectrofluorometry. Excitation emission matrices (EEMs) were used\
+      \ in parallel factor modeling (PARAFAC) to deconstruct and identify individual\
+      \ fluorophore components of DOM.  Model output from this PARAFAC analysis can\
+      \ be found online at www.openfluor.org. \n\nStream discharge was measured by\
+      \ developing stage discharge rating curves at a fixed hydrometric station in\
+      \ proximity to the outlet. DOC flux was estimated using multiple regression\
+      \ methods in the R package rloadest by combining DOC concentrations with 15-minute\
+      \ continuous stream discharge from each watershed. Loads for October 1, 2015\
+      \ through April 30, 2016 are presented for each watershed in average kilograms\
+      \ per day. Further details on the development and analysis of stage discharge\
+      \ rating curves and multiple regression models used for estimating DOC flux\
+      \ can be found in Oliver et al. 2017\n\nOliver, A.A., S.E. Tank, I. Giesbrecht,\
+      \ M.C. Korver, W.C. Floyd, P. Sanborn, C. Bulmer, and K.P. Lertzman. 2017. Globally-significant\
+      \ yields of dissolved organic carbon from small watersheds of the Pacific coastal\
+      \ temperate rainforest. Biogeosciences Discussion paper."
+    fr: "Aperçu\nCet ensemble de données sur la chimie a été utilisé pour évaluer\
+      \ les tendances dans l'exportation des concentrations de carbone organique dissous\
+      \ (COD) dans les bassins versants, le flux de COD et la caractérisation de la\
+      \ matière organique dissoute (DOM) pour la préparation et la publication du\
+      \ manuscrit : Oliver et al. 2017, Rendements significatifs mondiaux de carbone\
+      \ organique dissous provenant de petits bassins versants de la forêt pluviale\
+      \ tempérée côtière du Pacifique, doi : 10.5194/bg-2017-5, Biogéosciences. Les\
+      \ données sur la chimie et le débit ont été recueillies auprès des stations\
+      \ de sortie des cours d'eau des sept bassins versants focaux de l'observatoire\
+      \ des bassins versants Hakai sur les îles Calvert et Hécate, sur la côte centrale\
+      \ de la Colombie-Britannique.\n\nBref résumé des méthodes\nPour des informations\
+      \ détaillées sur le prélèvement d'échantillons et les méthodes d'analyse, veuillez\
+      \ consulter Oliver et al. 2017.\n\nDes échantillons prélevés au prélèvement\
+      \ d'eau des cours d'eau ont été prélevés toutes les 2 à 3 semaines (ou ~ tous\
+      \ les mois en hiver) de mai 2013 à juillet 2016 (n = 402) dans les points de\
+      \ sortie des sept bassins versants focaux surveillés dans les bassins versants\
+      \ du chenal Kwakshua. Des échantillons ont été analysés pour l'analyse du carbone\
+      \ organique dissous (COD), du fer (Fe) et la caractérisation optique de la matière\
+      \ organique dissoute (DOM) par spectrofluorométrie. Des matrices d'émission\
+      \ d'excitation (EEM) ont été utilisées dans la modélisation des facteurs parallèles\
+      \ (PARAFAC) pour déconstruire et identifier les composants fluorophores individuels\
+      \ du DOM. Les résultats du modèle de cette analyse PARAFAC peuvent être consultés\
+      \ en ligne à l'adresse www.openfluor.org. \n\nLe débit du cours d'eau a été\
+      \ mesuré en développant des courbes de débit d'étage à une station hydrométrique\
+      \ fixe à proximité de la sortie. Le flux de COD a été estimé à l'aide de plusieurs\
+      \ méthodes de régression dans l'ensemble R le plus rapide en combinant les concentrations\
+      \ de COD avec un débit continu de 15 minutes de chaque bassin versant. Les charges\
+      \ pour la période du 1er octobre 2015 au 30 avril 2016 sont présentées pour\
+      \ chaque bassin versant en kilogrammes moyens par jour. De plus amples détails\
+      \ sur le développement et l'analyse des courbes d'évaluation du débit des étages\
+      \ et des multiples modèles de régression utilisés pour estimer le flux de COD\
+      \ peuvent être trouvés dans Oliver et al. 2017\n\nOliver, AA, SE Tank, I. Giesbrecht,\
+      \ MC Korver, W.C. Floyd, P. Sanborn, C. Bulmer et K.P. Lertzman. 2017. Rendements\
+      \ significatifs à l'échelle mondiale de carbone organique dissous provenant\
+      \ de petits bassins versants de la forêt pluviale tempérée côtière du Pacifique.\
+      \ Document de discussion sur les biogéosciences."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2014-10-01'
+    publication: '2016-09-14'
+  identifier: https://doi.org/10.21966/1.321324
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - carbon
+      - biogeochemistry
+      - dissolved organic carbon
+      - watershed
+      - coastal temperate rainforest
+      - PARAFAC
+      - Kwakshua
+      - Calvert
+      - Hecate
+      - DOC
+      - DOM
+      - other
+      - watersheds
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Watersheds
+  status: published
+  temporal_begin: '2014-10-01T19:00:00.000Z'
+  temporal_end: '2016-05-18T19:00:00.000Z'
+  title:
+    en: Aquatic carbon flux data package for Oliver et al. 2017
+    fr: Ensemble de données sur le flux de carbone aquatique pour Oliver et al. 2017
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2024-03-14T23:42:28.387Z'
+  identifier: 184b2f81-d87f-4615-a026-15b87930d15c
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW9aOE1zWERKZnFEWm4
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.15002441406247
+  - 51.614605707797466
+  - -127.96600341796874
+  - 51.70405535332591
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
