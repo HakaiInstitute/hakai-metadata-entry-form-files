@@ -1,0 +1,285 @@
+contact:
+- inCitation: true
+  individual:
+    email: jessy.barrette@hakai.org
+    name: Barrette, Jessy
+    orcid: https://orcid.org/0000-0002-0422-2589
+    position: Scientific Data Specialist
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - custodian
+  - author
+  - pointOfContact
+  - distributor
+- inCitation: true
+  individual:
+    email: tim.vanderstap@hakai.org
+    name: van der Stap, Tim
+    orcid: https://orcid.org/0000-0002-0053-0795
+    position: Scientific Data Specialist
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - custodian
+  - pointOfContact
+  - author
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Random URL to a public Hakai GitHub repository.
+    fr: URL aléatoire vers un dépôt GitHub Hakai public.
+    translations:
+      fr:
+        verified: true
+  name:
+    en: Seagull and salmon data
+    fr: Données sur les mouettes et les saumons
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/hakai-ctd-issues
+identification:
+  abstract:
+    en: Please disregard this Jessy, just testing looking at a few things!
+    fr: S'il te plaît, ne tiens pas compte de cette Jessy, juste pour tester quelques
+      éléments !
+  associated_resources:
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: URL
+    code: https://ipt.iobis.org/obiscanada/resource?r=nuseds
+    title:
+      en: Public subset of the data on OBIS
+      fr: Sous-ensemble public de données sur OBIS
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://github.com/hakaiInstitute/hakai-data/
+    title:
+      en: Private repository
+      fr: Dépôt privé
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: Documents
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.21966/1.566666
+    title:
+      en: Linking to a DOI
+      fr: Lien vers un DOI
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2024-04-01'
+    publication: '2024-04-17'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/g4sn-4305
+  keywords:
+    default:
+      en:
+      - Oceanography
+      - salmon
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      - Oncorhynchus nerka
+      - Animalia
+      - Chordata
+      - Aves
+      - Charadriiformes
+      - Laridae
+      - Larus
+      - Larus pacificus
+      fr:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      - Oncorhynchus nerka
+      - Animalia
+      - Chordata
+      - Aves
+      - Charadriiformes
+      - Laridae
+      - Larus
+      - Larus pacificus
+  progress_code: completed
+  project:
+  - Oceanography
+  - Juvenile Salmon Program
+  status: published
+  temporal_begin: '2024-04-01T19:00:00.000Z'
+  temporal_end: '2024-04-17T19:00:00.000Z'
+  title:
+    en: Testing what this looks like in the Hakai Catalogue
+    fr: Tester à quoi cela ressemble dans le catalogue Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2024-04-17'
+    revision: '2024-05-15T21:44:52.814Z'
+  history:
+  - additionalDocumentation:
+    - authority: URL
+      code: dx.doi.org/10.17504/protocols.io.kqdg3x93pg25/v1
+      title:
+        en: Protocol
+        fr: Protocole
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    scope: DataCollectionSampling
+    scopeIso: collectionSession
+    statement:
+      en: Lineage tester (Public URL)
+      fr: Testeur de lignage (URL publique)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - additionalDocumentation:
+    - authority: URL
+      code: https://github.com/hakaiInstitute/hakai-data/
+      title:
+        en: Private link
+        fr: Lien privé
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    processingStep:
+    - authority: DOI
+      code: https://doi.org/10.21966/1.566666
+      description:
+        en: This is a processing step
+        fr: Il s'agit d'une étape de traitement
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+      title:
+        en: Title
+        fr: Titre
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    scope: DataCollectionSampling
+    scopeIso: collectionSession
+    source:
+    - authority: URL
+      code: https://github.com/hakaiInstitute/hakai-data/
+      description:
+        en: Private source
+        fr: Source privée
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+      title:
+        en: source
+        fr: source
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    statement:
+      en: Lineage tester (private protocol)
+      fr: Testeur de lignage (protocole privé)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  identifier: f0153e7f-8f7b-4ceb-91be-7abae4cd4bb1
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-NvbufK-Wuk4Mn3w3RYK
+  naming_authority: ca.cioos
+  scope: document
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  description:
+    en: Salish sea to Juneau
+    fr: De la mer des Salish à Juneau
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  polygon: -132.5,58.41 -141.1,55.44 -133.6,51.03 -126.3,46.63 -121.3,49.45 -132.5,58.41
+  vertical:
+  - 0
+  - 0
+  vertical_positive: up
