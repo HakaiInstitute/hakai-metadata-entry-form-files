@@ -1,0 +1,241 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: McInnes, Will
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - author
+  - editor
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - publisher
+  - originator
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Holmes, Keith
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - custodian
+  - author
+  - editor
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - publisher
+  - originator
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Technology Team, Geospatial
+    position: Geospatial Science
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - owner
+  - distributor
+  - pointOfContact
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Institute
+    position: Research Organization
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - resourceProvider
+  - owner
+  - distributor
+  - custodian
+  - pointOfContact
+distribution:
+- description:
+    en: Metadata report and related project descriptions
+    fr: Rapport sur les métadonnées et descriptions de projets connexes
+  name:
+    en: Hakai Google Drive
+  url: https://drive.google.com/drive/folders/1vnud-UL14-mmE_b6-eBqtnRvPtjFpQcX?usp=sharing
+- description:
+    en: Site Name and Flight information
+    fr: Nom du site et informations de vol
+  name:
+    en: Site List Directory
+  url: https://drive.google.com/file/d/1kAMdZOPGYZAf8qPoN1uIp82cydLit0yD/view?usp=sharing
+- description:
+    en: Hakai UAS Imagery Footprints
+    fr: Empreintes d'imagerie Hakai UAS
+  name:
+    en: Hakai UAS Imagery Footprints
+  url: http://hakai.maps.arcgis.com/apps/webappviewer/index.html?id=f5427c3a02fb452aa675fbd5847101b5
+identification:
+  abstract:
+    en: 'Orthomosaics of long-term intertidal monitoring sites on NW Calvert Island
+      were created using a Unmanned aerial systems (UAS). Subsequently, a digital
+      elevation model and elevation point cloud were generated for each site. The
+      height of mussel bands (Mytilus spp.) was also mapped at several sites. Additionally,
+      the locations of Nucella lamellosa and Nucella ostrina snail species were mapped
+      at one site.
+
+
+      Imagery was captured for each site with a DJI Phantom 3 Pro UAS. The survey
+      design followed a grid pattern to ensure coverage of the entire study area with
+      a minimum 80% overlap between images. To geolocate the images, 5-12 ground control
+      points were surveyed with a Topcon GR-5 real-time kinematic (RTK) GPS. The RTK
+      GPS was also used to survey and map snail locations. The surveys were performed
+      in NAD83, UTM9N, HTV2.0 datum.
+
+
+      The orthomosaics, digital surface models (DSMs), and elevation point clouds
+      of each site were created using the Structure from Motion Multi-view Stereo
+      (SfM-MVS) workflow within Pix4Dmapper software (Version 2.1.61, Pix4D) on Windows
+      10. Uncertainty values were assessed at each processing stage, and the accumulated
+      vertical error for each survey is determined to be < 0.10 m.
+
+
+      For several of the sites, we mapped mussel and sand heights on the SfM point
+      cloud. The level of the sand on rock, height at the bottom of mussel line, and
+      top of mussel line were located on the point cloud. The X,Y,Z locations were
+      recorded, and key images created for each site to identify the locations in
+      the model.
+
+
+      For a specific list of sites, see the attached documentation.'
+    fr: 'Les orthomosaïques des sites de surveillance intertidale à long terme du
+      nord-ouest de l''île Calvert ont été créés à l''aide d''un système aérien sans
+      pilote (UAS). Par la suite, un modèle numérique d''élévation et un nuage de
+      points d''altitude ont été générés pour chaque site. La hauteur des bandes de
+      moules (Mytilus spp.) a également été cartographiée à plusieurs sites. De plus,
+      les emplacements des espèces d''escargots Nucella lamellosa et Nucella ostrina
+      ont été cartographiés sur un site.
+
+
+      Des images ont été capturées pour chaque site avec un drone DJI Phantom 3 Pro.
+      La conception de l''enquête a suivi un modèle de grille pour garantir la couverture
+      de l''ensemble de la zone d''étude avec un chevauchement minimum de 80 % entre
+      les images. Pour géolocaliser les images, 5 à 12 points de contrôle au sol ont
+      été relevés avec un GPS cinématique en temps réel (RTK) Topcom GR-5. Le GPS
+      RTK a également été utilisé pour recenser et cartographier les emplacements
+      des escargots. Les relevés ont été réalisés dans le datum NAD83, UTM9N, HTV2.0.
+
+
+      Les orthomosaïques, les modèles numériques de surface (DSM) et les nuages de
+      points d''élévation de chaque site ont été créés à l''aide du workflow Structure
+      from Motion Multi-View Stereo (SFM-Mvs) du logiciel Pix4Dmapper (version 2.1.61,
+      Pix4D) sous Windows 10. Les valeurs d''incertitude ont été évaluées à chaque
+      étape de traitement, et l''erreur verticale cumulée pour chaque relevé est déterminée
+      comme étant inférieure à 0,10 m.
+
+
+      Pour plusieurs sites, nous avons cartographié les hauteurs de moules et de sable
+      sur le nuage de points SfM. Le niveau du sable sur la roche, la hauteur au bas
+      de la ligne de moules et le haut de la ligne de moules étaient situés sur le
+      nuage de points. Les emplacements X, Y, Z ont été enregistrés et des images
+      clés ont été créées pour chaque site afin d''identifier les emplacements dans
+      le modèle.
+
+
+      Pour obtenir une liste spécifique de sites, consultez la documentation ci-jointe.'
+  associated_resources: []
+  dates:
+    publication: '2017-12-11'
+  keywords:
+    default:
+      en:
+      - orthomosaic
+      - digital surface model
+      - unmanned aerial systems
+      - elevation point cloud
+      - marine
+      - intertidal
+      - Mytilus spp.
+      - marine
+      - UAS
+      - UAV
+      - Hakai
+      - invertebrates
+      - mussels
+      - snails
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: Imagery and Elevation Models for Monitoring Invertebrates at Intertidal Sites
+      - 2017 - Calvert Island - British Columbia - Canada
+    fr: Modèles d'imagerie et d'altitude pour la surveillance des invertébrés dans
+      les sites intertidaux - 2017 - Île Calvert - Colombie-Britannique - Canada
+instruments:
+- description:
+    en: Survey device used with a base station on a known survey pin and a rover to
+      collect spatial data for precise research site locations
+    fr: Dispositif de levé utilisé avec une station de base sur une broche d'arpentage
+      connue et un rover pour collecter des données spatiales pour des emplacements
+      précis de sites de recherche
+  id: Topcon GR5
+  manufacturer: Topcon
+  type:
+    en: RTK survey GPS
+    fr: GPS de levé RTK
+  version: GR5
+metadata:
+  dates:
+    publication: '2022-03-15'
+    revision: '2022-03-15T17:53:59.565Z'
+  identifier: 06ddfa63-2611-46a5-8d63-c1b576e85bcb
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUlOeGltRExRY2JrcTY
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+spatial:
+  bbox:
+  - -128.16375732421872
+  - 51.62888689371772
+  - -127.98694610595699
+  - 51.67191640405858
+  vertical:
+  - -5.0
+  - 15.0
+  vertical_positive: heightPositive
