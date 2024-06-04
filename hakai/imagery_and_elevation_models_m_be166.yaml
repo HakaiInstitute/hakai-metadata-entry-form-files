@@ -1,0 +1,181 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - distributor
+  - processor
+  - author
+- inCitation: false
+  individual:
+    name: McInnes, Will
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - processor
+  - pointOfContact
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Research Institute
+  roles:
+  - distributor
+  - distributor
+distribution:
+- description:
+    en: Site Name and Flight information
+    fr: Nom du site et informations de vol
+  name:
+    en: Hakai Institute Google Drive
+  url: https://drive.google.com/file/d/1Apf3RZsdnZ6wfRBJ73jKAyqU8a7CsbNf/view?usp=sharing
+- description:
+    en: Hakai UAS Imagery Footprints
+    fr: Empreintes d'imagerie Hakai UAS
+  name:
+    en: Hakai UAS Imagery Footprints
+  url: http://hakai.maps.arcgis.com/apps/webappviewer/index.html?id=f5427c3a02fb452aa675fbd5847101b5
+identification:
+  abstract:
+    en: 'Orthomosaics of long-term intertidal monitoring sites on NW Calvert Island
+      were created using unoccupied aerial systems (UAS). Subsequently, a digital
+      elevation model and elevation point cloud were generated for each site.
+
+
+      Imagery was captured for each site with a DJI Phantom 3 Pro UAS. The survey
+      design followed a grid pattern to ensure coverage of the entire study area with
+      a minimum 80% overlap between images. To geolocate the images, 6-10 ground control
+      points were surveyed with a Topcon GR-5 real-time kinematic (RTK) GPS.
+
+
+      Near infrared imagery(NIR) was also captured at the North Beach site with a
+      MAPIR Survey 2 camera. The MAPIR is a low-resolution modified camera that captures
+      imagery in the NIR and Red bands. The camera is mounted to the Phantom 3 and
+      operated manually. The MAPIR images are processed to create an imagery mosaic
+      with Pix4D. The imagery is then radiometrically calibrated using the empirical
+      line method with grey and white targets. A spectroradiometer has NOT been used
+      to assess the accuracy of the imagery calibration.
+
+
+      The difference vegetation index (DVI) is calculated to remove the effects of
+      illumination, and to emphasize vegetation signatures. The DVI is calculated
+      as NIR-R.
+
+
+      For a specific list of sites, see the attached documentation.'
+    fr: 'Les orthomosaïques des sites de surveillance intertidale à long terme du
+      nord-ouest de l''île Calvert ont été créés à l''aide de systèmes aériens inoccupés
+      (UAS). Par la suite, un modèle numérique d''élévation et un nuage de points
+      d''altitude ont été générés pour chaque site.
+
+
+      Des images ont été capturées pour chaque site avec un drone DJI Phantom 3 Pro.
+      La conception de l''enquête a suivi un modèle de grille pour garantir la couverture
+      de l''ensemble de la zone d''étude avec un chevauchement minimum de 80 % entre
+      les images. Pour géolocaliser les images, 6 à 10 points de contrôle au sol ont
+      été relevés avec un GPS cinématique en temps réel (RTK) Topcom GR-5.
+
+
+      Des images dans le proche infrarouge (NIR) ont également été capturées sur le
+      site de North Beach à l''aide d''une caméra MAPIR Survey 2. Le MAPIR est une
+      caméra modifiée basse résolution qui capture des images dans les bandes NIR
+      et rouge. La caméra est montée sur le Phantom 3 et commandée manuellement. Les
+      images MAPIR sont traitées pour créer une mosaïque d''images avec Pix4D. L''imagerie
+      est ensuite étalonnée radiométriquement à l''aide de la méthode empirique des
+      lignes avec des cibles grises et blanches. Un spectroradiomètre n''a PAS été
+      utilisé pour évaluer la précision de l''étalonnage de l''imagerie.
+
+
+      L''indice de végétation par différence (DVI) est calculé pour supprimer les
+      effets de l''éclairage et pour souligner les signatures de végétation. Le DVI
+      est calculé comme NIR-R.
+
+
+      Pour obtenir une liste spécifique de sites, consultez la documentation ci-jointe.'
+  associated_resources: []
+  dates:
+    publication: '2017-12-19'
+  keywords:
+    default:
+      en:
+      - orthomosaic
+      - digital surface model
+      - unmanned aerial systems
+      - elevation point cloud
+      - marine
+      - intertidal
+      - marine
+      - UAS
+      - UAV
+      - Hakai
+      - algae
+      - DVI
+      - Difference Vegetation Index
+      - NIR-R
+      - near infrared
+      - other
+    eov:
+      en:
+      - macroalgalCanopyCoverAndComposition
+      - other
+      fr:
+      - Composition et couverture de la canopée de macroalgues
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: Imagery and elevation models monitoring algae research sites - 2017 - Calvert
+      Island - British Columbia - Canada
+    fr: Modèles d'imagerie et d'altitude surveillant les sites de recherche sur les
+      algues - 2017 - Île Calvert - Colombie-Britannique - Canada
+metadata:
+  dates:
+    publication: '2022-01-21'
+    revision: '2022-01-21T22:51:11.312Z'
+  identifier: be16603d-e383-4af4-9e93-7a36a086688e
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVlwc1pEdzNqdGdOSGM
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+platform: []
+spatial:
+  bbox:
+  - -128.15757751464844
+  - 51.64358968607138
+  - -128.089599609375
+  - 51.68021937787972
+  vertical:
+  - 0.0
+  - 5.0
+  vertical_positive: heightPositive
