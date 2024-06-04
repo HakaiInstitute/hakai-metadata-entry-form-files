@@ -1,0 +1,167 @@
+contact:
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+- inCitation: true
+  individual:
+    email: nick.viner@hakai.org
+    name: Viner, Nick
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - originator
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
+      / reference layer *** EDIT ACCORDINGLY ***
+  name:
+    en: ArcGIS Online Reference Layer (restricted access)
+  url: https://arcg.is/05zfP1
+- description:
+    en: Google drive methodology and metadata folder
+  name:
+    en: Hakai Institute Google Drive
+  url: https://drive.google.com/drive/u/1/folders/1-z8xX3SLKPRTHNCN_yNaaAWeG9EtdG7R
+identification:
+  abstract:
+    en: "This dataset includes a classified 1m resolution seafloor substrate surface\
+      \ covering the northwestern portion of Calvert Island, B.C., Canada.\n\nInitial\
+      \ bathymetry / backscatter data was collected using a Teledyne Reson Seabat\
+      \ T50-R Multibeam. \n\nThe marine substrate in the survey area was truthed using\
+      \ a Deeptrekker DTX2 ROV. \n\nThe purpose of this project was to generate a\
+      \ seafloor substrate model of the northwestern area of Calvert Island.\n\nData\
+      \ collection by Hakai Institute. Field dates:  June 6th, 2018 – August 12th\
+      \ 2018"
+    fr: "Ce jeu de données comprend une surface de substrat de fond marin d'une résolution\
+      \ classée de 1 m couvrant la partie nord-ouest de l'île Calvert, en Colombie-Britannique,\
+      \ au Canada.\n\nLes données bathymétriques initiales et rétrodiffusées ont été\
+      \ recueillies à l'aide d'un multifaisceau Teledyne Reson Seabat T50-R. \n\n\
+      Le substrat marin dans la zone de relevé a été vérifié à l'aide d'un ROV Deeptrekker\
+      \ DTX2. \n\nLe but de ce projet était de générer un modèle de substrat du fond\
+      \ marin de la zone nord-ouest de l'île Calvert.\n\nCollecte de données par le\
+      \ Hakai Institute. Dates de terrain : du 6 juin 2018 au 12 août 2018"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2020-03-09'
+    revision: '2020-03-09'
+  identifier: https://doi.org/10.21966/35tn-w772
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - bathymetry
+      - multibeam
+      - depth
+      - echosounder
+      - ocean
+      - calvert island
+      - substrate mapping
+      - habitat
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  title:
+    en: Northwest Calvert Substrate Mapping
+    fr: Cartographie des substrats du calvert
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2021-09-23'
+    revision: '2024-03-19T19:08:39.856Z'
+  identifier: 4bf1e341-637c-4884-b373-033e033b3cba
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWJlU2MzU0psd2EzM0w
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -128.18309295
+  - 51.63973703
+  - -128.06292998
+  - 51.71531293
+  vertical:
+  - 0.0
+  - 600.0
+  vertical_positive: depthPositive
