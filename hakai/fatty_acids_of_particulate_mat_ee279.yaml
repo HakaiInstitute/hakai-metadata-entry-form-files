@@ -1,0 +1,159 @@
+contact:
+- inCitation: true
+  individual:
+    email: a.mclaskey@oceans.ubc.ca
+    name: McLaskey, Anna
+    orcid: https://orcid.org/0000-0002-4399-6130
+  organization:
+    address: AERL, 2202 Main Mall
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - owner
+  - custodian
+  - distributor
+- inCitation: true
+  individual:
+    email: b.hunt@oceans.ubc.ca
+    name: Hunt, Brian
+    orcid: https://orcid.org/0000-0003-4718-4962
+    position: Professor
+  organization:
+    address: AERL, 2202 Main Mall
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - principalInvestigator
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Data Package for the Fatty Acid of particulate matter dataset. The Data Package
+      includes the processed data files, metadata, a data dictionary and a readme
+      file that highlights the processing steps.
+    fr: Ensemble de données pour le jeu de données sur les acides gras des particules.
+      Le package de données comprend les fichiers de données traités, les métadonnées,
+      un dictionnaire de données et un fichier Lisez-moi qui met en évidence les étapes
+      de traitement.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Fatty Acid - Particulate Matter Data Package
+  url: https://github.com/HakaiInstitute/McLaskey-and-Hunt-POMFA-QU39-2015-2018
+identification:
+  abstract:
+    en: "This dataset presents fatty acids of particulate organic matter collected\
+      \ from station QU39 from 2015 to 2018. The first sample collection on March\
+      \ 13, 2015 was done at Hakai Institute station QU24 and all subsequent collections\
+      \ were done at the nearby QU39. Water for POM fatty acid analysis was collected\
+      \ from multiple depths in the 30 m surface layer and combined for analysis resulting\
+      \ in one measurement per sampling date. For each sample, approximately 10 L\
+      \ of seawater total were filtered on to previously combusted GF/F filters. Fatty\
+      \ acids were analyzed at the Fisheries and Oceans Canada (DFO) Pacific Science\
+      \ Enterprise Centre as fatty acid methyl esters, separated using an Agilent\
+      \ CP-Sil 88 column, and quantified with a gas chromatograph (SCION 436) equipped\
+      \ with a flame ionization detector.  \n\nDetailed information on methods are\
+      \ available in McLaskey et al. in prep."
+    fr: "Ce jeu de données présente les acides gras de la matière organique particulaire\
+      \ collectés à la station QU39 de 2015 à 2018. Le premier prélèvement d'échantillons\
+      \ le 13 mars 2015 a été effectué à la station QU24 de l'Institut Hakai et toutes\
+      \ les collectes subséquentes ont été effectuées à la station QU39 située à proximité.\
+      \ L'eau pour l'analyse des acides gras POM a été prélevée à plusieurs profondeurs\
+      \ dans la couche superficielle de 30 m et combinée pour l'analyse, ce qui a\
+      \ donné lieu à une mesure par date d'échantillonnage. Pour chaque échantillon,\
+      \ environ 10 L d'eau de mer totale ont été filtrés sur des filtres GF/F précédemment\
+      \ brûlés. Les acides gras ont été analysés au Pacific Science Enterprise Centre\
+      \ de Pêches et Océans Canada (MPO) sous forme d'esters méthyliques d'acides\
+      \ gras, séparés à l'aide d'une colonne Agilent Cp-Sil 88 et quantifiés à l'aide\
+      \ d'un chromatographe en phase gazeuse (SCION 436) équipé d'un détecteur à ionisation\
+      \ de flamme. \n\nDes informations détaillées sur les méthodes sont disponibles\
+      \ dans McLaskey et al. in prep."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2015-03-13'
+    publication: '2021-12-02'
+  identifier: https://doi.org/10.21966/RR8V-6Y52
+  keywords:
+    default:
+      en:
+      - phytoplankton
+      - protists
+      - plankton
+      - oceanography
+      fr:
+      - phytoplancton
+    eov:
+      en:
+      - phytoplanktonBiomassAndDiversity
+      - particulateMatter
+      - stableCarbonIsotopes
+      fr:
+      - Biomasse et diversité de phytoplancton
+      - Matière particulaire
+      - Isotopes stables du carbone
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2015-03-13T19:00:00.000Z'
+  temporal_end: '2018-11-28T20:00:00.000Z'
+  title:
+    en: Fatty acids of particulate matter collected from 2015 to 2018 near Quadra
+      Island, British Columbia, Canada
+    fr: Acides gras des particules collectés de 2015 à 2018 près de l'île Quadra,
+      Colombie-Britannique, Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2021-12-02'
+    revision: '2024-03-20T20:06:43.394Z'
+  identifier: ee2791c3-3d99-41e5-8cdf-fa5d1d19944d
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-Mn6jhjE3XFwoFx2b-9G
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  bbox:
+  - -125.099
+  - 50.03
+  - -125.08
+  - 50.0307
+  vertical:
+  - 0.0
+  - 30.0
+  vertical_positive: depthPositive
