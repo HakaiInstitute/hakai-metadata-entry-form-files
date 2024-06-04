@@ -1,0 +1,213 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - principalInvestigator
+  - processor
+  - distributor
+- inCitation: false
+  individual:
+    name: Gonzalez Arriola, Santiago
+    orcid: https://orcid.org/0000-0001-8869-5481
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - distributor
+  - funder
+  - publisher
+distribution:
+- description:
+    en: Hakai's repository for downloading raw data files.
+    fr: Le dépôt de Hakai pour le téléchargement de fichiers de données brutes.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Hakai Geospatial Data Repository
+  url: https://drive.google.com/file/d/0B-Q2IQtbEgU4VnpZYWhyenQxRVE/view?usp=sharing&resourcekey=0-jf09NgkMegasqO737e_ZoA
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
+    fr: L'instance AGOL de Hakai est la plateforme d'accès et d'utilisation en ligne
+      de ce jeu de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: ArcGIS Online Reference Layer (restricted access)
+  url: http://hakai.maps.arcgis.com/home/item.html?id=3b153c28302048caafa419ec9578e4db
+identification:
+  abstract:
+    en: "This DEM has been created from Hakai's Master Terrain Dataset (MTD) by means\
+      \ of the “Terrain to raster” tool in ESRI's ArcGIS for Desktop using a Natural\
+      \ Neighbour sampling method. The DEM has been natively created at 25m resolution.\
+      \ This DEM has been clipped to the shoreline of the island. A combination of\
+      \ different elevations around the island have been used to create the shoreline.\
+      \ \n\t\t\nThe resulting DEM is a bare earth, hydro-flattened elevation model\
+      \ and therefore considered \"topographically complete\". Each pixel represents\
+      \ the elevation in meters above average sea level of the bare earth at that\
+      \ location. The vertical reference system is \"Canadian Geodetic Vertical Datum\
+      \ 1928\" (CGVD28). \n\nHakai has produced DEM's at different resolutions natively\
+      \ directly from the LiDAR data MTD. Please use the appropriate resolution product\
+      \ from those produced by Hakai for your research purposes. In order to maintain\
+      \ homogeneity, up-sampling / up-scaling from higher resolution products is not\
+      \ recommended as it may introduce and propagate errors of varying magnitudes\
+      \ into the analyses being conducted; please use products already available,\
+      \ and if you require a resolution not available contact data@hakai.org in order\
+      \ to obtain a DEM produced directly from the MTD. \n\nThe following Topographically\
+      \ Complete DEMs have been produced natively from the DTM by Hakai: \n\nMaster\
+      \ Terrain Dataset Creation:\n\nLiDAR point clouds from missions flown on 2012\
+      \ and 2014 over Calvert Island where loaded (XYZ only) into a point feature\
+      \ class in an ESRI Geodatabase. \n\nOnly ground (Class 2) returns where loaded\
+      \ onto the geodatabase.\n\nESRI “terrain dataset” was created within the same\
+      \ geodatabase using the LiDAR points as embedded masspoints.\n\nTEM Plus lakes\
+      \ and ponds with average elevation values over the waterbodies’ mirrors were\
+      \ used as hard replace breaklines to achieve hydro-flattening.\n\nThe minimum\
+      \ bounding geometry of all contiguous LAS files’ extents was used as a soft\
+      \ clip mask in the creation of the terrain dataset as project boundary.\n\n\
+      The horizontal coordinate system and datum employed for the terrain dataset\
+      \ is: UTM Zone 9 NAD1983; the vertical reference system was set to CGVD28. Both\
+      \ reference systems correspond to the native reference system of the LiDAR point\
+      \ clouds."
+    fr: "Ce MNT a été créé à partir du jeu de données de terrain principal (MTD) de\
+      \ Hakai au moyen de l'outil « MNT vers raster » dans ArcGIS for Desktop d'ESRI\
+      \ à l'aide d'une méthode d'échantillonnage Natural Neighbour. Le DEM a été créé\
+      \ en mode natif à une résolution de 25 m. Ce DEM a été accroché au rivage de\
+      \ l'île. Une combinaison de différentes altitudes autour de l'île a été utilisée\
+      \ pour créer le rivage. \n \nLe MNT qui en résulte est un modèle d'élévation\
+      \ hydroaplati en terre nue et est donc considéré comme « topographiquement complet ».\
+      \ Chaque pixel représente l'altitude en mètres au-dessus du niveau moyen de\
+      \ la mer de la terre nue à cet endroit. Le système de référence vertical est\
+      \ le « Système de référence géodésique vertical canadien 1928 » (CGVD28). \n\
+      \nHakai a produit des DEM à différentes résolutions en mode natif directement\
+      \ à partir du MTD de données LiDAR. Veuillez utiliser le produit de résolution\
+      \ approprié parmi ceux fabriqués par Hakai à des fins de recherche. Afin de\
+      \ maintenir l'homogénéité, il n'est pas recommandé de suréchantillonner/augmenter\
+      \ la mise à l'échelle à partir de produits à résolution plus élevée, car cela\
+      \ peut introduire et propager des erreurs d'amplitude variable dans les analyses\
+      \ effectuées ; veuillez utiliser des produits déjà disponibles, et si vous avez\
+      \ besoin d'une résolution non disponible, contactez data@hakai.org afin d'obtenir\
+      \ un DEM produit directement à partir du MTD. \n\nLes DEM topographiquement\
+      \ complets suivants ont été produits nativement à partir du MNT par Hakai :\
+      \ \n\nCréation du jeu de données Master MNT\n\nLes nuages de points LiDAR des\
+      \ missions effectuées en 2012 et 2014 au-dessus de l'île Calvert ont été chargés\
+      \ (XYZ uniquement) dans une classe d'entités ponctuelles d'une géodatabase ESRI.\
+      \ \n\nSeul le sol (classe 2) renvoie l'endroit où il est chargé sur la géodatabase.\n\
+      \nLe « jeu de données de MNT » ESRI a été créé dans la même géodatabase en utilisant\
+      \ les points LiDAR comme points de masse intégrés.\n\nLes lacs et les étangs\
+      \ TEM Plus avec des valeurs d'altitude moyenne au-dessus des miroirs des plans\
+      \ d'eau ont été utilisés comme lignes de fracture de remplacement pour obtenir\
+      \ un aplatissement hydraulique.\n\nLa géométrie d'emprise minimale de toutes\
+      \ les étendues des fichiers LAS contigus a été utilisée comme masque de découpage\
+      \ souple lors de la création du jeu de données de MNT en tant que limite du\
+      \ projet.\n\nLe système de coordonnées horizontales et le datum utilisés pour\
+      \ le jeu de données de MNT sont les suivants : UTM Zone 9 NAD1983 ; le système\
+      \ de référence verticale a été défini sur CGVD28. Les deux systèmes de référence\
+      \ correspondent au système de référence natif des nuages de points LiDAR."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2011-08-17'
+    publication: '2015-06-26'
+    revision: '2015-07-27'
+  keywords:
+    default:
+      en:
+      - Calvert Island
+      - Topography
+      - elevation
+      - Downloadable Data
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  temporal_begin: '2011-08-17T19:00:00.000Z'
+  title:
+    en: 25m Digital Elevation Model - Calvert Island - British Columbia - Canada
+    fr: Modèle numérique d'élévation de 25 m - Calvert Island - Colombie-Britannique
+      - Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-01-21'
+    revision: '2024-03-14T20:19:00.466Z'
+  identifier: 5feb907e-e63e-4172-94ae-831fbe92aee5
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWtqcjFNTUo0aFJWUkI
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.16482
+  - 51.408116
+  - -127.868915
+  - 51.735084
+  vertical:
+  - 0.0
+  - 1014.0
+  vertical_positive: heightPositive
