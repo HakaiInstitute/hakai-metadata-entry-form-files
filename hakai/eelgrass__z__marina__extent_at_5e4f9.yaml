@@ -1,0 +1,206 @@
+contact:
+- inCitation: true
+  individual:
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Mai, Thea
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - distributor
+  - originator
+  - principalInvestigator
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - owner
+  - distributor
+  - funder
+  - publisher
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: Central Coast Eelgrass Extent Time Series - Data Package
+  name:
+    en: Hakai Institute Google Drive
+  url: https://drive.google.com/drive/folders/1Lgjw60ZrvoEKoPMWNDEQqkUR--bOwryS?usp=sharing
+identification:
+  abstract:
+    en: "This polygon dataset contains a time series for the spatial extent of eelgrass\
+      \ (Zostera marina) meadows delineated from aerial imagery at several long-term\
+      \ monitoring sites located on the Central Coast of British Columbia. \n\nThe\
+      \ areal extent of eelgrass (Zostera marina) meadows is an important metric for\
+      \ understanding the broader dynamics of eelgrass habitats. Since 2015, the Hakai\
+      \ Geospatial Program has been using remotely piloted aerial systems (RPAS, aka\
+      \ drone) imagery to record change in eelgrass meadow extent at monitoring sites\
+      \ on the Central Coast of BC. Prior to 2015, eelgrass extent at monitoring sites\
+      \ has been conducted using aerial fixed wing aircraft and helicopter imagery\
+      \ and towed underwater video (see 2014 metadata record for eelgrass sites delineated\
+      \ using towed underwater video). Existing methods for mapping eelgrass (e.g.\
+      \ low-tide walking surveys, towed video, or boat-based SCUBA surveys) can be\
+      \ difficult to apply repeatedly and efficiently across large geographic extents.\
+      \ RPASs are portable and efficient tools for mapping nearshore marine environments,\
+      \ such as eelgrass habitat. Despite some limitations of RPAS mapping (e.g. weather,\
+      \ flight time, survey size), RPASs are able to collect high-resolution data\
+      \ (<10 cm) during short windows of opportunity (e.g. low tide).\n\nCore monitoring\
+      \ sites at the Hakai Institute include three eelgrass beds (Pruth Bay, Choked\
+      \ Pass and Koeye) that are mapped annually and three others (Triquet Bay, Goose\
+      \ SW, and McMullin North) which are mapped bi-annually (Fig. 1). Other sites\
+      \ have been mapped advantageously or as part of shorter-term projects and are\
+      \ included in this data package.  \n\nFor each site, eelgrass extent was delineated\
+      \ using a combination of object-based image analysis (eCognition Developer 9)\
+      \ and manual delineation within a GIS environment (ArcGIS, v 10.8). In brief,\
+      \ image objects area created via a multiresolution segmentation algorithm within\
+      \ eCognition and the site orthomosaic. These objects are exported to a GIS environment\
+      \ where an analyst classifies objects as eelgrass. The minimum mapping unit\
+      \ for a patch of eelgrass or patch within a bed is 4 m2."
+    fr: "Ce jeu de données polygones contient une série chronologique pour l'étendue\
+      \ spatiale des prairies zostera marina (Zostera marina) délimitées à partir\
+      \ d'images aériennes à plusieurs sites de surveillance à long terme situés sur\
+      \ la côte centrale de la Colombie-Britannique. \n\nL'étendue des prairies de\
+      \ zostera marina est une mesure importante pour comprendre la dynamique plus\
+      \ large des habitats de la zostère. Depuis 2015, le programme géospatial de\
+      \ Hakai utilise des images de systèmes aériens pilotés à distance (RPAS, alias\
+      \ drone) pour enregistrer les changements dans l'étendue des prairies de zostères\
+      \ sur les sites de surveillance de la côte centrale de la Colombie-Britannique.\
+      \ Avant 2015, l'étendue de la zostère sur les sites de surveillance a été réalisée\
+      \ à l'aide d'images aériennes d'avions à voilure fixe et d'hélicoptère et d'une\
+      \ vidéo sous-marine remorquée (voir enregistrement de métadonnées 2014 pour\
+      \ les sites de zostère délimités à l'aide d'une vidéo sous-marine remorquée).\
+      \ Les méthodes existantes de cartographie de la zostère (par exemple, relevés\
+      \ à marée basse, vidéo remorquée ou relevés de plongée sous-marine en bateau)\
+      \ peuvent être difficiles à appliquer de façon répétée et efficace sur de grandes\
+      \ étendues géographiques. Les RPASS sont des outils portables et efficaces pour\
+      \ cartographier les environnements marins littoraux, tels que l'habitat de la\
+      \ zostère. Malgré certaines limitations de la cartographie RPAS (p. ex. météo,\
+      \ temps de vol, taille des relevés), le RPASS est en mesure de collecter des\
+      \ données haute résolution (< 10 cm) pendant de courtes fenêtres d'opportunité\
+      \ (par exemple, marée basse).\n\nLes principaux sites de surveillance de l'Institut\
+      \ Hakai comprennent trois lits de zostère (Pruth Bay, Choked Pass et Koeye)\
+      \ cartographiés chaque année et trois autres (Triquet Bay, Goose SW et McMullin\
+      \ North) qui sont cartographiés deux fois par année (figure 1). D'autres sites\
+      \ ont été cartographiés avantageusement ou dans le cadre de projets à plus court\
+      \ terme et sont inclus dans ce paquet de données. \n\nPour chaque site, l'étendue\
+      \ de la zostère a été délimitée à l'aide d'une combinaison d'analyse d'image\
+      \ basée sur des objets (eCognition Developer 9) et d'une délimitation manuelle\
+      \ dans un environnement SIG (ArcGIS, v 10.8). En bref, les objets d'image sont\
+      \ créés via un algorithme de segmentation multirésolution dans EcoGnition et\
+      \ l'orthomosaïque du site. Ces objets sont exportés vers un environnement SIG\
+      \ où un analyste classe les objets en tant que zostère. L'unité de cartographie\
+      \ minimale pour une parcelle de zostère ou de parcelle dans un lit est de 4\
+      \ m2."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2020-12-07'
+  identifier: https://doi.org/10.21966/03pw-2190
+  keywords:
+    default:
+      en:
+      - seagrass
+      - Zostera marina
+      - eelgrass
+      - nearshore
+      - habitat mapping
+      - Central Coast
+      - drone
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: Eelgrass (Z. marina) extent at sites along the Central Coast, British Columbia
+    fr: Eelgrass (Z. marina) sur les sites situés le long de la côte centrale, en
+      Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-02'
+    revision: '2024-03-14T20:15:49.204Z'
+  identifier: 5e4f925a-9cf2-4e33-ae22-75c5b326ce6c
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTA3NnQ0NnRiemVLSFU
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -128.65354407
+  - 51.37817421
+  - -127.69773286
+  - 52.1127963
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
