@@ -1,0 +1,279 @@
+contact:
+- inCitation: true
+  individual:
+    name: Gonzalez Arriola, Santiago
+    orcid: https://orcid.org/0000-0001-8869-5481
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - publisher
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    name: Frazer, Gordon W.
+  organization:
+    name: Hakai Institute
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Floyd, Bill
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Holmes, Keith
+    orcid: https://orcid.org/0000-0001-8796-8222
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - editor
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - publisher
+  - originator
+  - custodian
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
+    fr: L'instance AGOL de Hakai est la plateforme d'accès et d'utilisation en ligne
+      de ce jeu de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Online map
+  url: http://hakai.maps.arcgis.com/home/item.html?id=79e5d490fc164d059b4fb8d1063db756
+- description:
+    en: Calvert Island Streams - LiDAR Derived. Focal Watersheds and total for Calvert
+      and Hecate Islands
+    fr: Ruisseaux de l'île Calvert - dérivés du LiDAR. Bassins versants focaux et
+      total pour les îles Calvert et Hécate
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Data package
+  url: https://drive.google.com/drive/folders/1UWkY22_RPtMDiIJymxty8RhOd3HAQDkw?usp=sharing
+identification:
+  abstract:
+    en: "This dataset provides LiDAR derived stream locations for Calvert and Hecate\
+      \ Islands, British Columbia. Stream locations were delineated from a 3 m digital\
+      \ elevation model (DEM). For each stream segment, the dataset includes a unique\
+      \ identifier and Strahler stream order assignment. \n\nThis dataset is the result\
+      \ of “traditional” hydrological modeling conducted using the 2012 and 2014 LiDAR-based\
+      \ topographically complete bare earth DEM with a 10 m buffer around the coastline\
+      \ to ensure all modeled streams reach the ocean. After extraction, stream networks\
+      \ were clipped to the shoreline of the Island. \n\nAlthough this LiDAR derived\
+      \ stream network represents a large improvement over the best alternative stream\
+      \ map for the area – in terms of spatial accuracy and resolution – appropriate\
+      \ caution should be used when interpreting the modeled stream locations, given\
+      \ the methodology used.\n\nHydrologic modelling of drainage networks from digital\
+      \ elevation models can produce drainage systems of varying detail (density and\
+      \ length of small tributary streams) depending on the thresholds used to define\
+      \ initiation of streams. We defined a stream initiation threshold by selecting\
+      \ a “net flow accumulation value” that best agreed with stream occurrence and\
+      \ initiation observed on aerial imagery and in the field. Net flow accumulation\
+      \ is obtained by taking the Log (base 10) of the flow accumulation raster produced\
+      \ during the hydrologic modelling exercise. We examined net flow accumulation\
+      \ values of 2.0 through 4.0 (in increments of 0.5), ultimately selecting a single\
+      \ value of 3.0 because it appeared to best determine stream initiation for the\
+      \ overall study area. Based on our field observations – which were opportunistic\
+      \ and of limited extent – higher values tend to omit observed surface channels\
+      \ and lower values tend to predict streams where surface channels are not observed.\
+      \ With a threshold value of 3.0, headwater stream reaches alternate between\
+      \ surface and subsurface flow, depending on local soil conditions. Choosing\
+      \ a single value for the entire landscape likely means that streams are over\
+      \ predicted in some areas and under predicted in others, depending on local\
+      \ conditions (e.g., terrain, soil type and depth). Modeling stream initiation\
+      \ as a function of local conditions could improve the stream network map but\
+      \ would require a large and representative sample of field observations.\n\n\
+      Dataset Contributors: Hakai Institute, Santiago Gonzalez Arriola, Gordon W.\
+      \ Frazer, Ian Giesbrecht, Bill Floyd, Keith Holmes."
+    fr: "Ce jeu de données fournit des emplacements de cours d'eau dérivés du LiDAR\
+      \ pour les îles Calvert et Hécate, en Colombie-Britannique. Les emplacements\
+      \ des cours d'eau ont été délimités à partir d'un modèle numérique d'élévation\
+      \ (MNT) de 3 m. Pour chaque segment de cours d'eau, l'ensemble de données comprend\
+      \ un identifiant unique et une attribution d'ordre de flux Strahler. \n\nCe\
+      \ jeu de données est le résultat d'une modélisation hydrologique « traditionnelle »\
+      \ réalisée à l'aide du MNT de terre nue topographiquement complet basé sur le\
+      \ LIDAR de 2012 et 2014 avec une zone tampon de 10 m autour du littoral pour\
+      \ garantir que tous les cours d'eau modélisés atteignent l'océan. Après l'extraction,\
+      \ les réseaux hydrographiques ont été coupés au rivage de l'île. \n\nBien que\
+      \ ce réseau hydrographique dérivé du LiDAR représente une grande amélioration\
+      \ par rapport à la meilleure carte de cours d'eau alternative pour la zone,\
+      \ en termes de précision spatiale et de résolution, il convient de faire preuve\
+      \ de prudence lors de l'interprétation des emplacements des cours d'eau modélisés,\
+      \ compte tenu de la méthodologie utilisée.\n\nLa modélisation hydrologique des\
+      \ réseaux de drainage à partir de modèles numériques d'élévation peut produire\
+      \ des systèmes de drainage de détails variables (densité et longueur des petits\
+      \ affluents) en fonction des seuils utilisés pour définir le début des cours\
+      \ d'eau. Nous avons défini un seuil d'initiation de cours d'eau en sélectionnant\
+      \ une « valeur nette d'accumulation de débit » qui correspond le mieux à l'occurrence\
+      \ et à l'initiation du cours d'eau observées sur l'imagerie aérienne et sur\
+      \ le terrain. L'accumulation nette d'écoulement est obtenue en prenant le log\
+      \ (base 10) du raster d'accumulation d'écoulement produit au cours de l'exercice\
+      \ de modélisation hydrologique. Nous avons examiné des valeurs d'accumulation\
+      \ de débit net de 2,0 à 4,0 (par incréments de 0,5), en choisissant finalement\
+      \ une valeur unique de 3,0 parce qu'elle semblait la meilleure façon de déterminer\
+      \ le début du cours d'eau pour l'ensemble de la zone d'étude. Sur la base de\
+      \ nos observations sur le terrain, qui étaient opportunistes et d'étendue limitée,\
+      \ les valeurs élevées ont tendance à omettre les canaux de surface observés\
+      \ et les valeurs inférieures ont tendance à prédire les cours d'eau où les canaux\
+      \ de surface ne sont pas observés. Avec une valeur seuil de 3,0, le courant\
+      \ d'amont atteint une alternance entre l'écoulement de surface et le débit souterrain,\
+      \ selon les conditions locales du sol. Le choix d'une valeur unique pour l'ensemble\
+      \ du paysage signifie probablement que les cours d'eau sont surprévus dans certaines\
+      \ zones et sous-prévus dans d'autres, selon les conditions locales (p. ex.,\
+      \ le terrain, le type de sol et la profondeur). La modélisation de l'initiation\
+      \ des cours d'eau en fonction des conditions locales pourrait améliorer la carte\
+      \ du réseau hydrographique, mais nécessiterait un échantillon important et représentatif\
+      \ d'observations sur le terrain.\n\nContributeurs aux jeux de données : Institut\
+      \ Hakai, Santiago Gonzalez Arriola, Gordon W. Frazer, Ian Giesbrecht, Bill Floyd,\
+      \ Keith Holmes."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2015-08-25'
+  keywords:
+    default:
+      en:
+      - Streams
+      - Rivers
+      - Hydrology
+      - LiDAR
+      - Water
+      - Watershed
+      - Modeling
+      - Kwakshua Watersheds Program
+      - Calvert Island
+      - Freshwater
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  title:
+    en: LiDAR-derived Drainage Network for Calvert Island - British Columbia - Canada
+    fr: Réseau de drainage dérivé du lidar pour l'île Calvert - Colombie-Britannique
+      - Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2024-03-15T19:42:33.642Z'
+  identifier: 0e4f324c-6498-4c89-9e19-f2f9f474a1df
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW5MeGIydVA3U1VKdWo
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.16
+  - 51.41
+  - -127.88
+  - 51.73
+  vertical:
+  - 0.0
+  - 1014.0
+  vertical_positive: heightPositive
