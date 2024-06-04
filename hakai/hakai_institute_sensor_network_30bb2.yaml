@@ -1,0 +1,182 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+- inCitation: false
+  individual:
+    name: McInnes, Will
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - processor
+  - pointOfContact
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset/'s
+      reference layer
+  name:
+    en: Hakai's ArcGIS Online Platform (restricted access)
+  url: http://hakai.maps.arcgis.com/home/item.html?id=77f1ae4526004df6a86c6b38eb22fd79
+identification:
+  abstract:
+    en: "The sensor network map details the locations of the various sensor nodes.\
+      \ Nodes are found in the field and are collecting live data. Locations and metadata\
+      \ are based off field gathered GPS information. Location is based off handheld\
+      \ GPS devices including phones and it is assumed that the true location is within\
+      \ roughly 5 meters of the documented location.\n\nMetadata are filled out by\
+      \ field technicians and the Hakai Geospatial Technology Team.\nA live google\
+      \ spreadsheet webmap is updated regularly due to the many changes and updated\
+      \ required to the sensor network. \n\nHakai telemetry network serves to link\
+      \ various scientific sensors on the Central Coast. The network uses sensors\
+      \ connected by repeater notes that relay data back to the Calvert Island field\
+      \ station. Links represent line features that reflect the wireless path (direct\
+      \ sensor to repeater to station relay). Nodes represent the point data for scientific\
+      \ equipment or communication relays. The Hakai climate and hydrometric observation\
+      \ network serves as the foundation for the terrestrial and aquatic science program\
+      \ and provides many operational uses for the general public and for air and\
+      \ marine traffic. A critical component of the observation network is the real-time\
+      \ telemetry network to make data available to users. After successful 2013,\
+      \ 2014, and 2015 field seasons we saw continued work to expand and improve on\
+      \ the network, while formalizing and implementing a comprehensive monitoring\
+      \ and maintenance program. \n\nAttributes:\nName - name of the node. Given by\
+      \ field technical crew and often represents the general location and or type\
+      \ of sensor.\t\n\n<b>Date Commissioned</b> - Date the sensor was activated in\
+      \ the field.\t\n\n<b>Primary Station Type</b>\t - Primary role of the sensor.\n\
+      \n<b>Secondary Station Type</b>\t- Secondary role of the sensor.\n\n<b>Tertiary\
+      \ Station Type</b> - Tertiary role of the sensor.\t\n\n<b>Elevation (m)</b>\
+      \ - elevation of the sensor - based on handheld GPS point gathered in the field.\
+      \ Not expected to be accurate.\t\n\n<b>Connected to</b> - how the node is connected\
+      \ to the network. The link used to transfer information from one location back\
+      \ to the main terminal.\t\n\n<b>Sensors</b> - sensors existing at the node.\
+      \ For some stations it is a communication node and will have no sensors and\
+      \ some will have multiple (weather stations).\n\t\n<b>Power Type</b> - type\
+      \ of equipment used to power the sensor node.\t\n\n<b>RF Antenna Type</b> -\
+      \ antenna type used to connect to the network.\n\nDataset created by:\nHakai\
+      \ Geospatial Technology Team, Bill Floyd, Colby Owen, James McPhail, Ian Geisbrecht."
+    fr: "La carte du réseau de capteurs détaille l'emplacement des différents nœuds\
+      \ de capteurs. Les nœuds se trouvent sur le terrain et collectent des données\
+      \ en direct. Les emplacements et les métadonnées sont basés sur des informations\
+      \ GPS collectées sur le terrain. L'emplacement est basé sur des appareils GPS\
+      \ portatifs, y compris les téléphones, et on suppose que l'emplacement réel\
+      \ se trouve à environ 5 mètres de l'emplacement documenté.\n\nLes métadonnées\
+      \ sont remplies par les techniciens de terrain et l'équipe de technologie géospatiale\
+      \ Hakai.\nUne feuille de calcul Google Live est régulièrement mise à jour en\
+      \ raison des nombreuses modifications et mises à jour nécessaires au réseau\
+      \ de capteurs. \n\nLe réseau de télémétrie Hakai sert à relier divers capteurs\
+      \ scientifiques sur la côte centrale. Le réseau utilise des capteurs connectés\
+      \ par des notes de répéteur qui relaient les données à la station de terrain\
+      \ de Calvert Island. Les liaisons représentent des entités linéaires qui reflètent\
+      \ le chemin sans fil (capteur direct vers relais répéteur à station). Les nœuds\
+      \ représentent les données ponctuelles des équipements scientifiques ou des\
+      \ relais de communication. Le réseau d'observation climatique et hydrométrique\
+      \ de Hakai sert de base au programme des sciences terrestres et aquatiques et\
+      \ fournit de nombreuses utilisations opérationnelles pour le grand public et\
+      \ pour le trafic aérien et maritime. Un élément essentiel du réseau d'observation\
+      \ est le réseau de télémétrie en temps réel qui permet de mettre les données\
+      \ à la disposition des utilisateurs. Après les saisons sur le terrain 2013,\
+      \ 2014 et 2015 réussies, nous avons continué de travailler pour étendre et améliorer\
+      \ le réseau, tout en officialisant et en mettant en œuvre un programme complet\
+      \ de surveillance et de maintenance. \n\nAttributs :\nNom : nom du nœud. Données\
+      \ données par l'équipe technique sur le terrain et représente souvent l'emplacement\
+      \ général et/ou le type de capteur. \n\n<b>Date de mise en service</b> : date\
+      \ à laquelle le capteur a été activé sur le terrain. \n\n<b>Type de station\
+      \ principale</b> : rôle principal du capteur.\n\n<b>Type de station secondaire</b>\
+      \ - Rôle secondaire du capteur.\n\n<b>Type de station tertiaire</b> - Rôle tertiaire\
+      \ du capteur. \n\n<b>Altitude (m)</b> - élévation du capteur - basée sur un\
+      \ point GPS portable rassemblé sur le terrain. On ne s'attend pas à ce qu'il\
+      \ soit exact \n\n<b>Connecté à</b> - comment le nœud est connecté au réseau.\
+      \ Lien utilisé pour transférer des informations d'un emplacement vers le terminal\
+      \ principal. \n\n<b>Capteurs</b> - capteurs existants au niveau du nœud. Pour\
+      \ certaines stations, il s'agit d'un nœud de communication et il n'y aura pas\
+      \ de capteurs et d'autres auront plusieurs (stations météo).\n \n<b>Type d'alimentation</b> :\
+      \ type d'équipement utilisé pour alimenter le nœud du capteur. \n\n<b>Type d'antenne\
+      \ RF</b> - type d'antenne utilisé pour se connecter au réseau.\n\nJeu de données\
+      \ créé par :\nÉquipe de technologie géospatiale Hakai, Bill Floyd, Colby Owen,\
+      \ James McPhail, Ian Geisbrecht."
+  associated_resources: []
+  dates:
+    publication: '2015-11-03'
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - sensor
+      - network
+      - telemetry
+      - weather
+      - station
+      - climate
+      - node
+      - link
+      - technology
+      - rain
+      - gauge
+      - stream
+      - salt
+      - communication
+      - science
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: Hakai Institute Sensor Network
+    fr: Réseau de capteurs de l'Institut Hakai
+metadata:
+  dates:
+    publication: '2021-09-23'
+    revision: '2021-08-25T17:47:18.849Z'
+  identifier: 30bb20f4-1d7a-4167-a00f-613d0ff3e2fc
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/None/-MXpLZ1BkS1R3cXBNenY
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -128.29833984375
+  - 49.99361546254113
+  - -125.09033203125001
+  - 51.79502722582916
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
