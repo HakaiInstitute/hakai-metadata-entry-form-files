@@ -1,0 +1,172 @@
+contact:
+- inCitation: true
+  individual:
+    email: wiley.evans@hakai.org
+    name: Evans, Wiley
+  organization:
+    address: 1713 Hyacinthe Bay Road
+    city: Victoria
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - coAuthor
+  - pointOfContact
+  - principalInvestigator
+  - custodian
+  - owner
+  - resourceProvider
+- inCitation: true
+  individual:
+    email: katie.pocock@hakai.org
+    name: Pocock, Katie
+  organization:
+    address: 1713 Hyacinthe Bay Road
+    city: Victoria
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    email: carrie.weekes@hakai.org
+    name: Weekes, Carrie
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    name: Hales, Burke
+  organization:
+    country: USA
+    name: Oregon State University
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    name: M. Monacci, Natalie
+  organization:
+    country: USA
+    name: Universit of Alaska Fairbanks
+  roles:
+  - coAuthor
+- inCitation: false
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - distributor
+  - publisher
+distribution:
+- name:
+    en: NCEI Data Submission
+    fr: Soumission de données au NCEI
+  url: https://www.ncei.noaa.gov/data/oceans/ncei/ocads/metadata/0246099.html
+- name:
+    en: Hakai Institute ERDDAP Dataset
+    fr: Ensemble de données ERDDAP de l'Institut Hakai
+  url: https://hecate.hakai.org/erddap/tabledap/HakaiKetchikanBoLResearch.html
+identification:
+  abstract:
+    en: This dataset includes measurements of partial pressure of carbon dioxide (pCO2),
+      sea surface salinity, sea surface temperature and other parameters from the
+      OceansAlaska Shellfish Hatchery in Ketchikan, Alaska since 2016-08-29. The OceansAlaska
+      Shellfish Hatchery in Ketchikan, is a floating barge that has been a site for
+      high-resolution measurement of surface seawater CO2 content since August 2016.
+      Measurements of in situ temperature, salinity, and CO2 partial pressure are
+      made near-continuously from a seawater sample line with an intake depth of 4.3
+      m. The effort to collect these data is a collaboration between OceansAlaska,
+      the UAF Ocean Acidification Research Center, Oregon State University, and the
+      Hakai Institute with support from the Alaska Ocean Observing System and the
+      Tula Foundation.
+    fr: Cet ensemble de données comprend des mesures de la pression partielle du dioxyde
+      de carbone (pCO2), de la salinité de la surface de la mer, de la température
+      de la surface de la mer et d'autres paramètres provenant de l'écloserie OceansAlaska
+      Shellfish à Ketchikan, en Alaska, depuis le 29 août 2016. L'écloserie OceansAlaska
+      Shellfish de Ketchikan est une barge flottante qui sert de site de mesure à
+      haute résolution de la teneur en CO2 de l'eau de mer de surface depuis août
+      2016. Les mesures in situ de la température, de la salinité et de la pression
+      partielle de CO2 sont effectuées en quasi-continu à partir d'une ligne d'échantillonnage
+      d'eau de mer d'une profondeur d'admission de 4,3 m. La collecte de ces données
+      est le fruit d'une collaboration entre OceansAlaska, le centre de recherche
+      sur l'acidification des océans de l'UAF, l'université d'État de l'Oregon et
+      l'Institut Hakai avec le soutien de l'Alaska Ocean Observing System et de la
+      Tula Foundation.
+  associated_resources: []
+  dates:
+    creation: '2016-08-29'
+    publication: '2022-01-13'
+  identifier: https://doi.org/10.25921/kmam-ct93
+  keywords:
+    default:
+      en:
+      - physical-chemical
+      - salinit
+      - water temperature
+      - ocean-atmosphere exchange
+      - coastal zone
+      fr:
+      - physico-chimie
+      - salinité
+      - température de l'eau
+      - échange océan-atmosphère
+      - zone côtière
+    eov:
+      en:
+      - inorganicCarbon
+      - seaSurfaceTemperature
+      - seaSurfaceSalinity
+      fr:
+      - Carbone inorganique
+      - Température de surface
+      - Salinité de surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  status: published
+  temporal_begin: '2016-08-29T16:00:00.000Z'
+  title:
+    en: High-resolution time series of surface seawater CO2 content from the OceansAlaska
+      Shellfish Hatchery in Ketchikan, Alaska, USA
+    fr: Séries chronologiques à haute résolution sur la teneur en CO2 de l'eau de
+      mer de surface provenant de l'écloserie OceansAlaska Shellfish à Ketchikan,
+      Alaska, États-Unis
+metadata:
+  dates:
+    publication: '2023-01-24'
+    revision: '2023-01-24T18:12:35.218Z'
+  identifier: 4a09d56b-b120-46c8-9263-ae3c42a02e9b
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-NHZti4Qjk0UuD4Ocz77
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  bbox:
+  - -131.5954
+  - 55.315
+  - -131.5954
+  - 55.315
+  vertical:
+  - 4.3
+  - 4.3
+  vertical_positive: heightPositive
