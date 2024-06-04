@@ -1,0 +1,153 @@
+contact:
+- inCitation: true
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: jessy.barrette@hakai.org
+    name: Barrette, Jessy
+    position: Marine Instrumentation/Data Specialist
+  organization:
+    address: 1713 Hyacinthe Bay Road
+    city: Heriot Bay
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - custodian
+  - processor
+  - pointOfContact
+  - author
+- inCitation: true
+  individual:
+    email: pramod.thupaki@hakai.org
+    name: Thupaki, Pramod
+    position: Scientist
+  organization:
+    address: 1002 Wharf St
+    city: VICTORIA
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - principalInvestigator
+  - editor
+  - author
+- inCitation: false
+  individual:
+    email: btimmer.viu@gmail.com
+    name: Timmer, Brian
+    position: M.Sc. Student
+  organization:
+    city: Victoria
+    country: Canada
+    name: University Of Victoria
+    url: uvic.ca
+  roles:
+  - contributor
+distribution:
+- name:
+    en: ERDDAP Dataset
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiADCPTimeSeriesProfileProvisional.html
+identification:
+  abstract:
+    en: This dataset presents a collection of all the Acoustic Doppler Current Profiler
+      (ADCP) instruments deployed by the Hakai Institute and the University of Victoria
+      in the different study areas of the Hakai Institute near Calvert Island along
+      the central coast of British Columbia and Quadra Island in Northern Strait of
+      Georgia. Most of the data come from the coastal region around Calvert Island
+      starting from February 2019. For all deployments, the instruments were deployed
+      on a seabed bottom frame and lowered to the seabed in an upward-looking configuration.
+      All instruments are RDI Workhorse instruments of different frequencies.
+    fr: Ce jeu de données présente une collection de tous les instruments Acoustic
+      Doppler Current Profiler (ADCP) déployés par l'Institut Hakai et l'Université
+      de Victoria dans les différentes zones d'étude de l'Institut Hakai, près de
+      l'île Calvert, le long de la côte centrale de la Colombie-Britannique et de
+      l'île Quadra dans le nord détroit de Géorgie. La plupart des données proviennent
+      de la région côtière autour de l'île Calvert à partir de février 2019. Pour
+      tous les déploiements, les instruments ont été déployés sur un cadre inférieur
+      du fond marin et abaissés vers le fond marin dans une configuration orientée
+      vers le haut. Tous les instruments sont des instruments RDI Workhorse de différentes
+      fréquences.
+  associated_resources: []
+  dates:
+    creation: '2019-02-21'
+  keywords:
+    default:
+      en:
+      - sea currents
+      fr:
+      - courant marin
+    eov:
+      en:
+      - subSurfaceCurrents
+      - subSurfaceTemperature
+      - seaSurfaceHeight
+      fr:
+      - Courants sous-marins
+      - Température sous la surface
+      - Niveau de l'eau
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  status: published
+  temporal_begin: '2019-02-21T17:00:00.000Z'
+  title:
+    en: Hakai Institute British Columbia Central Coast Fixed Platform Acoustic Doppler
+      Current Profiler Time Series Provisional
+    fr: Série chronologique provisoire de profileurs de courant acoustique Doppler
+      de provenant de plate-forme fixe de l'Institut Hakai
+instruments:
+- id: RDI WH300
+  manufacturer: RDI
+  type:
+    en: Acoustic Doppler Current Profiler
+    fr: Profileur de courant Doppler acoustique
+  version: Workhorse 300Hz
+- id: RDI WH1200
+  manufacturer: RDI
+  type:
+    en: Acoustic Doppler Current Profiler
+    fr: Profileur de courant Doppler acoustique
+  version: Workhorse 1200kHz
+metadata:
+  dates:
+    publication: '2022-02-01'
+    revision: '2022-02-01T13:30:00.054Z'
+  identifier: 87a845e3-e71a-43cc-a75f-ec6a3b812a0e
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MsbCMOYj2L_7dgICnzw
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Provisional Dataset. The ADCP data was automatically processed to adjust
+        for the magnetic declination and automated corrections from RDI to correct
+        for instrument tilt and fish detection. No extended review of the resulting
+        current data was completed.
+      fr: Ensemble de données provisoire. Les données ADCP ont été automatiquement
+        traitées pour ajuster la déclinaison magnétique et les corrections automatiques
+        du RDI pour corriger l'inclinaison de l'instrument et la détection des poissons.
+        Aucun examen approfondi des données actuelles n'a été effectué.
+spatial:
+  polygon: -128.2,51.61 -128.6,51.95 -128.2,52.04 -127.8,51.61 -125.0,50.12 -125.2,50.04
+    -125.2,50.04 -125.2,50.04 -128.2,51.61
+  vertical:
+  - 0.0
+  - 90.0
+  vertical_positive: depthPositive
