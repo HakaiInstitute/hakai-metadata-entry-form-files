@@ -1,0 +1,261 @@
+contact:
+- inCitation: true
+  individual:
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - principalInvestigator
+  - originator
+- inCitation: true
+  individual:
+    name: Rockwell, Lisa
+  organization:
+    city: Capital Regional District
+    country: Canada
+    name: Gulf Islands National Park Reserve
+    ror: https://ror.org/02v69n451
+    url: https://www.pc.gc.ca/en/pn-np/bc/gulf
+  roles:
+  - author
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - distributor
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+  - custodian
+- inCitation: true
+  individual:
+    name: Collyer, M. J. P.
+  organization:
+    city: Regional District of Alberni-Clayoquot
+    country: Canada
+    name: Pacific Rim National Park Reserve
+    ror: https://ror.org/05qjftn62
+    url: https://www.pc.gc.ca/en/pn-np/bc/pacificrim
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Helms, Sibylla
+  organization:
+    city: Capital Regional District
+    country: Canada
+    name: Gulf Islands National Park Reserve
+    ror: https://ror.org/02v69n451
+    url: https://www.pc.gc.ca/en/pn-np/bc/gulf
+  roles:
+  - author
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Hakai Institute google drive - restricted - please contact data@hakai.org
+    fr: Hakai Institute Google Drive - accès restreint - veuillez contacter data@hakai.org
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Full metadata and data download - Eelgrass extent - Gulf Islands National
+      Park Reserve
+  url: https://drive.google.com/drive/folders/11zbjbLFo8OzGVT1mzktNQriITt2NFlDK?usp=sharing
+identification:
+  abstract:
+    en: "This data package contains the datasets and reports pertaining to mapping\
+      \ the spatial extent of Zostera marina at several monitoring sites within the\
+      \ Gulf Islands National Park Reserve, British Columbia, Canada. This work was\
+      \ a collaborative project between the Hakai Institute and the Gulf Islands National\
+      \ Park Reserve (GINPR).  \n\nMonitoring sites were mapped using small Remotely\
+      \ Piloted Aerial Systems (RPAS) (DJI Phantom Pro 3) during summer low tides\
+      \ (0.3-0.8 m) in 2017 and 2018. Orthomosaics of each site were created using\
+      \ a Structure from Motion Multi-View Stereo (SfM-MVS) workflow within Pix4Dmapper\
+      \ software (Version 2.1.61, Pix4D) in Windows 10 and georeferenced using group\
+      \ control points collected concurrently during the surveys. The extent of eelgrass\
+      \ at each site was delineated using object-based image analysis (OBIA) with\
+      \ eCognition Developer software (eCognition Developer 9, 2014) and manual delineation\
+      \ (where necessary). Georeferenced towed underwater video (SplashCam Pro) data\
+      \ were collected at eelgrass monitoring sites during high tide to provide ground-truth\
+      \ data for the aerial analysis and delineation of eelgrass. \n\nThe data package\
+      \ includes:\n\n-   The reports (.pdf) which describe project, data collection\
+      \ and processing methods and results for both 2017 and 2018 surveys. \n-   \
+      \ Polygon shapefiles (.shp) of the extent of eelgrass (Z. marina) at each monitoring\
+      \ site.\n-    Point shapefiles (.shp) of classified towed underwater video transects*.\
+      \ \n-    A data dictionary (.csv) which describes the attributes of the shapefiles.\
+      \ \n\n*The towed underwater video footage is not provided as a part of this\
+      \ data package but is available upon request.  \n\nThis data package is a component\
+      \ of the Hakai Institute’s Habitat Mapping program. The overarching objective\
+      \ of the Hakai Habitat Mapping program is to generate spatial inventories of\
+      \ coastal habitats, investigate how these habitats are changing through time\
+      \ and the drivers of that change. These data were collected as a part of the\
+      \ Coastal BC Nearshore Habitat Mapping Project (a collaboration between Parks\
+      \ Canada and the Hakai Institute). \n\nPermission to use this dataset must be\
+      \ granted by the Hakai Institute and Gulf Islands National Park Reserve to the\
+      \ individual who makes the data request. Data can only be used for the permitted\
+      \ purpose and are not to be shared or repurposed. Please refer to the README.txt\
+      \ file included in this data package."
+    fr: "Ce paquet de données contient les ensembles de données et les rapports relatifs\
+      \ à la cartographie de l'étendue spatiale de la marina de Zostera à plusieurs\
+      \ sites de surveillance dans la réserve de parc national des Îles-Gulf, en Colombie-Britannique,\
+      \ au Canada. Ce travail était un projet de collaboration entre le Hakai Institute\
+      \ et la réserve de parc national des îles Gulf (GINPR). \n\nLes sites de surveillance\
+      \ ont été cartographiés à l'aide de petits systèmes aériens pilotés à distance\
+      \ (RPAS) (DJI Phantom Pro 3) pendant les marées basses d'été (0,3 à 0,8 m) en\
+      \ 2017 et 2018. Les orthomosaïques de chaque site ont été créées à l'aide d'un\
+      \ flux de travail Structure from Motion Multi-View Stereo (SFM-MVS) dans le\
+      \ logiciel Pix4Dmapper (version 2.1.61, Pix4D) sous Windows 10 et géoréférencées\
+      \ à l'aide de points de contrôle de groupe collectés simultanément pendant les\
+      \ levés. L'étendue de la zostère sur chaque site a été délimitée à l'aide d'une\
+      \ analyse d'image basée sur des objets (OBIA) avec le logiciel eCognition Developer\
+      \ (eCognition Developer 9, 2014) et d'une délimitation manuelle (si nécessaire).\
+      \ Des données vidéo sous-marines remorquées géoréférencées (SplashCam Pro) ont\
+      \ été collectées sur les sites de surveillance de la zostère à marée haute afin\
+      \ de fournir des données de véracité au sol pour l'analyse aérienne et la délimitation\
+      \ de la zostère. \n\nLe package de données comprend :\n\n- Les rapports (.pdf)\
+      \ qui décrivent les méthodes de projet, de collecte et de traitement des données\
+      \ et les résultats des enquêtes 2017 et 2018. \n- Fichiers de formes polygonales\
+      \ (.shp) de l'étendue de la zostère zostère (Z. marina) à chaque site de surveillance.\n\
+      - Fichiers de formes de points (.shp) de transects vidéo sous-marins remorqués\
+      \ classifiés *. \n- Un dictionnaire de données (.csv) qui décrit les attributs\
+      \ des fichiers de formes. \n\n*La séquence vidéo sous-marine remorquée n'est\
+      \ pas fournie dans le cadre de ce paquet de données, mais elle est disponible\
+      \ sur demande. \n\nCe paquet de données fait partie du programme de cartographie\
+      \ de l'habitat du Hakai Institute. L'objectif principal du programme de cartographie\
+      \ de l'habitat de Hakai est de générer des inventaires spatiaux des habitats\
+      \ côtiers, d'étudier comment ces habitats évoluent au fil du temps et les moteurs\
+      \ de ce changement. Ces données ont été recueillies dans le cadre du Coastal\
+      \ BC Nearshore Habitat Mapping Project (une collaboration entre Parcs Canada\
+      \ et le Hakai Institute). \n\nL'autorisation d'utiliser cet ensemble de données\
+      \ doit être accordée par le Hakai Institute and Gulf Islands National Park Reserve\
+      \ à la personne qui fait la demande de données. Les données ne peuvent être\
+      \ utilisées que dans le but autorisé et ne doivent pas être partagées ou réutilisées.\
+      \ Reportez-vous au fichier README.txt inclus dans ce package de données."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2021-01-12'
+  edition: 1.0.0
+  identifier: https://doi.org/10.21966/t8hm-ge90
+  keywords:
+    default:
+      en:
+      - Seagrass
+      - Zostera marina
+      - Eelgrass
+      - Gulf Islands
+      - Salish Sea
+      - GINPR
+      - RPAS
+      - seagrass
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Nearshore
+  - Geospatial
+  status: published
+  title:
+    en: Eelgrass (Z. marina) extent at Gulf Islands National Park Reserve eelgrass
+      monitoring sites (2017, 2018) v1.0.0
+    fr: Etendue de la zostère marine (Z. marina) aux sites de surveillance de la zostère
+      de la réserve de parc national des Îles-Gulf (2017, 2018) v1.0.0
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-02-02'
+    revision: '2024-03-14T18:36:11.257Z'
+  identifier: fd5ada9a-5719-4ca1-89d2-17adb48d1493
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXBNZnZGekFJcFFDcm8
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute, Parks Canada and the
+        authors of the dataset.
+      fr: Le crédit approprié doit être accordé à l'Institut Hakai, à Parcs Canada
+        et aux auteurs de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -123.81789453
+  - 48.48393505
+  - -122.96096027
+  - 49.05595865
+  vertical:
+  - 0.0
+  - 100.0
+  vertical_positive: depthPositive
