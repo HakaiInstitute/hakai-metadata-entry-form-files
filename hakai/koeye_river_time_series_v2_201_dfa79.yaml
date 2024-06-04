@@ -1,0 +1,128 @@
+contact:
+- inCitation: true
+  individual:
+    email: emily.haughton@hakai.org
+    name: Haughton, Emily
+    position: Technician
+  organization:
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - custodian
+  - author
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+  organization:
+    email: ian.giesbrecht@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - principalInvestigator
+  - author
+- inCitation: true
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Koeye River stream temperature, stage, and conductivity time-series version
+      2
+    fr: Série chronologique sur la température, le stade et la conductivité du cours
+      d'eau de la rivière Koeye version 2
+  name:
+    en: github
+  url: https://github.com/HakaiInstitute/KR01-time-series-v2_2017-2021
+identification:
+  abstract:
+    en: "The shortage of continuous stream temperature, conductivity, and stage data\
+      \ for minimally disturbed, \nfreshwater wadeable streams impedes the analyses\
+      \ of long-term trends in streams data. The collection \nof these data will further\
+      \ efforts to detect and track climate change–related impacts over the long term,\
+      \ \nfurther our understanding of how biological, thermal, and hydrologic conditions\
+      \ and processes vary \nspatially and temporally and inter-relate to one another.\
+      \ This time-series was created using 5-minute \naverage stage, water temperature,\
+      \ and conductivity measurements that are Quality Controlled (QC), \nflagged\
+      \ and corrected where needed (Table 2). Data gaps were filled and noisy, faulty\
+      \ data were \ncorrected. These Estimated Values were assigned an ‘EV’ flag.\
+      \ Suspicious data points that could not be \ncorrected and estimated were assigned\
+      \ an ‘SVC’ flag, for Suspicious Value – Caution. All other data \npoints were\
+      \ flagged ‘AV’ for Accepted Value."
+    fr: "Le manque de données continues sur la température, la conductivité et les\
+      \ étapes du flux pour les perturbations minimes, \nles cours d'eau douce à gué\
+      \ entravent l'analyse des tendances à long terme des données sur les cours d'eau.\
+      \ La collection \nde ces données permettront de poursuivre les efforts visant\
+      \ à détecter et à suivre les impacts liés aux changements climatiques à long\
+      \ terme, \napprofondir notre compréhension de la façon dont les conditions et\
+      \ les processus biologiques, thermiques et hydrologiques varient \nspatialement\
+      \ et temporellement et interreliés les uns aux autres. Cette série chronologique\
+      \ a été créée en utilisant 5 minutes \nmesures de l'étage moyen, de la température\
+      \ de l'eau et de la conductivité contrôlées par la qualité (CQ), \nsignalées\
+      \ et corrigées au besoin (tableau 2). Les lacunes dans les données ont été comblées\
+      \ et les données erronées et bruyantes ont \ncorrigé. Ces valeurs estimées ont\
+      \ reçu un indicateur « EV ». Points de données suspects qui n'ont pas pu être\
+      \ \ncorrigées et estimées ont reçu un indicateur « SVC », pour Valeur suspecte\
+      \ — Attention. Toutes les autres données \nles points ont été marqués « AV »\
+      \ pour Valeur acceptée."
+  associated_resources: []
+  dates:
+    creation: '2017-05-20'
+  identifier: https://doi.org/10.21966/nk1v-ca06
+  keywords:
+    default:
+      en:
+      - water temperature
+      - water level
+      - stream stage
+      - conductivity
+      - watersheds
+      fr:
+      - température de l'eau
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2017-05-20T19:00:00.000Z'
+  temporal_end: '2021-10-22T19:00:00.000Z'
+  title:
+    en: Koeye River stream temperature, stage, and conductivity time-series version
+      2
+    fr: Série chronologique sur la température, le stade et la conductivité du cours
+      d'eau de la rivière Koeye version 2
+metadata:
+  dates:
+    publication: '2022-03-25'
+    revision: '2022-03-25T21:08:43.417Z'
+  identifier: dfa79d1b-25ce-44d0-94e9-39c807bd06b6
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-Mv0zduz81h8KIChocRc
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  bbox:
+  - -127.9
+  - 51.76
+  - -127.6
+  - 51.8
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
