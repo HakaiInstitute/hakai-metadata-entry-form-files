@@ -1,0 +1,319 @@
+contact:
+- inCitation: true
+  individual:
+    email: sdthomps@uvic.ca
+    name: Thompson, Shanley
+    position: Researcher
+  organization:
+    address: 3800 Finnerty Road Victoria, BC V8P 5C2
+    city: Victoria
+    country: Canada
+    email: sdthomps@uvic.ca
+    name: University of Victoria
+    ror: https://ror.org/04s5mat29
+    url: http://www.uvic.ca/
+  roles:
+  - pointOfContact
+  - editor
+  - processor
+  - rightsHolder
+  - originator
+  - principalInvestigator
+  - owner
+  - custodian
+  - distributor
+- inCitation: true
+  individual:
+    name: Nelson, Trisalyn
+  organization:
+    city: Victoria
+    country: Canada
+    name: University of Victoria
+    ror: https://ror.org/04s5mat29
+    url: http://www.uvic.ca/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Frazer, G. W.
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Saunders, Sari
+  organization:
+    name: BC Ministry of Forests, Lands and Natural Resource Operations
+  roles:
+  - author
+- inCitation: false
+  individual:
+    email: keith.holmes@hakai.org
+    name: Holmes, Keith
+    orcid: https://orcid.org/0000-0001-8796-8222
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial
+    position: Geospatial Science
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+- inCitation: true
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset.
+      Tile package link (for fast viewing online)
+    fr: L'instance AGOL de Hakai est la plate-forme d'accès et d'utilisation en ligne
+      de cet ensemble de données. Lien vers le package de tuiles (pour une visualisation
+      rapide en ligne)
+  name:
+    en: Online map - tile package
+  url: http://hakai.maps.arcgis.com/home/item.html?id=4cc3b8991dc44765a84a6459e64583a1
+- description:
+    en: Metadata package - Hakai Google Drive
+    fr: Paquet de métadonnées — Hakai Google Drive
+  name:
+    en: Data package
+  url: https://drive.google.com/open?id=1M2LGth_ICscNvZTGdqcugtzXriuUIedk
+identification:
+  abstract:
+    en: 'The purpose of this work was to define and map a set of repeating ecohydrological
+      classes on Calvert and Hecate Islands using remote sensing data and an unsupervised
+      classification technique. The resulting map provides a new tool for characterizing
+      the extent and internal properties of different ecosystem classes, for stratifying
+      future study designs, and for evaluating the influence of terrestrial landscape
+      characteristics on watershed processes.
+
+
+      "Traditionally, forest inventory and ecosystem mapping at local to regional
+      scales rely on manual interpretation of aerial photographs, based on standardized,
+      expert-driven classification schemes. These current approaches provide the information
+      needed for forest ecosystem management but constrain the thematic and spatial
+      resolution of mapping and are infrequently repeated. The goal of this research
+      was to demonstrate the utility of an unsupervised, quantitative technique based
+      on Light Detection And Ranging (LiDAR) data and multi-spectral satellite imagery
+      for mapping local-scale ecosystems over a heterogeneous landscape of forested
+      and non-forested ecosystems. We derived a range of metrics characterizing local
+      terrain and vegetation from LiDAR and RapidEye imagery for Calvert and Hecate
+      Islands, British Columbia. These metrics were used in a cluster analysis to
+      classify and quantitatively characterize ecological units across the island.
+      A total of 18 clusters were derived. The clusters were attributed with quantitative
+      summary statistics from the remotely sensed data inputs and contextualized through
+      comparison to ecological units delineated in a traditional expert-driven mapping
+      method using aerial photographs. The 18 clusters describe ecosystems ranging
+      from open shrublands to dense, productive forest and include a riparian zone
+      and many wetter and wetland ecosystems. The clusters provide detailed, spatially-explicit
+      information for characterizing the landscape as a mosaic of units defined by
+      topography and vegetation structure. This study demonstrates that using various
+      types of remotely sensed data in a quantitative classification can provide scientists
+      and managers with multi- variate information unique from that which results
+      from traditional, expert-based ecosystem mapping methods." - Abstract from Thompson
+      et al. 2016.
+
+
+      A complete explanation of methods is available in Thompson et al. 2016. Data-driven
+      regionalization of forested and non-forested ecosystem in coastal British Columbia
+      with LiDAR and RapidEye imagery. The manuscript is available here: <a href="https://www.researchgate.net/publication/296623199_Data-driven_regionalization_of_forested_and_non-forested_ecosystems_in_coastal_British_Columbia_with_LiDAR_and_RapidEye_imagery">Thompson
+      et al. 2016</a>
+
+
+      A small number of data voids in the 2012 LiDAR coverage were present and were
+      excluded from the analysis. Although the voids have since been filled with new
+      LiDAR data acquired in 2014, the new data were not included in the analysis
+      of Thompson et al. Other “gaps” in the spatial coverage of the final map are
+      a result of the exclusion of non-vegetated areas (as guided by the Normalized
+      Difference Vegetation Index (NDVI) and the provincial Freshwater Atlas (FWA):
+      http://geobc.gov.bc.ca/base-mapping/atlas/fwa/index.html). In addition to small
+      waterbodies, these non-vegetated areas include a few small areas at high elevation
+      that were snow-covered at the time of the RapidEye image acquisition.
+
+
+      DOI: http://dx.doi.org/10.21966/1.135248'
+    fr: 'Le but de ce travail était de définir et de cartographier un ensemble de
+      classes écohydrologiques répétitives sur les îles Calvert et Hécate à l''aide
+      de données de télédétection et d''une technique de classification non supervisée.
+      La carte qui en résulte fournit un nouvel outil pour caractériser l''étendue
+      et les propriétés internes des différentes classes d''écosystèmes, pour stratifier
+      les plans d''étude futurs et pour évaluer l''influence des caractéristiques
+      du paysage terrestre sur les processus des bassins versants.
+
+
+      « Traditionnellement, l''inventaire forestier et la cartographie des écosystèmes
+      à l''échelle locale et régionale reposent sur l''interprétation manuelle de
+      photographies aériennes, sur la base de schémas de classification normalisés
+      et pilotés par des experts. Ces approches actuelles fournissent les informations
+      nécessaires à la gestion des écosystèmes forestiers mais limitent la résolution
+      thématique et spatiale de la cartographie et sont rarement répétées. L''objectif
+      de cette recherche était de démontrer l''utilité d''une technique quantitative
+      non supervisée basée sur des données LiDAR (Light Detection And Ranging) et
+      des images satellitaires multispectrales pour cartographier les écosystèmes
+      à l''échelle locale sur un paysage hétérogène d''écosystèmes forestiers et non
+      forestiers. Nous avons dérivé une gamme de mesures caractérisant le terrain
+      et la végétation locaux à partir d''images LiDAR et RapidEye pour les îles Calvert
+      et Hécate, en Colombie-Britannique. Ces paramètres ont été utilisés dans une
+      analyse de grappes pour classer et caractériser quantitativement les unités
+      écologiques de l''île. Au total, 18 grappes ont été dérivées. Les grappes ont
+      été attribuées avec des statistiques sommaires quantitatives à partir des entrées
+      de données de télédétection et contextualisées par comparaison avec des unités
+      écologiques délimitées dans une méthode de cartographie traditionnelle dirigée
+      par des experts à l''aide de photographies aériennes. Les 18 groupes décrivent
+      des écosystèmes allant des zones arbustives ouvertes aux forêts denses et productives
+      et comprennent une zone riveraine et de nombreux écosystèmes plus humides et
+      humides. Les grappes fournissent des informations détaillées et spatialement
+      explicites pour caractériser le paysage en tant que mosaïque d''unités définies
+      par la topographie et la structure de la végétation. Cette étude démontre que
+      l''utilisation de divers types de données de télédétection dans une classification
+      quantitative peut fournir aux scientifiques et aux gestionnaires des informations
+      multivariées uniques à celles qui résultent des méthodes traditionnelles de
+      cartographie des écosystèmes basées sur des experts. » - Résumé de Thompson
+      et al. 2016.
+
+
+      Une explication complète des méthodes est disponible dans Thompson et al. 2016.
+      Régionalisation basée sur les données de l''écosystème forestier et non forestier
+      de la côte de la Colombie-Britannique à l''aide d''images LiDAR et RapidEye.
+      Le manuscrit est disponible ici : <a href="https://www.researchgate.net/publication/296623199_Data-driven_regionalization_of_forested_and_non-forested_ecosystems_in_coastal_British_Columbia_with_LiDAR_and_RapidEye_imagery">Thompson
+      et al. 2016</a>
+
+
+      Un petit nombre de vides de données dans la couverture LiDAR de 2012 étaient
+      présents et ont été exclus de l''analyse. Bien que les vides aient depuis été
+      comblés par de nouvelles données LiDAR acquises en 2014, les nouvelles données
+      n''ont pas été incluses dans l''analyse de Thompson et al. D''autres « lacunes »
+      dans la couverture spatiale de la carte finale sont le résultat de l''exclusion
+      des zones non végétalisées (conformément à l''indice de végétation par différence
+      normalisée (NDVI) et à l''Atlas provincial des eaux douces (FWA) : http://geobc.gov.bc.ca/base-mapping/atlas/fwa/index.html).
+      Outre les petits plans d''eau, ces zones non végétalisées comprennent quelques
+      petites zones à haute altitude qui étaient recouvertes de neige au moment de
+      l''acquisition de l''image RapidEye.
+
+
+      DOI : http://dx.doi.org/10.21966/1.135248'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2012-08-04'
+    publication: '2015-08-25'
+  identifier: https://doi.org/10.21966/1.135248
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - LiDAR
+      - wetlands
+      - rainforest
+      - classification
+      - ecosystem mapping
+      - RapidEye
+      - remote sensing
+      - Calvert Island
+      - ecosystem
+      - forest
+      - temperate forest
+      - other
+      - watersheds
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Airborne Coastal Observatory
+  status: published
+  temporal_begin: '2012-08-04T19:00:00.000Z'
+  title:
+    en: LiDAR-based Ecosystem Classification for Calvert Island
+    fr: Classification des écosystèmes basée sur le Lidar pour l'île Calvert
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2024-03-20T19:25:26.385Z'
+  identifier: 9e61819e-8385-41d2-a5c5-0e2f37c522ef
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVFjSmdJMGxrU1pZbXM
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.22692871093747
+  - 51.40948589555509
+  - -127.80944824218746
+  - 51.74233687689102
+  vertical:
+  - 0.0
+  - 1014.0
+  vertical_positive: heightPositive
