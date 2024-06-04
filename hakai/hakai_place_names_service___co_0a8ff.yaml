@@ -1,0 +1,233 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - processor
+  - owner
+- inCitation: false
+  individual:
+    name: McInnes, William
+    orcid: https://orcid.org/0000-0003-3208-6358
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+- inCitation: true
+  individual:
+    name: BC Base Annotations data, TRIM
+  organization:
+    name: GEOBC TRIM Program
+    url: http://geobc.gov.bc.ca/base-mapping/atlas/trim/
+  roles:
+  - owner
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+distribution:
+- description:
+    en: BC Base Annotations data
+    fr: Données des annotations de base BC
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: BC Base Annotations data
+  url: http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset/'s
+      reference layer
+  name:
+    en: Hakai's ArcGIS Online Platform (restricted access)
+  url: http://hakai.maps.arcgis.com/home/item.html?id=ec7c2b5d44b8487a91bfbfed07a5d54d
+identification:
+  abstract:
+    en: 'The place names service is derived from the British Columbia Terrain Resource
+      Information Management Program (TRIM) annotation layer, as well as from place
+      name information from the Hakai Institute.
+
+
+      The place names service consists of 4 layers:
+
+      -TRIM 1:20000 Annotation
+
+      -TRIM 1:1250000 Annotation
+
+      -TRIM 1:250000 Annotation
+
+      -Hakai Place Names
+
+
+      The TRIM Annotation metadata is available here http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
+
+      More information about the TRIM program is here: http://geobc.gov.bc.ca/base-mapping/atlas/trim/
+
+
+      The Hakai Places Layer has the following attributes:
+
+      OBJNAM: Name of the feature
+
+      Landmarks: Code used to classify objects for labelling scale dependencies
+
+      OBJTYPE: Type of object
+
+      OBJCLASS: Class of object
+
+      LABGROUP: Label group category (unused)
+
+
+      Processing by:
+
+      Will McInnes, Keith Holmes (Hakai Institute), and BC Base Annotations data'
+    fr: 'Le service de noms de lieux est dérivé de la couche d''annotations TRIM (British
+      Columbia Terrain Resource Information Management Program), ainsi que des informations
+      sur les noms de lieux de l''Institut Hakai.
+
+
+      Le service des noms de lieux se compose de 4 couches :
+
+      -TRIM 1:20000 Annotation
+
+      -TRIM 1:1250000 Annotation
+
+      -TRIM 1:250000 Annotation
+
+      -Noms de lieux Hakai
+
+
+      Les métadonnées d''annotation TRIM sont disponibles ici http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
+
+      Vous trouverez plus d''informations sur le programme TRIM ici : http://geobc.gov.bc.ca/base-mapping/atlas/trim/
+
+
+      La couche Hakai Places possède les attributs suivants :
+
+      OBJNAM : Nom de la fonctionnalité
+
+      Points de repère : Code utilisé pour classer les objets pour l''étiquetage des
+      dépendances d''échelle
+
+      OBJTYPE : Type d''objet
+
+      OBJCLASS : Classe d''objet
+
+      LABGROUP : catégorie de groupe d''étiquettes (inutilisée)
+
+
+      Traitement par :
+
+      Données de Will McInnes, Keith Holmes (Hakai Institute) et BC Base Annotations'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2015-11-18'
+  identifier: https://doi.org/10.21966/446t-q065
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - label
+      - place name
+      - place
+      - service
+      - annotations
+      - name
+      - site
+      - location
+      - hakai
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  - Airborne Coastal Observatory
+  status: published
+  title:
+    en: Hakai Place Names Service - Coastal British Columbia - Canada
+    fr: Service des noms de lieux Hakai - Côte de la Colombie-Britannique - Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-01-19'
+    revision: '2024-03-19T21:04:46.952Z'
+  identifier: 0a8ff4c9-158a-4a46-9bb0-9d480ff40466
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWI4eUtoamNrWXJDbmg
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -129.26513671874994
+  - 49.38237278700956
+  - -123.90380859374997
+  - 52.38901106223457
+  vertical:
+  - 0.0
+  - 2500.0
+  vertical_positive: heightPositive
