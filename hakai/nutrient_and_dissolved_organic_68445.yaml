@@ -1,0 +1,257 @@
+contact:
+- inCitation: true
+  individual:
+    email: kstpier4@uottawa.ca
+    name: St. Pierre, Kyra
+    orcid: https://orcid.org/0000-0003-0981-920X
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - owner
+  - custodian
+  - distributor
+- inCitation: true
+  individual:
+    name: Hunt, Brian P. V.
+    orcid: https://orcid.org/0000-0003-4718-4962
+  organization:
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Tank, Suzanne
+    orcid: https://orcid.org/0000-0002-5371-6577
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+  organization:
+    city: Campbell River
+    country: Canada
+    email: ian.giesbrecht@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - author
+- inCitation: true
+  individual:
+    name: Floyd, William
+    orcid: https://orcid.org/0000-0001-7487-5721
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Korver, Maartje C.
+    orcid: https://orcid.org/0000-0003-1062-4864
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Oliver, Allison A.
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Lertzman, Ken
+    orcid: https://orcid.org/0000-0002-4211-2188
+  roles:
+  - author
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Data Package
+    fr: Package de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Data package
+  url: https://drive.google.com/drive/folders/1KiUfZOUuRqTdTIKJM4Xc0iQV21s7rdel?usp=sharing
+identification:
+  abstract:
+    en: "This data package contains data associated with the manuscript St. Pierre\
+      \ et al. (2020), to be submitted to Biogeosciences. Data in this package characterise\
+      \ spatial and temporal variability in nutrient (nitrogen, phosphorus, iron,\
+      \ silica) and dissolved organic carbon (DOC) concentrations in seven freshwater\
+      \ streams on Calvert and Hecate Islands, and the surface (0-5 m) waters at 13\
+      \ marine stations within Meay and Kwakshua Channels on the British Columbia\
+      \ Central Coast. Briefly, the streams and marine stations were sampled at approximately\
+      \ monthly intervals between August 2014 and December 2018. Detailed information\
+      \ on sampling protocols, sample analysis, and data processing can be found in\
+      \ St. Pierre et al. (2020).\n\nThere are 4 datasets associated with this package.\
+      \ Data dictionaries associated with each dataset are included in the ‘Data dictionary.xlsx’\
+      \ spreadsheet. Methodological information is detailed in St. Pierre et al. (2020).\
+      \ Each dataset is described below: \n‘Freshwater Chemistry (2014-2018) - Final.csv’:\
+      \ Concentrations of nutrients and dissolved organic carbon in mg/L. Used with\
+      \ discharge data to calculate stream fluxes.  \n‘All watershed nutrient fluxes\
+      \ - Final.csv’: Daily nutrient and organic carbon fluxes by watershed between\
+      \ 1-Aug-2014 and 31-Dec-2018. Also includes stoichiometric ratios of the fluxes.\
+      \ \n‘Marine Nutrient + YSI data - Final.csv’: Measured surface water (0-5 m)\
+      \ nutrient and dissolved organic carbon chemistry across 13 marine stations\
+      \ in Kwakshua and Meay Channels.  \n‘Watershed Time Series - Rain and Air Temp.csv’:\
+      \ Watershed-specific monthly mean, minimum, and maximum air temperature and\
+      \ total monthly rainfall. Climate normals, model monthly temperature and precipitation\
+      \ were extracted from climatewna.com (Wang et al. 2016) using the weather station\
+      \ coordinates for comparison with the measured quantities and are also included.\
+      \  \n\nDetailed methodology is found in:   \nSt. Pierre, K.A., Hunt, B.P.V,\
+      \ Tank, S.E., Giesbrecht, I., Floyd, W.C., Korver, M.C., Lertzman, K. (2020)\
+      \ Rain-fed streams dilute inorganic nutrients but subsidise organic matter-associated\
+      \ nutrients in coastal waters of the northeast Pacific Ocean. [To be submitted\
+      \ to Biogeosciences]\n\nAssociated are the discharge dataset (Korver et al.\
+      \ 2019a) and stream rainfall event sampling dataset (Korver et al. 2019b). Stream\
+      \ rainfall event chemistry is integrated into the ‘Freshwater Chemistry (2014-2018)\
+      \ Final.csv’ dataset."
+    fr: "Ce paquet de données contient des données associées au manuscrit St. Pierre\
+      \ et al. (2020), à soumettre à Biogéosciences. Les données de cet ensemble caractérisent\
+      \ la variabilité spatiale et temporelle des concentrations de nutriments (azote,\
+      \ phosphore, fer, silice) et de carbone organique dissous (COD) dans sept cours\
+      \ d'eau douce des îles Calvert et Hécate, et dans les eaux de surface (0-5 m)\
+      \ de 13 stations marines dans les chenaux Meay et Kwakshua sur la côte centrale\
+      \ de la Colombie-Britannique. En bref, les cours d'eau et les stations maritimes\
+      \ ont été échantillonnés à des intervalles approximativement mensuels entre\
+      \ août 2014 et décembre 2018. Des informations détaillées sur les protocoles\
+      \ d'échantillonnage, l'analyse des échantillons et le traitement des données\
+      \ sont disponibles dans St. Pierre et al. (2020).\n\nQuatre jeux de données\
+      \ sont associés à ce package. Les dictionnaires de données associés à chaque\
+      \ jeu de données sont inclus dans la feuille de calcul « Data dictionary.xlsx ».\
+      \ Les informations méthodologiques sont détaillées dans St. Pierre et al. (2020).\
+      \ Chaque jeu de données est décrit ci-dessous : \n« Chimie des eaux douces (2014-2018)\
+      \ - Final.csv » : Concentrations de nutriments et de carbone organique dissous\
+      \ en mg/L. Utilisées avec les données sur les rejets pour calculer les flux\
+      \ des cours d'eau. \n« Flux nutritifs de tous les bassins versants - Final.csv » :\
+      \ flux quotidiens de nutriments et de carbone organique par bassin versant entre\
+      \ le 1er août 2014 et le 31 décembre 2018. Inclut également les rapports stoechiométriques\
+      \ des flux. \n« Données sur les éléments nutritifs marins + YSI - Final.csv » :\
+      \ Mesure de la chimie des nutriments et du carbone organique dissous dans les\
+      \ eaux de surface (0-5 m) dans 13 stations marines des chenaux Kwakshua et Meay.\
+      \ \n« Série chronologique des bassins versants - Pluie et air Temp.csv » : températures\
+      \ mensuelles moyennes, minimales et maximales de l'air et précipitations mensuelles\
+      \ totales propres au bassin versant. Les normales climatiques, la température\
+      \ mensuelle du modèle et les précipitations ont été extraites du site climatewna.com\
+      \ (Wang et al. 2016) en utilisant les coordonnées de la station météorologique\
+      \ pour comparaison avec les quantités mesurées et sont également incluses. \n\
+      \nLa méthodologie détaillée se trouve dans : \nSaint-Pierre, K.A., Hunt, B.P.V,\
+      \ Tank, SE, Giesbrecht, I., Floyd, W.C., Korver, M.C., Lertzman, K. (2020) Les\
+      \ cours d'eau pluviaux diluent les nutriments inorganiques mais subventionnent\
+      \ les nutriments associés à la matière organique dans les eaux côtières du nord-est\
+      \ de l'océan Pacifique. [À soumettre à Biogéosciences]\n\nL'ensemble de données\
+      \ sur les débits (Korver et al. 2019a) et l'ensemble de données d'échantillonnage\
+      \ des précipitations dans les cours d'eau (Korver et al. 2019b) sont associés.\
+      \ La chimie des précipitations dans les cours d'eau est intégrée dans le jeu\
+      \ de données « Chimie des eaux douces (2014-2018) Final.csv »."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2014-08-01'
+    publication: '2020-08-10'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/n0h9-cq15
+  keywords:
+    default:
+      en:
+      - Biogeochemistry
+      - carbon
+      - nutrients
+      - watersheds
+      - oceanography
+    eov:
+      en:
+      - nutrients
+      - dissolvedOrganicCarbon
+      fr:
+      - Nutriments
+      - Carbone organique dissous
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Watersheds
+  status: published
+  temporal_begin: '2014-08-01T19:00:00.000Z'
+  temporal_end: '2018-12-31T20:00:00.000Z'
+  title:
+    en: Nutrient and dissolved organic carbon in fresh and marine waters of Kwakshua
+      Channel, British Columbia, Canada. Version 1.0.
+    fr: Nutriments et carbone organique dissous dans les eaux douces et marines du
+      chenal Kwakshua, Colombie-Britannique, Canada. La version 1.0.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2024-03-14T17:41:57.148Z'
+  identifier: 6844547c-708e-437b-aef7-157b4d9d9bcb
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW9FaWlnNDM5TVFnV0I
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.15445681
+  - 51.61731613
+  - -127.95404703
+  - 51.71899959
+  vertical:
+  - 0.0
+  - 5.0
+  vertical_positive: heightPositive
