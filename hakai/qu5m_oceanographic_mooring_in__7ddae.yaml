@@ -1,0 +1,134 @@
+contact:
+- inCitation: false
+  individual:
+    email: jessy.barrette@hakai.org
+    name: Barrette, Jessy
+    orcid: https://orcid.org/0000-0002-0422-2589
+  organization:
+    address: 1713 Hyacinthe Bay Rd
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+- inCitation: true
+  organization:
+    address: 1713 Hyacinthe Bay Rd
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+  - owner
+  - funder
+  - publisher
+distribution:
+- name:
+    en: ERDDAP Dataset
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiQU5MMooringProvisional.html
+identification:
+  abstract:
+    en: 'The QU5 mooring is a surface mooring deployed in a shallow coastal environment
+      near the Hakai Institute Quadra Island station. The mooring is a test platform
+      were low-cost oceanographic instrumentation is deployed at different depths
+      to record sea water temperatures at an accuracy of 0.2 degrees Celsius. The
+      temperature sensors are attached to an auxiliary line suspended from the surface
+      buoy and along the main anchor line. Instruments are distributed tighter near
+      the surface to better capture the higher vertical variability near the surface.
+
+
+      This dataset present the provisional dataset which has been automatically QCed
+      and flagged.'
+    fr: 'Le mouillage QU5 est un mouillage de surface déployé dans un environnement
+      côtier peu profond près de la station de recherche de l''île Quadra de l''Institut
+      Hakai. Le mouillage est une plate-forme d''essai où de instrumentation océanographique
+      à faible coût est déployée à différentes profondeurs pour enregistrer la température
+      de l''eau de mer à une précision de 0,2 degrés Celsius. Les capteurs de température
+      sont fixés à une ligne auxiliaire suspendue à la bouée de surface et le long
+      de la ligne d''ancrage principale. Les instruments sont plus rapprochés près
+      de la surface afin de mieux saisir la variabilité verticale.
+
+
+
+      Ce jeu de données présente le jeu de données provisoire qui a été automatiquement
+      QCed et marqué.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2018-10-05'
+  keywords:
+    default:
+      en:
+      - temperature
+      - mooring
+      - low-cost
+      - pruth
+      - Calvert Island
+    eov:
+      en:
+      - subSurfaceTemperature
+      - seaSurfaceTemperature
+      fr:
+      - Température sous la surface
+      - Température de surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2018-10-05T19:00:00.000Z'
+  title:
+    en: QU5M Oceanographic Mooring in Hyacinthe Bay, Quadra Island, Provisional
+    fr: Mouillage océanographique QU5M dans la baie Hyacinthe, île Quadra, provisoires
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2021-10-20'
+    revision: '2024-03-14T20:08:10.360Z'
+  identifier: 7ddae37a-e706-45d2-8060-8306300a98c8
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW0Az3HzggNmnqgHDw3
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Temperature accuracy is of 0.2C. This is a provisional dataset which has
+        been automatically QCed and flagged.
+      fr: La précision de la température est de 0,2 °C. Il s'agit d'un jeu de données
+        provisoire qui a été automatiquement QCed et marqué.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform: []
+spatial:
+  bbox:
+  - -125.212195
+  - 50.12001367
+  - -125.212195
+  - 50.12001367
+  vertical:
+  - 0.0
+  - 60.0
+  vertical_positive: depthPositive
