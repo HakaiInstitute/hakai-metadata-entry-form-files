@@ -1,0 +1,137 @@
+contact:
+- inCitation: true
+  individual:
+    email: jessy.barrette@hakai.org
+    name: Barrette, Jessy
+    orcid: https://orcid.org/0000-0002-0422-2589
+    position: Marine Instrument Specialist
+  organization:
+    city: Campbell River
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+  - pointOfContact
+  - processor
+- inCitation: true
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - owner
+  - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: ERDDAP Dataset
+  url: catalogue.hakai.org/erddap/tabledap/HakaiCalvertCP1TideGauge.html
+identification:
+  abstract:
+    en: This dataset present a time series of water level measurements made by an
+      RBR Solo pressure sensor deployed by the Hakai Institute near the Calvert Island
+      Research Station in the coastal region of Choke Pass. Sea Pressure collected
+      by the instrument just above the sea bed was then corrected to substract the
+      atmospheric pressure based on the Hakai Pruth Dock Weather Station. The resulting
+      sea pressure was then converted to a depth with the Gibbs Sea Water TEOS-10
+      toolbox and substracted by the mean water level measured at the location.
+    fr: Ce jeu de données présente une série chronologique de mesures de niveau d'eau
+      effectuées par un capteur de pression RBR Solo déployé par l'Institut Hakai
+      près de la station de recherche de l'île Calvert dans la région côtière de Choke
+      Pass. La pression de la mer collectée par l'instrument juste au-dessus du fond
+      marin a ensuite été corrigée pour soustraire la pression atmosphérique basée
+      sur la station météorologique du quai de Hakai Pruth. La pression de mer résultante
+      a ensuite été convertie en profondeur avec la boîte à outils Gibbs Sea Water
+      TEOS-10 et soustraite par le niveau d'eau moyen mesuré à l'emplacement.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2020-02-12'
+    publication: '2021-12-03'
+  identifier: https://doi.org/10.21966/kqd6-1j57
+  keywords:
+    default:
+      en:
+      - sea level
+      - pressure
+      - Calvert island
+      fr:
+      - niveau eau
+      - Pression
+    eov:
+      en:
+      - seaSurfaceHeight
+      fr:
+      - Niveau de l'eau
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2020-02-12T20:00:00.000Z'
+  temporal_end: '2020-09-29T19:00:00.000Z'
+  title:
+    en: Water Level measured from a Pressure Tide Gauge Instrument Deployed in Choke
+      Pass on Calvert Island Research
+    fr: Série chronologique du niveau d'eau à partir d'un instrument de marégraphe
+      de pression déployé dans la région de Choke Pass sur l'île Calvert, Recherche
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2021-12-03'
+    revision: '2024-03-15T19:14:10.977Z'
+  identifier: 6652a7a9-d27f-4cbe-ac04-435c238e991d
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-Mknr8pYvIQKw4r-WTFd
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  bbox:
+  - -128.12103
+  - 51.670666
+  - -128.12103
+  - 51.670666
+  vertical:
+  - 0.0
+  - 6.0
+  vertical_positive: depthPositive
