@@ -1,0 +1,232 @@
+contact:
+- inCitation: true
+  individual:
+    email: brett.johnson@hakai.org
+    name: Johnson, Brett
+    orcid: https://orcid.org/0000-0001-9317-0364
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+  - principalInvestigator
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: jessy.barrette@hakai.org
+    name: Barrette, Jessy
+    orcid: https://orcid.org/0000-0002-0422-2589
+  organization:
+    address: Hakai Institute PO Box 25039
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - processor
+- inCitation: true
+  individual:
+    name: Gan, Julian
+    orcid: https://orcid.org/0000-0001-8864-4414
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Bachen, Krystal
+    orcid: https://orcid.org/0000-0003-0886-157X
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: van der Stap, Tim
+    orcid: https://orcid.org/0000-0002-0053-0795
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: b.hunt@oceans.ubc.ca
+    name: Hunt, Brian
+    orcid: https://orcid.org/0000-0003-4718-4962
+    position: Associate Professor
+  organization:
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - author
+  - principalInvestigator
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Takes you to ERDDAP subset data form with cruise identifiers pre-filled. Select
+      columns you wish to download and press submit.
+    fr: Vous dirige vers le formulaire de données du sous-ensemble ERDDAP avec les
+      identifiants de croisière préremplis. Sélectionnez les colonnes que vous souhaitez
+      télécharger et appuyez sur Soumettre.
+  name:
+    en: Data Subset Form on Hakai ERDDAP Server
+    fr: Formulaire de sous-ensemble sur le serveur Hakai ERDDAP
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiWaterPropertiesInstrumentProfileProvisional.html?work_area,cruise,hakai_id,vessel,device_model,device_sn,cast_processing_stage,station&work_area=~%22QUADRA|JOHNSTONE%20STRAIT%22&cruise=~%22JS|JS%20C|JS1|JS12|JSA1|JSA2|JSB|JSC|JSSOCKEYE|OTHER,JSSOCKEYE|DI_C,DISOCKEYE|DI_W,DISOCKEYE|DISOCKEYE%22
+- description:
+    en: Automatically starts download of net cdf file (.nc) that will always be the
+      most recent version of the complete dataset
+    fr: Lance automatiquement le téléchargement du fichier NetCDF (.nc) qui sera toujours
+      la version la plus récente de l'ensemble de données complet
+  name:
+    en: Direct Download of NetCDF (.nc) File
+    fr: NetCDF (.nc) Téléchargement direct d'un fichier dynamique
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiWaterPropertiesInstrumentProfileProvisional.nc?work_area%2Ccruise%2Chakai_id%2Cvessel%2Coperators%2Ccomments%2Cdevice_model%2Cdevice_sn%2Cdevice_firmware%2Ccast_processing_stage%2Cstation%2Clatitude%2Clongitude%2Cprecise_latitude%2Cprecise_longitude%2Ctime%2Cbottom_date_time%2Cend_date_time%2Cmeasurement_date_time%2Cbottom_depth%2Ctarget_depth%2Cdrop_speed%2Cdirection_flag%2Cdescent_rate%2Cdepth%2Cdepth_UQL%2Cdepth_flag_description%2Cpressure%2Cpressure_UQL%2Cpressure_flag_description%2Cconductivity%2Cconductivity_UQL%2Cconductivity_flag_description%2Ctemperature%2Ctemperature_UQL%2Ctemperature_flag_description%2Csalinity%2Csalinity_UQL%2Csalinity_flag_description%2Cdissolved_oxygen_ml_l%2Cdissolved_oxygen_ml_l_UQL%2Cdissolved_oxygen_ml_l_flag_description%2Crinko_do_ml_l%2Crinko_do_ml_l_UQL%2Crinko_do_ml_l_flag_description%2Cflc%2Cflc_UQL%2Cflc_flag_description%2Cturbidity%2Cturbidity_UQL%2Cturbidity_flag_description%2Cpar%2Cpar_UQL%2Cpar_flag_description%2Cc_star_at%2Cc_star_at_UQL%2Cc_star_at_flag_description%2Cph%2Cph_UQL%2Ccph_flag_description%2Cbackscatter_beta%2Cbackscatter_beta_UQL%2Cbackscatter_beta_flag_description%2Ccdom_ppb%2Ccdom_ppb_UQL%2Ccdom_flag_description&work_area=~%22QUADRA%7CJOHNSTONE%20STRAIT%22&cruise=~%22JS%7CJS%20C%7CJS1%7CJS12%7CJSA1%7CJSA2%7CJSB%7CJSC%7CJSSOCKEYE%7COTHER%2CJSSOCKEYE%7CDI_C%2CDISOCKEYE%7CDI_W%2CDISOCKEYE%7CDISOCKEYE%22
+- description:
+    en: Includes the global attributes of the dataset (NC_GLOBAL) as well as variables
+      and their attributes
+    fr: Inclut les attributs globaux de l'ensemble de données (NC_GLOBAL) ainsi que
+      les variables et leurs attributs
+  name:
+    en: Data Dictionary
+    fr: Dictionnaire de données
+  url: https://catalogue.hakai.org/erddap/info/HakaiWaterPropertiesInstrumentProfileResearch/index.html
+- description:
+    en: This manual details the methods for processing and quality control checking
+      these data
+    fr: Ce manuel détaille les méthodes de traitement et de contrôle qualité de ces
+      données.
+  name:
+    en: Methods Manual for Profile Processing and QA/QC
+    fr: Manuel des méthodes pour le traitement des profils et le QA/QC
+  url: https://github.com/HakaiInstitute/hakai-datasets/raw/development/datasets_documents/HakaiWaterPropertiesProfiles/Hakai_Water_Properties_Processing_and_QAQC_Procedure_20210331.pdf
+identification:
+  abstract:
+    en: Water column property data including temperature, depth, conductivity, salinity,
+      dissolved oxygen, fluorescence, photosynthetically active radiation, and chlorophyll
+      a were measure with an RBR CTD during salmon fishing operations between 2016
+      and 2023 in the Discovery Islands and Johnstone Strait, British Columbia. These
+      data relate the physical and biogeochemical conditions migrating juvenile salmon
+      experience in their early marine migration life cycle phase with their health
+      and survival.
+    fr: Les données sur les propriétés de la colonne d'eau, notamment la température,
+      la profondeur, la conductivité, la salinité, la fluorescence, le rayonnement
+      photosynthétiquement actif et la chlorophylle a, ont été mesurées à l'aide d'un
+      CTD RBR lors d'opérations de pêche au saumon entre 2016 et 2023 dans les îles
+      Discovery et dans le détroit de Johnstone, en Colombie-Britannique. Ces données
+      établissent un lien entre les conditions physiques et biogéochimiques auxquelles
+      sont confrontés les saumons juvéniles migrateurs au début de leur cycle de vie
+      en milieu marin et leur santé et leur survie.
+  associated_resources: []
+  dates:
+    creation: '2015-04-09'
+    publication: '2023-08-28'
+  edition: '1'
+  identifier: https://doi.org/10.21966/82q4-y443
+  keywords:
+    default:
+      en:
+      - salmon
+      - oceanography
+      - coastal zone
+      - commercial fisheries
+      fr:
+      - zone côtière
+      - pêches commerciales
+      - saumon
+      - océanographie
+    eov:
+      en:
+      - oxygen
+      - particulateMatter
+      - subSurfaceTemperature
+      - subSurfaceSalinity
+      - seaSurfaceSalinity
+      - seaSurfaceTemperature
+      fr:
+      - Oxygène
+      - Matière particulaire
+      - Température sous la surface
+      - Salinité sous la surface
+      - Salinité de surface
+      - Température de surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Juvenile Salmon Program
+  status: published
+  temporal_begin: '2015-04-09T19:00:00.000Z'
+  temporal_end: '2023-07-05T19:00:00.000Z'
+  title:
+    en: Vertical Water Properties Profiles (CTD) from the Hakai Institute Juvenile
+      Salmon Program, Provisional
+    fr: Données sur le profil de conductivité, de température et de profondeur (CTD)
+      de la colonne d'eau issues du programme sur le saumon juvénile de l'Institut
+      Hakai
+metadata:
+  dates:
+    publication: '2023-08-29'
+    revision: '2024-03-21T21:18:25.087Z'
+  identifier: 86343dd1-28d0-4d02-8eaf-402d51a7fef7
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-NcYL5JndZWMdXmXuFqB
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: These data are provisional (raw, but processed) and have only had automated
+        quality assurance and quality control checks applied. An expert must interpret
+        each CTD cast to determine the quality and suitability of these data for research
+        purposes.
+      fr: Ces données sont provisoires (brutes, mais traitées) et n'ont fait l'objet
+        que de contrôles automatisés d'assurance qualité et de contrôle qualité. Un
+        expert doit interpréter chaque caste CTD afin de déterminer la qualité et
+        la pertinence de ces données à des fins de recherche.
+platform: []
+spatial:
+  bbox:
+  - -127.2
+  - 49.92
+  - -124.6
+  - 50.8
+  vertical:
+  - 0.0
+  - 418.0
+  vertical_positive: heightPositive
