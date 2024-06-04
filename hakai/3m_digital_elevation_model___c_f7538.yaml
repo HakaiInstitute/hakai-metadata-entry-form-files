@@ -1,0 +1,232 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    address: 1002 Wharf Street - Suite 100, V8W 1T4
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    name: Gonzalez Arriola, Santiago
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+  - author
+- inCitation: true
+  individual:
+    name: Frazer, Gordon W.
+  roles:
+  - author
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - publisher
+  - funder
+distribution:
+- description:
+    en: Hakai's repository for downloading raw data files. Restricted access.
+    fr: Référentiel Hakai pour télécharger des fichiers de données brutes. Accès restreint.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Data package
+  url: https://drive.google.com/open?id=0B-Q2IQtbEgU4Q3BfTlZ1MnR5VlU
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
+    fr: L'instance AGOL de Hakai est la plate-forme pour l'accès et l'utilisation
+      en ligne de cet ensemble de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Online map
+  url: http://hakai.maps.arcgis.com/home/item.html?id=9d546a23cf1b4e9ba65536cbf2b767a8
+identification:
+  abstract:
+    en: "This Digital Elevation Model (DEM) has been created from Hakai's Master Terrain\
+      \ Dataset (MTD) by means of the “Terrain to raster” tool in ESRI's ArcGIS for\
+      \ Desktop using a Natural Neighbour sampling method. The DEM has been natively\
+      \ created at 3m resolution. This DEM has been clipped to a 10m buffer from the\
+      \ shoreline. A combination of different elevations around the island have been\
+      \ used to create the shoreline. \n\nThe resulting DEM is a bare earth, hydro-flattened\
+      \ elevation model and therefore considered \"topographically complete\". Each\
+      \ pixel represents the elevation in meters above average sea level of the bare\
+      \ earth at that location. The vertical reference system is \"Canadian Geodetic\
+      \ Vertical Datum 1928\" (CGVD28). \n\nHakai has produced DEM's at different\
+      \ resolutions natively directly from the LiDAR data MTD. Please use the appropriate\
+      \ resolution product from those produced by Hakai for your research purposes.\
+      \ In order to maintain homogeneity, up-sampling / up-scaling from higher resolution\
+      \ products is not recommended as it may introduce and propagate errors of varying\
+      \ magnitudes into the analyses being conducted; please use products already\
+      \ available, and if you require a resolution not available contact data@hakai.org\
+      \ in order to obtain a DEM produced directly from the MTD. \n\nThe following\
+      \ Topographically Complete DEMs have been produced natively from the DTM by\
+      \ Hakai:\n\n3m Topographically Complete DEM. This product has been used to produce\
+      \ Hakai's hydrologic datasets (Streams and Watersheds)\n20m Topographically\
+      \ Complete DEM. Compatible with Hakai's Vegetation Canopy Metrics and associated\
+      \ rasters.\n25m Topographically Complete DEM. Compatible with BCGov TRIM data\
+      \ products.\n30m Topographically Complete DEM. Compatible with STRM products.\n\
+      \nMaster Terrain Dataset Creation:\n\nLiDAR point clouds from missions flown\
+      \ on 2012 and 2014 over Calvert Island where loaded (XYZ only) into a point\
+      \ feature class in an ESRI Geodatabase.\n\nOnly ground (Class 2) returns where\
+      \ loaded onto the geodatabase.\n\nESRI “terrain dataset” was created within\
+      \ the same geodatabase using the LiDAR points as embedded masspoints.\n\nTEM\
+      \ Plus lakes and ponds with average elevation values over the waterbodies’ mirrors\
+      \ were used as hard replace breaklines to achieve hydro-flattening.\n\nThe minimum\
+      \ bounding geometry of all contiguous LAS files’ extents was used as a soft\
+      \ clip mask in the creation of the terrain dataset as project boundary.\n\n\
+      The horizontal coordinate system and datum employed for the terrain dataset\
+      \ is: UTM Zone 9 NAD1983; the vertical reference system was set to CGVD28. Both\
+      \ reference systems correspond to the native reference system of the LiDAR point\
+      \ clouds.\n\nThe minimum point spacing defined during terrain dataset building\
+      \ was set to 1."
+    fr: "Ce modèle numérique d'altitude (MNT) a été créé à partir du jeu de données\
+      \ de terrain principal (MTD) de Hakai au moyen de l'outil « MNT to raster »\
+      \ dans ArcGIS for Desktop d'ESRI à l'aide d'une méthode d'échantillonnage Natural\
+      \ Neighbour. Le DEM a été créé en mode natif à une résolution de 3 m. Ce DEM\
+      \ a été fixé à une zone tampon à 10 m du rivage. Une combinaison de différentes\
+      \ altitudes autour de l'île a été utilisée pour créer le rivage. \n\nLe MNT\
+      \ qui en résulte est un modèle d'élévation hydroaplati en terre nue et donc\
+      \ considéré comme « topographiquement complet ». Chaque pixel représente l'altitude\
+      \ en mètres au-dessus du niveau moyen de la mer de la terre nue à cet endroit.\
+      \ Le système de référence vertical est le « Système de référence géodésique\
+      \ vertical canadien 1928 » (CGVD28). \n\nHakai a produit des DEM à différentes\
+      \ résolutions de manière native directement à partir du MTD des données LiDAR.\
+      \ Pour vos recherches, veuillez utiliser le produit de résolution approprié\
+      \ parmi ceux produits par Hakai. Afin de maintenir l'homogénéité, il n'est pas\
+      \ recommandé de procéder à un suréchantillonnage ou à une mise à l'échelle supérieure\
+      \ à partir de produits de résolution supérieure car cela pourrait introduire\
+      \ et propager des erreurs de différentes grandeurs dans les analyses en cours ;\
+      \ veuillez utiliser des produits déjà disponibles, et si vous avez besoin d'une\
+      \ résolution non disponible, contactez data@hakai.org afin d'obtenir un DEM\
+      \ produit directement à partir du MTD. \n\nLes DEM topographiquement complets\
+      \ suivants ont été produits en mode natif à partir du DTM par Hakai :\n\nMNE\
+      \ topographiquement complète de 3 m. Ce produit a été utilisé pour produire\
+      \ les ensembles de données hydrologiques de Hakai (cours d'eau et bassins versants)\n\
+      DEM Topographiquement complet de 20 m. Compatible avec les mesures du couvert\
+      \ végétal de Hakai et les rasters associés.\nMNT topographiquement complet de\
+      \ 25 m. Compatible avec les produits de données TRIM BCGov.\nDEM Topographiquement\
+      \ complet de 30 m. Compatible avec les produits STRM.\n\nCréation du jeu de\
+      \ données de terrain principal\n\nNuages de points LiDAR issus de missions effectuées\
+      \ en 2012 et 2014 au-dessus de l'île Calvert où ils ont été chargés (XYZ uniquement)\
+      \ dans une classe d'entités ponctuelles d'une géodatabase ESRI.\n\nSeul le sol\
+      \ (classe 2) renvoie l'endroit où il est chargé dans la géodatabase.\n\nLe « jeu\
+      \ de données de MNT » ESRI a été créé dans la même géodatabase à l'aide des\
+      \ points LiDAR en tant que points de masse intégrés.\n\nLes lacs et les étangs\
+      \ TEM Plus avec des valeurs d'altitude moyennes au-dessus des miroirs des plans\
+      \ d'eau ont été utilisés comme lignes de rupture de remplacement dur pour obtenir\
+      \ un hydroaplatissement.\n\nLa géométrie d'emprise minimale de toutes les étendues\
+      \ de fichiers LAS contigus a été utilisée comme masque de découpe souple lors\
+      \ de la création du jeu de données de MNT en tant que limite de projet.\n\n\
+      Le système de coordonnées horizontales et le datum utilisés pour le jeu de données\
+      \ de MNT sont : UTM Zone 9 NAD1983 ; le système de référence vertical a été\
+      \ défini sur CGVD28. Les deux systèmes de référence correspondent au système\
+      \ de référence natif des nuages de points LiDAR.\n\nL'espacement minimal des\
+      \ points défini pendant la création du jeu de données de MNT a été défini sur\
+      \ 1."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2015-06-19'
+    revision: '2015-07-20'
+  identifier: https://doi.org/10.21966/RZVW-4A72
+  keywords:
+    default:
+      en:
+      - Calvert Island
+      - Topography
+      - elevation
+      - Downloadable Data
+      - other
+      - watersheds
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  - Airborne Coastal Observatory
+  status: published
+  title:
+    en: 3m Digital Elevation Model - Calvert Island - British Columbia - Canada
+    fr: Modèle numérique d'élévation de 3 m - Calvert Island - Colombie-Britannique
+      - Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2024-03-14T20:28:44.691Z'
+  identifier: f7538807-4d49-4ed8-ad36-836c0e71428a
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW13R3BBSGRER2ZkYnM
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform: []
+spatial:
+  bbox:
+  - -128.16482
+  - 51.408116
+  - -127.868831
+  - 51.734994
+  vertical:
+  - 0.0
+  - 1013.0
+  vertical_positive: depthPositive
