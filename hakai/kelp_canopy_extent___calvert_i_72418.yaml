@@ -1,0 +1,233 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Holmes, Keith
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - custodian
+  - author
+  - editor
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - publisher
+  - originator
+- inCitation: true
+  individual:
+    email: jenn.burt@gmail.com
+    name: Burt, Jenn
+    position: Science Researcher
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - author
+  - editor
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - publisher
+  - originator
+- inCitation: true
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+  - custodian
+  - publisher
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Technology Team, Geospatial
+    position: Geospatial Science
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - publisher
+  - distributor
+  - custodian
+distribution:
+- description:
+    en: Metadata report readme for kelp canopy extent 2006 to 2016
+    fr: Lisez-moi du rapport de métadonnées pour l'étendue du couvert de varech 2006
+      à 2016
+  name:
+    en: Hakai Google Drive
+  url: https://drive.google.com/file/d/1yjlOHSH3btAdM1QIGpBbjSxVKwG142jH/view?usp=sharing
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset/'s
+      reference layer
+  name:
+    en: Hakai's ArcGIS Online Platform (restricted access)
+  url: http://hakai.maps.arcgis.com/home/item.html?id=ae792e585c524440924f24bf4f2d245d
+identification:
+  abstract:
+    en: "Kelp extent has been manually digitized in ARC GIS using air photos / UAV\
+      \ imagery. Vector polygons delineate the boundaries of the kelp canopy at the\
+      \ surface of the water. All imagery is sourced from late July to August to reflect\
+      \ peak kelp extent for the season. Image resolution used to digitize the kelp\
+      \ canopy ranges from 25 cm - 10 cm. Attribute information recorded: kelp species,\
+      \ kelp bed size (square meters), kelp species latin name, kelp density, result\
+      \ confidence, and credit. For a full breakdown of attribute information see\
+      \ lower in the abstract. For 2012 and 2014 an additional metric was calculated\
+      \ to indicate the actual density of the kelp bed. A percentage of coverage was\
+      \ developed to determine the true density of kelp in each bed.\n\nDates: 2006,\
+      \ 2012, 2014, 2015, & 2016. \n\nAerial Survey Area\nThe survey for annual kelp\
+      \ bed mapping extends south from Starfish Island in Choked Pass to 7th Beach.\
+      \ Northernmost latitude: 51.6819 Southern Most latitude: 51.6363.\n\nKelp Percent\
+      \ Cover and Density (optional for further analysis) - currently used for 2012\
+      \ + 2014 data:\nThe aforementioned methods provide a dataset to examine changes\
+      \ in the spatial extent of canopy kelps. The following methods can be applied\
+      \ to obtain estimates of standing stock biomass and are based upon the Provincial\
+      \ Kelp Inventory Methodology KIM-1 (Foreman 1975, Sutherland et al. 2007). We\
+      \ are currently in the process of applying these methods to the Hakai Calvert\
+      \ Island kelp imagery, but work is still underway and methods are not finalized.\n\
+      \nKelp density / species / and extent are recorded.\n\nAll digitizing occurred\
+      \ using Arc GIS. SFU volunteer crew (Amanda Schrack and Sebastian Mather) along\
+      \ with principal investigators Jenn Burt and Keith Holmes.\n\nMethods based\
+      \ on KIM 1 methodology as described in Sutherland 2007 report: http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf\n\
+      \nAreas covered: West Beach – 7th beach to West Beach + Choked Passage – Surf\
+      \ Pass and North Beach to Wolf Beach North to Hakai Land and Sea Beach.\n\n\
+      Attributes:\n\nSpecies - \"Macro\" / \"Nereo\" / Mixed detailing the two possible\
+      \ kelp canopy species. Macro refers to macrocystis pyrifera or giant kelp. Nereo\
+      \ refers to nereocystis luetkeana or bull kelp. Mixed is a homogenous mix of\
+      \ both Macro and Nereo species. Defined by GIS techs - identified by \"credit\"\
+      \ field. \nDensity - density of kelp defined as either high or low. Based on\
+      \ the Sutherland methodology for kelp density. High = high density / based on\
+      \ mean kelp plants found per square meter. Low = low density - still a continuous\
+      \ bed of kelp with large gaps the length of each fond.\nPercent cover\n\nDataset\
+      \ created by Jenn Burt and Keith Holmes. Simon Fraser University Volunteers:\
+      \ Amanda Schrack and Sebastian Mather, and Andrea Chee.\nContact: data@hakai.org"
+    fr: "L'étendue du varech a été numérisée manuellement dans le SIG ARC à l'aide\
+      \ de photos aériennes et d'images d'UAV. Des polygones vectoriels délimitent\
+      \ les limites de la canopée de varech à la surface de l'eau. Toutes les images\
+      \ proviennent de la fin juillet à août afin de refléter l'étendue maximale du\
+      \ varech pour la saison. La résolution d'image utilisée pour numériser le couvert\
+      \ de varech varie de 25 cm à 10 cm. Informations sur les attributs enregistrées :\
+      \ espèce de varech, taille du lit de varech (mètres carrés), nom latin de l'espèce\
+      \ de varech, densité de varech, confiance des résultats et crédit. Pour une\
+      \ description complète des informations sur les attributs, voir plus bas dans\
+      \ le résumé. Pour 2012 et 2014, une mesure supplémentaire a été calculée pour\
+      \ indiquer la densité réelle du lit de varech. Un pourcentage de couverture\
+      \ a été développé pour déterminer la véritable densité de varech dans chaque\
+      \ lit.\n\nDates : 2006, 2012, 2014, 2015 et 2016. \n\nZone de levé aérien\n\
+      Le relevé pour la cartographie annuelle du lit de varech s'étend au sud de l'île\
+      \ Starfish, dans le col Choked, jusqu'à la 7e plage Latitude la plus septentrionale :\
+      \ 51,6819 Latitude la plus méridionale : 51,6363.\n\nPourcentage de couverture\
+      \ et de densité du varech (facultatif pour une analyse plus approfondie) - actuellement\
+      \ utilisé pour les données de 2012 et 2014 :\nLes méthodes susmentionnées fournissent\
+      \ un ensemble de données pour examiner les changements dans l'étendue spatiale\
+      \ des varech du couvert. Les méthodes suivantes peuvent être appliquées pour\
+      \ obtenir des estimations de la biomasse du stock sur pied et sont basées sur\
+      \ la méthode d'inventaire provincial du varech KIM-1 (Foreman 1975 ; Sutherland\
+      \ et al. 2007). Nous sommes actuellement en train d'appliquer ces méthodes à\
+      \ l'imagerie du varech de l'île Hakai Calvert, mais les travaux sont toujours\
+      \ en cours et les méthodes ne sont pas finalisées.\n\nLa densité/espèce/et l'étendue\
+      \ du varech sont enregistrées.\n\nToute la numérisation a eu lieu à l'aide d'Arc\
+      \ GIS. L'équipe de bénévoles de la SFU (Amanda Schrack et Sebastian Mather)\
+      \ ainsi que les chercheurs principaux Jenn Burt et Keith Holmes.\n\nMéthodes\
+      \ basées sur la méthodologie KIM 1 telle que décrite dans le rapport Sutherland\
+      \ 2007 : http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf\n\nZones\
+      \ couvertes : West Beach - 7e plage à West Beach + Passage étranglé - Surf Pass\
+      \ et North Beach à Wolf Beach au nord jusqu'à Hakai Land et Sea Beach.\n\nAttributs :\n\
+      \nEspèce - « Macro »/« Nereo »/« Mixte » détaillant les deux espèces possibles\
+      \ de canopée de varech. Macro fait référence à macrocystis pyrifera ou varech\
+      \ géant. Nereo fait référence au nereocystis luetkeana ou varech du taureau.\
+      \ Mixed est un mélange homogène d'espèces Macro et Nereo. Défini par les techniciens\
+      \ SIG - identifié par le champ « crédit ». \nDensité - densité du varech définie\
+      \ comme élevée ou faible. Basé sur la méthodologie Sutherland pour la densité\
+      \ du varech. Élevée = haute densité/basé sur la moyenne des plants de varech\
+      \ trouvés par mètre carré. Faible = faible densité - toujours un lit continu\
+      \ de varech avec de grands espaces sur la longueur de chaque fond.\nCouverture\
+      \ en pourcentage\n\nJeu de données créé par Jenn Burt et Keith Holmes. Bénévoles\
+      \ de l'Université Simon Fraser : Amanda Schrack et Sebastian Mather, et Andrea\
+      \ Chee.\nContactez nous : data@hakai.org"
+  associated_resources: []
+  dates:
+    publication: '2017-01-01'
+  keywords:
+    default:
+      en:
+      - canopy
+      - kelp
+      - extent
+      - calvert
+      - '2006'
+      - '2012'
+      - '2014'
+      - '2015'
+      - '2016'
+      - west beach
+      - choked passage
+      - algae
+      - nereocystis
+      - macrocystis
+      - UAV
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: Kelp Canopy Extent - Calvert Island - 2006-2016 - British Columbia - Canada
+    fr: Étendue de la canopée de varech - Calvert Island - 2006-2016 - Colombie-Britannique
+      - Canada
+metadata:
+  dates:
+    publication: '2022-03-11'
+    revision: '2022-03-11T21:01:27.917Z'
+  identifier: 7241811a-f75c-469f-baa2-ad769d6c75cd
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVc0eExvQ2RKU3hPcFQ
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+spatial:
+  bbox:
+  - -128.16112518659793
+  - 51.64003873222521
+  - -128.11134338728152
+  - 51.681993328868
+  vertical:
+  - 0.0
+  - 10.0
+  vertical_positive: depthPositive
