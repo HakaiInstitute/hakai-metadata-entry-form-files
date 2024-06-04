@@ -1,0 +1,244 @@
+contact:
+- inCitation: true
+  individual:
+    email: luba.reshitnyk@hakai.org
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+    position: Research Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+  - custodian
+  - pointOfContact
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: lynn.lee@pc.gc.ca
+    name: Lee, Lynn C.
+    position: Marine Ecologist
+  organization:
+    city: Gwaii Haanas National Park Reserve and Haida Heritage Site
+    country: Canada
+    name: Gwaii Haanas National Park Reserve and Haida Heritage Site
+    ror: https://ror.org/01rgky883
+    url: https://www.pc.gc.ca/en/pn-np/bc/gwaiihaanas
+  roles:
+  - owner
+  - coAuthor
+  - collaborator
+  - originator
+  - pointOfContact
+  - principalInvestigator
+- inCitation: false
+  individual:
+    email: jake.burton@pc.gc.ca
+    name: Burton, Jake
+    position: Geomatics Coordinator
+  organization:
+    city: Gwaii Haanas National Park Reserve and Haida Heritage Site
+    country: Canada
+    name: Gwaii Haanas National Park Reserve and Haida Heritage Site
+    ror: https://ror.org/01rgky883
+    url: https://www.pc.gc.ca/en/pn-np/bc/gwaiihaanas
+  roles:
+  - pointOfContact
+  - contributor
+  - editor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Hakai Institute Google Drive - Metadata and Data Access. Requests for access
+      should be made to authors or data@hakai.org
+    fr: Hakai Institute Google Drive - Métadonnées et accès aux données. Les demandes
+      d'accès doivent être adressées aux auteurs ou à data@hakai.org
+  name:
+    en: Data Package - Spatial extent of eelgrass (Zostera marina) meadows from monitoring
+      sites within Gwaii Haanas National Park Reserve, National Marine Conservation
+      Area Reserve, and Haida Heritage Site (2016, 2017, 2018) mapped using remote
+      piloted aerial systems (RPAS) v1.0.0
+    fr: Ensemble de données - Étendue spatiale des prairies de zostère marine (Zostera
+      marina) provenant des sites de surveillance de la réserve de parc national,
+      de la réserve d'aire marine nationale de conservation et du site du patrimoine
+      haïda Gwaii Haanas (2016, 2017, 2018) cartographiée à l'aide de systèmes aériens
+      téléguidés (RPAS) v1.0.0
+  url: https://drive.google.com/drive/u/0/folders/14oUrMJcK0QIHB_foP3v__FZitYOqN_Mf
+identification:
+  abstract:
+    en: "This data package contains reports and datasets pertaining to mapping the\
+      \ spatial extent of eelgrass (Zostera marina) at monitoring sites within Gwaii\
+      \ Haanas National Park Reserve, National Marine Conservation Area Reserve, and\
+      \ Haida Heritage Site, located in Haida Gwaii, British Columbia, Canada. This\
+      \ work was a collaborative project between the Hakai Institute and Gwaii Haanas\
+      \ Parks Canada.  \n\nMonitoring sites were mapped using small Remotely Piloted\
+      \ Aerial Systems (RPAS) (DJI Phantom Pro 3, Pro 4) during summer low tides in\
+      \ 2016, 2017 and 2018. Orthomosaics were created using a Structure from Motion\
+      \ Multi-View Stereo (SfM-MVS) workflow within Pix4Dmapper software (Version\
+      \ 2.1.61, Pix4D) in Windows 10 and georeferenced using group control points\
+      \ collected concurrently during the surveys. The extent of eelgrass at each\
+      \ site was delineated using object-based image analysis (OBIA) with eCognition\
+      \ Developer software (eCognition Developer 9, 2014) and manual delineation (where\
+      \ necessary). Georeferenced towed underwater video (SplashCam Pro) data were\
+      \ collected at eelgrass monitoring sites during high tide to provide ground-truth\
+      \ data for the aerial analysis and delineation of eelgrass. \n\nThe data package\
+      \ includes:\n\n- The reports (.pdf) which describe project, data collection\
+      \ and processing methods and results for 2016,  2017 and 2018 surveys. \n- Polygon\
+      \ shapefiles (.shp) of the extent of eelgrass (Z. marina) at each monitoring\
+      \ site by year.\n- Point shapefiles (.shp) of classified towed underwater video\
+      \ transects by year. \n\nCoordinate system used: NAD1983 UTM Zone 9N\n\nThese\
+      \ data were collected as an ongoing partnership between Gwaii Haanas Parks Canada\
+      \ and the Hakai Institute. This data package is a component of the Hakai Institute’s\
+      \ Habitat Mapping program. The overarching objective of the Hakai Habitat Mapping\
+      \ program is to generate spatial inventories of coastal habitats, investigate\
+      \ how these habitats are changing through time, and the drivers of that change.\
+      \ This data package is also a component of the National Marine Conservation\
+      \ Area ecological sustainability monitoring program of Parks Canada. The overarching\
+      \ goal of the program is to track changes in marine ecosystems, respond to environmental\
+      \ threats, and ensure ecologically sustainable use of marine resources.\n\n\
+      The use of this dataset requires permission from both Gwaii Haanas Parks Canada\
+      \ and the Hakai Institute. \n\nPlease communicate and/or collaborate with Hakai\
+      \ and Gwaii Haanas Parks Canada if you are considering using this dataset for\
+      \ manuscripts or other forms of reporting.\nContact luba@hakai.org or data@hakai.org\
+      \ for more information about data access and opportunities to collaborate with\
+      \ the Hakai Institute. \nContact lynn.lee@pc.gc.ca or jake.burton@pc.gc.ca for\
+      \ more information about data access to and opportunities to collaborate with\
+      \ Gwaii Haanas Parks Canada."
+    fr: "Ce paquet de données contient des rapports et des ensembles de données relatifs\
+      \ à la cartographie de l'étendue spatiale de la zostère zostère (Zostera marina)\
+      \ sur les sites de surveillance de la réserve de parc national de Gwaii Haanas,\
+      \ de la réserve d'aire marine nationale de conservation et du site du patrimoine\
+      \ haïda, situés à Haida Gwaii, en Colombie-Britannique, au Canada. Ce travail\
+      \ est le fruit d'une collaboration entre l'Institut Hakai et Parcs Canada Gwaii\
+      \ Haanas. \n\nLes sites de surveillance ont été cartographiés à l'aide de petits\
+      \ systèmes aériens pilotés à distance (RPAS) pendant les marées basses estivales\
+      \ en 2016, 2017 et 2018. Les orthomosaïques ont été créés avec le logiciel Pix4Dmapper\
+      \ (version 2.1.61, Pix4D) sous Windows 10 et géoréférencés à l'aide de points\
+      \ de contrôle de groupe collectés simultanément lors des enquêtes. L'étendue\
+      \ de la zostère marine sur chaque site a été délimitée à l'aide d'une analyse\
+      \ d'images basée sur les objets (OBIA) à l'aide du logiciel eCognition Developer\
+      \ (eCognition Developer 9, 2014) et d'une délimitation manuelle (si nécessaire).\
+      \ Des données vidéo sous-marines remorquées géoréférencées (SplashCam Pro) ont\
+      \ été collectées sur les sites de surveillance des zostères à marée haute afin\
+      \ de fournir des données fiables pour l'analyse aérienne et la délimitation\
+      \ de la zostère. \n\nLe package de données inclut :\n- Les rapports (.pdf) qui\
+      \ décrivent le projet, les méthodes de collecte et de traitement des données\
+      \ ainsi que les résultats des enquêtes de 2016, 2017 et 2018. \n- Des fichiers\
+      \ polygonaux (.shp) indiquant l'étendue de la zostère marine (Z. marina) sur\
+      \ chaque site de surveillance, par année.\n- Fichiers de formes ponctuelles\
+      \ (.shp) de transects vidéo sous-marins remorqués classés classés par année.\
+      \ \nSystème de coordonnées utilisé : NAD1983 UTM Zone 9N\n\nCe jeu de données\
+      \ fait partie du programme de cartographie de l'habitat de l'Institut Hakai\
+      \ et du programme de surveillance de la durabilité écologique des aires marines\
+      \ nationales de conservation de Parcs Canada. L'objectif global du programme\
+      \ de Parcs Canada est de suivre l'évolution des écosystèmes marins, de répondre\
+      \ aux menaces environnementales et d'assurer une utilisation écologiquement\
+      \ durable des ressources marines.\n\nL'utilisation de cet ensemble de données\
+      \ nécessite l'autorisation de Gwaii Haanas Parcs Canada et de l'Institut Hakai.\
+      \ \n\nVeuillez communiquer et/ou collaborer avec Hakai et Gwaii Haanas Parcs\
+      \ Canada si vous envisagez d'utiliser cet ensemble de données pour des manuscrits\
+      \ ou d'autres formes de rapports."
+  associated_resources: []
+  dates:
+    creation: '2016-07-03'
+    publication: '2023-09-14'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/gv88-hv41
+  keywords:
+    default:
+      en:
+      - seagrass
+      - Zostera marina
+      - Gwaii Haanas
+      - Haida Gwaii
+      - habitat characterization
+      - UAV
+      - RPAS
+      fr:
+      - caractérisation des habitats
+    eov:
+      en:
+      - seagrassCoverAndComposition
+      fr:
+      - Composition et couverture des herbiers marins
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  - Nearshore
+  status: published
+  temporal_begin: '2016-07-03T19:00:00.000Z'
+  temporal_end: '2018-09-16T19:00:00.000Z'
+  title:
+    en: Spatial extent of eelgrass (Zostera marina) meadows from monitoring sites
+      within Gwaii Haanas (2016, 2017, 2018) mapped using remote piloted aerial systems
+    fr: Étendue spatiale des prairies de zostère marine (Zostera marina) depuis les
+      sites de surveillance de Gwaii Haanas (2016, 2017, 2018) cartographiée à l'aide
+      de systèmes aériens téléguidés (RPAS)
+instruments:
+- description:
+    en: RGB camera mounted to a DJI Phantom 3 Pro
+    fr: Caméra RGB montée sur un DJI Phantom 3 Pro
+  id: DJI Phantom 3 Pro
+  manufacturer: DJI
+  type:
+    en: unmanned aerial vehicle
+    fr: véhicule aérien sans pilote
+  version: Phantom 3 Pro
+- description:
+    en: RGB camera mounted to a DJI Phantom 4 Pro
+    fr: Caméra RGB montée sur un DJI Phantom 4 Pro
+  id: DJI Phantom 4 Pro
+  manufacturer: DJI
+  type:
+    en: unmanned aerial vehicle
+    fr: véhicule aérien sans pilote
+  version: DJI Phantom 4 Pro
+metadata:
+  dates:
+    publication: '2023-09-19'
+    revision: '2023-09-19T20:08:57.866Z'
+  identifier: b63374a9-2288-4512-9820-5d1b44d2b502
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NeEpZEr5wOQ_rWGa5CN
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-NC-ND-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution-NonCommercial-NoDerivs
+      url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+    limitations:
+      en: Access and use of these datasets requires permission from both the Hakai
+        Institute and Gwaii Haanas National Park Reserve, National Marine Conservation
+        Area, and Haida Heritage Site. Please contact Lynn Lee (lynn.lee@pc.gc.ca)
+        and/or Jake Burton (jake.burton@pc.gc.ca) at Gwaii Haanas and Luba Reshitnyk
+        (luba.reshitnyk@hakai.org) or data@hakai.org at Hakai Institute to request
+        permission.
+      fr: L'accès à ces ensembles de données et leur utilisation nécessitent l'autorisation
+        de l'Institut Hakai, de la réserve de parc national, de l'aire marine nationale
+        de conservation et du site du patrimoine haïda de Gwaii Haanas.
+spatial:
+  polygon: -131.4,52.75 -131.7,52.74 -131.9,52.58 -131.6,52.25 -131.0,51.89 -130.9,52.10
+    -131.2,52.52 -131.4,52.75
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: heightPositive
