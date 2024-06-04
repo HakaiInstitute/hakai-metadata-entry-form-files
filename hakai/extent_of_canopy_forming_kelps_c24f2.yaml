@@ -1,0 +1,225 @@
+contact:
+- inCitation: true
+  individual:
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+  - originator
+  - custodian
+- inCitation: true
+  individual:
+    name: Hakai Institute Geospatial
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Kelp Extent Data - Hakai's AGOL Instance is the platform for access and online
+      use of this dataset's reference layer
+  name:
+    en: Hakai's ArcGIS Online Platform (restricted access)
+  url: http://hakai.maps.arcgis.com/home/item.html?id=cac9b44abdeb45e8b1e9ca0ce1505822
+- description:
+    en: Public web map showing the imagery footprints and kelp extent polygons
+  name:
+    en: Hakai Institute online web map application (Public)
+  url: http://arcg.is/0rqTmL
+- description:
+    en: Hakai Institute google drive - raw data and metadata readme file
+    fr: Hakai Institute Google Drive - fichier Lisez-moi des données brutes et des
+      métadonnées
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Download the data from the Hakai Institute
+  url: https://drive.google.com/file/d/1rhLLlelYRUEpqfNXqW2oqiDhMr1Qnzhe/view?usp=sharing
+identification:
+  abstract:
+    en: "This dataset represents the extent of canopy-forming kelp (Nereocystis luetkeana\
+      \ and Macrocytis pyrifera) present at the ocean surface (hereafter referred\
+      \ to as surface canopy-forming kelp) for the year and season the imagery was\
+      \ collected. Canopy-forming kelp (Order Laminariales) are found along the coast\
+      \ of British Columbia. Two species, bull kelp (Nereocystis luetkeana) and giant\
+      \ kelp (Macrocystis pyrifera) are the most common species and are ecologically\
+      \ and biologically important components of nearshore ecosystems. Mapping their\
+      \ distribution is important for understanding the state and health of coastal\
+      \ areas. \n\nThe WorldView-2 satellite was tasked by the Hakai Institute and\
+      \ imagery collected in the summer of 2014 for the Goose group, McMullin group,\
+      \ Calvert Island, and Stirling Island region. Additional WorldView-2 imagery\
+      \ was acquired via a DigitalGlobe Foundation Grant for the South Calvert region,\
+      \ Simonds Group, Admiral and Tribal Groups region, Spider Island and Cultus\
+      \ Sound region. Imagery from the Stryker Island and Athlone Island region was\
+      \ provided through a collaboration of the Department of Fisheries and Oceans\
+      \ Canada and the Hakai Institute. \n\nPrior to classification, each image region\
+      \ was corrected for atmospheric effects and land areas were masked. A supervised\
+      \ classification (maximum liklihood algorithm) was conducted to classify pixels\
+      \ which represent surface canopy-forming kelp. The results were imported into\
+      \ ArcGIS (10.5.1) and manually edited to remove pixel regions that were misclassified\
+      \ as kelp.\n\nThe majority of the imagery was collected August 13th, 2014. The\
+      \ image scene centered around the Stryker Island and Athlone Island region was\
+      \ collected July 22nd, 2012. The image scene centered around the South Calvert\
+      \ region was collected June 4th, 2015. \n\nContributors: Luba Reshitnyk and\
+      \ Wiebe Nijland\n\nCite as: Canopy-forming kelps extent derived from WorldView-2\
+      \ imagery, Central Coast, British Columbia, Canada. Version 1.0. Hakai Institute.\
+      \ Dataset. [access date].)"
+    fr: "Ce jeu de données représente l'étendue du varech formant un couvert (Nereocystis\
+      \ luetkeana et Macrocytis pyrifera) présent à la surface de l'océan (ci-après\
+      \ dénommé varech formant un couvert de surface) pour l'année et la saison au\
+      \ cours desquelles l'imagerie a été collectée. Le varech formant une canopée\
+      \ (Order Laminariales) se trouve le long de la côte de la Colombie-Britannique.\
+      \ Deux espèces, le varech taureau (Nereocystis luetkeana) et le varech géant\
+      \ (Macrocystis pyrifera) sont les espèces les plus communes et constituent des\
+      \ éléments importants sur les plans écologique et biologique des écosystèmes\
+      \ côtiers. La cartographie de leur distribution est importante pour comprendre\
+      \ l'état et la santé des zones côtières. \n\nLe satellite WorldView-2 a été\
+      \ chargé par l'Institut Hakai et des images ont été collectées à l'été 2014\
+      \ pour le groupe Goose, le groupe McMullin, l'île Calvert et la région de Stirling\
+      \ Island. D'autres images WorldView-2 ont été acquises grâce à une subvention\
+      \ de la DigitalGlobe Foundation pour la région de South Calvert, Simonds Group,\
+      \ Admiral and Tribal Groups, Spider Island et Cultus Sound. Des images de la\
+      \ région de l'île Stryker et de l'île Athlone ont été fournies grâce à une collaboration\
+      \ du ministère des Pêches et des Océans du Canada et de l'Institut Hakai. \n\
+      \nAvant la classification, chaque région d'image a été corrigée pour les effets\
+      \ atmosphériques et les zones terrestres ont été masquées. Une classification\
+      \ supervisée (algorithme de vraisemblance maximale) a été réalisée pour classer\
+      \ les pixels qui représentent du varech formant un couvert de surface. Les résultats\
+      \ ont été importés dans ArcGIS (10.5.1) et modifiés manuellement pour supprimer\
+      \ les zones de pixels mal classées en tant que varech.\n\nLa majorité des images\
+      \ ont été collectées le 13 août 2014. La scène d'image centrée autour de la\
+      \ région de l'île Stryker et de l'île Athlone a été collectée le 22 juillet\
+      \ 2012. La scène d'image centrée autour de la région de South Calvert a été\
+      \ collectée le 4 juin 2015. \n\nContributeurs : Luba Reshitnyk et Wiebe Nijland\n\
+      \nCiter comme suit : Étendue du varech formant la canopée dérivée de l'imagerie\
+      \ WorldView-2, côte centrale, Colombie-Britannique, Canada. La version 1.0.\
+      \ Institut Hakai. Ensemble de données. [date d'accès].)"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2017-12-23'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/5fs0-nn02
+  keywords:
+    default:
+      en:
+      - kelp
+      - worldview 2
+      - satellite
+      - remote sensing
+      - central coast
+      - British Columbia
+      - nearshore ecology
+      - marine habitat
+      - hakai institute
+      - downloadable data
+      - other
+    eov:
+      en:
+      - other
+      - macroalgalCanopyCoverAndComposition
+      fr:
+      - Autre
+      - Composition et couverture de la canopée de macroalgues
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  - Nearshore
+  status: published
+  title:
+    en: Extent of Canopy-Forming Kelps, Derived from World View-2, Central Coast,
+      Central Coast, British Columbia
+    fr: Etendue des varech formant la canopée, dérivée de la vision du monde 2, côte
+      centrale, côte centrale, Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2024-03-14'
+    revision: '2024-03-18T13:28:33.142Z'
+  identifier: c24f23f0-8d16-4bfd-835a-5475f1ecd8e8
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVE2ZkIxMnhEdmF6Rkw
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform: []
+spatial:
+  bbox:
+  - -128.6993408203125
+  - 51.31001339554933
+  - -127.65014648437497
+  - 52.221069523572794
+  vertical:
+  - 0.0
+  - 30.0
+  vertical_positive: depthPositive
