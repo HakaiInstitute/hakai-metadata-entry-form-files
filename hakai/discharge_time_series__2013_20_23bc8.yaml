@@ -1,0 +1,128 @@
+contact:
+- inCitation: true
+  individual:
+    email: maartje.korver@mail.mcgill.ca
+    name: Korver, Maartje C.
+  organization:
+    name: Hakai Institute
+  roles:
+  - custodian
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: bill.floyd@viu.ca
+    name: Floyd, William C.
+  organization:
+    country: Canada
+    email: bill.floyd@via.ca
+    name: Hakai Institute - Vancouver Island University
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - author
+- inCitation: true
+  individual:
+    email: ray@tula.org
+    name: Brunsting, Ray
+  organization:
+    name: Hakai Institute
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: keith.holmes@hakai.org
+    name: Holmes, Keith
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - publisher
+distribution:
+- name:
+    en: Discharge Time Series (2013-2017) – Calvert Island - Archived Version 3.0
+      Data Package
+  url: https://drive.google.com/file/d/11fht9BOe9KiR3AvDjeEEVpm3JOYC9tsk/view?usp=sharing
+identification:
+  abstract:
+    en: 'Version 3.0 of the discharge dataset is updated from the previous versions
+      in the following ways: time-series data up to January 2018 are added; background
+      calculations and stage data are no longer included (hence it is no longer called
+      ‘stage-discharge time-series’); the datasheets have single tab, simple layouts
+      compatible with programming languages; discharge rates (m3/s) as well as volumes
+      (m3) are available; not only 5 minute, but also hourly, daily, monthly and yearly
+      time formats are available. Furthermore, data analysis and rating curve plotting
+      methods have been adapted, as described in detail below.'
+    fr: 'La version 3.0 de l''ensemble de données sur les rejets est mise à jour par
+      rapport aux versions précédentes de la manière suivante : les données de séries
+      chronologiques jusqu''en janvier 2018 sont ajoutées ; les calculs de fond et
+      les données d''étape ne sont plus inclus (ce n''est donc plus appelé « série
+      chronologique de décharge par étapes ») ; les fiches techniques ont un seul
+      onglet, simple dispositions compatibles avec les langages de programmation ;
+      des débits (m3/s) ainsi que des volumes (m3) sont disponibles ; non seulement
+      5 minutes, mais aussi des formats horaires, quotidiens, mensuels et annuels
+      sont disponibles. En outre, les méthodes d''analyse des données et de traçage
+      des courbes d''évaluation ont été adaptées, comme décrit en détail ci-dessous.'
+  associated_resources: []
+  dates:
+    creation: '2013-09-08'
+    publication: '2018-12-25'
+  identifier: https://doi.org/10.21966/sbyc-d030
+  keywords:
+    default:
+      en:
+      - Inland waters
+      - discharge
+      - watersheds
+      - freshwater
+      - water
+      - streamflow
+      - stream
+      - river
+      - hydrology
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2013-09-08T19:00:00.000Z'
+  temporal_end: '2018-01-01T20:00:00.000Z'
+  title:
+    en: Discharge Time Series (2013-2017) – Calvert Island - Archived Version 3.0
+    fr: Série chronologique des rejets (2013-2017) — Île Calvert - Version archivée
+      3.0
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2022-03-29T22:27:04.402Z'
+  identifier: 23bc8c35-2e4e-4382-9296-a52d5ea49889
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUdGRGRjUW9LRnBVNVI
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+spatial:
+  bbox:
+  - -128.13265424
+  - 51.60936247
+  - -127.95907025
+  - 51.69558793
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
