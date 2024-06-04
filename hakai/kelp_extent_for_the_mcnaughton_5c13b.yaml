@@ -1,0 +1,169 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
+  - author
+  - pointOfContact
+  - editor
+  - principalInvestigator
+  - processor
+  - originator
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: A shapefile delineating the kelp extent for the McNaughton Group, Manley,
+      and Serpent Group Islands.
+  name:
+    en: Kelp extent for the McNaughton Group, Manley, and Serpent Group Islands
+  url: https://drive.google.com/open?id=1j7vdQmLOjuGlelcdu0pznV-MljW1M14H
+- description:
+    en: UAS methods for obtaining imagery used to digitize substrate types
+  url: https://hecate.hakai.org/geonetwork/srv/api/records/5c13b300-e172-4010-a6d8-7586b68a3a96/attachments/General
+    UAS Methodology Orthomosaics Only.pdf
+identification:
+  abstract:
+    en: 'This is a polygon layer mapping kelp canopy extent for the McNaughton Group
+      islands, Manley Island, and Serpent Group Islands.
+
+
+      Kelp canopy extent was mapped from imagery taken using an unoccupied aerial
+      system (UAS). McNaughton Imagery was taken in late May 2017, the Manley images
+      were captured in late July 2017, and the Serpent Group images were made in early
+      July 2016. The images were captured using a DJI Phantom 3 professional UAS equipped
+      with a commercial grade 4k RGB (See attached UAS methods). Kelp bed polygons
+      were drawn manually in ArcGIS 10.5.1. Only beds containing greater than ~3 fronds
+      were mapped. Beds were considered connected when less than ~5m separated them.
+      Single fronds and single frond outliers were not digitized. Vertices were placed
+      every 4m or less (more vertices were used on complex shapes). The attributes
+      in this table are limited to the perimeter length (m) and area (m^2) of each
+      kelp bed polygon. Area was determined in the NAD_1983_CSRS_BC_Environment_Albers
+      projection. Species and bed density were not recorded for this dataset.'
+    fr: 'Il s''agit d''une couche polygonale qui cartographie l''étendue de la canopée
+      de varech pour les îles McNaughton Group, Manley Island et Serpent Group Islands.
+
+
+      L''étendue du couvert de varech a été cartographiée à partir d''images prises
+      à l''aide d''un système aérien inoccupé (UAS). McNaughton Imagery a été prise
+      fin mai 2017, les images de Manley ont été capturées fin juillet 2017 et les
+      images du Serpent Group ont été réalisées début juillet 2016. Les images ont
+      été capturées à l''aide d''un UAS professionnel DJI Phantom 3 équipé d''un RVB
+      4K de qualité commerciale (voir méthodes UAS ci-jointes). Les polygones de lit
+      de varech ont été dessinés manuellement dans ArcGIS 10.5.1. Seuls les lits contenant
+      plus de 3 frondes ont été cartographiés. Les lits étaient considérés comme connectés
+      lorsque moins de 5 m les séparaient. Les frondes simples et les valeurs aberrantes
+      à une seule fronde n''ont pas été numérisées. Les sommets étaient placés tous
+      les 4 m ou moins (plus de sommets étaient utilisés sur des formes complexes).
+      Les attributs de ce tableau sont limités à la longueur périmétrique (m) et à
+      la surface (m^2) de chaque polygone de lit de varech. La surface a été déterminée
+      dans la projection NAD_1983_CSRS_BC_Environment_Albers. Les espèces et la densité
+      de lit n''ont pas été enregistrées pour cet ensemble de données.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2018-08-11'
+  identifier: https://doi.org/10.21966/82bd-ks94
+  keywords:
+    default:
+      en:
+      - Kelp
+      - nearshore
+      - habitat
+      - Hakai
+      - UAS
+      - Macrosystis
+      - Nerocystis
+      - macroalgae
+      - imagery
+      - ocean
+      - canopy
+      - other
+    eov:
+      en:
+      - other
+      - macroalgalCanopyCoverAndComposition
+      fr:
+      - Autre
+      - Composition et couverture de la canopée de macroalgues
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  - Nearshore
+  status: published
+  title:
+    en: Kelp extent for the McNaughton Group Islands (2017), Manley Island (2017),
+      and Serpent Group Islands (2016), British Columbia, Canada
+    fr: Étendue de varech pour les îles McNaughton Group (2017), Manley Island (2017)
+      et Serpent Group Islands (2016), Colombie-Britannique, Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-02'
+    revision: '2024-03-15T21:08:35.963Z'
+  identifier: 5c13b300-e172-4010-a6d8-7586b68a3a96
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTFIWmZWeEE0RkZrZVc
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -128.30122253
+  - 51.7689035
+  - -128.05512885
+  - 51.98187882
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
