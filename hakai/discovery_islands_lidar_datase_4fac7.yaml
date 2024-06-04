@@ -1,0 +1,189 @@
+contact:
+- inCitation: true
+  individual:
+    name: LiDAR Research Group, UNBC
+    position: LiDAR research team
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - processor
+  - pointOfContact
+  - author
+  - editor
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - principalInvestigator
+  - processor
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+  - funder
+distribution:
+- description:
+    en: 2014 Savery Island LiDAR Acquisition
+    fr: Acquisition du LiDAR de Savery Island 2014
+  name:
+    en: Google Drive Folder for the Hakai Institute (for access contact data@hakai.org)
+  url: https://drive.google.com/file/d/0Byed_WX-ZNMaVFBkNnNORHFJeGM/view?usp=sharing&resourcekey=0-XXGNP4cVC5eJ7SJz9EgjLw
+- description:
+    en: 2014 Quadra Island Acquisition
+    fr: Acquisition de Quadra Island 2014
+  name:
+    en: Google Drive Folder for the Hakai Institute (for access contact data@hakai.org)
+  url: https://drive.google.com/file/d/0Byed_WX-ZNMaY3RHQ1dtOHJMLTA/view?usp=sharing&resourcekey=0-aQrEjKGSWU53DU5rw65dKg
+identification:
+  abstract:
+    en: "Three LiDAR mission areas were flown on August 7th to cover all of Savary\
+      \ Island and portions of Quadra Island. The Quadra North West zone covers Small\
+      \ Inlet and Waiatt Bay / Octopus Islands area; Quadra South covers surge narrows\
+      \ to Village Lake and Heriot Bay.  \n\nDates: Aug. 7, 2014\nConducted by: UNBC\
+      \ LiDAR Research Group\nArea Covered: 8.75 km^2 (Savary Island), 14.35 km^2\
+      \ (Quadra NW), 47.71 km^2 (Quadra South).\nFlight Height: 475 m\nProjection:\
+      \ UTM Zone 10\nDatum: CSRS NAD 83\nGeoid: Ellipdoid heights\nAverage Point Density:\
+      \ 12.5 pts / m2 (Savary Island), 18.2 pts / m2 (Quadra NW), 20.1 pts / m2 (Quadra\
+      \ South).\nLiDAR points were processed in CSRS NAD83 UTM Zone 10, but use ELLIPSOID\
+      \ heights. Conversion to CGVD28 was completed after DEM creation using GPS-H.\n\
+      Scanner Type: Riegl VQ-580\nSupervisor: Brian Menounos\nTechnician: Rob Vogt\n\
+      Precise trajectory for the plane is solved using PosPac MMS. A calibration line\
+      \ across the base station both before and after the survey was used to aid in\
+      \ forward and reverse processing of the trajectory.\nPrecise location for the\
+      \ base station was adjusted using NR Can's PPP. Position accuracy of the trajectory\
+      \ is ±3 cm.\n\nThere is a GNSS station established on Quadra Island as part\
+      \ of the Western Canada Deformation Array (WCDA) and the Canadian Active Control\
+      \ System (CACS). This station, approximately 40 km away, was used as the base\
+      \ station of flights of Savary Island. Further information on the station can\
+      \ be found at http://webapp.geod.nrcan.gc.ca/geod/data-donnees/station/report-rapport.php?id=M067000\n\
+      Precise trajectory for the plane is solved using PosPac MMS. A calibration line\
+      \ across the base station both before and after the survey was used to aid in\
+      \ forward and reverse processing of the trajectory.\nPosition accuracy of the\
+      \ trajectory is ±5 cm.\nLiDAR points were processed in CSRS NAD83 UTM Zone 9,\
+      \ but use ELLIPSOID heights. Conversion\nto CGVD28 was completed after DEM creation\
+      \ using GPS-H. Attempts at converting the point cloud to\ngeoid heights resulted\
+      \ in a program crash.\n\nData outputs from the Discovery Island lidar survey\
+      \ include a digital surface model, las point cloud datasets, and digital elevation\
+      \ models."
+    fr: "Trois zones de mission LiDAR ont été effectuées le 7 août pour couvrir toute\
+      \ l'île Savary et certaines parties de l'île Quadra. La zone nord-ouest de Quadra\
+      \ couvre Small Inlet et Waiatt Bay/Octopus Islands ; Quadra South couvre les\
+      \ passages de marée menant au lac Village et à la baie Heriot. \n\nDates : 7\
+      \ août 2014\nDirigé par : UNBC LiDAR Research Group\nSuperficie couverte : 8,75\
+      \ km^2 (île Savary), 14,35 km^2 (Quadra NW), 47,71 km^2 (Quadra sud).\nHauteur\
+      \ de vol : 475 m\nProjection : UTM Zone 10\nDate : CSRS NAD 83\nGéoïde : hauteurs\
+      \ d'ellipdoïdes\nDensité moyenne des points : 12,5 points/m2 (île Savary), 18,2\
+      \ points/m2 (Quadra NW), 20,1 pts /m2 (Quadra sud).\nLes points LiDAR ont été\
+      \ traités dans CSRS NAD83 UTM Zone 10, mais utilisent des hauteurs d'ELLIPSOÏDES.\
+      \ La conversion au CGVD28 a été achevée après la création du MNT à l'aide du\
+      \ GPS-H.\nType de scanner : Riegl VQ-580\nsuperviseur (e) : Brian Menounos\n\
+      Technicien : Rob Vogt\nLa trajectoire précise de l'avion est résolue à l'aide\
+      \ du MMS PoSPAC. Une ligne d'étalonnage à travers la station de base avant et\
+      \ après le levé a été utilisée pour faciliter le traitement avant et arrière\
+      \ de la trajectoire.\nL'emplacement précis de la station de base a été ajusté\
+      \ à l'aide du PPP de NR Can. La précision de position de la trajectoire est\
+      \ de ±3 cm.\n\nUne station GNSS est installée sur l'île Quadra dans le cadre\
+      \ du Western Canada Deformation Array (WCDA) et du Système canadien de contrôle\
+      \ actif (CACS). Cette station, située à environ 40 km, a été utilisée comme\
+      \ station de base pour les vols de Savary Island. Vous trouverez de plus amples\
+      \ informations sur la station à l'adresse http://webapp.geod.nrcan.gc.ca/geod/data-donnees/station/report-rapport.php?id=M067000\n\
+      La trajectoire précise de l'avion est résolue à l'aide du MMS PoSPAC. Une ligne\
+      \ d'étalonnage à travers la station de base avant et après le levé a été utilisée\
+      \ pour faciliter le traitement avant et arrière de la trajectoire.\nLa précision\
+      \ de position de la trajectoire est de ±5 cm.\nLes points LiDAR ont été traités\
+      \ dans la zone 9 UTM CSRS NAD83, mais utilisent des hauteurs d'ELLIPSOÏDES.\
+      \ Conversion\nau CGVD28 a été achevé après la création du MNT à l'aide du GPS-H.\
+      \ Tentatives de conversion du nuage de points en\ngeoid heights a provoqué un\
+      \ crash du programme.\n\nLes données issues du levé lidar de Discovery Island\
+      \ incluent un modèle numérique de surface, des jeux de données de nuages de\
+      \ points et des modèles numériques d'altitude."
+  associated_resources: []
+  dates:
+    creation: '2013-08-07'
+    publication: '2017-04-06'
+    revision: '2017-04-06'
+  keywords:
+    default:
+      en:
+      - LiDAR
+      - lidar
+      - DEM
+      - Quadra
+      - discovery
+      - Savery
+      - island
+      - topography
+      - archaeology
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: underDevelopment
+  status: published
+  temporal_begin: '2013-08-07T19:00:00.000Z'
+  title:
+    en: Discovery Islands LiDAR Dataset  - 2014 - British Columbia - Canada
+    fr: Données LiDAR des îles Discovery - 2014 - Colombie-Britannique - Canada
+instruments:
+- description:
+    en: laser scanner used to measure the earth’s surface topography and vegetation
+    fr: scanner laser utilisé pour mesurer la topographie et la végétation de la surface
+      de la Terre
+  id: LiDAR Airplane - Laser Scanner
+  manufacturer: Riegl
+  type:
+    en: laser scanner
+    fr: scanner laser
+  version: LMS-Q 780 long-range airborne laser scanner
+metadata:
+  dates:
+    publication: '2022-03-11'
+    revision: '2022-03-11T21:23:43.606Z'
+  identifier: 4fac74c8-f58c-46b0-87dc-ab70ce756880
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXR6SWM4aTRoYk9MeU0
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+spatial:
+  bbox:
+  - -125.3704833984375
+  - 49.9229354544957
+  - -124.75524902343749
+  - 50.291094042311386
+  vertical:
+  - 0.0
+  - 500.0
+  vertical_positive: heightPositive
