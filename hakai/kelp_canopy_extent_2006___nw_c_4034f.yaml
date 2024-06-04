@@ -1,0 +1,200 @@
+contact:
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - distributor
+- inCitation: true
+  individual:
+    name: Keith Holmes, Jenn Burt, Keith Holmes, Jenn Burt
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - processor
+  - pointOfContact
+  - author
+  - originator
+  - owner
+  - custodian
+- inCitation: true
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset/'s
+      reference layer
+  name:
+    en: Hakai's ArcGIS Online Platform (restricted access)
+  url: http://hakai.maps.arcgis.com/home/item.html?id=cff1e8ea75bf4c838c80255272fda7ce
+identification:
+  abstract:
+    en: "2006 air photos sourced from the province were used to digitize kelp canopies\
+      \ for NW Calvert Island. Focal areas of West Beach and Choked Passage off Calvert\
+      \ Island have been chosen to to multiple year analysis of kelp canopy change\
+      \ pre - and post otter establishment in the area. \n\nKelp density / species\
+      \ / and extent are recorded - see attributes listed below.\n2006 kelp canopy\
+      \ extent represents the maximum growth for the year. Tide level was roughly\
+      \  2.47 meters (8.1 foot) - a level which could impact kelp extent and the ability\
+      \ for GIS technicians to properly detect and identify species. More research\
+      \ is being done to validate and test tide levels with associated kelp extent\
+      \ findings.\n\nAll digitizing occurred using Arc GIS. SFU volunteer crew (Amanda\
+      \ Schrack and Sebastian Mather) along with principal investigators Jenn Burt\
+      \ and Keith Holmes.\n\nMethods based on KIM 1 methodology as described in Sutherland\
+      \ 2007 report: http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf\n\
+      \nAreas covered: West Beach – 7th beach to West Beach + Choked Passage – Surf\
+      \ Pass and North Beach to Wolf Beach North to Hakai Land and Sea Beach.\n\n\
+      Attributes:\n\nFID - Unique identification number - ARC auto generated during\
+      \ polygon creation\n\nShape - Polygon - spatial representation\n\nSpecies -\
+      \ \"Macro\" / \"Nereo\" / Mixed detailing the two possible kelp canopy species.\
+      \ Macro refers to macrocystis pyrifera or giant kelp. Nereo refers to nereocystis\
+      \ luetkeana or bull kelp. Mixed is a homogenous mix of both Macro and Nereo\
+      \ species. Defined by GIS techs - identified by \"credit\" field. \n\nDensity\
+      \ - density of kelp defined as either high or low. Based on the Sutherland methodology\
+      \ for kelp density. High = high density / based on mean kelp plants found per\
+      \ square meter. Low = low density - still a continuous bed of kelp with large\
+      \ gaps the length of each fond.\n\nArea sq_m - size of each kelp bed in square\
+      \ meters. Defined by arc geometry calculation.\n\nConcat - concatenation of\
+      \ species and density information. Used for cartographic purposes. Defined by\
+      \ concatenating species and density metrics in ARC GIS.\n\nConfidence - Used\
+      \ by GIS technician to identify difficult to detect species / kelp bed extent\
+      \ / density. Used to inform reviewers and quality control spatial information.\
+      \ High = High confidence - no need to check over, Medium = medium confidence\
+      \ - check over, Low = low confidence - unsure of major elements - reviewer check\
+      \ over. A \"Checked\" may be added to the information to determine quality control\
+      \ has been completed on low confidence polygons. Determined by the last \"credit\"\
+      \ reviewer.\n\nCredit - Initials of GIS technician to create and give the final\
+      \ quality check on the kelp extent polygon. KH = Keith Holmes, JB = Jenn Burt,\
+      \ AS = Amanda Schrack, SM = Sebastian Mather.\n\nSpecies_la - full Latin species\
+      \ name for the kelp. macrocystis pyrifera / nereocystis luetkeana / mixed. Mixed\
+      \ has a homogeneous mix of both macrocystis pyrifera and nereocystis luetkeana\
+      \ species\n\nDataset created by Jenn Burt and Keith Holmes. Simon Fraser University\
+      \ Volunteers: Amanda Schrack and Sebastian Mather\nContact: keith.holmes@hakai.org"
+    fr: "Des photos aériennes de 2006 provenant de la province ont été utilisées pour\
+      \ numériser les auvents de varech pour le nord-ouest de l'île Calvert. Les zones\
+      \ focales de West Beach et du passage Choked au large de l'île Calvert ont été\
+      \ choisies pour faire l'objet d'une analyse pluriannuelle des changements de\
+      \ la canopée du varech avant et après l'établissement de la loutre dans la région.\
+      \ \n\nLa densité/espèce/l'étendue du varech sont enregistrées - voir les attributs\
+      \ ci-dessous.\nL'étendue de la canopée de varech en 2006 représente la croissance\
+      \ maximale de l'année. Le niveau des marées était d'environ 2,47 mètres (8,1\
+      \ pieds), ce qui pourrait avoir un impact sur l'étendue du varech et la capacité\
+      \ des techniciens SIG à détecter et à identifier correctement les espèces. D'autres\
+      \ recherches sont en cours pour valider et tester les niveaux de marée avec\
+      \ les résultats associés à l'étendue du varech.\n\nToute la numérisation a eu\
+      \ lieu à l'aide d'Arc GIS. L'équipe de bénévoles de la SFU (Amanda Schrack et\
+      \ Sebastian Mather) ainsi que les chercheurs principaux Jenn Burt et Keith Holmes.\n\
+      \nMéthodes basées sur la méthodologie KIM 1 telle que décrite dans le rapport\
+      \ Sutherland 2007 : http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf\n\
+      \nZones couvertes : West Beach - 7e plage à West Beach + passage étranglé -\
+      \ Surf Pass et North Beach à Wolf Beach North jusqu'à Hakai Land et Sea Beach.\n\
+      \nAttributs :\n\nFID - Numéro d'identification unique - ARC généré automatiquement\
+      \ lors de la création d'un polygone\n\nForme - Polygone - représentation spatiale\n\
+      \nEspèce - « Macro »/« Nereo »/Mixte détaillant les deux espèces possibles de\
+      \ la canopée de varech. Macro fait référence à macrocystis pyrifera ou varech\
+      \ géant. Nereo fait référence au nereocystis luetkeana ou au varech de taureau.\
+      \ Mixed est un mélange homogène d'espèces Macro et Nereo. Définie par les techniciens\
+      \ SIG - identifiée par le champ « crédit ». \n\nDensité - densité du varech\
+      \ définie comme élevée ou faible. Basé sur la méthodologie Sutherland pour la\
+      \ densité du varech. Élevé = haute densité/basé sur la moyenne des plants de\
+      \ varech trouvés par mètre carré. Faible = faible densité - toujours un lit\
+      \ continu de varech avec de grands espaces sur la longueur de chaque fond.\n\
+      \nSuperficie sq_m - taille de chaque lit de varech en mètres carrés. Défini\
+      \ par le calcul de la géométrie des arcs.\n\nConcat - concaténation des informations\
+      \ sur les espèces et la densité. Utilisé à des fins cartographiques. Définie\
+      \ par la concaténation des espèces et des mesures de densité dans ARC GIS.\n\
+      \nConfiance - Utilisé par un technicien SIG pour identifier les espèces difficiles\
+      \ à détecter, l'étendue du lit de varech et la densité. Utilisé pour informer\
+      \ les réviseurs et contrôler la qualité des informations spatiales. Élevé =\
+      \ niveau de confiance élevé - pas besoin de vérifier, moyen = niveau de confiance\
+      \ moyen - vérification, faible = faible confiance - incertain des principaux\
+      \ éléments - vérification de l'examinateur. Un « vérifié » peut être ajouté\
+      \ aux informations pour déterminer si le contrôle de qualité a été effectué\
+      \ sur les polygones de faible confiance. Déterminé par le dernier examinateur\
+      \ de « crédit ».\n\nCrédit - Initiales du technicien SIG pour créer et donner\
+      \ le contrôle de qualité final sur le polygone d'étendue de varech. KH = Keith\
+      \ Holmes, JB = Jenn Burt, AS = Amanda Schrack, SM = Sebastian Mather.\n\nSpecies_LA\
+      \ - nom d'espèce latin complet du varech. macrocystis pyrifera/nereocystis luetkeana/mixed.\
+      \ Le mélange mixte contient un mélange homogène d'espèces de macrocystis pyrifera\
+      \ et de nereocystis luetkeana\n\nJeu de données créé par Jenn Burt et Keith\
+      \ Holmes. Bénévoles de l'Université Simon Fraser : Amanda Schrack et Sebastian\
+      \ Mather\nContact : keith.holmes@hakai.org"
+  associated_resources: []
+  dates:
+    publication: '2015-11-26'
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - kelp
+      - Nereocystis luetkeana
+      - Macrocystis pyrifera
+      - '2006'
+      - calvert
+      - hakai
+      - air
+      - photo
+      - canopy
+      - marine
+      - urchin
+      - extent
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: Kelp Canopy Extent 2006 - NW Calvert Island
+    fr: Étendue de la canopée de varech 2006 - nord-ouest de l'île Calvert
+metadata:
+  dates:
+    publication: '2022-03-11'
+    revision: '2021-09-23T20:15:21.826Z'
+  identifier: 4034f474-4d52-4a9e-9650-f3c6bd5011e0
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/None/-MVpRZnZ2Y0d4cWhKcHk
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -128.1719970703125
+  - 51.63229666135982
+  - -128.10985565185547
+  - 51.68362528576685
+  vertical:
+  - 0.0
+  - 50.0
+  vertical_positive: depthPositive
