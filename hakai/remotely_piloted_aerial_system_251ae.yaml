@@ -1,0 +1,187 @@
+contact:
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
+  - author
+  - pointOfContact
+  - principalInvestigator
+  - processor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Description of datasets and methodologies.
+    fr: Description des ensembles de données et des méthodologies.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: 100 Islands RPAS Data Readme
+    fr: Lecteur de données RPAS 100 îles
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://drive.google.com/file/d/1nryEKvutAfUf4dgbtT3X_rH1_ce1yCik/view?usp=sharing
+identification:
+  abstract:
+    en: "What\n- Orthomosaics derived from RPAS Imagery\n- Digital Elevation Models\
+      \ derived from RPAS Imagery\n- Photogrammetry LAS points and other elevation\
+      \ derivatives - see document for details\n- Vegetated island areas - created\
+      \ from the photogrametric point clouds\n\nWhen\n- Data were collected between\
+      \ 2015 and 2018\n\nWhere\n- The data were collected on the Central Coast of\
+      \ British Columbia, Canada. \n- The data cover 100 islands sampled within the\
+      \ Calvert Island Region.\n\nHow\n-The data were collected with Phantom 3 Pro\
+      \ RPAS. \n-The data were georeferenced with a Topcon GR5 Differential GNSS.\
+      \ \n-The data were processed with the SfM software Pix4D Mapper. See additional\
+      \ details in the attached methodology document.\n\nWho\n-Luba Reshitnyk, Keith\
+      \ Holmes, and Wiebe Nijland collected the data. The orthomosaics were created\
+      \ by Luba and Keith. Wiebe calculated the derived terrain and vegetation metrics.\n\
+      \nWhy \nThe 100 Islands program focused on understanding the relationship between\
+      \ marine subsidies and the theory of island biogeography. Research questions\
+      \ were focused on understanding the relationship between island structure (shoreline,\
+      \ size, vegetative cover) and local biodiversity (terrestrial plants, mammals,\
+      \ passerine birds, invertebrates and sea wrack)\nThe orthomosaics and 3D surface\
+      \ of each study island were used to derive data products such as digital elevation/surface\
+      \ models, island area, vegetated area, and canopy height models."
+    fr: "Quoi\n- Orthomosaïques dérivées de l'imagerie RPAS\n- Modèles d'élévation\
+      \ numériques dérivés de l'imagerie RPAS\n- Points LAS de photogrammétrie et\
+      \ autres dérivés d'élévation - voir le document pour plus de détails\n- Zones\
+      \ insulaires végétalisées - créées à partir des nuages de points photogrométriques\n\
+      \nQuand\n- Les données ont été collectées entre 2015 et 2018\n\nOù\n- Les données\
+      \ ont été recueillies sur la côte centrale de la Colombie-Britannique, au Canada.\
+      \ \n- Les données couvrent 100 îles échantillonnées dans la région des îles\
+      \ Calvert.\n\nComment\n-Les données ont été collectées avec Phantom 3 Pro RPAS.\
+      \ \n-Les données ont été géoréférencées avec un GNSS différentiel Topçon GR5.\
+      \ \n-Les données ont été traitées avec le logiciel SfM Pix4D Mapper. Pour plus\
+      \ de détails, consultez le document méthodologique ci-joint.\n\nQui\n-Luba Reshitnyk,\
+      \ Keith Holmes et Wiebe Nijland ont collecté les données. Les orthomosaïques\
+      \ ont été créées par Luba et Keith. Wiebe a calculé les mesures de terrain et\
+      \ de végétation dérivées.\n\nPourquoi \nLe programme des 100 îles s'est concentré\
+      \ sur la compréhension de la relation entre les subventions marines et la théorie\
+      \ de la biogéographie insulaire. Les questions de recherche ont été axées sur\
+      \ la compréhension de la relation entre la structure de l'île (rivage, taille,\
+      \ couverture végétale) et la biodiversité locale (plantes terrestres, mammifères,\
+      \ passereaux, invertébrés et fard de mer)\nL'orthomosaïque et la surface 3D\
+      \ de chaque île d'étude ont été utilisées pour dériver des produits de données\
+      \ tels que des modèles numériques d'élévation et de surface, des zones insulaires,\
+      \ des zones végétalisées et des modèles de hauteur du couvert."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2016-09-01'
+    publication: '2021-02-01'
+    revision: '2021-02-01'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/25ng-ar52
+  keywords:
+    default:
+      en:
+      - coastal zone
+      - habitat characterization
+      - coastal characterization
+      - coastal flora
+      - sensitive habitat
+      - remote sensing
+      fr:
+      - zone côtière
+      - caractérisation des habitats
+      - caractérisation des rives
+      - flore côtière
+      - habitat sensible
+      - télédétection
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  temporal_begin: '2016-09-01T19:00:00.000Z'
+  temporal_end: '2018-09-01T19:00:00.000Z'
+  title:
+    en: Remotely-Piloted Aerial Systems Imagery, Terrain Data, and Derivates - 100
+      Islands Project, Central Coast, BC, Canada
+    fr: Imagerie de systèmes aériens télépilotés, données de terrain et dérivés -
+      Projet 100 îles, côte centrale, Colombie-Britannique, Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2023-03-03'
+    revision: '2024-03-15T19:24:04.426Z'
+  identifier: 251aef08-4017-4493-b9d8-c4583913b511
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/DCH8GzsQKSM8xwJ8WdQFIZrtCaq2/-MnacSB0YNeFCB0Qmn2r
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Data has not been guaranteed by a surveyor. Appropriate credit must be given
+        to Hakai Institute and the authors of the dataset.
+      fr: Les données n'ont pas été garanties par un géomètre. Le crédit approprié
+        doit être accordé à l'Institut Hakai et aux auteurs de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform: []
+spatial:
+  bbox:
+  - -128.7
+  - 51.38
+  - -127.5
+  - 52.23
+  vertical:
+  - 0.0
+  - 200.0
+  vertical_positive: heightPositive
