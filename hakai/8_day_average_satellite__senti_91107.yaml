@@ -1,0 +1,397 @@
+contact:
+- inCitation: true
+  individual:
+    email: maycira@uvic.ca
+    name: Costa, Maycira
+    orcid: https://orcid.org/0000-0002-1876-3351
+    position: Associate Professor
+  organization:
+    address: Spectral Remote Sensing Laboratory, Department of Geography, University
+      of Victoria, David Turpin Bldg Rm B126, 3800 Finnerty Road Victoria, BC, Canada,
+      V8P 5C2
+    city: Victoria
+    country: Canada
+    email: maycira@uvic.ca
+    name: University of Victoria
+    ror: https://ror.org/04s5mat29
+    url: http://www.uvic.ca/
+  roles:
+  - originator
+  - collaborator
+  - principalInvestigator
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: algaeexplorer@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - pointOfContact
+  - resourceProvider
+  - processor
+  - publisher
+  - distributor
+  - funder
+distribution:
+- description:
+    en: Interactive web interface with fully processed prior day Chla and SPM imagery
+      for the BC and southeast Alaska coast and offshore waters.
+    fr: Interface Web interactive avec imagerie Chla et SPM entièrement traitée de
+      la veille pour la côte de la Colombie-Britannique et du sud-est de l'Alaska
+      et les eaux extracôtières.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Algae Explorer
+    fr: Explorateur d'algues
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: www.algaeexplorer.ca
+- name:
+    en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://catalogue.hakai.org/erddap/griddap/sentinel_3A_POLYMER_8Day.html
+- description:
+    en: Performance evaluation of POLYMER processed Sentinel-3A imagery for the derivation
+      of chlorophyll-a concentrations on the British Columbia and Southeast Alaska
+      coast. Validation was performed via match-up analysis using in-situ chlorophyll-a
+      samples from southern BC and expected ranges and seasonal trends from northern
+      BC and Southeast Alaska.
+    fr: Évaluation de la performance de l'imagerie Sentinelle 3A traitée par POLYMER
+      pour le calcul des concentrations de chlorophylle-a sur la côte de la Colombie-Britannique
+      et du sud-est de l'Alaska. La validation a été effectuée par analyse de correspondance
+      à l'aide d'échantillons de chlorophylle-a in situ provenant du sud de la Colombie-Britannique
+      et des fourchettes et tendances saisonnières attendues dans le nord de la Colombie-Britannique
+      et le sud-est de l'Alaska.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Performance of OLCI Sentinel-3A satellite in the Northeast Pacific coastal
+      waters
+    fr: Performance du satellite OLCI Sentinel-3A dans les eaux côtières du Pacifique
+      Nord-Est
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://doi.org/10.1016/j.rse.2021.112317
+- description:
+    en: Methods section provides detailed description of data processing pipeline
+      and results demonstrate use case for data
+  name:
+    en: Bioregionalization of the coastal and open oceans of British Columbia and
+      Southeast Alaska based on Sentinel-3A satellite-derived phytoplankton seasonality
+    fr: Biorégionalisation des océans côtiers et ouverts de la Colombie-Britannique
+      et du sud-est de l'Alaska sur la base de la saisonnalité du phytoplancton dérivée
+      du satellite Sentinel-3A
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://doi.org/10.3389/fmars.2022.968470
+- description:
+    en: Overview of development of automated system that outputs near real-time (prior
+      day) fully processed OLCI Sentinel 3A chlorophyl imagery for the British Columbia
+      and southeast Alaska coast and offshore waters.
+    fr: Vue d'ensemble du développement d'un système automatisé qui produit des images
+      de chlorophylle OLCI Sentinel 3A entièrement traitées en temps quasi réel (la
+      veille) pour la côte de la Colombie-Britannique et du sud-est de l'Alaska et
+      les eaux extracôtières.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Geospatial Computing Collaborations
+    fr: Collaborations en matière d'informatique géospatiale
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://doi.org/10.1109/PACRIM47961.2019.8985053
+- description:
+    en: Overview of the Sentinel-3 mission
+    fr: Présentation de la mission Sentinel-3
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: 'The Sentinel-3 Mission: Overview and status'
+    fr: 'La mission Sentinel-3 : vue d''ensemble et statut'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://doi.org/10.1109/IGARSS.2012.6351194
+identification:
+  abstract:
+    en: 'This is an ongoing dataset of fully processed 8-day average Sentinel 3A and
+      3B chlorophyll-a (Chla) and suspended particulate matter (SPM) imagery for coastal
+      and offshore British Columbia (BC) and Southeast Alaska waters. Sentinel 3A
+      and 3B are European Space Agency (ESA) oceanography satellites jointly operated
+      with the European Organization for the Exploitation of Meteorological Satellites
+      (EUMETSAT). The ocean and land colour instrument (OLCI) onboard both satellites
+      has a 300m spatial resolution, near daily temporal coverage (when 3A and 3B
+      are combined), 21 spectral bands from 400-1200nm, high signal-to-noise ratio
+      and an off-nadir swath centered to minimize ocean sun glint. These features
+      make the instruments well suited to retrievals of biogeochemical products from
+      optically complex coastal waters.
+
+
+      At the University of Victoria (BC, Canada), the SPECTRAL remote sensing laboratory
+      has performed extensive evaluation of methods for the best regional Chla and
+      SPM retrievals. Validation with in-situ data showed the best results using Level-1
+      imagery processed with the POLYnomial based algorithm applied to MERIS (POLYMER)
+      processor. Following validation, the SPECTRAL laboratory and the MOD(ularity)
+      Squad developed an automated processing system that: 1) downloads imagery from
+      the Marine Copernicus Online Data Access (CODA) web service; 2) applies POLYMER
+      and flagging and; 3) mosaics the imagery for fully processed Chla and SPM concentrations
+      over the study region. Additionally, an interactive public web interface was
+      created to view the near real time outputs at www.algaeexplorer.ca (provided
+      in resources).  Full validation details are provided in Giannini et al. (2021)
+      and processing details in Jacoby et al. (2019) and Marchese et al. (2022) referenced
+      in the resources.
+
+
+      In 2022, the Hakai Institute took responsibility of the project, added processing
+      of 3B imagery allowing for 8-day averaging of 3A and 3B imagery, created automated
+      submission to the Canadian Integrated Ocean Observing System (CIOOS) and updated
+      the Algae Explorer web interface to include all products. Averaging imagery
+      over 8 days considerably improves spatial coverage in cloudy regions such as
+      the northeast Pacific.
+
+
+      This product provides the best known regional OLCI Chla and SPM retrievals shown
+      to have low systematic biases (<1%) and follow expected seasonal and spatial
+      trends; however, relative percent difference between validation data and satellite
+      retrievals was high notably for Chla (~83%) due to the underestimation of high
+      Chla concentrations and potentially an artifact of spatial-temporal mismatches
+      between validation samples and image pixels. The SPECTRAL laboratory has performed
+      initial radiometric comparisons of 3A and 3B imagery and shown highly comparable
+      data; however, comparison of biogeochemical outputs is still in progress. Further
+      uncertainties exist in high turbidity regions (Fraser River plume and fjords)
+      where uncorrectable poor-quality pixels are sometimes observed. Additionally,
+      an unresolved data striping issue is periodically present and observed as a
+      narrow band of distorted pixels, which sometimes evades the land mask and, crosses
+      images diagonally above Vancouver Island. Efforts are underway to correct this
+      issue. Data users should consider these uncertainties and issues when using
+      the data.
+
+
+      Satellite remote sensing is increasingly used to study surface ocean processes
+      at the spatial and temporal resolutions required for understanding long term
+      variability under a changing climate. Chlorophyll-a is the most widely used
+      measure of phytoplankton biomass and crucial for understanding phytoplankton
+      which are the base of the marine food web and control ocean biogeochemical cycling.
+      Suspended particulate matter is a key water quality indicator (i.e. turbidity)
+      with increased concentrations reducing light availability to aquatic species.
+
+
+      Funding was provided by the UBC/UVic Hakai Coastal Initiative postdoctoral fellowship,
+      NSERC NCE Marine Environmental Observation Prediction and Response (MEOPAR)
+      network, Canadian Space Agency (CSA), Canadian Foundation for Innovation (CFI)
+      and NSERC Discover Grant awarded to Maycira Costa.
+
+
+      It is requested that Giannini et al. (2021), Jacoby et al. (2019) and Marchese
+      et al. (2022) are referenced if data is used for published research and the
+      ESA acknowledged as the data provider.'
+    fr: 'Il s''agit d''un ensemble de données continu d''imagerie entièrement traitée
+      de la chlorophylle a (Chla) et des particules en suspension (SPM) Sentinelle
+      3A et 3B moyennes sur 8 jours pour les eaux côtières et extracôtières de la
+      Colombie-Britannique (BC) et du sud-est de l''Alaska. Sentinel 3A et 3B sont
+      des satellites océanographiques de l''Agence spatiale européenne (ESA) exploités
+      conjointement avec l''Organisation européenne pour l''exploitation de satellites
+      météorologiques (EUMETSAT). L''instrument de mesure de la couleur de l''océan
+      et de la terre (OLCI) embarqué à bord des deux satellites a une résolution spatiale
+      de 300 m, une couverture temporelle proche de la journée (lorsque 3A et 3B sont
+      combinés), 21 bandes spectrales allant de 400 à 1 200 nm, un rapport signal/bruit
+      élevé et une bande hors nadir centrée pour minimiser les reflets du soleil océanique.
+      Ces caractéristiques rendent les instruments parfaitement adaptés à la récupération
+      de produits biogéochimiques dans des eaux côtières optiquement complexes.
+
+
+      À l''Université de Victoria (Colombie-Britannique, Canada), le laboratoire de
+      télédétection SPECTRAL a effectué une évaluation approfondie des méthodes permettant
+      d''obtenir les meilleures extractions régionales de Chla et de SPM. La validation
+      avec des données in situ a donné les meilleurs résultats en utilisant l''imagerie
+      de niveau 1 traitée avec l''algorithme basé sur PolyNomial appliqué au processeur
+      MERIS (POLYMER). Après validation, le laboratoire SPECTRAL et l''escouade MOD
+      (ularity) ont développé un système de traitement automatisé qui : 1) télécharge
+      les images depuis le service Web d''accès aux données en ligne de Marine Copernicus
+      (CODA) ; 2) applique le POLYMÈRE et le marquage ; 3) mosaïque les images des
+      concentrations de Chla et de SPM entièrement traitées dans la région d''étude.
+      De plus, une interface Web publique interactive a été créée pour visualiser
+      les résultats en temps quasi réel sur www.algaeexplorer.ca (fournis dans les
+      ressources). Les détails complets de validation sont fournis dans Giannini et
+      al. (2021) et les détails du traitement dans Jacoby et al. (2019) et Marchese
+      et al. (2022) référencés dans les ressources.
+
+
+      En 2022, l''Institut Hakai a pris la responsabilité du projet, a ajouté le traitement
+      des images 3B et la moyenne sur 8 jours des images 3A et 3B, a créé une soumission
+      automatique au Système intégré canadien d''observation des océans (CIOOS) et
+      a mis à jour l''interface Web Algae Explorer pour inclure tous les produits.
+      La moyenne des images sur 8 jours améliore considérablement la couverture spatiale
+      dans les régions nuageuses telles que le nord-est du Pacifique.
+
+
+      Ce produit fournit les extractions régionales OLCI Chla et SPM les plus connues,
+      qui présentent de faibles biais systématiques (&lt; 1 %) et suivent les tendances
+      saisonnières et spatiales attendues ; toutefois, la différence relative en pourcentage
+      entre les données de validation et les extractions par satellite était élevée,
+      notamment pour le Chla (~ 83 %) en raison de la sous-estimation des concentrations
+      élevées de Chla et potentiellement d''un artefact de discordances spatio-temporelles
+      entre les échantillons de validation et les pixels d''image. Le laboratoire
+      SPECTRAL a effectué des comparaisons radiométriques initiales des images 3A
+      et 3B et a présenté des données très comparables ; toutefois, la comparaison
+      des résultats biogéochimiques est toujours en cours. D''autres incertitudes
+      existent dans les régions à forte turbidité (panache du fleuve Fraser et fjords)
+      où des pixels de mauvaise qualité impossibles à corriger sont parfois observés.
+      De plus, un problème non résolu de découpage des données est périodiquement
+      présent et observé sous la forme d''une bande étroite de pixels déformés, qui
+      échappe parfois au masque terrestre et traverse les images en diagonale au-dessus
+      de l''île de Vancouver. Des efforts sont en cours pour corriger ce problème.
+      Les utilisateurs des données doivent tenir compte de ces incertitudes et de
+      ces problèmes lorsqu''ils utilisent les données.
+
+
+      La télédétection par satellite est de plus en plus utilisée pour étudier les
+      processus océaniques de surface aux résolutions spatiales et temporelles requises
+      pour comprendre la variabilité à long terme dans un contexte de changement climatique.
+      La chlorophylle-A est la mesure la plus largement utilisée de la biomasse du
+      phytoplancton. Elle est essentielle pour comprendre le phytoplancton, qui constitue
+      la base du réseau trophique marin et contrôle le cycle biogéochimique des océans.
+      Les particules en suspension sont un indicateur clé de la qualité de l''eau
+      (c''est-à-dire la turbidité), l''augmentation des concentrations réduisant la
+      disponibilité de la lumière pour les espèces aquatiques.
+
+
+      Le financement a été fourni par la bourse postdoctorale de l''UBC/Uvic Hakai
+      Coastal Initiative, le réseau NSERC NCE Marine Environmental Observation Prediction
+      and Response (MEOPAR), l''Agence spatiale canadienne (ASC), la Fondation canadienne
+      pour l''innovation (CFI) et la subvention Discover du CRSNG accordée à Maycira
+      Costa.
+
+
+      Il est demandé que Giannini et al. (2021), Jacoby et al. (2019) et Marchese
+      et al. (2022) soient référencés si les données sont utilisées pour des recherches
+      publiées et si l''ESA est reconnue comme le fournisseur de données.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2016-04-25'
+  edition: '1'
+  identifier: https://doi.org/10.21966/175j-8k96
+  keywords:
+    default:
+      en:
+      - remote sensing
+      - chlorophyll a
+      - phytoplankton
+      - coastal zone
+      - water quality
+      - abundance and biomass
+      - sediment
+      - suspended particulate matter
+      fr:
+      - télédétection
+      - chlorophylle a
+      - phytoplancton
+      - zone côtière
+      - qualité eau
+      - abondance et biomasse
+      - sédiment
+    eov:
+      en:
+      - phytoplanktonBiomassAndDiversity
+      - particulateMatter
+      - other
+      fr:
+      - Biomasse et diversité de phytoplancton
+      - Matière particulaire
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2016-04-25T19:00:00.000Z'
+  title:
+    en: 8-day average satellite (Sentinel 3A and 3B) chlorophyll and suspended matter
+      concentrations for coastal British Columbia and southeast Alaska
+    fr: Concentrations moyennes de chlorophylle et de matières en suspension par satellite
+      (Sentinel 3A et 3B) sur 8 jours pour la côte de la Colombie-Britannique et le
+      sud-est de l'Alaska
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2024-04-05'
+    revision: '2024-04-05T16:18:46.799Z'
+  identifier: 91107fce-93a4-4bc9-bce4-e7d9e1cf02a0
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/7U7b8oPpeTN6gjvXlUCTGJr5pga2/-Nueis-TZEnz_78f8PYf
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Product is the best regionally evaluated output, but methods may evolve.
+        Satellite derived chlorophyll and SPM concentrations contain error.
+      fr: Le produit est le meilleur résultat actuellement évalué, mais les méthodes
+        peuvent évoluer. Les concentrations de chlorophylle et de SPM obtenues par
+        satellite contiennent des erreurs.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform: []
+spatial:
+  bbox:
+  - -139.0
+  - 47.0
+  - -121.5
+  - 59.5
+  vertical:
+  - 0.0
+  - 5.0
+  vertical_positive: heightPositive
