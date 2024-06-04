@@ -1,0 +1,208 @@
+contact:
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+- inCitation: true
+  individual:
+    name: Korver, Maartje
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - processor
+  - pointOfContact
+  - author
+- inCitation: true
+  individual:
+    email: keith.holmes@hakai.org
+    name: Holmes, Keith
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    email: bill@viu.ca
+    name: Floyd, Bill
+  organization:
+    name: Hakai Institute - Vancouver Island University
+  roles:
+  - author
+  - owner
+  - distributor
+distribution:
+- description:
+    en: Discharge spreadsheet data are stored in Hakai's Google drive. Contact data@hakai.org
+      for access.
+    fr: Les données de la feuille de calcul des congés sont stockées dans le Google
+      Drive de Hakai. Contactez data@hakai.org pour y accéder.
+  name:
+    en: Hakai's Google Drive (restricted access)
+  url: https://drive.google.com/a/hakai.org/folderview?id=0Byed_WX-ZNMaYWdqSTVzU3YyVEE&usp=sharing
+identification:
+  abstract:
+    en: "Streamflow calculation; a component of the Kwakshua Watersheds Program\n\n\
+      In natural streams it is not possible to continuously measure stream discharge,\
+      \ thus an indirect approach was used,  where river height (stage) was continuously\
+      \ measured at a gauging station using a pressure transducer, with periodic manual\
+      \ measurements of discharge along the range of potential stages to develop a\
+      \ stage-discharge rating curve. Low flows were manually measured using the velocity-area\
+      \ method, with either a Swoffer Current Velocimeter or a Sontek Acoustic Doppler\
+      \ Velocimeter. Moderate to high flows (generally greater than 1cms) were measured\
+      \ using the salt dilution method, either manually (dry salt) and/or remotely\
+      \ (starting in the fall of 2015), using a fully automated system to release\
+      \ pre-defined volumes of salt solution at pre-defined water stages at an upstream\
+      \ location, with permanently installed electrical conductivity sensors located\
+      \ down-stream, one on either side of the stream to measure the salt wave passing\
+      \ through. Data are available in near real-time using the Hakai Telemetry Network\
+      \ (Floyd and Brunsting, 2015).  A calibration factor, required for the salt\
+      \ dilution method, was manually calculated at a minimum twice per barrel refill\
+      \ of salt solution, once at the initial fill and the other with the remaining\
+      \ solution before re-fill. \t\t\t\t\t\t\n\nAll discharge measurements were assigned\
+      \ a relative uncertainty, based on fluctuations in the flow velocity profile\
+      \ (for area-velocity method), or based on the uncertainty in the volume of salt\
+      \ solution, the EC sensor resolution  and the EC sensor calibration factor (for\
+      \ salt dilution method). Measurements with uncertainties higher than 20%, with\
+      \ noise or malfunctioning conductivity sensors, or with high uncertainties in\
+      \ stage monitoring were excluded from further analysis. The remaining discharge-stage\
+      \ measurements were plotted as a power-law equation (Q = Ce*(H-h0)^A) in excel,\
+      \ to analyze if there were clear outliers, to determine the approximate value\
+      \ of h0 and to determine if the data could be fitted on one curve, or if they\
+      \ would fit better on a low flow and high flow curve, separated by an 'inflection\
+      \ point'. After this, the rating curve equation was optimized using a non-linear\
+      \ least-squares fitting Python model (LMFit, 2015). A detailed description of\
+      \ these methods have been documented in the MSc thesis of Maartje Korver (2015).\
+      \ Finally, this discharge time-series was created using 5 minute average stage\
+      \ measurements. Extra caution must be taken when using calculated discharges\
+      \ greater than the highest measured discharge (noted in this file as 'Max measured\
+      \ discharge' ), because the extrapolation of a rating curve beyond a set of\
+      \ measurements is usually highly uncertain and can greatly over or under estimate\
+      \ discharge. THESE DATA are provided AS IS and will continuously improve as\
+      \ additional discharge measurements are taken. Users should re-check for periodic\
+      \ updates to the rating curves and subsequent discharge files. If errors are\
+      \ found please contact Bill.Floyd@viu.ca."
+    fr: "Calcul du débit ; une composante du programme des bassins versants de Kwakshua\n\
+      \nDans les cours d'eau naturels, il n'est pas possible de mesurer en continu\
+      \ le débit du cours d'eau, c'est pourquoi une approche indirecte a été utilisée,\
+      \ où la hauteur de la rivière (étape) a été mesurée en continu à une station\
+      \ de jaugeage à l'aide d'un transducteur de pression, avec des mesures manuelles\
+      \ périodiques du débit le long de la plage d'étapes potentielles pour courbe\
+      \ nominale de décharge de l'étage. Les faibles débits ont été mesurés manuellement\
+      \ à l'aide de la méthode vitesse-surface, à l'aide d'un vélocimètre à courant\
+      \ Swoffer ou d'un vélocimètre Doppler acoustique Sontek. Des débits modérés\
+      \ à élevés (généralement supérieurs à 1 cm) ont été mesurés à l'aide de la méthode\
+      \ de dilution du sel, soit manuellement (sel sec), soit à distance (à partir\
+      \ de l'automne 2015), à l'aide d'un système entièrement automatisé pour libérer\
+      \ des volumes prédéfinis de solution saline à des étapes prédéfinies de l'eau\
+      \ en un emplacement en amont, avec des capteurs de conductivité électrique installés\
+      \ en permanence situés en aval, de part et d'autre du courant pour mesurer la\
+      \ vague de sel qui le traverse. Les données sont disponibles en temps quasi\
+      \ réel à l'aide du réseau de télémétrie Hakai (Floyd et Brunsting, 2015). Un\
+      \ facteur d'étalonnage, requis pour la méthode de dilution au sel, a été calculé\
+      \ manuellement à au moins deux fois par recharge de baril de solution saline,\
+      \ une fois au remplissage initial et l'autre avec la solution restante avant\
+      \ le remplissage. \n\nToutes les mesures de débit se sont vu attribuer une incertitude\
+      \ relative, basée sur les fluctuations du profil de vitesse d'écoulement (pour\
+      \ la méthode surface-vitesse), ou sur la base de l'incertitude du volume de\
+      \ solution saline, de la résolution du capteur CE et du facteur d'étalonnage\
+      \ du capteur CE (pour la méthode de dilution au sel). Les mesures avec des incertitudes\
+      \ supérieures à 20 %, avec des capteurs de bruit ou de conductivité défectueux,\
+      \ ou avec des incertitudes élevées dans la surveillance des étapes ont été exclues\
+      \ d'une analyse plus approfondie. Les mesures restantes de l'étape de décharge\
+      \ ont été tracées sous forme d'équation Power-Law (Q = Ce* (h-h0) ^A) dans Excel,\
+      \ pour analyser s'il y avait des valeurs aberrantes claires, pour déterminer\
+      \ la valeur approximative de h0 et pour déterminer si les données pouvaient\
+      \ être ajustées sur une courbe, ou si elles s'adapteraient mieux à une courbe\
+      \ de faible débit et de débit élevé, séparés par un « point d'inflexion ». Ensuite,\
+      \ l'équation de la courbe d'évaluation a été optimisée à l'aide d'un modèle\
+      \ Python d'ajustement des moindres carrés non linéaire (LMfit, 2015). Une description\
+      \ détaillée de ces méthodes a été documentée dans la thèse de maîtrise de Maartje\
+      \ Korver (2015). Enfin, cette série chronologique de rejets a été créée à l'aide\
+      \ de mesures d'étage moyennes sur 5 minutes. Des précautions supplémentaires\
+      \ doivent être prises lors de l'utilisation de décharges calculées supérieures\
+      \ au débit mesuré le plus élevé (noté dans ce fichier sous le nom de « débit\
+      \ maximal mesuré »), car l'extrapolation d'une courbe d'évaluation au-delà d'un\
+      \ ensemble de mesures est généralement très incertaine et peut largement surestimer\
+      \ ou sous-estimer le débit. CES DONNÉES sont fournies EN L'ÉTAT et s'amélioreront\
+      \ continuellement au fur et à mesure que des mesures de débit supplémentaires\
+      \ seront prises. Les utilisateurs doivent vérifier à nouveau les mises à jour\
+      \ périodiques des courbes d'évaluation et les fichiers de décharge ultérieurs.\
+      \ Si des erreurs sont détectées, veuillez contacter Bill.Floyd@viu.ca."
+  associated_resources: []
+  dates:
+    creation: '2014-08-01'
+    publication: '2016-02-19'
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - Discharge
+      - Stage-discharge time series
+      - stage
+      - water
+      - stream
+      - river
+      - fresh water
+      - rating curve
+      - Kwakshua Watersheds Program
+      - salt dilution method
+      - salt
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2014-08-01T19:00:00.000Z'
+  temporal_end: '2016-01-25T20:00:00.000Z'
+  title:
+    en: Stage-Discharge Time Series - Calvert Island - Archived Version 1.0
+    fr: Série chronologique des rejets par étapes - Île Calvert - Version archivée
+      1.0
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2022-03-29T17:29:16.418Z'
+  identifier: a242acd4-e3c7-46e0-8f43-f428fb824018
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUpNR0VhOVRlU210cDI
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+platform: []
+spatial:
+  bbox:
+  - -128.13217163085935
+  - 51.59626804559349
+  - -127.97149658203124
+  - 51.6857538480987
+  vertical:
+  - 0.0
+  - 250.0
+  vertical_positive: depthPositive
