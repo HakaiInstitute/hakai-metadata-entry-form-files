@@ -1,0 +1,258 @@
+contact:
+- inCitation: true
+  individual:
+    email: santiago@hakai.org
+    name: Gonzalez Arriola, Santiago
+    orcid: https://orcid.org/0000-0001-8869-5481
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+  - author
+- inCitation: true
+  individual:
+    name: Korver, Maartje C.
+    orcid: https://orcid.org/0000-0003-1062-4864
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: wayne.jacob@hakai.org
+    name: Jacob, Wayne
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - owner
+  - distributor
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    address: 1002 Wharf Street - Suite 100, V8W 1T4
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - processor
+  - custodian
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
+    fr: L'instance AGOL de Hakai est la plate-forme pour l'accès et l'utilisation
+      en ligne de cet ensemble de données
+  name:
+    en: Online map
+  url: http://hakai.maps.arcgis.com/home/item.html?id=b0e832a7597b40fba04d64934f02b8a8
+- description:
+    en: Calvert Island Lake Bathymetry Data Download - RASTER - and readme metadata
+    fr: Téléchargement des données bathymétriques du lac de l'île Calvert - RASTER
+      - et métadonnées Readme
+  name:
+    en: Data package
+  url: https://drive.google.com/drive/folders/1heQoHoLncElNXOIwe2D332ZvSpdwPFnG?usp=sharing
+identification:
+  abstract:
+    en: "Bathymetric surveys were completed for six lakes on Calvert and Hecate Islands\
+      \ as part of the Kwakshua Watersheds Program. The surveys were conducted at\
+      \ different times from May to July 2016 using a canoe-mounted, location-aware\
+      \ depth sounder and by taking random manual depth measurements.  \n\nAll depth\
+      \ recordings are referenced to a survey benchmark and have been quality controlled,\
+      \ cleaned and processed in a 3D GIS environment. For each lake, bathymetry has\
+      \ been modeled by means of a 1m Natural Neighbours raster generated from a Triangulated\
+      \ Irregular Network (TIN) using survey data. The high water mark is used as\
+      \ reference for full lake volume calculations. The lake outline has been manually\
+      \ digitized from high resolution orthophotos.\n\nBathymetry TIN models have\
+      \ been produced for each lake by using the manually digitized lake outlines\
+      \ as a “hard clip” interpolator of depth = 0, and using normalized (referenced\
+      \ on the vertical to a common benchmark) pre-processed and cleaned depth sounder\
+      \ and manual depth-reading survey data (depth) as mass points. \n\nThe surveyed\
+      \ lakes are the following:\nMajor lake within watershed 708 on Calvert Island.\n\
+      Major lake within watershed 1015 on Hecate Island.\nA system of four interconnected\
+      \ lakes within watershed 693 on Calvert Island. \n\nThis dataset contains two\
+      \ layers of information: \n1m depth contours for all lakes merged into the same\
+      \ layer to allow for symbolization and comparison of all lakes on the same vertical\
+      \ scale\nSurveyed lake outline polygons manually digitized from high resolution\
+      \ (25cm) orthophotos acquired in 2012. \n\nAll data processing has been undertaken\
+      \ using ESRI’s ArcGIS 10.3 platform (ArcMap and ArcScene). \n\nAuthor Contributions:\
+      \ Santiago Gonzalez Arriola did all geospatial data processing and produced\
+      \ the final data and map products. Maartje Korver lead the the field data collection\
+      \ and initial data management. Wayne Jacob developed the depth sounder instrument\
+      \ and data logger. Ian Giesbrecht co-conceptualized the project with Suzanne\
+      \ Tank and Allison Oliver, and supervised implementation of field and geospatial\
+      \ aspects. Several members of the Hakai Geospatial Technologies team made important\
+      \ contributions, including Will McInnes, Matt Foster, Ray Brunsting and Keith\
+      \ Holmes.\n\nFor stage-volume tables, volume equations and further details on\
+      \ the methodologies employed in the survey and processing of the data please\
+      \ contact data@hakai.org\n\nSuggested citation:\nGonzalez Arriola, S., M. Korver,\
+      \ W. Jacob and I. Giesbrecht. 2016. Bathymetry for six lakes on Calvert and\
+      \ Hecate Islands, British Columbia. Hakai Institute Data Package. https://doi.org/10.21966/fcwf-p919"
+    fr: "Des relevés bathymétriques ont été réalisés pour six lacs des îles Calvert\
+      \ et Hécate dans le cadre du programme des bassins versants de Kwakshua. Les\
+      \ relevés ont été menés à différents moments de mai à juillet 2016 à l'aide\
+      \ d'un sondeur de profondeur monté sur un canoë et sensible à la localisation\
+      \ et en prenant des mesures de profondeur manuelles aléatoires. \n\nTous les\
+      \ enregistrements de profondeur sont référencés à un repère d'enquête et ont\
+      \ été contrôlés, nettoyés et traités dans un environnement SIG 3D. Pour chaque\
+      \ lac, la bathymétrie a été modélisée au moyen d'un raster Natural Neighbours\
+      \ de 1 m généré à partir d'un réseau triangulé irrégulier (TIN) à l'aide de\
+      \ données d'enquête. La laisse des hautes eaux est utilisée comme référence\
+      \ pour les calculs du volume total du lac. Le contour du lac a été numérisé\
+      \ manuellement à partir d'orthophotos haute résolution.\n\nDes modèles TIN bathymétriques\
+      \ ont été produits pour chaque lac en utilisant les contours des lacs numérisés\
+      \ manuellement comme interpolateur « hard clip » de profondeur = 0, et en utilisant\
+      \ un sondeur de profondeur normalisé (référencé à la verticale par rapport à\
+      \ un repère commun), un sondeur de profondeur prétraité et nettoyé et des données\
+      \ d'enquête à lecture manuelle de la profondeur (profondeur) comme masse points.\
+      \ \n\nLes lacs étudiés sont les suivants :\nGrand lac dans le bassin versant\
+      \ 708 de l'île Calvert.\nGrand lac dans le bassin versant 1015 de l'île d'Hécate.\n\
+      Un système de quatre lacs interconnectés dans le bassin versant 693 de l'île\
+      \ Calvert. \n\nCe jeu de données contient deux couches d'informations : \nLes\
+      \ contours de 1 m de profondeur pour tous les lacs fusionnés dans la même couche\
+      \ pour permettre la symbolisation et la comparaison de tous les lacs sur la\
+      \ même échelle verticale\nPolygones de contour de lac étudiés numérisés manuellement\
+      \ à partir d'orthophotos haute résolution (25 cm) acquises en 2012. \n\nTous\
+      \ les traitements des données ont été effectués à l'aide de la plate-forme ArcGIS\
+      \ 10.3 d'ESRI (ArcMap et ArcScene). \n\nContributions des auteurs : Santiago\
+      \ Gonzalez Arriola a effectué tous les traitements des données géospatiales\
+      \ et a produit les données finales et les produits cartographiques. Maartje\
+      \ Korver dirige la collecte des données sur le terrain et la gestion initiale\
+      \ des données. Wayne Jacob a développé l'instrument sondeur et l'enregistreur\
+      \ de données. Ian Giesbrecht a co-conceptualisé le projet avec Suzanne Tank\
+      \ et Allison Oliver, et a supervisé la mise en œuvre des aspects sur le terrain\
+      \ et géospatiaux. Plusieurs membres de l'équipe de Hakai Geospatial Technologies\
+      \ ont apporté d'importantes contributions, notamment Will McInnes, Matt Foster,\
+      \ Ray Brunsting et Keith Holmes.\n\nPour les tableaux de volumes par étapes,\
+      \ les équations de volume et plus de détails sur les méthodologies utilisées\
+      \ dans l'enquête et le traitement des données, veuillez contacter data@hakai.org\n\
+      \nCitation suggérée :\nGonzalez Arriola, S., M. Korver, W. Jacob et I. Giesbrecht.\
+      \ 2016. Bathymétrie pour six lacs des îles Calvert et Hécate, en Colombie-Britannique.\
+      \ Paquet de données de l'Institut Hakai. https://doi.org/10.21966/fcwf-p919"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2016-08-10'
+  identifier: https://doi.org/10.21966/fcwf-p919
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - Bathymetry
+      - Lakes
+      - Survey
+      - calvert
+      - depth
+      - hakai
+      - other
+      - watersheds
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Watersheds
+  - Geospatial
+  status: published
+  title:
+    en: Bathymetry for Six Lakes on Calvert and Hecate Islands - 2016 - British Columbia
+      - Canada
+    fr: Bathymétrie pour six lacs des îles Calvert et Hécate - 2016 - Colombie-Britannique
+      - Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2024-03-14T20:59:38.296Z'
+  identifier: b52d5602-f81d-4565-9574-e448e99bc997
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWxuNHhkYXVuNlFDSVY
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.09646606445312
+  - 51.5996802644666
+  - -127.9508972167969
+  - 51.69171329024539
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
