@@ -1,0 +1,225 @@
+contact:
+- inCitation: true
+  individual:
+    email: brett.johnson@hakai.org
+    name: Johnson, Brett
+    orcid: https://orcid.org/0000-0001-9317-0364
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - author
+  - principalInvestigator
+  - distributor
+- inCitation: true
+  individual:
+    name: van der Stap, Tim
+    orcid: https://orcid.org/0000-0002-0053-0795
+  organization:
+    address: Hakai Institute PO Box 25039
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Bachen, Krystal
+    orcid: https://orcid.org/0000-0003-0886-157X
+  organization:
+    address: Hakai Institute PO Box 25039
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Rondeau, Eric
+    orcid: https://orcid.org/0000-0001-9062-0833
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Beacham, Terry
+    orcid: https://orcid.org/0000-0003-0987-8445
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Latham, Steve
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Pacific Salmon Commission
+    ror: https://ror.org/04t98w133
+    url: http://www.psc.org/
+  roles:
+  - collaborator
+- inCitation: true
+  individual:
+    name: Hunt, Brian
+    orcid: https://orcid.org/0000-0003-4718-4962
+  organization:
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: data@hakai.org
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Genetic stock ID data
+    fr: Package de données complet
+  name:
+    en: Data Package on GitHub
+    fr: Package de données sur GitHub
+  url: https://github.com/HakaiInstitute/jsp-gsi/archive/refs/tags/v2.zip
+- description:
+    en: The genetic stock ID contained in this resource can be linked to our time
+      series using the ufn field
+    fr: L'identifiant du stock génétique contenu dans cette ressource peut être lié
+      à nos séries chronologiques à l'aide du champ ufn
+  name:
+    en: 'Parent record: Hakai Institute Juvenile Salmon Program Time Series'
+    fr: 'Fiche parentale : Série chronologique du programme de pêche au saumon juvénile
+      de l''Institut Hakai'
+  url: https://doi.org/10.21966/1.566666
+identification:
+  abstract:
+    en: This datasets contains genetic stock identifications for juvenile sockeye
+      salmon collected by the Hakai Institute Juvenile Salmon Program between 2015
+      and 2021. This information tells us the probability that each specific fish
+      originates from a specific watershed. The stock ID was done at the Department
+      of Fisheries and Oceans Pacific Biological Station in Nanaimo BC using the coastwide040118.bse
+      baseline that is comprised of 214 distinct populations.
+    fr: Ces ensembles de données contiennent des identifications génétiques de stocks
+      de saumons rouges juvéniles collectées par le Hakai Institute Juvenile Salmon
+      Program entre 2015 et 2021. Ces informations nous indiquent la probabilité que
+      chaque poisson soit originaire d'un bassin versant spécifique. L'identification
+      du stock a été effectuée à la station biologique du Pacifique du ministère des
+      Pêches et des Océans à Nanaimo, en Colombie-Britannique, en utilisant la base
+      de référence coastwide040118.bse, qui comprend 214 populations distinctes.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2015-05-12'
+    publication: '2023-01-17'
+    revision: '2023-01-18'
+  edition: '2.0'
+  identifier: https://doi.org/10.21966/9ktc-qm09
+  keywords:
+    default:
+      en:
+      - Juvenile Salmon Program
+      - salmon
+      - genetic stock id
+      - molecular genetics
+      - sockeye
+    eov:
+      en:
+      - fishAbundanceAndDistribution
+      fr:
+      - Abondance et distribution de poissons
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  project:
+  - Juvenile Salmon Program
+  status: published
+  temporal_begin: '2015-05-12T19:00:00.000Z'
+  temporal_end: '2021-07-09T19:00:00.000Z'
+  title:
+    en: Genetic Stock Identification of Juvenile Sockeye Salmon Captured in the Discovery
+      Islands and Johnstone Strait BC, Canada
+    fr: Identification génétique des stocks de saumons rouges juvéniles capturés dans
+      les îles Discovery et le détroit de Johnstone, en Colombie-Britannique, au Canada,
+      de 2015 à 2021
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2024-01-18'
+    revision: '2024-03-21T20:07:20.777Z'
+  identifier: 6f6560e7-7497-4685-9df2-51c66080b7c9
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-NM0DF83_HSOwpbGBM8m
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Please collaborate with the authors if you intend to use these data.
+      fr: Merci de collaborer avec les auteurs si vous avez l'intention d'utiliser
+        ces données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform: []
+spatial:
+  bbox:
+  - -127.0
+  - 49.88
+  - -124.4
+  - 50.84
+  vertical:
+  - 0.0
+  - 9.0
+  vertical_positive: heightPositive
