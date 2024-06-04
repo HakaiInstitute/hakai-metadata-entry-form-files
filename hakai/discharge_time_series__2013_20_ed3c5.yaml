@@ -1,0 +1,307 @@
+contact:
+- inCitation: true
+  individual:
+    name: Korver, Maartje C.
+    orcid: https://orcid.org/0000-0003-1062-4864
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+  - distributor
+  - owner
+  - author
+- inCitation: true
+  individual:
+    email: Bill.Floyd@viu.ca
+    name: Floyd, William C.
+  organization:
+    country: Canada
+    email: Bill.Floyd@viu.ca
+    name: Hakai Institute - Vancouver Island University
+  roles:
+  - originator
+  - custodian
+  - pointOfContact
+- inCitation: true
+  individual:
+    name: Brunsting, Ray
+    orcid: https://orcid.org/0000-0001-6272-9364
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: Hakai Google Drive Data Package
+  url: https://drive.google.com/drive/folders/1G8aUQUd_66vr9DhrF8AzpMhX_4DVsHbp?usp=sharing
+- description:
+    en: Script used to calculate the rating curves
+    fr: Script utilisé pour calculer les courbes d'évaluation
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Rating Curve script
+  url: https://github.com/HakaiInstitute/RatingCurve
+- description:
+    en: The R scripts used to calculate the hourly, daily, monthly and yearly discharge
+      rates
+    fr: Les scripts R utilisés pour calculer les taux de rejet horaires, quotidiens,
+      mensuels et annuels
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Discharge editing script
+  url: https://github.com/HakaiInstitute/Discharge-editing
+identification:
+  abstract:
+    en: "General field methods\n\nIn natural streams it is not possible to continuously\
+      \ measure stream discharge, thus an indirect approach was used: river height\
+      \ (stage) was continuously measured at a gauging station using a pressure transducer\
+      \ and periodic discharge measurements were taken along the range of potential\
+      \ stages to develop a stage-discharge rating curve. Detailed description of\
+      \ the measurement methods outlined below can be found in the supplement section\
+      \ of Oliver et al. (2017). \n\nPressure transducers were installed in the fall\
+      \ of 2013 at watershed 708 and in the fall of 2014 at the other watersheds (Table\
+      \ 1). Low flows were manually measured using the velocity-area method, with\
+      \ either a Swoffer Current Velocimeter or a Sontek Acoustic Doppler Velocimeter.\
+      \ Stream flows, generally greater than 0.5 m3/s, were measured using the salt\
+      \ dilution method, either manually (dry salt) or remotely (starting in the fall\
+      \ of 2015) using a fully automated system. The automated salt dilution (auto-salt)\
+      \ system releases pre-defined volumes of salt solution at pre-defined water\
+      \ stages, with two electrical conductivity sensors permanently located down-stream,\
+      \ to measure the salt wave passing through. Data are available in near real-time\
+      \ using the Hakai Telemetry Network (www.hakai.org/technology/#science-1). \
+      \ A calibration factor, required for the salt dilution method, was manually\
+      \ calculated at a minimum twice per barrel refill of salt solution, once at\
+      \ the initial fill and the other with the remaining solution before re-fill.\
+      \ \n \nGeneral data QC and analysis\n\nStage-discharge rating curves are not\
+      \ static but shift over time due to changes in the morphology of river channels,\
+      \ often associated with flood events. Therefore, rating curves are updated regularly.\
+      \ Korver et al. (2018) developed the first rating curves in 2015 and performed\
+      \ a detailed analysis of uncertainty of these rating curves. A concise description\
+      \ of rating curve plotting methods can be found in the supplement section of\
+      \ Oliver et al. (2017). However, this method has been substantially altered\
+      \ since and a summary of the current method used is described below.\n\nAll\
+      \ discharge measurements are assigned a relative uncertainty, based on fluctuations\
+      \ in the flow velocity profile (for area-velocity method), or based on the uncertainty\
+      \ in the volume of salt solution, the EC sensor resolution and the EC sensor\
+      \ calibration factor (for salt dilution method). Measurements with uncertainties\
+      \ higher than 20%, with noise or malfunctioning conductivity sensors, or with\
+      \ high uncertainties in stage monitoring are excluded from further analysis.\
+      \ The remaining stage-discharge measurements are plotted using a LOWESS regression\
+      \ that accounts for scatter in the stage-discharge data and multi-section rating\
+      \ curves. Uncertainty of derived discharge data is quantified by plotting confidence\
+      \ intervals (CI) around the rating curve. Following the methodology proposed\
+      \ by Coxon et al. (2015), these CI's are derived from 500 curve fitting results\
+      \ of LOWESS regressions on a randomized set of stage-discharge measurements\
+      \ and their maximum and minimum value of error. Using LOWESS regression is considered\
+      \ an improvement from using fixed power-law shaped functions (previously used\
+      \ method), as LOWESS has no defined shape and can therefore fit data more precise.\
+      \ Especially the determination of confidence intervals using LOWESS provides\
+      \ more realistic results as the previous CI algorithm is intended for linear\
+      \ functions and therefore needs to be log transformed. This results in unrealistic\
+      \ small CI's in the low flow end and unrealistic high CI's in the high flow\
+      \ end of the rating curve.\n\nThis discharge time-series was created using 5-minute\
+      \ average stage measurements that are Quality Controlled (QC), flagged and corrected\
+      \ where needed (Table 2). Generally, data gaps that were filled as well as noisy,\
+      \ faulty data that were corrected were assigned an ‘EV’ – Estimated Value flag.\
+      \ Suspicious data points that could not be corrected and estimated were assigned\
+      \ an ‘SVC’ – Suspicious Value Caution flag. All other data points were flagged\
+      \ ‘AV’ – Accepted Value. QC flags assigned to stage data were automatically\
+      \ copied to the corresponding 5-minute discharge calculations. Only flows greater\
+      \ than the highest measured discharge were assigned an additional 'SVC' flag,\
+      \ because the extrapolation of a rating curve beyond a set of measurements is\
+      \ usually highly uncertain and can greatly over or under estimate discharge.\
+      \ \nHourly, daily, monthly and yearly discharge rates, as well as hourly, daily,\
+      \ monthly and yearly discharge volumes are calculated from 5-minute discharge\
+      \ data as described in Table 3."
+    fr: "Méthodes générales sur le terrain\n\nDans les cours d'eau naturels, il n'est\
+      \ pas possible de mesurer en continu le débit du cours d'eau, c'est pourquoi\
+      \ une approche indirecte a été utilisée : la hauteur de la rivière (étape) a\
+      \ été mesurée en continu à une station de jaugeage à l'aide d'un transducteur\
+      \ de pression et des mesures de débit périodiques ont été prises le long de\
+      \ la plage des étapes potentielles pour développer courbe de débit. Une description\
+      \ détaillée des méthodes de mesure décrites ci-dessous se trouve dans la section\
+      \ supplément d'Oliver et al. (2017). \n\nDes capteurs de pression ont été installés\
+      \ à l'automne 2013 dans le bassin versant 708 et à l'automne 2014 dans les autres\
+      \ bassins versants (tableau 1). Les faibles débits ont été mesurés manuellement\
+      \ à l'aide de la méthode vitesse-surface, à l'aide d'un vélocimètre à courant\
+      \ Swoffer ou d'un vélocimètre Doppler acoustique Sontek. Les débits des cours\
+      \ d'eau, généralement supérieurs à 0,5 m3/s, ont été mesurés à l'aide de la\
+      \ méthode de dilution du sel, soit manuellement (sel sec), soit à distance (à\
+      \ partir de l'automne 2015) à l'aide d'un système entièrement automatisé. Le\
+      \ système automatisé de dilution du sel (auto-sel) libère des volumes prédéfinis\
+      \ de solution saline à des niveaux d'eau prédéfinis, avec deux sondes de conductivité\
+      \ électrique situées en permanence en aval, pour mesurer la vague de sel qui\
+      \ passe à travers. Les données sont disponibles en temps quasi réel à l'aide\
+      \ du réseau de télémétrie Hakai (www.hakai.org/technology/ #science -1). Un\
+      \ facteur d'étalonnage, requis pour la méthode de dilution au sel, a été calculé\
+      \ manuellement à au moins deux fois par recharge de baril de solution saline,\
+      \ une fois au remplissage initial et l'autre avec la solution restante avant\
+      \ le remplissage. \n \nCQ et analyse des données générales\n\nLes courbes d'évaluation\
+      \ du débit par étapes ne sont pas statiques mais changent dans le temps en raison\
+      \ de changements dans la morphologie des chenaux fluviaux, souvent associés\
+      \ à des inondations. Par conséquent, les courbes de notation sont mises à jour\
+      \ régulièrement. Korver et al. (2018) ont développé les premières courbes d'évaluation\
+      \ en 2015 et ont effectué une analyse détaillée de l'incertitude de ces courbes\
+      \ d'évaluation. Une description concise des méthodes de traçage de la courbe\
+      \ d'évaluation se trouve dans la section supplément d'Oliver et al. (2017).\
+      \ Cependant, cette méthode a été sensiblement modifiée depuis et un résumé de\
+      \ la méthode actuelle utilisée est décrit ci-dessous.\n\nToutes les mesures\
+      \ de débit se voient attribuer une incertitude relative, basée sur les fluctuations\
+      \ du profil de vitesse d'écoulement (pour la méthode surface-vitesse), ou sur\
+      \ la base de l'incertitude du volume de solution saline, de la résolution du\
+      \ capteur CE et du facteur d'étalonnage du capteur CE (pour la méthode de dilution\
+      \ au sel). Les mesures avec des incertitudes supérieures à 20 %, avec des capteurs\
+      \ de bruit ou de conductivité défectueux, ou avec des incertitudes élevées dans\
+      \ la surveillance des étages sont exclues d'une analyse plus approfondie. Les\
+      \ autres mesures de débit de l'étage sont tracées à l'aide d'une régression\
+      \ LOWESS qui tient compte de la dispersion dans les données de débit de l'étage\
+      \ et les courbes d'évaluation multi-sections. L'incertitude des données dérivées\
+      \ sur les débits est quantifiée en traçant les intervalles de confiance (IC)\
+      \ autour de la courbe d'évaluation. Suivant la méthodologie proposée par Coxon\
+      \ et al. (2015), ces IC sont dérivés de 500 résultats d'ajustement de courbe\
+      \ de régressions LOWESS sur un ensemble aléatoire de mesures de débit par étapes\
+      \ et leurs valeurs d'erreur maximale et minimale. L'utilisation de la régression\
+      \ LOWESS est considérée comme une amélioration par rapport à l'utilisation de\
+      \ fonctions en forme de loi de puissance fixe (méthode utilisée précédemment),\
+      \ car LOWESS n'a pas de forme définie et peut donc ajuster les données avec\
+      \ plus de précision. En particulier, la détermination des intervalles de confiance\
+      \ à l'aide de LOWESS fournit des résultats plus réalistes, car l'algorithme\
+      \ d'IC précédent est destiné aux fonctions linéaires et doit donc être transformé\
+      \ logarithmique. Il en résulte de petits IC irréalistes dans le bas débit et\
+      \ des IC élevés irréalistes dans l'extrémité haut débit de la courbe de notation.\n\
+      \nCette série chronologique de rejets a été créée à l'aide de mesures d'étapes\
+      \ moyennes de 5 minutes qui sont contrôlées par la qualité (CQ), signalées et\
+      \ corrigées au besoin (tableau 2). En général, les lacunes de données qui ont\
+      \ été comblées ainsi que les données bruyantes et défectueuses qui ont été corrigées\
+      \ ont reçu un indicateur « EV » — Valeur estimée. Les points de données suspects\
+      \ qui n'ont pas pu être corrigés et estimés ont reçu un indicateur « SVC » —\
+      \ Mise en garde des valeurs suspectes. Tous les autres points de données étaient\
+      \ marqués « AV » — Valeur acceptée. Les indicateurs de CQ attribués aux données\
+      \ d'étape ont été automatiquement copiés dans les calculs de débit correspondants\
+      \ de 5 minutes. Seuls les débits supérieurs au débit mesuré le plus élevé ont\
+      \ reçu un indicateur « SVC » supplémentaire, car l'extrapolation d'une courbe\
+      \ d'évaluation au-delà d'un ensemble de mesures est généralement très incertaine\
+      \ et peut largement surestimer ou sous-estimer le débit. \nLes taux de rejet\
+      \ horaires, quotidiens, mensuels et annuels, ainsi que les volumes de rejet\
+      \ horaires, quotidiens, mensuels et annuels sont calculés à partir des données\
+      \ de rejet de 5 minutes décrites dans le tableau 3."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2013-09-08'
+    publication: '2019-05-11'
+    revision: '2020-01-18'
+  edition: '4.1'
+  identifier: https://doi.org/10.21966/zvwf-qn04
+  keywords:
+    default:
+      en:
+      - carbon
+      - discharge
+      - water
+      - hydrograph
+      - stream
+      - DOC
+      - rack
+      - high flow
+      - other
+      - watersheds
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Watersheds
+  status: published
+  temporal_begin: '2013-09-08T19:00:00.000Z'
+  temporal_end: '2019-04-01T19:00:00.000Z'
+  title:
+    en: Observed stream flow from seven small coastal watersheds in British Columbia,
+      Canada, Sept 2013 – April 2019 Version 4.1
+    fr: Écoulement des cours d'eau observé à partir de sept petits bassins versants
+      côtiers de la Colombie-Britannique, Canada, septembre 2013 à avril 2019 Version
+      4.1
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-25'
+    revision: '2024-03-15T19:46:44.567Z'
+  identifier: ed3c5cb4-e6b0-4c8a-808e-3583a9a6cfde
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MU1zSkI4S24ySE1rMGI
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.13265424
+  - 51.60936247
+  - -127.95907025
+  - 51.69558793
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
