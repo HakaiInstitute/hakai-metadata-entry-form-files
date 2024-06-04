@@ -1,0 +1,103 @@
+contact:
+- inCitation: true
+  individual:
+    email: nmahara@eoas.ubc.ca
+    name: Mahara, Natalie
+  organization:
+    country: Canada
+    email: nmahara@eoas.ubc.ca
+    name: University of British Columbia
+  roles:
+  - author
+  - pointOfContact
+  - owner
+- inCitation: true
+  individual:
+    email: emailb.hunt@oceans.ubc.ca
+    name: Hunt, Brian
+  organization:
+    country: Canada
+    email: emailb.hunt@oceans.ubc.ca
+    name: University of British Columbia
+  roles:
+  - principalInvestigator
+  - pointOfContact
+- inCitation: true
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - distributor
+  - custodian
+  - owner
+distribution:
+- description:
+    en: Digital Object Identifier for this dataset
+  name:
+    en: Data
+  url: https://drive.google.com/drive/folders/175fEJYwluNCypoUidTtNzBLnosrAuEgD?usp=sharing
+identification:
+  abstract:
+    en: This data package includes mesozooplankton taxonomy data collected from the
+      northern Strait of Georgia, Discovery Islands, Johnstone Strait, and Queen Charlotte
+      Strait from April to July of 2015 and 2016. Individuals were identified to the
+      lowest taxonomic level (i.e., species, stage, and sex) when possible.
+    fr: Ce paquet de données comprend des données de taxonomie du mésozooplancton
+      collectées dans le détroit de Georgia, Discovery Islands, Johnstone Strait et
+      détroit de la Reine-Charlotte entre avril et juillet 2015 et 2016. Les individus
+      ont été identifiés au niveau taxonomique le plus bas (c.-à-d. espèce, stade
+      et sexe) lorsque c'est possible.
+  associated_resources: []
+  dates:
+    publication: '2020-10-20'
+  identifier: https://doi.org/10.21966/bhqd-9361
+  keywords:
+    default:
+      en:
+      - oceanography
+      - zooplankton
+      - taxonomy
+      - coast
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: underDevelopment
+  status: published
+  title:
+    en: Zooplankton - Taxonomy – Northern Strait of Georgia, Discovery Islands, Johnstone
+      Strait, and Queen Charlotte Strait – April to July 2015 and 2016
+    fr: Zooplancton - Taxonomie — Détroit nord de Georgia, Discovery Islands, détroit
+      de Johnstone et détroit de la Reine-Charlotte — avril à juillet 2015 et 2016
+metadata:
+  dates:
+    publication: '2022-02-04'
+    revision: '2022-02-04T18:31:20.364Z'
+  identifier: 804b5b42-5550-4620-b789-7c2fe9572c03
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTZhamNPb0U3cThnR0o
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Creative Commons Attribution 4.0 International (CC BY 4.0)
+spatial:
+  bbox:
+  - -126.93452704
+  - 49.56730131
+  - -124.18481219
+  - 50.90762515
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
