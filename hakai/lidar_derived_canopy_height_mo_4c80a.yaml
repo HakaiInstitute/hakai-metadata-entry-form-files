@@ -1,0 +1,142 @@
+contact:
+- inCitation: true
+  individual:
+    name: Frazer, Gordon W.
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - processor
+  - pointOfContact
+  - author
+  - editor
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Geospatial Technology Team Hakai
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - author
+  - editor
+  - principalInvestigator
+  - publisher
+  - distributor
+- inCitation: true
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
+      / reference layer
+    fr: L'instance AGOL de Hakai est la plate-forme pour l'accès et l'utilisation
+      en ligne de ce jeu de données/couche de référence
+  name:
+    en: Online map
+  url: http://hakai.maps.arcgis.com/home/item.html?id=d83c82546b0246099173bd9aacc7389e
+- description:
+    en: Canopy Height Model Downloadable Data
+    fr: Données téléchargeables du modèle de hauteur d'auvent
+  name:
+    en: Data package
+  url: https://drive.google.com/drive/folders/0Byed_WX-ZNMaVnJRUmlHNk03T1k?usp=sharing
+identification:
+  abstract:
+    en: "Lidar Derived Canopy Height Model for Calvert Island British Columbia Canada.\n\
+      \nCanopy Height Model has been produced by calculating first and last return\
+      \ LIDAR dataset (see links below for more information on the LIDAR acquisition\
+      \ metadata). \nThe CHM was calculated using the bare earth model (last return)\
+      \ and subtracting the top of canopy (first return).\n\nCalculated maximum laser\
+      \ return based on a 2 x 2 meter cell.\n\nLidar acquisition methods fully detailed\
+      \ in LiDAR data package - link provided below.\n\nFor a full metadata report\
+      \ on Lidar acquisition please contact data@hakai.org"
+    fr: "Modèle de hauteur de canopée dérivé du lidar pour l'île Calvert, Colombie-Britannique,\
+      \ Canada.\n\nLe modèle de hauteur de la canopée a été produit en calculant le\
+      \ premier et le dernier jeu de données LIDAR de retour (voir les liens ci-dessous\
+      \ pour plus d'informations sur les métadonnées d'acquisition LIDAR). \nLe CHM\
+      \ a été calculé à l'aide du modèle de la terre nue (dernier retour) et en soustrayant\
+      \ le sommet de la canopée (premier retour).\n\nRendement laser maximal calculé\
+      \ sur la base d'une cellule de 2 x 2 mètres.\n\nMéthodes d'acquisition Lidar\
+      \ détaillées dans le paquet de données LiDAR - lien fourni ci-dessous.\n\nPour\
+      \ obtenir un rapport complet sur les métadonnées relatives à l'acquisition Lidar,\
+      \ veuillez contacter data@hakai.org"
+  associated_resources: []
+  dates:
+    publication: '2016-09-13'
+    revision: '2016-09-13'
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - Canopy
+      - Height
+      - Model
+      - Lidar
+      - Forest
+      - Tree
+      - Calvert
+      - Hecate
+      - air
+      - terrestrial
+      - CHM
+      - crown
+      - raster
+      - other
+      - watersheds
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: Lidar Derived Canopy Height Model - Calvert Island - British Columbia - Canada
+    fr: Modèle de hauteur de canopée dérivé du lidar - Calvert Island - Colombie-Britannique
+      - Canada
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2022-03-29T23:14:40.743Z'
+  identifier: 4c80a391-e74a-48cf-87ae-67632e485725
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXZNRlc4QTNraFNTcjU
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+spatial:
+  bbox:
+  - -128.309326171875
+  - 51.41633810640042
+  - -127.803955078125
+  - 51.97472977494965
+  vertical:
+  - 0.0
+  - 1014.0
+  vertical_positive: heightPositive
