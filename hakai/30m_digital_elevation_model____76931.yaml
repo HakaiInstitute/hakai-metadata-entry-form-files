@@ -1,0 +1,161 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - principalInvestigator
+  - processor
+  - author
+- inCitation: false
+  individual:
+    name: Gonzalez Arriola, Santiago
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - processor
+  - pointOfContact
+- inCitation: true
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+  - custodian
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Research Institute
+  roles:
+  - distributor
+  - distributor
+distribution:
+- description:
+    en: Hakai's repository for downloading raw data files. Metadata Report
+    fr: Le dépôt de Hakai pour le téléchargement de fichiers de données brutes. Rapport
+      sur les métadonnées
+  name:
+    en: Hakai Geospatial Data Repository (restricted access)
+  url: https://drive.google.com/file/d/1bBFshpEXOlQ5zNO7hB36ufSPcLZihWqx/view?usp=sharing
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
+    fr: L'instance AGOL de Hakai est la plateforme d'accès et d'utilisation en ligne
+      de ce jeu de données
+  name:
+    en: ArcGIS Online Reference Layer
+  url: http://hakai.maps.arcgis.com/home/item.html?id=2a1e9e4f67ec45fc825906a2b727b980
+identification:
+  abstract:
+    en: "This DEM has been created from Hakai's Master Terrain Dataset (MTD) by means\
+      \ of the “Terrain to raster” tool in ESRI's ArcGIS for Desktop using a Natural\
+      \ Neighbour sampling method. The DEM has been natively created at 30m resolution.\
+      \ This DEM has been clipped to the shoreline of the island. A combination of\
+      \ different elevations around the island have been used to create the shoreline.\
+      \ \n\t\t\n\t\tThe resulting DEM is a bare earth, hydro-flattened elevation model\
+      \ and therefore considered \"topographically complete\". Each pixel represents\
+      \ the elevation in meters above average sea level of the bare earth at that\
+      \ location. The vertical reference system is \"Canadian Geodetic Vertical Datum\
+      \ 1928\" (CGVD28). \n\nHakai has produced DEM's at different resolutions natively\
+      \ directly from the LiDAR data MTD. Please use the appropriate resolution product\
+      \ from those produced by Hakai for your research purposes. In order to maintain\
+      \ homogeneity, up-sampling / up-scaling from higher resolution products is not\
+      \ recommended as it may introduce and propagate errors of varying magnitudes\
+      \ into the analyses being conducted; please use products already available,\
+      \ and if you require a resolution not available contact data@hakai.org in order\
+      \ to obtain a DEM produced directly from the MTD. \n\nMaster Terrain Dataset\
+      \ Creation:\n\nLiDAR point clouds from missions flown on 2012 and 2014 over\
+      \ Calvert Island where loaded (XYZ only) into a point feature class in an ESRI\
+      \ Geodatabase."
+    fr: "Ce MNT a été créé à partir du jeu de données de terrain principal (MTD) de\
+      \ Hakai au moyen de l'outil « MNT vers raster » dans ArcGIS for Desktop d'ESRI\
+      \ à l'aide d'une méthode d'échantillonnage Natural Neighbour. Le DEM a été créé\
+      \ en mode natif à une résolution de 30 m. Ce DEM a été accroché au rivage de\
+      \ l'île. Une combinaison de différentes altitudes autour de l'île a été utilisée\
+      \ pour créer le rivage. \n \n Le MNT qui en résulte est un modèle d'élévation\
+      \ hydroaplati en terre nue et est donc considéré comme « topographiquement complet ».\
+      \ Chaque pixel représente l'altitude en mètres au-dessus du niveau moyen de\
+      \ la mer de la terre nue à cet endroit. Le système de référence vertical est\
+      \ le « Système de référence géodésique vertical canadien 1928 » (CGVD28). \n\
+      \nHakai a produit des DEM à différentes résolutions en mode natif directement\
+      \ à partir du MTD de données LiDAR. Veuillez utiliser le produit de résolution\
+      \ approprié parmi ceux fabriqués par Hakai à des fins de recherche. Afin de\
+      \ maintenir l'homogénéité, il n'est pas recommandé de suréchantillonner/augmenter\
+      \ la mise à l'échelle à partir de produits à résolution plus élevée, car cela\
+      \ peut introduire et propager des erreurs d'amplitude variable dans les analyses\
+      \ effectuées ; veuillez utiliser des produits déjà disponibles, et si vous avez\
+      \ besoin d'une résolution non disponible, contactez data@hakai.org afin d'obtenir\
+      \ un DEM produit directement à partir du MTD. \n\nCréation du jeu de données\
+      \ Master MNT\n\nLes nuages de points LiDAR des missions effectuées en 2012 et\
+      \ 2014 au-dessus de l'île Calvert ont été chargés (XYZ uniquement) dans une\
+      \ classe d'entités ponctuelles d'une géodatabase ESRI."
+  associated_resources: []
+  dates:
+    creation: '2012-08-04'
+    publication: '2015-06-10'
+    revision: '2015-07-11'
+  keywords:
+    default:
+      en:
+      - Calvert Island
+      - Topography
+      - elevation
+      - Downloadable Data
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2012-08-04T19:00:00.000Z'
+  temporal_end: '2015-07-23T19:00:00.000Z'
+  title:
+    en: 30m Digital Elevation Model - Calvert Island - British Columbia - Canada
+    fr: Modèle numérique d'élévation de 30 m - Calvert Island - Colombie-Britannique
+      - Canada
+metadata:
+  dates:
+    publication: '2022-01-20'
+    revision: '2022-01-20T00:24:41.081Z'
+  identifier: 769311e9-1b1f-41f4-9023-38acf37a6690
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW1iT1oxc3AwR2Mxb24
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+spatial:
+  bbox:
+  - -128.164675
+  - 51.408207
+  - -127.868994
+  - 51.734813
+  vertical:
+  - 0.0
+  - 1013.0
+  vertical_positive: heightPositive
