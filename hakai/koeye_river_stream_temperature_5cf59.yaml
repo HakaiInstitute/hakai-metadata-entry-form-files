@@ -1,0 +1,153 @@
+contact:
+- inCitation: true
+  individual:
+    email: emily.haughton@hakai.org
+    name: Haughton, Emily
+    orcid: https://orcid.org/0009-0002-5756-1805
+    position: Technician
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+  - pointOfContact
+  - originator
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+  organization:
+    city: Campbell River
+    country: Canada
+    email: ian.giesbrecht@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - principalInvestigator
+  - pointOfContact
+  - owner
+  - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: Koeye River time-series v1 2017-2020
+  url: https://github.com/HakaiInstitute/KR01-time-series-v1_2017-2020
+identification:
+  abstract:
+    en: This time-series represents 3 years of 5-minute average stage (HOBO U20L-01),
+      water temperature (HOBO U20L-01), and conductivity (HOBO U24-001) measurements
+      that are Quality Controlled (QC), flagged and corrected where needed for the
+      Koeye River, located on the mainland coast of British Columbia adjacent to Fitz
+      Hugh Sound. The sensor installation and operation described here is done with
+      permission of, and in consultation with, Heiltsuk Nation and BC Parks. We thank
+      Larry Jorgensen, William Housty, Jess Housty, and Kelly Brown for guidance working
+      in this important area of Heiltsuk territory. We thank Bill Floyd, Maartje Korver,
+      and Will Atlas, for assisting with the original design. For significant contributions
+      in the field we thank Ben Millard-Martin, Isabelle Desmarais, and Rob White.
+    fr: Cette série chronologique représente 3 ans de mesures de stade moyen de 5
+      minutes (HOBO U20L-01), de température de l'eau (HOBO U20L-01) et de conductivité
+      (HOBO U24-001) qui sont contrôlées par la qualité (QC), signalées et corrigées
+      si nécessaire pour la rivière Koeye, située sur la côte continentale de la Colombie-Britannique,
+      près de Fitz Hugh Sound. L'installation et le fonctionnement du capteur décrits
+      ici sont effectués avec la permission et en consultation avec la Nation Heiltsuk
+      et BC Parks. Nous remercions Larry Jorgensen, William Housty, Jess Housty et
+      Kelly Brown pour leurs conseils dans cette importante zone du territoire Heiltsuk.
+      Nous remercions Bill Floyd, Maartje Korver et Will Atlas pour leur aide à la
+      conception originale. Pour leurs contributions importantes sur le terrain, nous
+      remercions Ben Millard-Martin, Isabelle Desmarais et Rob White.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2017-08-28'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/wbg6-7z68
+  keywords:
+    default:
+      en:
+      - stage
+      - fresh water flow
+      - water temperature
+      - conductivity
+      - watersheds
+      fr:
+      - bassin versant
+      - débits eau douce
+      - température de l'eau
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  project:
+  - Watersheds
+  status: published
+  temporal_begin: '2017-08-28T19:00:00.000Z'
+  title:
+    en: Koeye River stream temperature, stage, and conductivity time-series version
+      1
+    fr: Série chronologique sur la température, le stade et la conductivité du cours
+      d'eau de la rivière Koeye version 1
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-25'
+    revision: '2024-03-14T21:38:05.464Z'
+  identifier: 5cf59eac-2fb4-4ed2-8ffc-372030c9438e
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-Mkd6dTkiS3uhSGPUmSZ
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  bbox:
+  - -127.9
+  - 51.72
+  - -127.6
+  - 51.81
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
