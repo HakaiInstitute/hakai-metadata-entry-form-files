@@ -1,0 +1,341 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - owner
+  - custodian
+  - principalInvestigator
+  - processor
+  - publisher
+  - originator
+  - distributor
+  - author
+  - editor
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - publisher
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Holmes, Keith
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - custodian
+  - author
+  - editor
+  - pointOfContact
+  - principalInvestigator
+  - originator
+  - processor
+  - publisher
+- inCitation: true
+  individual:
+    name: McInnes, Will
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - editor
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - publisher
+  - originator
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+identification:
+  abstract:
+    en: 'Bamfield UAV Data Capture
+
+      April 9 & 10th 2016.
+
+      Hakai Institute: Iain McKechnie, Will McInnes, and Keith Holmes.
+
+
+      The Hakai Institute in partnership with the Bamfield Marine Science Centre (BMSC)
+      have conducted UAV (unmanned aerial vehicle) missions in five locations around
+      Bamfield, British Columbia, Canada. The missions took place April 9th and 10th,
+      2016. The main goal was to collect high spatial resolution imagery and surface
+      models of key research areas for BMSC researchers. All UAV flights and data
+      processing has been completed by the Hakai Institute and the aim is to collaborate
+      research efforts to enhance the spatial knowledge of these key research areas.
+
+
+      The low tide windows between 8:30 and 11:30 am on April 9th and 10th provided
+      imagery with tides of .5 meters or less and image resolutions of between 3cm
+      and 10cm. Weather was mixed and we had to improvise flights to compensate for
+      low level clouds and fog. In the end we were able to accomplish all our major
+      target areas. Data products that can be generated are the following:
+
+      <ul>
+
+      <li>High resolution imagery mosaics</li>
+
+      <li>Digital surface models</li>
+
+      <li>LAS point cloud data</li>
+
+      <li>3D mesh data</li>
+
+      <li>Raw imagery and video footage</li>
+
+      <li>Georeferencing points and 2 survey markers for Diana Island</li>
+
+      </ul>
+
+      Methodology:
+
+      1) Georeferencing targets were distributed throughout the image capture area.
+      Targets are checkered black and white and 60cm x 60cm.
+
+
+      2) Phantom 3 Pro UAVs were used for all imagery acquisition. Flights were conducted
+      with a grid pattern with greater than 50% overlap in imagery. Small area flights
+      required less images like Wizard with 237 images processed and larger areas
+      like Grappler requiring 504 images. Flights take roughly 15 minutes to conduct
+      and cover up to 1.5 x 1.5 km in a single flight. Full specs for image capture
+      are listed below.
+
+
+      3)  After the flights are conducted the field team inspects the survey coverage
+      using the DJI GO applicaton map. Once they are satisfied a georeferencing mission
+      starts. Georeferencing requires the use of a Topcon DGPS GR5 survey grade GPS
+      system. Targets placed before the flight and opportunistic targets (discussed
+      later) are referenced to within 10 cm horizontal / 15 cm vertical resolution.
+      DGPS soaking is used to enhance accuracy which takes anywhere from 15 seconds
+      to 3 minutes to achieve acceptable levels of variance. Many of the targets achieved
+      well below these numbers. It is essential that the targets are well dispersed.
+      If some areas have not been covered well with targets or there was limited time
+      pre flight to dispense targets opportunistic targets are used. Opportunistic
+      targets are large stationary objects that are close to the ground and can easily
+      be identified in imagery. Often driftwood or geographic features like large
+      rocks or fissures are ideal in the field if no man made structures like cement
+      pads are available.
+
+
+      4) Image processing is conducted using Pix4D software. Images are first inspected
+      for quality (remove high glare or poor contrast images) and then the full data
+      process takes place which includes a flight report, ray cloud / image tie points,
+      triangulated mesh, mosaic and surface model.
+
+
+      5) Image mosaics and digital surface models are then processed in ArcGIS Desktop.
+      Survey DGPS points from the field are used to link up the targets and a sline
+      correction method is used because it assumes we have highly accurate survey
+      data to correct the imagery with. The georeferencing pins are saved and processed
+      again with the accompanying surface model. The final datasets are then exported
+      to our servers for archiving.'
+    fr: 'Capture de données UAV Bamfield
+
+      9 et 10 avril 2016.
+
+      Institut Hakai : Iain McKechnie, Will McInnes et Keith Holmes.
+
+
+      L''Institut Hakai, en partenariat avec le Bamfield Marine Science Centre (BMSC),
+      a mené des missions UAV (véhicule aérien sans pilote) dans cinq endroits autour
+      de Bamfield, en Colombie-Britannique, au Canada. Les missions ont eu lieu les
+      9 et 10 avril 2016. L''objectif principal était de collecter des images à haute
+      résolution spatiale et des modèles de surface de domaines de recherche clés
+      pour les chercheurs du BMSC. Tous les vols d''UAV et le traitement des données
+      ont été effectués par l''Institut Hakai et l''objectif est de collaborer les
+      efforts de recherche pour améliorer les connaissances spatiales de ces domaines
+      de recherche clés.
+
+
+      Les fenêtres à marée basse entre 8 h 30 et 11 h 30 le 9 et le 10 avril ont fourni
+      des images avec des marées de 0,5 mètre ou moins et des résolutions d''image
+      comprises entre 3 cm et 10 cm. Le temps était mitigé et nous avons dû improviser
+      des vols pour compenser les nuages bas et le brouillard. En fin de compte, nous
+      avons pu atteindre tous nos principaux domaines cibles. Les produits de données
+      pouvant être générés sont les suivants :
+
+      <ul>
+
+      <li>Mosaïques d''imagerie haute résolution</li>
+
+      <li>Modèles de surfaces numériques</li>
+
+      <li>Données de nuage de points LAS</li>
+
+      <li>Données de maillage 3D</li>
+
+      <li>Images brutes et séquences vidéo</li>
+
+      <li>Points de géoréférencement et 2 marqueurs de relevés pour l''île Diana</li>
+
+      </ul>
+
+      Méthodologie :
+
+      1) Les cibles de géoréférencement ont été distribuées dans toute la zone de
+      capture d''image. Les cibles sont à carreaux noir et blanc et 60 cm x 60 cm.
+
+
+      2) Les drones Phantom 3 Pro ont été utilisés pour toutes les acquisitions d''images.
+      Les vols ont été effectués avec un schéma de grille avec un chevauchement d''images
+      supérieur à 50 %. Les vols de petite zone nécessitaient moins d''images comme
+      Wizard avec 237 images traitées et des zones plus grandes comme Grappler nécessitant
+      504 images. Les vols prennent environ 15 minutes pour effectuer et couvrir jusqu''à
+      1,5 km sur 1,5 km en un seul vol. Les spécifications complètes de la capture
+      d''images sont répertoriées ci-dessous.
+
+
+      3) Une fois les vols effectués, l''équipe de terrain inspecte la couverture
+      de l''enquête à l''aide de la carte de l''application DJI GO. Une fois satisfaits,
+      une mission de géoréférencement commence. Le géoréférencement nécessite l''utilisation
+      d''un système GPS TopCon DGPS GR5 de grade d''enquête. Les cibles placées avant
+      le vol et les cibles opportunistes (discutées plus loin) sont référencées à
+      une résolution verticale de 10 cm horizontale/15 cm. Le trempage DGPS est utilisé
+      pour améliorer la précision qui prend entre 15 secondes et 3 minutes pour atteindre
+      des niveaux de variance acceptables. Bon nombre des objectifs ont été atteints
+      bien en deçà de ces chiffres. Il est essentiel que les cibles soient bien dispersées.
+      Si certaines zones n''ont pas été bien couvertes par des cibles ou s''il y avait
+      un temps limité avant le vol pour distribuer les cibles, des cibles opportunistes
+      sont utilisées. Les cibles opportunistes sont de grands objets fixes proches
+      du sol et peuvent être facilement identifiés dans l''imagerie. Souvent, le bois
+      flotté ou les caractéristiques géographiques telles que les grosses roches ou
+      les fissures sont idéales sur le terrain si aucune structure fabriquée par l''homme
+      comme les tampons de ciment n''est disponible.
+
+
+      4) Le traitement d''image est effectué à l''aide du logiciel Pix4D. La qualité
+      des images est d''abord inspectée (supprimez les images à fort reflet ou à faible
+      contraste), puis le processus complet des données est effectué, comprenant un
+      rapport de vol, des points d''attache de nuages de rayons/images, un maillage
+      triangulé, une mosaïque et un modèle de surface.
+
+
+      5) Les mosaïques d''images et les modèles de surface numériques sont ensuite
+      traités dans ArcGIS Desktop. Les points DGPS de l''enquête sur le terrain sont
+      utilisés pour relier les cibles et une méthode de correction de la ligne est
+      utilisée car elle suppose que nous disposons de données d''enquête très précises
+      pour corriger les images. Les épingles de géoréférencement sont enregistrées
+      et traitées à nouveau avec le modèle de surface qui l''accompagne. Les jeux
+      de données finaux sont ensuite exportés vers nos serveurs pour archivage.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2016-03-26'
+    revision: '2016-03-27'
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - Bamfield
+      - Marine
+      - Science
+      - Centre
+      - Hakai
+      - Hakai Institute
+      - UAV
+      - drone
+      - mapping
+      - wizard
+      - diana
+      - grappler
+      - '2016'
+      - imagery
+      - elevation
+      - model
+      - 3D
+      - survey
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  title:
+    en: Bamfield Region UAV Imagery and Surface Model Data
+    fr: Imagerie UAV de la région Bamfield et données de modèle de surface
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-15'
+    revision: '2024-03-15T19:54:12.180Z'
+  identifier: 40d86401-0e95-4ff3-b1c7-25e4e9138157
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTRhNE0wUGxJZktQTHE
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -125.1957321166992
+  - 48.808898428995235
+  - -125.10440826416014
+  - 48.86471476180279
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
