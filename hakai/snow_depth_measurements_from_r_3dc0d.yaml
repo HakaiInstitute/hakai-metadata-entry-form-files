@@ -1,0 +1,176 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - processor
+- inCitation: false
+  individual:
+    name: McInnes, Will
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - processor
+  - pointOfContact
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Research Institute
+  roles:
+  - distributor
+  - distributor
+distribution:
+- description:
+    en: Hakai Data Packages - Mount Cain Snow Data - Metadata Report
+    fr: Hakai Data Packages - Données d'enneigement du mont Cain - Rapport de métadonnées
+  name:
+    en: Hakai Institute Google Drive
+  url: https://drive.google.com/drive/folders/19DO26a_he6xGifeiHoBv85Vx9i6ecWUr?usp=sharing
+identification:
+  abstract:
+    en: 'This dataset consists of 10cm spatial resolution raster snow depth maps from
+      Mt. Cain BC, collected in 2018. The dataset also includes snow depth validation
+      points. Raster and point cloud data are available by request.
+
+
+      We use Phantom 3 and 4 UAVs to map snow depth at 4 sites on Mt. Cain, BC. The
+      imagery is processed with Pix4D and LASTools to create snow depth maps. The
+      sites were mapped in winter, spring, and summer.
+
+
+      When imagery is captured with optimal lighting conditions (few or no clouds,
+      bright sun), it is possible in open areas to create accurate ground models.
+      Of the 50 transects (25 x 2 visits). The average absolute deviation for each
+      transect was: 28% less than 10cm, 70% less than 30cm. The method is challenged
+      when there are extensive trees, fresh snow, and when there is flat light. In
+      these cases there can be errors in the order of several meters. The overall
+      root-mean-square error (RMSE) ranged from 30-70cm, however this could be substantially
+      improved by removing areas with trees and excessive noise.
+
+
+      Floyd, B., McInnes, W., Holmes, K., Cebulski, A., Dickinson, T., Butler, S.,
+      Heathfield, D. and Menounos, B. (2019). Application of UAVs to measure snowpack
+      using structure from motion analysis over varying terrain and vegetation in
+      Coastal British Columbia. [access date].'
+    fr: 'Ce jeu de données se compose de cartes raster d''épaisseur de neige de 10
+      cm de résolution spatiale du mont. Cain BC, collectée en 2018. Le jeu de données
+      inclut également des points de validation de l''épaisseur de Les données raster
+      et les nuages de points sont disponibles sur demande.
+
+
+      Nous utilisons des drones Phantom 3 et 4 pour cartographier l''épaisseur de
+      la neige sur 4 sites du mont. Cain, C.-B. Les images sont traitées avec Pix4D
+      et LasTools pour créer des cartes d''épaisseur de neige. Les sites ont été cartographiés
+      en hiver, au printemps et en été.
+
+
+      Lorsque les images sont capturées dans des conditions d''éclairage optimales
+      (peu ou pas de nuages, soleil éclatant), il est possible de créer des modèles
+      de sol précis dans des zones dégagées. Sur les 50 transects (25 x 2 visites).
+      L''écart absolu moyen pour chaque transect était : 28 % inférieur à 10 cm, 70 %
+      inférieur à 30 cm. La méthode est contestée lorsqu''il y a de grands arbres,
+      de la neige fraîche et lorsqu''il y a de la lumière plate. Dans ces cas, il
+      peut y avoir des erreurs de l''ordre de plusieurs mètres. L''erreur quadratique
+      moyenne globale (RMSE) variait de 30 à 70 cm, mais elle pourrait être considérablement
+      améliorée en supprimant les zones arborées et le bruit excessif.
+
+
+      Floyd, B., McInnes, W., Holmes, K., Cebulski, A., Dickinson, T., Butler, S.,
+      Heathfield, D. et Menounos, B. (2019). Application d''UAV pour mesurer le manteau
+      neigeux à l''aide de la structure issue de l''analyse du mouvement sur divers
+      terrains et végétaux sur la côte de la Colombie-Britannique. [date d''accès].'
+  associated_resources: []
+  dates:
+    creation: '2018-01-15'
+    publication: '2019-10-09'
+  keywords:
+    default:
+      en:
+      - snow
+      - Cryosphere
+      - rpas
+      - sfm
+      - las
+      - elevation
+      - dem
+      - drone
+      - snow
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2018-01-15T20:00:00.000Z'
+  temporal_end: '2018-10-15T19:00:00.000Z'
+  title:
+    en: Snow Depth Measurements from Remotely Piloted Aerial Systems - Mt. Cain -
+      2018 - British Columbia - Canada
+    fr: Mesures de l'épaisseur de neige à partir de systèmes aériens télépilotés -
+      Mt. Cain - 2018 - Colombie-Britannique - Canada
+instruments:
+- description:
+    en: DJI phantom drone used to collect RGB imagery with the built in camera - imagery
+      is used for orthophotos and structure from motion surface models
+    fr: Drone fantôme DJI utilisé pour collecter des images RVB avec la caméra intégrée
+      - l'imagerie est utilisée pour les orthophotos et la structure à partir de modèles
+      de surface de mouvement
+  id: Hakai Institute UAV / Drone
+  manufacturer: DJI
+  type:
+    en: Drone / UAV
+    fr: Drone/UAV
+  version: Phantom 4 Pro
+metadata:
+  dates:
+    publication: '2022-01-19'
+    revision: '2022-01-19T22:18:54.097Z'
+  identifier: 3dc0d46c-7afe-4379-901d-37a787c1c204
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWN2Tzh0TTllTGVIU0M
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+spatial:
+  bbox:
+  - -126.45157077
+  - 50.17895647
+  - -126.25015464
+  - 50.29841121
+  vertical:
+  - 500.0
+  - 2200.0
+  vertical_positive: heightPositive
