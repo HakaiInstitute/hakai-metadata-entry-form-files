@@ -1,0 +1,307 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Remote Sensing Team, Terra
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - resourceProvider
+  - processor
+  - originator
+- inCitation: true
+  individual:
+    name: Frazer, Gordon
+    position: Terra Remote Sensing, UNBC LiDAR Research Group
+  organization:
+    address: 1962 Mills Road
+    city: Prince George
+    country: Canada
+    name: University of Northern British Columbia
+    ror: https://ror.org/025wzwv46
+    url: http://www.unbc.ca/
+  roles:
+  - processor
+  - pointOfContact
+  - author
+  - originator
+- inCitation: true
+  individual:
+    email: david.mostyn@terraremote.com
+    name: Mostyn, David
+  organization:
+    country: Canada
+    email: david.mostyn@terraremote.com
+    name: Terra Remote Sensing Inc.
+  roles:
+  - originator
+  - pointOfContact
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+  - pointOfContact
+  - principalInvestigator
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - pointOfContact
+  - editor
+  - principalInvestigator
+  - processor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: Metadata on hyperspectral collection methodology.
+  name:
+    en: Hakai Institute Google Drive Folder
+  url: https://drive.google.com/drive/u/0/folders/0B5tZaev73xELV0Rib19SS3diSGM
+- description:
+    en: Link to the technical specifications and metadata for the 2012 & 2014 data
+      collection.
+  name:
+    en: LIDAR / Hyperspectral Acquisition Metadata Record
+  url: https://hecate.hakai.org/geonetwork/srv/eng/catalog.search#/metadata/244b5915-0ccf-4fab-9720-d2ac9394a27b
+identification:
+  abstract:
+    en: "On August 5th, 15th ,and 17th , 2012, TRSI collected hyperspectral, LiDAR\
+      \ and digital image data in four project sites at and near Calvert Island, B.C.\
+      \ using a fixed wing aircraft with LiDAR system and a hyperspectral sensor.\
+      \ A combined GPS/INS System (Inertial Navigation System) was used for aircraft\
+      \ altitude and position. A total of 477.22 km^2 was covered on this mission\
+      \ with a flight height of 1150 meters above ground level (AGL) aiming to obtain\
+      \ 1.5 metre spatial resolution for hyperspectral Imagery. \n\nThe hyperspectral\
+      \ imagery was delivered as a set of 94 long and narrow swath “scenes” with each\
+      \ corresponding roughly to an individual flight line (from a grid pattern flight\
+      \ mission).  In this fashion the dimensions and orientation varies somewhat\
+      \ from scene to scene. Predominantly there are North-South and West-East scenes\
+      \ which cover the length and width of Calvert and Hecate Islands and a portion\
+      \ of the mainland to the north. There is an inconsistent overlap between scenes\
+      \ in some cases; in others the imagery aligns at the seams or with a small gap\
+      \ in between.  While details pertaining to post-processing performed on the\
+      \ imagery by the contractor are lacking, based on analysis the following assumptions\
+      \ have been made: \n\n•\tThe imagery has been georectified (the DEM used is\
+      \ unknown). \n•\tThe imagery has been radiometrically corrected to some degree\
+      \ although there is evidence that only a few calibrations files were used inconsistently\
+      \ for all scenes during radiometric correction, and overlapping areas between\
+      \ scenes have sometimes large variations in radiance pixel values of the same\
+      \ features on the same band. \n•\tNo atmospheric correction has been performed\
+      \ on the imagery. \n\nThe technical specifications for all scenes are the following:\
+      \ \n\nRaster format: ENVI .dat files\nRaster type: 16 bit unsigned integer\n\
+      Projection:  UTM Zone 9\nDatum: NAD 83\nGeoid:  HT 2.0\nSensor platform: AISA\
+      \ Hyperspectral unspecified model sensor. \nFlying Height: 1150m AGL\nFrame\
+      \ Rate: 43 FPS\nSpatial Resolution: 2m\nHorizontal accuracy: +/- 2 pixel\nSpectral\
+      \ range: 392 – 996nm\nNo. of Bands per scene: 132\nSpectral resolution: ~4.25nm\n\
+      Pixel values represent radiance in (mw/cm^2*str*um)* 100\nNoData Value = 0.\
+      \ \n\n\nTable of band spectral coverage \nBand #\tWavelength (nm)\n1\t392.730011\n\
+      2\t396.980011\n3\t401.220001\n4\t405.470001\n5\t409.720001\n6\t413.970001\n\
+      7\t418.220001\n8\t422.459991\n9\t426.709991\n10\t430.959991\n11\t435.220001\n\
+      12\t439.630005\n13\t444.079987\n14\t448.540009\n15\t452.98999\n16\t457.450012\n\
+      17\t461.899994\n18\t466.350006\n19\t470.809998\n20\t475.26001\n21\t479.720001\n\
+      22\t484.170013\n23\t488.630005\n24\t493.079987\n25\t497.529999\n26\t501.98999\n\
+      27\t506.440002\n28\t510.899994\n29\t515.349976\n30\t519.799988\n31\t524.26001\n\
+      32\t528.710022\n33\t533.169983\n34\t537.619995\n35\t542.070007\n36\t546.559998\n\
+      37\t551.169983\n38\t555.789978\n39\t560.409973\n40\t565.030029\n41\t569.650024\n\
+      42\t574.27002\n43\t578.890015\n44\t583.51001\n45\t588.140015\n46\t592.76001\n\
+      47\t597.380005\n48\t602\n49\t606.619995\n50\t611.23999\n51\t615.859985\n52\t\
+      620.47998\n53\t625.109985\n54\t629.72998\n55\t634.349976\n56\t638.969971\n57\t\
+      643.590027\n58\t648.210022\n59\t652.830017\n60\t657.460022\n61\t662.080017\n\
+      62\t666.700012\n63\t671.320007\n64\t675.940002\n65\t680.570007\n66\t685.190002\n\
+      67\t689.809998\n68\t694.429993\n69\t699.059998\n70\t703.710022\n71\t708.349976\n\
+      72\t713\n73\t717.640015\n74\t722.289978\n75\t726.929993\n76\t731.580017\n77\t\
+      736.219971\n78\t740.859985\n79\t745.51001\n80\t750.159973\n81\t754.880005\n\
+      82\t759.609985\n83\t764.340027\n84\t769.070007\n85\t773.799988\n86\t778.530029\n\
+      87\t783.26001\n88\t787.98999\n89\t792.719971\n90\t797.450012\n91\t802.179993\n\
+      92\t806.909973\n93\t811.640015\n94\t816.369995\n95\t821.099976\n96\t825.830017\n\
+      97\t830.549988\n98\t835.27002\n99\t839.98999\n100\t844.710022\n101\t849.429993\n\
+      102\t854.150024\n103\t858.869995\n104\t863.590027\n105\t868.309998\n106\t873.030029\n\
+      107\t877.75\n108\t882.469971\n109\t887.190002\n110\t891.900024\n111\t896.619995\n\
+      112\t901.340027\n113\t906.059998\n114\t910.780029\n115\t915.51001\n116\t920.25\n\
+      117\t924.97998\n118\t929.719971\n119\t934.460022\n120\t939.190002\n121\t943.929993\n\
+      122\t948.659973\n123\t953.400024\n124\t958.130005\n125\t962.869995\n126\t967.599976\n\
+      127\t972.340027\n128\t977.080017\n129\t981.809998\n130\t986.549988\n131\t991.280029\n\
+      132\t996.02002\n\nDue to weather and time constraints faced by the contractor,\
+      \ several small data gaps exist within the project boundary. Additionally systematic\
+      \ small rectangular data gaps within many scenes are present (these are unrelated\
+      \ and additional to those due to “weather and time constraints” stated by the\
+      \ contractor)."
+    fr: "Les 5, 15 et 17 août 2012, TRSI a recueilli des données d'images hyperspectrales,\
+      \ LiDAR et numériques dans quatre sites de projet à l'île Calvert, en Colombie-Britannique\
+      \ et à proximité, à l'aide d'un avion à voilure fixe doté d'un système LiDAR\
+      \ et d'un capteur hyperspectral. Un système combiné GPS/INS (Inertial Navigation\
+      \ System) a été utilisé pour l'altitude et la position de l'avion. Au total,\
+      \ 477,22 km^2 ont été parcourus lors de cette mission avec une hauteur de vol\
+      \ de 1150 mètres au-dessus du niveau du sol (AGL) visant à obtenir une résolution\
+      \ spatiale de 1,5 mètre pour l'imagerie hyperspectrale. \n\nL'imagerie hyperspectrale\
+      \ a été livrée sous la forme d'un ensemble de 94 « scènes » longues et étroites,\
+      \ chacune correspondant approximativement à une ligne de vol individuelle (à\
+      \ partir d'une mission de vol en quadrillage). De cette façon, les dimensions\
+      \ et l'orientation varient quelque peu d'une scène à l'autre. Il y a principalement\
+      \ des scènes nord-sud et ouest-est qui couvrent la longueur et la largeur des\
+      \ îles Calvert et Hécate et une partie du continent au nord. Dans certains cas,\
+      \ il y a un chevauchement incohérent entre les scènes ; dans d'autres, l'imagerie\
+      \ est alignée au niveau des coutures ou avec un petit espace entre les deux.\
+      \ Bien que les détails concernant le post-traitement effectué sur les images\
+      \ par l'entrepreneur soient insuffisants, les hypothèses suivantes ont été formulées\
+      \ sur la base de l'analyse : \n\n• L'imagerie a été géorrectifiée (le MNT utilisé\
+      \ est inconnu). \n• L'imagerie a été corrigée radiométriquement dans une certaine\
+      \ mesure, bien qu'il soit prouvé que seuls quelques fichiers d'étalonnage ont\
+      \ été utilisés de manière incohérente pour toutes les scènes pendant la correction\
+      \ radiométrique, et que les zones qui se chevauchent entre les scènes présentent\
+      \ parfois de grandes variations dans les valeurs des pixels de radiance des\
+      \ mêmes entités sur C'est le même groupe. \n• Aucune correction atmosphérique\
+      \ n'a été effectuée sur l'imagerie. \n\nLes spécifications techniques de toutes\
+      \ les scènes sont les suivantes : \n\nFormat raster : fichiers .dat ENVI\nType\
+      \ de raster : entier non signé 16 bits\nProjection : UTM Zone 9\nDate : NAD\
+      \ 83\nGéoïde : HT 2.0\nPlateforme de capteur : capteur de modèle hyperspectral\
+      \ AISA non spécifié. \nHauteur de vol : 1150 m AGL\nFréquence d'images : 43\
+      \ ips\nRésolution spatiale : 2 m\nPrécision horizontale : +/- 2 pixels\nPlage\
+      \ spectrale : 392 — 996 nm\nNombre de groupes par scène : 132\nRésolution spectrale :\
+      \ ~ 4,25 nm\nLes valeurs de pixel représentent la radiance en (mw/cm^2*str*um)\
+      \ * 100\nValeur NoData = 0. \n\n\nTableau de couverture spectrale des bandes\
+      \ \nBande # Longueur d'onde (nm)\n1 392,730011\n2 396.980011\n3 401.220001\n\
+      4 405.470001\n5 409.720001\n6 413.970001\n7 418.220001\n8 422.459991\n9 426.709991\n\
+      10 430.959991\n1 435.220001\n12 439.630005\n13 444.079987\n14 448,540009\n15\
+      \ 452.98999\n16 457.450012\n17 461.899994\n18 466.350006\n19 470,809998\n20\
+      \ 475.26001\n21 479.720001\n22 484.170013\n23 488.630005\n24 493.079987\n25\
+      \ 497,529999\n26 501.98999\n27 506.440002\n28 510.899994\n29 515.349976\n30\
+      \ 519.799988\n31 524.26001\n32 528.710022\n33 533.16983\n34 537,6 1995\n35 542.070007\n\
+      36 546,559998\n37 551.169983\n38 555.789978\n39 560,409973\n40 565.030029\n\
+      41 569.650024\n42 574.27002\n43 578.890015\n44 583.51001\n45 588.140015\n46\
+      \ 592.76001\n47 597.380005\n48 602\n49 606.6.1995\n50 611.23999\n51 615.859985\n\
+      52 620.47998\n53 625.109985\n54 629.72998\n55 634.349976\n56 638,969971\n57\
+      \ 643.590027\n58 648.210022\n59 652.830017\n60 657.460022\n61 662.080017\n62\
+      \ 666.700012\n63 671.320007\n64 675.940002\n65 680.570007\n66 685.190002\n67\
+      \ 689.809998\n68 694.429993\n69 699.059998\n70 703.710022\n71 708.349976\n72\
+      \ 713\n73 717.640015\n74 722.289978\n75 726.929993\n76 731.580017\n7 736,21971\n\
+      78 740.859985\n79 745,51001\n80 750,15973\n81 754.880005\n82 759,609985\n83\
+      \ 764.340027\n84 769.070007\n85 773,799988\n86 778.530029\n87 783.26001\n88\
+      \ 787.9899\n89 792.719971\n90 797.450012\n91 802.179993\n92 806.909973\n93 811.640015\n\
+      94 816.369995\n95 821.099976\n96 825.830017\n97 830.549988\n98 835.27002\n99\
+      \ 839.98999\n100 844.710022\n101 849,429993\n102 854.150024\n103 858,869995\n\
+      104 863.590027\n105 868,309998\n106 873.030029\n107 877,75\n108 882.469971\n\
+      109 887.190002\n110 891.900024\n11 896.61995\n112 901.340027\n113 906.059998\n\
+      114 910.780029\n115 915.51001\n116 920,25\n117 924.97998\n18 929.71997\n119\
+      \ 934.460022\n120 939.190002\n121 943.929993\n12 948,65973\n123 953.400024\n\
+      124 958.130005\n125 962,869995\n126 967.599976\n127 972.340027\n128 977.080017\n\
+      129 981.809998\n130 986,549988\n131 991.280029\n132 996.02002\n\nEn raison des\
+      \ contraintes météorologiques et temporelles auxquelles l'entrepreneur est confronté,\
+      \ il existe plusieurs petites lacunes dans les données à l'intérieur des limites\
+      \ du projet. De plus, de petites lacunes rectangulaires systématiques sont présentes\
+      \ dans de nombreuses scènes (elles ne sont pas liées et s'ajoutent à celles\
+      \ dues aux « contraintes météorologiques et temporelles » indiquées par l'entrepreneur)."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    revision: '2016-11-21'
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - Hyperspectral
+      - Imagery
+      - Remote Sensing
+      - Terra
+      - TRSI
+      - Air photo
+      - Areal Photography
+      - Orthoimage
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Airborne Coastal Observatory
+  status: published
+  title:
+    en: Hyperspectral Imagery - Calvert Island - 2012
+    fr: Imagerie hyperspectrale - Calvert Island - 2012
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-03'
+    revision: '2024-03-15T20:41:16.929Z'
+  identifier: 4be1cc5e-8846-4fba-bd94-16ca933faab8
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MU1SSXd3cG5UbzVYVW8
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -128.21594238281247
+  - 51.40948589555509
+  - -127.8094482421875
+  - 51.78993084774129
+  vertical:
+  - 0.0
+  - 3000.0
+  vertical_positive: heightPositive
