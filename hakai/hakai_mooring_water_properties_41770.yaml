@@ -1,0 +1,163 @@
+contact:
+- inCitation: true
+  individual:
+    name: Jackson, Jennifer
+    orcid: https://orcid.org/0000-0002-2318-8814
+    position: Scientist
+  organization:
+    address: 1002 Wharf St, 3rd Floor
+    city: Campbell River
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - principalInvestigator
+  - author
+- inCitation: true
+  individual:
+    email: jessy.barrette@hakai.org
+    name: Barrette, Jessy
+    orcid: https://orcid.org/0000-0002-0422-2589
+    position: Marine Instrument Specialist
+  organization:
+    address: 1002 Wharf St, 3rd Floor
+    city: Campbell River
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+  - pointOfContact
+- inCitation: true
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: ERDDAP Dataset
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiMooredTimeSeriesResearch.html
+identification:
+  abstract:
+    en: This datasets present a collection of water properties measurements (Temperature,
+      Conductivity, Dissolved Oxygen, Salinity) collected by high accuracy instruments
+      as part of the mooring program of the Hakai Institute. The data is first compared
+      to the profiles collected nearby during the deployment. Instrument clock is
+      corrected to reduce clock drift, data is reduced to consider only data collected
+      within the water, automated QCing is applied to detect spikes and potentially
+      bad data which is then manually revised.
+    fr: Cet ensemble de données présente un ensemble de mesures des propriétés de
+      l'eau (température, conductivité, oxygène dissous, salinité) collectées par
+      des instruments de haute précision dans le cadre du programme de mouilage de
+      l'Institut Hakai. Les données sont d'abord comparées aux profils collectés à
+      proximité par l'institute pendant le déploiement. L'horloge de l'instrument
+      est corrigée pour réduire la dérive d'horloge, les données sont réduites pour
+      ne prendre en compte que les données collectées dans l'eau, un Qcing automatisé
+      est appliqué pour détecter les pics et les données potentiellement mauvaises
+      qui sont ensuite révisées manuellement.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2020-02-11'
+    publication: '2022-04-11'
+  edition: '1'
+  identifier: https://doi.org/10.21966/yp9n-w389
+  keywords:
+    default:
+      en:
+      - water temperature
+      - salinity
+      - dissolved oxygen
+      - conductivity
+      - mooring
+      - pressure
+      fr:
+      - température de l'eau
+      - salinité
+      - oxygène dissous
+      - conductivité
+      - mouillage
+      - pression
+    eov:
+      en:
+      - oxygen
+      - subSurfaceSalinity
+      - subSurfaceTemperature
+      fr:
+      - Oxygène
+      - Salinité sous la surface
+      - Température sous la surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2020-02-11T20:00:00.000Z'
+  title:
+    en: Hakai Mooring Water Properties Timeseries Research
+    fr: Séries temporelles de propriétés de l'eau à partir du mouillage de l'Institut
+      Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+instruments:
+- id: SBE37 SMP-ODO SDI12
+  manufacturer: Seabird
+  type:
+    en: CTD-DO
+    fr: CTD-DO
+  version: SMP-ODO SDI12
+metadata:
+  dates:
+    publication: '2022-04-11'
+    revision: '2024-03-14T17:40:52.992Z'
+  identifier: 41770c7d-27ea-4593-ba55-040bdc5b99f0
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MkEosZGlTnDy2oMp9nX
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  bbox:
+  - -127.531247
+  - 51.601505
+  - -127.531247
+  - 51.601505
+  vertical:
+  - 90.0
+  - 260.0
+  vertical_positive: depthPositive
