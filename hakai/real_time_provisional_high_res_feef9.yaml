@@ -1,0 +1,167 @@
+contact:
+- inCitation: true
+  individual:
+    email: wiley.evans@hakai.org
+    name: Evans, Wiley
+  organization:
+    address: 1713 Hyacinthe Bay Road
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - custodian
+  - owner
+  - contributor
+  - originator
+- inCitation: true
+  organization:
+    address: 1713 Hyacinthe Bay Road
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+  - originator
+  - funder
+  - publisher
+- inCitation: true
+  organization:
+    city: Corvallis
+    country: United States
+    name: Oregon State University
+    ror: https://ror.org/00ysfqy60
+    url: http://oregonstate.edu/
+  roles:
+  - originator
+- inCitation: true
+  organization:
+    name: Alutiiq Pride Shellfish Hatchery
+  roles:
+  - originator
+distribution:
+- name:
+    en: ERDDAP Dataset
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiSewardBoL5min.html
+identification:
+  abstract:
+    en: 'This dataset includes continuous sea surface measurements of partial pressure
+      of carbon dioxide (pCO2), sea surface temperature and salinity collected from
+      the Alutiiq Pride Shellfish Hatchery.
+
+
+      The Burke-o-Lator (BoL) pCO2/TCO2 analyzer measures carbon dioxide partial pressure
+      (pCO2) and total dissolved inorganic carbon (TCO2) both continuously from a
+      flow-through seawater stream and from seawater collected in discrete samples.
+      The BoL is paired with a SBE 45 Thermosalinograph to measure seawater temperature
+      and salinity.'
+    fr: 'Cet ensemble de données comprend des mesures continues de la surface de la
+      mer de la pression partielle de dioxyde de carbone (pCO2), de la température
+      de surface de la mer et de la salinité recueillies dans l''écloserie des mollusques
+      d''Alutiiq Pride.
+
+
+      L''analyseur Burke-O-lator (BoL) PCO2/TCO2 mesure la pression partielle de dioxyde
+      de carbone (pCO2) et le carbone inorganique dissous total (TCO2) à la fois en
+      continu à partir d''un courant d''eau de mer à écoulement continu et de l''eau
+      de mer prélevée dans des échantillons discrets. Le BL est associé à un thermosalinographe
+      SBE 45 pour mesurer la température et la salinité de l''eau de mer.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2019-09-14'
+  keywords:
+    default:
+      en:
+      - Continuous measurement
+      - Discrete measurement
+      - Surface measurement
+      - Ocean Acidification
+      - Practical Salinity
+      - Sea Surface Temperature
+      - Sea Surface Practical Salinity
+      - CO2
+      - Alaska
+      fr:
+      - Alaska
+      - Salinité Pratique
+      - Température de surface
+      - Salinité pratique de surface
+      - CO2
+      - Acidification des océans
+      - Mesures en continue
+      - Température de l'eau
+    eov:
+      en:
+      - inorganicCarbon
+      - seaSurfaceSalinity
+      - seaSurfaceTemperature
+      fr:
+      - Carbone inorganique
+      - Salinité de surface
+      - Température de surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2019-09-14T19:00:00.000Z'
+  title:
+    en: Real-Time Provisional High-Resolution Record of Surface Seawater Carbon Dioxide
+      (CO2) Content Collected from the Alutiiq Pride Shellfish Hatchery , Alaska,
+      USA
+    fr: Enregistrement provisoire provisoire haute résolution en temps réel de la
+      teneur en dioxyde de carbone (CO2) dans l'eau de mer de surface recueillie dans
+      l'écloserie de mollusques et crustacés d'Alutiiq Pride, Alaska, États-Unis
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2021-04-06'
+    revision: '2024-03-14T20:05:45.051Z'
+  identifier: feef912f-363f-431b-a8e5-0ec13bd5e062
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW5jbGCoc2--lH_pxgX
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: This dataset is provisional. For science purposes, please refer to the associated
+        Research dataset.
+      fr: Ce jeu de données est provisoire. À des fins scientifiques, veuillez vous
+        référer à l'ensemble de données de recherche connexe.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform: []
+spatial:
+  bbox:
+  - -149.4428
+  - 60.0992
+  - -149.4428
+  - 60.0992
+  vertical:
+  - 20.0
+  - 20.0
+  vertical_positive: depthPositive
