@@ -1,0 +1,290 @@
+contact:
+- inCitation: true
+  individual:
+    email: zach.monteith@hakai.org
+    name: Monteith, Zachary L.
+    orcid: https://orcid.org/0000-0003-4963-8374
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - owner
+  - custodian
+  - author
+- inCitation: true
+  individual:
+    name: Manning, Faye
+    orcid: https://orcid.org/0009-0002-9940-2458
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    name: Olson, Angeleen M.
+    orcid: https://orcid.org/0000-0001-8443-1868
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - collaborator
+  - coAuthor
+- inCitation: true
+  individual:
+    name: Bachen, Krystal
+    orcid: https://orcid.org/0000-0003-0886-157X
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    name: Prentice, Carolyn
+    orcid: https://orcid.org/0000-0002-9644-8496
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    name: Van Maanen, Derek
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    name: Hessing-Lewis, Margot
+    orcid: https://orcid.org/0000-0002-9956-955X
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - principalInvestigator
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Github repository containing all files pertaining to data package
+    fr: Référentiel Github contenant tous les fichiers relatifs au package de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Seagrass Site Production Repository
+    fr: Référentiel de production du site Seagrass
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/seagrass-site-production/releases/tag/v1.2.0
+- description:
+    en: Seagrass density survey data (May 2015 - Feb 2019) published to the Ocean
+      Biodiversity Information System (OBIS)
+    fr: Enregistrement des données du relevé de densité des herbiers marins publié
+      dans le système d'information sur la biodiversité des océans (OBIS)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: 'OBIS record: seagrass density survey data (May 2015 - Feb 2019)'
+  url: http://ipt.iobis.org/obiscanada/resource?r=hakai_seagrassdensitysurveys
+identification:
+  abstract:
+    en: 'The Seagrass Site-Level Production dataset is a component of Hakai Institute’s
+      Nearshore research and monitoring program, designed to determine the drivers
+      of change in seagrass ecosystems. The overarching objective of Hakai Nearshore
+      research is to investigate the role of habitats and their associated communities,
+      in the face of stress and disturbances from global climate change and local
+      coastal perturbations.
+
+
+      This data package contains seagrass (Zostera marina) primary production observations
+      collected from May 2015 to August 2022, at long-term seagrass meadow monitoring
+      sites on British Columbia’s Central Coast. SCUBA divers collected data from
+      9 sites annually and 1-3 sites seasonally along permanent 30m transects. Primary
+      productivity data was collected during two concurrent, but separate surveys
+      (i.e., different parameters, methodologies, and sample designs). The data files
+      included in this data package are: 1) ‘Habitat’ surveys, focused on landscape-level
+      habitat variables (e.g., substrate type, subdominant vegetation, adjacent habitat
+      types, seagrass patchiness), and 2) ‘Density’ surveys measuring seagrass specific
+      variables at a finer scale (e.g., seagrass shoot density, and canopy height).
+      Data included here are a subset of the Hakai Institute’s seagrass monitoring
+      dataset.
+
+
+      This data package is freely available to everyone, following the principles
+      of equitable access and benefit sharing. However, we expect all data users to
+      give attribution to the data providers (read our data license) and the use of
+      these data should happen in the light of fair use, i.e.: 1) respect the data
+      providers, and provide helpful feedback on data quality, and 2) communicate
+      and/or collaborate with the providers if you are considering using this dataset
+      for manuscripts or other forms of reporting.'
+    fr: 'Le jeu de données Seagrass Site-Level Production est une composante du programme
+      de recherche et de surveillance Nearshore de l''Institut Hakai, conçu pour déterminer
+      les facteurs de changement dans les écosystèmes des herbiers marins. L''objectif
+      principal de la recherche Hakai Nearshore est d''étudier le rôle des habitats
+      et de leurs communautés associées, face au stress et aux perturbations dues
+      au changement climatique mondial et aux perturbations côtières locales.
+
+
+      Cet ensemble de données contient des observations de la production primaire
+      d''herbiers marins (Zostera marina) recueillies de mai 2015 à février 2019,
+      dans des sites de surveillance à long terme des prairies marines sur la côte
+      centrale de la Colombie-Britannique. Les plongeurs sous-marins ont recueilli
+      des données sur 9 sites chaque année et 1 à 3 sites de façon saisonnière le
+      long de transects permanents de 30 mètres. Les données de productivité primaires
+      ont été recueillies au cours de deux enquêtes simultanées mais distinctes (c.-à-d.
+      paramètres, méthodologies et plans d''échantillonnage différents). Les fichiers
+      de données inclus dans cet ensemble de données sont : 1) les relevés « Habitat »,
+      axés sur les variables de l''habitat au niveau du paysage (p. ex. type de substrat,
+      végétation sous-dominante, types d''habitats adjacents, parcelles de herbiers
+      marins), et 2) les relevés de « densité » mesurant les variables spécifiques
+      des herbiers marins à une échelle plus fine (p. ex. pousses d''herbiers marins)
+      densité et hauteur de la canopée). Les données incluses ici sont un sous-ensemble
+      de données de surveillance des herbiers marins de l''Institut Hakai.
+
+
+      Ce paquet de données est disponible gratuitement pour tous, conformément aux
+      principes d''accès équitable et de partage des avantages. Cependant, nous nous
+      attendons à ce que tous les utilisateurs de données attribuent une attribution
+      aux fournisseurs de données (lisez notre licence de données) et que l''utilisation
+      de ces données se fasse dans le cadre d''une utilisation loyale, c''est-à-dire :
+      1) respectez les fournisseurs de données et fournissez des commentaires utiles
+      sur la qualité des données, et 2) communiquez et/ou collaborez avec les fournisseurs
+      si vous envisagent d''utiliser cet ensemble de données pour des manuscrits ou
+      d''autres formes de rapport.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2015-05-27'
+    revision: '2022-02-01'
+  edition: 1.2.0
+  identifier: https://doi.org/10.21966/ezev-0v96
+  keywords:
+    default:
+      en:
+      - Seagrass
+      - Eelgrass
+      - Zostera marina
+      - subtidal
+      - LTER
+      - density
+      - canopy height
+      - habitat
+      - other
+    eov:
+      en:
+      - other
+      - seagrassCoverAndComposition
+      fr:
+      - Autre
+      - Composition et couverture des herbiers marins
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  project:
+  - Nearshore
+  status: published
+  temporal_begin: '2015-05-27T19:00:00.000Z'
+  title:
+    en: Seagrass Site-Level Production on BC Central Coast
+    fr: Production d'herbiers marins au niveau du site - Central Coast, BC
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2024-03-22'
+    revision: '2024-03-22T18:35:37.271Z'
+  identifier: 59b33373-ae4a-4719-a3df-0e36a08187d8
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/lJHlH9nm20QQOPuk217xLlxWbNv1/-NPt7-mgrZEUzma8l5W_
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  bbox:
+  - -128.98931373
+  - 50.8340959
+  - -127.03580726
+  - 52.33530479
+  vertical:
+  - 0.0
+  - 10.0
+  vertical_positive: heightPositive
