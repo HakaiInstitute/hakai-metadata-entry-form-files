@@ -1,0 +1,258 @@
+contact:
+- inCitation: true
+  individual:
+    email: luba.reshitnyk@hakai.org
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+    position: Research Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+  - editor
+  - pointOfContact
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: briantimmer@uvic.ca
+    name: Timmer, Brian
+    orcid: https://orcid.org/0000-0003-4820-2544
+  organization:
+    city: Victoria
+    country: Canada
+    name: University of Victoria
+    ror: https://ror.org/04s5mat29
+    url: http://www.uvic.ca/
+  roles:
+  - principalInvestigator
+  - coAuthor
+- inCitation: true
+  individual:
+    name: Guyn, Alex
+    orcid: https://orcid.org/0009-0001-3208-4283
+    position: Geospatial analyst
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - contributor
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    name: Baum, Julia
+    orcid: https://orcid.org/0000-0002-9827-1612
+  organization:
+    city: Victoria
+    country: Canada
+    name: University of Victoria
+    ror: https://ror.org/04s5mat29
+    url: http://www.uvic.ca/
+  roles:
+  - coAuthor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: This data package contains the spatial data and metadata document. The document
+      describes the methods for how the kelp canopy extent data were derived and includes
+      a data dictionary for attributes.
+    fr: Ce package de données contient les données spatiales et le document de métadonnées.
+      Le document décrit les méthodes permettant d'obtenir les données sur l'étendue
+      du couvert végétal de varech et comprend un dictionnaire de données pour les
+      attributs.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Data package - Spatial extent of surface canopy kelp (Nereocystis luetkeana)
+      derived from fixed-wing surveys (2023), Denman Island to south Quadra Island,
+      British Columbia, Canada
+    fr: Ensemble de données - Etendue spatiale du varech de surface du couvert végétal
+      (Nereocystis luetkeana) dérivée de relevés à voilure fixe (2023), de l'île Denman
+      au sud de l'île Quadra, Colombie-Britannique, Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://drive.google.com/drive/folders/1HjTrzGrfRF8l5KGrpNampgnsX7SSSAjZ?usp=drive_link
+identification:
+  abstract:
+    en: "This dataset consists of a spatial dataset of digitized surface canopy extent\
+      \ for bull kelp (Nereocystis luetkeana) for the North Salish Sea on the Coast\
+      \ of British Columbia, Canada. This data was collected in partnership with Brian\
+      \ Timmer, a PhD student at the University of Victoria (Victoria, BC) as part\
+      \ of his doctoral research project examining historical changes in algal communities\
+      \ in the northern Strait of Georgia and as part of the Hakai Institute Habitat\
+      \ Mapping Program which includes long-term observations in canopy kelp extent.\n\
+      Spatial datasets of kelp canopy were derived from high resolution aerial imagery\
+      \ (10 cm) collected from fixed-wing aerial surveys flown 2023. Imagery was collected\
+      \ July 3rd, 2023 at a tide height between 0.6 and 2.4 m with flight paths conducted\
+      \ from north to south in the area of interest. The survey window was based on\
+      \ obtaining imagery during maximum kelp extent and during a low tide cycle.\n\
+      Imagery Capture: Four-band imagery (RGB-NIR) was collected using two high resolution\
+      \ cameras aboard the Aerial Coastal Observatory (a fixed-wing aircraft). Imagery\
+      \ collection and orthomosaic processing is described in associated reports linked\
+      \ in this record.\nKelp delineation: Surface kelp canopy is represented by polygons\
+      \ which were digitized using the Kelp-O-Matic machine learning tool. This tool\
+      \ automates the detection of surface canopy kelp from 4 band imagery and was\
+      \ developed by Hakai to segment remotely sensed imagery specifically for kelp\
+      \ presence. Spatial outputs from the Kelp-O-Matic were reviewed and manually\
+      \ edited by a trained analyst where necessary.\nPeople involved with dataset\
+      \ processing, analysis and/or submission: Luba Reshitnyk, Alex Guyn, Brian Timmer.\
+      \ \n\nRecommended citation: Reshitnyk, L., Timmer, B., Guyn, A., & Baum, J.\
+      \ (2024). Spatial extent of surface canopy kelp (Nereocystis luetkeana) derived\
+      \ from fixed-wing surveys (2023), Denman Island to south Quadra Island, British\
+      \ Columbia, Canada (v1.0). https://doi.org/10.21966/fmw1-8w35"
+    fr: "Cet ensemble de données consiste en un ensemble de données spatiales sur\
+      \ l'étendue numérisée de la canopée de surface du varech à tête plate (Nereocystis\
+      \ luetkeana) dans la mer des Salish du Nord, sur la côte de la Colombie-Britannique,\
+      \ au Canada. Ces données ont été recueillies en partenariat avec Brian Timmer,\
+      \ doctorant à l'Université de Victoria (Victoria, Colombie-Britannique) dans\
+      \ le cadre de son projet de recherche doctorale portant sur les changements\
+      \ historiques survenus dans les communautés d'algues du nord du détroit de Géorgie\
+      \ et dans le cadre du programme de cartographie de l'habitat de l'Institut Hakai,\
+      \ qui comprend des observations à long terme de l'étendue du varech de la canopée.\n\
+      Les ensembles de données spatiales sur la canopée de varech ont été dérivés\
+      \ d'images aériennes à haute résolution (10 cm) collectées lors de relevés aériens\
+      \ à voilure fixe effectués en 2023. Les images ont été recueillies le 3 juillet\
+      \ 2023 à une hauteur de marée comprise entre 0,6 et 2,4 m avec des trajectoires\
+      \ de vol effectuées du nord au sud dans la zone d'intérêt. La fenêtre d'enquête\
+      \ était basée sur l'obtention d'images pendant l'étendue maximale du varech\
+      \ et pendant un cycle de marée basse.\nCapture d'images : L'imagerie à quatre\
+      \ bandes (RGB-NIR) a été collectée à l'aide de deux caméras haute résolution\
+      \ à bord de l'Observatoire côtier aérien (un avion à voilure fixe). La collecte\
+      \ d'images et le traitement orthomosaïque sont décrits dans les rapports associés\
+      \ liés à cet enregistrement.\nDélimitation du varech : la surface de la canopée\
+      \ de varech est représentée par des polygones qui ont été numérisés à l'aide\
+      \ de l'outil d'apprentissage automatique Kelp-O-Matic. Cet outil automatise\
+      \ la détection du varech de surface de la canopée à partir d'images à 4 bandes\
+      \ et a été développé par Hakai pour segmenter l'imagerie télédétectée spécifiquement\
+      \ pour détecter la présence de varech. Les sorties spatiales du Kelp-O-Matic\
+      \ ont été examinées et éditées manuellement par un analyste qualifié si nécessaire.\n\
+      Personnes impliquées dans le traitement, l'analyse et/ou la soumission des ensembles\
+      \ de données : Luba Reshitnyk, Alex Guyn, Brian Timmer. \n\nRéférence recommandée :\
+      \ Reshitnyk, L., Timmer, B., Guyn, A. et Baum, J. (2024). Etendue spatiale du\
+      \ varech de la canopée de surface (Nereocystis luetkeana) dérivée de relevés\
+      \ à voilure fixe (2023), de l'île Denman au sud de l'île Quadra, en Colombie-Britannique,\
+      \ au Canada (v1.0). https://doi.org/10.21966/fmw1-8w35"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2023-07-03'
+    publication: '2024-03-15'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/fmw1-8w35
+  keywords:
+    default:
+      en:
+      - habitat characterization
+      - important habitat
+      - nereocystis luetkeana
+      - air photos
+      - kelp forest
+      - bull kelp
+      - habitat mapping
+      - macroalgal canopy cover
+      - nearshore
+      - airborne coastal observatory
+      fr:
+      - caractérisation des habitats
+      - habitats important
+    eov:
+      en:
+      - macroalgalCanopyCoverAndComposition
+      fr:
+      - Composition et couverture de la canopée de macroalgues
+    taxa:
+      en:
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Laminariales
+      - Laminariaceae
+      - Nereocystis
+      - Nereocystis luetkeana
+      fr:
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Laminariales
+      - Laminariaceae
+      - Nereocystis
+      - Nereocystis luetkeana
+  progress_code: completed
+  project:
+  - Airborne Coastal Observatory
+  - Nearshore
+  - Geospatial
+  status: published
+  temporal_begin: '2023-07-03T19:00:00.000Z'
+  temporal_end: '2023-07-03T19:00:00.000Z'
+  title:
+    en: Spatial extent of surface canopy kelp (Nereocystis luetkeana) derived from
+      fixed-wing surveys (2023), Denman Island to south Quadra Island, British Columbia,
+      Canada
+    fr: Etendue spatiale du varech de la canopée de surface (Nereocystis luetkeana)
+      dérivée de relevés à voilure fixe (2023), de l'île Denman au sud de l'île Quadra,
+      Colombie-Britannique, Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2024-03-15'
+    revision: '2024-04-15T17:11:10.362Z'
+  identifier: b8483c9e-81e6-4e1a-b09f-2d66f8fee9a2
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NpNoCv2XWdhBoo5RBKV
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Not to be used for navigational purposes.
+platform: []
+spatial:
+  polygon: -125.3,50.02 -125.1,50.05 -125.1,49.90 -124.8,49.71 -124.7,49.56 -124.8,49.55
+    -124.9,49.64 -125.2,49.90 -125.2,49.90 -125.3,50.02
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: heightPositive
