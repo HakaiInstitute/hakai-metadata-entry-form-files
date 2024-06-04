@@ -1,0 +1,201 @@
+contact:
+- inCitation: true
+  individual:
+    email: maartje.korver@mail.mcgill.ca
+    name: Korver, Maartje C.
+    orcid: https://orcid.org/0000-0003-1062-4864
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - author
+  - distributor
+- inCitation: true
+  individual:
+    email: emily.haughton@hakai.org
+    name: Haughton, Emily
+    orcid: https://orcid.org/0009-0002-5756-1805
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: bill.floyd@hakai.org
+    name: Floyd, William
+    orcid: https://orcid.org/0000-0001-7487-5721
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - author
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: ESSD Hydromet Dataset
+  url: https://github.com/HakaiInstitute/essd2021-hydromet-datapackage.git
+identification:
+  abstract:
+    en: This data set contains the first five water years (Oct 1, 2013 – Sep 30, 2019)
+      of continuous stream discharge, rain, total precipitation, snow depth, air temperature,
+      wind, relative humidity and solar radiation records from seven hydrometric and
+      fourteen meteorological stations for seven small watersheds at Calvert and Hecate
+      Islands, British Columbia, Canada. Hydrometric stations are installed near the
+      outlet and meteorological stations are installed in a tight network spanning
+      the entire elevation gradient. The stations are connected to a telemetry network
+      facilitating online data storage to overcome accessibility issues related to
+      the observatory’s remote setting. Streamflow was measured using a novel automated
+      method, and quantitative uncertainty estimations are provided with the streamflow
+      data. All data are provided at the hourly time-step. High data quality is assured
+      through systematic and thorough quality control methods.
+    fr: Cet ensemble de données contient les cinq premières années d'eau (du 1er octobre
+      2013 au 30 septembre 2019) de débit continu, de pluie, de précipitations totales,
+      d'épaisseur de neige, de température de l'air, de vent, d'humidité relative
+      et de rayonnement solaire provenant de sept stations hydrométriques et quatorze
+      stations météorologiques pour sept petits bassins versants à Îles Calvert et
+      Hécate, Colombie-Britannique, Canada. Des stations hydrométriques sont installées
+      à proximité de la sortie et des stations météorologiques sont installées dans
+      un réseau étroit couvrant tout le gradient d'altitude. Les stations sont connectées
+      à un réseau de télémétrie facilitant le stockage des données en ligne afin de
+      résoudre les problèmes d'accessibilité liés au réglage à distance de l'observatoire.
+      Le débit a été mesuré à l'aide d'une nouvelle méthode automatisée, et des estimations
+      d'incertitude quantitatives sont fournies avec les données sur le débit fluvial.
+      Toutes les données sont fournies au pas horaire. La haute qualité des données
+      est assurée par des méthodes de contrôle qualité systématiques et approfondies.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2013-10-01'
+    publication: '2021-09-15'
+  identifier: https://doi.org/10.21966/J99C-9C14
+  keywords:
+    default:
+      en:
+      - streamflow
+      - wind
+      - hydrology
+      - air temperature
+      - discharge
+      - watersheds
+      fr:
+      - bassin versant
+      - vents
+      - température de l'eau
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Watersheds
+  status: published
+  temporal_begin: '2013-10-01T19:00:00.000Z'
+  temporal_end: '2019-09-30T19:00:00.000Z'
+  title:
+    en: High-resolution hydrometeorological data from seven small coastal watersheds,
+      British Columbia, Canada, 2013-2019
+    fr: Données hydrométéorologiques à haute résolution provenant de sept petits bassins
+      versants côtiers, Colombie-Britannique, Canada, 2013-2019
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2024-03-19T19:20:08.759Z'
+  identifier: 395aa495-de81-4947-b1c5-2c98172a6def
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MkJ2FBlTjiGmWeIBPvZ
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: 'Several issues added to a reduced quality of the snow depth data: solar
+        power issues resulted in long data gaps, and noise was introduced by frequent
+        melting events and high winds destabilizing sensor installations. Obvious
+        spikes in the data were cleaned, but data gaps were too large to fill.'
+      fr: 'Plusieurs problèmes ont contribué à réduire la qualité des données sur
+        l''épaisseur de la neige : les problèmes d''énergie solaire ont entraîné de
+        longues lacunes dans les données, et le bruit a été introduit par des événements
+        de fonte fréquents et des vents violents qui ont déstabilisé les installations
+        de capteurs. Les pics évidents dans les données ont été éliminés, mais les
+        lacunes dans les données étaient trop importantes pour être comblées.'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.2
+  - 51.61
+  - -128.0
+  - 51.69
+  vertical:
+  - 0.0
+  - 740.0
+  vertical_positive: depthPositive
