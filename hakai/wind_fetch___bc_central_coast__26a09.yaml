@@ -1,0 +1,171 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - principalInvestigator
+  - processor
+- inCitation: false
+  individual:
+    name: Holmes, Keith
+    orcid: https://orcid.org/0000-0001-8796-8222
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+  - publisher
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: link to download the raster dataset and view a metadata readme file.
+    fr: pour télécharger le jeu de données raster et afficher un fichier Lisez-moi
+      de métadonnées.
+  name:
+    en: 2018 wind fetch data download and metadata
+  url: https://drive.google.com/drive/folders/1zk726awG7x01OR9O18gQ3vGX_xbw4A6I?usp=sharing
+identification:
+  abstract:
+    en: "The wind fetch model provides information on the run-up distance and exposure\
+      \ for an area based on mean 2018 wind data collected from the Hakai Institute\
+      \ \"Lookout Hill\" weather station. The raster model has a spatial resolution\
+      \ of 100 meters and more models have been developed closer to NW Calvert Island\
+      \ at 5 meter resolution. The fetch model was created using the USGS \"Wave\"\
+      \ tool plugin in ARC GIS. Created by Hakai Institute geospatial technology researcher\
+      \ Keith Holmes.\nWind fetch tool:\nApplication of Wind Fetch and Wave Models\
+      \ for Habitat Rehabilitation and Enhancement Projects - 2012 Update\nBy Jason\
+      \ Rohweder, James T. Rogala, Barry L. Johnson, Dennis Anderson, Steve Clark,\
+      \ Ferris Chamberlin, David Potter, and Kip Runyon\nhttps://umesc.usgs.gov/management/dss/wind_fetch_wave_models_2012update.html\n\
+      \nWeighted Wind Data \nThe data for the fetch analysis was gathered by the Hakai\
+      \ Sensor Network using an RM Young anemometer (05103). Wind direction samples\
+      \ are taken every 5 seconds and then averaged into a single 5 minute reading.\
+      \ These 5 minute readings were downloaded into an excel file with a timestamp\
+      \ for each reading. A simple table was then generated with the proportion of\
+      \ wind measurements at Lookout (adding to 100 percent) in each 15 degree intervals\
+      \ for the selected time periods."
+    fr: "Le modèle de récupération du vent fournit des informations sur la distance\
+      \ de montée et l'exposition pour une zone basée sur les données de vent moyen\
+      \ de 2018 collectées à partir de la station météorologique « Lookout Hill »\
+      \ de l'Institut Hakai. Le modèle raster a une résolution spatiale de 100 mètres\
+      \ et d'autres modèles ont été développés plus près de NW Calvert Island à une\
+      \ résolution de 5 mètres. Le modèle de récupération a été créé à l'aide du greffon\
+      \ d'outil « Wave » de l'USGS dans ARC GIS. Créé par Keith Holmes, chercheur\
+      \ en technologie géospatiale de l'Institut Hakai.\nOutil de récupération du\
+      \ vent :\nApplication des modèles de vents et de vagues pour les projets de\
+      \ remise en état et d'amélioration de l'habitat - Mise à jour 2012\nPar Jason\
+      \ Rohweder, James T. Rogala, Barry L. Johnson, Dennis Anderson, Steve Clark,\
+      \ Ferris Chamberlin, David Potter et Kip Runyon\nhttps://umesc.usgs.gov/management/dss/wind_fetch_wave_models_2012update.html\n\
+      \nDonnées pondérées sur \nLes données pour l'analyse de fetch ont été recueillies\
+      \ par le Hakai Sensor Network à l'aide d'un anémomètre RM Young (05103). Des\
+      \ échantillons de direction du vent sont prélevés toutes les 5 secondes puis\
+      \ moyennés en une seule mesure de 5 minutes. Ces lectures de 5 minutes ont été\
+      \ téléchargées dans un fichier Excel avec un horodatage pour chaque lecture.\
+      \ Un tableau simple a ensuite été généré avec la proportion de mesures de vent\
+      \ à Lookout (augmentation de 100 %) dans chaque intervalle de 15 degrés pour\
+      \ les périodes sélectionnées."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2019-02-10'
+  keywords:
+    default:
+      en:
+      - wind
+      - fetch
+      - model
+      - weather
+      - exposure
+      - central coast
+      - hakai
+      - wind
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  title:
+    en: Wind Fetch - BC Central Coast - Canada
+    fr: Vent Fetch - Côte centrale de la Colombie-Britannique - Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-01-21'
+    revision: '2024-03-15T19:27:47.877Z'
+  identifier: 26a09a27-7f16-4944-b88d-8c3bf2d36f03
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXNDOU8zYXhRdDA3RWM
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -131.7578125
+  - 50.16193379
+  - -126.22070312
+  - 52.84175491
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: heightPositive
