@@ -1,0 +1,157 @@
+contact:
+- inCitation: true
+  individual:
+    email: james.samantha.e@gmail.com
+    name: James, Samantha
+    orcid: https://orcid.org/0000-0002-0322-9025
+  organization:
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - owner
+  - author
+  - pointOfContact
+  - distributor
+- inCitation: true
+  individual:
+    email: epakhomov@eoas.ubc.ca
+    name: Pakhomov, Evgeny
+  organization:
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: brett.johnson@hakai.org
+    name: Johnson, Brett
+    orcid: https://orcid.org/0000-0001-9317-0364
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+- inCitation: true
+  individual:
+    email: b.hunt@oceans.ubc.ca
+    name: Hunt, Brian
+    orcid: https://orcid.org/0000-0003-4718-4962
+  organization:
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - author
+  - principalInvestigator
+distribution:
+- description:
+    en: Data package hosted on GitHub
+    fr: Package de données hébergé sur GitHub
+  name:
+    en: Data package including raw data, processed data, and scripts.
+    fr: Package de données comprenant des données brutes, des données traitées et
+      des scripts.
+  url: https://github.com/HakaiInstitute/jsp-sockeyediets-paper/archive/refs/heads/master.zip
+- description:
+    en: The data and samples for this article were collected as part of the Hakai
+      Institute JSP time series.
+    fr: Les données et les échantillons de cet article ont été collectés dans le cadre
+      de la série chronologique JSP de l'Institut Hakai.
+  name:
+    en: Hakai Institute Juvenile Salmon Program Time Series
+    fr: Série chronologique du programme sur le saumon juvénile de l'Institut Hakai
+  url: https://doi.org/10.21966/e5c1-c396
+identification:
+  abstract:
+    en: This data package contains zooplankton taxonomy and biomass data, and stomach
+      contents from juvenile sockeye salmon migrating through the Discovery Islands
+      and Johnstone Strait in 2015 and 2016. These data were collected to inform our
+      understanding of early marine survival with special attention to inter and intra
+      differences in zooplankton prey as it relates to the timing of juvenile sockeye
+      salmon. These data are from the article 'Migration timing affects the foraging
+      ecology of Fraser River sockeye salmon stocks in coastal waters of British Columbia,
+      Canada' published in Marine Ecology Press Series.
+    fr: Ce dossier de données contient des données sur la taxonomie et la biomasse
+      du zooplancton, ainsi que le contenu stomacal de saumons rouges juvéniles ayant
+      migré par les îles Discovery et le détroit de Johnstone en 2015 et 2016. Ces
+      données ont été recueillies afin de mieux comprendre la survie précoce en mer,
+      en accordant une attention particulière aux différences inter et intra entre
+      les proies du zooplancton en ce qui concerne le moment où les saumons sockeye
+      juvéniles apparaissent. Ces données proviennent de l'article « Le calendrier
+      de migration affecte l'écologie alimentaire des stocks de saumon rouge du fleuve
+      Fraser dans les eaux côtières de la Colombie-Britannique, au Canada » publié
+      dans Marine Ecology Press Series.
+  associated_resources: []
+  dates:
+    creation: '2015-05-12'
+    publication: '2023-05-17'
+  edition: '1'
+  identifier: https://doi.org/10.21966/tmch-5606
+  keywords:
+    default:
+      en:
+      - sockeye salmon
+      - foraging ecology
+      - migration
+      - phenology
+    eov:
+      en:
+      - zooplanktonBiomassAndDiversity
+      - fishAbundanceAndDistribution
+      - seaSurfaceTemperature
+      - seaSurfaceSalinity
+      fr:
+      - Biomasse et diversité de zooplancton
+      - Abondance et distribution de poissons
+      - Température de surface
+      - Salinité de surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Juvenile Salmon Program
+  status: published
+  temporal_begin: '2015-05-12T19:00:00.000Z'
+  temporal_end: '2016-07-01T19:00:00.000Z'
+  title:
+    en: 'Dataset for article: ''Migration timing affects the foraging ecology of Fraser
+      River sockeye salmon stocks in coastal waters of British Columbia, Canada'''
+    fr: 'Ensemble de données pour l''article : « La chronologie de la migration influe
+      sur l''écologie alimentaire des stocks de saumon rouge du fleuve Fraser dans
+      les eaux côtières de la Colombie-Britannique, au Canada »'
+metadata:
+  dates:
+    publication: '2023-08-08'
+    revision: '2023-05-17T17:29:15.644Z'
+  identifier: 16ae186b-9d99-42cf-b18d-09f9bb0501d7
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-NVeebS1ZbFsXi_w6LXR
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  polygon: -125.2,49.96 -124.8,50.00 -125.2,50.49 -126.9,50.72 -127.0,50.62 -127.0,50.58
+    -126.8,50.51 -126.0,50.39 -125.5,50.33 -125.3,50.06 -125.2,49.96
+  vertical:
+  - 0.0
+  - 9.0
+  vertical_positive: heightPositive
