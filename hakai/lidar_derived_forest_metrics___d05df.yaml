@@ -1,0 +1,241 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Frazer, G.W.
+    position: Researcher
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+  - author
+  - editor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Geospatial Technology Team Hakai
+    position: Researcher Team
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - author
+  - principalInvestigator
+  - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: LIDAR forest metrics band assignment list, readme metadata file, and data
+      package
+    fr: Liste d'attribution des bandes de métriques de forêt LIDAR, fichier de métadonnées
+      Lisez-moi et package de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Hakai Institute Google Drive
+  url: https://drive.google.com/drive/folders/0Byed_WX-ZNMaRHdiaWI4a2FKVFE?resourcekey=0-8DwwtZgMUPTdYoe9XNMhlg&usp=sharing
+identification:
+  abstract:
+    en: "72 LIDAR Derived Forest Metrics - Calvert Island - 20 Meter Spatial Resolution\n\
+      \nLIDAR forest metrics have been developed for the Calvert Island region. The\
+      \ data are in 20 meter resolution and detail a number of variables about the\
+      \ vegetation layer above the bare earth model. Forest metrics have been grouped\
+      \ to show major statistical themes such as gap fraction, stem height, and density.\
+      \ The information is valuable for classifying forest structure and better understanding\
+      \ ecosystem dynamics.\n\nLIDAR Forest Metrics Produced by GWF LiDAR Analytics\n\
+      A full list of derived forest metrics produced by G.W. Frazer is listed at the\
+      \ end of this abstract. \n\nLIDAR flights conducted in 2012 and 2014 covered\
+      \ all of Calvert and Hecate Island. Flights were completed in August of 2012\
+      \ (Terra Remote Sensing) and August of 2014 (Brian Menounos UNBC).\n\nArea-based\
+      \ canopy height and density metrics are derived directly from a height-normalized\
+      \ LAS point cloud using proprietary software developed by G.W. Frazer (note:\
+      \ Fusion and LASTools are respectively open-source and commercial software that\
+      \ can be used to extract various area-based canopy metrics). These gridded products\
+      \ (approximately 55 bands) have a user-defined 20 m spatial resolution and include\
+      \ (i) height-based statistics (e.g., min., max., mean, moments, percentiles),\
+      \ (ii) density-based statistics (i.e., gap fraction, canopy cover at fractional\
+      \ and absolute heights above the ground surface), and (iii) diagnostic information\
+      \ (e.g., number of laser points in each cell, number of laser points classified\
+      \ as ground, number of points above a specific height threshold, etc.). Area-based\
+      \ canopy metrics are used to characterize the three-dimensional (3-D) structure\
+      \ of the vegetation canopies.\n\nList of LiDAR-Derived Canopy Height, Canopy\
+      \ Density, and Stem Metric Categories:\n(Based on G.W. Frazer LiDAR Metrics\
+      \ for Calvert / Hecate Island Acquisition 2012 / 2014 metadata document.)\n\
+      Canopy Height Metrics\t\t\t\nCanopy Density Metrics \t\t\t\t\t\nPercentiles\
+      \ of Laser Canopy Height (LHQ) Bands\t\t\t\t\t\nCanopy Density at Fractional\
+      \ Canopy Heights (CCF) Bands \t\t\t\t\t\t\nDiagnostic Bands\t\t\t\nTree-Top\
+      \ Bands\n\nFor a full metadata report on LiDAR acquisition please contact data@hakai.org"
+    fr: "72 Mesures forestières dérivées du LIDAR - Île Calvert - Résolution spatiale\
+      \ de 20 mètres\n\nDes mesures forestières LIDAR ont été développées pour la\
+      \ région de l'île Calvert. Les données sont d'une résolution de 20 mètres et\
+      \ détaillent un certain nombre de variables concernant la couche de végétation\
+      \ au-dessus du modèle de terre nue. Les mesures forestières ont été regroupées\
+      \ pour montrer les principaux thèmes statistiques tels que la fraction d'écart,\
+      \ la hauteur des tiges et la densité. Les informations sont précieuses pour\
+      \ classer la structure des forêts et mieux comprendre la dynamique des écosystèmes.\n\
+      \nMesures de forêt LIDAR produites par GWF LiDAR Analytics\nUne liste complète\
+      \ des mesures forestières dérivées produites par G.W. Frazer est répertoriée\
+      \ à la fin de ce résumé. \n\nLes vols LIDAR effectués en 2012 et 2014 ont couvert\
+      \ l'ensemble de Calvert et de l'île d'Hécate. Les vols ont été effectués en\
+      \ août 2012 (Terra Remote Sensing) et en août 2014 (Brian Menounos UNBC).\n\n\
+      Les mesures de hauteur et de densité de la canopée basées sur la surface sont\
+      \ dérivées directement d'un nuage de points LAS normalisé en hauteur à l'aide\
+      \ d'un logiciel propriétaire développé par G.W. Frazer (remarque : Fusion et\
+      \ LasTools sont respectivement des logiciels open source et commerciaux qui\
+      \ peuvent être utilisés pour extraire diverses mesures de la canopée basées\
+      \ sur la surface). Ces produits maillés (environ 55 bandes) ont une résolution\
+      \ spatiale de 20 m définie par l'utilisateur et comprennent (i) des statistiques\
+      \ basées sur la hauteur (par exemple, min., max., moyenne, moments, centiles),\
+      \ (ii) des statistiques basées sur la densité (c.-à-d. fraction d'écart, couverture\
+      \ du couvert à des hauteurs fractionnelles et absolues au-dessus de la surface\
+      \ du sol), et (iii) ) des informations de diagnostic (par exemple, nombre de\
+      \ points laser dans chaque cellule, nombre de points laser classés comme sol,\
+      \ nombre de points au-dessus d'un seuil de hauteur spécifique, etc.). Les mesures\
+      \ du couvert en fonction de la surface sont utilisées pour caractériser la structure\
+      \ tridimensionnelle (3D) des canopées végétales.\n\nListe des catégories métriques\
+      \ de hauteur de canopée, de densité de canopée et de tige dérivées du lidar :\n\
+      (D'après les mesures LiDAR de G.W. Frazer pour le document de métadonnées Acquisition\
+      \ de Calvert/Hecate Island Acquisition 2012/2014.)\nMétriques de hauteur \n\
+      Mesures de densité du couvert \nPercentiles des bandes de hauteur de la canopée\
+      \ laser (LHQ) \nBandes de densité du couvert aux hauteurs fractionnelles de\
+      \ la canopée (CCF) \nBandes de diagnostic \nBandes à cime d'arbre\n\nPour obtenir\
+      \ un rapport de métadonnées complet sur l'acquisition de LiDAR, veuillez contacter\
+      \ data@hakai.org"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2016-02-21'
+  identifier: https://doi.org/10.21966/MQ9T-BW79
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - LIDAR
+      - Forest
+      - Metric
+      - Calvert
+      - Hecate
+      - Vegetation
+      - laser
+      - Ecology
+      - Terra
+      - UNBC
+      - sensor
+      - remote sensing
+      - terrain
+      - Canopy Height Metrics
+      - Arithmetic mean height
+      - kurtosis
+      - skewness
+      - Gap fraction
+      - Percentage of laser points
+      - Percentile
+      - Percentiles of Laser Canopy Height
+      - Maximum laser canopy height
+      - Ratio of laser points
+      - Canopy Density at Fractional Canopy Heights
+      - Canopy Density
+      - Density
+      - Diagnostic Bands
+      - Tree-Top Bands
+      - Number of stems in grid cell
+      - Minimum stem height
+      - Maximum stem height
+      - stem height
+      - other
+      - watersheds
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Airborne Coastal Observatory
+  status: published
+  title:
+    en: LIDAR Derived Forest Metrics - Calvert Island - British Columbia - Canada
+    fr: Mesures forestières dérivées du LIDAR - Île Calvert - Colombie-Britannique
+      - Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-29'
+    revision: '2024-03-20T19:31:09.119Z'
+  identifier: d05df775-4295-4b9f-b3b3-29fe891d9ed9
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWZyU1hnTHowV2poZUk
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.21777349337933
+  - 51.412912129355306
+  - -127.82775884494184
+  - 51.74403752566786
+  vertical:
+  - 0.0
+  - 1014.0
+  vertical_positive: heightPositive
