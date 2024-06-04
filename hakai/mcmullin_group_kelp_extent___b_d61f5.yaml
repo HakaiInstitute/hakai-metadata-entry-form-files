@@ -1,0 +1,160 @@
+contact:
+- inCitation: true
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Technology Team, Geospatial
+    position: Geospatial Science
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - custodian
+  - owner
+  - distributor
+  - author
+  - editor
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - publisher
+  - originator
+- inCitation: true
+  individual:
+    name: Holmes, Keith
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - author
+  - editor
+  - processor
+- inCitation: true
+  individual:
+    name: Reshitnyk, Luba
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - author
+  - editor
+  - principalInvestigator
+  - pointOfContact
+  - processor
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: A shapefile delineating the kelp extent for the McMullin Group Islands
+  name:
+    en: 2017 Kelp Extent for the McMullin Group islands
+  url: https://drive.google.com/open?id=1jukkkqR46AAO14Q80XMWzwojRotSkuYS
+- description:
+    en: This document describes the attributes of the 2017 Kelp Extent for the McMullin
+      Group islands shapefile
+  url: https://drive.google.com/open?id=1sBR_cDxyR5SiYtdVeRgJwqnhaGrTOYIB
+- description:
+    en: Link to a webmap showing coverage of Hakai UAV products for the Central Coast
+      of British Columbia
+  name:
+    en: Link to a webmap showing coverage of Hakai UAV products for the Central Coast
+      of British Columbia
+  url: http://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=32e5140ff008481c9f2c240fa40c27cb
+identification:
+  abstract:
+    en: This is a polygon layer mapping the type and extent of kelp in the McMullin
+      Group Islands. Kelp was mapped from imagery of the McMullin Group islands taken
+      in late July 2017. The images were captured using a DJI Phantom 3 professional
+      Unoccupied Aerial System (UAS) equipped with a commercial grade 4k RGB. Kelp
+      bed polygons were created using E-Cognition Developer (see attached UAS methods).
+      The polygons were then manually classified in ArcGIS 10.5.1.
+    fr: Il s'agit d'une couche polygonale qui cartographie le type et l'étendue du
+      varech dans les îles du groupe McMullin. Le varech a été cartographié à partir
+      d'images des îles du Groupe McMullin prises fin juillet 2017. Les images ont
+      été capturées à l'aide d'un système aérien inoccupé (UAS) professionnel DJI
+      Phantom 3 équipé d'un RVB 4K de qualité commerciale. Les polygones de lit de
+      varech ont été créés à l'aide de E-Cognition Developer (voir méthodes UAS ci-jointes).
+      Les polygones ont ensuite été classés manuellement dans ArcGIS 10.5.1.
+  associated_resources: []
+  dates:
+    publication: '2018-06-22'
+  keywords:
+    default:
+      en:
+      - kelp
+      - Nereocystis
+      - Macrocystis
+      - nearshore
+      - bull kelp
+      - giant kelp
+      - Hakai
+      - extent
+      - remote sensing
+      - UAS
+      - drone
+      - ecognition
+      - other
+    eov:
+      en:
+      - other
+      - macroalgalCanopyCoverAndComposition
+      fr:
+      - Autre
+      - Composition et couverture de la canopée de macroalgues
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: McMullin Group Kelp Extent - Based on UAS Imagery - 2017
+    fr: Étendue du varech du groupe McMullin - D'après l'imagerie UAS - 2017
+metadata:
+  dates:
+    publication: '2022-03-03'
+    revision: '2022-03-03T00:07:56.266Z'
+  identifier: d61f51c3-7614-465f-bf27-c78986ca07c3
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTNoNHEyQ0g1c3VIbGE
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+platform: []
+spatial:
+  bbox:
+  - -128.44315751
+  - 52.02620636
+  - -128.37559157
+  - 52.07215005
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
