@@ -1,0 +1,135 @@
+contact:
+- inCitation: true
+  individual:
+    email: wiley.evans@hakai.org
+    name: Evans, Wiley
+  organization:
+    address: 1713 Hyacinthe Bay Road
+    city: Heriot Bay
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - custodian
+  - owner
+  - contributor
+- inCitation: false
+  organization:
+    address: 1713 Hyacinthe Bay Road
+    city: Heriot Bay
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    name: Sitka Tribe of Alaska
+  roles:
+  - originator
+distribution:
+- name:
+    en: ERDDAP Dataset
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiSitkaBoL5min.html
+identification:
+  abstract:
+    en: 'This dataset includes continuous sea surface measurements of partial pressure
+      of carbon dioxide (pCO2), sea surface temperature and salinity collected from
+      the Sikta Tribe of Alaska, USA
+
+
+      The Burke-o-Lator (BoL) pCO2/TCO2 analyzer measures carbon dioxide partial pressure
+      (pCO2) and total dissolved inorganic carbon (TCO2) both continuously from a
+      flow-through seawater stream and from seawater collected in discrete samples.
+      The BoL is paired with a SBE 45 Thermosalinograph to measure seawater temperature
+      and salinity.'
+    fr: 'Cet ensemble de données comprend des mesures continues de la surface de la
+      mer de la pression partielle de dioxyde de carbone (pCO2), de la température
+      de la surface de la mer et de la salinité recueillies auprès de la tribu Sikta
+      d''Alaska, États-Unis
+
+
+      L''analyseur Burke-O-Lator (Bol) PCO2/TCO2 mesure la pression partielle de dioxyde
+      de carbone (pCO2) et le carbone inorganique dissous total (TCO2) à la fois en
+      continu à partir d''un courant d''eau de mer à écoulement continu et de l''eau
+      de mer prélevée dans des échantillons discrets. Le BoL est associé à un thermosalinographe
+      SBE 45 pour mesurer la température et la salinité de l''eau de mer.'
+  associated_resources: []
+  dates:
+    creation: '2017-06-07'
+  keywords:
+    default:
+      en:
+      - Continuous measurement
+      - Discrete measurement
+      - Surface measurement
+      - Ocean Acidification
+      - Practical Salinity
+      - Sea Surface Temperature
+      - Sea Surface Practical Salinity
+      - CO2
+      - Alaska
+      fr:
+      - Alaska
+      - Tribu Sitka
+      - Salinité Pratique
+      - Température de surface
+      - Salinité pratique de surface
+      - CO2
+      - Acidification des océans
+      - Mesures en continue
+      - Température de l'eau
+    eov:
+      en:
+      - inorganicCarbon
+      - seaSurfaceSalinity
+      - seaSurfaceTemperature
+      fr:
+      - Carbone inorganique
+      - Salinité de surface
+      - Température de surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  status: published
+  temporal_begin: '2017-06-07T19:00:00.000Z'
+  title:
+    en: Real-Time Provisional High-Resolution Record of Surface Seawater Carbon Dioxide
+      (CO2) Content Collected from the Sitka Tribe of Alaska, USA
+    fr: Enregistrement provisoire provisoire à haute résolution en temps réel de la
+      teneur en dioxyde de carbone (CO2) dans l'eau de mer de surface recueillie dans
+      la tribu Sitka de l'Alaska, États-Unis
+metadata:
+  dates:
+    publication: '2021-03-31'
+    revision: '2021-03-23T21:42:38.341Z'
+  identifier: 2834622b-33c4-4108-bf13-2e295473b4eb
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/None/-MW5_rSDwK9J_u3QtfBJ
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: This dataset is provisional. For science purposes, please refer to the associated
+        Research dataset.
+      fr: Ce jeu de données est provisoire. À des fins scientifiques, veuillez vous
+        référer à l'ensemble de données de recherche connexe.
+platform: []
+spatial:
+  bbox:
+  - -135.3456
+  - 57.0526
+  - -135.3456
+  - 57.0526
+  vertical:
+  - 1.0
+  - 1.0
+  vertical_positive: depthPositive
