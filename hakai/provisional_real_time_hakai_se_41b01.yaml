@@ -1,0 +1,128 @@
+contact:
+- inCitation: true
+  organization:
+    address: 1713 Hyacinthe Road
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: ERDDAP Data Subset Form
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiQuadraLimpet5min.html
+identification:
+  abstract:
+    en: The limpet provides real-time data on ocean temperature, conductivity, and
+      dissolved oxygen for the waters off Quadra Island.
+    fr: La limpet fournit des données en temps réel sur la température de l'océan,
+      la conductivité et l'oxygène dissous pour les eaux au large de l'île Quadra.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2015-12-12'
+    publication: '2020-04-13'
+  keywords:
+    default:
+      en:
+      - real-time
+      - Limpet
+      - Pratical Salinity
+      - temperature
+      - sea water temperature
+      - pH
+      - chlorophyll a
+      - water temperature
+      - pressure
+      fr:
+      - chlorophylle a
+      - température de l'eau
+      - salinité pratique
+      - fluorescence
+      - pH
+      - pression
+    eov:
+      en:
+      - oxygen
+      - dissolvedOrganicCarbon
+      - subSurfaceSalinity
+      - subSurfaceTemperature
+      - seaSurfaceHeight
+      fr:
+      - Oxygène
+      - Carbone organique dissous
+      - Salinité sous la surface
+      - Température sous la surface
+      - Niveau de l'eau
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2015-12-12T20:00:00.000Z'
+  title:
+    en: Provisional Real-Time Hakai Seafloor Observatory in Hyacinthe Bay, Quadra
+      Island, British Columbia, Canada
+    fr: Données en temp réelle et provisoire de l'ibservatoire du fond marin de l'Institut
+      Hakai dans la baie Hyacinthe, île Quadra, Colombie-Britannique, Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-02-01'
+    revision: '2024-03-21T17:06:35.016Z'
+  identifier: 41b0137d-6ac0-407d-a550-dd375475b2b0
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW5xCIKrrtNHbrGqNTx
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: This is a provisional dataset. Please refer to the research dataset for
+        science purposes.
+      fr: Il s'agit d'un jeu de données provisoire. Veuillez vous référer à l'ensemble
+        de données de recherche à des fins scientifiques.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform: []
+spatial:
+  bbox:
+  - -125.22003
+  - 50.11736
+  - -125.22003
+  - 50.11736
+  vertical:
+  - 10.0
+  - 20.0
+  vertical_positive: depthPositive
