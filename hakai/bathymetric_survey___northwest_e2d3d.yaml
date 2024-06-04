@@ -1,0 +1,161 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - distributor
+  - principalInvestigator
+  - processor
+  - originator
+  - editor
+  - author
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
+  - funder
+  - publisher
+- inCitation: true
+  individual:
+    name: Viner, Nick
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - pointOfContact
+  - editor
+  - principalInvestigator
+  - processor
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
+      / reference layer *** EDIT ACCORDINGLY ***
+  name:
+    en: Hakai Google Drive - Metadata Folder
+  url: https://drive.google.com/drive/u/1/folders/1PLsNx6q0WBgEr6E2i1r-zjbgVDRzuIjE
+identification:
+  abstract:
+    en: "This dataset is the result of a multibeam survey that was conducted by the\
+      \ Hakai Institute between June 5th, 2018 and August 12th, 2018 on the north-western\
+      \ coastline of Calvert Island, B.C., Canada. Data were collected using a Reson\
+      \ Seabat T50-R Multibeam Echosounder mounted onboard the Hakai Institute’s hydrographic\
+      \ survey vessel, the Hakai Blue.\n\nThis project was performed in an effort\
+      \ to gain a greater understanding of the local seafloor morphology in order\
+      \ to assist in the planning of future research projects as well as provide valuable\
+      \ data to those already underway.\n\nBathymetry and backscatter data were collected\
+      \ and processed using the QPS Software Suite (Qinsy, Qimera, FMGT) and the final\
+      \ substrate map was created using in-house Python scripts which utilized ArcGIS’\
+      \ Python libraries. \n\nSee links for methodology documentation."
+    fr: "Cet ensemble de données est le résultat d'une enquête multifaisceaux menée\
+      \ par l'Institut Hakai entre le 5 juin 2018 et le 12 août 2018 sur la côte nord-ouest\
+      \ de l'île Calvert, en Colombie-Britannique, Canada. Les données ont été recueillies\
+      \ à l'aide d'un échosondeur multifaisceau Reson Seabat T50-R monté à bord du\
+      \ navire hydrographique de l'Institut Hakai, le Hakai Blue.\n\nCe projet a été\
+      \ réalisé dans le but de mieux comprendre la morphologie du fond marin local\
+      \ afin de faciliter la planification de futurs projets de recherche et de fournir\
+      \ des données précieuses à ceux qui sont déjà en cours.\n\nLes données de bathymétrie\
+      \ et de rétrodiffusion ont été collectées et traitées à l'aide de la suite logicielle\
+      \ QPS (Qinsy, Qimera, FMGT) et la carte de substrat finale a été créée à l'aide\
+      \ de scripts Python internes qui utilisaient les bibliothèques Python d'ArcGIS.\
+      \ \n\nConsultez les liens pour la documentation méthodologique."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2020-03-18'
+  edition: '1'
+  identifier: https://doi.org/10.21966/xtp4-7p91
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - bathymetry
+      - multibeam
+      - depth
+      - calvert island
+      - ocean
+      - echosounder
+      - hydrography
+      - nearshore habitat
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  title:
+    en: Bathymetric Survey - Northwest Calvert Island
+    fr: Relevé bathymétrique - Nord-Ouest de l'île Calvert
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-03'
+    revision: '2024-03-14T19:21:28.376Z'
+  identifier: e2d3d616-9ee2-451f-8584-14801b4c6fd0
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTlsYnhwcFE5NFpnejQ
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -128.1933734
+  - 51.63078777
+  - -128.05776091
+  - 51.70744235
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
