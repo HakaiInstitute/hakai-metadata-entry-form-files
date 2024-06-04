@@ -1,0 +1,216 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+- inCitation: false
+  individual:
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Metadata Readme File
+    fr: Fichier Lisezmoi de métadonnées
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Hakai Institute Google Drive
+  url: https://drive.google.com/drive/folders/1xGWKLj22y5TC2gIJ95S98zUVop54XEbh?usp=sharing
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset/'s
+      reference layer
+  name:
+    en: Hakai's ArcGIS Online Platform (restricted access) - 100 Islands Project -
+      2017 Island Points and Polygons Layers
+  url: http://hakai.maps.arcgis.com/home/item.html?id=ded57cc321174a2a80416b30356657bd
+identification:
+  abstract:
+    en: "This layer includes polygons representing the islands studied by the 100\
+      \ Islands research program at the Hakai Institute. A centroid points layer is\
+      \ also included.\nThe 100 Islands Project seeks to blend the theory of island\
+      \ biogeography with theories about ecosystem subsidies, to understand how nutrients\
+      \ from the sea affect the ecology of plants, breeding birds, mammals, insects\
+      \ and amphibians. To do this we will be studying 100 islands near the Hakai\
+      \ Institute on Calvert Island. Little is known of the diversity on these islands\
+      \ and therefore we have a great opportunity to conduct lots of interesting work,\
+      \ including mapping of major taxa, tracking marine-derived nutrients along shorelines\
+      \ (think seaweed deposition) and into the forests, and measuring stable isotope\
+      \ signatures in a variety of organisms (from tiny plants to large mammals),\
+      \ to name just a few!\n\nAttributes:\nIsland general exposure as derived from\
+      \ the BC Shorezone dataset. Reflects the exposure on the more exposed side of\
+      \ each island. 6 classes (Very Exposed, Exposed, Semi Exposed, Semi Protected,\
+      \ Protected, Very Protected) \nDistance to Mainland over water in meters measured\
+      \ using the least distance of water crossing. \nDistance to nearest vegetated\
+      \ land. \nRadial coverage of land within 250m from the Island. (0 – 360°) i.e.\
+      \ the amount of surrounding land measured by the degrees of a circle it covers.\
+      \ \nMean Normalized Difference Vegetation Index for the internal area of each\
+      \ island. NDVI is derived from WorldView2 images and available at its original\
+      \ 2m resolution.\n\nDataset created by Wiebe Nijland and Luba Reshitnyk"
+    fr: "Cette couche comprend des polygones représentant les îles étudiées par le\
+      \ programme de recherche des 100 îles de l'Institut Hakai. Une couche de points\
+      \ de centroïde est également incluse.\nLe projet des 100 îles cherche à fusionner\
+      \ la théorie de la biogéographie insulaire avec les théories sur les subventions\
+      \ des écosystèmes, afin de comprendre comment les nutriments de la mer affectent\
+      \ l'écologie des plantes, des oiseaux nicheurs, des mammifères, des insectes\
+      \ et des amphibiens. Pour ce faire, nous étudierons 100 îles proches de l'Institut\
+      \ Hakai sur l'île Calvert. On sait peu de choses sur la diversité de ces îles\
+      \ et nous avons donc une excellente occasion de mener de nombreux travaux intéressants,\
+      \ y compris la cartographie des principaux taxons, le suivi des nutriments d'origine\
+      \ marine le long des rives (pensez aux dépôts d'algues) et dans les forêts,\
+      \ et la mesure des signatures isotopiques stables dans une variété d'organismes\
+      \ (des petites plantes aux grands mammifères), pour n'en nommer que quelques-uns !\n\
+      \nAttributs :\nExposition générale des îles telle que dérivée de l'ensemble\
+      \ de données de la zone côtière de la Colombie-Britannique Reflète l'exposition\
+      \ du côté le plus exposé de chaque île. 6 classes (très exposé, exposé, semi-exposé,\
+      \ semi-protégé, protégé, très protégé) \nDistance du continent au-dessus de\
+      \ l'eau en mètres mesurée à l'aide de la distance minimale de franchissement\
+      \ de cours d'eau. \nDistance jusqu'à la terre végétalisée la plus proche. \n\
+      Couverture radiale des terres situées à moins de 250 m de l'île. (0 — 360°)\
+      \ c'est-à-dire la superficie des terres environnantes mesurée par les degrés\
+      \ d'un cercle qu'elle couvre. \nIndice de végétation par différence normalisée\
+      \ moyenne pour la zone interne de chaque île. Le NDVI est dérivé des images\
+      \ WorldView2 et est disponible dans sa résolution originale de 2 mètres.\n\n\
+      Jeu de données créé par Wiebe Nijland et Luba Reshitnyk"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2017-02-25'
+  identifier: https://doi.org/10.21966/gsbw-bz85
+  keywords:
+    default:
+      en:
+      - sea
+      - 100 Islands
+      - Environmental
+      - Biogeography
+      - Islands
+      - Ecology
+      - Hakai
+      - Sea Wrack
+      - Insects
+      - Mammals
+      - Plants
+      - Birds
+      - polygon
+      - point
+      - shoreline
+      - coast
+      - biogeography
+      - marine
+      - kelp
+      - subsidies
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  title:
+    en: 100 Islands Project - Island Spatial Data -2017 - Coastal British Columbia
+      - Canada
+    fr: Projet des 100 îles - Données spatiales insulaires -2017 - Côte de la Colombie-Britannique
+      - Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-01-19'
+    revision: '2024-03-20T19:58:35.408Z'
+  identifier: f68be641-0017-4311-b4de-5d0aed9e2b57
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWFJMkk4eTgwRkNDeno
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.61694335937497
+  - 51.3854950692232
+  - -127.61718749999997
+  - 52.0322181041453
+  vertical:
+  - 0.0
+  - 300.0
+  vertical_positive: heightPositive
