@@ -1,0 +1,248 @@
+contact:
+- inCitation: true
+  individual:
+    name: Holmes, Keith
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+  - author
+  - custodian
+  - principalInvestigator
+  - editor
+  - publisher
+  - originator
+- inCitation: true
+  individual:
+    email: jenn.burt@gmail.com
+    name: Burt, Jenn
+    position: Science Researcher
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - editor
+  - author
+  - pointOfContact
+  - principalInvestigator
+  - publisher
+  - originator
+  - processor
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+    position: data@hakai.org
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - pointOfContact
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+  - custodian
+  - publisher
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset/'s
+      reference layer
+  name:
+    en: Hakai's ArcGIS Online Platform (restricted access)
+  url: http://hakai.maps.arcgis.com/home/item.html?id=b1d580ccf7b94387b4dc3ee795b3e142
+identification:
+  abstract:
+    en: "Kelp extent for North West Calvert Island for July 31st, 2014.\n\nPolygons\
+      \ manually created based on July 31st, 2014 air photos.\n\nAreas covered: West\
+      \ Beach – 7th beach to West Beach + Choked Passage – Surf Pass and North Beach\
+      \ to Wolf Beach North to Hakai Land and Sea Beach.\n\nAir photos taken by Keith\
+      \ Holmes at 9:37-9:53 am. Images taken by Canon EOS 6D with a polarizing filter\
+      \ + Canon EF 16-35mm f/2.8L II USM lens resulting in a spatial resolution of\
+      \ between 12 and 15cm. Photos taken out of the passenger side window of a bell\
+      \ helicopter. Three transects over West Beach and three transects over Choked\
+      \ Passage covered the desired study area in ~ 15 minutes. Helicopter elevation\
+      \ = 800 meters. Tide during this time was 3.5-3.6 feet. Pilot: Paul Greenwood\
+      \ – Peak Helicopters.\n\nAir photos were then georeferenced using 2006 + 2012\
+      \ air photos (known point to known point) transformation agreement sub meter\
+      \ accomplished.\nGeoreferencing by Keith Holmes using 2006 + 2012 Air Photos.\n\
+      \nMosaic was created and JP2 files were used to share data with SFU volunteer\
+      \ crew (Jenn Burt, Amanda Schrack, and Sebastian Mather). Sharing spatial extent\
+      \ at this time. Density and species quality control is still under way and will\
+      \ be completed in January, 2015.\n\n\nAttributes:\n\nFID - Unique identification\
+      \ number - ARC auto generated during polygon creation\n\nShape - Polygon - spatial\
+      \ representation\n\nSpecies - \"Macro\" / \"Nereo\" / Mixed detailing the two\
+      \ possible kelp canopy species. Macro refers to macrocystis pyrifera or giant\
+      \ kelp. Nereo refers to nereocystis luetkeana or bull kelp. Mixed is a homogenous\
+      \ mix of both Macro and Nereo species. Defined by GIS techs - identified by\
+      \ \"credit\" field. \n\nDensity - density of kelp defined as either high or\
+      \ low. Based on the Sutherland methodology for kelp density. High = high density\
+      \ / based on mean kelp plants found per square meter. Low = low density - still\
+      \ a continuous bed of kelp with large gaps the length of each fond.\n\nArea\
+      \ sq_m - size of each kelp bed in square meters. Defined by arc geometry calculation.\n\
+      \nConcat - concatenation of species and density information. Used for cartographic\
+      \ purposes. Defined by concatenating species and density metrics in ARC GIS.\n\
+      \nConfidence - Used by GIS technician to identify difficult to detect species\
+      \ / kelp bed extent / density. Used to inform reviewers and quality control\
+      \ spatial information. High = High confidence - no need to check over, Medium\
+      \ = medium confidence - check over, Low = low confidence - unsure of major elements\
+      \ - reviewer check over. A \"Checked\" may be added to the information to determine\
+      \ quality control has been completed on low confidence polygons. Determined\
+      \ by the last \"credit\" reviewer.\n\nCredit - Initials of GIS technician to\
+      \ create and give the final quality check on the kelp extent polygon. KH = Keith\
+      \ Holmes, JB = Jenn Burt, AS = Amanda Schrack, SM = Sebastian Mather.\n\nSpecies_la\
+      \ - full Latin species name for the kelp. macrocystis pyrifera / nereocystis\
+      \ luetkeana / mixed. Mixed has a homogeneous mix of both macrocystis pyrifera\
+      \ and nereocystis luetkeana species.\n\nDataset created by Jenn Burt and Keith\
+      \ Holmes. Simon Fraser University Volunteers: Amanda Schrack and Sebastian Mather\n\
+      Contact: keith.holmes@hakai.org"
+    fr: "Étendue du varech dans le nord-ouest de l'île Calvert au 31 juillet 2014.\n\
+      \nPolygones créés manuellement sur la base des photos aériennes du 31 juillet\
+      \ 2014.\n\nZones couvertes : West Beach - 7e plage à West Beach + passage étranglé\
+      \ - Surf Pass et North Beach à Wolf Beach North jusqu'à Hakai Land et Sea Beach.\n\
+      \nPhotos aériennes prises par Keith Holmes à 9h37-9h53. Images prises par le\
+      \ Canon EOS 6D avec un filtre polarisant + objectif Canon EF 16-35 mm f/2,8L\
+      \ II USM pour une résolution spatiale comprise entre 12 et 15 cm. Photos prises\
+      \ par la fenêtre côté passager d'un hélicoptère Bell. Trois transects au-dessus\
+      \ de West Beach et trois transects au-dessus du passage Choked ont couvert la\
+      \ zone d'étude souhaitée en environ 15 minutes. Élévation de l'hélicoptère =\
+      \ 800 mètres. La marée pendant cette période était de 3,5 à 3,6 pieds. Pilote :\
+      \ Paul Greenwood — Peak Helicopters.\n\nLes photos aériennes ont ensuite été\
+      \ géoréférencées à l'aide de photos aériennes de 2006 et 2012 (point connu à\
+      \ point connu), accord de transformation du sous-mètre accompli.\nGéoréférencement\
+      \ par Keith Holmes à l'aide des photos aériennes de 2006 et 2012.\n\nMosaic\
+      \ a été créé et des fichiers JP2 ont été utilisés pour partager des données\
+      \ avec l'équipe bénévole de SFU (Jenn Burt, Amanda Schrack et Sebastian Mather).\
+      \ Partage de l'étendue spatiale en ce moment. Le contrôle de la densité et de\
+      \ la qualité des espèces est toujours en cours et sera terminé en janvier 2015.\n\
+      \n\nAttributs :\n\nFID - Numéro d'identification unique - ARC généré automatiquement\
+      \ lors de la création d'un polygone\n\nForme - Polygone - représentation spatiale\n\
+      \nEspèce - « Macro »/« Nereo »/Mixte détaillant les deux espèces possibles de\
+      \ la canopée de varech. Macro fait référence à macrocystis pyrifera ou varech\
+      \ géant. Nereo fait référence au nereocystis luetkeana ou au varech de taureau.\
+      \ Mixed est un mélange homogène d'espèces Macro et Nereo. Définie par les techniciens\
+      \ SIG - identifiée par le champ « crédit ». \n\nDensité - densité du varech\
+      \ définie comme élevée ou faible. Basé sur la méthodologie Sutherland pour la\
+      \ densité du varech. Élevé = haute densité/basé sur la moyenne des plants de\
+      \ varech trouvés par mètre carré. Faible = faible densité - toujours un lit\
+      \ continu de varech avec de grands espaces sur la longueur de chaque fond.\n\
+      \nSuperficie sq_m - taille de chaque lit de varech en mètres carrés. Défini\
+      \ par le calcul de la géométrie des arcs.\n\nConcat - concaténation des informations\
+      \ sur les espèces et la densité. Utilisé à des fins cartographiques. Définie\
+      \ par la concaténation des espèces et des mesures de densité dans ARC GIS.\n\
+      \nConfiance - Utilisé par un technicien SIG pour identifier les espèces difficiles\
+      \ à détecter, l'étendue du lit de varech et la densité. Utilisé pour informer\
+      \ les réviseurs et contrôler la qualité des informations spatiales. Élevé =\
+      \ niveau de confiance élevé - pas besoin de vérifier, moyen = niveau de confiance\
+      \ moyen - vérification, faible = faible confiance - incertain des principaux\
+      \ éléments - vérification de l'examinateur. Un « vérifié » peut être ajouté\
+      \ aux informations pour déterminer si le contrôle de qualité a été effectué\
+      \ sur les polygones de faible confiance. Déterminé par le dernier examinateur\
+      \ de « crédit ».\n\nCrédit - Initiales du technicien SIG pour créer et donner\
+      \ le contrôle de qualité final sur le polygone d'étendue de varech. KH = Keith\
+      \ Holmes, JB = Jenn Burt, AS = Amanda Schrack, SM = Sebastian Mather.\n\nSpecies_LA\
+      \ - nom d'espèce latin complet du varech. macrocystis pyrifera/nereocystis luetkeana/mixed.\
+      \ Mixed présente un mélange homogène d'espèces de macrocystis pyrifera et de\
+      \ nereocystis luetkeana.\n\nJeu de données créé par Jenn Burt et Keith Holmes.\
+      \ Bénévoles de l'Université Simon Fraser : Amanda Schrack et Sebastian Mather\n\
+      Contact : keith.holmes@hakai.org"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2015-10-08'
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - Kelp
+      - extent
+      - canopy
+      - calvert
+      - giant kelp
+      - bull kelp
+      - habitat
+      - hakai
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  title:
+    en: Kelp Canopy Extent - 2014 - NW Calvert Island
+    fr: Étendue de la canopée de varech - 2014 - NW Calvert Island
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-11'
+    revision: '2024-03-15T19:51:48.830Z'
+  identifier: e66d7bf7-6ba1-44ed-8ee5-2561fca92164
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXF2YmhqSGJVNjdjYVg
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+spatial:
+  bbox:
+  - -128.16856384277344
+  - 51.631657349449995
+  - -128.10916900634766
+  - 51.68319956129153
+  vertical:
+  - 0.0
+  - 100.0
+  vertical_positive: depthPositive
