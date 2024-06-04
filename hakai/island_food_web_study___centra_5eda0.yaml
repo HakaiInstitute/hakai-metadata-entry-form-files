@@ -1,0 +1,325 @@
+contact:
+- inCitation: true
+  individual:
+    email: debora_obrist@sfu.ca
+    name: Obrist, Debora S
+    position: Research Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - author
+  - principalInvestigator
+  - pointOfContact
+  - processor
+  - originator
+  - publisher
+  - owner
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Technology Team, Geospatial
+    position: Geospatial Science
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: www.hakai.org
+  roles:
+  - custodian
+  - distributor
+  - pointOfContact
+  - resourceProvider
+  - collaborator
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Ernst, C E
+    position: Research Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - author
+  - coAuthor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Fitzpatrick, O. T.
+    position: Research Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - author
+  - coAuthor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Kennedy, J C
+    position: Research Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - author
+  - coAuthor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Nijland, W.
+    position: Research Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - author
+  - coAuthor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Reshitnyk, L.
+    position: Research Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - author
+  - coAuthor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Wickham, S B
+    position: Research Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - author
+  - coAuthor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Darimont, C T
+    position: Research Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - author
+  - coAuthor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Starzomski, B M
+    position: Research Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - author
+  - coAuthor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Reynolds, J D
+    position: Research Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    url: hakai.org
+  roles:
+  - author
+  - coAuthor
+distribution:
+- description:
+    en: Metadata readme and methods GitHub link
+    fr: Lisez-moi des métadonnées et méthodes lien GitHub
+  name:
+    en: Food web study GitHub
+  url: https://github.com/debobrist/food-web-ibt
+- description:
+    en: Methods and metadata
+    fr: Méthodes et métadonnées
+  name:
+    en: Hakai Institute Google Drive
+  url: https://drive.google.com/drive/folders/1vNH8iu-H7cwUHh8klf9BDY9Do1_7KbUU
+identification:
+  abstract:
+    en: 'This dataset contains raw stable isotope data for various taxa, and cleaned
+      data used for analysis in Obrist et al. (2021), Biogeographic features mediate
+      marine subsidies to terrestrial food webs. It also includes meta-data for all
+      datafiles.
+
+
+      In this study, we have evaluated the enrichment of soil, plants, invertebrates,
+      and songbirds using δ15N and δ13C stable isotopes, as well as a measure of available
+      nitrogen (%N) on 97 islands. We determined the effects of island size, wrack
+      biomass, island slope, and distance to shore at which the sample was collected.
+
+      The first data file, named “food-webs-ibt-2021.csv”, runs with the ibt-percent-n.RMD,
+      ibt-d13c.RMD, and ibt-d15n.RMD scripts. It includes δ15N, δ13C, %N, and %C values
+      of soil, salal (Gaultheria shallon), false lily-of-the-valley (Maiathemum dilatatum),
+      herbivorous weevils (Curculionidae), detritivorous isopods (Isopoda), carnivorous
+      ground-dwelling beetles (Coleoptera), as well as songbird feces and feather
+      (rectrix) samples.
+
+
+      Data files named “ibt-sem-data-2021.csv” and “ibt-sem-data-2021-plants-combined.csv”
+      run with the ibt-sem.RMD script. In this script, we outline decisions made in
+      fitting structural equation models to track nutrient flow through island food
+      webs. We find multicollinearity in our initial approach (using the “ibt-sem-data-2021.csv”
+      file), and end up taking average values of δ15N and δ13C of all plant samples
+      on each island for a single, island-wide plant δ15N and δ13C value for analysis
+      (in “ibt-sem-data-2021-plants-combined.csv”).
+
+
+      Obrist DS, Ernst CE, Fitzpatrick OT, Kennedy JC, Nijland W, Reshitnyk L, Wickham
+      SB, Darimont CT, Starzomski BM, Reynolds JD. https://doi.org/10.21966/8j4j-7039
+
+
+      Scripts can be accessed from https://github.com/debobrist/food-web-ibt.
+
+
+      April through July in 2015, 2016, and 2017'
+    fr: 'Cet ensemble de données contient des données brutes sur les isotopes stables
+      pour divers taxons, ainsi que des données épurées utilisées pour l''analyse
+      dans Obrist et al. (2021), Les caractéristiques biogéographiques médient les
+      subventions marines aux réseaux trophiques terrestres. Il inclut également des
+      métadonnées pour tous les fichiers de données.
+
+
+      Dans cette étude, nous avons évalué l''enrichissement du sol, des plantes, des
+      invertébrés et des oiseaux chanteurs à l''aide d''isotopes stables δ15N et δ13C,
+      ainsi que d''une mesure de l''azote disponible (% N) sur 97 îles. Nous avons
+      déterminé les effets de la taille de l''île, de la biomasse de l''épi, de la
+      pente de l''île et de la distance par rapport au rivage où l''échantillon a
+
+      Le premier fichier de données, nommé « food-webs-ibt-2021.csv », s''exécute
+      avec les scripts IBT-Percent-N.RMD, IBT-D13C.RMD et IBT-D15N.rmd. Il comprend
+      les valeurs δ15N, δ13C, %N et %C du sol, du salal (Gaultheria shallon), du faux
+      muguet (Maiathemum dilatatum), des charançons herbivores (Curculionidae), des
+      isopodes détritivores (Isopodes), des coléoptères carnivores (Coléoptères),
+      ainsi que des excréments d''oiseaux chanteurs et des échantillons de plume (rectrice).
+
+
+      Les fichiers de données nommés « ibt-sem-data-2021.csv » et « ibt-sem-data-2021-plants-combined.csv »
+      s''exécutent avec le script IBT-SEM.rmd. Dans ce script, nous décrivons les
+      décisions prises pour ajuster des modèles d''équations structurelles afin de
+      suivre le flux des nutriments dans les réseaux trophiques des îles. Nous trouvons
+      la multicolinéarité dans notre approche initiale (à l''aide du fichier « ibt-sem-data-2021.csv »)
+      et finissons par prendre des valeurs moyennes de δ15N et δ13C de tous les échantillons
+      de plantes sur chaque île pour une seule valeur δ15N et δ13C de plante à l''échelle
+      de l''île pour l''analyse (dans « ibt-sem-data-2021-plants-combined.csv »).
+
+
+      Obrist DS, Ernst CE, Fitzpatrick OT, Kennedy JC, Nijland W, Reshitnyk L, Wickham
+      SB, Darimont CT, Starzomski BM, Reynolds JD.
+
+
+      Les scripts sont accessibles sur https://github.com/debobrist/food-web-ibt.
+
+
+      D''avril à juillet en 2015, 2016 et 2017'
+  associated_resources: []
+  dates:
+    creation: '2015-04-01'
+    publication: '2021-05-17'
+  identifier: https://doi.org/10.21966/8j4j-7039
+  keywords:
+    default:
+      en:
+      - food web
+      - marine subsidies
+      - isotopes
+      - island
+      - biogeography
+    eov:
+      en:
+      - stableCarbonIsotopes
+      - other
+      fr:
+      - Isotopes stables du carbone
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2015-04-01T19:00:00.000Z'
+  temporal_end: '2017-07-31T19:00:00.000Z'
+  title:
+    en: Island Food Web Study - Central Coast Islands (100 Islands Project) - April
+      to July 2015, 2016, & 2017
+    fr: Étude du réseau alimentaire insulaire - Îles de la côte centrale (projet 100
+      îles) - avril à juillet 2015, 2016 et 2017
+metadata:
+  dates:
+    publication: '2022-05-05'
+    revision: '2022-05-05T18:03:50.918Z'
+  identifier: 5eda02a9-36b6-4875-91c9-989e9e06c5ad
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-Mv-f_0P720Bjn3KVOOt
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+spatial:
+  bbox:
+  - -128.6
+  - 51.39
+  - -127.6
+  - 52.08
+  vertical:
+  - 0.0
+  - 250.0
+  vertical_positive: heightPositive
