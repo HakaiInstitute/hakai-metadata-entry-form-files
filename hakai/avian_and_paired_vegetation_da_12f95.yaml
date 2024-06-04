@@ -1,0 +1,310 @@
+contact:
+- inCitation: true
+  individual:
+    email: dobrist@sfu.ca
+    name: Obrist, Debora
+    orcid: https://orcid.org/0000-0002-5645-6037
+    position: Researcher
+  organization:
+    city: Burnaby
+    country: Canada
+    name: Simon Fraser University
+    ror: https://ror.org/0213rcc28
+    url: http://www.sfu.ca/
+  roles:
+  - originator
+  - pointOfContact
+  - owner
+  - author
+  - editor
+  - principalInvestigator
+  - processor
+- inCitation: false
+  individual:
+    name: Hakai Geospatial
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - pointOfContact
+  - custodian
+  - owner
+  - collaborator
+  - principalInvestigator
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: subsidized-avian-island-biogeography R script
+    fr: script R biogéographie des îles aviaires subventionnées
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Code for Obrist et al. 2020 analysis - GITHUB
+    fr: Code pour l'analyse d'Obrist et al. 2020 - GITHUB
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/debobrist/avian-sib
+- description:
+    en: Google drive folder - Data Package
+    fr: Dossier Google Drive - Paquet de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Google drive folder - Data Package
+  url: https://drive.google.com/drive/folders/1cHxDcrHyzEXvG0YE53qr2vv8XcRJeskL?usp=sharing
+- description:
+    en: Code for analyses in "Equivalent roles of marine subsidies and island biogeography
+      in shaping island bird communities"
+    fr: Code pour les analyses dans « Rôles équivalents des subventions marines et
+      de la biogéographie insulaire dans la formation des communautés d'oiseaux insulaires »
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Code for analyses in "Equivalent roles of marine subsidies and island biogeography
+      in shaping island bird communities"
+    fr: Code pour les analyses portant sur « Les rôles équivalents des subventions
+      marines et de la biogéographie insulaire dans la formation des communautés d'oiseaux
+      insulaires »
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/debobrist/subsidized_isl_bird_communities
+- description:
+    en: 2020 publication in  Ecosphere Journal.
+    fr: Publication de 2020 dans Ecosphere Journal.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Marine subsidies mediate patterns in avian island biogeography
+    fr: Les subventions marines influent sur les modèles biogéographiques des îles
+      aviaires
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://royalsocietypublishing.org/doi/10.1098/rspb.2020.0108
+identification:
+  abstract:
+    en: 'Data were collected to test the theory that marine-derived nutrients can
+      affect insular species richness, population density, and community composition
+      of terrestrial breeding birds.
+
+
+      This dataset contains spreadsheets of (1) avian point count surveys, (2) vegetation
+      surveys, (3) cleaned data used in Obrist et al. (2020), and (4) a sub-folder
+      of data used in a community-level analysis by Obrist et al. (2022). This sub-folder
+      contains data required to run a Hierarchical Modelling of Species Communities
+      (HMSC)  joint species distribution model. Each datafile has an associated metadata
+      file.
+
+
+      Bird point count survey data include: - 10 minute point count surveys from 99
+      islands from 2015, 2016 and 2017 survey periods - During each point count survey
+      detections of individual birds were identified to species with distance to observer.
+      Date, UTM coordinates, weather conditions, and detection type (e.g. visual,
+      song, call, etc) information were recorded.
+
+
+      Vegetation data include: - 1x1 m vegetation plots in the immediate vicinity
+      of each point count location and - 5x5 m vegetation plots (3 per point count
+      – 1 at the survey location, and 1 in either direction along the most obvious
+      vegetation gradient around the point count.)
+
+      1x1 m vegetation surveys include: - Herbaceous plant percent cover by species
+      in 3 layers: Ground (50 cm)
+
+
+      5x5 m vegetation surveys include: - Shrub percent cover by species in 3 layers:
+      200 cm - Canopy percent cover by species in 3 heights: subcanopy, canopy, and
+      supercanopy. Heights are defined separately for each plot (in general plot description)
+      - A general plot description including % litter, % coarse woody debris, UTM
+      coordinates - Tree circumferences
+
+
+      Cleaned data for Obrist et al. 2020 (https://royalsocietypublishing.org/doi/10.1098/rspb.2020.0108)
+      is executable with subsidized-avian-island-biogeography. R script from https://github.com/debobrist/avian-sib.
+
+      Cleaned code for Obrist et al. 2022 is in the HMSC sub-folder, which includes:
+      A site-by-species matrix derived from the bird point count survey data, a matrix
+      of environmental covariates, a list of coordinates, and a list of bird species
+      traits. These data can be run directly with code available at https://github.com/debobrist/subsidized_isl_bird_communities.
+
+
+      Contact: Debora S. Obrist, Simon Fraser University, dobrist@sfu.ca'
+    fr: 'Des données ont été recueillies pour vérifier la théorie selon laquelle les
+      nutriments d''origine marine peuvent affecter la richesse des espèces insulaires,
+      la densité de population et la composition des communautés d''oiseaux nicheurs
+      terrestres.
+
+
+      Cet ensemble de données contient des feuilles de calcul contenant (1) des enquêtes
+      par dénombrement ponctuel sur les oiseaux, (2) des études sur la végétation,
+      (3) des données nettoyées utilisées dans Obrist et al. (2020) et (4) un sous-dossier
+      de données utilisées dans une analyse au niveau communautaire par Obrist et
+      al. (2022). Ce sous-dossier contient les données requises pour exécuter un modèle
+      de distribution conjointe des espèces par modélisation hiérarchique des communautés
+      d''espèces (HMSC). Chaque fichier de données est associé à un fichier de métadonnées.
+
+
+      Les données des relevés ponctuels d''oiseaux incluent : - des relevés ponctuels
+      de 10 minutes dans 99 îles entre 2015, 2016 et 2017 - Au cours de chaque enquête
+      de dénombrement ponctuel, des oiseaux individuels ont été identifiés par des
+      espèces situées à une distance de l''observateur. La date, les coordonnées UTM,
+      les conditions météorologiques et les informations sur le type de détection
+      (par exemple, visuelle, chanson, appel, etc.) ont été enregistrées.
+
+
+      Les données sur la végétation incluent : - des parcelles de végétation de 1
+      m à proximité immédiate de chaque site de dénombrement ponctuel et - des parcelles
+      de végétation de 5 x 5 m (3 par dénombrement de points, une sur le site de l''enquête
+      et une dans l''une ou l''autre direction le long du gradient de végétation le
+      plus évident autour du point de dénombrement).
+
+      Les enquêtes sur la végétation sur 1 m comprennent : - Pourcentage de couverture
+      végétale herbacée par espèce en 3 couches : sol (50 cm)
+
+
+      Les études de végétation de 5 x 5 m comprennent : - Pourcentage de couverture
+      arbustive par espèce en 3 couches : 200 cm - Pourcentage de couverture du couvert
+      végétal par espèce à 3 hauteurs : sous-canopée, canopée et supercanopée. Les
+      hauteurs sont définies séparément pour chaque parcelle (dans la description
+      générale de la parcelle) - Une description générale de la parcelle comprenant
+      le pourcentage de litière, le % de débris ligneux grossiers, les coordonnées
+      UTM - La circonférence des arbres
+
+
+      Les données nettoyées pour Obrist et al. 2020 (https://royalsocietypublishing.org/doi/10.1098/rspb.2020.0108)
+      sont exécutables avec une biogéographie subventionnée sur les îles aviaires.
+      Script R à partir de https://github.com/debobrist/avian-sib.
+
+      Le code nettoyé pour Obrist et al. 2022 se trouve dans le sous-dossier HMSC,
+      qui comprend : une matrice site par espèce dérivée des données du relevé de
+      points sur les oiseaux, une matrice de covariables environnementales, une liste
+      de coordonnées et une liste de caractéristiques des espèces d''oiseaux. Ces
+      données peuvent être exécutées directement à l''aide du code disponible sur
+      https://github.com/debobrist/subsidized_isl_bird_communities.
+
+
+      Personne-ressource : Debora S. Obrist, Université Simon Fraser, dobrist@sfu.ca'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2017-09-01'
+  identifier: https://doi.org/10.21966/10tk-4956
+  keywords:
+    default:
+      en:
+      - birds
+      - biodiversity
+      - bird
+      - islands
+      - island biogeography
+      - spatial subsidies
+      - marine nutrients
+      - other
+      - avian
+    eov:
+      en:
+      - other
+      - marineTurtlesBirdsMammalsAbundanceAndDistribution
+      fr:
+      - Autre
+      - Abondance et distribution de tortues marines, oiseaux et mammifères
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  temporal_end: '2015-05-01T19:00:00.000Z'
+  title:
+    en: Avian and paired Vegetation data from 100 Islands Project (BC Central Coast)
+      Hakai Institute - 2015-2017
+    fr: Données sur la végétation aviaire et appariée provenant du projet 100 îles
+      (côte centrale de la Colombie-Britannique) Institut Hakai - 2015-2017
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2023-03-03'
+    revision: '2024-03-14T21:48:59.180Z'
+  identifier: 12f951d4-4155-4c05-969d-a7158412f579
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUNJMG8wUVlZa1NiNUM
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.60227432
+  - 51.39074678
+  - -127.47434441
+  - 52.07117353
+  vertical:
+  - 0.0
+  - 1000.0
+  vertical_positive: heightPositive
