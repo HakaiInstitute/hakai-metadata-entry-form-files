@@ -1,0 +1,184 @@
+contact:
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - pointOfContact
+- inCitation: true
+  individual:
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+  - principalInvestigator
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - custodian
+  - owner
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Hakai Metadata Report
+    fr: Rapport de métadonnées Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Hakai Data - Metadata Readme
+  url: https://drive.google.com/file/d/1pKNlqEUPPMcIJxM_xaMX2zHW5HaDFiSi/view?usp=sharing
+identification:
+  abstract:
+    en: "This dataset represents polygons of eelgrass on the BC coast predicted from\
+      \ existing geospatial datasets of seagrass extent (ShoreZone) and bathymetry.\n\
+      \nThe extent of eelgrass in British Columbia was estimated using a novel tool\
+      \ created for ArcGIS (the Gregrator).This tool requires 2 inputs: (1) the coastline\
+      \ data from Shorezone (including line shapefiles that represent the extent of\
+      \ eelgrass) and (2) bathymetry data. Briefly, each line segment of coast in\
+      \ ShoreZone is converted to points along its vertices. These points are used\
+      \ to generate Thiessen polygons, where each Thiessen polygon “defines an area\
+      \ of influence around its sample point, so that any location inside the polygons\
+      \ is closer to that point than any of the other sample points” (Esri, 2016).\
+      \ Thiessen polygons were then clipped to the extent of polygons which spanned\
+      \ the area from the coastline to maximum depth based on the results of the bathymetry\
+      \ analysis. These methods are based on those described in Gregr et al 2013.\
+      \ \n\nGregr, E. J., Lessard, J., & Harper, J. (2013). Progress in Oceanography\
+      \ A spatial framework for representing nearshore ecosystems. Progress in Oceanography,\
+      \ 115, 189–201. http://doi.org/10.1016/j.pocean.2013.05.028\n\nContact data@hakai.org\
+      \ for more information"
+    fr: "Ce jeu de données représente les polygones de zostère marine sur la côte\
+      \ de la Colombie-Britannique prévus à partir d'ensembles de données géospatiales\
+      \ existants sur l'étendue des herbiers marins (ShoreZone) et la bathymétrie.\n\
+      \nL'étendue de la zostère marine en Colombie-Britannique a été estimée à l'aide\
+      \ d'un nouvel outil créé pour ArcGIS (le Grégrateur). Cet outil nécessite deux\
+      \ entrées : (1) les données de littoral de Shorezone (y compris les fichiers\
+      \ de formes linéaires qui représentent l'étendue de la zostère marine) et (2)\
+      \ les données bathymétriques. En bref, chaque segment de ligne de côte dans\
+      \ ShoreZone est converti en points le long de ses sommets. Ces points sont utilisés\
+      \ pour générer des polygones de Thiessen, où chaque polygone de Thiessen « définit\
+      \ une zone d'influence autour de son point d'échantillonnage, de sorte que tout\
+      \ emplacement à l'intérieur des polygones soit plus proche de ce point que n'importe\
+      \ quel autre point d'échantillonnage » (Esri, 2016). Les polygones de Thiessen\
+      \ ont ensuite été découpés selon l'étendue des polygones couvrant la zone allant\
+      \ du littoral jusqu'à la profondeur maximale sur la base des résultats de l'analyse\
+      \ bathymétrique. Ces méthodes sont basées sur celles décrites dans Gregr et\
+      \ al 2013. \n\nGregr, E.J., Lessard, J. et Harper, J. (2013). Progrès en océanographie\
+      \ Cadre spatial pour la représentation des écosystèmes littoraux. Progrès en\
+      \ océanographie, 115, 189—201. http://doi.org/10.1016/j.pocean.2013.05.028\n\
+      \nContactez data@hakai.org pour plus d'informations"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    publication: '2016-09-02'
+  identifier: https://doi.org/10.21966/1ty5-e654
+  keywords:
+    default:
+      en:
+      - ocean
+      - environment
+      - eelgrass
+      - hakai
+      - CEC
+      - Commission for Environmental Cooperation
+      - seagrass
+      - intertidal
+      - blue carbon
+      - shorezone
+      - Zostera
+      - other
+    eov:
+      en:
+      - other
+      - seagrassCoverAndComposition
+      fr:
+      - Autre
+      - Composition et couverture des herbiers marins
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  title:
+    en: Eelgrass Extent - Coastal British Columbia
+    fr: Étendue de zostère marine - Côtière de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-01-18'
+    revision: '2024-03-20T20:24:00.052Z'
+  identifier: 0219e1d6-8dfc-4718-b89b-ea3dff06a70d
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWtuNVpwdEdLRXZTODc
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -133.7841801345348
+  - 48.23443097294032
+  - -122.49023482203482
+  - 54.52958287232971
+  vertical:
+  - 0.0
+  - 50.0
+  vertical_positive: depthPositive
