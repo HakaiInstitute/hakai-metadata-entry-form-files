@@ -1,0 +1,136 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial Technology Team
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+- inCitation: false
+  individual:
+    name: Holmes, Keith
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - processor
+  - pointOfContact
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - resourceProvider
+  - distributor
+- inCitation: false
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Research Institute
+  roles:
+  - custodian
+  - distributor
+distribution:
+- description:
+    en: Online form for requesting access to particular datasets owned by Hakai
+  name:
+    en: Hakai Data Access Online Request Form
+  url: https://hecate.hakai.org/auth/access-request.php#
+- description:
+    en: Google drive - Pix4D Processing Report
+  name:
+    en: Pix4D Processing Report
+  url: https://drive.google.com/drive/folders/1dM1-8M_MBlsBDNDR7MKhPwJwIX-AyPYT?usp=sharing
+identification:
+  abstract:
+    en: "Drone based (RPAS) elevation and imagery data collected for the nearshore\
+      \ habitats off the Hakai Institute's Quadra Island Facility. \nData was collected\
+      \ on August 21st, 2017 using a Phantom 3 Pro drone and a Topcon GR5 RTK survey\
+      \ system. The goal of the flights was to map fucus research sites with imagery\
+      \ and elevation models. Fucus research and data request was conducted by Matt\
+      \ Lemay (Hakai Institute). \n\nDate / Time: August 21st, 2017: 11:13 am to 12:05\
+      \ pm.\nTide: 1.0 to 1.1 meters.\nGround Sampling Distance: 2.3 cm\nGround Control\
+      \ Points: 17\nArea Covers: 9.9 hectares\nRMS Error: 0.024 m\nCoordinate System:\
+      \ NAD83 UTM 10\nProcessing was completed in Pix4D photogrammetry software and\
+      \ analysis in Esri ARC GIS software.\nField operators Keith Holmes and William\
+      \ Hall.\nRPAS flight altitude: 40 - 55 meters.\nMOBE ID number: U0276"
+    fr: "Données d'altitude et d'imagerie par drone (RPAS) collectées pour les habitats\
+      \ littoraux au large de l'installation de l'île Quadra de l'Institut Hakai.\
+      \ \nLes données ont été collectées le 21 août 2017 à l'aide d'un drone Phantom\
+      \ 3 Pro et d'un système de levé Topcom GR5 RTK. L'objectif des vols était de\
+      \ cartographier les sites de recherche sur le fucus à l'aide d'images et de\
+      \ modèles d'altitude. La recherche Fucus et la demande de données ont été menées\
+      \ par Matt Lemay (Institut Hakai). \n\nDate/heure : Le 21 août 2017, de 11 h\
+      \ 13 à 12 h 05.\nMarée : 1,0 à 1,1 mètres.\nDistance d'échantillonnage au sol :\
+      \ 2,3 cm\nPoints de contrôle au sol : 17\nSuperficie couverte : 9,9 hectares\n\
+      Erreur RMS : 0,024 m\nSystème de coordonnées : NAD83 UTM 10\nLe traitement a\
+      \ été effectué dans le logiciel de photogrammétrie Pix4D et l'analyse dans le\
+      \ logiciel Esri ARC GIS.\nLes opérateurs de terrain Keith Holmes et William\
+      \ Hall.\nAltitude de vol RPAS : 40-55 mètres.\nNuméro d'identification MOBE :\
+      \ U0276"
+  associated_resources: []
+  dates:
+    publication: '2017-09-02'
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - Fucus
+      - nearshore
+      - drone
+      - survey
+      - elevation
+      - DEM
+      - imagery
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  title:
+    en: Nearshore elevation and imagery models - Quadra Island Hakai Institute Facility
+      Shoreline - British Columbia - Canada
+    fr: Modèles d'élévation et d'imagerie du littoral - Quadra Island Hakai Institute
+      Facility Shoreline - Colombie-Britannique - Canada
+metadata:
+  dates:
+    publication: '2022-01-21'
+    revision: '2022-01-21T23:10:47.490Z'
+  identifier: 33c870b8-3b4c-429d-bc10-99dd4c7f4c7d
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXN1MUhmRE9GRndsSko
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+spatial:
+  bbox:
+  - -125.2229327
+  - 50.11245881
+  - -125.21821201
+  - 50.1172472
+  vertical:
+  - 0.0
+  - 50.0
+  vertical_positive: heightPositive
