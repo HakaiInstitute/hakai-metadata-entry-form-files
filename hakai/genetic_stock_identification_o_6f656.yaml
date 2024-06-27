@@ -115,20 +115,20 @@ distribution:
 - description:
     en: Genetic stock ID data
     fr: Package de données complet
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Data Package on GitHub
     fr: Package de données sur GitHub
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://github.com/HakaiInstitute/jsp-gsi/archive/refs/tags/v2.zip
-- description:
-    en: The genetic stock ID contained in this resource can be linked to our time
-      series using the ufn field
-    fr: L'identifiant du stock génétique contenu dans cette ressource peut être lié
-      à nos séries chronologiques à l'aide du champ ufn
-  name:
-    en: 'Parent record: Hakai Institute Juvenile Salmon Program Time Series'
-    fr: 'Fiche parentale : Série chronologique du programme de pêche au saumon juvénile
-      de l''Institut Hakai'
-  url: https://doi.org/10.21966/1.566666
 identification:
   abstract:
     en: This datasets contains genetic stock identifications for juvenile sockeye
@@ -149,7 +149,20 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
+    code: https://doi.org/10.21966/1.566666
+    title:
+      en: 'Parent record: Hakai Institute Juvenile Salmon Program Time Series'
+      fr: 'Dossier parental : série chronologique du programme sur le saumon juvénile
+        de l''Institut Hakai'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2015-05-12'
     publication: '2023-01-17'
@@ -170,9 +183,21 @@ identification:
       fr:
       - Abondance et distribution de poissons
     taxa:
-      en: []
-      fr: []
-  progress_code: onGoing
+      en:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      - Oncorhynchus nerka
+      fr:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      - Oncorhynchus nerka
+  progress_code: completed
   project:
   - Juvenile Salmon Program
   status: published
@@ -192,7 +217,7 @@ identification:
 metadata:
   dates:
     publication: '2024-01-18'
-    revision: '2024-03-21T20:07:20.777Z'
+    revision: '2024-06-27T20:47:51.281Z'
   identifier: 6f6560e7-7497-4685-9df2-51c66080b7c9
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-NM0DF83_HSOwpbGBM8m
@@ -212,7 +237,23 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- id: Small research vessels (4-6 m)
+  instruments:
+  - description:
+      en: Custom purse seine
+      fr: Sac à main personnalisé
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Seine Net
+    manufacturer: Redden Nets
+    type:
+      en: Net
+    version: Hand operated purse seine
+  type: research vessel
 spatial:
   bbox:
   - -127.0
