@@ -1,0 +1,125 @@
+contact:
+- inCitation: true
+  individual:
+    email: matt.whalen@hakai.org
+    name: Whalen, Matt
+    position: Principal Investigator
+  organization:
+    country: Canada
+    name: Hakai Institute
+    url: https://hakai.org
+  roles:
+  - owner
+  - author
+  - custodian
+  - distributor
+- inCitation: true
+  individual:
+    email: heather.earle@hakai.org
+    name: Earle, Heather
+    position: Project Coordinator
+  organization:
+    address: 1713 Hyacinthe Bay Road
+    city: Vancouver
+    country: Canada
+    name: Hakai Institute
+    url: https://hakai.org
+  roles:
+  - custodian
+  - coAuthor
+  - owner
+  - distributor
+distribution:
+- description:
+    en: HOBO Tidbit Logger Description
+    fr: Description de l'enregistreur HOBO Tidbit
+  name:
+    en: HOBO Tidbit Logger Description
+    fr: Description de l'enregistreur HOBO Tidbit
+  url: https://www.onsetcomp.com/products/data-loggers/mx2203
+identification:
+  abstract:
+    en: "This dataset is comprised of sea surface temperature data collected using\
+      \ HOBO TidbiT MX Temperature 400' data loggers (MX2203) deployed at nine locations\
+      \ in False Creek, British Columbia. Loggers were suspended at 0.5 metres depth\
+      \ from floating docks in proximity to settlement plates deployed for a Bioblitz\
+      \ in the fall of 2022, run by the Hakai Institute. The loggers were programmed\
+      \ to record the water temperature at 10 minute intervals, starting at 12:00\
+      \ on July 12th, 2022 until removed from the water. Loggers were retrieved in\
+      \ early September, 2022 and recordings beyond each retreival date are removed\
+      \ from the dataset. \n\nThis data package includes: \n-Sea surface temperature\
+      \ data collected from loggers in False Creek between July 12th and mid-September,\
+      \ 2022. \n-Site metadata, including temperature logger location"
+    fr: "Cet ensemble de données comprend des données sur la température de surface\
+      \ de la mer recueillies à l'aide des enregistreurs de données HOBO TiDBIT MX\
+      \ Temperature 400' (MX2203) déployés sur neuf sites à False Creek, en Colombie-Britannique.\
+      \ Des bûcherons ont été suspendus à 0,5 mètre de profondeur à des quais flottants\
+      \ à proximité de plaques de peuplement déployées pour un Bioblitz à l'automne\
+      \ 2022, géré par l'Institut Hakai. Les enregistreurs ont été programmés pour\
+      \ enregistrer la température de l'eau à intervalles de 10 minutes, à partir\
+      \ de midi le 12 juillet 2022 jusqu'à ce qu'elle soit retirée de l'eau. Les enregistreurs\
+      \ ont été récupérés début septembre 2022 et les enregistrements au-delà de chaque\
+      \ date de récupération sont supprimés de l'ensemble de données. \n\nCe package\
+      \ de données inclut : \n-Données sur la température de la surface de la mer\
+      \ recueillies auprès des bûcherons de False Creek entre le 12 juillet et la\
+      \ mi-septembre 2022. \n-Métadonnées du site, y compris l'emplacement de l'enregistreur\
+      \ de température"
+  associated_resources: []
+  dates:
+    creation: '2022-07-12'
+  keywords:
+    default:
+      en:
+      - water temperature
+      fr:
+      - température de l'eau
+    eov:
+      en:
+      - seaSurfaceTemperature
+      fr:
+      - Température de surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-07-12T19:00:00.000Z'
+  temporal_end: '2022-09-08T19:00:00.000Z'
+  title:
+    en: Sea surface temperature data in False Creek, British Columbia
+    fr: Données sur la température de la surface de la mer à False Creek, en Colombie-Britannique
+instruments:
+- description:
+    en: autonomous water temperature logger
+    fr: enregistreur de température d'eau autonome
+  id: HOBO TidbiT MX Temperature 400' Data Logger
+  manufacturer: Onset
+  type:
+    en: temperature logger
+    fr: enregistreur de température
+  version: MX2203
+metadata:
+  dates:
+    revision: '2022-11-23T22:13:31.218Z'
+  identifier: b45dbc9d-bf7a-4734-86cd-3397e7c9ac62
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/57FPdLIBPcb9BOLfIOW44RJVywN2/-NHaXDtgFZr0-Oul6FZG
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-NC-4.0
+      title:
+        en: 'Creative Commons Attribution 4.0 Attribution-NonCommercial  '
+      url: https://creativecommons.org/licenses/by-nc/4.0/
+    limitations:
+      en: Haven't applied appropriate QC on the data yet
+      fr: Je n'ai pas encore appliqué le contrôle qualité approprié aux données
+spatial:
+  polygon: -123.1,49.28 -123.1,49.28 -123.1,49.28 -123.1,49.28 -123.1,49.27 -123.1,49.27
+    -123.1,49.27 -123.1,49.28 -123.1,49.28 -123.1,49.27 -123.1,49.27 -123.1,49.27
+    -123.1,49.27 -123.1,49.27 -123.1,49.27 -123.1,49.27 -123.1,49.27 -123.1,49.28
+    -123.1,49.28 -123.1,49.28 -123.1,49.28
+  vertical:
+  - 0.5
+  - 0.5
+  vertical_positive: heightPositive
