@@ -60,6 +60,15 @@ contact:
   roles:
   - funder
 distribution:
+- name:
+    en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiChlorophyllSampleProvisional.html
 - description:
     en: User's manual for benchtop laboratory fluorometers used to analyze the Hakai
       Institute chlorophyll and phaeopigment data
@@ -73,9 +82,6 @@ distribution:
   name:
     en: Turner Designs Trilogy Laboratory Fluorometer User's Manual
   url: http://docs.turnerdesigns.com/t2/doc/manuals/998-7210.pdf
-- name:
-    en: ERDDAP Dataset
-  url: https://catalogue.hakai.org/erddap/tabledap/HakaiChlorophyllSampleProvisional.html
 identification:
   abstract:
     en: "This dataset is comprised of Hakai Institute chlorophyll and phaeopigment\
@@ -116,6 +122,11 @@ identification:
       \ compris la fluorescence de la chlorophylle CTD in situ et les données de chromatographie\
       \ liquide à haute performance (HPLC).\n\nLes données ont été recueillies par\
       \ les programmes océanographiques et côtiers de l'Institut Hakai."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2014-07-10'
@@ -146,10 +157,9 @@ identification:
       - particulateMatter
       fr:
       - Matière particulaire
-    taxa:
-      en: []
-      fr: []
   progress_code: onGoing
+  project:
+  - Oceanography
   status: published
   temporal_begin: '2014-07-10T19:00:00.000Z'
   title:
@@ -158,10 +168,15 @@ identification:
     fr: Échantillons de concentrations de chlorophylle et de phéopigment en vrac et
       en fractionnement de taille de l'Institut Hakai prélevées à l'aide de bouteilles
       Niskin,  provisoire
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 instruments:
 - description:
     en: Turner Trilogy laboratory fluorometer used to analyze chlorophyll and phaeopigment
-      samples using the acidification module
+      samples using the acidification module ​
     fr: Fluoromètre de laboratoire Turner Trilogy utilisé pour analyser des échantillons
       de chlorophylle et de phéopigment à l'aide du module d'acidification
     translations:
@@ -173,7 +188,7 @@ instruments:
   manufacturer: Turner Designs
   type:
     en: Laboratory Fluorometer
-    fr: Fluoromètre de laboratoire
+    fr: Fluoromètre de laboratoire - Module d'acidification
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -185,16 +200,26 @@ instruments:
       samples using the acidification module ​
     fr: Fluoromètre de laboratoire Turner Trilogy utilisé pour analyser des échantillons
       de chlorophylle et de phéopigment à l'aide du module d'acidification
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   id: '720000982'
   manufacturer: Turner Designs
   type:
     en: Laboratory Fluorometer
     fr: Fluoromètre de laboratoire - Module d'acidification
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   version: Trilogy
 metadata:
   dates:
     publication: '2024-03-18'
-    revision: '2024-03-18T19:47:26.860Z'
+    revision: '2024-07-12T13:35:46.784Z'
   identifier: 1755dc37-8d33-4158-8041-c22536fd5771
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/7U7b8oPpeTN6gjvXlUCTGJr5pga2/-McQFPAf457LB4-SWmyL
@@ -296,6 +321,11 @@ metadata:
         \ les données signalées comme « suspectes » (montrent des tendances suspectes,\
         \ mais peuvent ne pas être incorrectes), mais exclut celles signalées comme\
         \ « rejetées » (les analyses d'AQ/CQ ont montré qu'elles étaient erronées)."
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 spatial:
   polygon: -128.5,52.27 -127.4,52.21 -127.2,51.66 -125.6,51.13 -124.8,50.96 -124.1,50.43
     -124.7,49.98 -124.9,49.80 -126.7,50.45 -128.1,51.37 -128.4,51.69 -128.5,52.27

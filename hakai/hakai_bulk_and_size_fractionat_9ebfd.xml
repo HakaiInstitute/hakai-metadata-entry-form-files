@@ -1166,7 +1166,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-03-18T19:47:26.860Z</gco:DateTime>
+        <gco:DateTime>2024-07-12T13:35:46.784Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1263,7 +1263,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Hakai Bulk and Size-Fractionated Chlorophyll and Phaeopigment Concentrations Collected by Niskin Bottle, Provisional</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Échantillons de concentrations de chlorophylle et de phéopigment en vrac et en fractionnement de taille de l&#39;Institut Hakai prélevées à l&#39;aide de bouteilles Niskin,  provisoire</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -1481,7 +1481,7 @@ Data have been quality controlled by manual inspection which included a comparis
 
 Data were collected by the Hakai Institute Oceanography and Nearshore programs.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend les concentrations de chlorophylle et de phaeopigment de l&#39;Institut Hakai recueillies de 2015 à aujourd&#39;hui dans les stations de l&#39;île Calvert, du détroit de Johnstone et des régions étudiées de l&#39;île Quadra. Des échantillons pour ces données ont été recueillis sur le terrain à l&#39;aide de bouteilles Niskin. L&#39;échantillon d&#39;eau (250 ml) a été filtré à travers : 1) un seul filtre en fibre de verre (GF/F, taille nominale des pores 0,7 um) pour comprendre une mesure globale des concentrations de phytoplancton chlorophylle et de phaeopigment et 2) une pile de filtres (filtres en polycarbonate GF/F, 3 um et 20 um) pour estimer la chlorophylle et le phéopigment les concentrations de pico, de nano et de micro-phytoplancton, respectivement. Les filtres ont été extraits pendant 24 heures dans 10 ml d&#39;acétone à 90 % et analysés sur des fluoromètres de laboratoire Turner Designs Trilogy à l&#39;aide du module d&#39;acidification et selon la méthode de Holm Hansen et al. (1965). 
 
 Les données ont été contrôlées par une inspection manuelle, qui comprenait une comparaison des concentrations en vrac avec la somme des concentrations de filtres fractionnés par taille. Le cas échéant, d&#39;autres comparaisons ont été effectuées avec d&#39;autres mesures des concentrations de chlorophylle, y compris la fluorescence de la chlorophylle CTD in situ et les données de chromatographie liquide à haute performance (HPLC).
@@ -1706,7 +1706,14 @@ Les données ont été recueillies par les programmes océanographiques et côti
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Oceanography</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
@@ -1754,7 +1761,7 @@ Prior to 2018, QA/QC analysis suggests potential influence by acid contamination
 
 This provisional dataset includes all data flagged as &#34;suspicious&#34; (show suspicious trends, but may not be incorrect), but excludes data flagged as &#34;discard&#34; (clearly erroneous).</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">La méthode d&#39;acidification utilisée est sensible aux interférences causées par des concentrations élevées de chlorophylle c et b. Des concentrations élevées de chlorophylle c peuvent entraîner une légère surestimation de la chlorophylle a et une sous-estimation des phaeopigments, ce qui peut entraîner des concentrations négatives de phéopigments. Des concentrations élevées de chlorophylle b peuvent entraîner des sous-estimations de la chlorophylle a et des surestimations des phéopigments. Lorsque la chlorophylle b est élevée par rapport à la chlorophylle a, la chlorophylle a peut être sous-estimée jusqu&#39;à 2,5 fois. Pour plus de détails, voir Welschmeyer et coll. (1994). Ces deux types d&#39;interférences ont probablement eu une influence sur le jeu de données publié sur la chlorophylle et le phéopigment. Notamment, la comparaison avec le HPLC a montré que les stations de la région de l&#39;île Quadra connaissent souvent des conditions où la chlorophylle b est présente à des concentrations élevées et est élevée par rapport à la chlorophylle a.
 
 Il a été démontré que la méthode d&#39;acidification utilisée pour analyser le jeu de données de l&#39;Institut Hakai surestime fortement les concentrations de phaeopigment sur la base de la comparaison avec les concentrations déterminées par HPLC (Trees et al., 2003). Il faut faire attention lors de l&#39;interprétation des concentrations de phaeopigment publiées. 
@@ -1845,6 +1852,31 @@ Cet ensemble de données provisoire inclut toutes les données signalées comme 
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
+                <gco:CharacterString>https://catalogue.hakai.org/erddap/tabledap/HakaiChlorophyllSampleProvisional.html</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>ERDDAP Dataset</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Ensemble de données ERDDAP</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:name>
+              <cit:description>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
                 <gco:CharacterString>http://docs.turnerdesigns.com/t2/doc/manuals/998-7210.pdf</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
@@ -1860,26 +1892,6 @@ Cet ensemble de données provisoire inclut toutes les données signalées comme 
                     <lan:LocalisedCharacterString locale="#fr">Manuel d&#39;utilisation des fluoromètres de laboratoire utilisés pour analyser les données sur la chlorophylle et le phéopigment de l&#39;Institut Hakai</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://catalogue.hakai.org/erddap/tabledap/HakaiChlorophyllSampleProvisional.html</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>ERDDAP Dataset</gco:CharacterString>
-              </cit:name>
-              <cit:description>
-                <gco:CharacterString></gco:CharacterString>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
@@ -1921,7 +1933,7 @@ Cet ensemble de données provisoire inclut toutes les données signalées comme 
                 <gco:CharacterString>Trilogy</gco:CharacterString>
               </mcc:version>
               <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Turner Trilogy laboratory fluorometer used to analyze chlorophyll and phaeopigment samples using the acidification module</gco:CharacterString>
+                <gco:CharacterString>Turner Trilogy laboratory fluorometer used to analyze chlorophyll and phaeopigment samples using the acidification module ​</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Fluoromètre de laboratoire Turner Trilogy utilisé pour analyser des échantillons de chlorophylle et de phéopigment à l&#39;aide du module d&#39;acidification</lan:LocalisedCharacterString>
@@ -1934,7 +1946,7 @@ Cet ensemble de données provisoire inclut toutes les données signalées comme 
             <gco:CharacterString>Laboratory Fluorometer</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Fluoromètre de laboratoire</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Fluoromètre de laboratoire - Module d&#39;acidification</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mac:type>
@@ -1960,7 +1972,7 @@ Cet ensemble de données provisoire inclut toutes les données signalées comme 
               <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Turner Trilogy laboratory fluorometer used to analyze chlorophyll and phaeopigment samples using the acidification module ​</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Fluoromètre de laboratoire Turner Trilogy utilisé pour analyser des échantillons de chlorophylle et de phéopigment à l&#39;aide du module d&#39;acidification</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
@@ -1970,7 +1982,7 @@ Cet ensemble de données provisoire inclut toutes les données signalées comme 
           <mac:type xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Laboratory Fluorometer</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Fluoromètre de laboratoire - Module d&#39;acidification</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
