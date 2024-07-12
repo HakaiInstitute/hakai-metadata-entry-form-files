@@ -21,7 +21,6 @@ contact:
   - pointOfContact
   - principalInvestigator
   - processor
-  - publisher
   - originator
 - inCitation: true
   individual:
@@ -79,6 +78,24 @@ contact:
   - coAuthor
   - collaborator
   - contributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Figures and data from the Holmes et al. 2022 paper "Ancestral sea gardens
@@ -186,11 +203,32 @@ identification:
       Ensemble, ces données démontrent les liens étroits qui existent entre les peuples
       autochtones, leurs terres et leurs mers, et les systèmes alimentaires résilients
       au cours des millénaires.
-  associated_resources: []
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.3389/feart.2022.988111
+    title:
+      en: 'Frontiers in Earth Science Publication: Ancestral sea gardens supported
+        human settlements for at least 3,800 years on the Northwest Coast of North
+        America'
+      fr: 'Publication Frontiers in Earth Science : Les jardins marins ancestraux
+        ont soutenu les établissements humains pendant au moins 3 800 ans sur la côte
+        nord-ouest de l''Amérique du Nord'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2016-05-29'
     publication: '2022-10-26'
-  identifier: https://doi.org/10.3389/feart.2022.988111
+  identifier: https://doi.org/10.21966/hy20-x379
   keywords:
     default:
       en:
@@ -205,15 +243,12 @@ identification:
       - niveau eau
     eov:
       en:
-      - seaSurfaceHeight
       - other
       fr:
-      - Niveau de l'eau
       - Autre
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
+  project:
+  - Geospatial
   status: published
   temporal_begin: '2016-05-29T19:00:00.000Z'
   temporal_end: '2022-06-30T19:00:00.000Z'
@@ -222,10 +257,15 @@ identification:
       on the Northwest Coast of North America
     fr: Les jardins marins ancestraux ont soutenu les établissements humains pendant
       au moins 3 800 ans sur la côte nord-ouest de l'Amérique du Nord.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-01-17'
-    revision: '2024-03-14T19:54:22.110Z'
+    revision: '2024-07-12T18:27:40.340Z'
   identifier: e8d36f54-4955-463c-94e5-f0030c3230f3
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-N6FPs21mlrVKRCBYg1x
@@ -241,7 +281,47 @@ metadata:
         dataset.
       fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
         de l'ensemble de données.
-platform: []
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: DJI Phantom 3 Pro
+    fr: DJI Phantom 3 Pro
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: DJI Phantom 3 Pro
+  instruments:
+  - description:
+      en: Stock phantom 3 drone and RGB camera
+      fr: Drone Phantom 3 et caméra RVB
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: DJI Phantom 3 Pro
+    manufacturer: DJI
+    type:
+      en: Drone / UAV / RPAS
+    version: 3 Prp
+  - description:
+      en: Survey equipment used to reference drone based imagery and elevation models
+        for the study
+      fr: Matériel de levé utilisé pour référencer des images basées sur des drones
+        et des modèles d'altitude pour l'étude
+    id: Topcon GR5 RTK survey system
+    manufacturer: Topcon
+    type:
+      en: RTK GPS survey equipment
+      fr: Équipement de levé GPS RTK
+    version: GR5
+  type: unmanned aerial vehicle
 spatial:
   bbox:
   - -125.4

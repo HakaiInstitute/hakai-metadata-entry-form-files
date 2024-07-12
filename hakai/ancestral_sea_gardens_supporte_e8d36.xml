@@ -706,7 +706,7 @@
   <mdb:contact>
     <cit:CI_Responsibility>
       <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="originator"/>
       </cit:role>
       <cit:party>
         <cit:CI_Organisation>
@@ -787,12 +787,12 @@
   <mdb:contact>
     <cit:CI_Responsibility>
       <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="originator"/>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="funder"/>
       </cit:role>
       <cit:party>
         <cit:CI_Organisation>
           <cit:name>
-            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+            <gco:CharacterString>Tula Foundation</gco:CharacterString>
           </cit:name>
           <cit:contactInfo>
             <cit:CI_Contact>
@@ -806,23 +806,20 @@
               <cit:address>
                 <cit:CI_Address>
                   <cit:deliveryPoint>
-                    <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
+                    <gco:CharacterString></gco:CharacterString>
                   </cit:deliveryPoint>
                   <cit:city>
-                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                    <gco:CharacterString>Vancouver</gco:CharacterString>
                   </cit:city>
                   <cit:country>
                     <gco:CharacterString>Canada</gco:CharacterString>
                   </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
                 </cit:CI_Address>
               </cit:address>
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                    <gco:CharacterString>https://tula.org</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -837,30 +834,10 @@
           <cit:partyIdentifier>
             <mcc:MD_Identifier>
               <mcc:code>
-                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                <gco:CharacterString>https://ror.org/0029jxk29</gco:CharacterString>
               </mcc:code>
             </mcc:MD_Identifier>
           </cit:partyIdentifier>
-          <cit:individual>
-            <cit:CI_Individual>
-              <cit:name>
-                <gco:CharacterString>Holmes, Keith</gco:CharacterString>
-              </cit:name>
-              <cit:contactInfo>
-                <cit:CI_Contact></cit:CI_Contact>
-              </cit:contactInfo>
-              <cit:partyIdentifier>
-                <mcc:MD_Identifier>
-                  <mcc:code>
-                    <gco:CharacterString>https://orcid.org/0000-0001-8796-8222</gco:CharacterString>
-                  </mcc:code>
-                </mcc:MD_Identifier>
-              </cit:partyIdentifier>
-              <cit:positionName>
-                <gco:CharacterString>Geospatial Scientist</gco:CharacterString>
-              </cit:positionName>
-            </cit:CI_Individual>
-          </cit:individual>
         </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
@@ -868,7 +845,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-03-14T19:54:22.110Z</gco:DateTime>
+        <gco:DateTime>2024-07-12T18:27:40.340Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -965,7 +942,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Ancestral sea gardens supported human settlements for at least 3800 years on the Northwest Coast of North America</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Les jardins marins ancestraux ont soutenu les établissements humains pendant au moins 3 800 ans sur la côte nord-ouest de l&#39;Amérique du Nord.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -993,7 +970,7 @@
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
-                <gco:CharacterString>https://doi.org/10.3389/feart.2022.988111</gco:CharacterString>
+                <gco:CharacterString>https://doi.org/10.21966/hy20-x379</gco:CharacterString>
               </mcc:code>
             </mcc:MD_Identifier>
           </cit:identifier>
@@ -1568,87 +1545,6 @@
             <cit:CI_Responsibility>
               <cit:role>
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="processor"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString>1002 Wharf Street</gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString>Holmes, Keith</gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact></cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:partyIdentifier>
-                        <mcc:MD_Identifier>
-                          <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0000-0001-8796-8222</gco:CharacterString>
-                          </mcc:code>
-                        </mcc:MD_Identifier>
-                      </cit:partyIdentifier>
-                      <cit:positionName>
-                        <gco:CharacterString>Geospatial Scientist</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
               </cit:role>
               <cit:party>
                 <cit:CI_Organisation>
@@ -3162,12 +3058,70 @@
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>The relationships between clam gardens and human settlement throughout the millennia reflects the inseparable links among human demographics, marine management systems, and the social-ecological contexts in which they are embedded.  However, it can be difficult to assign causation between the initiation and development of eco-cultural innovations like clam gardens and the proliferation of human societies due to the temporal uncertainties associated with both.  Here, we bring together data on the shape of the local relative sea level curve, clam garden wall elevation as determined by GIS and drone imagery, radiocarbon dates of clam garden walls, and ecological and archaeological field observations, to assign proxy ages for the clam garden walls of different tidal heights in Kanish and Waiatt Bay on northern Quadra Island.  These data, combined with our mapping and dating of settlement sites, demonstrate a temporal relationship between clam garden building effort and the densification of human settlements.  In Kanish Bay, where we have high resolution data, clam gardens begin to be constructed in significant numbers at least 3800 years ago; this corresponds to a time of increased establishment of large human settlements.  The corresponding increase in settlements and clam gardens reflects both the need to increase sustainable food production and the larger number of people who could sustain the ecological and social foundations of the production system.  The correlation between number and area of clam gardens and the number of new, large settlements continues until ~2000 years ago.  After this time, existing settlements increase in size, but no additional large settlements were established. New clam gardens continue to be built but in seemingly lower numbers. This shift in settlements and clam gardens suggest that a threshold in social-ecological carrying capacity may have been reached in this land and seascape. In the last few centuries, there is a dramatic decline in the number of clam gardens and evidence of human settlement, corresponding to social and ecological changes associated with European colonization.  Taken together, these data demonstrate the strong linkages among Indigenous peoples, their lands and seas, and resilient food systems over the millennia.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Les relations entre les jardins de palourdes et les établissements humains tout au long des millénaires reflètent les liens inséparables entre la démographie humaine, les systèmes de gestion marine et les contextes socio-écologiques dans lesquels ils sont ancrés. Cependant, il peut être difficile d&#39;établir un lien de causalité entre le lancement et le développement d&#39;innovations écoculturelles telles que les jardins de palourdes et la prolifération des sociétés humaines en raison des incertitudes temporelles associées aux deux. Ici, nous rassemblons des données sur la forme de la courbe relative locale du niveau de la mer, l&#39;altitude des murs du jardin de palourdes telle que déterminée par l&#39;imagerie SIG et par drone, les dates au radiocarbone des murs des jardins de palourdes et les observations écologiques et archéologiques sur le terrain, pour attribuer des âges approximatifs aux murs des jardins de palourdes de différentes marées hauteurs de Kanish et Waiatt Bay, au nord de l&#39;île Quadra. Ces données, combinées à notre cartographie et à notre datation des sites de peuplement, démontrent une relation temporelle entre les efforts de construction de jardins de palourdes et la densification des établissements humains. Dans la baie de Kanish, où nous disposons de données haute résolution, des jardins de palourdes commencent à être construits en grand nombre il y a au moins 3800 ans ; cela correspond à une période de création accrue de grands établissements humains. L&#39;augmentation correspondante du nombre de colonies et de jardins de palourdes reflète à la fois la nécessité d&#39;accroître la production alimentaire durable et le plus grand nombre de personnes qui pourraient soutenir les fondements écologiques et sociaux du système de production. La corrélation entre le nombre et la superficie des jardins de palourdes et le nombre de nouvelles et grandes colonies se poursuit jusqu&#39;à il y a environ 2000 ans. Après cette période, les colonies existantes augmentent en taille, mais aucune autre grande colonie n&#39;a été créée. De nouveaux jardins de palourdes continuent d&#39;être construits, mais en nombre apparemment inférieur. Ce changement dans les établissements et les jardins de palourdes suggère qu&#39;un seuil de capacité de charge socio-écologique a peut-être été atteint dans ce paysage terrestre et marin. Au cours des derniers siècles, il y a eu une baisse spectaculaire du nombre de jardins de palourdes et des preuves d&#39;établissements humains, correspondant aux changements sociaux et écologiques associés à la colonisation européenne. Ensemble, ces données démontrent les liens étroits qui existent entre les peuples autochtones, leurs terres et leurs mers, et les systèmes alimentaires résilients au cours des millénaires.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -3335,17 +3289,7 @@
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>seaSurfaceHeight</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
             <gco:CharacterString>other</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Niveau de l&#39;eau</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
@@ -3364,7 +3308,14 @@
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Geospatial</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
@@ -3402,13 +3353,46 @@
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Appropriate credit must be given to Hakai Institute and the authors of the dataset.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Un crédit approprié doit être accordé à l&#39;Institut Hakai et aux auteurs de l&#39;ensemble de données.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Frontiers in Earth Science Publication: Ancestral sea gardens supported human settlements for at least 3,800 years on the Northwest Coast of North America</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Publication Frontiers in Earth Science : Les jardins marins ancestraux ont soutenu les établissements humains pendant au moins 3 800 ans sur la côte nord-ouest de l&#39;Amérique du Nord</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.3389/feart.2022.988111</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -3570,4 +3554,115 @@
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>DJI Phantom 3 Pro</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>DJI Phantom 3 Pro</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">DJI Phantom 3 Pro</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DJI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>DJI Phantom 3 Pro</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>3 Prp</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Stock phantom 3 drone and RGB camera</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">Drone Phantom 3 et caméra RVB</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString>Drone / UAV / RPAS</gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Topcon</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Topcon GR5 RTK survey system</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>GR5</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Survey equipment used to reference drone based imagery and elevation models for the study</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">Matériel de levé utilisé pour référencer des images basées sur des drones et des modèles d&#39;altitude pour l&#39;étude</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>RTK GPS survey equipment</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">Équipement de levé GPS RTK</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>unmanned aerial vehicle</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
