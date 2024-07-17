@@ -136,9 +136,6 @@ identification:
       - Carbone inorganique
       - Salinité sous la surface
       - Température sous la surface
-    taxa:
-      en: []
-      fr: []
   progress_code: onGoing
   project:
   - Oceanography
@@ -159,7 +156,7 @@ identification:
 metadata:
   dates:
     publication: '2023-10-20'
-    revision: '2024-03-14T19:51:55.838Z'
+    revision: '2024-07-17T19:28:47.978Z'
   identifier: fb5c9e1e-a911-46b7-8c1d-e34215a105ed
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-NdH-jgHZQzKrYdb2nw_
@@ -180,7 +177,31 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Shore-side research station
+    fr: Station de recherche côtière
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: HakaiBamfieldBoL
+  instruments:
+  - description:
+      en: We clean and replace LI840A components as necessary and do not send units
+        in for service unless absolutely required. In general, calibration function
+        offsets are tracked and used as a metric of drift. When the calibration function
+        offset exceeds 30, the unit would be cleaned and rezeroed / respanned using
+        the high CO2 gas standard.
+    id: Burke-o-Lator pCO2/TCO2 analyzer
+    manufacturer: Dakunalytics, LLC
+  - description:
+      en: Sea-Bird Electronics SBE 45 MicroTSG Thermosalinograph; Honeywell or Omega
+        Pressure Sensors and Fast Response Resistance Temperature Detectors
+    id: SBE 45
+    manufacturer: Seabird Electronics
+  type: land/onshore structure
 spatial:
   bbox:
   - -125.13535
