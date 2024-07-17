@@ -1,20 +1,4 @@
 contact:
-- inCitation: true
-  individual:
-    email: jennifer.jackson@hakai.org
-    name: Jackson, Jennifer
-    position: Research Scientist
-  organization:
-    address: 1713 Hyacinthe Bay Road
-    city: Heriot Bay
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    url: www.hakai.org
-  roles:
-  - principalInvestigator
-  - pointOfContact
-  - custodian
 - inCitation: false
   individual:
     email: jessy.barrette@hakai.org
@@ -42,12 +26,26 @@ contact:
   roles:
   - distributor
   - owner
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Complete Hakai provisional vertical water properties profile dataset  measured
       by oceanographic profilers
     fr: Ensemble de données complet de profil des propriétés verticales provisoires
       de l'eau de Hakai mesuré par les profileurs océanographiques
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: ERDDAP Dataset
   url: https://catalogue.hakai.org/erddap/tabledap/HakaiWaterPropertiesInstrumentProfileProvisional.html
@@ -87,6 +85,11 @@ identification:
       \ manuellement et jugé bon pour le niveau de qualité scientifique.\n\nLes données\
       \ ont été recueillies par le Programme océanographique de l'Institut Hakai,\
       \ le Programme des zones côtières et le Programme du saumon juvénile."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2012-06-01'
@@ -127,10 +130,11 @@ identification:
       - Oxygène
       - Salinité sous la surface
       - Température sous la surface
-    taxa:
-      en: []
-      fr: []
   progress_code: onGoing
+  project:
+  - Juvenile Salmon Program
+  - Oceanography
+  - Nearshore
   status: published
   temporal_begin: '2012-06-01T17:07:00.000Z'
   title:
@@ -138,20 +142,32 @@ identification:
       Provisional
     fr: Données de profil vertical des propriétés de l'eau de Hakai mesurées par des
       profileurs océanographiques, Provisoires
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
-    publication: '2021-12-03'
-    revision: '2021-12-03T15:32:24.672Z'
+    publication: '2024-07-17'
+    revision: '2024-07-17T21:14:56.164Z'
   history:
-    en: These data have been solely funded by the Tula Foundation. Data collection
-      started near Calvert Island in 2012, near Quadra Island in 2014, and in Johnstone
-      Strait from 2015 to 2019.
-    fr: Ces données ont été financées uniquement par la Fondation Tula. La collecte
-      de données a commencé près de l'île Calvert en 2012, près de l'île Quadra en
-      2014 et dans le détroit de Johnstone de 2015 à 2019.
+  - scope: Dataset
+    statement:
+      en: These data have been solely funded by the Tula Foundation. Data collection
+        started near Calvert Island in 2012, near Quadra Island in 2014, and in Johnstone
+        Strait from 2015 to 2019.
+      fr: Ces données ont été financées uniquement par la Fondation Tula. La collecte
+        de données a commencé près de l'île Calvert en 2012, près de l'île Quadra
+        en 2014 et dans le détroit de Johnstone de 2015 à 2019.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   identifier: 6143028b-028d-46c7-a67d-f3a513435e63
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/None/-MMHJ4k2EEwxkbXkrjxa
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MMHJ4k2EEwxkbXkrjxa
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -171,7 +187,208 @@ metadata:
         généralement étalonnés une fois par an par le fabricant, aucune comparaison
         et correction post-étalonnage basée sur des données échantillonnées par une
         autre méthode n'est appliquée à cet ensemble de données.
-platform: []
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: The Hakai Institute uses a fleet of small boats (< 40 feet long) to collect
+      CTD data.
+    fr: Le  Institut Hakai utilise une flotte de petits bateaux (< 40 pieds de long)
+      pour recueillir des données sur le CTD.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Multiple boats
+  instruments:
+  - description:
+      en: Conductivity, temperature depth recorder with fluorometer and turbidity
+        loggers. Self-contained, autonomous CTD logger that can be deployed for a
+        period of up to 5 years with 1 minute sampling intervals. High accuracy measurements,
+        holds measurements internally even without battery and fast sampling options
+        for profiling. Temperature sensor calibrated to accuracy of +/- 0.002 deg
+        C over range -5 to +35 deg C. Conductivity measured with inductive sensor
+        with no exposed contacts. Pressure measured with piezo-resistive transducer
+        with accuracy of 0.05% of full scale rating and achievable resolution of 0.001%.
+      fr: Conductivité, enregistreur de profondeur de température avec fluoromètre
+        et enregistreur de turbidité. Enregistreur CTD autonome autonome pouvant être
+        déployé pendant une période allant jusqu'à 5 ans avec des intervalles d'échantillonnage
+        d'une minute. Mesures de haute précision, maintient les mesures en interne
+        même sans batterie et options d'échantillonnage rapide pour le profilage.
+        Capteur de température calibrée à une précision de +/- 0,002° C sur une plage
+        de -5 à +35° C. Conductivité mesurée avec capteur inductif sans contact exposé.
+        Pression mesurée à l'aide d'un transducteur piézo-résistif avec une précision
+        de 0,05 % de la valeur nominale pleine échelle et une résolution réalisable
+        de 0,001 %.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: '18066'
+    manufacturer: RBR
+    type:
+      en: RBR CTD Profiler with auxiliary sensors
+      fr: Profileur CTD de RBR avec capteurs auxiliaires
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: XR-620
+  - description:
+      en: Conductivity, temperature depth recorder with fluorometer and turbidity
+        loggers. Self-contained, autonomous CTD logger that can be deployed for a
+        period of up to 5 years with 1 minute sampling intervals. High accuracy measurements,
+        holds measurements internally even without battery and fast sampling options
+        for profiling. Temperature sensor calibrated to accuracy of +/- 0.002 deg
+        C over range -5 to +35 deg C. Conductivity measured with inductive sensor
+        with no exposed contacts. Pressure measured with piezo-resistive transducer
+        with accuracy of 0.05% of full scale rating and achievable resolution of 0.001%.
+      fr: Conductivité, enregistreur de profondeur de température avec fluoromètre
+        et enregistreur de turbidité. Enregistreur CTD autonome autonome pouvant être
+        déployé pendant une période allant jusqu'à 5 ans avec des intervalles d'échantillonnage
+        d'une minute. Mesures de haute précision, maintient les mesures en interne
+        même sans batterie et options d'échantillonnage rapide pour le profilage.
+        Capteur de température calibrée à une précision de +/- 0,002° C sur une plage
+        de -5 à +35° C. Conductivité mesurée avec capteur inductif sans contact exposé.
+        Pression mesurée à l'aide d'un transducteur piézo-résistif avec une précision
+        de 0,05 % de la valeur nominale pleine échelle et une résolution réalisable
+        de 0,001 %.
+    id: '18032'
+    manufacturer: RBR
+    type:
+      en: RBR CTD Profiler with auxiliary sensors
+      fr: Profileur CTD de RBR avec capteurs auxiliaires
+    version: XR-620
+  - description:
+      en: Conductivity, temperature depth recorder with fluorometer and turbidity
+        loggers. Self-contained, autonomous CTD logger that can be deployed for a
+        period of up to 5 years with 1 minute sampling intervals. High accuracy measurements,
+        holds measurements internally even without battery and fast sampling options
+        for profiling. Temperature sensor calibrated to accuracy of +/- 0.002 deg
+        C over range -5 to +35 deg C. Conductivity measured with inductive sensor
+        with no exposed contacts. Pressure measured with piezo-resistive transducer
+        with accuracy of 0.05% of full scale rating and achievable resolution of 0.001%.
+      fr: Conductivité, enregistreur de profondeur de température avec fluoromètre
+        et enregistreur de turbidité. Enregistreur CTD autonome autonome pouvant être
+        déployé pendant une période allant jusqu'à 5 ans avec des intervalles d'échantillonnage
+        d'une minute. Mesures de haute précision, maintient les mesures en interne
+        même sans batterie et options d'échantillonnage rapide pour le profilage.
+        Capteur de température calibrée à une précision de +/- 0,002° C sur une plage
+        de -5 à +35° C. Conductivité mesurée avec capteur inductif sans contact exposé.
+        Pression mesurée à l'aide d'un transducteur piézo-résistif avec une précision
+        de 0,05 % de la valeur nominale pleine échelle et une résolution réalisable
+        de 0,001 %.
+    id: '80217'
+    manufacturer: RBR
+    type:
+      en: RBR CTD Profiler with auxiliary sensors
+      fr: Profileur CTD de RBR avec capteurs auxiliaires
+    version: Maestro
+  - description:
+      en: Conductivity, temperature depth recorder with fluorometer and turbidity
+        loggers. Self-contained, autonomous CTD logger that can be deployed for a
+        period of up to 5 years with 1 minute sampling intervals. High accuracy measurements,
+        holds measurements internally even without battery and fast sampling options
+        for profiling. Temperature sensor calibrated to accuracy of +/- 0.002 deg
+        C over range -5 to +35 deg C. Conductivity measured with inductive sensor
+        with no exposed contacts. Pressure measured with piezo-resistive transducer
+        with accuracy of 0.05% of full scale rating and achievable resolution of 0.001%.
+      fr: Conductivité, enregistreur de profondeur de température avec fluoromètre
+        et enregistreur de turbidité. Enregistreur CTD autonome autonome pouvant être
+        déployé pendant une période allant jusqu'à 5 ans avec des intervalles d'échantillonnage
+        d'une minute. Mesures de haute précision, maintient les mesures en interne
+        même sans batterie et options d'échantillonnage rapide pour le profilage.
+        Capteur de température calibrée à une précision de +/- 0,002° C sur une plage
+        de -5 à +35° C. Conductivité mesurée avec capteur inductif sans contact exposé.
+        Pression mesurée à l'aide d'un transducteur piézo-résistif avec une précision
+        de 0,05 % de la valeur nominale pleine échelle et une résolution réalisable
+        de 0,001 %.
+    id: '65679'
+    manufacturer: RBR
+    type:
+      en: RBR CTD Profiler with auxiliary sensors
+      fr: Profileur CTD RBR avec capteurs auxiliaires
+    version: Concerto
+  - description:
+      en: Conductivity, temperature depth recorder with fluorometer and turbidity
+        loggers. Self-contained, autonomous CTD logger that can be deployed for a
+        period of up to 5 years with 1 minute sampling intervals. High accuracy measurements,
+        holds measurements internally even without battery and fast sampling options
+        for profiling. Temperature sensor calibrated to accuracy of +/- 0.002 deg
+        C over range -5 to +35 deg C. Conductivity measured with inductive sensor
+        with no exposed contacts. Pressure measured with piezo-resistive transducer
+        with accuracy of 0.05% of full scale rating and achievable resolution of 0.001%.
+      fr: Conductivité, enregistreur de profondeur de température avec fluoromètre
+        et enregistreur de turbidité. Enregistreur CTD autonome autonome pouvant être
+        déployé pendant une période allant jusqu'à 5 ans avec des intervalles d'échantillonnage
+        d'une minute. Mesures de haute précision, maintient les mesures en interne
+        même sans batterie et options d'échantillonnage rapide pour le profilage.
+        Capteur de température calibrée à une précision de +/- 0,002° C sur une plage
+        de -5 à +35° C. Conductivité mesurée avec capteur inductif sans contact exposé.
+        Pression mesurée à l'aide d'un transducteur piézo-résistif avec une précision
+        de 0,05 % de la valeur nominale pleine échelle et une résolution réalisable
+        de 0,001 %.
+    id: '66061'
+    manufacturer: RBR
+    type:
+      en: RBR CTD Profiler with auxiliary sensors
+      fr: Profileur CTD RBR avec capteurs auxiliaires
+    version: Concerto
+  - description:
+      en: Self-contained self-powered CTD profiler. Measures conductivity, temperature
+        and pressure (Digiquartz sensor) in both profiling (samples at 4 scans/sec)
+        and moored (sample rates of once every 5 seconds to once every 9 hours) mode.
+        Available in plastic or titanium housing with depth ranges of 600m and 7000m
+        respectively. Miniature submersible pump provides water to the conductivity
+        cell. Compared to the previous 19plus, the V2 incorporates an electronics
+        upgrade and additional features, with six differentially amplified A/D input
+        channels, one RS-232 data input channel, and 64 MB FLASH memory.
+      fr: Profileur autonome autonome CTD. Mesure la conductivité, la température
+        et la pression (capteur Digiquartz) en mode profilage (échantillons à 4 scans/sec)
+        et amarré (taux d'échantillonnage d'une fois toutes les 5 secondes à une fois
+        toutes les 9 heures). Disponible en boîtier en plastique ou en titane avec
+        des plages de profondeur de 600m et 7000m respectivement. La pompe submersible
+        miniature fournit de l'eau à la cellule de conductivité. Par rapport aux 19plus
+        précédents, le V2 intègre une mise à niveau électronique et des fonctionnalités
+        supplémentaires, avec six canaux d'entrée A/D amplifiés différentiellement,
+        un canal d'entrée de données RS-232 et 64 Mo de mémoire FLASH.
+    id: '1907467'
+    manufacturer: Seabird
+    type:
+      en: Seabird CTD Profiler with auxiliary sensors
+      fr: Profiler CTD Searbird avec capteurs auxiliaires
+    version: SBE19plus v2
+  - description:
+      en: Self-contained self-powered CTD profiler. Measures conductivity, temperature
+        and pressure (Digiquartz sensor) in both profiling (samples at 4 scans/sec)
+        and moored (sample rates of once every 5 seconds to once every 9 hours) mode.
+        Available in plastic or titanium housing with depth ranges of 600m and 7000m
+        respectively. Miniature submersible pump provides water to the conductivity
+        cell. Compared to the previous 19plus, the V2 incorporates an electronics
+        upgrade and additional features, with six differentially amplified A/D input
+        channels, one RS-232 data input channel, and 64 MB FLASH memory.
+      fr: Profileur autonome autonome CTD. Mesure la conductivité, la température
+        et la pression (capteur Digiquartz) en mode profilage (échantillons à 4 scans/sec)
+        et amarré (taux d'échantillonnage d'une fois toutes les 5 secondes à une fois
+        toutes les 9 heures). Disponible en boîtier en plastique ou en titane avec
+        des plages de profondeur de 600m et 7000m respectivement. La pompe submersible
+        miniature fournit de l'eau à la cellule de conductivité. Par rapport aux 19plus
+        précédents, le V2 intègre une mise à niveau électronique et des fonctionnalités
+        supplémentaires, avec six canaux d'entrée A/D amplifiés différentiellement,
+        un canal d'entrée de données RS-232 et 64 Mo de mémoire FLASH.
+    id: '1907674'
+    manufacturer: Seabird
+    type:
+      en: Seabird CTD Profiler with auxiliary sensors
+      fr: Profiler CTD Searbird avec capteurs auxiliaires
+    version: SBE19plus v2
+  type: self-propelled small boat
 spatial:
   polygon: -128.5,52.27 -127.4,52.21 -127.2,51.66 -125.6,51.13 -124.8,50.96 -124.1,50.43
     -124.7,49.98 -124.9,49.80 -126.7,50.45 -128.1,51.37 -128.4,51.69 -128.5,52.27
