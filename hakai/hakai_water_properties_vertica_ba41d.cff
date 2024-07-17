@@ -1,0 +1,81 @@
+abstract: "Temperature, conductivity, dissolved oxygen, fluorescence, photosynthetic\
+  \ active radiation, and turbidity data collected from 2012 to present by the Hakai\
+  \ Institute in waters surrounding Calvert Island, Johnstone Strait, and Quadra Island\
+  \ areas. This dataset presents data collected by oceanographic profiler instruments\
+  \ (RBR XR-620, RBR Concerto, RBR Maestro, and Seabird SBE 19plus v2) which have\
+  \ been automatically processed by following respective manufacturer's guidelines\
+  \ (see Hakai Water Properties Profile Processing and QA/QC Procedure Manual). \n\
+  \nThe provisional processed data are then quality controlled by applying a series\
+  \ of tests that are following the QARTOD standards and more tests specific to the\
+  \ Hakai Institute data (see Hakai Water Properties Profile Processing and QA/QC\
+  \ Procedure Manual).  \n\nThe research dataset provides a subset of the provisional\
+  \ dataset which has been manually reviewed and judged good for science quality level.\n\
+  \nData were collected by the Hakai Institute Oceanography Program, the Nearshore\
+  \ Program, and the Juvenile Salmon Program."
+authors:
+- address: 1713 Hyacinthe Bay Road
+  city: Heriot Bay
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://hakai.org
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- address: 1713 Hyacinthe Bay Road
+  affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: jessy.barrette@hakai.org
+  family-names: Barrette
+  given-names: Jessy
+  orcid: https://orcid.org/0000-0002-0422-2589
+  website: https://www.hakai.org/
+date-released: '2024-07-17'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: ba41d935-f293-447f-be3d-7098e569b431
+- description: Hakai Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_ba41d935-f293-447f-be3d-7098e569b431
+- description: Hakai Metadata record DOI
+  type: doi
+  value: 10.21966/kace-2d24
+- description: Hakai Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MX35qgX-BrwJDdeJKe1
+- description: 'ERDDAP Dataset: Complete Hakai provisional vertical water properties
+    profile dataset  measured by oceanographic profilers'
+  type: url
+  value: https://catalogue.hakai.org/erddap/tabledap/HakaiWaterPropertiesInstrumentProfileResearch.html
+- description: Hakai Water Properties Profile Processing and QA/QC Procedure Manual
+  type: url
+  value: https://github.com/HakaiInstitute/hakai-datasets/raw/development/datasets_documents/HakaiWaterPropertiesProfiles/Hakai_Water_Properties_Processing_and_QAQC_Procedure_20210331.pdf
+keywords:
+- fluorescence
+- turbidity
+- PAR
+- photosynthetically active radiation
+- Calvert Island
+- Quadra Island
+- transmissometer
+- Johnstone Strait
+- Queen Charlotte Sound
+- Strait of Georgia
+- salinity
+- coastal zone
+- oxygen
+- subSurfaceSalinity
+- subSurfaceTemperature
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Hakai Water Properties Vertical Profile Data Measured by Oceanographic Profilers,
+  Research
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_ba41d935-f293-447f-be3d-7098e569b431
+version: 1.0.0
