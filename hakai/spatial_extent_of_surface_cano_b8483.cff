@@ -1,0 +1,115 @@
+abstract: "This dataset consists of a spatial dataset of digitized surface canopy\
+  \ extent for bull kelp (Nereocystis luetkeana) for the North Salish Sea on the Coast\
+  \ of British Columbia, Canada. This data was collected in partnership with Brian\
+  \ Timmer, a PhD student at the University of Victoria (Victoria, BC) as part of\
+  \ his doctoral research project examining historical changes in algal communities\
+  \ in the northern Strait of Georgia and as part of the Hakai Institute Habitat Mapping\
+  \ Program which includes long-term observations in canopy kelp extent.\nSpatial\
+  \ datasets of kelp canopy were derived from high resolution aerial imagery (10 cm)\
+  \ collected from fixed-wing aerial surveys flown 2023. Imagery was collected July\
+  \ 3rd, 2023 at a tide height between 0.6 and 2.4 m with flight paths conducted from\
+  \ north to south in the area of interest. The survey window was based on obtaining\
+  \ imagery during maximum kelp extent and during a low tide cycle.\nImagery Capture:\
+  \ Four-band imagery (RGB-NIR) was collected using two high resolution cameras aboard\
+  \ the Aerial Coastal Observatory (a fixed-wing aircraft). Imagery collection and\
+  \ orthomosaic processing is described in associated reports linked in this record.\n\
+  Kelp delineation: Surface kelp canopy is represented by polygons which were digitized\
+  \ using the Kelp-O-Matic machine learning tool. This tool automates the detection\
+  \ of surface canopy kelp from 4 band imagery and was developed by Hakai to segment\
+  \ remotely sensed imagery specifically for kelp presence. Spatial outputs from the\
+  \ Kelp-O-Matic were reviewed and manually edited by a trained analyst where necessary.\n\
+  People involved with dataset processing, analysis and/or submission: Luba Reshitnyk,\
+  \ Alex Guyn, Brian Timmer. \n\nRecommended citation: Reshitnyk, L., Timmer, B.,\
+  \ Guyn, A., & Baum, J. (2024). Spatial extent of surface canopy kelp (Nereocystis\
+  \ luetkeana) derived from fixed-wing surveys (2023), Denman Island to south Quadra\
+  \ Island, British Columbia, Canada (v1.0). https://doi.org/10.21966/fmw1-8w35"
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: luba.reshitnyk@hakai.org
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- affiliation: University of Victoria
+  city: Victoria
+  country: CA
+  email: briantimmer@uvic.ca
+  family-names: Timmer
+  given-names: Brian
+  orcid: https://orcid.org/0000-0003-4820-2544
+  website: http://www.uvic.ca/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Guyn
+  given-names: Alex
+  orcid: https://orcid.org/0009-0001-3208-4283
+  website: https://www.hakai.org/
+- affiliation: University of Victoria
+  city: Victoria
+  country: CA
+  family-names: Baum
+  given-names: Julia
+  orcid: https://orcid.org/0000-0002-9827-1612
+  website: http://www.uvic.ca/
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: luba.reshitnyk@hakai.org
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+date-released: '2024-07-17'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: b8483c9e-81e6-4e1a-b09f-2d66f8fee9a2
+- description: Hakai Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_b8483c9e-81e6-4e1a-b09f-2d66f8fee9a2
+- description: Hakai Metadata record DOI
+  type: doi
+  value: 10.21966/fmw1-8w35
+- description: Hakai Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NpNoCv2XWdhBoo5RBKV
+- description: 'Data package - Spatial extent of surface canopy kelp (Nereocystis
+    luetkeana) derived from fixed-wing surveys (2023), Denman Island to south Quadra
+    Island, British Columbia, Canada: This data package contains the spatial data
+    and metadata document. The document describes the methods for how the kelp canopy
+    extent data were derived and includes a data dictionary for attributes.'
+  type: url
+  value: https://drive.google.com/drive/folders/1HjTrzGrfRF8l5KGrpNampgnsX7SSSAjZ?usp=drive_link
+keywords:
+- habitat characterization
+- important habitat
+- nereocystis luetkeana
+- air photos
+- kelp forest
+- bull kelp
+- habitat mapping
+- macroalgal canopy cover
+- nearshore
+- airborne coastal observatory
+- macroalgalCanopyCoverAndComposition
+- Chromista
+- Ochrophyta
+- Phaeophyceae
+- Laminariales
+- Laminariaceae
+- Nereocystis
+- Nereocystis luetkeana
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Spatial extent of surface canopy kelp (Nereocystis luetkeana) derived from
+  fixed-wing surveys (2023), Denman Island to south Quadra Island, British Columbia,
+  Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_b8483c9e-81e6-4e1a-b09f-2d66f8fee9a2
+version: '1.0'

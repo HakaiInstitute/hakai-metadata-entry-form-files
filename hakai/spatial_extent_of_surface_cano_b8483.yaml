@@ -235,7 +235,7 @@ identification:
 metadata:
   dates:
     publication: '2024-03-15'
-    revision: '2024-04-15T17:11:10.362Z'
+    revision: '2024-07-17T19:26:12.744Z'
   identifier: b8483c9e-81e6-4e1a-b09f-2d66f8fee9a2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NpNoCv2XWdhBoo5RBKV
@@ -248,7 +248,39 @@ metadata:
       url: https://creativecommons.org/licenses/by/4.0
     limitations:
       en: Not to be used for navigational purposes.
-platform: []
+platform:
+- description:
+    en: Airborne Coastal Observatory - Piper Navajo
+    fr: Observatoire côtier aéroporté - Piper Navajo
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory - Hakai Institute
+  instruments:
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Aerial camera
+    manufacturer: Phaseone Industrial
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: iXU-RS1000
+  type: aeroplane
 spatial:
   polygon: -125.3,50.02 -125.1,50.05 -125.1,49.90 -124.8,49.71 -124.7,49.56 -124.8,49.55
     -124.9,49.64 -125.2,49.90 -125.2,49.90 -125.3,50.02
