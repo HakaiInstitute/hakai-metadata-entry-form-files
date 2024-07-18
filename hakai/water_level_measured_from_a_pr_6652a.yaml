@@ -49,7 +49,7 @@ contact:
 distribution:
 - name:
     en: ERDDAP Dataset
-  url: catalogue.hakai.org/erddap/tabledap/HakaiCalvertCP1TideGauge.html
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiCalvertCP1TideGauge.html
 identification:
   abstract:
     en: This dataset present a time series of water level measurements made by an
@@ -67,11 +67,6 @@ identification:
       sur la station météorologique du quai de Hakai Pruth. La pression de mer résultante
       a ensuite été convertie en profondeur avec la boîte à outils Gibbs Sea Water
       TEOS-10 et soustraite par le niveau d'eau moyen mesuré à l'emplacement.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
   associated_resources: []
   dates:
     creation: '2020-02-12'
@@ -91,9 +86,6 @@ identification:
       - seaSurfaceHeight
       fr:
       - Niveau de l'eau
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   project:
   - Oceanography
@@ -112,8 +104,8 @@ identification:
         verified: false
 metadata:
   dates:
-    publication: '2021-12-03'
-    revision: '2024-03-15T19:14:10.977Z'
+    publication: '2024-07-18'
+    revision: '2024-07-18T14:46:56.015Z'
   identifier: 6652a7a9-d27f-4cbe-ac04-435c238e991d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-Mknr8pYvIQKw4r-WTFd
@@ -124,7 +116,23 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+- description:
+    en: Mooring
+    fr: Mouillage
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: CP1
+  instruments:
+  - id: RBR SoloD SN079156
+    manufacturer: RBR
+    type:
+      en: SoloD
+    version: 079156
+  type: mooring
 spatial:
   bbox:
   - -128.12103
