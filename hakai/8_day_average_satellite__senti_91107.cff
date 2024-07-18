@@ -1,0 +1,157 @@
+abstract: 'This is an ongoing dataset of fully processed 8-day average Sentinel 3A
+  and 3B chlorophyll-a (Chla) and suspended particulate matter (SPM) imagery for coastal
+  and offshore British Columbia (BC) and Southeast Alaska waters. Sentinel 3A and
+  3B are European Space Agency (ESA) oceanography satellites jointly operated with
+  the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT).
+  The ocean and land colour instrument (OLCI) onboard both satellites has a 300m spatial
+  resolution, near daily temporal coverage (when 3A and 3B are combined), 21 spectral
+  bands from 400-1200nm, high signal-to-noise ratio and an off-nadir swath centered
+  to minimize ocean sun glint. These features make the instruments well suited to
+  retrievals of biogeochemical products from optically complex coastal waters.
+
+
+  At the University of Victoria (BC, Canada), the SPECTRAL remote sensing laboratory
+  has performed extensive evaluation of methods for the best regional Chla and SPM
+  retrievals. Validation with in-situ data showed the best results using Level-1 imagery
+  processed with the POLYnomial based algorithm applied to MERIS (POLYMER) processor.
+  Following validation, the SPECTRAL laboratory and the MOD(ularity) Squad developed
+  an automated processing system that: 1) downloads imagery from the Marine Copernicus
+  Online Data Access (CODA) web service; 2) applies POLYMER and flagging and; 3) mosaics
+  the imagery for fully processed Chla and SPM concentrations over the study region.
+  Additionally, an interactive public web interface was created to view the near real
+  time outputs at www.algaeexplorer.ca (provided in resources).  Full validation details
+  are provided in Giannini et al. (2021) and processing details in Jacoby et al. (2019)
+  and Marchese et al. (2022) referenced in the resources.
+
+
+  In 2022, the Hakai Institute took responsibility of the project, added processing
+  of 3B imagery allowing for 8-day averaging of 3A and 3B imagery, created automated
+  submission to the Canadian Integrated Ocean Observing System (CIOOS) and updated
+  the Algae Explorer web interface to include all products. Averaging imagery over
+  8 days considerably improves spatial coverage in cloudy regions such as the northeast
+  Pacific.
+
+
+  This product provides the best known regional OLCI Chla and SPM retrievals shown
+  to have low systematic biases (<1%) and follow expected seasonal and spatial trends;
+  however, relative percent difference between validation data and satellite retrievals
+  was high notably for Chla (~83%) due to the underestimation of high Chla concentrations
+  and potentially an artifact of spatial-temporal mismatches between validation samples
+  and image pixels. The SPECTRAL laboratory has performed initial radiometric comparisons
+  of 3A and 3B imagery and shown highly comparable data; however, comparison of biogeochemical
+  outputs is still in progress. Further uncertainties exist in high turbidity regions
+  (Fraser River plume and fjords) where uncorrectable poor-quality pixels are sometimes
+  observed. Additionally, an unresolved data striping issue is periodically present
+  and observed as a narrow band of distorted pixels, which sometimes evades the land
+  mask and, crosses images diagonally above Vancouver Island. Efforts are underway
+  to correct this issue. Data users should consider these uncertainties and issues
+  when using the data.
+
+
+  Satellite remote sensing is increasingly used to study surface ocean processes at
+  the spatial and temporal resolutions required for understanding long term variability
+  under a changing climate. Chlorophyll-a is the most widely used measure of phytoplankton
+  biomass and crucial for understanding phytoplankton which are the base of the marine
+  food web and control ocean biogeochemical cycling. Suspended particulate matter
+  is a key water quality indicator (i.e. turbidity) with increased concentrations
+  reducing light availability to aquatic species.
+
+
+  Funding was provided by the UBC/UVic Hakai Coastal Initiative postdoctoral fellowship,
+  NSERC NCE Marine Environmental Observation Prediction and Response (MEOPAR) network,
+  Canadian Space Agency (CSA), Canadian Foundation for Innovation (CFI) and NSERC
+  Discover Grant awarded to Maycira Costa.
+
+
+  It is requested that Giannini et al. (2021), Jacoby et al. (2019) and Marchese et
+  al. (2022) are referenced if data is used for published research and the ESA acknowledged
+  as the data provider.'
+authors:
+- address: Spectral Remote Sensing Laboratory, Department of Geography, University
+    of Victoria, David Turpin Bldg Rm B126, 3800 Finnerty Road Victoria, BC, Canada,
+    V8P 5C2
+  affiliation: University of Victoria
+  city: Victoria
+  country: CA
+  email: maycira@uvic.ca
+  family-names: Costa
+  given-names: Maycira
+  orcid: https://orcid.org/0000-0002-1876-3351
+  website: http://www.uvic.ca/
+- city: Campbell River
+  country: CA
+  email: algaeexplorer@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+contact:
+- city: Campbell River
+  country: CA
+  email: algaeexplorer@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+date-released: '2024-07-18'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 91107fce-93a4-4bc9-bce4-e7d9e1cf02a0
+- description: Hakai Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_91107fce-93a4-4bc9-bce4-e7d9e1cf02a0
+- description: Hakai Metadata record DOI
+  type: doi
+  value: 10.21966/175j-8k96
+- description: Hakai Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/7U7b8oPpeTN6gjvXlUCTGJr5pga2/-Nueis-TZEnz_78f8PYf
+- description: 'Algae Explorer: Interactive web interface with fully processed prior
+    day Chla and SPM imagery for the BC and southeast Alaska coast and offshore waters.'
+  type: url
+  value: https://algaeexplorer.ca
+- description: ERDDAP Dataset
+  type: url
+  value: https://catalogue.hakai.org/erddap/griddap/sentinel_3A_POLYMER_8Day.html
+- description: 'Performance of OLCI Sentinel-3A satellite in the Northeast Pacific
+    coastal waters: Performance evaluation of POLYMER processed Sentinel-3A imagery
+    for the derivation of chlorophyll-a concentrations on the British Columbia and
+    Southeast Alaska coast. Validation was performed via match-up analysis using in-situ
+    chlorophyll-a samples from southern BC and expected ranges and seasonal trends
+    from northern BC and Southeast Alaska.'
+  type: url
+  value: https://doi.org/10.1016/j.rse.2021.112317
+- description: 'Bioregionalization of the coastal and open oceans of British Columbia
+    and Southeast Alaska based on Sentinel-3A satellite-derived phytoplankton seasonality:
+    Methods section provides detailed description of data processing pipeline and
+    results demonstrate use case for data'
+  type: url
+  value: https://doi.org/10.3389/fmars.2022.968470
+- description: 'Geospatial Computing Collaborations: Overview of development of automated
+    system that outputs near real-time (prior day) fully processed OLCI Sentinel 3A
+    chlorophyl imagery for the British Columbia and southeast Alaska coast and offshore
+    waters.'
+  type: url
+  value: https://doi.org/10.1109/PACRIM47961.2019.8985053
+- description: 'The Sentinel-3 Mission: Overview and status: Overview of the Sentinel-3
+    mission'
+  type: url
+  value: https://doi.org/10.1109/IGARSS.2012.6351194
+keywords:
+- remote sensing
+- chlorophyll a
+- phytoplankton
+- coastal zone
+- water quality
+- abundance and biomass
+- sediment
+- suspended particulate matter
+- phytoplanktonBiomassAndDiversity
+- particulateMatter
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: 8-day average satellite (Sentinel 3A and 3B) chlorophyll and suspended matter
+  concentrations for coastal British Columbia and southeast Alaska
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_91107fce-93a4-4bc9-bce4-e7d9e1cf02a0
+version: '1'
