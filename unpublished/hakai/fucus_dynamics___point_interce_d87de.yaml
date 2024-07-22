@@ -18,7 +18,7 @@ contact:
   - author
   - owner
   - distributor
-- inCitation: false
+- inCitation: true
   individual:
     email: gillian.sadlierbrown@hakai.org
     name: Sadlier-Brown, Gillian
@@ -242,7 +242,7 @@ contact:
     url: https://www.hakai.org/
   roles:
   - contributor
-- inCitation: true
+- inCitation: false
   organization:
     city: Campbell River
     country: Canada
@@ -276,14 +276,42 @@ contact:
   - funder
 distribution:
 - description:
-    en: Data files and documentation for Fucus point intercept surveys
-    fr: Fichiers de données et documentation pour les levés d'interception des points
-      Fucus
+    en: Data files and documentation for Fucus point intercept surveys. Includes up
+      to version 3.0
+    fr: Fichiers de données et documentation pour les relevés d'interception des points
+      de Fucus. Inclut jusqu'à la version 3.0
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
-    en: Fucus point intercept survey data from BC Central Coast
-    fr: Données du relevé d'interception par point Fucus sur la côte centrale de la
-      Colombie-Britannique
+    en: Google Drive Repository
+    fr: Référentiel Google Drive
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/drive/folders/1fr0AmjwMcgMEK94erg6PH4HThesnDHNV
+- description:
+    en: Data files and documentation for Fucus point intercept surveys.
+    fr: Fichiers de données et documentation pour les relevés d'interception des points
+      de Fucus.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Github Repository
+    fr: Référentiel Github
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/nearshore-RI_FucusPoints/releases
 identification:
   abstract:
     en: "The Fucus dynamics dataset is a component of the Hakai Institute’s Nearshore\
@@ -305,29 +333,29 @@ identification:
       \ respect the data providers, and provide helpful feedback on data quality,\
       \ and 2) communicate and/or collaborate with the providers if you are considering\
       \ using this dataset for manuscripts or other forms of reporting."
-    fr: "L'ensemble de données sur la dynamique du fucus fait partie du programme\
-      \ de recherche et de surveillance des zones côtières de l'Institut Hakai, conçu\
-      \ pour capturer les changements dans les habitats intertidaux rocheux. L'objectif\
-      \ général de la recherche sur la région côtière de Hakai est d'étudier le rôle\
-      \ des habitats et de leurs communautés associées face au stress et aux perturbations\
-      \ dus au changement climatique mondial et aux perturbations côtières locales.\
+    fr: "L'ensemble de données dynamiques de Fucus fait partie du programme de recherche\
+      \ et de surveillance du littoral de l'Institut Hakai, conçu pour capturer les\
+      \ changements dans les habitats intertidaux rocheux. L'objectif principal de\
+      \ la recherche menée par Hakai Nearshore est d'étudier le rôle des habitats\
+      \ et de leurs communautés associées face au stress et aux perturbations provoqués\
+      \ par le changement climatique mondial et les perturbations côtières locales.\
       \ \n\nLa dynamique des lits de Fucus distichus a été évaluée sur trois sites\
       \ côtiers le long de la bordure nord-ouest de l'île Calvert, sur la côte centrale\
-      \ de la Colombie-Britannique. Les trois sites étaient des rivages rocheux exposés\
-      \ avec de grands lits d'algues Fucus distichus. La structure et la composition\
+      \ de la Colombie-Britannique. Les trois sites étaient situés sur des rives rocheuses\
+      \ exposées à de grands lits d'algues Fucus distichus. La structure et la composition\
       \ des communautés de macroalgues et d'invertébrés benthiques ont été étudiées\
-      \ dans ces lits à l'aide d'un plan d'interception ponctuelle dans des parcelles\
+      \ dans ces lits en utilisant un plan d'interception ponctuelle dans des parcelles\
       \ permanentes. Les sites ont fait l'objet de relevés environ une fois par mois\
-      \ de mai à septembre, et deux relevés hivernaux ont été effectués en novembre\
-      \ et en février.\n\nCe paquet de données est accessible gratuitement à tous,\
-      \ conformément aux principes d'accès équitable et de partage des avantages.\
-      \ Cependant, nous attendons de tous les utilisateurs de données qu'ils attribuent\
-      \ les données aux fournisseurs de données (lisez notre licence de données) et\
-      \ l'utilisation de ces données doit se faire dans le respect du fair use, c'est-à-dire :\
-      \ 1) respecter les fournisseurs de données et fournir des informations utiles\
+      \ de mai à septembre, avec deux relevés hivernaux en novembre et février.\n\n\
+      Ce paquet de données est accessible gratuitement à tous, conformément aux principes\
+      \ d'accès équitable et de partage des avantages. Cependant, nous attendons de\
+      \ tous les utilisateurs de données qu'ils attribuent les noms aux fournisseurs\
+      \ de données (lisez notre licence de données) et l'utilisation de ces données\
+      \ doit se faire dans le respect d'une utilisation équitable, c'est-à-dire :\
+      \ 1) respecter les fournisseurs de données et fournir des commentaires utiles\
       \ sur la qualité des données, et 2) communiquer et/ou collaborer avec les fournisseurs\
       \ si vous envisagez d'utiliser cet ensemble de données pour des manuscrits ou\
-      \ d'autres formes de rapports."
+      \ d'autres formes de reporting."
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -337,8 +365,8 @@ identification:
   dates:
     creation: '2017-06-27'
     publication: '2020-10-16'
-    revision: '2023-06-08'
-  edition: '3.0'
+    revision: '2024-01-10'
+  edition: 3.1.0
   identifier: https://doi.org/10.21966/v57r-g944
   keywords:
     default:
@@ -354,22 +382,34 @@ identification:
       - suivi habitat
     eov:
       en:
-      - other
       - macroalgalCanopyCoverAndComposition
       fr:
-      - Autre
       - Composition et couverture de la canopée de macroalgues
     taxa:
-      en: []
-      fr: []
+      en:
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Fucales
+      - Fucaceae
+      - Fucus
+      - Fucus distichus
+      fr:
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Fucales
+      - Fucaceae
+      - Fucus
+      - Fucus distichus
   progress_code: onGoing
   project:
   - Nearshore
-  status: published
+  status: submitted
   temporal_begin: '2017-06-27T19:00:00.000Z'
   title:
     en: Fucus Dynamics - Point Intercept Surveys - BC Central Coast
-    fr: Fucus Dynamics - Relevés ponctuels d'interception - Côte centrale de la Colombie-Britannique
+    fr: Fucus Dynamics - Levés ponctuels d'interception - Côte centrale de la Colombie-Britannique
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -378,7 +418,7 @@ identification:
 metadata:
   dates:
     publication: '2024-03-15'
-    revision: '2024-03-15T19:52:30.805Z'
+    revision: '2024-07-09T18:24:07.381Z'
   identifier: 52797e17-c0ed-46a4-9dcd-e34f801c6205
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MopPnOL2o_bshK-cKxr
@@ -395,7 +435,17 @@ spatial:
   - 51.63
   - -128.1
   - 51.67
+  description:
+    en: Rocky-shore intertidal areas in the northwestern corner of Calvert Island
+      on the central coast of British Columbia Canada.
+    fr: Zones intertidales des côtes rocheuses dans le coin nord-ouest de l'île Calvert,
+      sur la côte centrale de la Colombie-Britannique, au Canada.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   vertical:
   - -5.0
-  - 0.0
+  - 5.0
   vertical_positive: depthPositive

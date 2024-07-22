@@ -210,7 +210,7 @@ contact:
     url: https://www.hakai.org/
   roles:
   - contributor
-- inCitation: true
+- inCitation: false
   organization:
     city: Campbell River
     country: Canada
@@ -238,14 +238,42 @@ contact:
   - contributor
 distribution:
 - description:
-    en: Data files and documentation for rocky intertidal motile invertebrate surveys
-    fr: Fichiers de données et documentation pour les relevés d'invertébrés mobiles
-      intertidaux rocheux
+    en: Data files and documentation for rocky intertidal motile invertebrate surveys.
+      Contains up to version 3.0.
+    fr: Fichiers de données et documentation pour les études sur les invertébrés mobiles
+      intertidaux rocheux. Contient jusqu'à la version 3.0.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
-    en: Rocky intertidal motile invertebrate survey data from BC Central Coast
-    fr: Données d'un relevé sur les invertébrés mobiles intertidaux rocheux de la
-      côte centrale de la Colombie-Britannique
+    en: Google Drive Repository
+    fr: Référentiel Google Drive
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/drive/folders/1Gg47h8E32vdqUlyeYu0mJ0omYAByRt5s
+- description:
+    en: Data files and documentation for rocky intertidal motile invertebrate surveys
+    fr: Fichiers de données et documentation pour les études sur les invertébrés mobiles
+      intertidaux rocheux
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Github Repository
+    fr: Référentiel Github
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/nearshore-RI_motileInvertebrates/releases
 identification:
   abstract:
     en: "The motile invertebrate dataset is a component of the Hakai Institute’s Nearshore\
@@ -270,36 +298,41 @@ identification:
       \ data quality, and 2) communicate and/or collaborate with the providers if\
       \ you are considering using this dataset for manuscripts or other forms of reporting."
     fr: "L'ensemble de données sur les invertébrés mobiles fait partie du programme\
-      \ de recherche et de surveillance des zones côtières de l'Institut Hakai, conçu\
-      \ pour capturer les changements dans les habitats intertidaux rocheux. L'objectif\
-      \ général de la recherche sur la région côtière de Hakai est d'étudier le rôle\
+      \ de recherche et de surveillance du littoral de l'Institut Hakai, conçu pour\
+      \ capturer les changements dans les habitats intertidaux rocheux. L'objectif\
+      \ principal de la recherche menée par Hakai Nearshore est d'étudier le rôle\
       \ des habitats et de leurs communautés associées face au stress et aux perturbations\
-      \ dus au changement climatique mondial et aux perturbations côtières locales.\
-      \ \n\nLa communauté d'invertébrés mobiles associée à trois principaux types\
-      \ de couverture benthique intertidale rocheuse (moules, balanes et Fucus distichus)\
-      \ a été évaluée sur trois sites côtiers le long de la bordure nord-ouest de\
-      \ l'île Calvert, sur la côte centrale de la Colombie-Britannique. Tous les sites\
-      \ étaient des rivages rocheux exposés présentant des zones distinctes de moules,\
+      \ provoqués par le changement climatique mondial et les perturbations côtières\
+      \ locales. \n\nLa communauté d'invertébrés mobiles associée à trois principaux\
+      \ types de couverture benthique intertidale rocheuse (moules, bernacle et Fucus\
+      \ distichus) a été évaluée sur trois sites côtiers le long de la limite nord-ouest\
+      \ de l'île Calvert, sur la côte centrale de la Colombie-Britannique. Tous les\
+      \ sites étaient des rivages rocheux exposés avec des zones distinctes de moules,\
       \ de bernacles et d'algues Fucus distichus. Nous avons étudié l'abondance et\
-      \ la diversité de la communauté d'invertébrés mobiles au sein de parcelles permanentes\
+      \ la diversité de la communauté d'invertébrés mobiles dans des parcelles permanentes\
       \ de chaque zone. Les dénombrements dans chaque parcelle ont été effectués à\
       \ l'aide de différents quadrats et la taille a été mesurée pour un sous-ensemble\
       \ d'espèces. Les sites ont fait l'objet de relevés environ une fois par mois\
-      \ de mai à septembre, et de deux relevés hivernaux en novembre et février.\n\
+      \ de mai à septembre, et deux relevés hivernaux ont eu lieu en novembre et février.\n\
       \nCe paquet de données est accessible gratuitement à tous, conformément aux\
       \ principes d'accès équitable et de partage des avantages. Cependant, nous attendons\
-      \ de tous les utilisateurs de données qu'ils attribuent les données aux fournisseurs\
+      \ de tous les utilisateurs de données qu'ils attribuent les noms aux fournisseurs\
       \ de données (lisez notre licence de données) et l'utilisation de ces données\
-      \ doit se faire dans le respect du fair use, c'est-à-dire : 1) respecter les\
-      \ fournisseurs de données et fournir des informations utiles sur la qualité\
-      \ des données, et 2) communiquer et/ou collaborer avec les fournisseurs si vous\
-      \ envisagez d'utiliser cet ensemble de données pour des manuscrits ou d'autres\
-      \ formes de rapports."
+      \ doit se faire dans le respect d'une utilisation équitable, c'est-à-dire :\
+      \ 1) respecter les fournisseurs de données et fournir des commentaires utiles\
+      \ sur la qualité des données, et 2) communiquer et/ou collaborer avec les fournisseurs\
+      \ si vous envisagez d'utiliser cet ensemble de données pour des manuscrits ou\
+      \ d'autres formes de reporting."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2017-06-27'
     revision: '2023-06-08'
-  edition: '3.0'
+  edition: 3.1.0
   identifier: https://doi.org/10.21966/0052-wk15
   keywords:
     default:
@@ -319,29 +352,29 @@ identification:
       - suivi des espèces
     eov:
       en:
-      - other
       - invertebrateAbundanceAndDistribution
       fr:
-      - Autre
       - Abondance et distribution d'invertébrés
-    taxa:
-      en: []
-      fr: []
   progress_code: onGoing
   project:
   - Nearshore
-  status: published
+  status: submitted
   temporal_begin: '2017-06-27T19:00:00.000Z'
   title:
     en: Motile Invertebrate Surveys - BC Central Coast
-    fr: Relevés d'invertébrés mobiles - Côte centrale de la Colombie-Britannique
+    fr: Enquêtes sur les invertébrés mobiles - Côte centrale de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2022-10-08'
-    revision: '2023-06-28T21:49:33.876Z'
+    revision: '2024-07-09T21:44:50.303Z'
   identifier: 67e89414-a93f-496d-9766-9311f0d3954e
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MotWzhmBvoGPE8QZ0sf
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MotWzhmBvoGPE8QZ0sf
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -355,7 +388,17 @@ spatial:
   - 51.63
   - -128.1
   - 51.67
+  description:
+    en: Rocky-shore intertidal areas in the northwestern corner of Calvert Island
+      on the central coast of British Columbia Canada.
+    fr: Zones intertidales des côtes rocheuses dans le coin nord-ouest de l'île Calvert,
+      sur la côte centrale de la Colombie-Britannique, au Canada.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   vertical:
   - -5.0
-  - 0.0
+  - 5.0
   vertical_positive: depthPositive

@@ -195,7 +195,8 @@ contact:
   - resourceProvider
 distribution:
 - description:
-    en: Data files and supporting documentation for barnacle point intercept surveys
+    en: Data files and supporting documentation for barnacle point intercept surveys.
+      Contains datasets version up to v3.0.0.
     fr: Fichiers de données et documents à l'appui pour les levés à l'origine des
       points bernacles
     translations:
@@ -204,15 +205,32 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: Barnacle point intercept survey data from BC Central Coast
-    fr: Données du relevé d'interception de Barnacle Point sur la côte centrale de
-      la Colombie-Britannique
+    en: Google Drive Repository
+    fr: Référentiel Google Drive
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   url: https://drive.google.com/drive/folders/1Xgy0kTTXXKLWv-lE3wdoVBMv2xKrkcGo
+- description:
+    en: Data files and supporting documentation for barnacle point intercept surveys
+    fr: Fichiers de données et pièces justificatives pour les enquêtes d'interception
+      de Barnacle Point
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Github Repository
+    fr: Référentiel Github
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/nearshore-RI_barnaclePoints/releases
 identification:
   abstract:
     en: "The barnacle dynamics dataset is a component of the Hakai Institute’s Nearshore\
@@ -289,12 +307,54 @@ identification:
       fr:
       - Abondance et distribution d'invertébrés
     taxa:
-      en: []
-      fr: []
+      en:
+      - Animalia
+      - Arthropoda
+      - Maxillopoda
+      - Sessilia
+      - Balanidae
+      - Balanus
+      - Balanus glandula
+      - Animalia
+      - Arthropoda
+      - Maxillopoda
+      - Sessilia
+      - Archaeobalanidae
+      - Semibalanus
+      - Semibalanus cariosus
+      - Animalia
+      - Arthropoda
+      - Maxillopoda
+      - Sessilia
+      - Chthamalidae
+      - Chthamalus
+      - Chthamalus dalli
+      fr:
+      - Animalia
+      - Arthropoda
+      - Maxillopoda
+      - Sessilia
+      - Balanidae
+      - Balanus
+      - Balanus glandula
+      - Animalia
+      - Arthropoda
+      - Maxillopoda
+      - Sessilia
+      - Archaeobalanidae
+      - Semibalanus
+      - Semibalanus cariosus
+      - Animalia
+      - Arthropoda
+      - Maxillopoda
+      - Sessilia
+      - Chthamalidae
+      - Chthamalus
+      - Chthamalus dalli
   progress_code: onGoing
   project:
   - Nearshore
-  status: published
+  status: submitted
   temporal_begin: '2019-02-18T20:00:00.000Z'
   title:
     en: 'Barnacle Dynamics: Point Intercept Surveys - BC Central Coast'
@@ -307,7 +367,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-13'
-    revision: '2024-06-17T21:58:55.239Z'
+    revision: '2024-07-09T17:42:50.911Z'
   identifier: 85a63d5e-f00d-45c5-bcc7-ccf739381f58
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MopFSRVDPT5fj3ghLRp
@@ -335,6 +395,6 @@ spatial:
           à l'aide du service de traduction Amazon
         verified: false
   vertical:
+  - -5.0
   - 5.0
-  - 0.0
   vertical_positive: depthPositive

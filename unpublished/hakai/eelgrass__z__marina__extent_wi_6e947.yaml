@@ -1,22 +1,6 @@
 contact:
 - inCitation: true
   individual:
-    email: data@hakai.org
-    name: Hakai Geospatial Technology Team
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - pointOfContact
-  - pointOfContact
-  - custodian
-  - owner
-- inCitation: false
-  individual:
     name: Reshitnyk, Luba
     orcid: https://orcid.org/0000-0003-0282-724X
   organization:
@@ -28,18 +12,10 @@ contact:
   roles:
   - custodian
   - pointOfContact
+  - author
+  - editor
+  - principalInvestigator
 - inCitation: false
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - resourceProvider
-  - distributor
-- inCitation: true
   organization:
     city: Campbell River
     country: Canada
@@ -49,6 +25,11 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+  - distributor
+  - owner
+  - custodian
+  - principalInvestigator
+  - pointOfContact
 - inCitation: false
   organization:
     city: Vancouver
@@ -58,6 +39,21 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: true
+  individual:
+    email: Jennifer.Yakimishyn@pc.gc.ca
+    name: Yakimishyn, Jennifer
+    position: Park Ecologist
+  organization:
+    city: Regional District of Alberni-Clayoquot
+    country: Canada
+    name: Pacific Rim National Park Reserve
+    ror: https://ror.org/05qjftn62
+    url: https://www.pc.gc.ca/en/pn-np/bc/pacificrim
+  roles:
+  - author
+  - principalInvestigator
+  - editor
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
@@ -166,13 +162,27 @@ identification:
       - Autre
       - Composition et couverture des herbiers marins
     taxa:
-      en: []
-      fr: []
+      en:
+      - Plantae
+      - Tracheophyta
+      - Liliopsida
+      - Alismatales
+      - Zosteraceae
+      - Zostera
+      - Zostera marina
+      fr:
+      - Plantae
+      - Tracheophyta
+      - Liliopsida
+      - Alismatales
+      - Zosteraceae
+      - Zostera
+      - Zostera marina
   progress_code: onGoing
   project:
   - Nearshore
   - Geospatial
-  status: published
+  status: submitted
   title:
     en: Eelgrass (Z. marina) extent within the greater park ecosystem of Pacific Rim
       National Park Reserve eelgrass monitoring sites (2017, 2018) v1.0.0
@@ -187,7 +197,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-17'
-    revision: '2024-03-21T20:20:55.220Z'
+    revision: '2024-07-12T23:33:51.851Z'
   identifier: 6e947d50-8392-42ce-bff9-24b126c7cab7
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUR4a1V0N1UxYTc2U3Q
