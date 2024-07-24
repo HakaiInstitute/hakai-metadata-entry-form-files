@@ -310,7 +310,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2022-03-29T17:29:16.418Z</gco:DateTime>
+        <gco:DateTime>2024-07-24T06:30:20.683Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -377,7 +377,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -390,7 +390,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -407,7 +407,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Stage-Discharge Time Series - Calvert Island - Archived Version 1.0</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Série chronologique des rejets par étapes - Île Calvert - Version archivée 1.0</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -960,7 +960,7 @@ In natural streams it is not possible to continuously measure stream discharge, 
 
 All discharge measurements were assigned a relative uncertainty, based on fluctuations in the flow velocity profile (for area-velocity method), or based on the uncertainty in the volume of salt solution, the EC sensor resolution  and the EC sensor calibration factor (for salt dilution method). Measurements with uncertainties higher than 20%, with noise or malfunctioning conductivity sensors, or with high uncertainties in stage monitoring were excluded from further analysis. The remaining discharge-stage measurements were plotted as a power-law equation (Q = Ce*(H-h0)^A) in excel, to analyze if there were clear outliers, to determine the approximate value of h0 and to determine if the data could be fitted on one curve, or if they would fit better on a low flow and high flow curve, separated by an &#39;inflection point&#39;. After this, the rating curve equation was optimized using a non-linear least-squares fitting Python model (LMFit, 2015). A detailed description of these methods have been documented in the MSc thesis of Maartje Korver (2015). Finally, this discharge time-series was created using 5 minute average stage measurements. Extra caution must be taken when using calculated discharges greater than the highest measured discharge (noted in this file as &#39;Max measured discharge&#39; ), because the extrapolation of a rating curve beyond a set of measurements is usually highly uncertain and can greatly over or under estimate discharge. THESE DATA are provided AS IS and will continuously improve as additional discharge measurements are taken. Users should re-check for periodic updates to the rating curves and subsequent discharge files. If errors are found please contact Bill.Floyd@viu.ca.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Calcul du débit ; une composante du programme des bassins versants de Kwakshua
 
 Dans les cours d&#39;eau naturels, il n&#39;est pas possible de mesurer en continu le débit du cours d&#39;eau, c&#39;est pourquoi une approche indirecte a été utilisée, où la hauteur de la rivière (étape) a été mesurée en continu à une station de jaugeage à l&#39;aide d&#39;un transducteur de pression, avec des mesures manuelles périodiques du débit le long de la plage d&#39;étapes potentielles pour courbe nominale de décharge de l&#39;étage. Les faibles débits ont été mesurés manuellement à l&#39;aide de la méthode vitesse-surface, à l&#39;aide d&#39;un vélocimètre à courant Swoffer ou d&#39;un vélocimètre Doppler acoustique Sontek. Des débits modérés à élevés (généralement supérieurs à 1 cm) ont été mesurés à l&#39;aide de la méthode de dilution du sel, soit manuellement (sel sec), soit à distance (à partir de l&#39;automne 2015), à l&#39;aide d&#39;un système entièrement automatisé pour libérer des volumes prédéfinis de solution saline à des étapes prédéfinies de l&#39;eau en un emplacement en amont, avec des capteurs de conductivité électrique installés en permanence situés en aval, de part et d&#39;autre du courant pour mesurer la vague de sel qui le traverse. Les données sont disponibles en temps quasi réel à l&#39;aide du réseau de télémétrie Hakai (Floyd et Brunsting, 2015). Un facteur d&#39;étalonnage, requis pour la méthode de dilution au sel, a été calculé manuellement à au moins deux fois par recharge de baril de solution saline, une fois au remplissage initial et l&#39;autre avec la solution restante avant le remplissage. 
@@ -1059,7 +1059,7 @@ Toutes les mesures de débit se sont vu attribuer une incertitude relative, bas�
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUpNR0VhOVRlU210cDI</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUpNR0VhOVRlU210cDI</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1162,7 +1162,14 @@ Toutes les mesures de débit se sont vu attribuer une incertitude relative, bas�
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Watersheds</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
@@ -1200,7 +1207,7 @@ Toutes les mesures de débit se sont vu attribuer une incertitude relative, bas�
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Appropriate credit must be given to Hakai Institute and the authors of the dataset.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Un crédit approprié doit être accordé à l&#39;Institut Hakai et aux auteurs de l&#39;ensemble de données.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>

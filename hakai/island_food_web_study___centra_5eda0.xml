@@ -478,7 +478,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2022-05-05T18:03:50.918Z</gco:DateTime>
+        <gco:DateTime>2024-07-23T11:14:30.182Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -545,7 +545,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -558,7 +558,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -575,7 +575,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Island Food Web Study - Central Coast Islands (100 Islands Project) - April to July 2015, 2016, &amp; 2017</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Étude du réseau alimentaire insulaire - Îles de la côte centrale (projet 100 îles) - avril à juillet 2015, 2016 et 2017</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -2723,7 +2723,7 @@ Scripts can be accessed from https://github.com/debobrist/food-web-ibt.
 
 April through July in 2015, 2016, and 2017</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données contient des données brutes sur les isotopes stables pour divers taxons, ainsi que des données épurées utilisées pour l&#39;analyse dans Obrist et al. (2021), Les caractéristiques biogéographiques médient les subventions marines aux réseaux trophiques terrestres. Il inclut également des métadonnées pour tous les fichiers de données.
 
 Dans cette étude, nous avons évalué l&#39;enrichissement du sol, des plantes, des invertébrés et des oiseaux chanteurs à l&#39;aide d&#39;isotopes stables δ15N et δ13C, ainsi que d&#39;une mesure de l&#39;azote disponible (% N) sur 97 îles. Nous avons déterminé les effets de la taille de l&#39;île, de la biomasse de l&#39;épi, de la pente de l&#39;île et de la distance par rapport au rivage où l&#39;échantillon a
@@ -2786,7 +2786,7 @@ D&#39;avril à juillet en 2015, 2016 et 2017</lan:LocalisedCharacterString>
                   <mrs:referenceSystemIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>5831</gco:CharacterString>
+                        <gco:CharacterString>5829</gco:CharacterString>
                       </mcc:code>
                       <mcc:codeSpace>
                         <gco:CharacterString>EPSG</gco:CharacterString>
@@ -2795,7 +2795,7 @@ D&#39;avril à juillet en 2015, 2016 et 2017</lan:LocalisedCharacterString>
                         <gco:CharacterString>2012-08-10</gco:CharacterString>
                       </mcc:version>
                       <mcc:description>
-                        <gco:CharacterString>EPSG::5831 - Instantaneous Water Level depth - Depth relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                        <gco:CharacterString>EPSG::5829 - Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
                       </mcc:description>
                     </mcc:MD_Identifier>
                   </mrs:referenceSystemIdentifier>
@@ -2829,7 +2829,7 @@ D&#39;avril à juillet en 2015, 2016 et 2017</lan:LocalisedCharacterString>
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-Mv-f_0P720Bjn3KVOOt</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-Mv-f_0P720Bjn3KVOOt</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -2918,7 +2918,14 @@ D&#39;avril à juillet en 2015, 2016 et 2017</lan:LocalisedCharacterString>
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>100 Islands</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
@@ -2956,7 +2963,7 @@ D&#39;avril à juillet en 2015, 2016 et 2017</lan:LocalisedCharacterString>
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Appropriate credit must be given to Hakai Institute and the authors of the dataset.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Un crédit approprié doit être accordé à l&#39;Institut Hakai et aux auteurs de l&#39;ensemble de données.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -3074,7 +3081,7 @@ D&#39;avril à juillet en 2015, 2016 et 2017</lan:LocalisedCharacterString>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Metadata readme and methods GitHub link</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Lisez-moi des métadonnées et méthodes lien GitHub</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
@@ -3099,7 +3106,7 @@ D&#39;avril à juillet en 2015, 2016 et 2017</lan:LocalisedCharacterString>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Methods and metadata</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Méthodes et métadonnées</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>

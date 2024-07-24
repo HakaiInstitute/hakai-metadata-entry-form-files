@@ -115,6 +115,11 @@ identification:
       \ crash du programme.\n\nLes données issues du levé lidar de Discovery Island\
       \ incluent un modèle numérique de surface, des jeux de données de nuages de\
       \ points et des modèles numériques d'altitude."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2013-08-07'
@@ -138,15 +143,19 @@ identification:
       - other
       fr:
       - Autre
-    taxa:
-      en: []
-      fr: []
   progress_code: underDevelopment
+  project:
+  - Geospatial
   status: published
   temporal_begin: '2013-08-07T19:00:00.000Z'
   title:
     en: Discovery Islands LiDAR Dataset  - 2014 - British Columbia - Canada
     fr: Données LiDAR des îles Discovery - 2014 - Colombie-Britannique - Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 instruments:
 - description:
     en: laser scanner used to measure the earth’s surface topography and vegetation
@@ -161,10 +170,10 @@ instruments:
 metadata:
   dates:
     publication: '2022-03-11'
-    revision: '2022-03-11T21:23:43.606Z'
+    revision: '2024-07-23T14:15:04.152Z'
   identifier: 4fac74c8-f58c-46b0-87dc-ab70ce756880
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXR6SWM4aTRoYk9MeU0
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXR6SWM4aTRoYk9MeU0
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -177,6 +186,11 @@ metadata:
         dataset.
       fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
         de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 spatial:
   bbox:
   - -125.3704833984375

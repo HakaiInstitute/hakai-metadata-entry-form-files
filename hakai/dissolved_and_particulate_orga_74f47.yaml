@@ -21,6 +21,7 @@ contact:
   - owner
   - principalInvestigator
   - originator
+  - custodian
   - distributor
 - inCitation: true
   individual:
@@ -97,6 +98,11 @@ distribution:
 - description:
     en: Hakai Google Drive - download data and further metadata
     fr: Hakai Google Drive - télécharger des données et d'autres métadonnées
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Data package
   url: https://drive.google.com/drive/folders/17jqpyw4xOVAnqgbPYZE3nAx28IJecUsG?usp=sharing
@@ -149,6 +155,11 @@ identification:
       \ J.M., Lertzman, K.P., Floyd, W.C., Korver, M.C. (2020) Terrestrial exports\
       \ of dissolved and particulate organic carbon to nearshore ecosystems of the\
       \ Pacific coastal temperate rainforest."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2014-01-09'
@@ -173,10 +184,10 @@ identification:
       fr:
       - Carbone organique dissous
       - Autre
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
+  project:
+  - Watersheds
+  - Oceanography
   status: published
   temporal_begin: '2014-01-09T20:00:00.000Z'
   temporal_end: '2016-11-23T20:00:00.000Z'
@@ -187,13 +198,18 @@ identification:
     fr: Chimie du carbone organique dissous et particulaire pour les stations d'eau
       douce et marines de 2014 à 2016 sur les îles Calvert et Hécate, Colombie-Britannique,
       Canada. La version 1.0.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2022-03-29'
-    revision: '2022-03-29T23:18:20.375Z'
+    revision: '2024-07-24T07:05:01.275Z'
   identifier: 74f47ab6-a1ca-4aef-9115-cf2baaf87bef
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWFXb1lySHV6ZnY5ck0
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWFXb1lySHV6ZnY5ck0
   naming_authority: ca.cioos
   use_constraints:
     licence:

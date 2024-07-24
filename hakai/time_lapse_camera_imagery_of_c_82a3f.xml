@@ -982,7 +982,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2022-03-03T00:22:13.913Z</gco:DateTime>
+        <gco:DateTime>2024-07-23T12:33:41.534Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1049,7 +1049,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -1062,7 +1062,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -1079,7 +1079,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Time-lapse Camera Imagery of Calvert Island Beaches (2012-Present)</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Imagerie par caméra accélérée des plages de l&#39;île Calvert (depuis 2012)</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -2696,7 +2696,7 @@ Vantage Cameras (2015 - Present)
 Three Canon T5 (18-55mm lens) were used for the West Beach vantage cameras. Distinguished by name, they are ‘HOTEL’, ‘YANKEE’, &amp; ‘FOXTROT’. Originally configured for high-temporal resolution photogrammetry, they proved useful for repeat imaging of beach change. ‘HOTEL’ and ‘FOXTROT’ were removed in 2019. ‘YANKEE’ remains and continues to provide vantage imagery.
 Images are captured every 15 minutes between 07:00 and 19:00 local time</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Imagerie de caméra de plage time-lapse haute fréquence établie pour décrire la morphodynamique quotidienne, saisonnière et annuelle des dunes de plage sur l&#39;île Nord-Ouest de Calvert. La surveillance de l&#39;image débute en 2012 et s&#39;étend jusqu&#39;à présent à l&#39;aide de caméras de piste et de caméras de style reflex numériques à des endroits stratégiques.
 
 Caméras de plage (2012 - aujourd&#39;hui)
@@ -2798,7 +2798,7 @@ Les images sont capturées toutes les 15 minutes entre 7h00 et 19h00, heure loca
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTRPT3Q4SUJwZDBDazY</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTRPT3Q4SUJwZDBDazY</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -2895,7 +2895,14 @@ Les images sont capturées toutes les 15 minutes entre 7h00 et 19h00, heure loca
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Geospatial</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>

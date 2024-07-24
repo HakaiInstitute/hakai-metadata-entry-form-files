@@ -1,0 +1,102 @@
+abstract: "The Hakai Google Earth Engine Kelp tool (GEEK tool) was developed as a\
+  \ collaboration between the Hakai Institute, University of Victoria, and Department\
+  \ of Fisheries and Oceans to take advantage of the cloud computing capabilities\
+  \ for analyzing Landsat satellite imagery (30 m) to extract canopy-kelp extent.\
+  \ The original methodology is described in Nijland et al. 2019*. \n\nNote: This\
+  \ dataset is intended as a \u201Cview-only\u201D as we continue to improve the outputs.\
+  \ It is meant to demonstrate the utility of the Landsat archive for mapping kelp.\
+  \ These data are viewable on the GEEK webmap found here.\n\nThis data package contains\
+  \ two datasets:\n\nAnnual maximum summer extent of canopy-forming kelp (1984 - 2019)\
+  \ as rasters.\nDecadal maximum summer extent of canopy-forming kelp (1984 - 1990,\
+  \ 1991 - 2000, 2001 - 2010, 2011 - 2020)\n\nThis dataset was generated following\
+  \ changes to the original GEEK methodologies. The settings used to generate the\
+  \ rasters were image scenes with:\n\nImagescene month range = May 1 - Sept 30\n\
+  Maximum clouds in scene = 80%\nMaximum tide = 3.2 m (+0.5 MWL of Central Coast tides\
+  \ based on KIM-1 methods)\nMinimum tide = 0 m\nShoreline buffer applied to landmask\
+  \ = 1 pixel (30 m)\nMinimum NDVI* (for an individual pixel to be classified as kelp)\
+  \ = -0.05\nMinimum number of times an individual kelp pixel has be to detected as\
+  \ kelp in a single year = 30% of all detections in a given year\nMinimum K mean\
+  \ (the average of the NDVI for all pixels at a given location detected as kelp)\
+  \ = -0.05\n* NDVI = normalized difference vegetation index. \n\nThese parameters\
+  \ were chosen based on accuracy assessment using kelp extent derived from WorldView-2\
+  \ imagery (2 m) from July 2014 and August 2014. These data were resampled to 30\
+  \ m. While many of the iterations run for the tool produced very similar results,\
+  \ settings were selected that maximized kelp accuracy for the 2014 comparison. \n\
+  \nThe results of the accuracy assessment were:\n50% error of commission\n25% error\
+  \ of omission\n\nSimply put, the current methods lead to a high level of \u201C\
+  false positives\u201D but do capture kelp extent accurately when compared to the\
+  \ validation dataset. This error can be attributed to the sensitivity of using a\
+  \ single NDVI to detect kelp. We see variation of NDVI thresholds both within a\
+  \ single scene and between scenes. \n\nThe intention of the times series dataset\
+  \ is meant to account for some of this error as pixels detected only one each decade\
+  \ are removed.\n\nThis dataset is as a part of the Hakai Habitat Mapping Program.\
+  \ The overarching objective of the Hakai Habitat Mapping program is to generate\
+  \ spatial inventories of coastal habitats, investigate how these habitats are changing\
+  \ through time and the drivers of that change.\n\n*Nijland, W., Reshitnyk, L., &\
+  \ Rubidge, E. (2019). Satellite remote sensing of canopy-forming kelp on a complex\
+  \ coastline: A novel procedure using the Landsat image archive. Remote Sensing of\
+  \ Environment, 220, 41-50. doi:10.1016/j.rse.2018.10.032"
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Technology Team
+  given-names: Geospatial
+  website: https://www.hakai.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Technology Team
+  given-names: Geospatial
+  website: https://www.hakai.org
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 2a92ca16-f5c6-4362-acea-6bb5117b8d65
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_2a92ca16-f5c6-4362-acea-6bb5117b8d65
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTFUcWNIVGxwZEVLNTE
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Hakai Institute Google Drive: Readme file for Hakai Kelp GEEK Tool'
+  type: url
+  value: https://drive.google.com/drive/folders/1dsTcPq4BQ_NApt-1-5yJYdhDOR05_l9W?usp=sharing
+keywords:
+- remote sensing
+- Macrocystis pyrifera
+- habitat mapping
+- kelp
+- Nereocystis luetkeana
+- Downloadable Data
+- Landsat
+- Google Earth Engine
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Google Earth Engine Kelp Tool - Central Coast Output - Version 1.0.0
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_2a92ca16-f5c6-4362-acea-6bb5117b8d65

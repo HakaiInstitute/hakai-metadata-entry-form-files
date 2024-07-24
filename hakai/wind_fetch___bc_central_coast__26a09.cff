@@ -1,0 +1,83 @@
+abstract: "The wind fetch model provides information on the run-up distance and exposure\
+  \ for an area based on mean 2018 wind data collected from the Hakai Institute \"\
+  Lookout Hill\" weather station. The raster model has a spatial resolution of 100\
+  \ meters and more models have been developed closer to NW Calvert Island at 5 meter\
+  \ resolution. The fetch model was created using the USGS \"Wave\" tool plugin in\
+  \ ARC GIS. Created by Hakai Institute geospatial technology researcher Keith Holmes.\n\
+  Wind fetch tool:\nApplication of Wind Fetch and Wave Models for Habitat Rehabilitation\
+  \ and Enhancement Projects - 2012 Update\nBy Jason Rohweder, James T. Rogala, Barry\
+  \ L. Johnson, Dennis Anderson, Steve Clark, Ferris Chamberlin, David Potter, and\
+  \ Kip Runyon\nhttps://umesc.usgs.gov/management/dss/wind_fetch_wave_models_2012update.html\n\
+  \nWeighted Wind Data \nThe data for the fetch analysis was gathered by the Hakai\
+  \ Sensor Network using an RM Young anemometer (05103). Wind direction samples are\
+  \ taken every 5 seconds and then averaged into a single 5 minute reading. These\
+  \ 5 minute readings were downloaded into an excel file with a timestamp for each\
+  \ reading. A simple table was then generated with the proportion of wind measurements\
+  \ at Lookout (adding to 100 percent) in each 15 degree intervals for the selected\
+  \ time periods."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Holmes
+  given-names: Keith
+  orcid: https://orcid.org/0000-0001-8796-8222
+  website: https://www.hakai.org/
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Holmes
+  given-names: Keith
+  orcid: https://orcid.org/0000-0001-8796-8222
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 26a09a27-7f16-4944-b88d-8c3bf2d36f03
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_26a09a27-7f16-4944-b88d-8c3bf2d36f03
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXNDOU8zYXhRdDA3RWM
+- description: '2018 wind fetch data download and metadata: link to download the raster
+    dataset and view a metadata readme file.'
+  type: url
+  value: https://drive.google.com/drive/folders/1zk726awG7x01OR9O18gQ3vGX_xbw4A6I?usp=sharing
+keywords:
+- hakai
+- weather
+- exposure
+- fetch
+- central coast
+- wind
+- model
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Wind Fetch - BC Central Coast - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_26a09a27-7f16-4944-b88d-8c3bf2d36f03

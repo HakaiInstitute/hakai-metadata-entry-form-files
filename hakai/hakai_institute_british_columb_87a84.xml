@@ -475,7 +475,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2022-02-01T13:30:00.054Z</gco:DateTime>
+        <gco:DateTime>2024-07-23T13:38:52.066Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -542,7 +542,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -555,7 +555,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -572,7 +572,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Hakai Institute British Columbia Central Coast Fixed Platform Acoustic Doppler Current Profiler Time Series Provisional</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Série chronologique provisoire de profileurs de courant acoustique Doppler de provenant de plate-forme fixe de l&#39;Institut Hakai</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -1288,7 +1288,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>This dataset presents a collection of all the Acoustic Doppler Current Profiler (ADCP) instruments deployed by the Hakai Institute and the University of Victoria in the different study areas of the Hakai Institute near Calvert Island along the central coast of British Columbia and Quadra Island in Northern Strait of Georgia. Most of the data come from the coastal region around Calvert Island starting from February 2019. For all deployments, the instruments were deployed on a seabed bottom frame and lowered to the seabed in an upward-looking configuration. All instruments are RDI Workhorse instruments of different frequencies.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Ce jeu de données présente une collection de tous les instruments Acoustic Doppler Current Profiler (ADCP) déployés par l&#39;Institut Hakai et l&#39;Université de Victoria dans les différentes zones d&#39;étude de l&#39;Institut Hakai, près de l&#39;île Calvert, le long de la côte centrale de la Colombie-Britannique et de l&#39;île Quadra dans le nord détroit de Géorgie. La plupart des données proviennent de la région côtière autour de l&#39;île Calvert à partir de février 2019. Pour tous les déploiements, les instruments ont été déployés sur un cadre inférieur du fond marin et abaissés vers le fond marin dans une configuration orientée vers le haut. Tous les instruments sont des instruments RDI Workhorse de différentes fréquences.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -1380,7 +1380,7 @@
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MsbCMOYj2L_7dgICnzw</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MsbCMOYj2L_7dgICnzw</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1474,7 +1474,14 @@
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Oceanography</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
@@ -1512,7 +1519,7 @@
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Provisional Dataset. The ADCP data was automatically processed to adjust for the magnetic declination and automated corrections from RDI to correct for instrument tilt and fish detection. No extended review of the resulting current data was completed.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Ensemble de données provisoire. Les données ADCP ont été automatiquement traitées pour ajuster la déclinaison magnétique et les corrections automatiques du RDI pour corriger l&#39;inclinaison de l&#39;instrument et la détection des poissons. Aucun examen approfondi des données actuelles n&#39;a été effectué.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>

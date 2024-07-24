@@ -101,6 +101,11 @@ identification:
       \ Master MNT\n\nLes nuages de points LiDAR des missions effectuées en 2012 et\
       \ 2014 au-dessus de l'île Calvert ont été chargés (XYZ uniquement) dans une\
       \ classe d'entités ponctuelles d'une géodatabase ESRI."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2012-08-04'
@@ -119,10 +124,9 @@ identification:
       - other
       fr:
       - Autre
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
+  project:
+  - Geospatial
   status: published
   temporal_begin: '2012-08-04T19:00:00.000Z'
   temporal_end: '2015-07-23T19:00:00.000Z'
@@ -130,13 +134,18 @@ identification:
     en: 30m Digital Elevation Model - Calvert Island - British Columbia - Canada
     fr: Modèle numérique d'élévation de 30 m - Calvert Island - Colombie-Britannique
       - Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2022-01-20'
-    revision: '2022-01-20T00:24:41.081Z'
+    revision: '2024-07-23T14:08:49.079Z'
   identifier: 769311e9-1b1f-41f4-9023-38acf37a6690
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW1iT1oxc3AwR2Mxb24
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW1iT1oxc3AwR2Mxb24
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -149,6 +158,11 @@ metadata:
         dataset.
       fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
         de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 spatial:
   bbox:
   - -128.164675

@@ -139,7 +139,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2022-07-08T20:03:02.679Z</gco:DateTime>
+        <gco:DateTime>2024-07-23T13:31:29.600Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -206,7 +206,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -219,7 +219,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -236,7 +236,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Adjusted Koeye River stage and temperature from 2013 to 2021</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Étape et température ajustées de la rivière Koeye de 2013 à 2021</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -845,7 +845,7 @@ A second stream elevation gauge (also a Hobo U20) was installed by Hakai in late
 Analysis – 
 To calibrate the two gauge datasets we used a generalized additive model (gam) written in the statistical program R. This model assumed that residual errors followed a gaussian distribution and related the original Koeye gauge values (response variable) to the new Hakai gauge values (predictor variable). Goodness of fit was evaluated visually using residual plots. We then extrapolated the estimated relationship between the two gauge datasets to generate predictions of the old gauge height for dates after May 27, 2019 using the predict() function in R.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">La jauge d&#39;altitude de la rivière Koeye a été installée pour la première fois en septembre 2013. Cette jauge originale était un enregistreur de niveau d&#39;eau Hobo U20 et a été installée en amont du site du piège à saumoneaux sur le cours inférieur de la rivière Koeye dans un alambic construit à partir de tuyaux en PVC perforés avec un bloc de ciment comme base. Cette jauge a fonctionné plus ou moins continuellement jusqu&#39;au 27 mai 2019, date à laquelle la batterie est finalement morte. Tout au long de cette période de six ans, le manomètre original de Koeye a fourni des informations vitales sur les conditions d&#39;écoulement rencontrées par les saumons juvéniles et adultes dans la rivière Koeye, et les données d&#39;altitude du ruisseau du site ont été utilisées comme covariable dans un certain nombre d&#39;analyses, y compris la mise en relation de la survie du saumon rouge adulte et probabilité de capture de saumoneaux pendant la saison printanière de piégeage des saumoneaux par rapport au débit 
 
 Une deuxième jauge d&#39;élévation de cours d&#39;eau (également un Hobo U20) a été installée par Hakai fin août 2017. Cette jauge a été installée à l&#39;aide d&#39;un système d&#39;ancrage et de fixation permanent beaucoup plus robuste et permanent. Cette jauge continue de fonctionner, fournissant une surveillance continue des conditions d&#39;écoulement dans le cours inférieur de la rivière Koeye, mais afin d&#39;utiliser ces données dans les analyses existantes, il était nécessaire d&#39;étalonner la jauge Hakai avec l&#39;ensemble de données de jauges d&#39;origine. 
@@ -945,7 +945,7 @@ Pour calibrer les deux ensembles de données de jauge, nous avons utilisé un mo
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-N0C02Vz2evmfRBJ4dmZ</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-N0C02Vz2evmfRBJ4dmZ</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1021,7 +1021,14 @@ Pour calibrer les deux ensembles de données de jauge, nous avons utilisé un mo
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Watersheds</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>

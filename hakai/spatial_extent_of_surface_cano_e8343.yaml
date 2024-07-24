@@ -134,6 +134,11 @@ identification:
       \ pyrifera, Nereocystis luetkeana) calculée à partir de relevés effectués sur\
       \ des ailes fixes (2020-2022), côte centrale, Colombie-Britannique, Canada.\
       \ La version 1.0. Institut Hakai. Ensemble de données. [date d'accès]"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2020-07-01'
@@ -161,8 +166,36 @@ identification:
       fr:
       - Composition et couverture de la canopée de macroalgues
     taxa:
-      en: []
-      fr: []
+      en:
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Laminariales
+      - Laminariaceae
+      - Macrocystis
+      - Macrocystis pyrifera
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Laminariales
+      - Laminariaceae
+      - Nereocystis
+      - Nereocystis luetkeana
+      fr:
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Laminariales
+      - Laminariaceae
+      - Macrocystis
+      - Macrocystis pyrifera
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Laminariales
+      - Laminariaceae
+      - Nereocystis
+      - Nereocystis luetkeana
   progress_code: completed
   project:
   - Nearshore
@@ -176,18 +209,33 @@ identification:
       Central Coast, British Columbia, Canada
     fr: Étendue spatiale du varech de surface du couvert végétal dérivée de relevés
       à voilure fixe (2020-2022), côte centrale, Colombie-Britannique, Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-25'
-    revision: '2023-09-25T22:22:14.313Z'
+    revision: '2024-07-23T12:15:13.610Z'
   identifier: e8343aa0-dbea-4267-9f78-662bec08d4bc
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NbzgAmVWcvz-_SOMA0E
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NbzgAmVWcvz-_SOMA0E
   naming_authority: ca.cioos
   use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
     limitations:
       en: Data are available upon request.
       fr: Les données sont disponibles sur demande.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 platform: []
 spatial:
   polygon: -128.6,52.15 -128.5,52.23 -128.2,52.05 -128.0,51.71 -128.0,51.63 -128.2,51.62

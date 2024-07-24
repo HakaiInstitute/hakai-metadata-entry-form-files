@@ -1,0 +1,132 @@
+abstract: "This data package contains reports and datasets pertaining to mapping the\
+  \ spatial extent of eelgrass (Zostera marina) at monitoring sites within Gwaii Haanas\
+  \ National Park Reserve, National Marine Conservation Area Reserve, and Haida Heritage\
+  \ Site, located in Haida Gwaii, British Columbia, Canada. This work was a collaborative\
+  \ project between the Hakai Institute and Gwaii Haanas Parks Canada.  \n\nMonitoring\
+  \ sites were mapped using small Remotely Piloted Aerial Systems (RPAS) (DJI Phantom\
+  \ Pro 3, Pro 4) during summer low tides in 2016, 2017 and 2018. Orthomosaics were\
+  \ created using a Structure from Motion Multi-View Stereo (SfM-MVS) workflow within\
+  \ Pix4Dmapper software (Version 2.1.61, Pix4D) in Windows 10 and georeferenced using\
+  \ group control points collected concurrently during the surveys. The extent of\
+  \ eelgrass at each site was delineated using object-based image analysis (OBIA)\
+  \ with eCognition Developer software (eCognition Developer 9, 2014) and manual delineation\
+  \ (where necessary). Georeferenced towed underwater video (SplashCam Pro) data were\
+  \ collected at eelgrass monitoring sites during high tide to provide ground-truth\
+  \ data for the aerial analysis and delineation of eelgrass. \n\nThe data package\
+  \ includes:\n\n- The reports (.pdf) which describe project, data collection and\
+  \ processing methods and results for 2016,  2017 and 2018 surveys. \n- Polygon shapefiles\
+  \ (.shp) of the extent of eelgrass (Z. marina) at each monitoring site by year.\n\
+  - Point shapefiles (.shp) of classified towed underwater video transects by year.\
+  \ \n\nCoordinate system used: NAD1983 UTM Zone 9N\n\nThese data were collected as\
+  \ an ongoing partnership between Gwaii Haanas Parks Canada and the Hakai Institute.\
+  \ This data package is a component of the Hakai Institute\u2019s Habitat Mapping\
+  \ program. The overarching objective of the Hakai Habitat Mapping program is to\
+  \ generate spatial inventories of coastal habitats, investigate how these habitats\
+  \ are changing through time, and the drivers of that change. This data package is\
+  \ also a component of the National Marine Conservation Area ecological sustainability\
+  \ monitoring program of Parks Canada. The overarching goal of the program is to\
+  \ track changes in marine ecosystems, respond to environmental threats, and ensure\
+  \ ecologically sustainable use of marine resources.\n\nThe use of this dataset requires\
+  \ permission from both Gwaii Haanas Parks Canada and the Hakai Institute. \n\nPlease\
+  \ communicate and/or collaborate with Hakai and Gwaii Haanas Parks Canada if you\
+  \ are considering using this dataset for manuscripts or other forms of reporting.\n\
+  Contact luba@hakai.org or data@hakai.org for more information about data access\
+  \ and opportunities to collaborate with the Hakai Institute. \nContact lynn.lee@pc.gc.ca\
+  \ or jake.burton@pc.gc.ca for more information about data access to and opportunities\
+  \ to collaborate with Gwaii Haanas Parks Canada."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: luba.reshitnyk@hakai.org
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- affiliation: Gwaii Haanas National Park Reserve and Haida Heritage Site
+  city: Gwaii Haanas National Park Reserve and Haida Heritage Site
+  country: CA
+  email: lynn.lee@pc.gc.ca
+  family-names: Lee
+  given-names: Lynn C.
+  website: https://www.pc.gc.ca/en/pn-np/bc/gwaiihaanas
+- affiliation: Gwaii Haanas National Park Reserve and Haida Heritage Site
+  city: Gwaii Haanas National Park Reserve and Haida Heritage Site
+  country: CA
+  email: jake.burton@pc.gc.ca
+  family-names: Burton
+  given-names: Jake
+  website: https://www.pc.gc.ca/en/pn-np/bc/gwaiihaanas
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: luba.reshitnyk@hakai.org
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- affiliation: Gwaii Haanas National Park Reserve and Haida Heritage Site
+  city: Gwaii Haanas National Park Reserve and Haida Heritage Site
+  country: CA
+  email: lynn.lee@pc.gc.ca
+  family-names: Lee
+  given-names: Lynn C.
+  website: https://www.pc.gc.ca/en/pn-np/bc/gwaiihaanas
+- affiliation: Gwaii Haanas National Park Reserve and Haida Heritage Site
+  city: Gwaii Haanas National Park Reserve and Haida Heritage Site
+  country: CA
+  email: jake.burton@pc.gc.ca
+  family-names: Burton
+  given-names: Jake
+  website: https://www.pc.gc.ca/en/pn-np/bc/gwaiihaanas
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: b63374a9-2288-4512-9820-5d1b44d2b502
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_b63374a9-2288-4512-9820-5d1b44d2b502
+- description: DOI
+  type: doi
+  value: 10.21966/gv88-hv41
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NeEpZEr5wOQ_rWGa5CN
+- description: 'Data Package - Spatial extent of eelgrass (Zostera marina) meadows
+    from monitoring sites within Gwaii Haanas National Park Reserve, National Marine
+    Conservation Area Reserve, and Haida Heritage Site (2016, 2017, 2018) mapped using
+    remote piloted aerial systems (RPAS) v1.0.0: Hakai Institute Google Drive - Metadata
+    and Data Access. Requests for access should be made to authors or data@hakai.org'
+  type: url
+  value: https://drive.google.com/drive/u/0/folders/14oUrMJcK0QIHB_foP3v__FZitYOqN_Mf
+keywords:
+- Zosteraceae
+- Zostera marina
+- RPAS
+- seagrass
+- Liliopsida
+- Gwaii Haanas
+- Alismatales
+- Zostera
+- Tracheophyta
+- habitat characterization
+- Haida Gwaii
+- seagrassCoverAndComposition
+- UAV
+- Plantae
+license: CC-BY-NC-ND-4.0
+license-url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+message: If you use this software, please cite it as below
+title: Spatial extent of eelgrass (Zostera marina) meadows from monitoring sites within
+  Gwaii Haanas (2016, 2017, 2018) mapped using remote piloted aerial systems
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_b63374a9-2288-4512-9820-5d1b44d2b502
+version: '1.0'

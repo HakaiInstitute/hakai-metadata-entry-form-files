@@ -1,0 +1,132 @@
+abstract: "Bathymetric surveys were completed for six lakes on Calvert and Hecate\
+  \ Islands as part of the Kwakshua Watersheds Program. The surveys were conducted\
+  \ at different times from May to July 2016 using a canoe-mounted, location-aware\
+  \ depth sounder and by taking random manual depth measurements.  \n\nAll depth recordings\
+  \ are referenced to a survey benchmark and have been quality controlled, cleaned\
+  \ and processed in a 3D GIS environment. For each lake, bathymetry has been modeled\
+  \ by means of a 1m Natural Neighbours raster generated from a Triangulated Irregular\
+  \ Network (TIN) using survey data. The high water mark is used as reference for\
+  \ full lake volume calculations. The lake outline has been manually digitized from\
+  \ high resolution orthophotos.\n\nBathymetry TIN models have been produced for each\
+  \ lake by using the manually digitized lake outlines as a \u201Chard clip\u201D\
+  \ interpolator of depth = 0, and using normalized (referenced on the vertical to\
+  \ a common benchmark) pre-processed and cleaned depth sounder and manual depth-reading\
+  \ survey data (depth) as mass points. \n\nThe surveyed lakes are the following:\n\
+  Major lake within watershed 708 on Calvert Island.\nMajor lake within watershed\
+  \ 1015 on Hecate Island.\nA system of four interconnected lakes within watershed\
+  \ 693 on Calvert Island. \n\nThis dataset contains two layers of information: \n\
+  1m depth contours for all lakes merged into the same layer to allow for symbolization\
+  \ and comparison of all lakes on the same vertical scale\nSurveyed lake outline\
+  \ polygons manually digitized from high resolution (25cm) orthophotos acquired in\
+  \ 2012. \n\nAll data processing has been undertaken using ESRI\u2019s ArcGIS 10.3\
+  \ platform (ArcMap and ArcScene). \n\nAuthor Contributions: Santiago Gonzalez Arriola\
+  \ did all geospatial data processing and produced the final data and map products.\
+  \ Maartje Korver lead the the field data collection and initial data management.\
+  \ Wayne Jacob developed the depth sounder instrument and data logger. Ian Giesbrecht\
+  \ co-conceptualized the project with Suzanne Tank and Allison Oliver, and supervised\
+  \ implementation of field and geospatial aspects. Several members of the Hakai Geospatial\
+  \ Technologies team made important contributions, including Will McInnes, Matt Foster,\
+  \ Ray Brunsting and Keith Holmes.\n\nFor stage-volume tables, volume equations and\
+  \ further details on the methodologies employed in the survey and processing of\
+  \ the data please contact data@hakai.org\n\nSuggested citation:\nGonzalez Arriola,\
+  \ S., M. Korver, W. Jacob and I. Giesbrecht. 2016. Bathymetry for six lakes on Calvert\
+  \ and Hecate Islands, British Columbia. Hakai Institute Data Package. https://doi.org/10.21966/fcwf-p919"
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: santiago@hakai.org
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+  orcid: https://orcid.org/0000-0001-8869-5481
+  website: https://www.hakai.org/
+- family-names: Korver
+  given-names: Maartje C.
+  orcid: https://orcid.org/0000-0003-1062-4864
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: wayne.jacob@hakai.org
+  family-names: Jacob
+  given-names: Wayne
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: ian.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian
+  orcid: https://orcid.org/0000-0001-7013-4766
+  website: https://www.hakai.org/
+- address: 1002 Wharf Street - Suite 100, V8W 1T4
+  affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: santiago@hakai.org
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+  orcid: https://orcid.org/0000-0001-8869-5481
+  website: https://www.hakai.org/
+- address: 1002 Wharf Street - Suite 100, V8W 1T4
+  affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: b52d5602-f81d-4565-9574-e448e99bc997
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_b52d5602-f81d-4565-9574-e448e99bc997
+- description: DOI
+  type: doi
+  value: 10.21966/fcwf-p919
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWxuNHhkYXVuNlFDSVY
+- description: 'Online map: Hakai''s AGOL Instance is the platform for Access and
+    online use of this dataset'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=b0e832a7597b40fba04d64934f02b8a8
+- description: 'Data package: Calvert Island Lake Bathymetry Data Download - RASTER
+    - and readme metadata'
+  type: url
+  value: https://drive.google.com/drive/folders/1heQoHoLncElNXOIwe2D332ZvSpdwPFnG?usp=sharing
+keywords:
+- hakai
+- calvert
+- depth
+- Downloadable Data
+- Lakes
+- watersheds
+- other
+- Survey
+- Bathymetry
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Bathymetry for Six Lakes on Calvert and Hecate Islands - 2016 - British Columbia
+  - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_b52d5602-f81d-4565-9574-e448e99bc997

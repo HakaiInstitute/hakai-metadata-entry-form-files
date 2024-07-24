@@ -1,0 +1,121 @@
+abstract: "This data package contains data associated with the manuscript St. Pierre\
+  \ et al. (2020), to be submitted to Biogeosciences. Data in this package characterise\
+  \ spatial and temporal variability in nutrient (nitrogen, phosphorus, iron, silica)\
+  \ and dissolved organic carbon (DOC) concentrations in seven freshwater streams\
+  \ on Calvert and Hecate Islands, and the surface (0-5 m) waters at 13 marine stations\
+  \ within Meay and Kwakshua Channels on the British Columbia Central Coast. Briefly,\
+  \ the streams and marine stations were sampled at approximately monthly intervals\
+  \ between August 2014 and December 2018. Detailed information on sampling protocols,\
+  \ sample analysis, and data processing can be found in St. Pierre et al. (2020).\n\
+  \nThere are 4 datasets associated with this package. Data dictionaries associated\
+  \ with each dataset are included in the \u2018Data dictionary.xlsx\u2019 spreadsheet.\
+  \ Methodological information is detailed in St. Pierre et al. (2020). Each dataset\
+  \ is described below: \n\u2018Freshwater Chemistry (2014-2018) - Final.csv\u2019\
+  : Concentrations of nutrients and dissolved organic carbon in mg/L. Used with discharge\
+  \ data to calculate stream fluxes.  \n\u2018All watershed nutrient fluxes - Final.csv\u2019\
+  : Daily nutrient and organic carbon fluxes by watershed between 1-Aug-2014 and 31-Dec-2018.\
+  \ Also includes stoichiometric ratios of the fluxes. \n\u2018Marine Nutrient + YSI\
+  \ data - Final.csv\u2019: Measured surface water (0-5 m) nutrient and dissolved\
+  \ organic carbon chemistry across 13 marine stations in Kwakshua and Meay Channels.\
+  \  \n\u2018Watershed Time Series - Rain and Air Temp.csv\u2019: Watershed-specific\
+  \ monthly mean, minimum, and maximum air temperature and total monthly rainfall.\
+  \ Climate normals, model monthly temperature and precipitation were extracted from\
+  \ climatewna.com (Wang et al. 2016) using the weather station coordinates for comparison\
+  \ with the measured quantities and are also included.  \n\nDetailed methodology\
+  \ is found in:   \nSt. Pierre, K.A., Hunt, B.P.V, Tank, S.E., Giesbrecht, I., Floyd,\
+  \ W.C., Korver, M.C., Lertzman, K. (2020) Rain-fed streams dilute inorganic nutrients\
+  \ but subsidise organic matter-associated nutrients in coastal waters of the northeast\
+  \ Pacific Ocean. [To be submitted to Biogeosciences]\n\nAssociated are the discharge\
+  \ dataset (Korver et al. 2019a) and stream rainfall event sampling dataset (Korver\
+  \ et al. 2019b). Stream rainfall event chemistry is integrated into the \u2018Freshwater\
+  \ Chemistry (2014-2018) Final.csv\u2019 dataset."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: kstpier4@uottawa.ca
+  family-names: St. Pierre
+  given-names: Kyra
+  orcid: https://orcid.org/0000-0003-0981-920X
+  website: https://www.hakai.org/
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  family-names: Hunt
+  given-names: Brian P. V.
+  orcid: https://orcid.org/0000-0003-4718-4962
+  website: https://www.ubc.ca/
+- family-names: Tank
+  given-names: Suzanne
+  orcid: https://orcid.org/0000-0002-5371-6577
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: ian.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian
+  orcid: https://orcid.org/0000-0001-7013-4766
+  website: https://www.hakai.org/
+- family-names: Floyd
+  given-names: William
+  orcid: https://orcid.org/0000-0001-7487-5721
+- family-names: Korver
+  given-names: Maartje C.
+  orcid: https://orcid.org/0000-0003-1062-4864
+- family-names: Oliver
+  given-names: Allison A.
+- family-names: Lertzman
+  given-names: Ken
+  orcid: https://orcid.org/0000-0002-4211-2188
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: ian.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian
+  orcid: https://orcid.org/0000-0001-7013-4766
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 6844547c-708e-437b-aef7-157b4d9d9bcb
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_6844547c-708e-437b-aef7-157b4d9d9bcb
+- description: DOI
+  type: doi
+  value: 10.21966/n0h9-cq15
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW9FaWlnNDM5TVFnV0I
+- description: 'Data package: Data Package'
+  type: url
+  value: https://drive.google.com/drive/folders/1KiUfZOUuRqTdTIKJM4Xc0iQV21s7rdel?usp=sharing
+keywords:
+- carbon
+- dissolvedOrganicCarbon
+- Biogeochemistry
+- watersheds
+- oceanography
+- nutrients
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Nutrient and dissolved organic carbon in fresh and marine waters of Kwakshua
+  Channel, British Columbia, Canada. Version 1.0.
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_6844547c-708e-437b-aef7-157b4d9d9bcb
+version: '1.0'

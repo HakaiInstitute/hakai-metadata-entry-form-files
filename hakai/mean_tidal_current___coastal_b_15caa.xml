@@ -688,7 +688,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2022-01-19T22:36:58.001Z</gco:DateTime>
+        <gco:DateTime>2024-07-23T14:08:33.632Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -755,7 +755,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -768,7 +768,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -785,7 +785,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Mean Tidal Current - Coastal British Columbia - Canada</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Courant de marée moyen - Côte de la Colombie-Britannique - Canada</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -1016,7 +1016,7 @@ No data value: -3.40282306074e+038
 Dataset created by:
 Dr. Mike Foreman (DFO) / The British Columbia Marine Conservation Analysis (BCMCA), a Tides Canada Initiatives Project - Foreman, M.G.G., W.R. Crawford, J.Y. Cherniawsky, R.F. Henry and M.R. Tarbotton. A high-resolution assimilating tidal model for the northeast Pacific Ocean. Journal of Geophysical Research. 2000. Pages 105:28, 629-28, 652., and the Hakai Institute.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Courants de marée est une couche raster dans laquelle chaque pixel représente la vitesse moyenne quadratique moyenne quadratique (RMS) des marées (m/s) sur un grand nombre de cycles de marée. Résolution raster 500 x 500 m. Données de 2008. Les données originales ont été fournies par la BCMCA et projetées à BC Albers - reprojetées pour une utilisation en ligne dans WGS84 Web Mercator Auxiliary Sphere par Keith Holmes. Plus d&#39;informations sur les données originales et le modèle utilisés dans Foreman et al, 2000.
 
 Le but de cet ensemble de données est d&#39;identifier les vitesses de marée RMS dans la ZEE du Canadien Pacifique afin d&#39;aider à éclairer la caractéristique physique identifiée dans le rapport physique de la BCMCA. Données présentées sous forme d&#39;unités de planification de 2 km x 2 km pour l&#39;analyse MARXAN.
@@ -1130,7 +1130,7 @@ Dr Mike Foreman (MPO)/The British Columbia Marine Conservation Analysis (BCMCA),
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXZtOVowU1p6eWZsSUE</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXZtOVowU1p6eWZsSUE</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1210,10 +1210,20 @@ Dr Mike Foreman (MPO)/The British Columbia Marine Conservation Analysis (BCMCA),
           <mri:keyword>
             <gco:CharacterString>subSurfaceCurrents</gco:CharacterString>
           </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>other</gco:CharacterString>
+          </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Courants sous-marins</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Autre</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -1227,7 +1237,17 @@ Dr Mike Foreman (MPO)/The British Columbia Marine Conservation Analysis (BCMCA),
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Geospatial</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Oceanography</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
@@ -1265,7 +1285,7 @@ Dr Mike Foreman (MPO)/The British Columbia Marine Conservation Analysis (BCMCA),
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Appropriate credit must be given to the authors of the dataset.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Un crédit approprié doit être accordé aux auteurs de l&#39;ensemble de données.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>

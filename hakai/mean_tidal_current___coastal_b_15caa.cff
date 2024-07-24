@@ -1,0 +1,119 @@
+abstract: 'Tidal Currents is a raster layer where each pixel represents root mean
+  square (RMS) average tidal speeds (m/s) over a large number of tidal cycles. Raster
+  resolution 500 by 500 m. Data from 2008. Original data was provided by BCMCA, and
+  projected to BC Albers- reprojected for online use in WGS84 Web Mercator Auxiliary
+  Sphere by Keith Holmes. More information about the original data and model used
+  in Foreman et al, 2000.
+
+
+  The purpose of this dataset is to identify RMS tidal speeds within the Canadian
+  Pacific EEZ to help inform the physical feature identified in the BCMCA Physical
+  Report. Data presented as 2 km x 2 km planning units for MARXAN analysis.
+
+
+  Root Mean Square (RMS) of tidal speeds. RMS tidal speed is output from a 3-D diagnostic
+  circulation model for the Northeastern Pacific Ocean (Dr. Mike Foreman, Department
+  of Fisheries and Oceans). The modelled tidal speeds are barotropic, meaning density
+  is not taken into account. The points extracted from this model were displayed and
+  then converted into a raster.
+
+
+  Metadata File: http://bcmca.ca/datafiles/individualfiles/bcmca_eco_physical_hightidalcurrent_marxan_metadata.htm
+
+
+  Dr. Mike Foreman (DFO) / The British Columbia Marine Conservation Analysis (BCMCA),
+  a Tides Canada Initiatives Project
+
+
+  Publication Date: 2008
+
+
+  The British Columbia Marine Conservation Analysis (BCMCA) is a collaborative project
+  assembling and analyzing spatial information about Canada''s Pacific Ocean. The
+  overall goal of the BCMCA is to identify marine areas of high conservation value
+  and marine areas important to human use. Results of the project are intended to
+  inform and help advance marine planning initiatives in BC by providing collaborative,
+  peer-reviewed scientific analyses based on the best ecological and human use spatial
+  data at scales relevant to a BC coast-wide analysis.
+
+
+  Foreman, M.G.G., W.R. Crawford, J.Y. Cherniawsky, R.F. Henry and M.R. Tarbotton.
+  A high-resolution assimilating tidal model for the northeast Pacific Ocean. Journal
+  of Geophysical Research. 2000. Pages 105:28, 629-28, 652.
+
+
+  No data value: -3.40282306074e+038
+
+
+  Dataset created by:
+
+  Dr. Mike Foreman (DFO) / The British Columbia Marine Conservation Analysis (BCMCA),
+  a Tides Canada Initiatives Project - Foreman, M.G.G., W.R. Crawford, J.Y. Cherniawsky,
+  R.F. Henry and M.R. Tarbotton. A high-resolution assimilating tidal model for the
+  northeast Pacific Ocean. Journal of Geophysical Research. 2000. Pages 105:28, 629-28,
+  652., and the Hakai Institute.'
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Technology Team
+  given-names: Geospatial
+- affiliation: Hakai Institute
+  country: CA
+  email: keith.holmes@hakai.org
+  family-names: Holmes
+  given-names: Keith
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+- country: CA
+  name: Hakai Research Institute
+- affiliation: The British Columbia Marine Conservation Analysis
+  family-names: Foreman
+  given-names: Mike
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Technology Team
+  given-names: Geospatial
+- affiliation: Hakai Institute
+  country: CA
+  email: keith.holmes@hakai.org
+  family-names: Holmes
+  given-names: Keith
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 15caa6c8-be9b-4f19-81ae-bb82321eafd6
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_15caa6c8-be9b-4f19-81ae-bb82321eafd6
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXZtOVowU1p6eWZsSUE
+- description: 'ArcGIS Online Reference Layer (restricted access): Hakai''s AGOL Instance
+    is the platform for Access and online use of this dataset / reference layer'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=d9c19fa842f34430bd5869005b579884
+keywords:
+- tidal
+- speed
+- tide
+- upwelling
+- water
+- Downloadable Data
+- oceanography
+- current
+- subSurfaceCurrents
+- other
+- ocean
+- coast
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Mean Tidal Current - Coastal British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_15caa6c8-be9b-4f19-81ae-bb82321eafd6

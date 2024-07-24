@@ -1,0 +1,106 @@
+abstract: "This Digital Elevation Model (DEM) has been created from Hakai's Master\
+  \ Terrain Dataset (MTD) by means of the \u201CTerrain to raster\u201D tool in ESRI's\
+  \ ArcGIS for Desktop using a Natural Neighbour sampling method. The DEM has been\
+  \ natively created at 3m resolution. This DEM has been clipped to a 10m buffer from\
+  \ the shoreline. A combination of different elevations around the island have been\
+  \ used to create the shoreline. \n\nThe resulting DEM is a bare earth, hydro-flattened\
+  \ elevation model and therefore considered \"topographically complete\". Each pixel\
+  \ represents the elevation in meters above average sea level of the bare earth at\
+  \ that location. The vertical reference system is \"Canadian Geodetic Vertical Datum\
+  \ 1928\" (CGVD28). \n\nHakai has produced DEM's at different resolutions natively\
+  \ directly from the LiDAR data MTD. Please use the appropriate resolution product\
+  \ from those produced by Hakai for your research purposes. In order to maintain\
+  \ homogeneity, up-sampling / up-scaling from higher resolution products is not recommended\
+  \ as it may introduce and propagate errors of varying magnitudes into the analyses\
+  \ being conducted; please use products already available, and if you require a resolution\
+  \ not available contact data@hakai.org in order to obtain a DEM produced directly\
+  \ from the MTD. \n\nThe following Topographically Complete DEMs have been produced\
+  \ natively from the DTM by Hakai:\n\n3m Topographically Complete DEM. This product\
+  \ has been used to produce Hakai's hydrologic datasets (Streams and Watersheds)\n\
+  20m Topographically Complete DEM. Compatible with Hakai's Vegetation Canopy Metrics\
+  \ and associated rasters.\n25m Topographically Complete DEM. Compatible with BCGov\
+  \ TRIM data products.\n30m Topographically Complete DEM. Compatible with STRM products.\n\
+  \nMaster Terrain Dataset Creation:\n\nLiDAR point clouds from missions flown on\
+  \ 2012 and 2014 over Calvert Island where loaded (XYZ only) into a point feature\
+  \ class in an ESRI Geodatabase.\n\nOnly ground (Class 2) returns where loaded onto\
+  \ the geodatabase.\n\nESRI \u201Cterrain dataset\u201D was created within the same\
+  \ geodatabase using the LiDAR points as embedded masspoints.\n\nTEM Plus lakes and\
+  \ ponds with average elevation values over the waterbodies\u2019 mirrors were used\
+  \ as hard replace breaklines to achieve hydro-flattening.\n\nThe minimum bounding\
+  \ geometry of all contiguous LAS files\u2019 extents was used as a soft clip mask\
+  \ in the creation of the terrain dataset as project boundary.\n\nThe horizontal\
+  \ coordinate system and datum employed for the terrain dataset is: UTM Zone 9 NAD1983;\
+  \ the vertical reference system was set to CGVD28. Both reference systems correspond\
+  \ to the native reference system of the LiDAR point clouds.\n\nThe minimum point\
+  \ spacing defined during terrain dataset building was set to 1."
+authors:
+- address: 1002 Wharf Street - Suite 100, V8W 1T4
+  affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+  website: https://www.hakai.org/
+- family-names: Frazer
+  given-names: Gordon W.
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+contact:
+- address: 1002 Wharf Street - Suite 100, V8W 1T4
+  affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: f7538807-4d49-4ed8-ad36-836c0e71428a
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_f7538807-4d49-4ed8-ad36-836c0e71428a
+- description: DOI
+  type: doi
+  value: 10.21966/RZVW-4A72
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW13R3BBSGRER2ZkYnM
+- description: 'Data package: Hakai''s repository for downloading raw data files.
+    Restricted access.'
+  type: url
+  value: https://drive.google.com/open?id=0B-Q2IQtbEgU4Q3BfTlZ1MnR5VlU
+- description: 'Online map: Hakai''s AGOL Instance is the platform for Access and
+    online use of this dataset'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=9d546a23cf1b4e9ba65536cbf2b767a8
+keywords:
+- Downloadable Data
+- watersheds
+- Calvert Island
+- Topography
+- other
+- elevation
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: 3m Digital Elevation Model - Calvert Island - British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_f7538807-4d49-4ed8-ad36-836c0e71428a

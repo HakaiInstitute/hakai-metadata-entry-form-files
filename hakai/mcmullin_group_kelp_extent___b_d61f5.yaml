@@ -94,6 +94,11 @@ identification:
       Phantom 3 équipé d'un RVB 4K de qualité commerciale. Les polygones de lit de
       varech ont été créés à l'aide de E-Cognition Developer (voir méthodes UAS ci-jointes).
       Les polygones ont ensuite été classés manuellement dans ArcGIS 10.5.1.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     publication: '2018-06-22'
@@ -116,25 +121,58 @@ identification:
     eov:
       en:
       - other
-      - macroalgalCanopyCoverAndComposition
       fr:
       - Autre
-      - Composition et couverture de la canopée de macroalgues
     taxa:
-      en: []
-      fr: []
+      en:
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Laminariales
+      - Laminariaceae
+      - Macrocystis
+      - Macrocystis pyrifera
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Laminariales
+      - Laminariaceae
+      - Nereocystis
+      - Nereocystis luetkeana
+      fr:
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Laminariales
+      - Laminariaceae
+      - Macrocystis
+      - Macrocystis pyrifera
+      - Chromista
+      - Ochrophyta
+      - Phaeophyceae
+      - Laminariales
+      - Laminariaceae
+      - Nereocystis
+      - Nereocystis luetkeana
   progress_code: completed
+  project:
+  - Geospatial
   status: published
   title:
     en: McMullin Group Kelp Extent - Based on UAS Imagery - 2017
     fr: Étendue du varech du groupe McMullin - D'après l'imagerie UAS - 2017
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2022-03-03'
-    revision: '2022-03-03T00:07:56.266Z'
+    revision: '2024-07-23T12:31:03.254Z'
   identifier: d61f51c3-7614-465f-bf27-c78986ca07c3
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTNoNHEyQ0g1c3VIbGE
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTNoNHEyQ0g1c3VIbGE
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -147,6 +185,11 @@ metadata:
         dataset.
       fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
         de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 platform: []
 spatial:
   bbox:

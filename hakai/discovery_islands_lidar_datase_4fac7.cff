@@ -1,0 +1,91 @@
+abstract: "Three LiDAR mission areas were flown on August 7th to cover all of Savary\
+  \ Island and portions of Quadra Island. The Quadra North West zone covers Small\
+  \ Inlet and Waiatt Bay / Octopus Islands area; Quadra South covers surge narrows\
+  \ to Village Lake and Heriot Bay.  \n\nDates: Aug. 7, 2014\nConducted by: UNBC LiDAR\
+  \ Research Group\nArea Covered: 8.75 km^2 (Savary Island), 14.35 km^2 (Quadra NW),\
+  \ 47.71 km^2 (Quadra South).\nFlight Height: 475 m\nProjection: UTM Zone 10\nDatum:\
+  \ CSRS NAD 83\nGeoid: Ellipdoid heights\nAverage Point Density: 12.5 pts / m2 (Savary\
+  \ Island), 18.2 pts / m2 (Quadra NW), 20.1 pts / m2 (Quadra South).\nLiDAR points\
+  \ were processed in CSRS NAD83 UTM Zone 10, but use ELLIPSOID heights. Conversion\
+  \ to CGVD28 was completed after DEM creation using GPS-H.\nScanner Type: Riegl VQ-580\n\
+  Supervisor: Brian Menounos\nTechnician: Rob Vogt\nPrecise trajectory for the plane\
+  \ is solved using PosPac MMS. A calibration line across the base station both before\
+  \ and after the survey was used to aid in forward and reverse processing of the\
+  \ trajectory.\nPrecise location for the base station was adjusted using NR Can's\
+  \ PPP. Position accuracy of the trajectory is \xB13 cm.\n\nThere is a GNSS station\
+  \ established on Quadra Island as part of the Western Canada Deformation Array (WCDA)\
+  \ and the Canadian Active Control System (CACS). This station, approximately 40\
+  \ km away, was used as the base station of flights of Savary Island. Further information\
+  \ on the station can be found at http://webapp.geod.nrcan.gc.ca/geod/data-donnees/station/report-rapport.php?id=M067000\n\
+  Precise trajectory for the plane is solved using PosPac MMS. A calibration line\
+  \ across the base station both before and after the survey was used to aid in forward\
+  \ and reverse processing of the trajectory.\nPosition accuracy of the trajectory\
+  \ is \xB15 cm.\nLiDAR points were processed in CSRS NAD83 UTM Zone 9, but use ELLIPSOID\
+  \ heights. Conversion\nto CGVD28 was completed after DEM creation using GPS-H. Attempts\
+  \ at converting the point cloud to\ngeoid heights resulted in a program crash.\n\
+  \nData outputs from the Discovery Island lidar survey include a digital surface\
+  \ model, las point cloud datasets, and digital elevation models."
+authors:
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  family-names: LiDAR Research Group
+  given-names: UNBC
+  website: https://www.hakai.org
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+cff-version: 1.2.0
+contact:
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  family-names: LiDAR Research Group
+  given-names: UNBC
+  website: https://www.hakai.org
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 4fac74c8-f58c-46b0-87dc-ab70ce756880
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_4fac74c8-f58c-46b0-87dc-ab70ce756880
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXR6SWM4aTRoYk9MeU0
+- description: 'Google Drive Folder for the Hakai Institute (for access contact data@hakai.org):
+    2014 Savery Island LiDAR Acquisition'
+  type: url
+  value: https://drive.google.com/file/d/0Byed_WX-ZNMaVFBkNnNORHFJeGM/view?usp=sharing&resourcekey=0-XXGNP4cVC5eJ7SJz9EgjLw
+- description: 'Google Drive Folder for the Hakai Institute (for access contact data@hakai.org):
+    2014 Quadra Island Acquisition'
+  type: url
+  value: https://drive.google.com/file/d/0Byed_WX-ZNMaY3RHQ1dtOHJMLTA/view?usp=sharing&resourcekey=0-aQrEjKGSWU53DU5rw65dKg
+keywords:
+- Quadra
+- lidar
+- DEM
+- LiDAR
+- Savery
+- topography
+- discovery
+- island
+- archaeology
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Discovery Islands LiDAR Dataset  - 2014 - British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_4fac74c8-f58c-46b0-87dc-ab70ce756880

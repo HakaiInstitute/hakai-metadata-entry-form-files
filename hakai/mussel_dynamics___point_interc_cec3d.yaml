@@ -202,10 +202,20 @@ distribution:
     en: Data files and documentation for mussel point intercept surveys
     fr: Fichiers de données et documentation pour les relevés des points d'interception
       des moules
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Mussel point intercept survey data from BC Central Coast
     fr: Données du relevé d'interception de Mussel Point sur la côte centrale de la
       Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/drive/folders/1DSCL2GwEltXMUuVxrFOOi9h-llFo6bjL
 identification:
   abstract:
@@ -281,8 +291,22 @@ identification:
       - Autre
       - Abondance et distribution d'invertébrés
     taxa:
-      en: []
-      fr: []
+      en:
+      - Animalia
+      - Mollusca
+      - Bivalvia
+      - Mytilida
+      - Mytilidae
+      - Mytilus
+      - Mytilus californianus
+      fr:
+      - Animalia
+      - Mollusca
+      - Bivalvia
+      - Mytilida
+      - Mytilidae
+      - Mytilus
+      - Mytilus californianus
   progress_code: onGoing
   project:
   - Nearshore
@@ -291,13 +315,18 @@ identification:
   title:
     en: Mussel Dynamics - Point Intercepts - BC Central Coast
     fr: Mussel Dynamics - Points intercepts - Côte centrale de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2022-10-08'
-    revision: '2023-06-28T22:07:04.806Z'
+    revision: '2024-07-23T10:55:50.469Z'
   identifier: cec3dcef-8dba-4d91-aee6-b60ce416497c
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MotaGdFmX3xEvWjXQA5
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MotaGdFmX3xEvWjXQA5
   naming_authority: ca.cioos
   use_constraints:
     licence:

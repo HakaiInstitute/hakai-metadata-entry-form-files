@@ -1,0 +1,94 @@
+abstract: "This DEM has been created from Hakai's Master Terrain Dataset (MTD) by\
+  \ means of the \u201CTerrain to raster\u201D tool in ESRI's ArcGIS for Desktop using\
+  \ a Natural Neighbour sampling method. The DEM has been natively created at 25m\
+  \ resolution. This DEM has been clipped to the shoreline of the island. A combination\
+  \ of different elevations around the island have been used to create the shoreline.\
+  \ \n\t\t\nThe resulting DEM is a bare earth, hydro-flattened elevation model and\
+  \ therefore considered \"topographically complete\". Each pixel represents the elevation\
+  \ in meters above average sea level of the bare earth at that location. The vertical\
+  \ reference system is \"Canadian Geodetic Vertical Datum 1928\" (CGVD28). \n\nHakai\
+  \ has produced DEM's at different resolutions natively directly from the LiDAR data\
+  \ MTD. Please use the appropriate resolution product from those produced by Hakai\
+  \ for your research purposes. In order to maintain homogeneity, up-sampling / up-scaling\
+  \ from higher resolution products is not recommended as it may introduce and propagate\
+  \ errors of varying magnitudes into the analyses being conducted; please use products\
+  \ already available, and if you require a resolution not available contact data@hakai.org\
+  \ in order to obtain a DEM produced directly from the MTD. \n\nThe following Topographically\
+  \ Complete DEMs have been produced natively from the DTM by Hakai: \n\nMaster Terrain\
+  \ Dataset Creation:\n\nLiDAR point clouds from missions flown on 2012 and 2014 over\
+  \ Calvert Island where loaded (XYZ only) into a point feature class in an ESRI Geodatabase.\
+  \ \n\nOnly ground (Class 2) returns where loaded onto the geodatabase.\n\nESRI \u201C\
+  terrain dataset\u201D was created within the same geodatabase using the LiDAR points\
+  \ as embedded masspoints.\n\nTEM Plus lakes and ponds with average elevation values\
+  \ over the waterbodies\u2019 mirrors were used as hard replace breaklines to achieve\
+  \ hydro-flattening.\n\nThe minimum bounding geometry of all contiguous LAS files\u2019\
+  \ extents was used as a soft clip mask in the creation of the terrain dataset as\
+  \ project boundary.\n\nThe horizontal coordinate system and datum employed for the\
+  \ terrain dataset is: UTM Zone 9 NAD1983; the vertical reference system was set\
+  \ to CGVD28. Both reference systems correspond to the native reference system of\
+  \ the LiDAR point clouds."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+  orcid: https://orcid.org/0000-0001-8869-5481
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+  orcid: https://orcid.org/0000-0001-8869-5481
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 5feb907e-e63e-4172-94ae-831fbe92aee5
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_5feb907e-e63e-4172-94ae-831fbe92aee5
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWtqcjFNTUo0aFJWUkI
+- description: 'Hakai Geospatial Data Repository: Hakai''s repository for downloading
+    raw data files.'
+  type: url
+  value: https://drive.google.com/file/d/0B-Q2IQtbEgU4VnpZYWhyenQxRVE/view?usp=sharing&resourcekey=0-jf09NgkMegasqO737e_ZoA
+- description: 'ArcGIS Online Reference Layer (restricted access): Hakai''s AGOL Instance
+    is the platform for Access and online use of this dataset'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=3b153c28302048caafa419ec9578e4db
+keywords:
+- Downloadable Data
+- Calvert Island
+- Topography
+- other
+- elevation
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: 25m Digital Elevation Model - Calvert Island - British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_5feb907e-e63e-4172-94ae-831fbe92aee5

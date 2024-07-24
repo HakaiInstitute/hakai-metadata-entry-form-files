@@ -1,0 +1,90 @@
+abstract: 'Orthomosaics of long-term intertidal monitoring sites on NW Calvert Island
+  were created using unoccupied aerial systems (UAS). Subsequently, a digital elevation
+  model and elevation point cloud were generated for each site.
+
+
+  Imagery was captured for each site with a DJI Phantom 3 Pro UAS. The survey design
+  followed a grid pattern to ensure coverage of the entire study area with a minimum
+  80% overlap between images. To geolocate the images, 6-10 ground control points
+  were surveyed with a Topcon GR-5 real-time kinematic (RTK) GPS.
+
+
+  Near infrared imagery(NIR) was also captured at the North Beach site with a MAPIR
+  Survey 2 camera. The MAPIR is a low-resolution modified camera that captures imagery
+  in the NIR and Red bands. The camera is mounted to the Phantom 3 and operated manually.
+  The MAPIR images are processed to create an imagery mosaic with Pix4D. The imagery
+  is then radiometrically calibrated using the empirical line method with grey and
+  white targets. A spectroradiometer has NOT been used to assess the accuracy of the
+  imagery calibration.
+
+
+  The difference vegetation index (DVI) is calculated to remove the effects of illumination,
+  and to emphasize vegetation signatures. The DVI is calculated as NIR-R.
+
+
+  For a specific list of sites, see the attached documentation.'
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: McInnes
+  given-names: Will
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+- country: CA
+  email: data@hakai.org
+  name: Hakai Research Institute
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: McInnes
+  given-names: Will
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: be16603d-e383-4af4-9e93-7a36a086688e
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_be16603d-e383-4af4-9e93-7a36a086688e
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVlwc1pEdzNqdGdOSGM
+- description: 'Hakai Institute Google Drive: Site Name and Flight information'
+  type: url
+  value: https://drive.google.com/file/d/1Apf3RZsdnZ6wfRBJ73jKAyqU8a7CsbNf/view?usp=sharing
+- description: 'Hakai UAS Imagery Footprints: Hakai UAS Imagery Footprints'
+  type: url
+  value: http://hakai.maps.arcgis.com/apps/webappviewer/index.html?id=f5427c3a02fb452aa675fbd5847101b5
+keywords:
+- NIR-R
+- digital surface model
+- DVI
+- UAS
+- algae
+- intertidal
+- near infrared
+- orthomosaic
+- Difference Vegetation Index
+- Hakai
+- elevation point cloud
+- unmanned aerial systems
+- other
+- UAV
+- marine
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Imagery and elevation models monitoring algae research sites - 2017 - Calvert
+  Island - British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_be16603d-e383-4af4-9e93-7a36a086688e

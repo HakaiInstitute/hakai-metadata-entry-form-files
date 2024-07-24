@@ -1,0 +1,137 @@
+abstract: "This is the metadata record for the LiDAR datasets acquired for Calvert\
+  \ Island area, BC, Canada, in 2012 and 2014. It provides details on the two LiDAR\
+  \ missions and the initial processing to merge the two datasets together. \n\nThe\
+  \ dataset was created from two missions - one in 2012 and one in 2014. The two datasets\
+  \ were merged together and used to generate numerous derived data products (see\
+  \ the links section below). The 2012 mission collected hyperspectral and orthophotos\
+  \ so the mission metadata for the LiDAR dataset also applies to those assets.  \
+  \ \n\nTerrain elevations measured by airborne LiDAR were collected in August 2012\
+  \ for Calvert Island, Hecate Island, and three other survey areas located to the\
+  \ northeast (i.e., mouth of the Koeye River, port town of Namu, and the southwest\
+  \ corner of King Island) by Terra Remote Sensing Inc. (TRSI), Sidney, BC (Figure\
+  \ 1). The total aerial coverage of the acquisition was 477.2 km2. The point density\
+  \ (number of returns per unit area) of the acquisition averaged approximately 2.34\
+  \ pts/m2 for all posted returns (maximum of three discrete returns per pulse), 2.11\
+  \ pts/m2 for first returns, and 0.51 pts/m2 for ground-classified returns. More\
+  \ detailed information on the TRSI LiDAR sensor and survey settings, data pre-processing,\
+  \ and quality checks and accuracy verification. A second airborne LiDAR data acquisition\
+  \ was undertaken by the LiDAR Research Group, University of Northern BC (UNBC) in\
+  \ August 2014, with the express purpose of collecting higher spatial resolution\
+  \ (3.4\u201322.3 pts/m2) LiDAR data over selected research areas of interest on\
+  \ Hecate and Calvert Islands, as well as to infill and eliminate several data voids\
+  \ found in the initial TRSI LiDAR coverage.\n\n2012 Mission:\nDates: August 5th,\
+  \ 15th ,and 17th\nConducted by: Terra Remote Sensing\nArea covered: 477.22 km^2\
+  \ \nFlight height: 1150 meters above ground level \nProjection: UTM Zone 9\nDatum:\
+  \ NAD 83\nGeoid: HT 2.0\nLiDAR points: a relative accuracy of +/-15 cm and absolute\
+  \ accuracy of 1m \nHyperspectral Data: +/- 2 pixel\nPoint cloud density: Taking\
+  \ random samples throughout the project area, the average point density for a single\
+  \ flight line is 1pts/m2\n\n2014 Mission:\nDates: Aug. 7, 2014\nConducted by: UNBC\
+  \ LiDAR Research Group\nArea Covered: 34.9 km^2\nFlight Height: ~475 m & 650 m +/-\
+  \ 50m\nProjection: UTM Zone 9\nDatum: CSRS NAD 83\nGeoid: Ellipsoid heights\nPoint\
+  \ density ranged from 22.3 pts/m2 to 3.4 pts/m2"
+authors:
+- affiliation: University of Northern British Columbia
+  city: Prince George
+  country: CA
+  family-names: Frazer
+  given-names: Gordon
+  website: http://www.unbc.ca/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: University of Northern British Columbia
+  city: Prince George
+  country: CA
+  family-names: Frazer
+  given-names: Gordon
+  website: http://www.unbc.ca/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 244b5915-0ccf-4fab-9720-d2ac9394a27b
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_244b5915-0ccf-4fab-9720-d2ac9394a27b
+- description: DOI
+  type: doi
+  value: 10.21966/at9a-1109
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWQ0akhhUWRqd0JiRlY
+- description: 'Hakai Institute Google Drive: Metadata readme file'
+  type: url
+  value: https://drive.google.com/file/d/1Wv7jaL5XBcJKnpA1K8jqLwhBnTrKt9ff/view?usp=sharing
+- description: '2012 Acquisition Metadata: 2012 Acquisition'
+  type: url
+  value: https://drive.google.com/file/d/0Byed_WX-ZNMaZjBEcUtIb19rYVU/view?usp=sharing&resourcekey=0-aIZDg9g7ET2G27JNVErmgw
+- description: 'Google Drive Folder for the Hakai Institute (for access contact data@hakai.org):
+    2014 Acquisition'
+  type: url
+  value: https://drive.google.com/file/d/0Byed_WX-ZNMabEJ4TjE5MHBmdGM/view?usp=sharing&resourcekey=0-6uHPIgT_MKPqwJLayoPadg
+- description: 'Google Drive Folder for the Hakai Institute (for access contact data@hakai.org):
+    2012-2014 Merger'
+  type: url
+  value: https://drive.google.com/file/d/0Byed_WX-ZNMaWXRlOUJraWZjTW8/view?usp=sharing&resourcekey=0-UxXDEtWuDfrHdUlpCpADHA
+- description: 'Google Drive Folder for the Hakai Institute (for access contact data@hakai.org):
+    Acquisition Metadata'
+  type: url
+  value: https://docs.google.com/document/d/0Byed_WX-ZNMacEtmR0p6aWsyWlk/edit?usp=sharing&ouid=115251248498421382200&resourcekey=0-X2gpBIlPLl9TpxRIH0T4ig&rtpof=true&sd=true
+keywords:
+- terra
+- LiDAR
+- remote sensing
+- stem height
+- laser
+- air
+- other
+- elevation
+- forest
+- height
+- Canopy Height Metrics
+- flight
+- terrain
+- Vegetation
+- Density
+- metric
+- hakai
+- calvert
+- hyperspectral
+- Gap fraction
+- DEM
+- canopy
+- Biota
+- plane
+- scanner
+- model
+- Canopy Height
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: LiDAR Dataset - Calvert Island - 2012 & 2014 - British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_244b5915-0ccf-4fab-9720-d2ac9394a27b

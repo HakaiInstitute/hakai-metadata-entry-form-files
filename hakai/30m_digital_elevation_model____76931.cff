@@ -1,0 +1,75 @@
+abstract: "This DEM has been created from Hakai's Master Terrain Dataset (MTD) by\
+  \ means of the \u201CTerrain to raster\u201D tool in ESRI's ArcGIS for Desktop using\
+  \ a Natural Neighbour sampling method. The DEM has been natively created at 30m\
+  \ resolution. This DEM has been clipped to the shoreline of the island. A combination\
+  \ of different elevations around the island have been used to create the shoreline.\
+  \ \n\t\t\n\t\tThe resulting DEM is a bare earth, hydro-flattened elevation model\
+  \ and therefore considered \"topographically complete\". Each pixel represents the\
+  \ elevation in meters above average sea level of the bare earth at that location.\
+  \ The vertical reference system is \"Canadian Geodetic Vertical Datum 1928\" (CGVD28).\
+  \ \n\nHakai has produced DEM's at different resolutions natively directly from the\
+  \ LiDAR data MTD. Please use the appropriate resolution product from those produced\
+  \ by Hakai for your research purposes. In order to maintain homogeneity, up-sampling\
+  \ / up-scaling from higher resolution products is not recommended as it may introduce\
+  \ and propagate errors of varying magnitudes into the analyses being conducted;\
+  \ please use products already available, and if you require a resolution not available\
+  \ contact data@hakai.org in order to obtain a DEM produced directly from the MTD.\
+  \ \n\nMaster Terrain Dataset Creation:\n\nLiDAR point clouds from missions flown\
+  \ on 2012 and 2014 over Calvert Island where loaded (XYZ only) into a point feature\
+  \ class in an ESRI Geodatabase."
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+- country: CA
+  email: data@hakai.org
+  name: Hakai Research Institute
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 769311e9-1b1f-41f4-9023-38acf37a6690
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_769311e9-1b1f-41f4-9023-38acf37a6690
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW1iT1oxc3AwR2Mxb24
+- description: 'Hakai Geospatial Data Repository (restricted access): Hakai''s repository
+    for downloading raw data files. Metadata Report'
+  type: url
+  value: https://drive.google.com/file/d/1bBFshpEXOlQ5zNO7hB36ufSPcLZihWqx/view?usp=sharing
+- description: 'ArcGIS Online Reference Layer: Hakai''s AGOL Instance is the platform
+    for Access and online use of this dataset'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=2a1e9e4f67ec45fc825906a2b727b980
+keywords:
+- Downloadable Data
+- elevation
+- other
+- Calvert Island
+- Topography
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: 30m Digital Elevation Model - Calvert Island - British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_769311e9-1b1f-41f4-9023-38acf37a6690

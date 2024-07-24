@@ -1,0 +1,128 @@
+abstract: "Overview\nThis chemistry dataset was used to assess patterns in watershed\
+  \ export of dissolved organic carbon (DOC) concentrations, DOC flux, and characterization\
+  \ of dissolved organic matter (DOM) for preparation and publication of the manuscript:\
+  \ Oliver et al. 2017, Globally-significant yields of dissolved organic carbon from\
+  \ small watersheds of the Pacific coastal temperate rainforest, doi: 10.5194/bg-2017-5,\
+  \ Biogeosciences. Chemistry and discharge data were collected from the stream outlet\
+  \ stations of the seven focal watersheds at the Hakai watersheds observatory on\
+  \ Calvert and Hecate Islands, British Columbia Central Coast.\n\nBrief summary of\
+  \ methods\nFor detailed information on sample collection and methods of analysis\
+  \ please refer to Oliver et al. 2017.\n\nStream water grab samples were collected\
+  \ every 2-3 weeks (or ~monthly in winter) from May 2013 to July 2016 (n= 402) from\
+  \ stream outlets of the seven focal watersheds monitored within the Kwakshua Channel\
+  \ watersheds. Samples were run for analysis of dissolved organic carbon (DOC), iron\
+  \ (Fe), and optical characterization of dissolved organic matter (DOM) using spectrofluorometry.\
+  \ Excitation emission matrices (EEMs) were used in parallel factor modeling (PARAFAC)\
+  \ to deconstruct and identify individual fluorophore components of DOM.  Model output\
+  \ from this PARAFAC analysis can be found online at www.openfluor.org. \n\nStream\
+  \ discharge was measured by developing stage discharge rating curves at a fixed\
+  \ hydrometric station in proximity to the outlet. DOC flux was estimated using multiple\
+  \ regression methods in the R package rloadest by combining DOC concentrations with\
+  \ 15-minute continuous stream discharge from each watershed. Loads for October 1,\
+  \ 2015 through April 30, 2016 are presented for each watershed in average kilograms\
+  \ per day. Further details on the development and analysis of stage discharge rating\
+  \ curves and multiple regression models used for estimating DOC flux can be found\
+  \ in Oliver et al. 2017\n\nOliver, A.A., S.E. Tank, I. Giesbrecht, M.C. Korver,\
+  \ W.C. Floyd, P. Sanborn, C. Bulmer, and K.P. Lertzman. 2017. Globally-significant\
+  \ yields of dissolved organic carbon from small watersheds of the Pacific coastal\
+  \ temperate rainforest. Biogeosciences Discussion paper."
+authors:
+- address: CW 405, Biological Sciences Building
+  affiliation: University of Alberta
+  city: Edmonton
+  country: CA
+  email: aaoliver@ualberta.ca
+  family-names: Oliver
+  given-names: Allison A.
+  website: http://ualberta.ca/
+- country: CA
+  email: data@hakai.org
+  family-names: Tank
+  given-names: Suzanne
+  orcid: https://orcid.org/0000-0002-5371-6577
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: ian.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian
+  orcid: https://orcid.org/0000-0001-7013-4766
+  website: https://www.hakai.org/
+- family-names: Korver
+  given-names: Maartje C.
+  orcid: https://orcid.org/0000-0003-1062-4864
+- family-names: Floyd
+  given-names: William
+  orcid: https://orcid.org/0000-0001-7487-5721
+- family-names: Sanborn
+  given-names: Paul
+  orcid: https://orcid.org/0000-0003-0920-4803
+- family-names: Bulmer
+  given-names: Chuck
+- family-names: Lertzman
+  given-names: Ken
+  orcid: https://orcid.org/0000-0002-4211-2188
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 184b2f81-d87f-4615-a026-15b87930d15c
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_184b2f81-d87f-4615-a026-15b87930d15c
+- description: DOI
+  type: doi
+  value: 10.21966/1.321324
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW9aOE1zWERKZnFEWm4
+- description: 'Data package - part 1: DOC Daily Load Dataset: Oliver et al. 2017'
+  type: url
+  value: https://drive.google.com/a/hakai.org/file/d/0Byed_WX-ZNMaM3BtUW5KQ2ZtLW8/view?usp=sharing
+- description: 'Data package - part 2: Chemistry Dataset Oliver et al. 2017'
+  type: url
+  value: https://drive.google.com/a/hakai.org/file/d/0Byed_WX-ZNMaSkItaW5ocTY4UjQ/view?usp=sharing
+- description: 'Oliver et al. (2017): Not available'
+  type: url
+  value: https://www.researchgate.net/publication/312575744_Globally_significant_yields_of_dissolved_organic_carbon_from_small_watersheds_of_the_Pacific_coastal_temperate_rainforest
+keywords:
+- DOC
+- carbon
+- coastal temperate rainforest
+- Hecate
+- Downloadable Data
+- watersheds
+- biogeochemistry
+- watershed
+- PARAFAC
+- dissolved organic carbon
+- DOM
+- other
+- Calvert
+- Kwakshua
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Aquatic carbon flux data package for Oliver et al. 2017
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_184b2f81-d87f-4615-a026-15b87930d15c

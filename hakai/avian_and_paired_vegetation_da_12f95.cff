@@ -1,0 +1,114 @@
+abstract: "Data were collected to test the theory that marine-derived nutrients can\
+  \ affect insular species richness, population density, and community composition\
+  \ of terrestrial breeding birds.\n\nThis dataset contains spreadsheets of (1) avian\
+  \ point count surveys, (2) vegetation surveys, (3) cleaned data used in Obrist et\
+  \ al. (2020), and (4) a sub-folder of data used in a community-level analysis by\
+  \ Obrist et al. (2022). This sub-folder contains data required to run a Hierarchical\
+  \ Modelling of Species Communities (HMSC)  joint species distribution model. Each\
+  \ datafile has an associated metadata file.\n\nBird point count survey data include:\
+  \ - 10 minute point count surveys from 99 islands from 2015, 2016 and 2017 survey\
+  \ periods - During each point count survey detections of individual birds were identified\
+  \ to species with distance to observer. Date, UTM coordinates, weather conditions,\
+  \ and detection type (e.g. visual, song, call, etc) information were recorded.\n\
+  \nVegetation data include: - 1x1 m vegetation plots in the immediate vicinity of\
+  \ each point count location and - 5x5 m vegetation plots (3 per point count \u2013\
+  \ 1 at the survey location, and 1 in either direction along the most obvious vegetation\
+  \ gradient around the point count.)\n1x1 m vegetation surveys include: - Herbaceous\
+  \ plant percent cover by species in 3 layers: Ground (50 cm)\n\n5x5 m vegetation\
+  \ surveys include: - Shrub percent cover by species in 3 layers: 200 cm - Canopy\
+  \ percent cover by species in 3 heights: subcanopy, canopy, and supercanopy. Heights\
+  \ are defined separately for each plot (in general plot description) - A general\
+  \ plot description including % litter, % coarse woody debris, UTM coordinates -\
+  \ Tree circumferences\n\nCleaned data for Obrist et al. 2020 (https://royalsocietypublishing.org/doi/10.1098/rspb.2020.0108)\
+  \ is executable with subsidized-avian-island-biogeography. R script from https://github.com/debobrist/avian-sib.\n\
+  Cleaned code for Obrist et al. 2022 is in the HMSC sub-folder, which includes: A\
+  \ site-by-species matrix derived from the bird point count survey data, a matrix\
+  \ of environmental covariates, a list of coordinates, and a list of bird species\
+  \ traits. These data can be run directly with code available at https://github.com/debobrist/subsidized_isl_bird_communities.\n\
+  \nContact: Debora S. Obrist, Simon Fraser University, dobrist@sfu.ca"
+authors:
+- affiliation: Simon Fraser University
+  city: Burnaby
+  country: CA
+  email: dobrist@sfu.ca
+  family-names: Obrist
+  given-names: Debora
+  orcid: https://orcid.org/0000-0002-5645-6037
+  website: http://www.sfu.ca/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Hakai Geospatial
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Simon Fraser University
+  city: Burnaby
+  country: CA
+  email: dobrist@sfu.ca
+  family-names: Obrist
+  given-names: Debora
+  orcid: https://orcid.org/0000-0002-5645-6037
+  website: http://www.sfu.ca/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Hakai Geospatial
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 12f951d4-4155-4c05-969d-a7158412f579
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_12f951d4-4155-4c05-969d-a7158412f579
+- description: DOI
+  type: doi
+  value: 10.21966/10tk-4956
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUNJMG8wUVlZa1NiNUM
+- description: 'Code for Obrist et al. 2020 analysis - GITHUB: subsidized-avian-island-biogeography
+    R script'
+  type: url
+  value: https://github.com/debobrist/avian-sib
+- description: 'Google drive folder - Data Package: Google drive folder - Data Package'
+  type: url
+  value: https://drive.google.com/drive/folders/1cHxDcrHyzEXvG0YE53qr2vv8XcRJeskL?usp=sharing
+- description: 'Code for analyses in "Equivalent roles of marine subsidies and island
+    biogeography in shaping island bird communities": Code for analyses in "Equivalent
+    roles of marine subsidies and island biogeography in shaping island bird communities"'
+  type: url
+  value: https://github.com/debobrist/subsidized_isl_bird_communities
+- description: 'Marine subsidies mediate patterns in avian island biogeography: 2020
+    publication in  Ecosphere Journal.'
+  type: url
+  value: https://royalsocietypublishing.org/doi/10.1098/rspb.2020.0108
+keywords:
+- island biogeography
+- birds
+- islands
+- marineTurtlesBirdsMammalsAbundanceAndDistribution
+- spatial subsidies
+- marine nutrients
+- avian
+- other
+- biodiversity
+- bird
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Avian and paired Vegetation data from 100 Islands Project (BC Central Coast)
+  Hakai Institute - 2015-2017
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_12f951d4-4155-4c05-969d-a7158412f579

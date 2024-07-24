@@ -1,0 +1,54 @@
+<addAttributes>
+    <att name='institution'>Hakai Institute</att>
+    <att name='title'>Eelgrass (Z. marina) extent at Gulf Islands National Park Reserve eelgrass monitoring sites (2017, 2018) v1.0.0</att>
+    <att name='summary'>This data package contains the datasets and reports pertaining to mapping the spatial extent of Zostera marina at several monitoring sites within the Gulf Islands National Park Reserve, British Columbia, Canada. This work was a collaborative project between the Hakai Institute and the Gulf Islands National Park Reserve (GINPR).  
+
+Monitoring sites were mapped using small Remotely Piloted Aerial Systems (RPAS) (DJI Phantom Pro 3) during summer low tides (0.3-0.8 m) in 2017 and 2018. Orthomosaics of each site were created using a Structure from Motion Multi-View Stereo (SfM-MVS) workflow within Pix4Dmapper software (Version 2.1.61, Pix4D) in Windows 10 and georeferenced using group control points collected concurrently during the surveys. The extent of eelgrass at each site was delineated using object-based image analysis (OBIA) with eCognition Developer software (eCognition Developer 9, 2014) and manual delineation (where necessary). Georeferenced towed underwater video (SplashCam Pro) data were collected at eelgrass monitoring sites during high tide to provide ground-truth data for the aerial analysis and delineation of eelgrass. 
+
+The data package includes:
+
+-   The reports (.pdf) which describe project, data collection and processing methods and results for both 2017 and 2018 surveys. 
+-    Polygon shapefiles (.shp) of the extent of eelgrass (Z. marina) at each monitoring site.
+-    Point shapefiles (.shp) of classified towed underwater video transects*. 
+-    A data dictionary (.csv) which describes the attributes of the shapefiles. 
+
+*The towed underwater video footage is not provided as a part of this data package but is available upon request.  
+
+This data package is a component of the Hakai Institute’s Habitat Mapping program. The overarching objective of the Hakai Habitat Mapping program is to generate spatial inventories of coastal habitats, investigate how these habitats are changing through time and the drivers of that change. These data were collected as a part of the Coastal BC Nearshore Habitat Mapping Project (a collaboration between Parks Canada and the Hakai Institute). 
+
+Permission to use this dataset must be granted by the Hakai Institute and Gulf Islands National Park Reserve to the individual who makes the data request. Data can only be used for the permitted purpose and are not to be shared or repurposed. Please refer to the README.txt file included in this data package.</att>
+    <att name='project'>Nearshore,Geospatial</att>
+    <att name='comment'>##Limitations:
+Appropriate credit must be given to Hakai Institute, Parks Canada and the authors of the dataset.</att>
+    <att name='progress'>completed</att>
+    <att name='keywords'>Seagrass,Zostera marina,Eelgrass,Gulf Islands,Salish Sea,GINPR,RPAS,seagrass,other,CIOOS:other,GBIF:Plantae,GBIF:Tracheophyta,GBIF:Liliopsida,GBIF:Alismatales,GBIF:Zosteraceae,GBIF:Zostera,GBIF:Zostera marina</att>
+    <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary,GBIF: GBIF Taxonomy Vocabulary</att>
+    <att name='id'>fd5ada9a-5719-4ca1-89d2-17adb48d1493</att>
+    <att name='naming_authority'>ca.cioos</att>
+    <att name='date_modified'>2024-07-24T06:53:14.518Z</att>
+    <att name='date_created'>2022-02-02</att>
+    <att name='product_version'>1.0.0</att>
+    <att name='license'>https://creativecommons.org/licenses/by/4.0</att>
+    <att name='creator_name'>Hakai Institute</att>
+    <att name='creator_email'>data@hakai.org</att>
+    <att name='creator_type'>institution</att>
+    <att name='creator_institution'>Hakai Institute</att>
+    <att name='creator_city'>Campbell River</att>
+    <att name='creator_country'>Canada</att>
+    <att name='creator_url'>https://www.hakai.org/</att>
+    <att name='creator_ror'>https://ror.org/02pry0c91</att>
+    <att name='publisher_name'>Hakai Institute</att>
+    <att name='publisher_email'>data@hakai.org</att>
+    <att name='publisher_type'>institution</att>
+    <att name='publisher_institution'>Hakai Institute</att>
+    <att name='publisher_city'>Campbell River</att>
+    <att name='publisher_country'>Canada</att>
+    <att name='publisher_url'>https://www.hakai.org/</att>
+    <att name='publisher_ror'>https://ror.org/02pry0c91</att>
+    <att name='contributor_name'>Reshitnyk, Luba;Rockwell, Lisa;Hakai Geospatial Technology Team;Hakai Institute;Collyer, M. J. P.;Helms, Sibylla;Hakai Institute;Tula Foundation</att>
+    <att name='contributor_role'>pointOfContact,pointOfContact,custodian,principalInvestigator,originator;author;pointOfContact,pointOfContact,custodian,distributor;resourceProvider,distributor,owner,custodian;author;author;publisher;funder</att>
+    <att name='doi'>https://doi.org/10.21966/t8hm-ge90</att>
+    <att name='metadata_link'>https://catalogue.hakai.org/dataset/ca-cioos_fd5ada9a-5719-4ca1-89d2-17adb48d1493</att>
+    <att name='infoUrl'>https://catalogue.hakai.org/dataset/ca-cioos_fd5ada9a-5719-4ca1-89d2-17adb48d1493</att>
+    <att name='metadata_form'>https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXBNZnZGekFJcFFDcm8</att>
+</addAttributes>

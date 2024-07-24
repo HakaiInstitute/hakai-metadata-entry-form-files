@@ -1,0 +1,95 @@
+abstract: 'This layer contains polygons outlining the substrate types present in the
+  intertidal and shallow subtidal waters surrounding Northwest Calvert Island.
+
+
+  Substrates were manually delineated using 9-10cm resolution orthomosaics using imagery
+  captured at tide heights lower than +1.0 m mean low water. The orthomosaics were
+  obtained using an unoccupied aerial system (UAS) and post-processed using the Pix4Dmapper
+  software package (see attached UAS methods) and the substrates digitized in ESRI
+  ArcGIS 10.5.
+
+
+  Kelp layers were added using existing data generated as per the methods outlined
+  in the linked dataset ''Kelp Canopy extent - Calvert Island - 2006-2016''. The combined
+  kelp canopy extent from the years 2012, 2014, 2015 was used. For areas with high-density
+  kelp, we assumed the substrate was rock. Areas covered with low-density kelp were
+  also considered rock unless sand could be detected mixed with the rock and then
+  the category of mixed was applied.
+
+
+  Eelgrass extent was digitized from a towed underwater video system. Detailed methods
+  for this procedure can be seen at the linked record, ''Eelgrass Extent 2014 - Central
+  Coast''.'
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Henderson
+  given-names: Matthew
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Henderson
+  given-names: Matthew
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 05d92ed0-25a0-4108-bce5-0425a934361e
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_05d92ed0-25a0-4108-bce5-0425a934361e
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVc5NWNSM2k4Umo1MWU
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Intertidal and shallow sub-tidal substrate types for Northwest Calvert
+    Island, British Columbia, Canada: Shapefile containing the classified substrates
+    for NW Calvert Island'
+  type: url
+  value: https://drive.google.com/open?id=1tPLRwEzDRdKZ-vmFmbJNE57iJha_cFsf
+- description: The table defines the fields in the Calvert Substrate dataset
+  type: url
+  value: https://hecate.hakai.org/geonetwork/srv/api/records/05d92ed0-25a0-4108-bce5-0425a934361e/attachments/Calvert
+    Substrate Attributes Table.pdf
+- description: UAS methods for obtaining imagery used to digitize substrate types
+  type: url
+  value: https://hecate.hakai.org/geonetwork/srv/api/records/05d92ed0-25a0-4108-bce5-0425a934361e/attachments/General
+    UAS Methodology Orthomosaics Only.pdf
+keywords:
+- substrate
+- habitat
+- UAS
+- cobble
+- bedrock
+- kelp
+- intertidal
+- subtidal
+- Downloadable Data
+- seagrass
+- eelgrass
+- classification
+- sediment
+- nearshore
+- other
+- UAV
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Nearshore substrate classification - Northwest Calvert Island, BC (2015-2017)
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_05d92ed0-25a0-4108-bce5-0425a934361e

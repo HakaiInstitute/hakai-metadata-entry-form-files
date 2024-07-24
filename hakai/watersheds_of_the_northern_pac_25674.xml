@@ -394,7 +394,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2022-03-29T22:39:59.878Z</gco:DateTime>
+        <gco:DateTime>2024-07-24T06:51:46.870Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -461,7 +461,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -474,7 +474,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -491,7 +491,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Watersheds of the northern Pacific coastal temperate rainforest margin</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Bassins versants de la marge de la forêt pluviale tempérée côtière du Pacifique Nord</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -1092,7 +1092,7 @@ For attribute definitions, methods, limitations, and recommendations, see the fu
 
 Suggested citation: Gonzalez Arriola, S., Giesbrecht, I.J.W., Biles, F.E., and D’Amore, D.V. 2018. Watersheds of the northern Pacific coastal temperate rainforest margin. Hakai Institute Data Package. Available at: https://hecate.hakai.org/geonetwork/srv/eng/catalog.search#/metadata/25674e9b-1d49-4270-b917-cfe6cdc30f95 DOI: 10.21966/1.715755.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Ce jeu de données est une représentation polygonale des bassins versants qui s&#39;écoulent vers la marge de la forêt tropicale le long de la côte Pacifique de l&#39;Amérique du Nord.
 
 Les bassins versants sont des unités spatiales distinctes de la topographie qui organisent l&#39;écoulement de l&#39;eau et des matériaux de la terre vers la mer, ainsi que le mouvement du biote entre les eaux marines et les eaux douces. À ce titre, les bassins versants sont des unités géographiques fondamentales d&#39;analyse utilisées par diverses disciplines de la science et de la gestion. Cependant, les analyses des bassins versants à l&#39;échelle régionale sont souvent entravées par la résolution des jeux de données (les ensembles de données globaux sont souvent trop grossiers) ou par des discontinuités spatiales (les frontières politiques divisent souvent les bassins versants et représentent un changement dans les méthodes de cartographie). Pour réduire ces problèmes et accélérer les analyses des bassins versants régionaux, nous avons développé un nouvel ensemble de données intégré des bassins versants côtiers pour la forêt pluviale tempérée côtière du Pacifique Nord (NPCTR) d&#39;Amérique du Nord. Le jeu de données s&#39;étend de Glacier Bay dans le sud-est de l&#39;Alaska au bassin versant de la Russian River dans le nord de la Californie, en traversant deux frontières internationales.
@@ -1199,7 +1199,7 @@ Référence suggérée : Gonzalez Arriola, S., Giesbrecht, I.J.W., Biles, F.E.,
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWJSa2xESlBIbk1rSXA</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWJSa2xESlBIbk1rSXA</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1308,7 +1308,14 @@ Référence suggérée : Gonzalez Arriola, S., Giesbrecht, I.J.W., Biles, F.E.,
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Watersheds</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
@@ -1346,7 +1353,7 @@ Référence suggérée : Gonzalez Arriola, S., Giesbrecht, I.J.W., Biles, F.E.,
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Appropriate credit must be given to Hakai Institute the authors of the dataset, and the sources for original data used.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Un crédit approprié doit être accordé à l&#39;Institut Hakai, aux auteurs de l&#39;ensemble de données et aux sources des données originales utilisées.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>

@@ -1,0 +1,44 @@
+<addAttributes>
+    <att name='institution'>Hakai Institute</att>
+    <att name='title'>Eelgrass Extent - Coastal British Columbia</att>
+    <att name='summary'>This dataset represents polygons of eelgrass on the BC coast predicted from existing geospatial datasets of seagrass extent (ShoreZone) and bathymetry.
+
+The extent of eelgrass in British Columbia was estimated using a novel tool created for ArcGIS (the Gregrator).This tool requires 2 inputs: (1) the coastline data from Shorezone (including line shapefiles that represent the extent of eelgrass) and (2) bathymetry data. Briefly, each line segment of coast in ShoreZone is converted to points along its vertices. These points are used to generate Thiessen polygons, where each Thiessen polygon “defines an area of influence around its sample point, so that any location inside the polygons is closer to that point than any of the other sample points” (Esri, 2016). Thiessen polygons were then clipped to the extent of polygons which spanned the area from the coastline to maximum depth based on the results of the bathymetry analysis. These methods are based on those described in Gregr et al 2013. 
+
+Gregr, E. J., Lessard, J., & Harper, J. (2013). Progress in Oceanography A spatial framework for representing nearshore ecosystems. Progress in Oceanography, 115, 189–201. http://doi.org/10.1016/j.pocean.2013.05.028
+
+Contact data@hakai.org for more information</att>
+    <att name='project'>Geospatial</att>
+    <att name='comment'>##Limitations:
+Appropriate credit must be given to Hakai Institute and the authors of the dataset.</att>
+    <att name='progress'>completed</att>
+    <att name='keywords'>ocean,environment,eelgrass,hakai,CEC,Commission for Environmental Cooperation,seagrass,intertidal,blue carbon,shorezone,Zostera,other,CIOOS:other,CIOOS:seagrassCoverAndComposition,GBIF:Plantae,GBIF:Tracheophyta,GBIF:Liliopsida,GBIF:Alismatales,GBIF:Zosteraceae,GBIF:Zostera</att>
+    <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary,GBIF: GBIF Taxonomy Vocabulary</att>
+    <att name='id'>0219e1d6-8dfc-4718-b89b-ea3dff06a70d</att>
+    <att name='naming_authority'>ca.cioos</att>
+    <att name='date_modified'>2024-07-24T12:12:18.522Z</att>
+    <att name='date_created'>2022-01-18</att>
+    <att name='license'>https://creativecommons.org/licenses/by/4.0</att>
+    <att name='creator_name'>Hakai Institute</att>
+    <att name='creator_email'>data@hakai.org</att>
+    <att name='creator_type'>institution</att>
+    <att name='creator_institution'>Hakai Institute</att>
+    <att name='creator_city'>Campbell River</att>
+    <att name='creator_country'>Canada</att>
+    <att name='creator_url'>https://www.hakai.org/</att>
+    <att name='creator_ror'>https://ror.org/02pry0c91</att>
+    <att name='publisher_name'>Hakai Institute</att>
+    <att name='publisher_email'>data@hakai.org</att>
+    <att name='publisher_type'>institution</att>
+    <att name='publisher_institution'>Hakai Institute</att>
+    <att name='publisher_city'>Campbell River</att>
+    <att name='publisher_country'>Canada</att>
+    <att name='publisher_url'>https://www.hakai.org/</att>
+    <att name='publisher_ror'>https://ror.org/02pry0c91</att>
+    <att name='contributor_name'>Hakai Geospatial Technology Team;Reshitnyk, Luba;Hakai Institute;Tula Foundation</att>
+    <att name='contributor_role'>custodian,pointOfContact;processor,pointOfContact,principalInvestigator;resourceProvider,distributor,custodian,owner,publisher;funder</att>
+    <att name='doi'>https://doi.org/10.21966/1ty5-e654</att>
+    <att name='metadata_link'>https://catalogue.hakai.org/dataset/ca-cioos_0219e1d6-8dfc-4718-b89b-ea3dff06a70d</att>
+    <att name='infoUrl'>https://catalogue.hakai.org/dataset/ca-cioos_0219e1d6-8dfc-4718-b89b-ea3dff06a70d</att>
+    <att name='metadata_form'>https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWtuNVpwdEdLRXZTODc</att>
+</addAttributes>

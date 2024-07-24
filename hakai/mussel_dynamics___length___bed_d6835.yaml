@@ -187,10 +187,20 @@ distribution:
     en: Data files and documentation for mussel bed depth surveys
     fr: Fichiers de données et documentation pour les études de profondeur des gisements
       de moules
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Mussel bed depth survey data from BC Central Coast
     fr: Données du relevé de la profondeur des gisements de moules sur la côte centrale
       de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/drive/folders/17pBAkrchnZy1cSp-2ykdG7Fdh_xqyFAx
 identification:
   abstract:
@@ -239,6 +249,11 @@ identification:
       \ la qualité des données, et 2) communiquer et/ou collaborer avec les fournisseurs\
       \ si vous envisagent d'utiliser cet ensemble de données pour des manuscrits\
       \ ou d'autres formes de rapports."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2017-06-27'
@@ -265,8 +280,34 @@ identification:
       - Autre
       - Abondance et distribution d'invertébrés
     taxa:
-      en: []
-      fr: []
+      en:
+      - Animalia
+      - Mollusca
+      - Bivalvia
+      - Mytilida
+      - Mytilidae
+      - Mytilus
+      - Mytilus californianus
+      - Animalia
+      - Mollusca
+      - Bivalvia
+      - Mytilida
+      - Mytilidae
+      - Mytilus
+      fr:
+      - Animalia
+      - Mollusca
+      - Bivalvia
+      - Mytilida
+      - Mytilidae
+      - Mytilus
+      - Mytilus californianus
+      - Animalia
+      - Mollusca
+      - Bivalvia
+      - Mytilida
+      - Mytilidae
+      - Mytilus
   progress_code: onGoing
   project:
   - Nearshore
@@ -275,13 +316,18 @@ identification:
   title:
     en: Mussel Dynamics - Length & Bed Depth - BC Central Coast
     fr: Mussel Dynamics - Longueur et profondeur du lit - Côte centrale de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2022-10-08'
-    revision: '2023-06-28T21:17:05.294Z'
+    revision: '2024-07-23T10:54:37.818Z'
   identifier: d683512f-5e47-4b1d-baac-c653fb761806
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-Mot_OU3CVPXLPLDbBRQ
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-Mot_OU3CVPXLPLDbBRQ
   naming_authority: ca.cioos
   use_constraints:
     licence:

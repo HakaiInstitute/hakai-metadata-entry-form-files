@@ -1,0 +1,115 @@
+abstract: 'The place names service is derived from the British Columbia Terrain Resource
+  Information Management Program (TRIM) annotation layer, as well as from place name
+  information from the Hakai Institute.
+
+
+  The place names service consists of 4 layers:
+
+  -TRIM 1:20000 Annotation
+
+  -TRIM 1:1250000 Annotation
+
+  -TRIM 1:250000 Annotation
+
+  -Hakai Place Names
+
+
+  The TRIM Annotation metadata is available here http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
+
+  More information about the TRIM program is here: http://geobc.gov.bc.ca/base-mapping/atlas/trim/
+
+
+  The Hakai Places Layer has the following attributes:
+
+  OBJNAM: Name of the feature
+
+  Landmarks: Code used to classify objects for labelling scale dependencies
+
+  OBJTYPE: Type of object
+
+  OBJCLASS: Class of object
+
+  LABGROUP: Label group category (unused)
+
+
+  Processing by:
+
+  Will McInnes, Keith Holmes (Hakai Institute), and BC Base Annotations data'
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: McInnes
+  given-names: William
+  orcid: https://orcid.org/0000-0003-3208-6358
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- affiliation: GEOBC TRIM Program
+  family-names: BC Base Annotations data
+  given-names: TRIM
+  website: http://geobc.gov.bc.ca/base-mapping/atlas/trim/
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: McInnes
+  given-names: William
+  orcid: https://orcid.org/0000-0003-3208-6358
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 0a8ff4c9-158a-4a46-9bb0-9d480ff40466
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_0a8ff4c9-158a-4a46-9bb0-9d480ff40466
+- description: DOI
+  type: doi
+  value: 10.21966/446t-q065
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWI4eUtoamNrWXJDbmg
+- description: 'BC Base Annotations data: BC Base Annotations data'
+  type: url
+  value: http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
+- description: 'Hakai''s ArcGIS Online Platform (restricted access): Hakai''s AGOL
+    Instance is the platform for Access and online use of this dataset/''s reference
+    layer'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=ec7c2b5d44b8487a91bfbfed07a5d54d
+keywords:
+- hakai
+- place name
+- annotations
+- location
+- Downloadable Data
+- label
+- site
+- place
+- name
+- other
+- service
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Hakai Place Names Service - Coastal British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_0a8ff4c9-158a-4a46-9bb0-9d480ff40466

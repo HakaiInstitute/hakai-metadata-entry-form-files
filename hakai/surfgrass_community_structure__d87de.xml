@@ -908,7 +908,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2023-06-28T22:17:25.584Z</gco:DateTime>
+        <gco:DateTime>2024-07-23T10:40:46.597Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -975,7 +975,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -988,7 +988,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -1005,7 +1005,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Surfgrass Community Structure - Monitoring - BC Central Coast - 2016-2017</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Structure communautaire de Surfgrass - Surveillance - Côte centrale de la Colombie-Britannique - 2016-2017</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -1775,7 +1775,7 @@ The structure, health, and coverage of surfgrass beds (Phyllospadix spp.) was su
 
 This data package is freely available to everyone, following the principles of equitable access and benefit sharing. However, we expect all data users to give attribution to the data providers (read our data license) and the use of these data should happen in the light of fair use, i.e.: 1) respect the data providers, and provide helpful feedback on data quality, and 2) communicate and/or collaborate with the providers if you are considering using this dataset for manuscripts or other forms of reporting.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">L&#39;ensemble de données sur la structure de la communauté Surfgrass est une composante du programme de recherche et de surveillance du littoral de l&#39;Institut Hakai, conçu pour capturer les changements dans les habitats intertidaux rocheux. L&#39;objectif primordial de la recherche sur le littoral de Hakai est d&#39;étudier le rôle des habitats et de leurs communautés associées, face au stress et aux perturbations causées par le changement climatique mondial et les perturbations côtières locales. 
 
 La structure, la santé et la couverture des lits de surfgrass (Phyllospadix spp.) ont été étudiés à trois sites le long de la côte nord-ouest de l&#39;île Calvert, sur la côte centrale de la Colombie-Britannique. Les trois sites étaient des rivages rocheux exposés avec de grands lits de surfgrass poussant dans les basses zones intertidales. Les lits ont été étudiés à l&#39;aide d&#39;une méthode d&#39;interception ponctuelle le long d&#39;un seul transect. Le placement et la longueur du transect ont été répliqués dans le temps. Différents paramètres (p. ex., couverture de surfgrass, couverture du sous-étage et de l&#39;étage supérieur, épaisseur du lit) du surfgrass ont été évalués à chaque point. Les sites ont été approximativement étudiés sur une base mensuelle d&#39;avril à septembre, avec un relevé hivernal en février 2017. Trois enquêtes ont été menées en 2016 et cinq en 2017.
@@ -1874,7 +1874,7 @@ Ce paquet de données est disponible gratuitement pour tous, conformément aux p
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MooQxV2q0Y_rOjI40Fq</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MooQxV2q0Y_rOjI40Fq</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1985,9 +1985,6 @@ Ce paquet de données est disponible gratuitement pour tous, conformément aux p
             </cit:CI_Citation>
           </mri:thesaurusName>
         </mri:MD_Keywords>
-      </mri:descriptiveKeywords>
-      <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
@@ -2119,7 +2116,7 @@ Ce paquet de données est disponible gratuitement pour tous, conformément aux p
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Surfgrass community structure monitoring from BC Central Coast, 2016-2017</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Surveillance de la structure de la communauté de Surfgrass sur la côte centrale de la Colombie-Britannique, 2016-2017</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
@@ -2127,7 +2124,7 @@ Ce paquet de données est disponible gratuitement pour tous, conformément aux p
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Data files and documentation for surfgrass monitoring surveys, 2016-2017</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Fichiers de données et documentation pour les études de surveillance du surf grass, 2016-2017</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>

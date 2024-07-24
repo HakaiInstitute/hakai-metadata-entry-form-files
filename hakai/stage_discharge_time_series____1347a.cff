@@ -1,0 +1,116 @@
+abstract: "Streamflow calculation; a component of the Kwakshua Watersheds Program\n\
+  \nIn natural streams it is not possible to continuously measure stream discharge,\
+  \ thus an indirect approach was used, where river height (stage) was continuously\
+  \ measured at a gauging station using a pressure transducer, with periodic manual\
+  \ measurements of discharge along the range of potential stages to develop a stage-discharge\
+  \ rating curve. Low flows were manually measured using the velocity-area method,\
+  \ with either a Swoffer Current Velocimeter or a Sontek Acoustic Doppler Velocimeter.\
+  \ Moderate to high flows (generally greater than 1cms) were measured using the salt\
+  \ dilution method, either manually (dry salt) and/or remotely (starting in the fall\
+  \ of 2015), using a fully automated system to release pre-defined volumes of salt\
+  \ solution at pre-defined water stages at an upstream location, with permanently\
+  \ installed electrical conductivity sensors located down-stream, one on either side\
+  \ of the stream to measure the salt wave passing through. Data are available in\
+  \ near real-time using the Hakai Telemetry Network (Floyd and Brunsting, 2015).\
+  \ A calibration factor, required for the salt dilution method, was manually calculated\
+  \ at a minimum twice per barrel refill of salt solution, once at the initial fill\
+  \ and the other with the remaining solution before re-fill. \n\nAll discharge measurements\
+  \ were assigned a relative uncertainty, based on fluctuations in the flow velocity\
+  \ profile (for area-velocity method), or based on the uncertainty in the volume\
+  \ of salt solution, the EC sensor resolution and the EC sensor calibration factor\
+  \ (for salt dilution method). Measurements with uncertainties higher than 20%, with\
+  \ noise or malfunctioning conductivity sensors, or with high uncertainties in stage\
+  \ monitoring were excluded from further analysis. The remaining discharge-stage\
+  \ measurements were plotted as a power-law equation (Q = Ce*(H-h0)^A) in excel,\
+  \ to analyze if there were clear outliers, to determine the approximate value of\
+  \ h0 and to determine if the data could be fitted on one curve, or if they would\
+  \ fit better on a low flow and high flow curve, separated by an 'inflection point'.\
+  \ After this, the rating curve equation was optimized using a non-linear least-squares\
+  \ fitting Python model (LMFit, 2015). A detailed description of these methods have\
+  \ been documented in the MSc thesis of Maartje Korver (2015). A 95% confidence interval\
+  \ was plotted around the rating curve following the methods described by Herschy,\
+  \ RW (1994). Finally, this discharge time-series was created using 5 minute average\
+  \ stage measurements. Extra caution must be taken when using calculated discharges\
+  \ greater than the highest measured discharge (noted in this file as 'Max measured\
+  \ discharge' ), because the extrapolation of a rating curve beyond a set of measurements\
+  \ is usually highly uncertain and can greatly over or under estimate discharge.\
+  \ THESE DATA are provided AS IS and will continuously improve as additional discharge\
+  \ measurements are taken. Users should re-check for periodic updates to the rating\
+  \ curves and subsequent discharge files. If errors are found please contact Bill.Floyd@viu.ca."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Korver
+  given-names: Maartje
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Korver
+  given-names: Maartje
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 1347af6c-aedf-4ec6-bd37-ed508df6c40a
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_1347af6c-aedf-4ec6-bd37-ed508df6c40a
+- description: DOI
+  type: doi
+  value: 10.21966/1.243102
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUVFTFdKeHlaQ29nNTQ
+- description: 'Google Drive Folder: Zipped spreadsheet data available on the Hakai
+    Institute''s Google Drive folder. Restricted Access. Email data@hakai.org for
+    more information.'
+  type: url
+  value: https://drive.google.com/drive/u/0/folders/1ddpqsXb6uqO8RKY2ZjgvCRE61ZjsZe3V?ths=true
+keywords:
+- rating curve
+- flow
+- discharge
+- stage
+- Hakai
+- Downloadable Data
+- salt
+- Stage-discharge time series
+- river
+- Calvert Island
+- sensor network
+- stream
+- watershed
+- salt dilution method
+- other
+- Kwakshua Watersheds Program
+- kwakshua
+- water
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Stage-Discharge Time Series - Calvert Island - Archived Version 2.0
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_1347af6c-aedf-4ec6-bd37-ed508df6c40a
+version: '2.0'

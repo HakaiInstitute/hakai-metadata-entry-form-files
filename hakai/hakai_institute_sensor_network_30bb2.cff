@@ -1,0 +1,99 @@
+abstract: "The sensor network map details the locations of the various sensor nodes.\
+  \ Nodes are found in the field and are collecting live data. Locations and metadata\
+  \ are based off field gathered GPS information. Location is based off handheld GPS\
+  \ devices including phones and it is assumed that the true location is within roughly\
+  \ 5 meters of the documented location.\n\nMetadata are filled out by field technicians\
+  \ and the Hakai Geospatial Technology Team.\nA live google spreadsheet webmap is\
+  \ updated regularly due to the many changes and updated required to the sensor network.\
+  \ \n\nHakai telemetry network serves to link various scientific sensors on the Central\
+  \ Coast. The network uses sensors connected by repeater notes that relay data back\
+  \ to the Calvert Island field station. Links represent line features that reflect\
+  \ the wireless path (direct sensor to repeater to station relay). Nodes represent\
+  \ the point data for scientific equipment or communication relays. The Hakai climate\
+  \ and hydrometric observation network serves as the foundation for the terrestrial\
+  \ and aquatic science program and provides many operational uses for the general\
+  \ public and for air and marine traffic. A critical component of the observation\
+  \ network is the real-time telemetry network to make data available to users. After\
+  \ successful 2013, 2014, and 2015 field seasons we saw continued work to expand\
+  \ and improve on the network, while formalizing and implementing a comprehensive\
+  \ monitoring and maintenance program. \n\nAttributes:\nName - name of the node.\
+  \ Given by field technical crew and often represents the general location and or\
+  \ type of sensor.\t\n\n<b>Date Commissioned</b> - Date the sensor was activated\
+  \ in the field.\t\n\n<b>Primary Station Type</b>\t - Primary role of the sensor.\n\
+  \n<b>Secondary Station Type</b>\t- Secondary role of the sensor.\n\n<b>Tertiary\
+  \ Station Type</b> - Tertiary role of the sensor.\t\n\n<b>Elevation (m)</b> - elevation\
+  \ of the sensor - based on handheld GPS point gathered in the field. Not expected\
+  \ to be accurate.\t\n\n<b>Connected to</b> - how the node is connected to the network.\
+  \ The link used to transfer information from one location back to the main terminal.\t\
+  \n\n<b>Sensors</b> - sensors existing at the node. For some stations it is a communication\
+  \ node and will have no sensors and some will have multiple (weather stations).\n\
+  \t\n<b>Power Type</b> - type of equipment used to power the sensor node.\t\n\n<b>RF\
+  \ Antenna Type</b> - antenna type used to connect to the network.\n\nDataset created\
+  \ by:\nHakai Geospatial Technology Team, Bill Floyd, Colby Owen, James McPhail,\
+  \ Ian Geisbrecht."
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: McInnes
+  given-names: Will
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: McInnes
+  given-names: Will
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 30bb20f4-1d7a-4167-a00f-613d0ff3e2fc
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_30bb20f4-1d7a-4167-a00f-613d0ff3e2fc
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXpLZ1BkS1R3cXBNenY
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Hakai''s ArcGIS Online Platform (restricted access): Hakai''s AGOL
+    Instance is the platform for Access and online use of this dataset/''s reference
+    layer'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=77f1ae4526004df6a86c6b38eb22fd79
+keywords:
+- stream
+- sensor
+- station
+- link
+- telemetry
+- technology
+- gauge
+- salt
+- communication
+- science
+- Downloadable Data
+- network
+- climate
+- node
+- weather
+- rain
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Hakai Institute Sensor Network
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_30bb20f4-1d7a-4167-a00f-613d0ff3e2fc

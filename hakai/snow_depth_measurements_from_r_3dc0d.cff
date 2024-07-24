@@ -1,0 +1,81 @@
+abstract: 'This dataset consists of 10cm spatial resolution raster snow depth maps
+  from Mt. Cain BC, collected in 2018. The dataset also includes snow depth validation
+  points. Raster and point cloud data are available by request.
+
+
+  We use Phantom 3 and 4 UAVs to map snow depth at 4 sites on Mt. Cain, BC. The imagery
+  is processed with Pix4D and LASTools to create snow depth maps. The sites were mapped
+  in winter, spring, and summer.
+
+
+  When imagery is captured with optimal lighting conditions (few or no clouds, bright
+  sun), it is possible in open areas to create accurate ground models. Of the 50 transects
+  (25 x 2 visits). The average absolute deviation for each transect was: 28% less
+  than 10cm, 70% less than 30cm. The method is challenged when there are extensive
+  trees, fresh snow, and when there is flat light. In these cases there can be errors
+  in the order of several meters. The overall root-mean-square error (RMSE) ranged
+  from 30-70cm, however this could be substantially improved by removing areas with
+  trees and excessive noise.
+
+
+  Floyd, B., McInnes, W., Holmes, K., Cebulski, A., Dickinson, T., Butler, S., Heathfield,
+  D. and Menounos, B. (2019). Application of UAVs to measure snowpack using structure
+  from motion analysis over varying terrain and vegetation in Coastal British Columbia.
+  [access date].'
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: McInnes
+  given-names: Will
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+- country: CA
+  email: data@hakai.org
+  name: Hakai Research Institute
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: McInnes
+  given-names: Will
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 3dc0d46c-7afe-4379-901d-37a787c1c204
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_3dc0d46c-7afe-4379-901d-37a787c1c204
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWN2Tzh0TTllTGVIU0M
+- description: 'Hakai Institute Google Drive: Hakai Data Packages - Mount Cain Snow
+    Data - Metadata Report'
+  type: url
+  value: https://drive.google.com/drive/folders/19DO26a_he6xGifeiHoBv85Vx9i6ecWUr?usp=sharing
+keywords:
+- rpas
+- las
+- sfm
+- snow
+- drone
+- elevation
+- dem
+- Cryosphere
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Snow Depth Measurements from Remotely Piloted Aerial Systems - Mt. Cain - 2018
+  - British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_3dc0d46c-7afe-4379-901d-37a787c1c204

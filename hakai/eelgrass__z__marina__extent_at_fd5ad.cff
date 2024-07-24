@@ -1,0 +1,129 @@
+abstract: "This data package contains the datasets and reports pertaining to mapping\
+  \ the spatial extent of Zostera marina at several monitoring sites within the Gulf\
+  \ Islands National Park Reserve, British Columbia, Canada. This work was a collaborative\
+  \ project between the Hakai Institute and the Gulf Islands National Park Reserve\
+  \ (GINPR).  \n\nMonitoring sites were mapped using small Remotely Piloted Aerial\
+  \ Systems (RPAS) (DJI Phantom Pro 3) during summer low tides (0.3-0.8 m) in 2017\
+  \ and 2018. Orthomosaics of each site were created using a Structure from Motion\
+  \ Multi-View Stereo (SfM-MVS) workflow within Pix4Dmapper software (Version 2.1.61,\
+  \ Pix4D) in Windows 10 and georeferenced using group control points collected concurrently\
+  \ during the surveys. The extent of eelgrass at each site was delineated using object-based\
+  \ image analysis (OBIA) with eCognition Developer software (eCognition Developer\
+  \ 9, 2014) and manual delineation (where necessary). Georeferenced towed underwater\
+  \ video (SplashCam Pro) data were collected at eelgrass monitoring sites during\
+  \ high tide to provide ground-truth data for the aerial analysis and delineation\
+  \ of eelgrass. \n\nThe data package includes:\n\n-   The reports (.pdf) which describe\
+  \ project, data collection and processing methods and results for both 2017 and\
+  \ 2018 surveys. \n-    Polygon shapefiles (.shp) of the extent of eelgrass (Z. marina)\
+  \ at each monitoring site.\n-    Point shapefiles (.shp) of classified towed underwater\
+  \ video transects*. \n-    A data dictionary (.csv) which describes the attributes\
+  \ of the shapefiles. \n\n*The towed underwater video footage is not provided as\
+  \ a part of this data package but is available upon request.  \n\nThis data package\
+  \ is a component of the Hakai Institute\u2019s Habitat Mapping program. The overarching\
+  \ objective of the Hakai Habitat Mapping program is to generate spatial inventories\
+  \ of coastal habitats, investigate how these habitats are changing through time\
+  \ and the drivers of that change. These data were collected as a part of the Coastal\
+  \ BC Nearshore Habitat Mapping Project (a collaboration between Parks Canada and\
+  \ the Hakai Institute). \n\nPermission to use this dataset must be granted by the\
+  \ Hakai Institute and Gulf Islands National Park Reserve to the individual who makes\
+  \ the data request. Data can only be used for the permitted purpose and are not\
+  \ to be shared or repurposed. Please refer to the README.txt file included in this\
+  \ data package."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- affiliation: Gulf Islands National Park Reserve
+  city: Capital Regional District
+  country: CA
+  family-names: Rockwell
+  given-names: Lisa
+  website: https://www.pc.gc.ca/en/pn-np/bc/gulf
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- affiliation: Pacific Rim National Park Reserve
+  city: Regional District of Alberni-Clayoquot
+  country: CA
+  family-names: Collyer
+  given-names: M. J. P.
+  website: https://www.pc.gc.ca/en/pn-np/bc/pacificrim
+- affiliation: Gulf Islands National Park Reserve
+  city: Capital Regional District
+  country: CA
+  family-names: Helms
+  given-names: Sibylla
+  website: https://www.pc.gc.ca/en/pn-np/bc/gulf
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: fd5ada9a-5719-4ca1-89d2-17adb48d1493
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_fd5ada9a-5719-4ca1-89d2-17adb48d1493
+- description: DOI
+  type: doi
+  value: 10.21966/t8hm-ge90
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXBNZnZGekFJcFFDcm8
+- description: 'Full metadata and data download - Eelgrass extent - Gulf Islands National
+    Park Reserve: Hakai Institute google drive - restricted - please contact data@hakai.org'
+  type: url
+  value: https://drive.google.com/drive/folders/11zbjbLFo8OzGVT1mzktNQriITt2NFlDK?usp=sharing
+keywords:
+- Alismatales
+- seagrass
+- RPAS
+- Tracheophyta
+- Zosteraceae
+- Seagrass
+- Zostera marina
+- Eelgrass
+- Plantae
+- Salish Sea
+- GINPR
+- other
+- Gulf Islands
+- Zostera
+- Liliopsida
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Eelgrass (Z. marina) extent at Gulf Islands National Park Reserve eelgrass
+  monitoring sites (2017, 2018) v1.0.0
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_fd5ada9a-5719-4ca1-89d2-17adb48d1493
+version: 1.0.0

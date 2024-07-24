@@ -1,0 +1,75 @@
+abstract: "What\n- Orthomosaics derived from RPAS Imagery\n- Digital Elevation Models\
+  \ derived from RPAS Imagery\n- Photogrammetry LAS points and other elevation derivatives\
+  \ - see document for details\n- Vegetated island areas - created from the photogrametric\
+  \ point clouds\n\nWhen\n- Data were collected between 2015 and 2018\n\nWhere\n-\
+  \ The data were collected on the Central Coast of British Columbia, Canada. \n-\
+  \ The data cover 100 islands sampled within the Calvert Island Region.\n\nHow\n\
+  -The data were collected with Phantom 3 Pro RPAS. \n-The data were georeferenced\
+  \ with a Topcon GR5 Differential GNSS. \n-The data were processed with the SfM software\
+  \ Pix4D Mapper. See additional details in the attached methodology document.\n\n\
+  Who\n-Luba Reshitnyk, Keith Holmes, and Wiebe Nijland collected the data. The orthomosaics\
+  \ were created by Luba and Keith. Wiebe calculated the derived terrain and vegetation\
+  \ metrics.\n\nWhy \nThe 100 Islands program focused on understanding the relationship\
+  \ between marine subsidies and the theory of island biogeography. Research questions\
+  \ were focused on understanding the relationship between island structure (shoreline,\
+  \ size, vegetative cover) and local biodiversity (terrestrial plants, mammals, passerine\
+  \ birds, invertebrates and sea wrack)\nThe orthomosaics and 3D surface of each study\
+  \ island were used to derive data products such as digital elevation/surface models,\
+  \ island area, vegetated area, and canopy height models."
+authors:
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial
+  website: https://www.hakai.org/
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 251aef08-4017-4493-b9d8-c4583913b511
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_251aef08-4017-4493-b9d8-c4583913b511
+- description: DOI
+  type: doi
+  value: 10.21966/25ng-ar52
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/DCH8GzsQKSM8xwJ8WdQFIZrtCaq2/-MnacSB0YNeFCB0Qmn2r
+- description: '100 Islands RPAS Data Readme: Description of datasets and methodologies.'
+  type: url
+  value: https://drive.google.com/file/d/1nryEKvutAfUf4dgbtT3X_rH1_ce1yCik/view?usp=sharing
+keywords:
+- coastal characterization
+- remote sensing
+- coastal flora
+- coastal zone
+- habitat characterization
+- sensitive habitat
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Remotely-Piloted Aerial Systems Imagery, Terrain Data, and Derivates - 100
+  Islands Project, Central Coast, BC, Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_251aef08-4017-4493-b9d8-c4583913b511
+version: '1.0'

@@ -1,0 +1,77 @@
+abstract: 'WorldView-2 imagery was used to classify vegetated land, barren shoreline,
+  and water. The classification was then cleaned and converted to polygons. The interior
+  island polygons were dissolved to remove any holes in islands. The final polygons
+  represent Island interiors (mostly vegetated) and shoreline in the 100 Islands research
+  area. Not all 100 islands study islands are shown in this dataset, since the imagery
+  did not completely cover all islands.
+
+
+  The "Class" field denotes whether the polygon is Land (meaning vegetated inland),
+  or Shore.
+
+
+  The imagery were collected on the following dates: May 8 2011, May 11 2014, Aug
+  13 2014, and June 4 2015. The imagery were atmospherically corrected with the ATCOR
+  algorithm. The imagery was classified with an unsupervised ISO cluster classification,
+  which was collapsed into water and land classes. The vegetated land area was classified
+  with a 5x5 median filtered NDVI image threshold, which varied by scene. The raster
+  classification was converted to polygons, and interior polygons were removed with
+  a union analysis.'
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 55daf524-146e-4b06-8c6c-3255c7e3c77a
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_55daf524-146e-4b06-8c6c-3255c7e3c77a
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW90czhQM1A2WXJWTVg
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Hakai''s ArcGIS Online Platform (restricted access): Hakai''s AGOL
+    Instance is the platform for Access and online use of this dataset/''s reference
+    layer'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=6506243914ea49ba8bd53b85714e13c3
+keywords:
+- Marine
+- Land
+- Downloadable Data
+- NDVI
+- Remote Sensing
+- other
+- Vegetation
+- 100 Islands
+- Worldview2
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Vegetated Islands Polygons - 100 Islands Research
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_55daf524-146e-4b06-8c6c-3255c7e3c77a

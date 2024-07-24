@@ -1,0 +1,129 @@
+abstract: "This data package includes two datasets used to assess spatial and temporal\
+  \ patterns in particulate organic matter (POM) chemical composition in surface (0-10\
+  \ m) waters at 11 oceanographic stations along British Columbia\u2019s Central Coast,\
+  \ associated with St. Pierre et al. (2022, submitted).\n\nThe datasets within the\
+  \ data package include: \n\u2018Oceanographic station mixture dataset.csv\u2019\
+  : Particulate organic carbon (POC) and particulate nitrogen (PN) concentrations\
+  \ and stable isotope signatures (\u03B413C, \u03B415N) and ratios of carbon-to-nitrogen\
+  \ (C:N) in surface waters (0-10 m) across 11 oceanographic stations, sampled during\
+  \ routine monthly surveys conducted between January 21st 2015 and September 11th\
+  \ 2018. Also includes water temperature, salinity, chlorophyll a concentrations,\
+  \ and POC-to-chlorophyll a ratios.  \n\u2018End-member raw data.csv\u2019:  Particulate\
+  \ organic carbon (POC) and particulate nitrogen (PN) concentrations and stable isotope\
+  \ signatures (\u03B413C, \u03B415N) and ratios of carbon-to-nitrogen (C:N) in marine\
+  \ phytoplankton, terrestrial, and marine intertidal macrophyte POM sources. Note\
+  \ that means \xB1 standard deviations for each source were used in the Bayesian\
+  \ mixing model presented in St. Pierre et al. (in review). Marine intertidal macrophyte\
+  \ data are a subset from Froese et al. (2019). \n\nSample collection and processing\
+  \ information can be found in: \nSt. Pierre, K.A., Hunt, B.P.V., Giesbrecht, I.,\
+  \ Tank, S.E., Lertzman, K.P., Del Bel Belluz, J., Hessing-Lewis, M.L., Olson, A.,\
+  \ Froese, T. Marine particulate organic matter chemistry reflects seasonally and\
+  \ spatially variable contributions from terrestrial, intertidal and marine pelagic\
+  \ sources in the Northeast Pacific coastal temperate rainforest. (In review) \n\n\
+  Information on the collection of the marine intertidal macrophyte data can be found\
+  \ in: \nFroese, T., Sadlier-Brown, G., Olson, A.M., and Hessing-Lewis, M. (2019).\
+  \ Nearshore macrophyte stable isotope results from BC\u2019s Central Coast, 2014-2018.\
+  \ Hakai Institute dataset. https://doi.org/10.21966/q31x-qg72"
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: kstpier4@uottawa.ca
+  family-names: St. Pierre
+  given-names: Kyra
+  orcid: https://orcid.org/0000-0003-0981-920X
+  website: https://www.hakai.org/
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  email: b.hunt@oceans.ubc.ca
+  family-names: Hunt
+  given-names: Brian P. V.
+  orcid: https://orcid.org/0000-0003-4718-4962
+  website: https://www.ubc.ca/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: ian.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian
+  orcid: https://orcid.org/0000-0001-7013-4766
+  website: https://www.hakai.org/
+- family-names: Tank
+  given-names: Suzanne
+  orcid: https://orcid.org/0000-0002-5371-6577
+- family-names: Lertzman
+  given-names: Ken
+  orcid: https://orcid.org/0000-0002-4211-2188
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Del Bel Belluz
+  given-names: Justin
+  orcid: https://orcid.org/0000-0002-3536-9508
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Froese
+  given-names: Tyrel
+  orcid: https://orcid.org/0000-0002-6964-8353
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Olson
+  given-names: Angeleen
+  orcid: https://orcid.org/0000-0001-8443-1868
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Hessing-Lewis
+  given-names: Margot
+  orcid: https://orcid.org/0000-0002-9956-955X
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 9201118a-b0c4-470f-a76f-396bacc5e93e
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_9201118a-b0c4-470f-a76f-396bacc5e93e
+- description: DOI
+  type: doi
+  value: 10.21966/hpqq-0k76
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MsrCVBUISm0yb834G97
+- description: 'Dataset and Data Dictionary: Not available'
+  type: url
+  value: https://drive.google.com/drive/folders/1-UboFdzIyr-oGADEkLHKoqwJGwC_dzeL?usp=sharing
+keywords:
+- nitrogen
+- biogeochemistry
+- stableCarbonIsotopes
+- isotope
+- carbon
+- watersheds
+- Coast
+- particulateMatter
+- terrestrial
+- marine
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Particulate organic matter composition for freshwater and marine stations from
+  2015 through 2018 on the Central Coast, British Columbia, Canada.
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_9201118a-b0c4-470f-a76f-396bacc5e93e

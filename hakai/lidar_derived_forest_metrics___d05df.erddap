@@ -1,0 +1,59 @@
+<addAttributes>
+    <att name='institution'>Hakai Institute</att>
+    <att name='title'>LIDAR Derived Forest Metrics - Calvert Island - British Columbia - Canada</att>
+    <att name='summary'>72 LIDAR Derived Forest Metrics - Calvert Island - 20 Meter Spatial Resolution
+
+LIDAR forest metrics have been developed for the Calvert Island region. The data are in 20 meter resolution and detail a number of variables about the vegetation layer above the bare earth model. Forest metrics have been grouped to show major statistical themes such as gap fraction, stem height, and density. The information is valuable for classifying forest structure and better understanding ecosystem dynamics.
+
+LIDAR Forest Metrics Produced by GWF LiDAR Analytics
+A full list of derived forest metrics produced by G.W. Frazer is listed at the end of this abstract. 
+
+LIDAR flights conducted in 2012 and 2014 covered all of Calvert and Hecate Island. Flights were completed in August of 2012 (Terra Remote Sensing) and August of 2014 (Brian Menounos UNBC).
+
+Area-based canopy height and density metrics are derived directly from a height-normalized LAS point cloud using proprietary software developed by G.W. Frazer (note: Fusion and LASTools are respectively open-source and commercial software that can be used to extract various area-based canopy metrics). These gridded products (approximately 55 bands) have a user-defined 20 m spatial resolution and include (i) height-based statistics (e.g., min., max., mean, moments, percentiles), (ii) density-based statistics (i.e., gap fraction, canopy cover at fractional and absolute heights above the ground surface), and (iii) diagnostic information (e.g., number of laser points in each cell, number of laser points classified as ground, number of points above a specific height threshold, etc.). Area-based canopy metrics are used to characterize the three-dimensional (3-D) structure of the vegetation canopies.
+
+List of LiDAR-Derived Canopy Height, Canopy Density, and Stem Metric Categories:
+(Based on G.W. Frazer LiDAR Metrics for Calvert / Hecate Island Acquisition 2012 / 2014 metadata document.)
+Canopy Height Metrics			
+Canopy Density Metrics 					
+Percentiles of Laser Canopy Height (LHQ) Bands					
+Canopy Density at Fractional Canopy Heights (CCF) Bands 						
+Diagnostic Bands			
+Tree-Top Bands
+
+For a full metadata report on LiDAR acquisition please contact data@hakai.org</att>
+    <att name='project'>Airborne Coastal Observatory</att>
+    <att name='comment'>##Limitations:
+Appropriate credit must be given to Hakai Institute and the authors of the dataset.</att>
+    <att name='progress'>completed</att>
+    <att name='keywords'>Downloadable Data,LIDAR,Forest,Metric,Calvert,Hecate,Vegetation,laser,Ecology,Terra,UNBC,sensor,remote sensing,terrain,Canopy Height Metrics,Arithmetic mean height,kurtosis,skewness,Gap fraction,Percentage of laser points,Percentile,Percentiles of Laser Canopy Height,Maximum laser canopy height,Ratio of laser points,Canopy Density at Fractional Canopy Heights,Canopy Density,Density,Diagnostic Bands,Tree-Top Bands,Number of stems in grid cell,Minimum stem height,Maximum stem height,stem height,other,watersheds,CIOOS:other</att>
+    <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary</att>
+    <att name='id'>d05df775-4295-4b9f-b3b3-29fe891d9ed9</att>
+    <att name='naming_authority'>ca.cioos</att>
+    <att name='date_modified'>2024-07-24T08:00:19.576Z</att>
+    <att name='date_created'>2022-03-29</att>
+    <att name='license'>https://creativecommons.org/licenses/by/4.0</att>
+    <att name='creator_name'>Geospatial Technology Team Hakai</att>
+    <att name='creator_email'>data@hakai.org</att>
+    <att name='creator_type'>person</att>
+    <att name='creator_institution'>Hakai Institute</att>
+    <att name='creator_address'>1002 Wharf Street</att>
+    <att name='creator_city'>Campbell River</att>
+    <att name='creator_country'>Canada</att>
+    <att name='creator_url'>https://www.hakai.org/</att>
+    <att name='creator_ror'>https://ror.org/02pry0c91</att>
+    <att name='publisher_name'>Hakai Institute</att>
+    <att name='publisher_email'>data@hakai.org</att>
+    <att name='publisher_type'>institution</att>
+    <att name='publisher_institution'>Hakai Institute</att>
+    <att name='publisher_city'>Campbell River</att>
+    <att name='publisher_country'>Canada</att>
+    <att name='publisher_url'>https://www.hakai.org/</att>
+    <att name='publisher_ror'>https://ror.org/02pry0c91</att>
+    <att name='contributor_name'>Frazer, G.W.;Geospatial Technology Team Hakai;Hakai Institute;Tula Foundation</att>
+    <att name='contributor_role'>processor,pointOfContact,author,editor;pointOfContact,pointOfContact,custodian,owner,author,principalInvestigator,distributor;publisher;funder</att>
+    <att name='doi'>https://doi.org/10.21966/MQ9T-BW79</att>
+    <att name='metadata_link'>https://catalogue.hakai.org/dataset/ca-cioos_d05df775-4295-4b9f-b3b3-29fe891d9ed9</att>
+    <att name='infoUrl'>https://catalogue.hakai.org/dataset/ca-cioos_d05df775-4295-4b9f-b3b3-29fe891d9ed9</att>
+    <att name='metadata_form'>https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWZyU1hnTHowV2poZUk</att>
+</addAttributes>

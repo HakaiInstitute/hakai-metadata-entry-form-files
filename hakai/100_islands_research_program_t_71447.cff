@@ -1,0 +1,162 @@
+abstract: "These data were collected as part of the Hakai Institute\u2019s 100 Islands\
+  \ Research Program. The purpose of 100 Islands was to study how marine subsidies,\
+  \ island characteristics, and other drivers affect vegetation communities on islands\
+  \ of the Central Coast. This dataset includes two folders of data \u2013 one which\
+  \ includes the raw forms of the data and was used for Owen Fitzpatrick\u2019s MSc\
+  \ thesis analyses (Folder 1), and one that was used by Debora Obrist, Owen Fitzpatrick,\
+  \ and co-authors to evaluate the scale-dependence of marine inputs on island plant\
+  \ communities (Folder 2).\n\nFolder 1: \nAll files in Folder 1 described in Hakai\
+  \ Institute Advanced Metadata Form \u2013 100 Islands Fitzpatrick.\n\nFolder 2:\
+  \ \nplant-sib-island-analysis-data.csv\n   - Island-level rarefied plant species\
+  \ richness and environmental data for 92 islands.\nplant-sib-plot-analysis-data.csv\n\
+  \   - Sampling plot-level plant species richness and environmental data for 1381\
+  \ plots across 90 islands with complete plot-level environmental data. \nhmsc-percent-cover-long.csv\n\
+  \   - Plot-level percent cover by species. \nhmsc-species-names.csv\n   - Conversion\
+  \ from 4-letter codes into Latin names for species. \nhmsc-xycoords.csv\n   - File\
+  \ containing key to link wrack data to plot-level species data and XY coordinates\
+  \ to make joint species distribution model spatially explicit.\nplant-sib-metadata.docx\n\
+  \   - Complete metadata for all Folder 2 files.\n\nUses: \nIslands in a sea of nutrients:\
+  \ testing subsidized island biogeography - Owen Fitzpatrick, MSc thesis: https://dspace.library.uvic.ca/handle/1828/9312\n\
+  In this thesis, Owen uses the theory of island biogeography as a basis for exploring\
+  \ patterns of diversity on islands. He incorporates the growing recognition that\
+  \ marine and terrestrial food webs are linked by the flow of subsidies, which may\
+  \ alter the productivity of recipient ecosystems. He established a large-scale observational\
+  \ study to test whether marine subsidies alter the relationship between island area\
+  \ and plant species richness, and if the impact of those subsidies is mediated by\
+  \ landscape-scale habitat characteristics such as island area and shoreline slope.\
+  \ \n\nScale-dependent effects of marine subsidies on island biogeographic patterns\
+  \ of plants - Obrist et al. 2022, Ecology and Evolution, doi: 10.1002/ece3.9270,\
+  \ code for analyses: https://github.com/debobrist/plant-sib\nWe know that species\
+  \ richness is determined by different mechanisms at different spatial scales, but\
+  \ the role of scale in effects of marine inputs on island biogeography are still\
+  \ unknown. We used this dataset to evaluate the influence of island characteristics\
+  \ and marine inputs (seaweed wrack biomass and marine-derived nitrogen in the soil)\
+  \ on plant species richness at both a local (plot) and regional (island) scale on\
+  \ 92 islands in British Columbia, Canada. We found that the effects of subsidies\
+  \ on species richness depend on the spatial scale of investigation. Although we\
+  \ found no effects of marine subsidies on island levels, we found that plots with\
+  \ more marine-derived nitrogen (\u03B415N) in the soil hosted fewer species. We\
+  \ found no effect of wrack at either scale. To look at possible mechanisms driving\
+  \ this decrease in diversity, we used a joint species distribution model identify\
+  \ species-level responses to marine subsidies and effects of biotic interactions\
+  \ among species."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Fitzpatrick
+  given-names: Owen
+  orcid: https://orcid.org/0000-0001-7715-3601
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Obrist
+  given-names: Debora
+  orcid: https://orcid.org/0000-0002-5645-6037
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: w.nijland@uu.nl
+  family-names: Nijland
+  given-names: Wiebe
+  orcid: https://orcid.org/0000-0002-2665-0947
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Ernst
+  given-names: Christopher M.
+  orcid: https://orcid.org/0000-0002-0257-6252
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reynolds
+  given-names: John
+  orcid: https://orcid.org/0000-0002-0459-0074
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Starzomski
+  given-names: Brian
+  orcid: https://orcid.org/0000-0001-5017-5405
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Fitzpatrick
+  given-names: Owen
+  orcid: https://orcid.org/0000-0001-7715-3601
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 71447a55-3eca-41b1-87ff-b8ef69314c4d
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_71447a55-3eca-41b1-87ff-b8ef69314c4d
+- description: DOI
+  type: doi
+  value: 10.21966/CZ48-D388
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWN3eXE0MWhrdGJzTXg
+- description: '100 Islands Vegetation Data - Hakai Google Drive: Hakai Google Drive
+    - Data Storage'
+  type: url
+  value: https://drive.google.com/drive/folders/1P6bFCClSGbPJhMfrmBVcHawG0LxPjzZa?usp=sharing
+- description: 'Fitzpatrick Thesis - UVIC DSPACE Record: Fitzpatrick thesis 2018-05-01'
+  type: url
+  value: https://dspace.library.uvic.ca/handle/1828/9312
+keywords:
+- island biogeography
+- 100 Islands
+- percent cover
+- forest structure
+- nutrient
+- Downloadable Data
+- wrack
+- subsidy
+- plant
+- vascular
+- isotope
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: 100 Islands Research Program Terrestrial Vegetation Data - BC Central Coast
+  - 2015, 2016, 2017
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_71447a55-3eca-41b1-87ff-b8ef69314c4d
+version: '1.0'

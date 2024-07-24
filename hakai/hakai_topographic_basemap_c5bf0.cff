@@ -1,0 +1,97 @@
+abstract: "Hakai Topographic is a basemap made to enhance and compliment ESRI topographic\
+  \ for the greater Hakai study area.\n\nThis basemap is meant to be used only for\
+  \ visualization purposes and for understanding the spatial context as it relates\
+  \ to topographic relief.\n\nHakai Topographic has 12 layers of data. Four of those\
+  \ layers are raster DEM / Hillshade merge datasets. The following list details each\
+  \ layer:\n\n1) Land Mask\n\n2) Streams\n\n3) Lakes\n\n4) Gamma Corrected, Orthorectified\
+  \ Hillshade-Elevation Tint Fusion for Calvert Island\n\n--> DEM (Digital Elevation\
+  \ Model) LiDAR Based (Calvert Area).\n\nA 3m topographically complete, hydro-flattened,\
+  \ bare-earth DEM produced from a merging of 2012 + 2014 LiDAR data by means of Natural\
+  \ Neighbours interpolation. \n\n--> Hillshade (LiDAR Based \u2013 Calvert Island)\n\
+  \n5) Gamma Corrected, Orthorectified Hillshade-Elevation Tint Fusion for the land\
+  \ component excluding Calvert Island\n\n6) Trails \n\n7) Buildings - Calvert Island\n\
+  \n8) Ocean\n\n9) Bathymetry classes polygons\n\n10) Contour 20m \n\n11) Contour\
+  \ 20m Calvert\n\n12) Contour 5 m Calvert"
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+  website: https://www.hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Holmes
+  given-names: Keith
+  website: https://www.hakai.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+  website: https://www.hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Holmes
+  given-names: Keith
+  website: https://www.hakai.org
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: c5bf06e7-29f9-404a-a454-36a5d67b2e69
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_c5bf06e7-29f9-404a-a454-36a5d67b2e69
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTdQU1J3ejBLVmp5MGY
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Hakai Geospatial Data Repository (restricted access): Hakai''s repository
+    for downloading raw data files. Restricted access.'
+  type: url
+  value: https://drive.google.com/open?id=0B-Q2IQtbEgU4SUdMT3VwWVVNY28
+- description: 'ArcGIS Online (restricted access): Hakai''s AGOL Instance is the platform
+    for Access and online use of this dataset'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=c71b6a3b40df4e4daf278f82a6a20655
+keywords:
+- British Columbia
+- Downloadable Data
+- Central Coast
+- topography
+- Hakai Custom Basemaps
+- other
+- Calvert Island
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Hakai Topographic Basemap
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_c5bf06e7-29f9-404a-a454-36a5d67b2e69

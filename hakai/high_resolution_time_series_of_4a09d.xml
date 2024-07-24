@@ -670,7 +670,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2023-01-24T18:12:35.218Z</gco:DateTime>
+        <gco:DateTime>2024-07-23T13:38:12.382Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -737,7 +737,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -750,7 +750,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -767,7 +767,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>High-resolution time series of surface seawater CO2 content from the OceansAlaska Shellfish Hatchery in Ketchikan, Alaska, USA</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Séries chronologiques à haute résolution sur la teneur en CO2 de l&#39;eau de mer de surface provenant de l&#39;écloserie OceansAlaska Shellfish à Ketchikan, Alaska, États-Unis</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -1604,7 +1604,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>This dataset includes measurements of partial pressure of carbon dioxide (pCO2), sea surface salinity, sea surface temperature and other parameters from the OceansAlaska Shellfish Hatchery in Ketchikan, Alaska since 2016-08-29. The OceansAlaska Shellfish Hatchery in Ketchikan, is a floating barge that has been a site for high-resolution measurement of surface seawater CO2 content since August 2016. Measurements of in situ temperature, salinity, and CO2 partial pressure are made near-continuously from a seawater sample line with an intake depth of 4.3 m. The effort to collect these data is a collaboration between OceansAlaska, the UAF Ocean Acidification Research Center, Oregon State University, and the Hakai Institute with support from the Alaska Ocean Observing System and the Tula Foundation.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend des mesures de la pression partielle du dioxyde de carbone (pCO2), de la salinité de la surface de la mer, de la température de la surface de la mer et d&#39;autres paramètres provenant de l&#39;écloserie OceansAlaska Shellfish à Ketchikan, en Alaska, depuis le 29 août 2016. L&#39;écloserie OceansAlaska Shellfish de Ketchikan est une barge flottante qui sert de site de mesure à haute résolution de la teneur en CO2 de l&#39;eau de mer de surface depuis août 2016. Les mesures in situ de la température, de la salinité et de la pression partielle de CO2 sont effectuées en quasi-continu à partir d&#39;une ligne d&#39;échantillonnage d&#39;eau de mer d&#39;une profondeur d&#39;admission de 4,3 m. La collecte de ces données est le fruit d&#39;une collaboration entre OceansAlaska, le centre de recherche sur l&#39;acidification des océans de l&#39;UAF, l&#39;université d&#39;État de l&#39;Oregon et l&#39;Institut Hakai avec le soutien de l&#39;Alaska Ocean Observing System et de la Tula Foundation.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -1656,7 +1656,7 @@
                   <mrs:referenceSystemIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>5831</gco:CharacterString>
+                        <gco:CharacterString>5829</gco:CharacterString>
                       </mcc:code>
                       <mcc:codeSpace>
                         <gco:CharacterString>EPSG</gco:CharacterString>
@@ -1665,7 +1665,7 @@
                         <gco:CharacterString>2012-08-10</gco:CharacterString>
                       </mcc:version>
                       <mcc:description>
-                        <gco:CharacterString>EPSG::5831 - Instantaneous Water Level depth - Depth relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                        <gco:CharacterString>EPSG::5829 - Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
                       </mcc:description>
                     </mcc:MD_Identifier>
                   </mrs:referenceSystemIdentifier>
@@ -1699,7 +1699,7 @@
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-NHZti4Qjk0UuD4Ocz77</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-NHZti4Qjk0UuD4Ocz77</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1833,7 +1833,14 @@
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Oceanography</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>

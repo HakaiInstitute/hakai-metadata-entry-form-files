@@ -1,0 +1,110 @@
+abstract: "This layer includes polygons representing the islands studied by the 100\
+  \ Islands research program at the Hakai Institute. A centroid points layer is also\
+  \ included.\nThe 100 Islands Project seeks to blend the theory of island biogeography\
+  \ with theories about ecosystem subsidies, to understand how nutrients from the\
+  \ sea affect the ecology of plants, breeding birds, mammals, insects and amphibians.\
+  \ To do this we will be studying 100 islands near the Hakai Institute on Calvert\
+  \ Island. Little is known of the diversity on these islands and therefore we have\
+  \ a great opportunity to conduct lots of interesting work, including mapping of\
+  \ major taxa, tracking marine-derived nutrients along shorelines (think seaweed\
+  \ deposition) and into the forests, and measuring stable isotope signatures in a\
+  \ variety of organisms (from tiny plants to large mammals), to name just a few!\n\
+  \nAttributes:\nIsland general exposure as derived from the BC Shorezone dataset.\
+  \ Reflects the exposure on the more exposed side of each island. 6 classes (Very\
+  \ Exposed, Exposed, Semi Exposed, Semi Protected, Protected, Very Protected) \n\
+  Distance to Mainland over water in meters measured using the least distance of water\
+  \ crossing. \nDistance to nearest vegetated land. \nRadial coverage of land within\
+  \ 250m from the Island. (0 \u2013 360\xB0) i.e. the amount of surrounding land measured\
+  \ by the degrees of a circle it covers. \nMean Normalized Difference Vegetation\
+  \ Index for the internal area of each island. NDVI is derived from WorldView2 images\
+  \ and available at its original 2m resolution.\n\nDataset created by Wiebe Nijland\
+  \ and Luba Reshitnyk"
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: f68be641-0017-4311-b4de-5d0aed9e2b57
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_f68be641-0017-4311-b4de-5d0aed9e2b57
+- description: DOI
+  type: doi
+  value: 10.21966/gsbw-bz85
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWFJMkk4eTgwRkNDeno
+- description: 'Hakai Institute Google Drive: Metadata Readme File'
+  type: url
+  value: https://drive.google.com/drive/folders/1xGWKLj22y5TC2gIJ95S98zUVop54XEbh?usp=sharing
+- description: 'Hakai''s ArcGIS Online Platform (restricted access) - 100 Islands
+    Project - 2017 Island Points and Polygons Layers: Hakai''s AGOL Instance is the
+    platform for Access and online use of this dataset/''s reference layer'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=ded57cc321174a2a80416b30356657bd
+keywords:
+- Plants
+- Insects
+- 100 Islands
+- polygon
+- Mammals
+- sea
+- other
+- kelp
+- biogeography
+- Biogeography
+- shoreline
+- Sea Wrack
+- Islands
+- coast
+- subsidies
+- Ecology
+- Environmental
+- Hakai
+- Birds
+- point
+- marine
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: 100 Islands Project - Island Spatial Data -2017 - Coastal British Columbia
+  - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_f68be641-0017-4311-b4de-5d0aed9e2b57

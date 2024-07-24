@@ -1,0 +1,86 @@
+abstract: 'This is a polygon layer mapping kelp canopy extent for the McNaughton Group
+  islands, Manley Island, and Serpent Group Islands.
+
+
+  Kelp canopy extent was mapped from imagery taken using an unoccupied aerial system
+  (UAS). McNaughton Imagery was taken in late May 2017, the Manley images were captured
+  in late July 2017, and the Serpent Group images were made in early July 2016. The
+  images were captured using a DJI Phantom 3 professional UAS equipped with a commercial
+  grade 4k RGB (See attached UAS methods). Kelp bed polygons were drawn manually in
+  ArcGIS 10.5.1. Only beds containing greater than ~3 fronds were mapped. Beds were
+  considered connected when less than ~5m separated them. Single fronds and single
+  frond outliers were not digitized. Vertices were placed every 4m or less (more vertices
+  were used on complex shapes). The attributes in this table are limited to the perimeter
+  length (m) and area (m^2) of each kelp bed polygon. Area was determined in the NAD_1983_CSRS_BC_Environment_Albers
+  projection. Species and bed density were not recorded for this dataset.'
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial
+  website: https://www.hakai.org/
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 5c13b300-e172-4010-a6d8-7586b68a3a96
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_5c13b300-e172-4010-a6d8-7586b68a3a96
+- description: DOI
+  type: doi
+  value: 10.21966/82bd-ks94
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTFIWmZWeEE0RkZrZVc
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Kelp extent for the McNaughton Group, Manley, and Serpent Group Islands:
+    A shapefile delineating the kelp extent for the McNaughton Group, Manley, and
+    Serpent Group Islands.'
+  type: url
+  value: https://drive.google.com/open?id=1j7vdQmLOjuGlelcdu0pznV-MljW1M14H
+- description: UAS methods for obtaining imagery used to digitize substrate types
+  type: url
+  value: https://hecate.hakai.org/geonetwork/srv/api/records/5c13b300-e172-4010-a6d8-7586b68a3a96/attachments/General
+    UAS Methodology Orthomosaics Only.pdf
+keywords:
+- habitat
+- Macrosystis
+- UAS
+- Kelp
+- macroalgalCanopyCoverAndComposition
+- canopy
+- imagery
+- Hakai
+- other
+- macroalgae
+- nearshore
+- ocean
+- Nerocystis
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Kelp extent for the McNaughton Group Islands (2017), Manley Island (2017),
+  and Serpent Group Islands (2016), British Columbia, Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_5c13b300-e172-4010-a6d8-7586b68a3a96

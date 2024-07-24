@@ -1,0 +1,105 @@
+abstract: "Airborne Light Detection and Ranging (LiDAR) data and orthoimagery were\
+  \ collected by Hakai\u2019s Airborne\nCoastal Observatory (ACO) in the early fall\
+  \ of 2019 for designated Nanwakolas and FLNRORD Coastal\nExperimental Watersheds\
+  \ in the region of Knight Inlet, BC. These remotely sensed data will be\nused to\
+  \ support the design and implementation of controlled watershed experiments at spatial\
+  \ scales\nranging from fine (plot or stand) to coarse (landscape). Repeat (multi-temporal)\
+  \ aerial remote sensing\nsurveys are required to detect spatiotemporal changes and\
+  \ trends in fine to coarse-scaled ecological and\ngeomorphological phenomena. Airborne\
+  \ LiDAR provides 3-D measurements of forest structure and\ntopography at high spatial\
+  \ resolutions and over relatively large spatial extents, and now routinely used\
+  \ \nto identify individual tree crowns, vertical canopy profiles, canopy gaps, stand\
+  \ edges, watersheds, sub-\nbasins, channels, and other ecologically relevant landforms.\
+  \ High-spatial-resolution measurements can \nbe further aggregated into coarser-scaled\
+  \ ecological entities (e.g., patches, stands, regions, etc.) using\ndata-driven\
+  \ analytical approaches and methods (e.g., object-based image analysis and clustering).\n\
+  Ground-truth in the form of field visits, air calls, airphoto interpretation, or\
+  \ some combination of all the\nabove are required to place meaningful labels on\
+  \ these new, coarser-scaled spatial entities.\n\n\nWe propose to build several spatial\
+  \ data layers and thematic maps that would support Nanwakolas and\nFLNRORD Coastal\
+  \ Experimental Watersheds programs. First, several well-established area-based LiDAR\n\
+  canopy height and density metrics related to the vertical and horizontal structure\
+  \ of forest canopies\n will be extracted at raster cell sizes of 10 and 20 m (100-400m2).\
+  \ Studies demonstrate that\nthese metrics are strongly associated with gradients\
+  \ of microclimates (e.g., light, temperature, moisture,\netc.), materials (e.g.,\
+  \ phytomass, nutrients, gases, water, etc.), processes (e.g., light capture,\nphotosynthesis,\
+  \ throughfall, evapotranspiration, etc.), organisms (e.g., epiphytes, mammals, birds,\n\
+  insects, microbes, etc.), and timber (e.g., wood volume and mass). LiDAR canopy\
+  \ height and density\nmetrics also change markedly with stand age and may therefore\
+  \ be used to study stand developmental\nprocesses and pathways, as well as to predict\
+  \ stand age, at least within ecologically meaningful age\nclasses. Landscape-level\
+  \ variations in forest canopy structure are driven by differences in\nstand age,\
+  \ species composition, site productivity, climate, and disturbance. We will use\
+  \ data-driven,\nspatial aggregation techniques to partition continuous, cell-level\
+  \ measurements of canopy height and\ndensity into unique structural groups or prototypes\
+  \ that are homogeneous with respect to the variables\nused to define them."
+authors:
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Technology Team
+  given-names: Geospatial
+  website: https://www.hakai.org
+- address: 1002 Wharf Street
+  affiliation: Airborne Coastal Observatory - Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Coastal Observatory
+  given-names: Airborne
+  website: https://hakai.org/
+cff-version: 1.2.0
+contact:
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Technology Team
+  given-names: Geospatial
+  website: https://www.hakai.org
+- address: 1002 Wharf Street
+  affiliation: Airborne Coastal Observatory - Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Coastal Observatory
+  given-names: Airborne
+  website: https://hakai.org/
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: e0c768fc-5c37-455f-b2a3-604f766f4148
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_e0c768fc-5c37-455f-b2a3-604f766f4148
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-MkEoax-I-IalULFPmu9
+- description: 'Hakai ACO Survey Coverage Webmap: Webmap detailing the areas of interest
+    (AOI) for each airborne coastal observatory survey area.'
+  type: url
+  value: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
+- description: 'Hakai ACO Summery Report: Nanawakolas FLNRORD CEW Watershed Survey
+    - Knight Inlet - 2019 - Project ID19-3003-00'
+  type: url
+  value: https://drive.google.com/file/d/1rJ4YH9pCDXLh60BI0vVaRYDyB3jrdcnp/view?usp=sharing
+keywords:
+- lidar
+- watershed
+- forest
+- Nanwakolas
+- model
+- elevation
+- Hakai Institute
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Nanwakolas Watershed Surveys - Knight Inlet - 2019 - Hakai Airborne Coastal
+  Observatory
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_e0c768fc-5c37-455f-b2a3-604f766f4148

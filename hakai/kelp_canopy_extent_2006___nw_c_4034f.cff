@@ -1,0 +1,109 @@
+abstract: "2006 air photos sourced from the province were used to digitize kelp canopies\
+  \ for NW Calvert Island. Focal areas of West Beach and Choked Passage off Calvert\
+  \ Island have been chosen to to multiple year analysis of kelp canopy change pre\
+  \ - and post otter establishment in the area. \n\nKelp density / species / and extent\
+  \ are recorded - see attributes listed below.\n2006 kelp canopy extent represents\
+  \ the maximum growth for the year. Tide level was roughly  2.47 meters (8.1 foot)\
+  \ - a level which could impact kelp extent and the ability for GIS technicians to\
+  \ properly detect and identify species. More research is being done to validate\
+  \ and test tide levels with associated kelp extent findings.\n\nAll digitizing occurred\
+  \ using Arc GIS. SFU volunteer crew (Amanda Schrack and Sebastian Mather) along\
+  \ with principal investigators Jenn Burt and Keith Holmes.\n\nMethods based on KIM\
+  \ 1 methodology as described in Sutherland 2007 report: http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf\n\
+  \nAreas covered: West Beach \u2013 7th beach to West Beach + Choked Passage \u2013\
+  \ Surf Pass and North Beach to Wolf Beach North to Hakai Land and Sea Beach.\n\n\
+  Attributes:\n\nFID - Unique identification number - ARC auto generated during polygon\
+  \ creation\n\nShape - Polygon - spatial representation\n\nSpecies - \"Macro\" /\
+  \ \"Nereo\" / Mixed detailing the two possible kelp canopy species. Macro refers\
+  \ to macrocystis pyrifera or giant kelp. Nereo refers to nereocystis luetkeana or\
+  \ bull kelp. Mixed is a homogenous mix of both Macro and Nereo species. Defined\
+  \ by GIS techs - identified by \"credit\" field. \n\nDensity - density of kelp defined\
+  \ as either high or low. Based on the Sutherland methodology for kelp density. High\
+  \ = high density / based on mean kelp plants found per square meter. Low = low density\
+  \ - still a continuous bed of kelp with large gaps the length of each fond.\n\n\
+  Area sq_m - size of each kelp bed in square meters. Defined by arc geometry calculation.\n\
+  \nConcat - concatenation of species and density information. Used for cartographic\
+  \ purposes. Defined by concatenating species and density metrics in ARC GIS.\n\n\
+  Confidence - Used by GIS technician to identify difficult to detect species / kelp\
+  \ bed extent / density. Used to inform reviewers and quality control spatial information.\
+  \ High = High confidence - no need to check over, Medium = medium confidence - check\
+  \ over, Low = low confidence - unsure of major elements - reviewer check over. A\
+  \ \"Checked\" may be added to the information to determine quality control has been\
+  \ completed on low confidence polygons. Determined by the last \"credit\" reviewer.\n\
+  \nCredit - Initials of GIS technician to create and give the final quality check\
+  \ on the kelp extent polygon. KH = Keith Holmes, JB = Jenn Burt, AS = Amanda Schrack,\
+  \ SM = Sebastian Mather.\n\nSpecies_la - full Latin species name for the kelp. macrocystis\
+  \ pyrifera / nereocystis luetkeana / mixed. Mixed has a homogeneous mix of both\
+  \ macrocystis pyrifera and nereocystis luetkeana species\n\nDataset created by Jenn\
+  \ Burt and Keith Holmes. Simon Fraser University Volunteers: Amanda Schrack and\
+  \ Sebastian Mather\nContact: keith.holmes@hakai.org"
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Keith Holmes
+  given-names: Jenn Burt
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Keith Holmes
+  given-names: Jenn Burt
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 4034f474-4d52-4a9e-9650-f3c6bd5011e0
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_4034f474-4d52-4a9e-9650-f3c6bd5011e0
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVpRZnZ2Y0d4cWhKcHk
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Hakai''s ArcGIS Online Platform (restricted access): Hakai''s AGOL
+    Instance is the platform for Access and online use of this dataset/''s reference
+    layer'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=cff1e8ea75bf4c838c80255272fda7ce
+keywords:
+- Laminariaceae
+- urchin
+- Downloadable Data
+- '2006'
+- Macrocystis pyrifera
+- Nereocystis luetkeana
+- hakai
+- Chromista
+- photo
+- Macrocystis
+- Nereocystis
+- air
+- Ochrophyta
+- other
+- marine
+- calvert
+- extent
+- kelp
+- canopy
+- Laminariales
+- Phaeophyceae
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Kelp Canopy Extent 2006 - NW Calvert Island
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_4034f474-4d52-4a9e-9650-f3c6bd5011e0

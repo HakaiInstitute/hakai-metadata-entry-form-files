@@ -502,7 +502,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2022-02-03T00:41:15.974Z</gco:DateTime>
+        <gco:DateTime>2024-07-23T14:12:49.752Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -569,7 +569,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -582,7 +582,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -599,7 +599,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>High-resolution record of surface seawater CO2 content from April 2016 to November 2017 collected in Hyacinthe Bay, British Columbia, Canada</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Enregistrement à haute résolution de la teneur en CO2 de l&#39;eau de mer de surface d&#39;avril 2016 à novembre 2017 recueilli dans la baie de Hyacinthe, en Colombie-Britannique, au Canada</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -962,7 +962,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>Quadra Island, at the northern terminus of the Salish Sea, has been a site for shore-based and high-resolution measurement of surface seawater CO2 content since December 2014. Measurements of in situ temperature, salinity, and CO2 partial pressure are made near-continuously from a seawater sample line with an intake 50 m from shore and at a depth of 1 m in Hyacinthe Bay on the eastern side of Quadra Island. The effort to collect these data are part of the Hakai Institute’s directive to advance the understanding of carbon cycling in northeast Pacific coastal settings with specific emphasis on sea-air CO2 exchange and ocean acidification. This data contribution consists of measurements from April 5, 2016 to November 9, 2017.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">L&#39;île Quadra, à l&#39;extrémité nord de la mer des Salish, est un site de mesure à haute résolution et à terre de la teneur en CO2 de l&#39;eau de mer de surface depuis décembre 2014. Les mesures de la température, de la salinité et de la pression partielle de CO2 in situ sont effectuées presque en continu à partir d&#39;une conduite d&#39;échantillonnage d&#39;eau de mer avec une prise d&#39;eau de mer à 50 m du rivage et à une profondeur de 1 m dans la baie Hyacinthe, sur le côté est de l&#39;île Quadra. L&#39;effort de collecte de ces données fait partie de la directive de l&#39;Institut Hakai visant à faire progresser la compréhension du cycle du carbone dans les zones côtières du nord-est du Pacifique, en mettant particulièrement l&#39;accent sur l&#39;échange de CO2 mer-air et l&#39;acidification des océans. Cette contribution de données se compose de mesures effectuées entre le 5 avril 2016 et le 9 novembre 2017.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -1057,7 +1057,7 @@
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVpjRzlIZEFLbE9tSnA</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVpjRzlIZEFLbE9tSnA</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1175,7 +1175,14 @@
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Oceanography</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>

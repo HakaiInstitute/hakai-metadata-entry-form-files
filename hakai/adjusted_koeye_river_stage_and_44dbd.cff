@@ -1,0 +1,76 @@
+abstract: "The Koeye River stream elevation gauge was first installed in September\
+  \ 2013. This original gauge was a Hobo U20 water level logger, and was installed\
+  \ upstream of the smolt-trap site on the lower Koeye River in a still built from\
+  \ perforated PVC pipe with a cement block as it\u2019s base. This gauge operated\
+  \ more or less continuously until May 27, 2019, when the battery finally died. Throughout\
+  \ this 6-year period the original stream gauge in Koeye provided vital insights\
+  \ into the flow conditions encountered by juvenile and adult salmon in the Koeye\
+  \ River, and stream elevation data from the site were used as a covariate in a number\
+  \ of analyses, including relating adult sockeye survival and smolt capture probability\
+  \ during the spring smolt trapping season to river flow. \n\nA second stream elevation\
+  \ gauge (also a Hobo U20) was installed by Hakai in late August of 2017. This gauge\
+  \ was installed using a much more robust and permanent anchoring and still system.\
+  \ This gauge continues to operate, providing ongoing monitoring of flow conditions\
+  \ in the lower Koeye River, however in order to use these data in existing analyses\
+  \ there was a need to calibrate the Hakai gauge with the original gauge dataset.\
+  \ \n\nAnalysis \u2013 \nTo calibrate the two gauge datasets we used a generalized\
+  \ additive model (gam) written in the statistical program R. This model assumed\
+  \ that residual errors followed a gaussian distribution and related the original\
+  \ Koeye gauge values (response variable) to the new Hakai gauge values (predictor\
+  \ variable). Goodness of fit was evaluated visually using residual plots. We then\
+  \ extrapolated the estimated relationship between the two gauge datasets to generate\
+  \ predictions of the old gauge height for dates after May 27, 2019 using the predict()\
+  \ function in R."
+authors:
+- affiliation: Wild Salmon Centre
+  email: watlas@wildsalmoncenter.org
+  family-names: Atlas
+  given-names: Will
+- affiliation: Hakai Institute
+  email: ian.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian
+- affiliation: Hakai Institute
+  email: emily.haughton@hakai.org
+  family-names: Haughton
+  given-names: Emily
+cff-version: 1.2.0
+contact:
+- affiliation: Wild Salmon Centre
+  email: watlas@wildsalmoncenter.org
+  family-names: Atlas
+  given-names: Will
+- affiliation: Hakai Institute
+  email: ian.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 44dbd3c8-93bf-4e2f-9532-cbaebcf4a2be
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_44dbd3c8-93bf-4e2f-9532-cbaebcf4a2be
+- description: DOI
+  type: doi
+  value: 10.21966/eh5c-jh12
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-N0C02Vz2evmfRBJ4dmZ
+- description: 'Koeye River Adjusted stream stage and temperature from 2013 to 2021:
+    Adjusted stream stage and temperature data for the Koeye River'
+  type: url
+  value: https://github.com/HakaiInstitute/Koeye-adjusted-stage-and-temperature
+keywords:
+- stream temperature
+- stream stage
+- juvenile salmon
+- watersheds
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Adjusted Koeye River stage and temperature from 2013 to 2021
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_44dbd3c8-93bf-4e2f-9532-cbaebcf4a2be

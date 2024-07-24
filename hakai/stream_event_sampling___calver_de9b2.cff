@@ -1,0 +1,149 @@
+abstract: "The Stream Event Sampling survey is a part of the Kwakshua Watersheds Program.\
+  \ It was designed to investigate the change in river water chemistry (with a focus\
+  \ on Dissolved Organic Carbon) with changing river flow associated with a rain event.\
+  \ On the one hand, the goal was to collect high flow water samples for a wide range\
+  \ of rain events and across seasons for the seven focal stream outlets of the Kwakshua\
+  \ Watersheds Program. For each rain event, a single high flow sample has been selected\
+  \ and used in the estimate of dissolved organic carbon flux from these watersheds\
+  \ (Oliver et al., 2017). On the other hand, the goal was to collect a detailed sequence\
+  \ of stream water samples along the rising and falling limbs of the storm hydrographs\
+  \ of the seven focal streams.\n\nTwo stream event surveys were conducted in great\
+  \ detail for a late summer and early fall event at all seven watersheds in 2014\
+  \ . In addition several discrete high flow samples were taken during that summer\
+  \ (2014 data available here: https://doi.org/10.21966/ywbk-5h57). In summer 2015,\
+  \ one rain event was captured entirely by stream event samples for all seven watersheds.\
+  \ After installation of the pump sampler at watershed 708, several rain events were\
+  \ sampled at that location in the fall of 2015. In 2016, only discrete high flow\
+  \ samples were collected for two rain events in April. In 2017, two full rain events\
+  \ were sampled at all watersheds in May and in July. Additionally, discrete high\
+  \ flow grab samples were taken in June and August. Several full rain events were\
+  \ sampled in the fall of 2017 with the autosampler at watershed 708. In 2018, only\
+  \ discrete high flow samples from the watershed outlets were taken at several rain\
+  \ events throughout the year.\n\nHigh flow water samples along the rising limb were\
+  \ taken with the aid of an automatic rack sampler. This is a mechanical device that\
+  \ samples water at predefined water stages. Several bottles are mounted at vertical\
+  \ increments above low water level. As the water level rises, bottles fill in sequence.\
+  \ Each bottle has an intake device that allows it to fill curing the rise while\
+  \ preventing further exchange of sample water with the stream. The exact water stages\
+  \ are determined with the aid of an Odyssey water stage logger installed nearby.\
+  \ In fall 2015, an automatic electronic pump sampler was installed at watershed\
+  \ 708, which allowed us to remotely (or programmatically) trigger the collection\
+  \ of stream samples. Samples taken prior to a rain event and along the falling limb\
+  \ of an hydrograph were taken manually. These three distinct sample methods are\
+  \ named Rack Sample (RS), Auto Sample (AS) and Grab Sample (GS).\n\nSample water\
+  \ was analyzed for SUVA from Hakai Institute; Dissolved Organic Carbon and Alkalinity,\
+  \ cations and anions from North Road Analytical Laboratory; DO13C from GGHATCH;\
+  \ Total Dissolved Nitrogen, Total Nitrogen, Total Dissolved Phosphorous, Total Phosphorous,\
+  \ NH4 and O18/H2 isotopes from University of Alberta; NO3, SiO2 and PO4 from UBC;\
+  \ Particular Organic Matter from UC Davies; Specific Conductance, temperature, pH,\
+  \ ORP and DO from in situ collection with a YSI.\n\t\nSample metadata includes the\
+  \ time of collection (Pacific Standard Time), the time a sample was retrieved from\
+  \ either the rack sampler or the autosampler, the time of sample preservation and\
+  \ filtration and the date of sample analysis. It also includes a \u2018sampling\
+  \ bout\u2019, which indicates the chronological order of a set of samples that were\
+  \ taken during the same storm event at the same watershed. Further on the sampling\
+  \ method is indicated (RS, AS or GS).\n\nPlease consult the \u2018STR_data_dictionary_2015-2018\u2019\
+  \ file for a detailed description of all variables and acronyms used as column headers\
+  \ and flags, including units for each variable.\n \nSamples collected in 2014 only\
+  \ includes Dissolved Organic Carbon and SUV absorbance samples. Sample ID labels\
+  \ do not correspond with current Hakai ID\u2019s and are therefore not stored in\
+  \ the Hakai data portal. Therefore, these data are stored in a separate spreadsheet\
+  \ (STR data package 2014 v1.21.xlsx) in the following data package: https://doi.org/10.21966/ywbk-5h57\n\
+  \nThe data collected in 2014 have been analyzed and reported in the MSc thesis of\
+  \ M.C. Korver (2015). The data of 2015 and beyond are here available but have yet\
+  \ to be analyzed.\n\nThis dataset is near completion: POMS data collected in April,\
+  \ August and November 2018 is awaiting processing at UC DAVIES and O18 data collected\
+  \ in November 2018 is awaiting analysis at the University of Alberta."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Korver
+  given-names: Maartje C.
+  orcid: https://orcid.org/0000-0003-1062-4864
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: ian.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian
+  orcid: https://orcid.org/0000-0001-7013-4766
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  country: CA
+  email: mathew.brown@hakai.org
+  family-names: Brown
+  given-names: Mathew
+  website: https://www.hakai.org
+- affiliation: Hakai Institute - Vancouver Island University
+  family-names: Floyd
+  given-names: William C.
+- family-names: Oliver
+  given-names: A. A.
+- family-names: Tank
+  given-names: Suzanne E.
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: keith.holmes@hakai.org
+  family-names: Holmes
+  given-names: Keith
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: ian.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian
+  orcid: https://orcid.org/0000-0001-7013-4766
+  website: https://www.hakai.org/
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: de9b2a6d-9ba0-4384-9adf-22abc0eb061f
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_de9b2a6d-9ba0-4384-9adf-22abc0eb061f
+- description: DOI
+  type: doi
+  value: 10.21966/3nm8-av33
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTRvM0libjQzbzJLS0M
+- description: 'Data package: Hakai Institute''s Google Drive folder for raw data
+    and metadata for the STR dataset.'
+  type: url
+  value: https://drive.google.com/drive/folders/1JS_XlmySEQGSoSdeb1N56iY_ZZSJCDX7?usp=sharing
+- description: 'Online map: Data is available for download and online GIS mapping
+    through Hakai''s ARC GIS online portal.'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=b55b1f81a72246eb883c03d783100d5e
+keywords:
+- stream
+- discharge
+- biogeochemistry
+- DOC
+- watersheds
+- water
+- other
+- high flow
+- hydrograph
+- rack
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Stream Event Sampling - Calvert Island - 2015-2018
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_de9b2a6d-9ba0-4384-9adf-22abc0eb061f

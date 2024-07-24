@@ -1,0 +1,112 @@
+abstract: "This polygon dataset contains a time series for the spatial extent of eelgrass\
+  \ (Zostera marina) meadows delineated from aerial imagery at several long-term monitoring\
+  \ sites located on the Central Coast of British Columbia. \n\nThe areal extent of\
+  \ eelgrass (Zostera marina) meadows is an important metric for understanding the\
+  \ broader dynamics of eelgrass habitats. Since 2015, the Hakai Geospatial Program\
+  \ has been using remotely piloted aerial systems (RPAS, aka drone) imagery to record\
+  \ change in eelgrass meadow extent at monitoring sites on the Central Coast of BC.\
+  \ Prior to 2015, eelgrass extent at monitoring sites has been conducted using aerial\
+  \ fixed wing aircraft and helicopter imagery and towed underwater video (see 2014\
+  \ metadata record for eelgrass sites delineated using towed underwater video). Existing\
+  \ methods for mapping eelgrass (e.g. low-tide walking surveys, towed video, or boat-based\
+  \ SCUBA surveys) can be difficult to apply repeatedly and efficiently across large\
+  \ geographic extents. RPASs are portable and efficient tools for mapping nearshore\
+  \ marine environments, such as eelgrass habitat. Despite some limitations of RPAS\
+  \ mapping (e.g. weather, flight time, survey size), RPASs are able to collect high-resolution\
+  \ data (<10 cm) during short windows of opportunity (e.g. low tide).\n\nCore monitoring\
+  \ sites at the Hakai Institute include three eelgrass beds (Pruth Bay, Choked Pass\
+  \ and Koeye) that are mapped annually and three others (Triquet Bay, Goose SW, and\
+  \ McMullin North) which are mapped bi-annually (Fig. 1). Other sites have been mapped\
+  \ advantageously or as part of shorter-term projects and are included in this data\
+  \ package.  \n\nFor each site, eelgrass extent was delineated using a combination\
+  \ of object-based image analysis (eCognition Developer 9) and manual delineation\
+  \ within a GIS environment (ArcGIS, v 10.8). In brief, image objects area created\
+  \ via a multiresolution segmentation algorithm within eCognition and the site orthomosaic.\
+  \ These objects are exported to a GIS environment where an analyst classifies objects\
+  \ as eelgrass. The minimum mapping unit for a patch of eelgrass or patch within\
+  \ a bed is 4 m2."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Mai
+  given-names: Thea
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 5e4f925a-9cf2-4e33-ae22-75c5b326ce6c
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_5e4f925a-9cf2-4e33-ae22-75c5b326ce6c
+- description: DOI
+  type: doi
+  value: 10.21966/03pw-2190
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTA3NnQ0NnRiemVLSFU
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Hakai Institute Google Drive: Central Coast Eelgrass Extent Time Series
+    - Data Package'
+  type: url
+  value: https://drive.google.com/drive/folders/1Lgjw60ZrvoEKoPMWNDEQqkUR--bOwryS?usp=sharing
+keywords:
+- Zosteraceae
+- habitat mapping
+- Zostera marina
+- eelgrass
+- seagrass
+- Central Coast
+- drone
+- Liliopsida
+- Alismatales
+- Tracheophyta
+- Zostera
+- nearshore
+- other
+- Plantae
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Eelgrass (Z. marina) extent at sites along the Central Coast, British Columbia
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_5e4f925a-9cf2-4e33-ae22-75c5b326ce6c

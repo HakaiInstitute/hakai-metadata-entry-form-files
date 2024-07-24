@@ -1,0 +1,96 @@
+abstract: "This dataset represents polygons of eelgrass on the BC coast predicted\
+  \ from existing geospatial datasets of seagrass extent (ShoreZone) and bathymetry.\n\
+  \nThe extent of eelgrass in British Columbia was estimated using a novel tool created\
+  \ for ArcGIS (the Gregrator).This tool requires 2 inputs: (1) the coastline data\
+  \ from Shorezone (including line shapefiles that represent the extent of eelgrass)\
+  \ and (2) bathymetry data. Briefly, each line segment of coast in ShoreZone is converted\
+  \ to points along its vertices. These points are used to generate Thiessen polygons,\
+  \ where each Thiessen polygon \u201Cdefines an area of influence around its sample\
+  \ point, so that any location inside the polygons is closer to that point than any\
+  \ of the other sample points\u201D (Esri, 2016). Thiessen polygons were then clipped\
+  \ to the extent of polygons which spanned the area from the coastline to maximum\
+  \ depth based on the results of the bathymetry analysis. These methods are based\
+  \ on those described in Gregr et al 2013. \n\nGregr, E. J., Lessard, J., & Harper,\
+  \ J. (2013). Progress in Oceanography A spatial framework for representing nearshore\
+  \ ecosystems. Progress in Oceanography, 115, 189\u2013201. http://doi.org/10.1016/j.pocean.2013.05.028\n\
+  \nContact data@hakai.org for more information"
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 0219e1d6-8dfc-4718-b89b-ea3dff06a70d
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_0219e1d6-8dfc-4718-b89b-ea3dff06a70d
+- description: DOI
+  type: doi
+  value: 10.21966/1ty5-e654
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWtuNVpwdEdLRXZTODc
+- description: 'Hakai Data - Metadata Readme: Hakai Metadata Report'
+  type: url
+  value: https://drive.google.com/file/d/1pKNlqEUPPMcIJxM_xaMX2zHW5HaDFiSi/view?usp=sharing
+keywords:
+- hakai
+- Alismatales
+- seagrass
+- intertidal
+- Tracheophyta
+- Zosteraceae
+- seagrassCoverAndComposition
+- Commission for Environmental Cooperation
+- environment
+- shorezone
+- ocean
+- Plantae
+- CEC
+- other
+- blue carbon
+- eelgrass
+- Zostera
+- Liliopsida
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Eelgrass Extent - Coastal British Columbia
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_0219e1d6-8dfc-4718-b89b-ea3dff06a70d

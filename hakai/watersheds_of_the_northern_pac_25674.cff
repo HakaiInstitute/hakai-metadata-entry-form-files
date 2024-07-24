@@ -1,0 +1,131 @@
+abstract: "This dataset is a polygon representation of watersheds draining to the\
+  \ rainforest margin along the Pacific coast of North America.\n\nWatersheds are\
+  \ discrete spatial units of topography that organize the flow of water and materials\
+  \ from land to sea, as well as the movement of biota between marine and freshwaters.\
+  \ As such, watersheds are fundamental geographic units of analysis used by diverse\
+  \ disciplines of science and management. However, regional scale watershed analyses\
+  \ are often hampered by dataset resolution (global datasets are often too coarse)\
+  \ or spatial discontinuities (political borders often divide watersheds and represent\
+  \ a change in mapping methods). To reduce these issues and expedite regional watershed\
+  \ analyses, we developed a new integrated dataset of coastal watersheds for the\
+  \ Northern Pacific Coastal Temperate Rainforest (NPCTR) of North America. The dataset\
+  \ spans from Glacier Bay in Southeast Alaska to the Russian River watershed in Northern\
+  \ California, crossing two international borders.\n\nDataset assembly was guided\
+  \ by three criteria. First, that the dataset should be a seamless representation\
+  \ of watersheds, at the finest possible resolution, without discontinuities or significant\
+  \ scale/method changes at jurisdictional boundaries. Second, that this goal would\
+  \ be achieved using existing watershed delineations provided by each jurisdiction\
+  \ - as opposed to deriving watershed outlines using hydrologic analysis of a digital\
+  \ elevation model, for example. This allows data users to draw on the standardized\
+  \ methods, detailed metadata, and extensive ancillary data available through the\
+  \ source datasets (e.g., corresponding fluvial networks and identifiers). Finally,\
+  \ that the entire land base should be represented, regardless of polygon (i.e.,\
+  \ island) size or the resolution of source watershed delineation. This criterion\
+  \ allows, for example, calculations of total fluvial fluxes from land to sea. Given\
+  \ these criteria, the dataset was produced by integrating previously-existing national\
+  \ and provincial/state datasets, using the largest-scale delineation common among\
+  \ jurisdictions, and by retaining even the very smallest islets and undelineated\
+  \ drainage areas within the dataset. We use the term watershed to refer to the entire\
+  \ land area draining to the ocean at an identifiable outlet. Consequently, the dataset\
+  \ does not differentiate subcatchments associated with tributary rivers and streams.\n\
+  \nTo our knowledge, this work constitutes the highest resolution watersheds dataset\
+  \ currently available for this region. The nominal mapping scale for delineated\
+  \ watersheds is equivalent to that of the 6th level (12-digit) hierarchical hydrologic\
+  \ units (HU) developed by the USGS in the United States. As a result of the nominal\
+  \ mapping scale of source datasets, watersheds smaller than ~20 km2 are not individually\
+  \ depicted in this dataset but are instead amalgamated into larger drainage units;\
+  \ this is largely the case for many coastal/frontal watersheds whose subcatchment\
+  \ delineations exist in other higher resolution mapping products available for BC\
+  \ and the Contiguous US, but not Alaska.\n\nThis dataset was prepared for the Coastal\
+  \ Rainforest Margins Research Network (https://coastalmarginsnetwork.org/), an international\
+  \ collaboration of scientists studying the NPCTR at an eco-regional scale.\n\nFor\
+  \ attribute definitions, methods, limitations, and recommendations, see the full\
+  \ metadata record at: https://drive.google.com/open?id=1MHNMIk1K9dASBPxNcFQJRBiX6BXG8Ek0\n\
+  \nSuggested citation: Gonzalez Arriola, S., Giesbrecht, I.J.W., Biles, F.E., and\
+  \ D\u2019Amore, D.V. 2018. Watersheds of the northern Pacific coastal temperate\
+  \ rainforest margin. Hakai Institute Data Package. Available at: https://hecate.hakai.org/geonetwork/srv/eng/catalog.search#/metadata/25674e9b-1d49-4270-b917-cfe6cdc30f95\
+  \ DOI: 10.21966/1.715755."
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+- affiliation: Hakai Institute
+  country: CA
+  email: ian.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian J. W.
+  website: https://www.hakai.org
+- family-names: Biles
+  given-names: F. E.
+- family-names: D'Amore
+  given-names: D. V.
+- address: 1002 Wharf Street - Suite 100, V8W 1T4
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Gonzalez Arriola
+  given-names: Santiago
+- address: 1002 Wharf Street - Suite 100, V8W 1T4
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+  website: https://www.hakai.org
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 25674e9b-1d49-4270-b917-cfe6cdc30f95
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_25674e9b-1d49-4270-b917-cfe6cdc30f95
+- description: DOI
+  type: doi
+  value: 10.21966/1.715755
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWJSa2xESlBIbk1rSXA
+- description: 'Dataset download: Public Access to the dataset file hosted on Hakai''s
+    Google Drive.'
+  type: url
+  value: https://drive.google.com/file/d/1oTW9dxM_kUvpRCN8flvoE-CkFGB7k9tH/view?usp=sharing
+- description: 'Metadata for Watersheds of the northern Pacific coastal temperate
+    rainforest margin: Full abstract and attribute description for the Watersheds
+    of the northern Pacific coastal temperate rainforest margin dataset.'
+  type: url
+  value: https://drive.google.com/file/d/1MHNMIk1K9dASBPxNcFQJRBiX6BXG8Ek0/view?usp=sharing
+keywords:
+- Watersheds
+- Reconstructed Watersheds
+- Regional Watersheds
+- Watershed
+- River
+- Stream
+- Hydrology
+- Freshwater
+- Coastal Temperate Rainforest
+- HUC12
+- FWA Assessment Watersheds
+- PCTR
+- other
+- Catchment
+- WBD
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Watersheds of the northern Pacific coastal temperate rainforest margin
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_25674e9b-1d49-4270-b917-cfe6cdc30f95

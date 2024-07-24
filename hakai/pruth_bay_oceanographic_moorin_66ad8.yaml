@@ -49,6 +49,11 @@ identification:
       \ près de la surface pour mieux saisir la variabilité verticale la plus élevée\
       \ près de la surface. \n\nCe jeu de données présente le jeu de données provisoire\
       \ qui a été automatiquement QCed et marqué."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2017-12-04'
@@ -65,25 +70,31 @@ identification:
       en:
       - subSurfaceTemperature
       - seaSurfaceTemperature
+      - other
       fr:
       - Température sous la surface
       - Température de surface
-    taxa:
-      en: []
-      fr: []
+      - Autre
   progress_code: onGoing
+  project:
+  - Oceanography
   status: published
   temporal_begin: '2017-12-04T20:00:00.000Z'
   title:
     en: Pruth Bay Oceanographic Mooring on Calvert Island Provisional
     fr: Mouillage océanographique de la baie Pruth sur l'île Calvert, provisoires
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2021-12-03'
-    revision: '2021-12-03T15:18:33.760Z'
+    revision: '2024-07-23T13:40:56.861Z'
   identifier: 66ad87d2-bb96-4515-a907-6367ca6c0a2b
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/None/-MW079KN2Z_OrMh7Zk6T
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW079KN2Z_OrMh7Zk6T
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -100,6 +111,11 @@ metadata:
         à [51° 39,3810' N., 128° 05,4890' O.] et a été déplacée à [51°39,126'N, 128°05.122'O]
         à la demande de Transports Canada. Il s'agit d'un jeu de données provisoire
         qui a été automatiquement QCed et marqué.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 platform: []
 spatial:
   bbox:

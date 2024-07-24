@@ -1,0 +1,74 @@
+abstract: "Lidar Derived Canopy Height Model for Calvert Island British Columbia Canada.\n\
+  \nCanopy Height Model has been produced by calculating first and last return LIDAR\
+  \ dataset (see links below for more information on the LIDAR acquisition metadata).\
+  \ \nThe CHM was calculated using the bare earth model (last return) and subtracting\
+  \ the top of canopy (first return).\n\nCalculated maximum laser return based on\
+  \ a 2 x 2 meter cell.\n\nLidar acquisition methods fully detailed in LiDAR data\
+  \ package - link provided below.\n\nFor a full metadata report on Lidar acquisition\
+  \ please contact data@hakai.org"
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Frazer
+  given-names: Gordon W.
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Geospatial Technology Team Hakai
+- address: 1002 Wharf Street
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Frazer
+  given-names: Gordon W.
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Geospatial Technology Team Hakai
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 4c80a391-e74a-48cf-87ae-67632e485725
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_4c80a391-e74a-48cf-87ae-67632e485725
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXZNRlc4QTNraFNTcjU
+- description: 'Online map: Hakai''s AGOL Instance is the platform for Access and
+    online use of this dataset / reference layer'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=d83c82546b0246099173bd9aacc7389e
+- description: 'Data package: Canopy Height Model Downloadable Data'
+  type: url
+  value: https://drive.google.com/drive/folders/0Byed_WX-ZNMaVnJRUmlHNk03T1k?usp=sharing
+keywords:
+- Canopy
+- crown
+- Hecate
+- CHM
+- Lidar
+- Downloadable Data
+- Model
+- Forest
+- Tree
+- air
+- terrestrial
+- raster
+- watersheds
+- Height
+- other
+- Calvert
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Lidar Derived Canopy Height Model - Calvert Island - British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_4c80a391-e74a-48cf-87ae-67632e485725

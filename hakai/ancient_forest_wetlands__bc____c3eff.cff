@@ -1,0 +1,114 @@
+abstract: "Ancient Forest Wetlands Survey conducted on Aug 29th 2019. Contained within\
+  \ this report\nare details regarding the project specifications, overall data accuracy,\
+  \ and deliverables.\nA survey acquisition of LiDAR and orthoimagery was carried\
+  \ out over Ancient\nForest/Chun T'Oh Whudujut Provincial Park to generate a high-res\
+  \ DEM of several wetland\ncomplexes and their surrounding topography. The DEM is\
+  \ being used to support a project\nmapping the hydraulic gradient throughout the\
+  \ year in the wetlands in an effort to determine\nhow significant snowmelt recharge\
+  \ is for these ecosystems.\nHakai Institute\u2019s Airborne Coastal Observatory\
+  \ (Hakai ACO) conducted an aerial survey\nof 14.95km2 approximately 93km south-east\
+  \ of the Prince George Airport over the Ancient\nForest / Chun T\u2019oh Whudujut\
+  \ Provincial park. The survey commenced on Aug 29th 2019 and\nfinished on the same\
+  \ date. Data collected includes: LiDAR, 4 band digital imagery, and\nInertial Navigation\
+  \ System (INS) data\nUsing combined GNSS and Inertial Movement Unit (IMU) data,\
+  \ the Hakai geospatial\ngroup calculated aircraft attitude and position, and incorporated\
+  \ laser range data to resolve\nspatial surface information. The flight consisted\
+  \ of 8 parallel passes over the Ancient Forest/\nChun T\u2019oh Whudujut Provincial\
+  \ Park and the INS positional data was processed immediately\nafter the completion\
+  \ of the project. Previous calibration flights allowed Hakai\u2019s geospatial\n\
+  group to calibrate the roll, pitch, and heading of the system and refine the acquired\
+  \ spatial\ndata.\nAircraft position data was processed using an Applanix CenterPoint\
+  \ RTX solution by\ncombining multiple continuous operating GNSS base stations to\
+  \ generate a set of\nobservations as base stations to post-process Differential\
+  \ GNSS processing. The aerial\nsurvey combined with previously flown calibration\
+  \ flights aided in resolving and validating\nvertical elevations and geo-referenced\
+  \ aerial photos.\nHakai Institute\u2019s geospatial team completed all data acquisition,\
+  \ data post-processing and\nquality analysis.\n\nGeodetic Parameters\nHorizontal\
+  \ Datum: NAD83 (CSRS)\nEpoch: 2010.00\nVertical Datum: CGVD2013\nGeoid: CGG2013a\n\
+  Projection: UTM Zone 10 N\nUnits: Metres\nPoint Specification\nAggregated Nominal\
+  \ Point Density (ANPD): 7.3 pts/m2\nAggregated Nominal Ground Point Density (ANGPD):\
+  \ 2.71pts/m2\nOrthophoto Resolution: 7.4 cm pixel resolution\n\nData products available:\
+  \ \nLidar data (LAZ)- classified point cloud \u2013 digital surface model \u2013\
+  \ digital terrain model. \nImage data (TIFF) \u2013 4 band orthophotos \u2013 RGB\
+  \ & NIR. \nHyperspectral data (not always captured).\nA detailed project report\
+  \ with the summary of acquisition, processing, and overall hardware / software is\
+  \ available (PDF).\nSensors and instrument breakdown:\nInertial Navigation System:\
+  \ Manufacturer: Applanix (Canada), IMU Model: POS AV 510 IMAR, GNSS Model: Trimble\
+  \ AV39.\nLaser sensor: Riegl LMS-Q 780 long-range airborne laser scanner. Point\
+  \ density ranges per project and landscape from 1-12 points per square meter.\n\
+  Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium format\
+  \ cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.\nHyperspectral Sensor:\
+  \ manufacturer: Specim, model: AisaFENIX 384, spectral range: 380 - 2500 nm"
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Geospatial Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Coastal Observatory
+  given-names: Airborne
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Geospatial Team
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Coastal Observatory
+  given-names: Airborne
+  website: https://www.hakai.org/
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: c3eff62f-bcee-4faa-a7e1-7b9380d94e74
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_c3eff62f-bcee-4faa-a7e1-7b9380d94e74
+- description: DOI
+  type: doi
+  value: 10.21966/eysg-7a26
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-Mj6RrLonwFgP-TX9bPv
+- description: 'Metadata Report - Restricted: Restricted metadata report - contact
+    data@hakai for more information'
+  type: url
+  value: https://drive.google.com/file/d/1w7TLX1RIP6F6S_inRKU3x-A27srXzFSa/view?usp=sharing
+- description: 'Hakai ACO Survey Coverage Webmap: Webmap detailing the areas of interest
+    (AOI) for each airborne coastal observatory survey area.'
+  type: url
+  value: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
+keywords:
+- ACO
+- Forest
+- LiDAR
+- Hakai
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Ancient Forest Wetlands, BC - Upper Fraser River - 2019 - Airborne Coastal
+  Observatory
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_c3eff62f-bcee-4faa-a7e1-7b9380d94e74

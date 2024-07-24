@@ -1,0 +1,80 @@
+abstract: 'This polygon layer describes the type and extent of intertidal and shallow
+  subtidal substrates for the McMullin Island Group on the Central Coast of British
+  Columbia, Canada.
+
+
+  Substrates and kelp were manually delineated using 9-10cm resolution orthomosaics
+  from imagery captured at tide heights lower than +1.0 m mean low water. The orthomosaics
+  were obtained using an unoccupied aerial system (UAS) and post-processed using the
+  Pix4Dmapper software package (see attached UAS methods). The imagery was segmented
+  using E-Cognition Developer software and manually classified in ESRI ArcGIS 10.5.1.
+  For areas with high-density kelp, we assumed the substrate was rock. Areas covered
+  with low-density kelp were also considered rock unless sand could be detected mixed
+  amongst the rock and then the category of mixed was applied. Eelgrass extent was
+  digitized from a towed underwater video system. Detailed methods for the eelgrass
+  delineation procedure can be seen at the linked record, ''Eelgrass Extent 2014 -
+  Central Coast''.'
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 3732444b-7a97-4d9c-9f2e-2fc6f9618bae
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_3732444b-7a97-4d9c-9f2e-2fc6f9618bae
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVZnUmI5R3pHdHJYVXQ
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Intertidal and shallow sub-tidal substrate types for the McMullin
+    Group Islands, British Columbia, Canada: This layer describes the intertidal and
+    shallow subtidal substrate types for the McMullin Island Group on the Central
+    Coast of British Columbia. The imagery was segmented using E-Cognition Developer
+    software and manually classified in ESRI'
+  type: url
+  value: https://drive.google.com/open?id=12Spn0fnOC91dLOahgcf94_lrELHvXFX6
+- description: This document describes the attributes assigned to each polygon in
+    the layer.
+  type: url
+  value: https://hecate.hakai.org/geonetwork/srv/api/records/3732444b-7a97-4d9c-9f2e-2fc6f9618bae/attachments/UAV_Substrate_Layer_Meta_McMullins.pdf
+- description: UAS methods for obtaining imagery used to digitize substrate types
+  type: url
+  value: https://hecate.hakai.org/geonetwork/srv/api/records/3732444b-7a97-4d9c-9f2e-2fc6f9618bae/attachments/General
+    UAS Methodology Orthomosaics Only.pdf
+keywords:
+- substrate
+- habitat
+- UAS
+- kelp
+- intertidal
+- canopy
+- Downloadable Data
+- seagrass
+- imagery
+- other
+- shallow subtidal
+- nearshore
+- ocean
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Nearshore substrates of the McMullin Group Islands - British Columbia - 2017
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_3732444b-7a97-4d9c-9f2e-2fc6f9618bae

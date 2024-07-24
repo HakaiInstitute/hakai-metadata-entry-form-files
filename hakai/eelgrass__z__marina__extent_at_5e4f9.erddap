@@ -1,0 +1,44 @@
+<addAttributes>
+    <att name='institution'>Hakai Institute</att>
+    <att name='title'>Eelgrass (Z. marina) extent at sites along the Central Coast, British Columbia</att>
+    <att name='summary'>This polygon dataset contains a time series for the spatial extent of eelgrass (Zostera marina) meadows delineated from aerial imagery at several long-term monitoring sites located on the Central Coast of British Columbia. 
+
+The areal extent of eelgrass (Zostera marina) meadows is an important metric for understanding the broader dynamics of eelgrass habitats. Since 2015, the Hakai Geospatial Program has been using remotely piloted aerial systems (RPAS, aka drone) imagery to record change in eelgrass meadow extent at monitoring sites on the Central Coast of BC. Prior to 2015, eelgrass extent at monitoring sites has been conducted using aerial fixed wing aircraft and helicopter imagery and towed underwater video (see 2014 metadata record for eelgrass sites delineated using towed underwater video). Existing methods for mapping eelgrass (e.g. low-tide walking surveys, towed video, or boat-based SCUBA surveys) can be difficult to apply repeatedly and efficiently across large geographic extents. RPASs are portable and efficient tools for mapping nearshore marine environments, such as eelgrass habitat. Despite some limitations of RPAS mapping (e.g. weather, flight time, survey size), RPASs are able to collect high-resolution data (<10 cm) during short windows of opportunity (e.g. low tide).
+
+Core monitoring sites at the Hakai Institute include three eelgrass beds (Pruth Bay, Choked Pass and Koeye) that are mapped annually and three others (Triquet Bay, Goose SW, and McMullin North) which are mapped bi-annually (Fig. 1). Other sites have been mapped advantageously or as part of shorter-term projects and are included in this data package.  
+
+For each site, eelgrass extent was delineated using a combination of object-based image analysis (eCognition Developer 9) and manual delineation within a GIS environment (ArcGIS, v 10.8). In brief, image objects area created via a multiresolution segmentation algorithm within eCognition and the site orthomosaic. These objects are exported to a GIS environment where an analyst classifies objects as eelgrass. The minimum mapping unit for a patch of eelgrass or patch within a bed is 4 m2.</att>
+    <att name='project'>Nearshore,Geospatial</att>
+    <att name='comment'>##Limitations:
+Appropriate credit must be given to Hakai Institute and the authors of the dataset.</att>
+    <att name='progress'>completed</att>
+    <att name='keywords'>seagrass,Zostera marina,eelgrass,nearshore,habitat mapping,Central Coast,drone,other,CIOOS:other,GBIF:Plantae,GBIF:Tracheophyta,GBIF:Liliopsida,GBIF:Alismatales,GBIF:Zosteraceae,GBIF:Zostera,GBIF:Zostera marina</att>
+    <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary,GBIF: GBIF Taxonomy Vocabulary</att>
+    <att name='id'>5e4f925a-9cf2-4e33-ae22-75c5b326ce6c</att>
+    <att name='naming_authority'>ca.cioos</att>
+    <att name='date_modified'>2024-07-23T12:16:54.912Z</att>
+    <att name='date_created'>2022-03-02</att>
+    <att name='license'>https://creativecommons.org/licenses/by/4.0</att>
+    <att name='creator_name'>Hakai Geospatial Technology Team</att>
+    <att name='creator_email'>data@hakai.org</att>
+    <att name='creator_type'>person</att>
+    <att name='creator_institution'>Hakai Institute</att>
+    <att name='creator_city'>Campbell River</att>
+    <att name='creator_country'>Canada</att>
+    <att name='creator_url'>https://www.hakai.org/</att>
+    <att name='creator_ror'>https://ror.org/02pry0c91</att>
+    <att name='publisher_name'>Hakai Institute</att>
+    <att name='publisher_email'>data@hakai.org</att>
+    <att name='publisher_type'>institution</att>
+    <att name='publisher_institution'>Hakai Institute</att>
+    <att name='publisher_city'>Campbell River</att>
+    <att name='publisher_country'>Canada</att>
+    <att name='publisher_url'>https://www.hakai.org/</att>
+    <att name='publisher_ror'>https://ror.org/02pry0c91</att>
+    <att name='contributor_name'>Reshitnyk, Luba;Mai, Thea;Hakai Geospatial Technology Team;Hakai Institute</att>
+    <att name='contributor_role'>processor,pointOfContact,author,principalInvestigator;author;pointOfContact,pointOfContact,custodian,owner,distributor,originator,principalInvestigator;resourceProvider,owner,distributor,funder,publisher</att>
+    <att name='doi'>https://doi.org/10.21966/03pw-2190</att>
+    <att name='metadata_link'>https://catalogue.hakai.org/dataset/ca-cioos_5e4f925a-9cf2-4e33-ae22-75c5b326ce6c</att>
+    <att name='infoUrl'>https://catalogue.hakai.org/dataset/ca-cioos_5e4f925a-9cf2-4e33-ae22-75c5b326ce6c</att>
+    <att name='metadata_form'>https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTA3NnQ0NnRiemVLSFU</att>
+</addAttributes>

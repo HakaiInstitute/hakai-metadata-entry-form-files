@@ -1,0 +1,170 @@
+abstract: "On August 5th, 15th ,and 17th , 2012, TRSI collected hyperspectral, LiDAR\
+  \ and digital image data in four project sites at and near Calvert Island, B.C.\
+  \ using a fixed wing aircraft with LiDAR system and a hyperspectral sensor. A combined\
+  \ GPS/INS System (Inertial Navigation System) was used for aircraft altitude and\
+  \ position. A total of 477.22 km^2 was covered on this mission with a flight height\
+  \ of 1150 meters above ground level (AGL) aiming to obtain 1.5 metre spatial resolution\
+  \ for hyperspectral Imagery. \n\nThe hyperspectral imagery was delivered as a set\
+  \ of 94 long and narrow swath \u201Cscenes\u201D with each corresponding roughly\
+  \ to an individual flight line (from a grid pattern flight mission).  In this fashion\
+  \ the dimensions and orientation varies somewhat from scene to scene. Predominantly\
+  \ there are North-South and West-East scenes which cover the length and width of\
+  \ Calvert and Hecate Islands and a portion of the mainland to the north. There is\
+  \ an inconsistent overlap between scenes in some cases; in others the imagery aligns\
+  \ at the seams or with a small gap in between.  While details pertaining to post-processing\
+  \ performed on the imagery by the contractor are lacking, based on analysis the\
+  \ following assumptions have been made: \n\n\u2022\tThe imagery has been georectified\
+  \ (the DEM used is unknown). \n\u2022\tThe imagery has been radiometrically corrected\
+  \ to some degree although there is evidence that only a few calibrations files were\
+  \ used inconsistently for all scenes during radiometric correction, and overlapping\
+  \ areas between scenes have sometimes large variations in radiance pixel values\
+  \ of the same features on the same band. \n\u2022\tNo atmospheric correction has\
+  \ been performed on the imagery. \n\nThe technical specifications for all scenes\
+  \ are the following: \n\nRaster format: ENVI .dat files\nRaster type: 16 bit unsigned\
+  \ integer\nProjection:  UTM Zone 9\nDatum: NAD 83\nGeoid:  HT 2.0\nSensor platform:\
+  \ AISA Hyperspectral unspecified model sensor. \nFlying Height: 1150m AGL\nFrame\
+  \ Rate: 43 FPS\nSpatial Resolution: 2m\nHorizontal accuracy: +/- 2 pixel\nSpectral\
+  \ range: 392 \u2013 996nm\nNo. of Bands per scene: 132\nSpectral resolution: ~4.25nm\n\
+  Pixel values represent radiance in (mw/cm^2*str*um)* 100\nNoData Value = 0. \n\n\
+  \nTable of band spectral coverage \nBand #\tWavelength (nm)\n1\t392.730011\n2\t\
+  396.980011\n3\t401.220001\n4\t405.470001\n5\t409.720001\n6\t413.970001\n7\t418.220001\n\
+  8\t422.459991\n9\t426.709991\n10\t430.959991\n11\t435.220001\n12\t439.630005\n13\t\
+  444.079987\n14\t448.540009\n15\t452.98999\n16\t457.450012\n17\t461.899994\n18\t\
+  466.350006\n19\t470.809998\n20\t475.26001\n21\t479.720001\n22\t484.170013\n23\t\
+  488.630005\n24\t493.079987\n25\t497.529999\n26\t501.98999\n27\t506.440002\n28\t\
+  510.899994\n29\t515.349976\n30\t519.799988\n31\t524.26001\n32\t528.710022\n33\t\
+  533.169983\n34\t537.619995\n35\t542.070007\n36\t546.559998\n37\t551.169983\n38\t\
+  555.789978\n39\t560.409973\n40\t565.030029\n41\t569.650024\n42\t574.27002\n43\t\
+  578.890015\n44\t583.51001\n45\t588.140015\n46\t592.76001\n47\t597.380005\n48\t602\n\
+  49\t606.619995\n50\t611.23999\n51\t615.859985\n52\t620.47998\n53\t625.109985\n54\t\
+  629.72998\n55\t634.349976\n56\t638.969971\n57\t643.590027\n58\t648.210022\n59\t\
+  652.830017\n60\t657.460022\n61\t662.080017\n62\t666.700012\n63\t671.320007\n64\t\
+  675.940002\n65\t680.570007\n66\t685.190002\n67\t689.809998\n68\t694.429993\n69\t\
+  699.059998\n70\t703.710022\n71\t708.349976\n72\t713\n73\t717.640015\n74\t722.289978\n\
+  75\t726.929993\n76\t731.580017\n77\t736.219971\n78\t740.859985\n79\t745.51001\n\
+  80\t750.159973\n81\t754.880005\n82\t759.609985\n83\t764.340027\n84\t769.070007\n\
+  85\t773.799988\n86\t778.530029\n87\t783.26001\n88\t787.98999\n89\t792.719971\n90\t\
+  797.450012\n91\t802.179993\n92\t806.909973\n93\t811.640015\n94\t816.369995\n95\t\
+  821.099976\n96\t825.830017\n97\t830.549988\n98\t835.27002\n99\t839.98999\n100\t\
+  844.710022\n101\t849.429993\n102\t854.150024\n103\t858.869995\n104\t863.590027\n\
+  105\t868.309998\n106\t873.030029\n107\t877.75\n108\t882.469971\n109\t887.190002\n\
+  110\t891.900024\n111\t896.619995\n112\t901.340027\n113\t906.059998\n114\t910.780029\n\
+  115\t915.51001\n116\t920.25\n117\t924.97998\n118\t929.719971\n119\t934.460022\n\
+  120\t939.190002\n121\t943.929993\n122\t948.659973\n123\t953.400024\n124\t958.130005\n\
+  125\t962.869995\n126\t967.599976\n127\t972.340027\n128\t977.080017\n129\t981.809998\n\
+  130\t986.549988\n131\t991.280029\n132\t996.02002\n\nDue to weather and time constraints\
+  \ faced by the contractor, several small data gaps exist within the project boundary.\
+  \ Additionally systematic small rectangular data gaps within many scenes are present\
+  \ (these are unrelated and additional to those due to \u201Cweather and time constraints\u201D\
+  \ stated by the contractor)."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Remote Sensing Team
+  given-names: Terra
+  website: https://www.hakai.org/
+- address: 1962 Mills Road
+  affiliation: University of Northern British Columbia
+  city: Prince George
+  country: CA
+  family-names: Frazer
+  given-names: Gordon
+  website: http://www.unbc.ca/
+- affiliation: Terra Remote Sensing Inc.
+  country: CA
+  email: david.mostyn@terraremote.com
+  family-names: Mostyn
+  given-names: David
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Remote Sensing Team
+  given-names: Terra
+  website: https://www.hakai.org/
+- address: 1962 Mills Road
+  affiliation: University of Northern British Columbia
+  city: Prince George
+  country: CA
+  family-names: Frazer
+  given-names: Gordon
+  website: http://www.unbc.ca/
+- affiliation: Terra Remote Sensing Inc.
+  country: CA
+  email: david.mostyn@terraremote.com
+  family-names: Mostyn
+  given-names: David
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial
+  website: https://www.hakai.org/
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 4be1cc5e-8846-4fba-bd94-16ca933faab8
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_4be1cc5e-8846-4fba-bd94-16ca933faab8
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MU1SSXd3cG5UbzVYVW8
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Hakai Institute Google Drive Folder: Metadata on hyperspectral collection
+    methodology.'
+  type: url
+  value: https://drive.google.com/drive/u/0/folders/0B5tZaev73xELV0Rib19SS3diSGM
+- description: 'LIDAR / Hyperspectral Acquisition Metadata Record: Link to the technical
+    specifications and metadata for the 2012 & 2014 data collection.'
+  type: url
+  value: https://hecate.hakai.org/geonetwork/srv/eng/catalog.search#/metadata/244b5915-0ccf-4fab-9720-d2ac9394a27b
+keywords:
+- Areal Photography
+- Orthoimage
+- Imagery
+- Terra
+- Downloadable Data
+- Remote Sensing
+- other
+- TRSI
+- Air photo
+- Hyperspectral
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Hyperspectral Imagery - Calvert Island - 2012
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_4be1cc5e-8846-4fba-bd94-16ca933faab8

@@ -1,0 +1,128 @@
+abstract: "72 LIDAR Derived Forest Metrics - Calvert Island - 20 Meter Spatial Resolution\n\
+  \nLIDAR forest metrics have been developed for the Calvert Island region. The data\
+  \ are in 20 meter resolution and detail a number of variables about the vegetation\
+  \ layer above the bare earth model. Forest metrics have been grouped to show major\
+  \ statistical themes such as gap fraction, stem height, and density. The information\
+  \ is valuable for classifying forest structure and better understanding ecosystem\
+  \ dynamics.\n\nLIDAR Forest Metrics Produced by GWF LiDAR Analytics\nA full list\
+  \ of derived forest metrics produced by G.W. Frazer is listed at the end of this\
+  \ abstract. \n\nLIDAR flights conducted in 2012 and 2014 covered all of Calvert\
+  \ and Hecate Island. Flights were completed in August of 2012 (Terra Remote Sensing)\
+  \ and August of 2014 (Brian Menounos UNBC).\n\nArea-based canopy height and density\
+  \ metrics are derived directly from a height-normalized LAS point cloud using proprietary\
+  \ software developed by G.W. Frazer (note: Fusion and LASTools are respectively\
+  \ open-source and commercial software that can be used to extract various area-based\
+  \ canopy metrics). These gridded products (approximately 55 bands) have a user-defined\
+  \ 20 m spatial resolution and include (i) height-based statistics (e.g., min., max.,\
+  \ mean, moments, percentiles), (ii) density-based statistics (i.e., gap fraction,\
+  \ canopy cover at fractional and absolute heights above the ground surface), and\
+  \ (iii) diagnostic information (e.g., number of laser points in each cell, number\
+  \ of laser points classified as ground, number of points above a specific height\
+  \ threshold, etc.). Area-based canopy metrics are used to characterize the three-dimensional\
+  \ (3-D) structure of the vegetation canopies.\n\nList of LiDAR-Derived Canopy Height,\
+  \ Canopy Density, and Stem Metric Categories:\n(Based on G.W. Frazer LiDAR Metrics\
+  \ for Calvert / Hecate Island Acquisition 2012 / 2014 metadata document.)\nCanopy\
+  \ Height Metrics\t\t\t\nCanopy Density Metrics \t\t\t\t\t\nPercentiles of Laser\
+  \ Canopy Height (LHQ) Bands\t\t\t\t\t\nCanopy Density at Fractional Canopy Heights\
+  \ (CCF) Bands \t\t\t\t\t\t\nDiagnostic Bands\t\t\t\nTree-Top Bands\n\nFor a full\
+  \ metadata report on LiDAR acquisition please contact data@hakai.org"
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Frazer
+  given-names: G.W.
+  website: https://www.hakai.org/
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Geospatial Technology Team Hakai
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Frazer
+  given-names: G.W.
+  website: https://www.hakai.org/
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  family-names: Geospatial Technology Team Hakai
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: d05df775-4295-4b9f-b3b3-29fe891d9ed9
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_d05df775-4295-4b9f-b3b3-29fe891d9ed9
+- description: DOI
+  type: doi
+  value: 10.21966/MQ9T-BW79
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWZyU1hnTHowV2poZUk
+- description: 'Hakai Institute Google Drive: LIDAR forest metrics band assignment
+    list, readme metadata file, and data package'
+  type: url
+  value: https://drive.google.com/drive/folders/0Byed_WX-ZNMaRHdiaWI4a2FKVFE?resourcekey=0-8DwwtZgMUPTdYoe9XNMhlg&usp=sharing
+keywords:
+- Tree-Top Bands
+- stem height
+- remote sensing
+- laser
+- Percentage of laser points
+- Forest
+- UNBC
+- kurtosis
+- other
+- Arithmetic mean height
+- Canopy Density at Fractional Canopy Heights
+- Ratio of laser points
+- Terra
+- Canopy Height Metrics
+- sensor
+- Diagnostic Bands
+- terrain
+- Vegetation
+- Downloadable Data
+- Density
+- watersheds
+- Metric
+- Maximum stem height
+- LIDAR
+- Percentiles of Laser Canopy Height
+- Minimum stem height
+- Ecology
+- Maximum laser canopy height
+- Canopy Density
+- Hecate
+- Gap fraction
+- Number of stems in grid cell
+- Percentile
+- skewness
+- Calvert
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: LIDAR Derived Forest Metrics - Calvert Island - British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_d05df775-4295-4b9f-b3b3-29fe891d9ed9

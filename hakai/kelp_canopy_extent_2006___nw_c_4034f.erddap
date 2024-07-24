@@ -1,0 +1,57 @@
+<addAttributes>
+    <att name='institution'>Hakai Institute</att>
+    <att name='title'>Kelp Canopy Extent 2006 - NW Calvert Island</att>
+    <att name='summary'>2006 air photos sourced from the province were used to digitize kelp canopies for NW Calvert Island. Focal areas of West Beach and Choked Passage off Calvert Island have been chosen to to multiple year analysis of kelp canopy change pre - and post otter establishment in the area. 
+
+Kelp density / species / and extent are recorded - see attributes listed below.
+2006 kelp canopy extent represents the maximum growth for the year. Tide level was roughly  2.47 meters (8.1 foot) - a level which could impact kelp extent and the ability for GIS technicians to properly detect and identify species. More research is being done to validate and test tide levels with associated kelp extent findings.
+
+All digitizing occurred using Arc GIS. SFU volunteer crew (Amanda Schrack and Sebastian Mather) along with principal investigators Jenn Burt and Keith Holmes.
+
+Methods based on KIM 1 methodology as described in Sutherland 2007 report: http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf
+
+Areas covered: West Beach – 7th beach to West Beach + Choked Passage – Surf Pass and North Beach to Wolf Beach North to Hakai Land and Sea Beach.
+
+Attributes:
+
+FID - Unique identification number - ARC auto generated during polygon creation
+
+Shape - Polygon - spatial representation
+
+Species - "Macro" / "Nereo" / Mixed detailing the two possible kelp canopy species. Macro refers to macrocystis pyrifera or giant kelp. Nereo refers to nereocystis luetkeana or bull kelp. Mixed is a homogenous mix of both Macro and Nereo species. Defined by GIS techs - identified by "credit" field. 
+
+Density - density of kelp defined as either high or low. Based on the Sutherland methodology for kelp density. High = high density / based on mean kelp plants found per square meter. Low = low density - still a continuous bed of kelp with large gaps the length of each fond.
+
+Area sq_m - size of each kelp bed in square meters. Defined by arc geometry calculation.
+
+Concat - concatenation of species and density information. Used for cartographic purposes. Defined by concatenating species and density metrics in ARC GIS.
+
+Confidence - Used by GIS technician to identify difficult to detect species / kelp bed extent / density. Used to inform reviewers and quality control spatial information. High = High confidence - no need to check over, Medium = medium confidence - check over, Low = low confidence - unsure of major elements - reviewer check over. A "Checked" may be added to the information to determine quality control has been completed on low confidence polygons. Determined by the last "credit" reviewer.
+
+Credit - Initials of GIS technician to create and give the final quality check on the kelp extent polygon. KH = Keith Holmes, JB = Jenn Burt, AS = Amanda Schrack, SM = Sebastian Mather.
+
+Species_la - full Latin species name for the kelp. macrocystis pyrifera / nereocystis luetkeana / mixed. Mixed has a homogeneous mix of both macrocystis pyrifera and nereocystis luetkeana species
+
+Dataset created by Jenn Burt and Keith Holmes. Simon Fraser University Volunteers: Amanda Schrack and Sebastian Mather
+Contact: keith.holmes@hakai.org</att>
+    <att name='project'>Geospatial,Nearshore</att>
+    <att name='comment'>##Limitations:
+Appropriate credit must be given to Hakai Institute and the authors of the dataset.</att>
+    <att name='progress'>completed</att>
+    <att name='keywords'>Downloadable Data,kelp,Nereocystis luetkeana,Macrocystis pyrifera,2006,calvert,hakai,air,photo,canopy,marine,urchin,extent,other,CIOOS:other,GBIF:Chromista,GBIF:Ochrophyta,GBIF:Phaeophyceae,GBIF:Laminariales,GBIF:Laminariaceae,GBIF:Macrocystis,GBIF:Macrocystis pyrifera,GBIF:Chromista,GBIF:Ochrophyta,GBIF:Phaeophyceae,GBIF:Laminariales,GBIF:Laminariaceae,GBIF:Nereocystis,GBIF:Nereocystis luetkeana</att>
+    <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary,GBIF: GBIF Taxonomy Vocabulary</att>
+    <att name='id'>4034f474-4d52-4a9e-9650-f3c6bd5011e0</att>
+    <att name='naming_authority'>ca.cioos</att>
+    <att name='date_modified'>2024-07-23T13:47:48.763Z</att>
+    <att name='date_created'>2022-03-11</att>
+    <att name='license'>https://creativecommons.org/licenses/by/4.0</att>
+    <att name='creator_name'>Keith Holmes, Jenn Burt, Keith Holmes, Jenn Burt</att>
+    <att name='creator_type'>person</att>
+    <att name='creator_institution'>Hakai Institute</att>
+    <att name='creator_country'>Canada</att>
+    <att name='contributor_name'>Hakai Geospatial Technology Team;Keith Holmes, Jenn Burt, Keith Holmes, Jenn Burt;Hakai Institute</att>
+    <att name='contributor_role'>pointOfContact,pointOfContact,custodian,distributor;processor,pointOfContact,author,originator,owner,custodian;resourceProvider,distributor,owner</att>
+    <att name='metadata_link'>https://catalogue.hakai.org/dataset/ca-cioos_4034f474-4d52-4a9e-9650-f3c6bd5011e0</att>
+    <att name='infoUrl'>https://catalogue.hakai.org/dataset/ca-cioos_4034f474-4d52-4a9e-9650-f3c6bd5011e0</att>
+    <att name='metadata_form'>https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVpRZnZ2Y0d4cWhKcHk</att>
+</addAttributes>

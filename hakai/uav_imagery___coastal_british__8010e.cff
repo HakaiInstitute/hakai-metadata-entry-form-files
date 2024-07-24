@@ -1,0 +1,114 @@
+abstract: "This is a dataset of UAV imagery collected and processed by the Hakai Institute.\n\
+  \nIn 2015 unmanned aerial vehicles at the Hakai Institute covered a range of areas\
+  \ along the British Columbia Coast. Here we list the locations of our projects -\
+  \ further metadata on each of these locations is available upon request. The purpose\
+  \ of this record is to highlight areas of imagery that have been covered and make\
+  \ the imagery available for researchers whenever possible. Restrictions on imagery\
+  \ only exist in areas of cultural sensitivity. Imagery is typically provided in\
+  \ georeferenced TIFF format. Raw JPEG images are also available. In some cases digital\
+  \ surface models have been created along with these imagery. Spatial resolutions\
+  \ vary from 1 cm to 12 cm depending on flight elevation.\n\nPlease use the links\
+  \ section below to observe an interactive map detailing the locations of our imagery.\n\
+  \nMetadata attributes recording flight log and processing notes include:\nMOBE_ID\
+  \ (unique flight mission identification number), date, location, size of area covered\
+  \ (grid size), pilot, weather, project (subject), crew, tide (meters), UAV used,\
+  \ elevation flown, UAV application used for flight, # of flights conducted for the\
+  \ mission, total flight time (minutes), flight notes, file location, processing\
+  \ status, storage location, and processing notes.  \n\nPlease contact data@hakai.org\
+  \ for more information.\n\nUAV equipment for 2015: Phantom 2, Phantom 3 for September\
+  \ missions.\n\nMissions with the Phantom 2 do not retain a grid flight pattern.\
+  \ Issues with flight elevation and controller connection software made it challenging\
+  \ to maintain proper flight patterns. \n\nAll flights in 2015 have been conducted\
+  \ by Derek Heathfield, Will McInnes, and Keith Holmes.\n\nSoftware for data processing:\
+  \ PIX4D, Autostitch, and ARC GIS.\n\nLocations covered in 2015:\n\nCalvert Island\
+  \ Region:\nNumbered beaches on NW Calvert Island\nWest Beach Dunes\nNW Calvert Island\
+  \ Coastline\nChoked Passage\nCalvert Island Field Station\nPruth Bay North + South\n\
+  \nCentral Coast Region:\nGoose Island (South)\nKoeye River Estuary and outer bay\n\
+  McMullin Islands NE\n\nQuadra Island Region:\nHakai Quadra Campus + Tula House"
+authors:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Holmes
+  given-names: Keith
+  website: https://www.hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  family-names: McInnes
+  given-names: Will
+  website: https://www.hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Heathfield
+  given-names: Derek
+  website: https://www.hakai.org
+- affiliation: Hakai Institute
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  country: CA
+  email: data@hakai.org
+  family-names: Hakai Geospatial Technology Team
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Holmes
+  given-names: Keith
+  website: https://www.hakai.org
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 8010e86f-5dd9-421d-8e22-668664191205
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_8010e86f-5dd9-421d-8e22-668664191205
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTVjN1laU01nM3dsWnY
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Public Web Map Showing UAV Imagery Locations: Hakai''s UAV imagery
+    footprints / metadata / previews are available on this public web map.'
+  type: url
+  value: https://hakai.maps.arcgis.com/apps/webappviewer/index.html?id=f5427c3a02fb452aa675fbd5847101b5
+keywords:
+- pix4d
+- orthophoto
+- image
+- Imagery
+- mosaic
+- RPAS
+- Downloadable Data
+- Drone
+- other
+- hakai
+- UAV
+- calvert
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: UAV Imagery - Coastal British Columbia - 2015
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_8010e86f-5dd9-421d-8e22-668664191205

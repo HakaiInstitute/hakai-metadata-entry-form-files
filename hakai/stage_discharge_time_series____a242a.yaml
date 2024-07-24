@@ -140,6 +140,11 @@ identification:
       \ seront prises. Les utilisateurs doivent vérifier à nouveau les mises à jour\
       \ périodiques des courbes d'évaluation et les fichiers de décharge ultérieurs.\
       \ Si des erreurs sont détectées, veuillez contacter Bill.Floyd@viu.ca."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2014-08-01'
@@ -165,10 +170,9 @@ identification:
       - other
       fr:
       - Autre
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
+  project:
+  - Watersheds
   status: published
   temporal_begin: '2014-08-01T19:00:00.000Z'
   temporal_end: '2016-01-25T20:00:00.000Z'
@@ -176,13 +180,18 @@ identification:
     en: Stage-Discharge Time Series - Calvert Island - Archived Version 1.0
     fr: Série chronologique des rejets par étapes - Île Calvert - Version archivée
       1.0
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2022-03-29'
-    revision: '2022-03-29T17:29:16.418Z'
+    revision: '2024-07-24T06:30:20.683Z'
   identifier: a242acd4-e3c7-46e0-8f43-f428fb824018
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUpNR0VhOVRlU210cDI
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUpNR0VhOVRlU210cDI
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -195,6 +204,11 @@ metadata:
         dataset.
       fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
         de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 platform: []
 spatial:
   bbox:

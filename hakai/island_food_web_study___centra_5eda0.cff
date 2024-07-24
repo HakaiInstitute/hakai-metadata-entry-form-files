@@ -1,0 +1,166 @@
+abstract: "This dataset contains raw stable isotope data for various taxa, and cleaned\
+  \ data used for analysis in Obrist et al. (2021), Biogeographic features mediate\
+  \ marine subsidies to terrestrial food webs. It also includes meta-data for all\
+  \ datafiles.\n\nIn this study, we have evaluated the enrichment of soil, plants,\
+  \ invertebrates, and songbirds using \u03B415N and \u03B413C stable isotopes, as\
+  \ well as a measure of available nitrogen (%N) on 97 islands. We determined the\
+  \ effects of island size, wrack biomass, island slope, and distance to shore at\
+  \ which the sample was collected.\nThe first data file, named \u201Cfood-webs-ibt-2021.csv\u201D\
+  , runs with the ibt-percent-n.RMD, ibt-d13c.RMD, and ibt-d15n.RMD scripts. It includes\
+  \ \u03B415N, \u03B413C, %N, and %C values of soil, salal (Gaultheria shallon), false\
+  \ lily-of-the-valley (Maiathemum dilatatum), herbivorous weevils (Curculionidae),\
+  \ detritivorous isopods (Isopoda), carnivorous ground-dwelling beetles (Coleoptera),\
+  \ as well as songbird feces and feather (rectrix) samples.\n\nData files named \u201C\
+  ibt-sem-data-2021.csv\u201D and \u201Cibt-sem-data-2021-plants-combined.csv\u201D\
+  \ run with the ibt-sem.RMD script. In this script, we outline decisions made in\
+  \ fitting structural equation models to track nutrient flow through island food\
+  \ webs. We find multicollinearity in our initial approach (using the \u201Cibt-sem-data-2021.csv\u201D\
+  \ file), and end up taking average values of \u03B415N and \u03B413C of all plant\
+  \ samples on each island for a single, island-wide plant \u03B415N and \u03B413C\
+  \ value for analysis (in \u201Cibt-sem-data-2021-plants-combined.csv\u201D).\n\n\
+  Obrist DS, Ernst CE, Fitzpatrick OT, Kennedy JC, Nijland W, Reshitnyk L, Wickham\
+  \ SB, Darimont CT, Starzomski BM, Reynolds JD. https://doi.org/10.21966/8j4j-7039\n\
+  \nScripts can be accessed from https://github.com/debobrist/food-web-ibt.\n\nApril\
+  \ through July in 2015, 2016, and 2017"
+authors:
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: debora_obrist@sfu.ca
+  family-names: Obrist
+  given-names: Debora S
+  website: https://hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Technology Team
+  given-names: Geospatial
+  website: https://www.hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Ernst
+  given-names: C E
+  website: https://hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Fitzpatrick
+  given-names: O. T.
+  website: https://hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Kennedy
+  given-names: J C
+  website: https://hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Nijland
+  given-names: W.
+  website: https://hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Reshitnyk
+  given-names: L.
+  website: https://hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Wickham
+  given-names: S B
+  website: https://hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Darimont
+  given-names: C T
+  website: https://hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Starzomski
+  given-names: B M
+  website: https://hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Reynolds
+  given-names: J D
+  website: https://hakai.org
+cff-version: 1.2.0
+contact:
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: debora_obrist@sfu.ca
+  family-names: Obrist
+  given-names: Debora S
+  website: https://hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Technology Team
+  given-names: Geospatial
+  website: https://www.hakai.org
+date-released: '2024-07-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 5eda02a9-36b6-4875-91c9-989e9e06c5ad
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_5eda02a9-36b6-4875-91c9-989e9e06c5ad
+- description: DOI
+  type: doi
+  value: 10.21966/8j4j-7039
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-Mv-f_0P720Bjn3KVOOt
+- description: 'Food web study GitHub: Metadata readme and methods GitHub link'
+  type: url
+  value: https://github.com/debobrist/food-web-ibt
+- description: 'Hakai Institute Google Drive: Methods and metadata'
+  type: url
+  value: https://drive.google.com/drive/folders/1vNH8iu-H7cwUHh8klf9BDY9Do1_7KbUU
+keywords:
+- stableCarbonIsotopes
+- isotopes
+- biogeography
+- food web
+- marine subsidies
+- island
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Island Food Web Study - Central Coast Islands (100 Islands Project) - April
+  to July 2015, 2016, & 2017
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_5eda02a9-36b6-4875-91c9-989e9e06c5ad
