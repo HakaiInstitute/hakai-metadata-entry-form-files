@@ -18,6 +18,7 @@ contact:
   - principalInvestigator
   - funder
   - processor
+  - publisher
 - inCitation: false
   organization:
     city: Vancouver
@@ -36,14 +37,24 @@ contact:
     name: Hakai Geospatial
     url: https://www.hakai.org/
   roles:
-  - publisher
+  - originator
 distribution:
 - description:
     en: Bute Inlet Geohazard Metadata Report
     fr: Rapport de métadonnées sur le géorisque de Bute Inlet
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Bute Inlet Geohazard Metadata Report
     fr: Rapport de métadonnées sur le géorisque de Bute Inlet
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/file/d/1MT2v_uv78afJP5z_LHi1GU52BqwkO4ms/view?usp=drive_link
 - description:
     en: Webmap showing the areas surveyed in by the Airborne Coastal Observatory
@@ -143,7 +154,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-08-01T14:29:41.243Z'
+    revision: '2024-08-01T14:34:47.149Z'
   identifier: 3efdccb0-08ef-4e90-ac91-72969f94a99a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpRG7xQ84LQrgS4jhie
@@ -164,7 +175,49 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Airborne Coastal Observatory
+    fr: Observatoire côtier aéroporté
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory - Piper Navajo
+  instruments:
+  - description:
+      en: Laser scanner used to measure the earth’s surface topography and vegetation
+      fr: Scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor LMS-Q 780
+    manufacturer: Riegl
+    type:
+      en: lidar scanner
+      fr: scanner lidar
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+    id: Aerial cameras iXU-RS1000
+    manufacturer: Phaseone Industrial
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+    version: iXU-RS1000
+  type: research aeroplane
 spatial:
   bbox:
   - -124.9
