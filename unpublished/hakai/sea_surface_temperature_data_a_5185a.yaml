@@ -1,0 +1,214 @@
+contact:
+- inCitation: true
+  individual:
+    email: heather.earle@hakai.org
+    name: Earle, Heather
+    position: Project Coordinator
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - coAuthor
+  - distributor
+- inCitation: true
+  individual:
+    email: matt.whalen@hakai.org
+    name: Whalen, Matt
+    position: Project Lead
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - coAuthor
+  - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    email: lauren.krzus@hakai.org
+    name: Krzus, Lauren
+    position: Research Technician
+  roles:
+  - custodian
+  - owner
+  - distributor
+distribution:
+- description:
+    en: Gives an overview of the logger including it's features, specifications, etc.
+    fr: Donne une vue d'ensemble de l'enregistreur, y compris ses caractéristiques,
+      ses spécifications, etc.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: HOBO Tidbit Logger Description
+    fr: Description de l'enregistreur HOBO Tidbit
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://www.onsetcomp.com/products/data-loggers/mx2203/
+- description:
+    en: Github repository containing data and site information
+    fr: Référentiel Github contenant des données et des informations sur le site
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Data Repository
+    fr: Référentiel de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/sentinels-sensor-data
+- name:
+    en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiSentinelTempRaw.html
+identification:
+  abstract:
+    en: "This dataset is comprised of sea surface temperature data collected using\
+      \ HOBO TidbiT MX Temperature 400 data loggers (MX2203) deployed in various locations\
+      \ across the BC coast but particularly in the Canadian portion of the Salish\
+      \ Sea. Loggers are suspended at 0.5 metres depth from floating docks in proximity\
+      \ to light traps as part of the Sentinels of Change project which monitors larval\
+      \ Dungeness crab (Metacarcinus magister) using light traps. The loggers are\
+      \ programmed to record the water temperature at 10 minute intervals, starting\
+      \ at 12:00 on April 15th until 12:00 September 1st, each year, starting in 2022.\
+      \ Loggers are removed from the water after September 1st and replaced the following\
+      \ spring before April 15th. These data will be collected each year until 2030.\
+      \ \n\nThis data package includes: \n-Sea surface temperature data from April\
+      \ 15th 2022 until September 1st (the duration of the light trap collection season)\n\
+      -Site metadata, including temperature logger location"
+    fr: "Cet ensemble de données comprend des données de température de surface de\
+      \ la mer recueillies à l'aide des enregistreurs de données HOBO TidBit MX Temperature\
+      \ 400 (MX2203) déployés à divers endroits sur la côte de la Colombie-Britannique,\
+      \ mais particulièrement dans la partie canadienne de la mer des Salish. Des\
+      \ bûcherons sont suspendus à 0,5 mètre de profondeur à des quais flottants à\
+      \ proximité de pièges lumineux dans le cadre du projet Sentinels of Change qui\
+      \ surveille les larves de crabe dormeur (Metacarcinus magister) à l'aide de\
+      \ pièges lumineux. Les enregistreurs sont programmés pour enregistrer la température\
+      \ de l'eau à intervalles de 10 minutes, à partir de 12 h le 15 avril jusqu'à\
+      \ 12 h le 1er septembre de chaque année, à compter de 2022. Les bûcherons sont\
+      \ retirés de l'eau après le 1er septembre et remplacés le printemps suivant\
+      \ avant le 15 avril. Ces données seront collectées chaque année jusqu'en 2030.\
+      \ \n\nCe package de données comprend : \n-Données sur la température de surface\
+      \ de la mer du 15 avril 2022 au 1er septembre (durée de la saison de collecte\
+      \ des pièges lumineux)\n-Métadonnées du site, y compris l'emplacement de l'enregistreur\
+      \ de température"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2022-04-15'
+  edition: '1.1'
+  keywords:
+    default:
+      en:
+      - water temperature
+      - physical-chemical
+      fr:
+      - température de l'eau
+      - physico-chimie
+    eov:
+      en:
+      - seaSurfaceTemperature
+      fr:
+      - Température de surface
+  progress_code: onGoing
+  project:
+  - Sentinels of Change
+  status: submitted
+  temporal_begin: '2022-04-15T19:00:00.000Z'
+  temporal_end: '2023-09-01T19:00:00.000Z'
+  title:
+    en: Sea surface temperature data along the British Columbia Coast
+    fr: Données sur la température de surface de la mer le long de la côte de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+instruments:
+- description:
+    en: autonomous water temperature logger
+    fr: enregistreur de température d'eau autonome
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: HOBO TidbiT MX Temperature 400' Data Logger
+  manufacturer: Onset
+  type:
+    en: temperature logger
+    fr: enregistreur de température
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  version: MX2203
+metadata:
+  dates:
+    revision: '2024-08-22T20:03:31.370Z'
+  identifier: 5185ac00-8148-4472-adfd-21741d8a10ce
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/57FPdLIBPcb9BOLfIOW44RJVywN2/-NH0r8ddHNhVJ5bXkyqR
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-NC-4.0
+      title:
+        en: 'Creative Commons Attribution 4.0 Attribution-NonCommercial  '
+      url: https://creativecommons.org/licenses/by-nc/4.0/
+    limitations:
+      en: Appropriate QC may not yet be applied.
+      fr: Le contrôle qualité approprié n'est peut-être pas encore appliqué.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  descriptionIdentifier: be4a64e4-0d89-408a-8af1-9e9bfb4afa89
+  polygon: -130.6,54.62 -131.4,54.62 -130.9,53.35 -129.5,52.45 -128.2,51.04 -127.5,50.62
+    -125.9,50.14 -125.3,49.80 -124.2,49.09 -123.5,48.40 -123.4,48.27 -123.1,48.41
+    -123.3,48.68 -123.0,48.78 -123.2,49.01 -122.4,49.37 -122.5,49.50 -122.8,49.40
+    -123.3,49.40 -124.3,49.84 -124.8,50.07 -127.4,51.39 -130.1,54.16 -130.6,54.62
+  vertical:
+  - 0.5
+  - 0.5
+  vertical_positive: heightPositive
