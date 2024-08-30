@@ -69,24 +69,6 @@ contact:
   - funder
 distribution:
 - description:
-    en: Gives an overview of the logger including it's features, specifications, etc.
-    fr: Donne une vue d'ensemble de l'enregistreur, y compris ses caractéristiques,
-      ses spécifications, etc.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: HOBO Tidbit Logger Description
-    fr: Description de l'enregistreur HOBO Tidbit
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://www.onsetcomp.com/products/data-loggers/mx2203/
-- description:
     en: Github repository containing data and site information
     fr: Référentiel Github contenant des données et des informations sur le site
     translations:
@@ -103,15 +85,6 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   url: https://github.com/HakaiInstitute/sentinels-sensor-data
-- name:
-    en: ERDDAP Dataset
-    fr: Ensemble de données ERDDAP
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://catalogue.hakai.org/erddap/tabledap/HakaiSentinelTempRaw.html
 identification:
   abstract:
     en: "This dataset is comprised of sea surface temperature data collected using\
@@ -148,7 +121,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsIdenticalTo
+    association_type_iso: crossReference
+    authority: URL
+    code: https://catalogue.hakai.org/erddap/tabledap/HakaiSentinelTempRaw.html
+    title:
+      en: ERDDAP Dataset
+      fr: Ensemble de données ERDDAP
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2022-04-15'
   edition: '1.1'
@@ -201,7 +186,29 @@ instruments:
   version: MX2203
 metadata:
   dates:
-    revision: '2024-08-30T16:57:36.669Z'
+    revision: '2024-08-30T17:10:59.392Z'
+  history:
+  - additionalDocumentation:
+    - authority: URL
+      code: https://www.onsetcomp.com/products/data-loggers/mx2203/
+      title:
+        en: HOBO Tidbit Logger Description
+        fr: Description de l'enregistreur HOBO Tidbit
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    scope: DataCollectionSampling
+    scopeIso: collectionSession
+    statement:
+      en: Instrument specifications
+      fr: Spécifications de l'instrument
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   identifier: 5185ac00-8148-4472-adfd-21741d8a10ce
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/57FPdLIBPcb9BOLfIOW44RJVywN2/-NH0r8ddHNhVJ5bXkyqR
