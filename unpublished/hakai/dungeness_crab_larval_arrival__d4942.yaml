@@ -252,12 +252,22 @@ distribution:
     fr: Site Web de l'organisation partenaire de Puget Sound, Pacific Northwest Crab
       Research Group, avec laquelle nous avons aligné nos efforts et protocoles de
       collecte de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Pacific Northwest Crab Research Group Website
   url: https://pnwcrab.com
 - description:
     en: Instructions for checking light traps and processing the sample.
     fr: Instructions pour le contrôle des pièges à lumière et le traitement de l'échantillon.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Light Trap Sampling Instructions
   url: https://drive.google.com/file/d/1AmoHY3Zx6G3mKSSYzFfYEh6CGtzAReqK/view?usp=sharing
@@ -317,8 +327,7 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources:
-  - {}
+  associated_resources: []
   dates:
     creation: '2022-04-15'
   edition: '1.1'
@@ -376,7 +385,29 @@ identification:
 metadata:
   dates:
     publication: '2023-03-03'
-    revision: '2024-08-30T17:58:36.004Z'
+    revision: '2024-08-30T18:12:26.847Z'
+  history:
+  - additionalDocumentation:
+    - authority: URL
+      code: https://drive.google.com/file/d/1AmoHY3Zx6G3mKSSYzFfYEh6CGtzAReqK/view?usp=sharing
+      title:
+        en: Light Trap Sampling Instructions
+        fr: Instructions d'échantillonnage des pièges à lumière
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    scope: DataCollectionSampling
+    scopeIso: collectionSession
+    statement:
+      en: Light Trap Sampling Instructions
+      fr: Instructions d'échantillonnage des pièges à lumière
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   identifier: d4942b86-d362-40a3-9399-c124c4c263bd
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/57FPdLIBPcb9BOLfIOW44RJVywN2/-N1KAki3SSBEw0aHCoSv
