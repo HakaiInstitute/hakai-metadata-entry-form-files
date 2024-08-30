@@ -273,25 +273,6 @@ contact:
   - funder
 distribution:
 - description:
-    en: Data files and documentation for rocky intertidal motile invertebrate surveys.
-      Contains up to version 3.0.
-    fr: Fichiers de données et documentation pour les études sur les invertébrés mobiles
-      intertidaux rocheux. Contient jusqu'à la version 3.0.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: Google Drive Repository
-    fr: Référentiel Google Drive
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://drive.google.com/drive/folders/1Gg47h8E32vdqUlyeYu0mJ0omYAByRt5s
-- description:
     en: Data files and documentation for rocky intertidal motile invertebrate surveys
     fr: Fichiers de données et documentation pour les études sur les invertébrés mobiles
       intertidaux rocheux
@@ -363,7 +344,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsIdenticalTo
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/drive/folders/1Gg47h8E32vdqUlyeYu0mJ0omYAByRt5s
+    title:
+      en: Google Drive Repository
+      fr: Référentiel Google Drive
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2017-06-27'
     revision: '2023-06-08'
@@ -406,7 +399,7 @@ identification:
 metadata:
   dates:
     publication: '2022-10-08'
-    revision: '2024-08-30T18:46:11.177Z'
+    revision: '2024-08-30T18:48:47.543Z'
   identifier: 67e89414-a93f-496d-9766-9311f0d3954e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MotWzhmBvoGPE8QZ0sf
