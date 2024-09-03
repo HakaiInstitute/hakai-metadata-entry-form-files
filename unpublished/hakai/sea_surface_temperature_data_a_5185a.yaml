@@ -69,22 +69,22 @@ contact:
   - funder
 distribution:
 - description:
-    en: Github repository containing data and site information
-    fr: Référentiel Github contenant des données et des informations sur le site
+    en: Sea surface temperature as made available through ERDDAP.
+    fr: Température de surface de la mer telle que communiquée par ERDDAP.
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: Data Repository
-    fr: Référentiel de données
+    en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://github.com/HakaiInstitute/sentinels-sensor-data
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiSentinelTempRaw.html
 identification:
   abstract:
     en: "This dataset is comprised of sea surface temperature data collected using\
@@ -125,10 +125,10 @@ identification:
   - association_type: IsIdenticalTo
     association_type_iso: crossReference
     authority: URL
-    code: https://catalogue.hakai.org/erddap/tabledap/HakaiSentinelTempRaw.html
+    code: https://github.com/HakaiInstitute/sentinels-sensor-data
     title:
-      en: ERDDAP Dataset
-      fr: Ensemble de données ERDDAP
+      en: Data Repository
+      fr: Référentiel de données
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -186,7 +186,7 @@ instruments:
   version: MX2203
 metadata:
   dates:
-    revision: '2024-08-30T17:10:59.392Z'
+    revision: '2024-09-03T17:07:45.743Z'
   history:
   - additionalDocumentation:
     - authority: URL
