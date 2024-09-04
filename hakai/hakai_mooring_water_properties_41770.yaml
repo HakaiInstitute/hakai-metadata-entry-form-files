@@ -31,7 +31,6 @@ contact:
     url: https://www.hakai.org/
   roles:
   - custodian
-  - author
   - pointOfContact
 - inCitation: true
   organization:
@@ -58,7 +57,7 @@ contact:
 distribution:
 - name:
     en: ERDDAP Dataset
-  url: https://catalogue.hakai.org/erddap/tabledap/HakaiMooredTimeSeriesResearch.html
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiRiversInletMooringResearch.html
 identification:
   abstract:
     en: This datasets present a collection of water properties measurements (Temperature,
@@ -119,14 +118,11 @@ identification:
   status: published
   temporal_begin: '2020-02-11T20:00:00.000Z'
   title:
-    en: Hakai Mooring Water Properties Timeseries Research
-    fr: Séries temporelles de propriétés de l'eau à partir du mouillage de l'Institut
-      Hakai
+    en: Hakai Rivers Inlet Mooring Research
+    fr: Mouillage océanographique dans le fjord de Rivers Inlet, recherche
     translations:
       fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
+        verified: true
 instruments:
 - id: SBE37 SMP-ODO SDI12
   manufacturer: Seabird
@@ -137,7 +133,7 @@ instruments:
 metadata:
   dates:
     publication: '2022-04-11'
-    revision: '2024-07-23T13:40:14.726Z'
+    revision: '2024-08-29T21:15:25.553Z'
   identifier: 41770c7d-27ea-4593-ba55-040bdc5b99f0
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MkEosZGlTnDy2oMp9nX

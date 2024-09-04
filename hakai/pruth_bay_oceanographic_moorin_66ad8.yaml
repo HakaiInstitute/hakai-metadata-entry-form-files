@@ -54,7 +54,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsSourceOf
+    association_type_iso: dependency
+    authority: URL
+    code: https://github.com/HakaiInstitute/hakai-pruth-mooring-data
+    title:
+      en: Raw original data repository
+      fr: Référentiel de données brutes d'origine
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2017-12-04'
   keywords:
@@ -91,7 +103,9 @@ identification:
 metadata:
   dates:
     publication: '2021-12-03'
-    revision: '2024-07-23T13:40:56.861Z'
+    revision: '2024-08-21T19:42:57.933Z'
+  history:
+  - scope: Dataset
   identifier: 66ad87d2-bb96-4515-a907-6367ca6c0a2b
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW079KN2Z_OrMh7Zk6T

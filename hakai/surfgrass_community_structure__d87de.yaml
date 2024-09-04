@@ -3,6 +3,7 @@ contact:
   individual:
     email: tyrel.froese@hakai.org
     name: Froese, Tyrel
+    orcid: https://orcid.org/0000-0002-6964-8353
     position: Research Technician
   organization:
     address: P.O. Box 25039, V9W 0B7
@@ -32,6 +33,7 @@ contact:
   individual:
     email: margot@hakai.org
     name: Hessing-Lewis, Margot
+    orcid: https://orcid.org/0000-0002-9956-955X
   organization:
     address: P.O. Box 25039, V9W 0B7
     city: Campbell River
@@ -43,7 +45,8 @@ contact:
 - inCitation: true
   individual:
     email: alyssa.gehman@hakai.org
-    name: Gehman, Alyssa
+    name: Gehman, Alyssa-Lois
+    orcid: https://orcid.org/0000-0003-0595-9950
     position: Scientist
   organization:
     address: P.O. Box 25039, V9W 0B7
@@ -63,7 +66,8 @@ contact:
 - inCitation: false
   individual:
     email: zach.monteith@hakai.org
-    name: Monteith, Zach
+    name: Monteith, Zachary
+    orcid: https://orcid.org/0000-0003-4963-8374
     position: Research Technician
   organization:
     city: Campbell River
@@ -83,7 +87,8 @@ contact:
 - inCitation: false
   individual:
     email: angeleen.olson@hakai.org
-    name: Olsen, Angeleen
+    name: Olson, Angeleen
+    orcid: https://orcid.org/0000-0001-8443-1868
     position: Research Technician
   organization:
     address: P.O. Box 25039, V9W 0B7
@@ -129,8 +134,26 @@ contact:
   roles:
   - owner
   - distributor
-  - publisher
   - resourceProvider
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Data files and documentation for surfgrass monitoring surveys, 2016-2017
@@ -202,15 +225,11 @@ identification:
       \ et 2) communiquer et/ou collaborer avec les fournisseurs si vous envisagent\
       \ d'utiliser cet ensemble de données pour des manuscrits ou d'autres formes\
       \ de rapports."
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
   associated_resources: []
   dates:
     creation: '2016-06-27'
     publication: '2020-10-12'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/nrmz-a516
   keywords:
     default:
@@ -250,7 +269,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-13'
-    revision: '2024-07-23T10:40:46.597Z'
+    revision: '2024-08-02T09:30:57.733Z'
   identifier: d87de5ca-a18a-406d-a4c1-74e6f8f28e5b
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MooQxV2q0Y_rOjI40Fq

@@ -1,0 +1,213 @@
+contact:
+- inCitation: true
+  individual:
+    email: jackie.king@dfo-mpo.gc.ca
+    name: King, Jackie R.
+    position: Chief Scientist
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - owner
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: amy.tabata@dfo-mpo.gc.ca
+    name: Tabata, Amy
+    position: Data Manager
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - owner
+  - author
+  - custodian
+- inCitation: true
+  individual:
+    email: Cameron.Freshwater@dfo-mpo.gc.ca
+    name: Freshwater, Cameron
+    position: Research Scientist
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    name: Zubkowski, Tyler
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - author
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+distribution:
+- description:
+    en: The repository containing the 2022 IYS Trawl and Specimen data received from
+      the CCGS Sir John Franklin.
+    fr: Le référentiel contenant les données sur les chaluts et spécimens de l'IYS
+      2022 reçues du NGCC Sir John Franklin.
+  name:
+    en: Original and Supplemental Materials
+    fr: Matériaux originaux et supplémentaires
+  url: https://github.com/international-year-of-the-salmon/2022-Franklin-Trawl/archive/refs/heads/main.zip
+- description:
+    en: Trawl and specimen data from the CCGS Sir John Franklin standardized to Darwin
+      Core and published to OBIS.
+    fr: Les données sur les chaluts et les spécimens du NGCC Sir John Franklin ont
+      été normalisées selon Darwin Core et publiées dans OBIS.
+  name:
+    en: Trawl and specimen data from the CCGS Sir John Franklin on OBIS
+    fr: Données sur les chaluts et les spécimens du NGCC Sir John Franklin sur OBIS
+  url: https://ipt.iobis.org/obiscanada/resource?r=trawl-catch-and-specimen-data-from-the-ccgs-sir-john-franklin-during-the-2022-international-year-of-the-salmon-expedition
+- description:
+    en: Canadian Technical Report
+    fr: Rapport technique canadien
+  name:
+    en: Eastern Gulf of Alaska Pacific Salmon Trawl Survey, February 19 - March 21,
+      2022 onboard the CCGS Sir John Franklin as contribution to the International
+      Year of the Salmon Pan-Pacific Winter High Seas Expedition
+    fr: Enquête au chalut à saumon dans l'est du golfe d'Alaska dans le Pacifique,
+      du 19 février au 21 mars 2022 à bord du NGCC Sir John Franklin en tant que contribution
+      à l'expédition hivernale en haute mer de l'Année internationale du saumon dans
+      le Pacifique
+  url: https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41074853.pdf
+identification:
+  abstract:
+    en: "This data set contains the at sea data collected by Fisheries and Oceans\
+      \ Canada (DFO) in the eastern Gulf of Alaska, aboard the CCGS Sir John Franklin,\
+      \ in contribution to the 2022 International Year of the Salmon (IYS) Pan-Pacific\
+      \ Winter Expedition coordinated by the North Pacific Anadromous Fish Commission\
+      \ (NPAFC). This data package contains three separate components; event, catch,\
+      \ and specimen. The event data contains all of the sampling event information,\
+      \ including time, location, and duration. All dates and times are in UTC, depth\
+      \ measurements are in meters and distance measurements are in kilometers. The\
+      \ catch data contains all of the catch records, as counts and weights, for each\
+      \ species/taxa at each station. The sampling method for every catch weight should\
+      \ be total weight, and all weights are in kilograms. Weights too small to be\
+      \ weighed accurately are recorded as “Trace”. The specimen data contains individual\
+      \ lengths and weights for sampled individuals from each station. Specimen lengths\
+      \ are in millimeters and specimen weights are in grams. To join event information\
+      \ to catch or specimen information, join on the station event id field. To join\
+      \ catch and specimen data, join on the catch id field. \n\nThis data is contained\
+      \ in Canadian Technical Report of Fisheries and Aquatic Sciences, which should\
+      \ be referenced in any use of this data as follows: \n\nKing, J.R., Freshwater,\
+      \ C., Tabata, A.M., Zubkowski, T.B., Stanley, C., Wright, C., Anderson, E.D.,\
+      \ and Flynn, K.L. 2022. Eastern Gulf of Alaska Pacific Salmon Trawl Survey,\
+      \ February 19 - March 21, 2022 onboard the CCGS Sir John Franklin as contribution\
+      \ to the International Year of the Salmon Pan-Pacific Winter High Seas Expedition.\
+      \ Can. Tech. Rep. Fish. Aquat. Sci. 3502: vii + 61 p."
+    fr: "Cet ensemble de données contient les données en mer recueillies par Pêches\
+      \ et Océans Canada (MPO) dans l'est du golfe d'Alaska, à bord du NGCC Sir John\
+      \ Franklin, en contribution à l'expédition hivernale panpacifique 2022 de l'Année\
+      \ internationale du saumon (IYS) coordonnée par la Commission des poissons anadromes\
+      \ du Pacifique Nord ( NPAC). Ce package de données contient trois composants\
+      \ distincts : événement, capture et spécimen. Les données d'événement contiennent\
+      \ toutes les informations d'événement d'échantillonnage, y compris l'heure,\
+      \ le lieu et la durée. Toutes les dates et heures sont en UTC, les mesures de\
+      \ profondeur en mètres et les mesures de distance en kilomètres. Les données\
+      \ de capture contiennent tous les enregistrements de captures, sous forme de\
+      \ dénombrements et de poids, pour chaque espèce/taxon à chaque station. La méthode\
+      \ d'échantillonnage pour chaque poids de prise doit être le poids total, et\
+      \ tous les poids sont exprimés en kilogrammes. Les poids trop petits pour être\
+      \ pesés avec précision sont enregistrés comme « Trace ». Les données des échantillons\
+      \ contiennent les longueurs et les poids individuels des individus échantillonnés\
+      \ à chaque station. La longueur des échantillons est exprimée en millimètres\
+      \ et le poids des échantillons en grammes. Pour joindre les informations d'événement\
+      \ aux informations de capture ou de spécimen, joignez-vous au champ ID d'événement\
+      \ de la station. Pour joindre les données de capture et de spécimen, joignez-les\
+      \ dans le champ ID de capture. \n\nCes données sont contenues dans le Rapport\
+      \ technique canadien des sciences halieutiques et aquatiques, qui doit être\
+      \ référencé dans toute utilisation de ces données comme suit : \n\nKing, J.R.,\
+      \ Freshwater, C., Tabata, A.M., Zubkowski, T.B., Stanley, C., Wright, C., Anderson,\
+      \ E.D., et Flynn, K.L. 2022. Eastern Gulf of Alaska Pacific Salmon Trawl Survey,\
+      \ du 19 février au 21 mars 2022 à bord du NGCC Sir John Franklin en tant que\
+      \ contribution à l'expédition hivernale en haute mer de l'Année internationale\
+      \ du saumon dans le Pacifique. Pouvez. Technologie. Rép. Fish. Aquat. Sci. 3502 :\
+      \ vii + 61 p."
+  associated_resources: []
+  dates:
+    creation: '2022-02-22'
+  identifier: https://doi.org/10.21966/gmrz-ad56
+  keywords:
+    default:
+      en:
+      - North Pacific Ocean
+      - oceans
+      - International Year of the Salmon
+      - Trawl
+      - Specimen
+      - Catch
+    eov:
+      en:
+      - fishAbundanceAndDistribution
+      fr:
+      - Abondance et distribution de poissons
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-02-22T20:00:00.000Z'
+  temporal_end: '2022-03-19T19:00:00.000Z'
+  title:
+    en: Trawl Data from the CCGS Sir John Franklin during the 2022 International Year
+      of the Salmon Pan-Pacific Winter High Seas Expedition
+    fr: Données de chalutage du NGCC Sir John Franklin pendant l'expédition hivernale
+      en haute mer de l'Année internationale du saumon dans le Pacifique 2022
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T17:43:05.811Z'
+  identifier: 68b4c7e7-1a33-44a0-b565-3ebf13021a2a
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/jnK2pbrIzbMBHpSiUOi8XDUeev93/-N7wM9bZ_zf6kFZZU_YV
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  polygon: -143.89225,57.010483 -143.997683,56.053433 -144.070066,55.0049 -144.024283,46.957766
+    -144.00765,46.058066 -134.98995,47.031716 -132.075683,50.966483 -134.92445,52.978516
+    -137.9756,54.959583 -143.89225,57.010483
+  vertical:
+  - 0.0
+  - 56.0
+  vertical_positive: heightPositive

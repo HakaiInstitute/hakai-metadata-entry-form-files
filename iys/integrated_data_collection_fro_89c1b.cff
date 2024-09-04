@@ -1,0 +1,320 @@
+abstract: 'This dataset is a collection of all of the International Year of the Salmon
+  High Seas Expeditions trawl catch, specimen measurements, zooplankton abundance,
+  and CTD datasets that were collected at sea in 2019 aboard the Professor Kaganovsky,
+  2020 on the Pacific Legacy NO.1, and 2022 aboard the CCGS Sir John Franklin, NOAA
+  Bell M. Shimada, R/V TINRO, and R/V Northwest Explorer. These data span much of
+  the North East Pacific Ocean and were collected to better our understanding of the
+  ocean conditions salmon experience during winter and how that may drive high seas
+  salmon survival.
+
+
+  NOTE: This dataset is not publicly available yet. If you are a IYS Expedition Participant,
+  you must first submit your GitHub username to iys.data@hakai.org so that you can
+  be given permission to access this data. Use of this dataset while it is only internally
+  available to IYS Participants is subject to the IYS Data Policy available at: https://international-year-of-the-salmon.github.io/about/Final%20IYS%20Data%20Policy_Dec132021.pdf'
+authors:
+- address: 2329 West Mall, V6T 1Z4
+  affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  email: epakhomov@eoas.ubc.ca
+  family-names: Pakhomov
+  given-names: Evgeny
+  website: https://www.ubc.ca/
+- affiliation: National Oceanic and Atmospheric Administration
+  city: Washington
+  country: US
+  email: laurie.weitkamp@noaa.gov
+  family-names: Weitkamp
+  given-names: Laurie
+  website: http://www.noaa.gov/
+- address: 200-401 Burrard St. V6C 3S4
+  affiliation: Fisheries and Oceans Canada
+  city: Ottawa
+  country: CA
+  email: Chrys.Neville@dfo-mpo.gc.ca
+  family-names: Neville
+  given-names: Chrys
+  website: https://www.dfo-mpo.gc.ca
+- affiliation: Russian Federal Research Institute of Fisheries and Oceanography
+  email: aleksey.somov@tinro-center.ru
+  family-names: Somov
+  given-names: Aleksey
+- address: PO Box 25039
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- address: Suite 502, 889 West Pender Street, V6C 3B2, British Columbia
+  city: Vancouver
+  country: CA
+  email: secretariat@npafc.org
+  name: North Pacific Anadromous Fish Commission
+  website: https://npafc.org
+- affiliation: Fisheries and Oceans Canada
+  city: Ottawa
+  country: CA
+  email: jackie.king@dfo-mpo.gc.ca
+  family-names: King
+  given-names: Jackie
+  website: https://www.dfo-mpo.gc.ca
+- affiliation: National Oceanic and Atmospheric Administration
+  city: Washington
+  country: US
+  email: ed.farley@noaa.gov
+  family-names: Farley
+  given-names: Ed
+  website: http://www.noaa.gov/
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  email: b.hunt@oceans.ubc.ca
+  family-names: Hunt
+  given-names: Brian
+  website: https://www.ubc.ca/
+- affiliation: Fisheries and Oceans Canada
+  city: Ottawa
+  country: CA
+  email: Cameron.Freshwater@dfo-mpo.gc.ca
+  family-names: Freshwater
+  given-names: Cameron
+  website: https://www.dfo-mpo.gc.ca
+- affiliation: National Oceanic and Atmospheric Administration
+  city: Washington
+  country: US
+  email: jim.murphy@noaa.gov
+  family-names: Murphy
+  given-names: Jim
+  website: http://www.noaa.gov/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: tim.vanderstap@hakai.org
+  family-names: van der Stap
+  given-names: Tim
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: brett.johnson@hakai.org
+  family-names: Johnson
+  given-names: Brett
+  website: https://www.hakai.org/
+- affiliation: Russian Federal Research Institute of Fisheries and Oceanography
+  email: kirill.kivva@gmail.com
+  family-names: Kivva
+  given-names: Kirill
+- affiliation: Pacific Salmon Foundation
+  city: Vancouver
+  country: CA
+  email: svesen@uvic.ca
+  family-names: Esenkulova
+  given-names: Svetlana
+  website: https://www.psf.ca/
+- affiliation: Hokkaido National Research Institute
+  email: urawa@affrc.go.jp
+  family-names: Urawa
+  given-names: Shigehiko
+- affiliation: National Oceanic and Atmospheric Administration
+  city: Washington
+  country: US
+  email: charlie.waters@noaa.gov
+  family-names: Waters
+  given-names: Charlie
+  website: http://www.noaa.gov/
+- affiliation: Russian Federal Fisheries Research Institute for Fisheries and Oceanography
+  email: anna.vazhova@gmail.com
+  family-names: Vazhova
+  given-names: Anna
+- address: Suite 502, 889 West Pender Street, V6C 3B2, British Columbia
+  affiliation: North Pacific Anadromous Fish Commission
+  city: Vancouver
+  country: CA
+  email: vlrad@npafc.org
+  family-names: Radchenko
+  given-names: Vladimir
+  website: https://npafc.org
+- affiliation: Pacific Salmon Foundation
+  city: Vancouver
+  country: CA
+  family-names: Riddel
+  given-names: Brian
+  website: https://www.psf.ca/
+- family-names: Beamish
+  given-names: Richard
+- affiliation: Russian Federal Fisheries Research Institute for Fisheries and Oceanography
+  email: gennadykantakov@gmail.com
+  family-names: Kantakov
+  given-names: Gennady
+- affiliation: Laboratory of Fisheries Oceanography, Department of Marine Biotechnology,
+    Gangneung-Wonju National University
+  email: sesely@naver.com
+  family-names: Kun Jung
+  given-names: Hae
+- affiliation: Russian Federal Fisheries Research Institute for Fisheries and Oceanography
+  family-names: Shurpa
+  given-names: Igor
+- affiliation: Russian Federal Fisheries Research Institute for Fisheries and Oceanography
+  family-names: Ivanov
+  given-names: Arkadii
+- affiliation: Fisheries and Oceans Canada
+  city: Ottawa
+  country: CA
+  email: Rebecca.Laforge@dfo-mpo.gc.ca
+  family-names: LaForge
+  given-names: Rebecca
+  website: https://www.dfo-mpo.gc.ca
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  email: nmahara@eoas.ubc.ca
+  family-names: Mahara
+  given-names: Natalie
+  website: https://www.ubc.ca/
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  family-names: Lerner
+  given-names: Jacob
+  website: https://www.ubc.ca/
+- affiliation: National Oceanic and Atmospheric Administration
+  city: Washington
+  country: US
+  email: Andrew.Dimond@noaa.gov
+  family-names: Dimond
+  given-names: Andrew
+  website: http://www.noaa.gov/
+- affiliation: Pacific Branch of the Russian Federal Research Institute of Fisheries
+    and Oceanography
+  family-names: Chulchekov
+  given-names: Denis
+- affiliation: Alaska Department of Fish and Game
+  city: Juneau
+  country: US
+  email: katherine.howard@alaska.gov
+  family-names: Howard
+  given-names: Katherine
+  website: http://www.adfg.alaska.gov/
+- affiliation: Alaska Department of Fish and Game
+  city: Juneau
+  country: US
+  email: sabrina.garcia@alaska.gov
+  family-names: Garcia
+  given-names: Sabrina
+  website: http://www.adfg.alaska.gov/
+- affiliation: National Oceanic and Atmospheric Administration
+  city: Washington
+  country: US
+  family-names: Moss
+  given-names: Jamal
+  website: http://www.noaa.gov/
+- address: Suite 502, 889 West Pender Street, V6C 3B2, British Columbia
+  affiliation: North Pacific Anadromous Fish Commission
+  city: Vancouver
+  country: CA
+  email: msaunders@yearofthesalmon.org
+  family-names: Saunders
+  given-names: Mark
+  website: https://npafc.org
+cff-version: 1.2.0
+date-released: '2024-06-05'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 89c1b0c1-b358-4c0f-9fa9-467566c2ae69
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_89c1b0c1-b358-4c0f-9fa9-467566c2ae69
+- description: DOI
+  type: doi
+  value: 10.21966/81jn-6p63
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-N6JR9cDmD79RJVFDUqt
+- description: 'Integrated IYS Data Collection (Internal access only, sign into GitHub
+    before clicking): Collection of IYS datasets integrated into one excel workbook
+    including all trawl data'
+  type: url
+  value: https://github.com/international-year-of-the-salmon/IYS-Integrated-Data-Collection/archive/refs/tags/v4.zip
+- description: 'Trawl Data from the R/V Bell M. Shimada during the 2022 International
+    Year of the Salmon Pan-Pacific Winter High Seas Expedition: Is a component part
+    of the Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/nt8w-je90
+- description: 'Trawl Catch data from the 2019 Gulf of Alaska International Year of
+    the Salmon Expedition: Is a component part of the Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/DPHZ-AS73
+- description: 'Trawl data from the 2020 Gulf of Alaska International Year of the
+    Salmon Expedition: Is a component part of the Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/4J6T-GB64
+- description: 'Trawl Data from the R/V TINRO during the 2022 International Year of
+    the Salmon Pan-Pacific Winter High Seas Expedition: Is a component part of the
+    Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/wevm-ww19
+- description: 'Trawl Data from the FV Northwest Explorer during the 2022 International
+    Year of the Salmon Pan-Pacific Winter High Seas Expedition: Is a component part
+    of the Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/shnm-s480
+- description: 'CTD Data from the 2019 Gulf of Alaska International Year of the Salmon
+    Expedition: Is a component part of the Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/66gj-7q46
+- description: 'Particulate Organic Matter (POM) data from the 2019 Gulf of Alaska
+    International Year of the Salmon Expedition: Is a component part of the Integrated
+    Collection'
+  type: url
+  value: https://doi.org/10.21966/h1f2-0377
+- description: 'Nutrient and Oxygen Data from the 2019 Gulf of Alaska International
+    Year of the Salmon Expedition: Is a component part of the Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/10vm-qn28
+- description: 'Chlorophyll a and Phaeopigment Concentrations from the 2019 Gulf of
+    Alaska International Year of the Salmon Expedition: Is a component part of the
+    Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/yxzb-a531
+- description: 'Conductivity, Temperature, and Depth (CTD) Data from the 2020 Gulf
+    of Alaska International Year of the Salmon Expedition: Is a component part of
+    the Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/nkc2-9m58
+- description: 'Nutrient Data from the 2020 Gulf of Alaska International Year of the
+    Salmon Expedition: Is a component part of the Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/cvps-x440
+- description: 'CTD (Conductivity, Temperature, Depth) Data from the R/V TINRO during
+    the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition:
+    Is a component part of the Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/rfv4-e505
+- description: 'Nutrient and Oxygen Chemistry Data from the R/V TINRO during the 2022
+    International Year of the Salmon Pan-Pacific Winter High Seas Expedition: Is a
+    component part of the Integrated Collection'
+  type: url
+  value: https://doi.org/10.21966/yjfr-cn26
+keywords:
+- climate change
+- oceanography
+- fisheries
+- fishAbundanceAndDistribution
+- resource management
+- marineTurtlesBirdsMammalsAbundanceAndDistribution
+- salmom
+- invertebrateAbundanceAndDistribution
+- subSurfaceSalinity
+- oceanographic missions
+- nutrients
+- oxygen
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Integrated Data Collection from the International Year of the Salmon High Seas
+  Expeditions
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_89c1b0c1-b358-4c0f-9fa9-467566c2ae69
+version: '4'

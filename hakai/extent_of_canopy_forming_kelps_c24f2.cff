@@ -1,0 +1,108 @@
+abstract: "This dataset represents the extent of canopy-forming kelp (Nereocystis\
+  \ luetkeana and Macrocytis pyrifera) present at the ocean surface (hereafter referred\
+  \ to as surface canopy-forming kelp) for the year and season the imagery was collected.\
+  \ Canopy-forming kelp (Order Laminariales) are found along the coast of British\
+  \ Columbia. Two species, bull kelp (Nereocystis luetkeana) and giant kelp (Macrocystis\
+  \ pyrifera) are the most common species and are ecologically and biologically important\
+  \ components of nearshore ecosystems. Mapping their distribution is important for\
+  \ understanding the state and health of coastal areas. \n\nThe WorldView-2 satellite\
+  \ was tasked by the Hakai Institute and imagery collected in the summer of 2014\
+  \ for the Goose group, McMullin group, Calvert Island, and Stirling Island region.\
+  \ Additional WorldView-2 imagery was acquired via a DigitalGlobe Foundation Grant\
+  \ for the South Calvert region, Simonds Group, Admiral and Tribal Groups region,\
+  \ Spider Island and Cultus Sound region. Imagery from the Stryker Island and Athlone\
+  \ Island region was provided through a collaboration of the Department of Fisheries\
+  \ and Oceans Canada and the Hakai Institute. \n\nPrior to classification, each image\
+  \ region was corrected for atmospheric effects and land areas were masked. A supervised\
+  \ classification (maximum liklihood algorithm) was conducted to classify pixels\
+  \ which represent surface canopy-forming kelp. The results were imported into ArcGIS\
+  \ (10.5.1) and manually edited to remove pixel regions that were misclassified as\
+  \ kelp.\n\nThe majority of the imagery was collected August 13th, 2014. The image\
+  \ scene centered around the Stryker Island and Athlone Island region was collected\
+  \ July 22nd, 2012. The image scene centered around the South Calvert region was\
+  \ collected June 4th, 2015. \n\nContributors: Luba Reshitnyk and Wiebe Nijland\n\
+  \nCite as: Canopy-forming kelps extent derived from WorldView-2 imagery, Central\
+  \ Coast, British Columbia, Canada. Version 1.0. Hakai Institute. Dataset. [access\
+  \ date].)"
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Hakai Institute Geospatial
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: c24f23f0-8d16-4bfd-835a-5475f1ecd8e8
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_c24f23f0-8d16-4bfd-835a-5475f1ecd8e8
+- description: DOI
+  type: doi
+  value: 10.21966/5fs0-nn02
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVE2ZkIxMnhEdmF6Rkw
+- description: 'Hakai''s ArcGIS Online Platform (restricted access): Kelp Extent Data
+    - Hakai''s AGOL Instance is the platform for access and online use of this dataset''s
+    reference layer'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=cac9b44abdeb45e8b1e9ca0ce1505822
+- description: 'Hakai Institute online web map application (Public): Public web map
+    showing the imagery footprints and kelp extent polygons'
+  type: url
+  value: http://arcg.is/0rqTmL
+- description: 'Download the data from the Hakai Institute: Hakai Institute google
+    drive - raw data and metadata readme file'
+  type: url
+  value: https://drive.google.com/file/d/1rhLLlelYRUEpqfNXqW2oqiDhMr1Qnzhe/view?usp=sharing
+keywords:
+- marine habitat
+- remote sensing
+- central coast
+- British Columbia
+- satellite
+- hakai institute
+- worldview 2
+- other
+- nearshore ecology
+- downloadable data
+- kelp
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Extent of Canopy-Forming Kelps, Derived from World View-2, Central Coast, Central
+  Coast, British Columbia
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_c24f23f0-8d16-4bfd-835a-5475f1ecd8e8
+version: '1.0'

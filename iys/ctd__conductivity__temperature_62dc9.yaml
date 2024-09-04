@@ -1,0 +1,135 @@
+contact:
+- inCitation: true
+  individual:
+    email: kirill.kivva@gmail.com
+    name: Kivva, Kirill
+  organization:
+    name: Russian Federal Research Institute of Fisheries and Oceanography
+  roles:
+  - owner
+  - author
+- inCitation: true
+  individual:
+    name: Chulchekov, Denis
+  organization:
+    email: chulchekov@gmail.com
+    name: Pacific Branch of the Russian Federal Research Institute of Fisheries and
+      Oceanography
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: aleksey.somov@tinro-center.ru
+    name: Somov, Aleksey
+  organization:
+    name: Russian Federal Research Institute of Fisheries and Oceanography
+  roles:
+  - custodian
+  - author
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Original data, standardized data, and supplemental materials.
+    fr: Données originales, données normalisées et matériaux supplémentaires.
+  name:
+    en: Original Data and Supplemental Materials
+  url: https://github.com/international-year-of-the-salmon/2022-TINRO-CTD/archive/refs/heads/main.zip
+- description:
+    en: These data have been standardized to Climate Forecast conventions and are
+      available in many file formats
+    fr: Ces données ont été normalisées selon les conventions de prévision climatique
+      et sont disponibles dans de nombreux formats de fichiers.
+  name:
+    en: Standardized Data on ERDDAP
+  url: https://data.cioospacific.ca/erddap/tabledap/IYS_2022_TINRO_CTD.html
+identification:
+  abstract:
+    en: CTD Data collected as part of the 2022 International Year of the Salmon Pan-Pacific
+      High Seas Expedition. CTD casts were conducted at each trawl station to a depth
+      of 1000m using a Seabird 911 CTD.
+    fr: Données CTD recueillies dans le cadre de l'expédition panpacifique en haute
+      mer 2022 de l'Année internationale du saumon. Des lancers de CTD ont été effectués
+      à chaque station de chalut jusqu'à une profondeur de 1 000 m à l'aide d'un CTD
+      Seabird 911.
+  associated_resources: []
+  dates:
+    creation: '2022-03-02'
+    publication: '2022-05-27'
+  identifier: https://doi.org/10.21966/rfv4-e505
+  keywords:
+    default:
+      en:
+      - North Pacific
+      - CTD
+      - Conductivity
+      - Temperature
+      - Density
+      - Fisheries
+      - oceanography
+    eov:
+      en:
+      - subSurfaceSalinity
+      - subSurfaceTemperature
+      fr:
+      - Salinité sous la surface
+      - Température sous la surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-03-02T20:00:00.000Z'
+  temporal_end: '2022-03-20T19:00:00.000Z'
+  title:
+    en: CTD (Conductivity, Temperature, Depth) Data from the R/V TINRO during the
+      2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition
+    fr: Données CTD (conductivité, température, profondeur) du navire TINRO et de
+      l'expédition de l'Année internationale du saumon 2022
+instruments:
+- id: Seabird 911
+  manufacturer: Seabird
+  type:
+    en: CTD
+    fr: CTD
+  version: '911'
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T17:19:38.358Z'
+  identifier: 62dc9c32-db61-40de-b5bb-8daf0307b1c5
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-N35UU9m4b45_J6qefGI
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  polygon: 187.63391,48.62896 187.63785,48.62513 191.4717,45.4917 191.48349,45.48726
+    191.5383,45.4683 192.8312,45.3843 201.66,47.4916 204.3435,48.8195 203.9733,51.905
+    196.96787,50.55782 187.63391,48.62896
+  vertical:
+  - 0.0
+  - 102.0
+  vertical_positive: heightPositive

@@ -1,0 +1,139 @@
+contact:
+- inCitation: false
+  organization:
+    address: PO Box 25039 British Columbia, V9W 0B7
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    address: Suite 502, 889 West Pender Street, V6C 3B2, British Columbia
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    email: jeanette.gann@noaa.gov
+    name: Gann, Jeanette
+    orcid: https://orcid.org/0000-0001-5631-5069
+    position: Oceanographer
+  organization:
+    city: Washington
+    country: United States
+    name: National Oceanic and Atmospheric Administration
+    ror: https://ror.org/02z5nhe81
+    url: http://www.noaa.gov/
+  roles:
+  - custodian
+  - owner
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: lisa.eisner@noaa.gov
+    name: Eisner, Lisa
+    orcid: https://orcid.org/0000-0001-6701-9660
+    position: Research Oceanographer
+  organization:
+    city: Seattle
+    country: United States
+    name: Alaska Fisheries Science Center
+    ror: https://ror.org/01h7fye62
+    url: https://www.fisheries.noaa.gov/about/alaska-fisheries-science-center
+  roles:
+  - author
+distribution:
+- name:
+    en: Original Data and Supplemental Materials
+    fr: Données originales et documents supplémentaires
+  url: https://github.com/international-year-of-the-salmon/2022-shimada-chlorophyll/archive/refs/heads/main.zip
+identification:
+  abstract:
+    en: Water samples for chlorophyll-a were collected at 5, 25,50, 75, 100, and 150
+      m during both 500 m and 1000 m CTD casts.  For each depth, 100-250 ml of water
+      was filtered through a 25 mm GF/F filter.  The filter was placed in a cryovial
+      and stored in the ship’s the -80°C freezer.  Samples were analyzed by extraction
+      in 90% acetone for 12-24 hours, centrifuged, and read with a TD-700 benchtop
+      fluorometer using methods from Parsons et al., 1984. These data were collected
+      as part of the 2022 International Year of the Salmon Pan-Pacific Winter High
+      Seas Expedition conducted from January-April 2022 utilizing 5 different research/fishing
+      vessels. The objective of this expedition was to demonstrate the utility of
+      an international pan-Pacific winter ecosystem survey to understand how increasingly
+      extreme climate variability in the North Pacific Ocean and the associated changes
+      in the physical environment influence the abundance, distribution, migration,
+      and growth of Pacific salmon and surrounding species.
+    fr: Des échantillons d'eau pour la chlorophylle-a ont été prélevés à 5, 25,50,
+      75, 100 et 150 m au cours de moulages CTD de 500 m et de 1 000 m. Pour chaque
+      profondeur, 100 à 250 ml d'eau ont été filtrés à travers un filtre GF/F de 25
+      mm. Le filtre a été placé dans un cryovial et conservé dans le congélateur à
+      -80 °C du navire. Ces données ont été collectées dans le cadre de l'expédition
+      hivernale en haute mer panpacifique de l'Année internationale du saumon 2022,
+      menée de janvier à avril 2022 à l'aide de 5 navires de recherche/pêche différents.
+      L'objectif de cette expédition était de démontrer l'utilité d'une étude internationale
+      des écosystèmes hivernaux panocéaniens afin de comprendre comment la variabilité
+      climatique de plus en plus extrême dans l'océan Pacifique Nord et les changements
+      connexes de l'environnement physique influent sur l'abondance, la distribution,
+      la migration et la croissance du saumon du Pacifique et des espèces environnantes.
+  associated_resources: []
+  dates:
+    creation: '2022-02-05'
+    publication: '2023-02-07'
+  identifier: https://doi.org/10.21966/5ere-8p10
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - chlorophyll a
+      fr:
+      - Année internationale du saumon
+      - chlorophylle a
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-02-05T20:00:00.000Z'
+  temporal_end: '2022-03-04T20:00:00.000Z'
+  title:
+    en: Chlorophyll a Data from the R/V Bell M. Shimada During the 2022 International
+      Year of the Salmon Pan-Pacific Winter High Seas Expedition
+    fr: Données sur la chlorophylle a provenant du R/V Bell M. Shimada lors de l'expédition
+      hivernale en haute mer 2022, Année internationale du saumon
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T17:31:56.803Z'
+  identifier: ef3687c3-cc6a-44f2-b384-26068512ca5e
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-NNiIm4oxo51z-KZJ794
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  polygon: -146.9366,57.9954 -150.9696,56.9355 -151.5045,55.9524 -151.5395,49.9829
+    -151.549,47.9847 -151.4737,47.007 -146.9841,46.0242 -135.0195,45.0185 -126.2413,47.791
+    -146.9366,57.9954
+  vertical:
+  - 5.0
+  - 150.0
+  vertical_positive: heightPositive

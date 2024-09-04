@@ -1,0 +1,172 @@
+contact:
+- inCitation: true
+  individual:
+    email: Brandon.chasco@noaa.gov
+    name: Chasco, Brandon
+  organization:
+    address: 2032 SE OSU Drive
+    city: Washington
+    country: United States
+    name: National Oceanic and Atmospheric Administration
+    ror: https://ror.org/02z5nhe81
+    url: http://www.noaa.gov/
+  roles:
+  - principalInvestigator
+  - custodian
+  - owner
+- inCitation: true
+  individual:
+    email: jhorne@uw.edu
+    name: Horne, John
+  organization:
+    city: Seattle
+    country: United States
+    name: University of Washington
+    ror: https://ror.org/00cvxb145
+    url: http://www.washington.edu/
+  roles:
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: ed.farley@noaa.gov
+    name: Farley, Ed
+    position: Program Manager - Ecosystem Monitoring and Assessment
+  organization:
+    address: 17101 Point Lena Loop Rd
+    city: Washington
+    country: United States
+    name: National Oceanic and Atmospheric Administration
+    ror: https://ror.org/02z5nhe81
+    url: http://www.noaa.gov/
+  roles:
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: sldanielson@alaska.edu
+    name: Danielson, Seth
+    position: Associate Professor
+  organization:
+    city: Fairbanks
+    country: United States
+    name: University of Alaska Fairbanks
+    ror: https://ror.org/01j7nq853
+    url: http://www.uaf.edu/
+  roles:
+  - principalInvestigator
+- inCitation: false
+  organization:
+    address: Hakai Institute PO Box 25039
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Published on NOAA's Water Column Sonar Data repository
+    fr: Contactez iys@hakai.org pour demander l'accès à ces données jusqu'à leur publication
+      sur le référentiel de données des sonars à colonne d'eau de la NOAA
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Data Archive
+    fr: Les données seront bientôt disponibles
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://doi.org/10.25921/e21e-vg45
+identification:
+  abstract:
+    en: Acoustic water column sonar data was measured during the 2022 International
+      Year of the Salmon High Seas Expedition aboard the R/V Bell M. Shimada from
+      February 4 to March 7, 2022. The expedition included 5 vessels which surveyed
+      most of the NE Pacific Ocean to better understand the mechanisms driving salmon
+      distribution and production in the high seas. An EK80 echo sounder was used
+      operating at 18, 38, 70, 120 and 200 kHz.
+    fr: Les données du sonar acoustique de la colonne d'eau ont été mesurées lors
+      de l'expédition en haute mer de 2022, dans le cadre de l'Année internationale
+      du saumon, à bord du R/V Bell M. Shimada du 4 février au 7 mars 2022. L'expédition
+      comprenait 5 navires qui ont inspecté la majeure partie du nord-est de l'océan
+      Pacifique afin de mieux comprendre les mécanismes qui régissent la distribution
+      et la production du saumon en haute mer. Un échosondeur EK80 a été utilisé à
+      18, 38, 70, 120 et 200 kHz.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2022-02-04'
+    publication: '2022-10-27'
+  identifier: https://doi.org/10.25921/e21e-vg45
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - acoustic
+      - backscatter
+      - North Pacific Ocean
+    eov:
+      en:
+      - fishAbundanceAndDistribution
+      fr:
+      - Abondance et distribution de poissons
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-02-04T20:00:00.000Z'
+  temporal_end: '2022-03-07T20:00:00.000Z'
+  title:
+    en: Acoustic Water Column Sonar Data Data from the R/V Bell M. Shimada During
+      the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition
+    fr: Données du sonar acoustique de colonne d'eau provenant du R/V Bell M. Shimada
+      lors de l'expédition hivernale en haute mer de 2022, Année internationale du
+      saumon dans le Pacifique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2023-09-11'
+    revision: '2024-03-20T19:21:13.926Z'
+  identifier: 74d119f1-cd7b-4f99-a94b-5d3b3ca3b7d5
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NAl0t737aEJG000O3cv
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  polygon: -146.9366,57.9954 -150.9696,56.9355 -151.5045,55.9524 -151.5395,49.9829
+    -151.549,47.9847 -151.4737,47.007 -146.9841,46.0242 -135.0195,45.0185 -126.2413,47.791
+    -146.9366,57.9954
+  vertical:
+  - 10.0
+  - 300.0
+  vertical_positive: heightPositive

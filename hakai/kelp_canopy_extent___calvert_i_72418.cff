@@ -1,0 +1,132 @@
+abstract: "Kelp extent has been manually digitized in ARC GIS using air photos / UAV\
+  \ imagery. Vector polygons delineate the boundaries of the kelp canopy at the surface\
+  \ of the water. All imagery is sourced from late July to August to reflect peak\
+  \ kelp extent for the season. Image resolution used to digitize the kelp canopy\
+  \ ranges from 25 cm - 10 cm. Attribute information recorded: kelp species, kelp\
+  \ bed size (square meters), kelp species latin name, kelp density, result confidence,\
+  \ and credit. For a full breakdown of attribute information see lower in the abstract.\
+  \ For 2012 and 2014 an additional metric was calculated to indicate the actual density\
+  \ of the kelp bed. A percentage of coverage was developed to determine the true\
+  \ density of kelp in each bed.\n\nDates: 2006, 2012, 2014, 2015, & 2016. \n\nAerial\
+  \ Survey Area\nThe survey for annual kelp bed mapping extends south from Starfish\
+  \ Island in Choked Pass to 7th Beach. Northernmost latitude: 51.6819 Southern Most\
+  \ latitude: 51.6363.\n\nKelp Percent Cover and Density (optional for further analysis)\
+  \ - currently used for 2012 + 2014 data:\nThe aforementioned methods provide a dataset\
+  \ to examine changes in the spatial extent of canopy kelps. The following methods\
+  \ can be applied to obtain estimates of standing stock biomass and are based upon\
+  \ the Provincial Kelp Inventory Methodology KIM-1 (Foreman 1975, Sutherland et al.\
+  \ 2007). We are currently in the process of applying these methods to the Hakai\
+  \ Calvert Island kelp imagery, but work is still underway and methods are not finalized.\n\
+  \nKelp density / species / and extent are recorded.\n\nAll digitizing occurred using\
+  \ Arc GIS. SFU volunteer crew (Amanda Schrack and Sebastian Mather) along with principal\
+  \ investigators Jenn Burt and Keith Holmes.\n\nMethods based on KIM 1 methodology\
+  \ as described in Sutherland 2007 report: http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf\n\
+  \nAreas covered: West Beach \u2013 7th beach to West Beach + Choked Passage \u2013\
+  \ Surf Pass and North Beach to Wolf Beach North to Hakai Land and Sea Beach.\n\n\
+  Attributes:\n\nSpecies - \"Macro\" / \"Nereo\" / Mixed detailing the two possible\
+  \ kelp canopy species. Macro refers to macrocystis pyrifera or giant kelp. Nereo\
+  \ refers to nereocystis luetkeana or bull kelp. Mixed is a homogenous mix of both\
+  \ Macro and Nereo species. Defined by GIS techs - identified by \"credit\" field.\
+  \ \nDensity - density of kelp defined as either high or low. Based on the Sutherland\
+  \ methodology for kelp density. High = high density / based on mean kelp plants\
+  \ found per square meter. Low = low density - still a continuous bed of kelp with\
+  \ large gaps the length of each fond.\nPercent cover\n\nDataset created by Jenn\
+  \ Burt and Keith Holmes. Simon Fraser University Volunteers: Amanda Schrack and\
+  \ Sebastian Mather, and Andrea Chee.\nContact: data@hakai.org"
+authors:
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Holmes
+  given-names: Keith
+  website: https://www.hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: jenn.burt@gmail.com
+  family-names: Burt
+  given-names: Jenn
+  website: https://www.hakai.org
+- country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Technology Team
+  given-names: Geospatial
+  website: https://www.hakai.org
+cff-version: 1.2.0
+contact:
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Holmes
+  given-names: Keith
+  website: https://www.hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: jenn.burt@gmail.com
+  family-names: Burt
+  given-names: Jenn
+  website: https://www.hakai.org
+- address: 1002 Wharf Street
+  affiliation: Hakai Institute
+  city: Victoria
+  country: CA
+  email: data@hakai.org
+  family-names: Technology Team
+  given-names: Geospatial
+  website: https://www.hakai.org
+date-released: '2024-07-24'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 7241811a-f75c-469f-baa2-ad769d6c75cd
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_7241811a-f75c-469f-baa2-ad769d6c75cd
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVc0eExvQ2RKU3hPcFQ
+- description: 'Hakai Google Drive: Metadata report readme for kelp canopy extent
+    2006 to 2016'
+  type: url
+  value: https://drive.google.com/file/d/1yjlOHSH3btAdM1QIGpBbjSxVKwG142jH/view?usp=sharing
+- description: 'Hakai''s ArcGIS Online Platform (restricted access): Hakai''s AGOL
+    Instance is the platform for Access and online use of this dataset/''s reference
+    layer'
+  type: url
+  value: http://hakai.maps.arcgis.com/home/item.html?id=ae792e585c524440924f24bf4f2d245d
+keywords:
+- '2006'
+- '2012'
+- west beach
+- macrocystis
+- choked passage
+- nereocystis
+- canopy
+- '2014'
+- calvert
+- '2015'
+- extent
+- algae
+- UAV
+- other
+- '2016'
+- kelp
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Kelp Canopy Extent - Calvert Island - 2006-2016 - British Columbia - Canada
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_7241811a-f75c-469f-baa2-ad769d6c75cd

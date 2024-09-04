@@ -1,0 +1,76 @@
+abstract: This data set contains the at sea data collected aboard the F/V Northwest
+  Explorer for the IYS survey in 2022 in the northwestern Gulf of Alaska. This data
+  package contains three separate components; event, catch, and specimen. The event
+  data contains all of the sampling event information, including time, location, and
+  duration. All dates and times are in UTC, and all length measurements are in meters.
+  The catch data contains all of the catch records, as counts and weights, for each
+  species/taxa at each station. The sampling method for every catch weight should
+  be total weight, and all weights are in kilograms. The specimen data contains individual
+  lengths and weights for sampled individuals from each station. Specimen lengths
+  are in centimeters and specimen weights are in kilograms. To join event information
+  to catch or specimen information, join on the station event id field. To join catch
+  and specimen data, join on the catch id field.
+authors:
+- address: 17109 Point Lena Loop Rd
+  affiliation: National Oceanic and Atmospheric Administration
+  city: Washington
+  country: US
+  email: jim.murphy@noaa.gov
+  family-names: Murphy
+  given-names: Jim
+  website: http://www.noaa.gov/
+- address: 17101 Point Lena Loop Rd
+  affiliation: National Oceanic and Atmospheric Administration
+  city: Washington
+  country: US
+  email: Andrew.Dimond@noaa.gov
+  family-names: Dimond
+  given-names: Andrew
+  website: http://www.noaa.gov/
+- city: Vancouver
+  country: CA
+  email: secretariat@npafc.org
+  name: North Pacific Anadromous Fish Commission
+  website: https://npafc.org
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+date-released: '2023-09-15'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 2f9c1e93-0e66-45aa-8178-2299e32e837a
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_2f9c1e93-0e66-45aa-8178-2299e32e837a
+- description: DOI
+  type: doi
+  value: 10.21966/shnm-s480
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/jnK2pbrIzbMBHpSiUOi8XDUeev93/-N4dPzuybwN8VKXNvRDe
+- description: 'Original Data and Supplemental Materials: Trawl, specimen and event
+    data from the FV Northwest Explorer during the 2022 IYS Pan-Pacific Winter High
+    Seas Expedition'
+  type: url
+  value: https://github.com/international-year-of-the-salmon/2022-NW-Trawl/archive/refs/heads/main.zip
+- description: 'F/V Northwest Explorer trawl and specimen data on OBIS: F/V Northwest
+    Explorer trawl and specimen data standardized to Darwin Core and published to
+    OBIS.'
+  type: url
+  value: https://ipt.iobis.org/obiscanada/resource?r=trawl-catch-and-specimen-data-from-the-2022-international-year-of-the-salmon-expedition
+keywords:
+- Specimen
+- fishAbundanceAndDistribution
+- Trawl
+- Northwestern Gulf of Alaska
+- International Year of the Salmon
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Trawl Data from the F/V Northwest Explorer during the 2022 International Year
+  of the Salmon Pan-Pacific Winter High Seas Expedition
+url: https://catalogue.hakai.org/dataset/ca-cioos_2f9c1e93-0e66-45aa-8178-2299e32e837a

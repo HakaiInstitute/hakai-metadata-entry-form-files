@@ -1,0 +1,141 @@
+contact:
+- inCitation: false
+  organization:
+    address: PO Box 25039 British Columbia, V9W 0B7
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    address: Suite 502, 889 West Pender Street, V6C 3B2, British Columbia
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    email: angelica.Pena@dfo-mpo.gc.ca
+    name: Pena, Angelica
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - owner
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: amy.tabata@dfo-mpo.gc.ca
+    name: Tabata, Amy
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - author
+  - custodian
+  - processor
+distribution:
+- description:
+    en: Includes the original data for provenance, as well as the data in the IYS
+      Data Template Format
+    fr: Inclut les données d'origine pour la provenance, ainsi que les données au
+      format de modèle de données IYS
+  name:
+    en: Original Data and Supplemental Materials
+    fr: Données originales et documents supplémentaires
+  url: https://github.com/international-year-of-the-salmon/2022-Franklin-CTD-Rosette/archive/refs/heads/main.zip
+identification:
+  abstract:
+    en: These data were collected as part of the 2022 International Year of the Salmon
+      Pan-Pacific Winter High Seas Expedition aboard the Canadian Coast Guard Ship
+      Sir John Franklin conducted in January-April 2022 utilizing 5 different research/fishing
+      vessels. The objective of this expedition was to demonstrate the utility of
+      an international pan-Pacific winter ecosystem survey to understand how increasingly
+      extreme climate variability in the North Pacific Ocean and the associated changes
+      in the physical environment influence the abundance, distribution, migration,
+      and growth of Pacific salmon and surrounding species. This dataset contains
+      the nutrients (nitrate, nitrite, phosphate, silicate), oxygen
+    fr: Ces données ont été recueillies dans le cadre de l'expédition panpacifique
+      hivernale en haute mer de l'Année internationale du saumon 2022 menée de janvier
+      à avril 2022 à l'aide de 5 navires de recherche/pêche différents. L'objectif
+      de cette expédition était de démontrer l'utilité d'une étude internationale
+      des écosystèmes hivernaux panocéaniens pour comprendre comment la variabilité
+      climatique de plus en plus extrême dans l'océan Pacifique Nord et les changements
+      connexes de l'environnement physique influencent l'abondance, la distribution,
+      la migration et la croissance du saumon du Pacifique et des espèces environnantes.
+  associated_resources: []
+  dates:
+    creation: '2022-02-22'
+    publication: '2022-09-27'
+  identifier: https://doi.org/10.21966/zecd-5k74
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - Bottle data
+      - rosette
+      - oceanography
+      fr:
+      - Année internationale du saumon
+    eov:
+      en:
+      - oxygen
+      - nutrients
+      - subSurfaceSalinity
+      - subSurfaceTemperature
+      fr:
+      - Oxygène
+      - Nutriments
+      - Salinité sous la surface
+      - Température sous la surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-02-22T20:00:00.000Z'
+  temporal_end: '2022-03-19T19:00:00.000Z'
+  title:
+    en: Nutrient and Oxygen Data from Rosette Bottles from the CCGS Sir John Franklin
+      from the 2022 International Year of the Salmon Pan-Pacific Winter High Seas
+      Expedition
+    fr: Données sur les nutriments et l'oxygène provenant de bouteilles à rosettes
+      du NGCC Sir John Franklin lors de l'expédition hivernale en haute mer de 2022
+      dans le cadre de l'Année internationale du saumon dans le Pacifique
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T17:26:33.989Z'
+  identifier: c31eef20-f248-4f5f-a84a-9ef37001bda3
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-ND0C1I8wgKtQuIlSjyh
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  polygon: 219.069217,56.935733 216.162284,57.008466 215.98515,55.975133 215.92355,55.043683
+    215.976817,46.942683 215.989217,46.088933 225.009084,47.055133 227.88865,50.950383
+    225.12305,52.965466 219.069217,56.935733
+  vertical:
+  - 5.0
+  - 300.0
+  vertical_positive: heightPositive

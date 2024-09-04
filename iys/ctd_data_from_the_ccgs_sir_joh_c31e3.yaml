@@ -1,0 +1,151 @@
+contact:
+- inCitation: false
+  organization:
+    address: PO Box 25039 British Columbia, V9W 0B7
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    address: Suite 502, 889 West Pender Street, V6C 3B2, British Columbia
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    email: jklymak@uvic.ca
+    name: Klymak, Jody
+  organization:
+    city: Victoria
+    country: Canada
+    name: University of Victoria
+    ror: https://ror.org/04s5mat29
+    url: http://www.uvic.ca/
+  roles:
+  - custodian
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: Amy.Tabata@dfo-mpo.gc.ca
+    name: Tabata, Amy
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - processor
+  - author
+- inCitation: true
+  individual:
+    email: Tetjana.Ross@dfo-mpo.gc.ca
+    name: Ross, Tetjana
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - author
+  - principalInvestigator
+  - owner
+distribution:
+- description:
+    en: CTD and Rosette Bottle Data
+    fr: Données sur les bouteilles CTD et Rosette
+  name:
+    en: Original Data and Supplemental Materials
+    fr: Données originales et documents supplémentaires
+  url: https://github.com/international-year-of-the-salmon/2022-Franklin-CTD-Rosette/archive/refs/heads/main.zip
+identification:
+  abstract:
+    en: These conductivity, temperature, and depth data were collected as part of
+      the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition
+      conducted from January-April 2022 utilizing 5 different research/fishing vessels.
+      The objective of this expedition was to demonstrate the utility of an international
+      pan-Pacific winter ecosystem survey to understand how increasingly extreme climate
+      variability in the North Pacific Ocean and the associated changes in the physical
+      environment influence the abundance, distribution, migration, and growth of
+      Pacific salmon and surrounding species. This dataset includes salinity, fluorescence,
+      oxygen, and pH collected on a SBE-911plus CTD
+    fr: Ces données de conductivité, de température et de profondeur ont été collectées
+      dans le cadre de l'expédition hivernale en haute mer de l'Année internationale
+      du saumon 2022, menée de janvier à avril 2022 à l'aide de 5 navires de recherche/pêche
+      différents. L'objectif de cette expédition était de démontrer l'utilité d'une
+      étude internationale des écosystèmes hivernaux panocéaniens afin de comprendre
+      comment la variabilité climatique de plus en plus extrême dans l'océan Pacifique
+      Nord et les changements connexes de l'environnement physique influencent l'abondance,
+      la distribution, la migration et croissance du saumon du Pacifique et des espèces
+      environnantes. Ce jeu de données inclut la salinité, la fluorescence, l'oxygène
+      et le pH collectés sur un CTD SBE-911plus
+  associated_resources: []
+  dates:
+    creation: '2022-02-22'
+    publication: '2022-09-27'
+  identifier: https://doi.org/10.21966/4nv8-tm66
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - chlorophyll a
+      - dissolved oxygen
+      - CTD
+      fr:
+      - Année internationale du saumon
+      - chlorophylle a
+    eov:
+      en:
+      - oxygen
+      - subSurfaceSalinity
+      - subSurfaceTemperature
+      fr:
+      - Oxygène
+      - Salinité sous la surface
+      - Température sous la surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-02-22T20:00:00.000Z'
+  temporal_end: '2022-03-19T19:00:00.000Z'
+  title:
+    en: CTD data from the CCGS Sir John Franklin from the 2022 International Year
+      of the Salmon Pan-Pacific Winter High Seas Expedition
+    fr: Données CTD du NGCC Sir John Franklin provenant de l'expédition hivernale
+      en haute mer dans le Pacifique 2022, Année internationale du saumon
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T17:25:34.117Z'
+  identifier: c31e3f07-2ea0-47fe-86a5-b7993f6dc7a1
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-ND-MoSAQcLsgynyHLau
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  polygon: 219.069217,56.935733 216.162284,57.008466 215.98515,55.975133 215.92355,55.043683
+    215.976817,46.942683 215.989217,46.088933 225.009084,47.055133 227.88865,50.950383
+    225.12305,52.965466 219.069217,56.935733
+  vertical:
+  - 0.0
+  - 2042.9
+  vertical_positive: heightPositive

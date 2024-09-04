@@ -1,0 +1,144 @@
+contact:
+- inCitation: false
+  organization:
+    address: PO Box 25039 British Columbia, V9W 0B7
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    address: Suite 502, 889 West Pender Street, V6C 3B2, British Columbia
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    email: phyllis.stabeno@noaa.gov
+    name: Stabeno, Phyllis
+    orcid: https://orcid.org/0000-0003-3128-4934
+  organization:
+    city: Seattle
+    country: United States
+    name: Pacific Marine Environmental Laboratory
+    ror: https://ror.org/03crn0n59
+    url: http://www.pmel.noaa.gov/
+  roles:
+  - owner
+  - principalInvestigator
+  - author
+- inCitation: true
+  individual:
+    name: Sullivan, Peggy
+    orcid: https://orcid.org/0000-0001-9326-909X
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: shaun.bell@noaa.gov
+    name: Bell, Shaun
+    orcid: https://orcid.org/0000-0003-4908-3866
+    position: Physical Scientist
+  organization:
+    city: Washington
+    country: United States
+    name: National Oceanic and Atmospheric Administration
+    ror: https://ror.org/02z5nhe81
+    url: http://www.noaa.gov/
+  roles:
+  - custodian
+  - processor
+  - owner
+distribution:
+- name:
+    en: Original Data and Supplemental Materials
+    fr: Données originales et documents supplémentaires
+  url: https://github.com/international-year-of-the-salmon/2022-shimada-argos-drifters/archive/refs/heads/main.zip
+identification:
+  abstract:
+    en: Sea surface temperature and position are provided for two satellite tracked
+      Argos drifters that were deployed from the NOAAS Bell M. Shimada during the
+      2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition
+      conducted from January-April 2022 utilizing 5 different research/fishing vessels.
+      The objective of this expedition was to demonstrate the utility of an international
+      pan-Pacific winter ecosystem survey to understand how increasingly extreme climate
+      variability in the North Pacific Ocean and the associated changes in the physical
+      environment influence the abundance, distribution, migration, and growth of
+      Pacific salmon and surrounding species. This dataset includes sea surface temperature,
+      latitude, longitude and time of two 40m drogued satellite tracked drifters which
+      where released into the Alaskan Stream.
+    fr: La température et la position de la surface de la mer sont fournies pour deux
+      dériveurs Argos suivis par satellite qui ont été déployés depuis le NOAAS Bell
+      M. Shimada lors de l'expédition hivernale en haute mer panpacifique de l'Année
+      internationale du saumon 2022, menée de janvier à avril 2022 à l'aide de 5 navires
+      de recherche/pêche différents. L'objectif de cette expédition était de démontrer
+      l'utilité d'une étude internationale des écosystèmes hivernaux panocéaniens
+      afin de comprendre comment la variabilité climatique de plus en plus extrême
+      dans l'océan Pacifique Nord et les changements connexes de l'environnement physique
+      influent sur l'abondance, la distribution, la migration et la croissance du
+      saumon du Pacifique et des espèces environnantes. Cet ensemble de données inclut
+      la température à la surface de la mer, la latitude, la longitude et l'heure
+      de deux appareils dérivants de 40 m de long suivis par satellite qui ont été
+      rejetés dans l'Alaska Stream.
+  associated_resources: []
+  dates:
+    creation: '2022-02-05'
+    publication: '2023-02-08'
+  identifier: https://doi.org/10.21966/q3gz-x515
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - Sea surface temperature
+      - Alaskan Stream
+      - Argos Drifter
+      fr:
+      - Année internationale du saumon
+    eov:
+      en:
+      - seaSurfaceTemperature
+      fr:
+      - Température de surface
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-02-05T20:00:00.000Z'
+  temporal_end: '2022-03-04T20:00:00.000Z'
+  title:
+    en: Argos Satellite Tracked Drifters deployed from the R/V Bell M. Shimada During
+      the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition
+    fr: Déploiement de dispositifs dérivants suivis par satellite Argos depuis le
+      R/V Bell M. Shimada lors de l'expédition hivernale en haute mer de 2022, Année
+      internationale du saumon
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T17:32:45.171Z'
+  identifier: effed135-3c69-434c-8502-09ad3a2f96ac
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-NNmPCFSaO8KCo7r7OeT
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  polygon: 207.709,56.124 207.951,56.427 214.902,58.211 198.252,49.54 207.709,56.124
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: heightPositive

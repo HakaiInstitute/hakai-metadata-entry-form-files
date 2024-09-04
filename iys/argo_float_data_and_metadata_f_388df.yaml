@@ -1,0 +1,134 @@
+contact:
+- inCitation: true
+  individual:
+    email: support@argo.net
+    name: Argo
+  organization:
+    name: SEANOE
+    url: https://argo.ucsd.edu/
+  roles:
+  - custodian
+  - owner
+  - author
+  - distributor
+distribution:
+- description:
+    en: All of the Argo float data are available here. Be sure to use time and lat/long
+      constraints when requesting data
+    fr: Toutes les données des flotteurs Argo sont disponibles ici. Veillez à respecter
+      les contraintes de temps et de lat/long lorsque vous demandez des données
+  name:
+    en: Argo float data on ERDDAP
+  url: https://www.ifremer.fr/erddap/tabledap/ArgoFloats.html
+- name:
+    en: BGC-Argo synthetic file documentation
+  url: https://doi.org/10.13155/55637
+- name:
+    en: Argo documentation
+  url: http://www.argodatamgt.org/Documentation
+- name:
+    en: Argo user’s manual
+  url: http://dx.doi.org/10.13155/29825
+identification:
+  abstract:
+    en: Argo is a global array of 3,000 free-drifting profiling floats that measures
+      the temperature and salinity of the upper 2000 m of the ocean. This allows,
+      for the first time, continuous monitoring of the temperature, salinity, and
+      velocity of the upper ocean, with all data being relayed and made publicly available
+      within hours after collection. The array provides 100,000 temperature/salinity
+      profiles and velocity measurements per year distributed over the global oceans
+      at an average of 3-degree spacing. Some floats provide additional bio-geo parameters
+      such as oxygen or chlorophyll. All data collected by Argo floats are publically
+      available in near real-time via the Global Data Assembly Centers (GDACs) in
+      Brest (France) and Monterey (California) after an automated quality control
+      (QC), and in scientifically quality controlled form, delayed mode data, via
+      the GDACs within six months of collection.
+    fr: Argo est un réseau mondial de 3 000 flotteurs de profilage à dérive libre
+      qui mesure la température et la salinité des 2 000 m supérieurs de l'océan.
+      Cela permet, pour la première fois, une surveillance continue de la température,
+      de la salinité et de la vitesse du haut de l'océan, toutes les données étant
+      relayées et rendues publiques dans les heures qui suivent la collecte. Le réseau
+      fournit 100 000 profils de température/salinité et des mesures de vitesse par
+      an répartis sur les océans du monde à un espacement moyen de 3 degrés. Certains
+      flotteurs fournissent des paramètres bio-géo supplémentaires tels que l'oxygène
+      ou la chlorophylle. Toutes les données collectées par les flotteurs Argo sont
+      accessibles au public en temps quasi réel via les Global Data Assembly Centers
+      (GDAC) à Brest (France) et Monterey (Californie) après un contrôle qualité automatisé
+      (CQ), et sous forme scientifiquement contrôlée de qualité, données en mode différé,
+      via les GDAC dans les six mois suivant collection.
+  associated_resources: []
+  dates:
+    creation: '1997-07-28'
+    publication: '2022-06-16'
+  identifier: https://doi.org/10.17882/42182
+  keywords:
+    default:
+      en:
+      - float
+      - Argo
+      - global ocean observing system
+      - ocean circulation
+      - pressure
+      - salinity
+    eov:
+      en:
+      - oxygen
+      - subSurfaceSalinity
+      - subSurfaceTemperature
+      - subSurfaceCurrents
+      fr:
+      - Oxygène
+      - Salinité sous la surface
+      - Température sous la surface
+      - Courants sous-marins
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  status: published
+  temporal_begin: '1997-07-28T19:00:00.000Z'
+  title:
+    en: Argo Float Data and Metadata from Global Data Assembly Centre (Argo GDAC)
+    fr: Données flottantes Argo et métadonnées du Global Data Assembly Center (Argo
+      GDAC)
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T17:56:31.831Z'
+  identifier: 388df44d-ccee-4209-afba-e62fa5be3a68
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-N4ikPcUYfX9ej0Av-79
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: A user of Argo data is expected to read and understand this manual and the
+        documentation about the data contained in the "attributes" of the NetCDF data
+        files, as these contain essential information about data quality and accuracy.
+        A user should acknowledge use of Argo data in all publications and products
+        where such data are used, preferably with the DOI and following standard sentence:"These
+        data were collected and made freely available by the international Argo project
+        and the national programs that contribute to it."
+      fr: 'L''utilisateur des données Argo est censé lire et comprendre ce manuel
+        et la documentation concernant les données contenues dans les « attributs »
+        des fichiers de données netCDF, car ceux-ci contiennent des informations essentielles
+        sur la qualité et la précision des données. L''utilisateur doit reconnaître
+        l''utilisation des données Argo dans toutes les publications et tous les produits
+        où de telles données sont utilisées, de préférence avec le DOI et la phrase
+        type suivante : « Ces données ont été collectées et mises à disposition gratuitement
+        par le projet international Argo et les programmes nationaux qui y contribuent. »'
+platform: []
+spatial:
+  bbox:
+  - -190.0
+  - -90.0
+  - 190.0
+  - 90.0
+  vertical:
+  - 0.0
+  - 2000.0
+  vertical_positive: heightPositive

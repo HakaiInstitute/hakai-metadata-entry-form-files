@@ -1,0 +1,157 @@
+contact:
+- inCitation: false
+  organization:
+    address: PO Box 25039 British Columbia, V9W 0B7
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    address: Suite 502, 889 West Pender Street, V6C 3B2, British Columbia
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    email: nmahara@eoas.ubc.ca
+    name: Mahara, Natalie
+  organization:
+    address: 2329 West Mall, V6T 1Z4
+    city: Vancouver
+    country: Canada
+    email: info@oceans.ubc.ca
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - custodian
+  - owner
+- inCitation: true
+  individual:
+    name: Lerner, Jacob
+    position: PhD Candidate
+  organization:
+    address: AERL, 2202 Main Mall
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: b.hunt@oceans.ubc.ca
+    name: Hunt, Brian
+    position: Professor
+  organization:
+    address: 2329 West Mall, V6T 1Z4
+    city: Vancouver
+    country: Canada
+    email: info@oceans.ubc.ca
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - owner
+  - principalInvestigator
+  - custodian
+distribution:
+- name:
+    en: Standardized CTD Data on ERDDAP
+  url: https://data.cioospacific.ca/erddap/tabledap/IYS_2020_CTD.html
+- name:
+    en: Original CTD Data and Supplementary Materials
+  url: https://github.com/international-year-of-the-salmon/2020-CTD/archive/refs/heads/master.zip
+identification:
+  abstract:
+    en: CTD (conductivity, temperature, density) data collected in the Northeast Pacific
+      Ocean during the Gulf of Alaska (GoA) expedition in 2020 using a SeaBird 19
+      CTD equipped with fluorescence and oxygen sensors was deployed to 300 m depth
+      at 1 m s-1. Data were processed onboard and binned into 1 m depth intervals.
+      These data were collected as part of the International Year of the Salmon (IYS)
+      Gulf of Alaska High Seas Expedition conducted in March to April 2020, to further
+      improve the understanding of factors impacting salmon early marine winter survival.
+    fr: Résumé nécessaire du fournisseur de données
+  associated_resources: []
+  dates:
+    creation: '2020-03-12'
+  identifier: https://doi.org/10.21966/nkc2-9m58
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - CTD
+      - Subsurface temperature
+      - Subsurface salinity
+      - fluorescence
+      - pressure
+      - potential temperature
+      - seawater density
+      fr:
+      - Année internationale du saumon
+      - pression
+      - température potentielle
+      - densité d'eau de mer
+    eov:
+      en:
+      - subSurfaceSalinity
+      - subSurfaceTemperature
+      - oxygen
+      fr:
+      - Salinité sous la surface
+      - Température sous la surface
+      - Oxygène
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2020-03-12T19:00:00.000Z'
+  temporal_end: '2020-04-05T19:00:00.000Z'
+  title:
+    en: Conductivity, Temperature, and Depth (CTD) Data from the 2020 Gulf of Alaska
+      International Year of the Salmon Expedition
+    fr: Données sur la conductivité, la température et la profondeur (DTC) de l'expédition
+      du saumon dans le golfe de l'Alaska 2020
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T17:07:44.512Z'
+  identifier: a8fd5ba4-5407-4d03-914f-27eb7f3f8121
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MbO7rBWFGR7WFX4Tah_
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  polygon: -128.0575,48.4165 -129.5135,48.4275 -136.9833,47.4217 -138.5117,47.4 -138.5255,47.42
+    -140.0017,47.4133 -141.4917,47.4417 -142.98,47.43 -143.0117,48.395 -144.4817,48.4033
+    -145.9817,48.415 -147.5017,48.3917 -147.525,49.4067 -147.5138,50.4198 -147.505,50.3233
+    -147.515,51.4033 -146.0167,51.4233 -145.9567,51.3417 -146.0067,50.4083 -144.4983,50.4117
+    -144.5067,51.4983 -143.005,51.48 -140.0417,53.38 -135.5483,54.435 -134.035,54.5617
+    -132.4233,54.3883 -134.0017,54.4 -134.0283,53.4167 -135.48,53.4133 -137.0283,53.4083
+    -137.0333,52.9033 -138.65,52.3983 -138.58,51.41 -138.5555,50.405 -138.52,49.4617
+    -140.0033,49.4367 -141.505,49.425 -141.4917,48.405 -140.0217,48.3817 -138.5133,48.4183
+    -138.475,47.3817 -138.485,46.37 -136.9633,47.3967 -135.4167,47.4033 -133.9817,47.4017
+    -132.5083,47.41 -131.0683,48.4067 -130.07,48.4217 -129.115,48.425 -128.02,48.4117
+    -126.2,48.4767 -125.4467,48.505 -128.0575,48.4165
+  vertical:
+  - 0.0
+  - 300.0
+  vertical_positive: depthPositive

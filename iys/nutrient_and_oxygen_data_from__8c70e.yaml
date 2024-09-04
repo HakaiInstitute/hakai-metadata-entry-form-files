@@ -1,0 +1,134 @@
+contact:
+- inCitation: false
+  organization:
+    address: PO Box 25039 British Columbia, V9W 0B7
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    address: Suite 502, 889 West Pender Street, V6C 3B2, British Columbia
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    email: anna.vazhova@gmail.com
+    name: Vazhova, Anna
+  organization:
+    address: Shevchenko Alley 4, 690091
+    city: Vladivostok
+    country: Russia
+    email: vniro@vniro.ru
+    name: Russian Federal Fisheries Research Institute for Fisheries and Oceanography
+    url: http://vniro.ru/en/
+  roles:
+  - custodian
+  - owner
+  - author
+distribution:
+- description:
+    en: Nutrient and oxygen data from discrete water samples
+    fr: Description nécessaire une fois les données publiées
+  name:
+    en: Standardized Nutrient and Oxygen Data on ERDDAP
+  url: https://data.cioospacific.ca/erddap/tabledap/IYS_2019_nutrients_O2.html
+- description:
+    en: Data format provided by scientist before standardization by IYS Data Scientists
+    fr: Format de données fourni par le scientifique avant la normalisation par les
+      Data Scientists de l'IYS
+  name:
+    en: Original Data and Supplementary Materials
+  url: https://github.com/international-year-of-the-salmon/2019-nutrients/archive/refs/heads/main.zip
+identification:
+  abstract:
+    en: Nutrient data collected in the Northeast Pacific Ocean during the Gulf of
+      Alaska (GoA) expedition in 2019. The dataset also contains temperature, salinity,
+      pH, and oxygen measurements at the depths at which nutrient samples were collected.
+      These data were collected as part of the International Year of the Salmon (IYS)
+      Gulf of Alaska High Seas Expedition conducted in February and March 2019, to
+      further improve the understanding of factors impacting salmon early marine winter
+      survival.
+    fr: Données sur les éléments nutritifs recueillies dans le nord-est de l'océan
+      Pacifique au cours de l'expédition dans le golfe de l'Alaska (GoA) en 2019.
+      L'ensemble de données contient également des mesures de température, de salinité,
+      de pH et d'oxygène aux profondeurs auxquelles les échantillons d'éléments nutritifs
+      ont été prélevés. L'expédition faisait partie du projet plus vaste de l'Année
+      internationale du saumon (AIY).
+  associated_resources: []
+  dates:
+    creation: '2019-02-18'
+    publication: '2021-09-23'
+  identifier: https://doi.org/10.21966/10vm-qn28
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - pH
+      - Nutrients
+      - nitrate
+      - phosphate
+      - silicate
+      fr:
+      - Année internationale du saumon
+      - nitrate
+      - phosphate
+      - silicate
+    eov:
+      en:
+      - nutrients
+      - subSurfaceSalinity
+      - seaSurfaceTemperature
+      - other
+      - subSurfaceTemperature
+      - oxygen
+      fr:
+      - Nutriments
+      - Salinité sous la surface
+      - Température de surface
+      - Autre
+      - Température sous la surface
+      - Oxygène
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2019-02-18T20:00:00.000Z'
+  temporal_end: '2019-03-14T19:00:00.000Z'
+  title:
+    en: Nutrient and Oxygen Data from the 2019 Gulf of Alaska International Year of
+      the Salmon Expedition
+    fr: Données sur les éléments nutritifs de l'expédition 2019 de l'Année internationale
+      du saumon dans le golfe d'Alaska
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T16:51:09.517Z'
+  identifier: 8c70e80e-68a1-4ac9-bba4-c950baea4516
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MbE-SJ1WNyltxXbGUDy
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  polygon: -128.513667,48.311 -143.000167,56.668667 -147.503333,56.667333 -147.500667,47.668333
+    -136.997,47.666833 -129.9175,48.191167 -128.513667,48.311
+  vertical:
+  - 0.0
+  - 1000.0
+  vertical_positive: depthPositive

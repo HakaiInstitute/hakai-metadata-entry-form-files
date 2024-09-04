@@ -1,0 +1,162 @@
+contact:
+- inCitation: true
+  individual:
+    email: jim.murphy@noaa.gov
+    name: Murphy, Jim
+    position: Research Biologist
+  organization:
+    address: 17109 Point Lena Loop Rd
+    city: Washington
+    country: United States
+    name: National Oceanic and Atmospheric Administration
+    ror: https://ror.org/02z5nhe81
+    url: http://www.noaa.gov/
+  roles:
+  - principalInvestigator
+  - owner
+  - author
+- inCitation: true
+  individual:
+    email: Andrew.Dimond@noaa.gov
+    name: Dimond, Andrew
+    position: Research Biologist
+  organization:
+    address: 17101 Point Lena Loop Rd
+    city: Washington
+    country: United States
+    name: National Oceanic and Atmospheric Administration
+    ror: https://ror.org/02z5nhe81
+    url: http://www.noaa.gov/
+  roles:
+  - custodian
+  - owner
+  - author
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+distribution:
+- description:
+    en: Trawl, specimen and event data from the FV Northwest Explorer during the 2022
+      IYS Pan-Pacific Winter High Seas Expedition
+    fr: Données sur le chalut, les spécimens et les événements du FV Northwest Explorer
+      lors de l'expédition hivernale en haute mer panpacifique 2022 de l'IYS
+  name:
+    en: Original Data and Supplemental Materials
+    fr: Données originales et documents supplémentaires
+  url: https://github.com/international-year-of-the-salmon/2022-NW-Trawl/archive/refs/heads/main.zip
+- description:
+    en: F/V Northwest Explorer trawl and specimen data standardized to Darwin Core
+      and published to OBIS.
+    fr: Données sur les chaluts et les spécimens du F/V Northwest Explorer normalisées
+      selon Darwin Core et publiées sur OBIS.
+  name:
+    en: F/V Northwest Explorer trawl and specimen data on OBIS
+    fr: Données sur le chalut et les spécimens du F/V Northwest Explorer sur OBIS
+  url: https://ipt.iobis.org/obiscanada/resource?r=trawl-catch-and-specimen-data-from-the-2022-international-year-of-the-salmon-expedition
+identification:
+  abstract:
+    en: This data set contains the at sea data collected aboard the F/V Northwest
+      Explorer for the IYS survey in 2022 in the northwestern Gulf of Alaska. This
+      data package contains three separate components; event, catch, and specimen.
+      The event data contains all of the sampling event information, including time,
+      location, and duration. All dates and times are in UTC, and all length measurements
+      are in meters. The catch data contains all of the catch records, as counts and
+      weights, for each species/taxa at each station. The sampling method for every
+      catch weight should be total weight, and all weights are in kilograms. The specimen
+      data contains individual lengths and weights for sampled individuals from each
+      station. Specimen lengths are in centimeters and specimen weights are in kilograms.
+      To join event information to catch or specimen information, join on the station
+      event id field. To join catch and specimen data, join on the catch id field.
+    fr: 'Cet ensemble de données contient les données en mer recueillies à bord du
+      F/V Northwest Explorer pour le levé IYS en 2022 dans le nord-ouest du golfe
+      d''Alaska. Ce package de données contient trois composants distincts : event,
+      catch et specimen. Les données d''événement contiennent toutes les informations
+      relatives à l''événement d''échantillonnage, notamment l''heure, le lieu et
+      la durée. Toutes les dates et heures sont en UTC, et toutes les mesures de longueur
+      sont en mètres. Les données de capture contiennent tous les enregistrements
+      de captures, sous forme de dénombrements et de poids, pour chaque espèce/taxon
+      à chaque station. La méthode d''échantillonnage pour chaque poids de capture
+      doit être le poids total, et tous les poids sont exprimés en kilogrammes. Les
+      données des échantillons contiennent les longueurs et les poids individuels
+      des individus échantillonnés à chaque station. La longueur des échantillons
+      est en centimètres et le poids des échantillons est en kilogrammes. Pour joindre
+      les informations de l''événement afin de capturer ou de prélever des échantillons,
+      inscrivez-vous dans le champ d''identification de l''événement de la station.
+      Pour joindre les données de capture et de spécimen, inscrivez-vous dans le champ
+      ID de capture.'
+  associated_resources: []
+  dates:
+    creation: '2022-04-03'
+    publication: '2022-06-16'
+  identifier: https://doi.org/10.21966/shnm-s480
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - Trawl
+      - Specimen
+      - Northwestern Gulf of Alaska
+    eov:
+      en:
+      - fishAbundanceAndDistribution
+      fr:
+      - Abondance et distribution de poissons
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-04-03T19:00:00.000Z'
+  temporal_end: '2022-04-18T19:00:00.000Z'
+  title:
+    en: Trawl Data from the F/V Northwest Explorer during the 2022 International Year
+      of the Salmon Pan-Pacific Winter High Seas Expedition
+    fr: Données de pêche au chalut fournies par le F/V Northwest Explorer lors de
+      l'expédition hivernale en haute mer de l'Année internationale du saumon dans
+      le Pacifique 2022
+metadata:
+  dates:
+    publication: '2023-09-15'
+    revision: '2023-09-15T20:55:30.750Z'
+  identifier: 2f9c1e93-0e66-45aa-8178-2299e32e837a
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/jnK2pbrIzbMBHpSiUOi8XDUeev93/-N4dPzuybwN8VKXNvRDe
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Net mensuration data were not collected at all stations due to sea state
+      fr: Les données de mensuration du filet n'ont pas été collectées à toutes les
+        stations en raison de l'état de
+platform: []
+spatial:
+  bbox:
+  - -173.6731
+  - 48.4764
+  - -162.972
+  - 53.6893
+  vertical:
+  - 0.0
+  - 36.0
+  vertical_positive: heightPositive

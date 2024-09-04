@@ -1,0 +1,176 @@
+contact:
+- inCitation: false
+  organization:
+    address: PO Box 25039 British Columbia, V9W 0B7
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    address: Suite 502, 889 West Pender Street, V6C 3B2, British Columbia
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    email: Christoph.Deeg@dfo-mpo.gc.ca
+    name: Deeg, Christoph
+    position: Postdoctoral Fellow
+  organization:
+    address: 200-401 Burrard St. V6C 3S4
+    city: Ottawa
+    country: Canada
+    email: info@dfo-mpo.gc.ca
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - custodian
+  - owner
+  - author
+- inCitation: true
+  individual:
+    email: kristi.saunders@dfo-mpo.gc.ca
+    name: Miller-Saunders, Kristi
+    orcid: https://orcid.org/0000-0002-2667-712X
+    position: Program Head of Salmon Genetics
+  organization:
+    address: 200-401 Burrard St. V6C 3S4
+    city: Ottawa
+    country: Canada
+    email: info@dfo-mpo.gc.ca
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - principalInvestigator
+distribution:
+- description:
+    en: .zip file for the 2019 and 2020 IYS eDNA data
+    fr: fichier .zip pour les données eDNA 2019 et 2020 de l'IYS
+  name:
+    en: 2019 and 2020 eDNA data repository
+    fr: Référentiel de données eDNA 2019 et 2020
+  url: https://github.com/international-year-of-the-salmon/2019-2020-eDNA/archive/refs/heads/main.zip
+- description:
+    en: Paper by Deeg et al., (2023) containing the eDNA data from the 2019 and 2020
+      IYS Expeditions in the Gulf of Alaska
+    fr: Article de Deeg et al., (2023) contenant les données eDNA des expéditions
+      IYS de 2019 et 2020 dans le golfe d'Alaska
+  name:
+    en: 'paper: Environmental DNA survey of the Winter Salmonosphere in the Gulf of
+      Alaska'
+    fr: 'article : Étude de l''ADN environnemental de la salmonosphère hivernale dans
+      le golfe d''Alaska'
+  url: https://doi.org/10.1002/edn3.404
+identification:
+  abstract:
+    en: 'This dataset contains environmental DNA (eDNA) data collected in the Northeast
+      Pacific Ocean. These data were collected as part of the International Year of
+      the Salmon (IYS) Gulf of Alaska High Seas Expedition conducted in March and
+      April 2020 and 2021, to further improve the understanding of factors impacting
+      salmon early marine winter survival. eDNA analysis uses the free DNA shed from
+      organisms and available in the environment to assess species diversity and composition.
+      The eDNA database will provide overall composition of nekton, micronekton and
+      zooplankton allowing estimation of salmon prey and potential predators. Water
+      collected with Niskin bottle from 2-3m. 2L filtered onto Sterivex column for
+      each replicate. Filters flash frozen. DNA extracted from filters using DNeasy
+      kits (QUIAGEN).
+
+      16S and COI rRNA gens were amplified with PCR and sequenced on Illumina MiSeq
+      platform using SE at 300 cycles. Reads were processed using obitools (https://pythonhosted.org/OBITools/welcome.html)
+      and queired against nt using BLASTn. Reads were assigned to OTU using MEGAN
+      (https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/megan6/).
+      Results were filtered using a cuttoff of >/=10 reads for positive detection.
+      Detection of obvious contaminations belonging to human or food waste (sheep,
+      pig, chicken, cow) as well as artificial positive controls were removed. For
+      detailed information contact Dr. Christoph Deeg: chdeeg@mail.ubc.ca'
+    fr: 'Ce jeu de données contient des données d''ADN environnemental (ADNe) collectées
+      dans le nord-est de l''océan Pacifique. Ces données ont été collectées dans
+      le cadre de l''expédition en haute mer dans le golfe d''Alaska de l''Année internationale
+      du saumon (AIJ) menée en mars et avril 2020 et 2021, afin d''améliorer encore
+      la compréhension des facteurs ayant une incidence sur la survie hivernale précoce
+      du saumon en mer. disponibles dans l''environnement pour évaluer la diversité
+      et la composition des espèces. La base de données EDNA fournira la composition
+      globale du nekton, du micronekton et du zooplancton, ce qui permettra d''estimer
+      les proies du saumon et les prédateurs potentiels. Eau recueillie avec une bouteille
+      Niskin de 2 à 3 m. 2 litres filtrés sur colonne Sterivex pour chaque réplique.
+      Les filtres sont gelés. ADN extrait des filtres à l''aide de kits DNEasy (QUIAGEN).
+
+      Les gènes d''ARNr 16S et COI ont été amplifiés par PCR et séquencés sur la plateforme
+      Illumina MiSeq en utilisant l''ES à 300 cycles. Les lectures ont été traitées
+      à l''aide d''obitools (https://pythonhosted.org/OBITools/welcome.html) et ont
+      été interrogées pour ne pas utiliser BlastN. Les lectures ont été attribuées
+      à l''OTU à l''aide de MEGAN (https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/megan6/).
+      Les résultats ont été filtrés en utilisant un seuil de >/=10 lectures pour une
+      détection positive. La détection de contaminations évidentes appartenant à des
+      déchets humains ou alimentaires (mouton, porc, poulet, vache) ainsi que les
+      témoins positifs artificiels ont été supprimés. Pour plus d''informations, contactez
+      le Dr Christoph Deeg : chdeeg@mail.ubc.ca'
+  associated_resources: []
+  dates:
+    creation: '2019-02-18'
+    publication: '2022-06-17'
+  identifier: https://doi.org/10.21966/2cpk-8922
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - eDNA
+      - Fish abundance and distribution
+      fr:
+      - Année internationale du saumon
+    eov:
+      en:
+      - fishAbundanceAndDistribution
+      - zooplanktonBiomassAndDiversity
+      fr:
+      - Abondance et distribution de poissons
+      - Biomasse et diversité de zooplancton
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2019-02-18T20:00:00.000Z'
+  temporal_end: '2020-04-05T19:00:00.000Z'
+  title:
+    en: Environmental DNA (eDNA) data from the 2019 and 2020 Gulf of Alaska International
+      Year of the Salmon Expeditions
+    fr: Données d'ADN environnemental (ADNe) des expéditions 2019 et 2020 de l'Année
+      internationale du saumon dans le golfe d'Alaska
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T17:12:50.871Z'
+  identifier: 223a40da-5999-4755-a8f4-cbaee3057278
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MbgapZfd9acpXW8D7Ry
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  bbox:
+  - -154.1
+  - 47.67
+  - -124.5
+  - 58.94
+  vertical:
+  - 2.0
+  - 3.0
+  vertical_positive: depthPositive

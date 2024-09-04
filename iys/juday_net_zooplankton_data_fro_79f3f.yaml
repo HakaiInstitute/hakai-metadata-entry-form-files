@@ -1,0 +1,183 @@
+contact:
+- inCitation: true
+  individual:
+    email: natalya.kuznetsova@tinro-center.ru
+    name: Kuznetsova, Natalya
+    position: Leading research scientist
+  organization:
+    name: Pacific branch of Russian Federal Institute of Fisheries and Oceanography
+      “VNIRO” (TINRO)
+  roles:
+  - owner
+  - author
+- inCitation: true
+  individual:
+    email: Aleksey.somov@tinro-center.ru
+    name: Somov, Aleksey
+    position: Head of the Applied Biocenology Department, Laboratory of Pacific Salmon
+      Life Histories
+  organization:
+    name: Pacific branch of Russian Federal Institute of Fisheries and Oceanography
+      “VNIRO” (TINRO)
+  roles:
+  - custodian
+  - author
+- inCitation: true
+  individual:
+    email: epakhomov@eoas.ubc.ca
+    name: Pakhomov, Evgeny
+    position: Professor
+  organization:
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - custodian
+  - owner
+  - author
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+distribution:
+- description:
+    en: Species presence/absence only. Zooplankton occurrence data standardized to
+      Darwin Core for publication to the Ocean Biodiversity Information System (OBIS).
+    fr: Données d'occurrence de zooplancton normalisées selon Darwin Core pour publication
+      dans le Système d'information sur la biodiversité océanique (OBIS).
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: OBIS IYS 2020 Juday Zooplankton Data
+  url: http://ipt.iobis.org/obiscanada/resource?r=juday-net-zooplankton-data-from-the-2020-gulf-of-alaska-international-year-of-the-salmon-expedition
+- name:
+    en: Data and Supplemental Materials
+  url: https://github.com/international-year-of-the-salmon/2020-juday-zooplankton/archive/refs/heads/main.zip
+identification:
+  abstract:
+    en: This dataset contains zooplankton occurrence data collected in the Northeast
+      Pacific Ocean with a Juday net. These data were collected as part of the International
+      Year of the Salmon (IYS) High Seas Expeditions conducted in March and April
+      2020, to further improve the understanding of the underlying food web structure
+      and factors impacting salmon early marine winter survival. A Juday net (0.1
+      m2 mouth area, 160 um mesh size) was deployed to a depth of 200m at 37 stations
+      in 2020. Samples were processed in the lab. Taxa were determined to lowest taxonomic
+      rank possible. Where possible, sex and lifestage are determined. For count,
+      abundance and biomass measurements, please reach out to the point of contact(s)
+      listed.
+    fr: Ce jeu de données contient des données d'occurrence de zooplancton collectées
+      dans le nord-est de l'océan Pacifique à l'aide d'un filet Juday. Ces données
+      ont été recueillies dans le cadre des expéditions en haute mer de l'Année internationale
+      du saumon (AIJ) menées en mars et avril 2020, afin d'améliorer encore la compréhension
+      de la structure sous-jacente du réseau trophique et des facteurs ayant une incidence
+      sur la survie hivernale du saumon au début de l'hiver en mer. Un filet Juday
+      (zone d'embouchure de 0,1 m2, maillage de 160 µm) a été déployé à une profondeur
+      de 200 m dans 37 stations en 2020. Les échantillons de 2020 ont été traités
+      en laboratoire. Les taxons ont été déterminés au rang taxonomique le plus bas
+      possible. Dans la mesure du possible, le sexe et l'âge de la vie sont déterminés.
+      Pour les mesures de dénombrement, d'abondance et de biomasse, veuillez vous
+      adresser au (x) point (s) de contact indiqué (s).
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2020-03-12'
+    publication: '2022-06-15'
+  identifier: https://doi.org/10.21966/g9wr-vs33
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - zooplankton
+      - Zooplankton biomass and diversity
+      - Northeast Pacific Ocean
+      - Occurrence
+      fr:
+      - Année internationale du saumon
+    eov:
+      en:
+      - zooplanktonBiomassAndDiversity
+      fr:
+      - Biomasse et diversité de zooplancton
+  progress_code: completed
+  status: published
+  temporal_begin: '2020-03-12T19:00:00.000Z'
+  temporal_end: '2020-04-05T19:00:00.000Z'
+  title:
+    en: Juday Net Zooplankton Data from the 2020 Gulf of Alaska International Year
+      of the Salmon Expedition
+    fr: Données Juday Net sur le zooplancton provenant de l'expédition 2020 de l'Année
+      internationale du saumon dans le golfe d'Alaska
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2024-06-05T18:39:45.878Z'
+  identifier: 79f3fcf8-3283-4a80-957d-d73fbdb8e15f
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MbhoH676lH0IPYVHrN4
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Currently, the standardized dataset on OBIS only includes occurrence data
+        of zooplankton. No information is included on species' size range, biomass,
+        abundance or the size fraction in which it was caught.
+      fr: Actuellement, l'ensemble de données normalisé sur OBIS ne comprend que les
+        données d'occurrence du zooplancton. Aucune information n'est incluse sur
+        la gamme de tailles de l'espèce, sa biomasse, son abondance ou la fraction
+        de taille dans laquelle elle a été capturée.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform: []
+spatial:
+  polygon: -128.0575,48.4165 -129.5135,48.4275 -136.9833,47.4217 -138.5117,47.4 -138.5255,47.42
+    -140.0017,47.4133 -141.4917,47.4417 -142.98,47.43 -143.0117,48.395 -144.4817,48.4033
+    -145.9817,48.415 -147.5017,48.3917 -147.525,49.4067 -147.5138,50.4198 -147.505,50.3233
+    -147.515,51.4033 -146.0167,51.4233 -145.9567,51.3417 -146.0067,50.4083 -144.4983,50.4117
+    -144.5067,51.4983 -143.005,51.48 -140.0417,53.38 -135.5483,54.435 -134.035,54.5617
+    -132.4233,54.3883 -134.0017,54.4 -134.0283,53.4167 -135.48,53.4133 -137.0283,53.4083
+    -137.0333,52.9033 -138.65,52.3983 -138.58,51.41 -138.5555,50.405 -138.52,49.4617
+    -140.0033,49.4367 -141.505,49.425 -141.4917,48.405 -140.0217,48.3817 -138.5133,48.4183
+    -138.475,47.3817 -138.485,46.37 -136.9633,47.3967 -135.4167,47.4033 -133.9817,47.4017
+    -132.5083,47.41 -131.0683,48.4067 -130.07,48.4217 -129.115,48.425 -128.02,48.4117
+    -126.2,48.4767 -125.4467,48.505 -128.0575,48.4165
+  vertical:
+  - 0.0
+  - 200.0
+  vertical_positive: depthPositive

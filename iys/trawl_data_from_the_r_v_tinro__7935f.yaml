@@ -1,0 +1,150 @@
+contact:
+- inCitation: true
+  individual:
+    email: aleksey.somov@tinro-center.ru
+    name: Somov, Aleksey
+    position: Research Scientist
+  organization:
+    address: 4 pereulok Shevchenko St.
+    city: Vladivostok
+    country: Russia
+    name: Pacific Branch of the Russian Federal Research Institute of Fisheries and
+      Oceanography (TINRO)
+  roles:
+  - owner
+  - principalInvestigator
+  - custodian
+  - author
+- inCitation: true
+  individual:
+    email: epakhomov@eoas.ubc.ca
+    name: Pakhomov, Evgeny
+    position: Professor
+  organization:
+    address: 2202 Main Mall
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - principalInvestigator
+  - owner
+  - custodian
+  - author
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Trawl data from the R/V TINRO during the 2022 IYS Pan-Pacific Winter High
+      Seas Expedition
+    fr: Données de chalutage du R/V TINRO lors de l'expédition panpacifique hivernale
+      en haute mer 2022 de l'IYS
+  name:
+    en: Original Data and Supplemental Materials
+  url: https://github.com/international-year-of-the-salmon/2022-TINRO-FishTrawl/archive/refs/heads/main.zip
+- description:
+    en: Trawl and specimen data collected from the 2022 R/V TINRO during the 2022
+      International Year of the Salmon Pan-Pacific Winter High Seas Expedition standardized
+      to Darwin Core and published to the Ocean Biodiversity Information System.
+    fr: Les données sur les chaluts et les spécimens recueillies auprès du R/V TINRO
+      2022 au cours de l'expédition hivernale en haute mer de l'Année internationale
+      du saumon dans le Pacifique 2022 ont été normalisées selon Darwin Core et publiées
+      dans le système d'information sur la biodiversité océanique.
+  name:
+    en: 2022 R/V TINRO Trawl and specimen data published on OBIS
+  url: https://ipt.iobis.org/obiscanada/resource?r=trawl-catch-and-specimen-data-from-the-tinro-during-the-2022-international-year-of-the-salmon-expedition
+identification:
+  abstract:
+    en: This data set contains the at sea data collected aboard the R/V TINRO for
+      the IYS survey in 2022 in the Northeast Pacific Ocean. Collected data offers
+      important insights to achieve further understanding of changing ocean conditions
+      and their effects on salmon in the open ocean. This data package contains, among
+      other things, event, catch and specimen data. The event data contains all of
+      the sampling event information, including time, location, and duration. All
+      dates and times are in UTC. The catch data contains all of the catch records,
+      as counts and weights, for each species/taxa at each station. The specimen data
+      contains individual lengths and weights for sampled individuals from each station.
+    fr: Cet ensemble de données contient les données en mer collectées à bord du R/V
+      TINRO pour le levé IYS en 2022 dans le nord-est de l'océan Pacifique. Les données
+      collectées fournissent des informations importantes pour mieux comprendre les
+      conditions océaniques changeantes et leurs effets sur le saumon en haute mer.
+      Ce paquet de données contient, entre autres, des données sur les événements,
+      les captures et les spécimens. Les données d'événement contiennent toutes les
+      informations d'événement d'échantillonnage, y compris l'heure, le lieu et la
+      durée. Toutes les dates et heures sont en UTC. Les données de capture contiennent
+      tous les enregistrements de captures, sous forme de dénombrements et de poids,
+      pour chaque espèce/taxon à chaque station. Les données d'échantillons contiennent
+      des longueurs et des poids individuels pour les individus échantillonnés de
+      chaque station.
+  associated_resources: []
+  dates:
+    creation: '2022-03-02'
+    publication: '2022-06-16'
+  identifier: https://doi.org/10.21966/wevm-ww19
+  keywords:
+    default:
+      en:
+      - International Year of the Salmon
+      - Trawl
+      - Northeast Pacific Ocean
+      - RV TINRO
+      - Specimen
+    eov:
+      en:
+      - fishAbundanceAndDistribution
+      fr:
+      - Abondance et distribution de poissons
+    taxa:
+      en: []
+      fr: []
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-03-02T20:00:00.000Z'
+  temporal_end: '2022-03-20T19:00:00.000Z'
+  title:
+    en: Trawl Data from the R/V TINRO during the 2022 International Year of the Salmon
+      Pan-Pacific Winter High Seas Expedition
+    fr: Données de chalut du R/V TINRO pendant l'expédition hivernale en haute mer
+      panpacifique 2022 de l'Année internationale du saumon
+metadata:
+  dates:
+    publication: '2023-09-12'
+    revision: '2023-09-12T17:40:06.202Z'
+  identifier: 7935fac6-b23d-4d52-9eba-0e58f8d3bcb8
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/jnK2pbrIzbMBHpSiUOi8XDUeev93/-N4dVrM-cC08iKoIz6iV
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform: []
+spatial:
+  polygon: 187.63391,48.62896 187.63785,48.62513 191.4717,45.4917 191.48349,45.48726
+    191.5383,45.4683 192.8312,45.3843 201.66,47.4916 204.3435,48.8195 203.9733,51.905
+    196.96787,50.55782 187.63391,48.62896
+  vertical:
+  - 0.0
+  - 32.3
+  vertical_positive: heightPositive
