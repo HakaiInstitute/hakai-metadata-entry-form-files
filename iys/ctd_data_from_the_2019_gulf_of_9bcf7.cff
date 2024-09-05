@@ -20,8 +20,8 @@ authors:
   given-names: Gennady
   website: http://vniro.ru/en/
 - address: 120 Gangneung Daehango, Gangwon Province 210-702
-  affiliation: Laboratory of Fisheries Oceanography, Department of Marine Biotechnology,
-    Gangneung-Wonju National University
+  affiliation: Lab of Fisheries Oceanography, Dept. of Marine Biotechnology, Gangneung-Wonju
+    National University
   city: Gangneung City
   email: sesely@naver.com
   family-names: Kun Jung
@@ -52,7 +52,7 @@ authors:
   name: Hakai Institute
   website: https://www.hakai.org/
 cff-version: 1.2.0
-date-released: '2023-09-12'
+date-released: '2024-09-05'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -65,7 +65,7 @@ identifiers:
   value: 10.21966/66gj-7q46
 - description: Metadata Form used to generate this record
   type: url
-  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-Mb7ray8RnGQsND5KzqV
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-Mb7ray8RnGQsND5KzqV
 - description: 'Standardized 2019 CTD Data on ERDDAP: The ''Standardardized Data''
     is a reformation of the ''Original Data'' and has undergone some standardization
     to make it interoperable with other datasets.'
@@ -77,23 +77,24 @@ identifiers:
   type: url
   value: https://github.com/international-year-of-the-salmon/2019-CTD/archive/refs/heads/main.zip
 keywords:
-- pH
-- chlorophyll a
-- Dissolved oxygen concentration
-- subSurfaceTemperature
-- subSurfaceSalinity
-- water temperature
-- pressure
-- Conductivity
 - particulateMatter
+- subSurfaceTemperature
+- chlorophyll a
 - salinity
-- CTD
-- International Year of the Salmon
-- seawater density
-- water density
+- subSurfaceSalinity
 - oxygen
+- water temperature
+- pH
+- pressure
+- water density
+- International Year of the Salmon
+- Conductivity
+- CTD
+- Dissolved oxygen concentration
+- seawater density
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0
 message: If you use this software, please cite it as below
 title: CTD Data from the 2019 Gulf of Alaska International Year of the Salmon Expedition
+type: Dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_9bcf7978-77eb-47da-9f3b-2d2eaa7df589
