@@ -72,7 +72,6 @@ identification:
       la survie du saumon en début d'hiver en mer. Les données sur les acides gras
       fournissent des informations sur les interactions trophiques dans l'océan Pacifique
       Nord-Est et sur la santé et l'état des organismes.
-  associated_resources: []
   dates:
     creation: '2019-02-18'
   keywords:
@@ -88,9 +87,6 @@ identification:
       - other
       fr:
       - Autre
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2019-02-18T20:00:00.000Z'
@@ -106,7 +102,7 @@ metadata:
     revision: '2023-09-12T17:18:50.910Z'
   identifier: 811845a7-0959-40ba-9803-404976d91e7d
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-McAh4smt3ZWafiUo7Nh
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -114,11 +110,17 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: Professor Kaganovskii
+    fr: Professor Kaganovskii
+  id: http://vocab.nerc.ac.uk/collection/C17/current/90ZH/4/
+  instruments:
+  - id: Instrument ID (serial number or link to controlled vocabulary term)
+  type: research vessel
 spatial:
   polygon: -128.513667,48.311 -143.000167,56.668667 -147.503333,56.667333 -147.500667,47.668333
     -136.997,47.666833 -129.9175,48.191167 -128.513667,48.311
   vertical:
   - 0.0
   - 40.0
-  vertical_positive: depthPositive

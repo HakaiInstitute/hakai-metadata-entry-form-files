@@ -127,7 +127,6 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
   dates:
     creation: '2022-02-20'
     publication: '2022-10-27'
@@ -163,10 +162,10 @@ identification:
 metadata:
   dates:
     publication: '2023-09-11'
-    revision: '2024-09-04T23:39:15.070Z'
+    revision: '2024-03-20T19:31:37.493Z'
   identifier: 8914e8cf-1b3e-44ff-bf16-049df9ca9631
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NAkxnV970ksab3gI8mZ
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -174,7 +173,15 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  id: 'IMO: 9781839'
+  instruments:
+  - id: http://vocab.nerc.ac.uk/collection/L22/current/TOOL1205/
+    manufacturer: Simrad
+    type:
+      en: Echo Sounder
+    version: EK80
+  type: research vessel
 spatial:
   polygon: 219.069217,56.935733 216.10775,57.010483 215.98515,55.975133 215.92355,55.043683
     215.975717,46.957766 215.989217,46.088933 215.99235,46.058066 225.01005,47.031716
@@ -182,4 +189,3 @@ spatial:
   vertical:
   - 10.0
   - 300.0
-  vertical_positive: heightPositive

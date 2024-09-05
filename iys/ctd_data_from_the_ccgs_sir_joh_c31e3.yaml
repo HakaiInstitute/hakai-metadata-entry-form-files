@@ -90,11 +90,10 @@ identification:
       la distribution, la migration et croissance du saumon du Pacifique et des espèces
       environnantes. Ce jeu de données inclut la salinité, la fluorescence, l'oxygène
       et le pH collectés sur un CTD SBE-911plus
-  associated_resources: []
   dates:
     creation: '2022-02-22'
     publication: '2022-09-27'
-  identifier: https://doi.org/10.21966/4nv8-tm66
+  identifier: 10.21966/4nv8-tm66
   keywords:
     default:
       en:
@@ -114,9 +113,6 @@ identification:
       - Oxygène
       - Salinité sous la surface
       - Température sous la surface
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2022-02-22T20:00:00.000Z'
@@ -132,7 +128,7 @@ metadata:
     revision: '2023-09-12T17:25:34.117Z'
   identifier: c31e3f07-2ea0-47fe-86a5-b7993f6dc7a1
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-ND-MoSAQcLsgynyHLau
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -140,7 +136,15 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  id: '9781839'
+  instruments:
+  - description:
+      en: Seabird 911Plus
+    id: Seabird 911Plus
+    type:
+      en: CTD
+  type: ship
 spatial:
   polygon: 219.069217,56.935733 216.162284,57.008466 215.98515,55.975133 215.92355,55.043683
     215.976817,46.942683 215.989217,46.088933 225.009084,47.055133 227.88865,50.950383
@@ -148,4 +152,3 @@ spatial:
   vertical:
   - 0.0
   - 2042.9
-  vertical_positive: heightPositive

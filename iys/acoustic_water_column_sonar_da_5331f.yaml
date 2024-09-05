@@ -88,7 +88,6 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
   dates:
     creation: '2022-04-03'
     publication: '2022-10-27'
@@ -106,9 +105,6 @@ identification:
       - fishAbundanceAndDistribution
       fr:
       - Abondance et distribution de poissons
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2022-04-03T19:00:00.000Z'
@@ -130,7 +126,7 @@ metadata:
     revision: '2024-03-20T19:28:11.809Z'
   identifier: 5331feb9-8826-4323-a79b-4b05e8535b68
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NAoutGa6blONqGSCxPA
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -153,7 +149,15 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+  id: 'F/V Northwest Explorer IMO: 7926538'
+  instruments:
+  - id: Simrad ES80
+    manufacturer: Simrad
+    type:
+      en: Echo sounder
+      fr: Sondeur à écho
+  type: fishing vessel
 spatial:
   bbox:
   - -173.6731
@@ -163,4 +167,3 @@ spatial:
   vertical:
   - 10.0
   - 300.0
-  vertical_positive: heightPositive

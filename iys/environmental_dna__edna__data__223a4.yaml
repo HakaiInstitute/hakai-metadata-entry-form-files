@@ -117,11 +117,10 @@ identification:
       déchets humains ou alimentaires (mouton, porc, poulet, vache) ainsi que les
       témoins positifs artificiels ont été supprimés. Pour plus d''informations, contactez
       le Dr Christoph Deeg : chdeeg@mail.ubc.ca'
-  associated_resources: []
   dates:
     creation: '2019-02-18'
     publication: '2022-06-17'
-  identifier: https://doi.org/10.21966/2cpk-8922
+  identifier: 10.21966/2cpk-8922
   keywords:
     default:
       en:
@@ -137,9 +136,6 @@ identification:
       fr:
       - Abondance et distribution de poissons
       - Biomasse et diversité de zooplancton
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2019-02-18T20:00:00.000Z'
@@ -155,7 +151,7 @@ metadata:
     revision: '2023-09-12T17:12:50.871Z'
   identifier: 223a40da-5999-4755-a8f4-cbaee3057278
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MbgapZfd9acpXW8D7Ry
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -163,7 +159,14 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: Pacific Legacy NO 1 and Professor Kagonovsky
+    fr: Pacific Legacy
+  id: 'IMO: 9211810'
+  instruments:
+  - id: Instrument ID (serial number or link to controlled vocabulary term)
+  type: research vessel
 spatial:
   bbox:
   - -154.1
@@ -173,4 +176,3 @@ spatial:
   vertical:
   - 2.0
   - 3.0
-  vertical_positive: depthPositive

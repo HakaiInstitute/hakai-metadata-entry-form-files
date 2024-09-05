@@ -84,11 +84,10 @@ identification:
       climatique de plus en plus extrême dans l'océan Pacifique Nord et les changements
       connexes de l'environnement physique influent sur l'abondance, la distribution,
       la migration et la croissance du saumon du Pacifique et des espèces environnantes.
-  associated_resources: []
   dates:
     creation: '2022-02-05'
     publication: '2023-02-07'
-  identifier: https://doi.org/10.21966/5ere-8p10
+  identifier: 10.21966/5ere-8p10
   keywords:
     default:
       en:
@@ -102,9 +101,6 @@ identification:
       - other
       fr:
       - Autre
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2022-02-05T20:00:00.000Z'
@@ -120,7 +116,7 @@ metadata:
     revision: '2023-09-12T17:31:56.803Z'
   identifier: ef3687c3-cc6a-44f2-b384-26068512ca5e
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-NNiIm4oxo51z-KZJ794
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -128,7 +124,11 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: Bell M. Shimada
+  id: '9349069'
+  type: research vessel
 spatial:
   polygon: -146.9366,57.9954 -150.9696,56.9355 -151.5045,55.9524 -151.5395,49.9829
     -151.549,47.9847 -151.4737,47.007 -146.9841,46.0242 -135.0195,45.0185 -126.2413,47.791
@@ -136,4 +136,3 @@ spatial:
   vertical:
   - 5.0
   - 150.0
-  vertical_positive: heightPositive

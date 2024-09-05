@@ -823,7 +823,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-08-23T21:49:30.145Z</gco:DateTime>
+        <gco:DateTime>2024-06-05T20:07:24.898Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -932,16 +932,6 @@
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
-              </cit:dateType>
-            </cit:CI_Date>
-          </cit:date>
-          <cit:date>
-            <cit:CI_Date>
-              <cit:date>
-                <gco:Date>2024-05-01</gco:Date>
-              </cit:date>
-              <cit:dateType>
-                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
@@ -2014,7 +2004,7 @@ Data were extracted from a paper published to the North Pacific Anadromous Fish 
 
 For the original data and collaboration opportunities, please contact the authors.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">Ce dossier contient les données sur les prises de saumon du Pacifique et les températures de surface du F/V Raw Spirit, recueillies entre le 27 février et le 23 mars 2022 dans l&#39;océan Pacifique Nord, dans le cadre de l&#39;expédition hivernale en haute mer de l&#39;Année internationale du saumon 2022 dans le cadre de l&#39;Année internationale du saumon dans le Pacifique. L&#39;étude a utilisé des filets maillants expérimentaux et des palangres appâtés pour capturer le saumon du Pacifique. La truite arc-en-ciel n&#39;a été capturée que dans les filets maillants, mais c&#39;est dans les 4 premiers mètres du filet maillant que l&#39;on a capturé le plus de saumons du Pacifique. Ces captures, ainsi qu&#39;un examen des études publiées, indiquent que les truites arc-en-ciel passent pratiquement toute leur vie en haute mer, à quelques mètres de surface. Les exigences héritées de vivre à la surface de l&#39;océan et le réchauffement continu de l&#39;océan, notamment les récents épisodes de chaleur marine, mettent en évidence le besoin urgent de mieux comprendre l&#39;écologie océanique de la truite arc-en-ciel, en particulier en hiver. 
 
 Les données ont été extraites d&#39;un article publié pour la Commission des poissons anadromes du Pacifique Nord. Le document contient des informations supplémentaires sur la distribution verticale de l&#39;habitat, l&#39;identification de l&#39;ADN, les écailles et le régime alimentaire. L&#39;article peut être consulté à l&#39;adresse : https://npafc.org/wp-content/uploads/Public-Documents/2023/2112Canada.pdf, et cité sous le titre : Beamish, R., C. Neville et B. Riddell. 2023. Pertinence des captures de truites arc-en-ciel dans l&#39;étude de l&#39;écologie océanique du saumon du Pacifique dans le golfe d&#39;Alaska à l&#39;hiver 2022. NPAFC Doc. 212. 25 p. Pêches et Océans Canada et Pacific Salmon Foundation. (Disponible sur https://npafc.org).
@@ -2067,7 +2057,7 @@ Pour les données originales et les opportunités de collaboration, veuillez con
                   <mrs:referenceSystemIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>5829</gco:CharacterString>
+                        <gco:CharacterString>5831</gco:CharacterString>
                       </mcc:code>
                       <mcc:codeSpace>
                         <gco:CharacterString>EPSG</gco:CharacterString>
@@ -2076,7 +2066,7 @@ Pour les données originales et les opportunités de collaboration, veuillez con
                         <gco:CharacterString>2012-08-10</gco:CharacterString>
                       </mcc:version>
                       <mcc:description>
-                        <gco:CharacterString>EPSG::5829 - Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                        <gco:CharacterString>EPSG::5831 - Instantaneous Water Level depth - Depth relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
                       </mcc:description>
                     </mcc:MD_Identifier>
                   </mrs:referenceSystemIdentifier>
@@ -2110,7 +2100,7 @@ Pour les données originales et les opportunités de collaboration, veuillez con
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-N_9tXFHVoZzGbBTdZjo</gco:CharacterString>
+            <gco:CharacterString>Generated from https://cioos-siooc.github.io/metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-N_9tXFHVoZzGbBTdZjo</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -2237,46 +2227,13 @@ Pour les données originales et les opportunités de collaboration, veuillez con
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Data has been extracted from a paper. For the original data please contact the authors.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+              <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Les données ont été extraites d&#39;un article. Pour les données originales, veuillez contacter les auteurs.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
-      <mri:associatedResource>
-        <mri:MD_AssociatedResource>
-          <mri:name>
-            <cit:CI_Citation>
-              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Paper: Relevance of the Catches of Steelhead in the Study of the Ocean Ecology of Pacific Salmon in the Gulf of Alaska in the Winter of 2022</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Article : Pertinence des captures de truite arc-en-ciel dans l&#39;étude de l&#39;écologie océanique du saumon du Pacifique dans le golfe d&#39;Alaska à l&#39;hiver 2022</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:title>
-              <cit:identifier>
-                <mcc:MD_Identifier>
-                  <mcc:authority>
-                    <cit:CI_Citation>
-                      <cit:title>
-                        <gco:CharacterString>URL</gco:CharacterString>
-                      </cit:title>
-                    </cit:CI_Citation>
-                  </mcc:authority>
-                  <mcc:code>
-                    <gco:CharacterString>https://npafc.org/wp-content/uploads/Public-Documents/2023/2112Canada.pdf</gco:CharacterString>
-                  </mcc:code>
-                </mcc:MD_Identifier>
-              </cit:identifier>
-            </cit:CI_Citation>
-          </mri:name>
-          <mri:associationType>
-            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation"></mri:DS_AssociationTypeCode>
-          </mri:associationType>
-        </mri:MD_AssociatedResource>
-      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>

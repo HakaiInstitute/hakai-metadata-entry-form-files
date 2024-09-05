@@ -101,7 +101,6 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
   dates:
     creation: '2019-02-18'
   edition: '1.0'
@@ -119,9 +118,6 @@ identification:
       - fishAbundanceAndDistribution
       fr:
       - Abondance et distribution de poissons
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2019-02-18T20:00:00.000Z'
@@ -142,7 +138,7 @@ metadata:
     revision: '2024-03-20T19:01:03.735Z'
   identifier: f2d3b46b-6745-4b70-a7a2-a552704e498e
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MbJCfbuxbujN-jfq5ri
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -150,11 +146,30 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: Professor Kaganovsky
+    fr: Professeur Kaganovsky
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: http://vocab.nerc.ac.uk/collection/C17/current/90ZH/
+  instruments:
+  - id: EK60
+    type:
+      en: Echo Sounder
+      fr: Sondeur Echo
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  type: research vessel
 spatial:
   polygon: -128.513667,48.311 -143.000167,56.668667 -147.503333,56.667333 -147.500667,47.668333
     -136.997,47.666833 -129.9175,48.191167 -128.513667,48.311
   vertical:
   - 0.0
   - 1000.0
-  vertical_positive: depthPositive

@@ -60,7 +60,6 @@ identification:
       incidence sur la survie hivernale du saumon en début de mer. Le sang a été prélevé
       pour évaluer l'IGF-1 (croissance), les indices de stress (cortisol, glucose,
       lactate), l'ionorégulation (osmolalité, ions).
-  associated_resources: []
   dates:
     creation: '2020-03-12'
   keywords:
@@ -79,9 +78,6 @@ identification:
       - other
       fr:
       - Autre
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2020-03-12T17:00:00.000Z'
@@ -97,7 +93,7 @@ metadata:
     revision: '2023-09-12T16:44:35.084Z'
   identifier: 02784c0c-72f7-4887-b1d0-d1fb6dacbcb4
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/MgLSkk3m0iXQyIRXEu0UL6y0BOo1/-Mi7wluivoWyF_EGbVwE
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -105,7 +101,14 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: Pacific Legacy
+    fr: Pacific Legacy
+  id: 'IMO: 9211810'
+  instruments:
+  - id: Instrument ID (serial number or link to controlled vocabulary term)
+  type: research vessel
 spatial:
   polygon: -128.0575,48.4165 -129.5135,48.4275 -136.9833,47.4217 -138.5117,47.4 -138.5255,47.42
     -140.0017,47.4133 -141.4917,47.4417 -142.98,47.43 -143.0117,48.395 -144.4817,48.4033
@@ -121,4 +124,3 @@ spatial:
   vertical:
   - 0.0
   - 40.0
-  vertical_positive: depthPositive

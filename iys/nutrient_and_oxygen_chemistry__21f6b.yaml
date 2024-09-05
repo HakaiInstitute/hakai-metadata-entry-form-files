@@ -76,11 +76,10 @@ identification:
       été recueillies dans l'océan Pacifique Nord dans le cadre de l'expédition panpacifique
       hivernale en haute mer 2022, qui a permis d'étudier l'écosystème du saumon dans
       le cadre de l'Année internationale du saumon.
-  associated_resources: []
   dates:
     creation: '2022-03-02'
     publication: '2022-06-14'
-  identifier: https://doi.org/10.21966/yjfr-cn26
+  identifier: 10.21966/yjfr-cn26
   keywords:
     default:
       en:
@@ -102,9 +101,6 @@ identification:
       - Oxygène
       - Salinité sous la surface
       - Température sous la surface
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2022-03-02T20:00:00.000Z'
@@ -120,7 +116,7 @@ metadata:
     revision: '2023-09-12T17:54:43.903Z'
   identifier: 21f6bc31-d55d-4cd4-a16f-6db280c1f629
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-N4Y4RoEGu7HwLkueRGt
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -128,7 +124,24 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: Research Vessel
+    fr: Navire de recherche
+  id: http://vocab.nerc.ac.uk/collection/L06/current/31/
+  instruments:
+  - description:
+      en: Rosette had a capacity to carry ten 5L and two 1,8L Niskin Bottles. Bottle
+        firing was operated remotely using Carousel Deck Unit model 33 and real-time
+        tracking system Sea Bird Electronics model 25
+      fr: Rosette avait une capacité de transport de dix bouteilles Niskin de 5 L
+        et deux de 1,8 L. Le tir des bouteilles était commandé à distance à l'aide
+        de l'unité de pont carrousel modèle 33 et du système de suivi en temps réel
+        Sea Bird Electronics
+    id: Rosette
+    type:
+      en: Rosette
+  type: research vessel
 spatial:
   polygon: 187.63391,48.62896 187.63785,48.62513 191.4717,45.4917 191.48349,45.48726
     191.5383,45.4683 192.8312,45.3843 201.66,47.4916 204.3435,48.8195 203.9733,51.905
@@ -136,4 +149,3 @@ spatial:
   vertical:
   - 0.0
   - 1000.0
-  vertical_positive: heightPositive

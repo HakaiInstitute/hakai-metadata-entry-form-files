@@ -89,11 +89,10 @@ identification:
       la température à la surface de la mer, la latitude, la longitude et l'heure
       de deux appareils dérivants de 40 m de long suivis par satellite qui ont été
       rejetés dans l'Alaska Stream.
-  associated_resources: []
   dates:
     creation: '2022-02-05'
     publication: '2023-02-08'
-  identifier: https://doi.org/10.21966/q3gz-x515
+  identifier: 10.21966/q3gz-x515
   keywords:
     default:
       en:
@@ -108,9 +107,6 @@ identification:
       - seaSurfaceTemperature
       fr:
       - Température de surface
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2022-02-05T20:00:00.000Z'
@@ -127,7 +123,7 @@ metadata:
     revision: '2023-09-12T17:32:45.171Z'
   identifier: effed135-3c69-434c-8502-09ad3a2f96ac
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-NNmPCFSaO8KCo7r7OeT
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -135,10 +131,14 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: Argos satellite tracked drifter
+    fr: Drifter suivi par satellite Argos
+  id: 'IMO: 9349069'
+  type: drifting surface float
 spatial:
   polygon: 207.709,56.124 207.951,56.427 214.902,58.211 198.252,49.54 207.709,56.124
   vertical:
   - 0.0
   - 0.0
-  vertical_positive: heightPositive

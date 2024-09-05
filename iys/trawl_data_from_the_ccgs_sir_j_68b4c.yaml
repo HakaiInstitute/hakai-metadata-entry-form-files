@@ -158,10 +158,9 @@ identification:
       \ contribution à l'expédition hivernale en haute mer de l'Année internationale\
       \ du saumon dans le Pacifique. Pouvez. Technologie. Rép. Fish. Aquat. Sci. 3502 :\
       \ vii + 61 p."
-  associated_resources: []
   dates:
     creation: '2022-02-22'
-  identifier: https://doi.org/10.21966/gmrz-ad56
+  identifier: 10.21966/gmrz-ad56
   keywords:
     default:
       en:
@@ -176,9 +175,6 @@ identification:
       - fishAbundanceAndDistribution
       fr:
       - Abondance et distribution de poissons
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2022-02-22T20:00:00.000Z'
@@ -194,7 +190,7 @@ metadata:
     revision: '2023-09-12T17:43:05.811Z'
   identifier: 68b4c7e7-1a33-44a0-b565-3ebf13021a2a
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/jnK2pbrIzbMBHpSiUOi8XDUeev93/-N7wM9bZ_zf6kFZZU_YV
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -202,7 +198,11 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  id: 'IMO: 9781839'
+  instruments:
+  - id: Midwater Trawl
+  type: research vessel
 spatial:
   polygon: -143.89225,57.010483 -143.997683,56.053433 -144.070066,55.0049 -144.024283,46.957766
     -144.00765,46.058066 -134.98995,47.031716 -132.075683,50.966483 -134.92445,52.978516
@@ -210,4 +210,3 @@ spatial:
   vertical:
   - 0.0
   - 56.0
-  vertical_positive: heightPositive

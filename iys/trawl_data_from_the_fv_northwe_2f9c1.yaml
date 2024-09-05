@@ -101,11 +101,10 @@ identification:
       inscrivez-vous dans le champ d''identification de l''événement de la station.
       Pour joindre les données de capture et de spécimen, inscrivez-vous dans le champ
       ID de capture.'
-  associated_resources: []
   dates:
     creation: '2022-04-03'
     publication: '2022-06-16'
-  identifier: https://doi.org/10.21966/shnm-s480
+  identifier: 10.21966/shnm-s480
   keywords:
     default:
       en:
@@ -118,9 +117,6 @@ identification:
       - fishAbundanceAndDistribution
       fr:
       - Abondance et distribution de poissons
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2022-04-03T19:00:00.000Z'
@@ -137,7 +133,7 @@ metadata:
     revision: '2023-09-15T20:55:30.750Z'
   identifier: 2f9c1e93-0e66-45aa-8178-2299e32e837a
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/jnK2pbrIzbMBHpSiUOi8XDUeev93/-N4dPzuybwN8VKXNvRDe
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -149,7 +145,25 @@ metadata:
       en: Net mensuration data were not collected at all stations due to sea state
       fr: Les données de mensuration du filet n'ont pas été collectées à toutes les
         stations en raison de l'état de
-platform: []
+platform:
+  description:
+    en: F/V Northwest Explorer
+    fr: F/V Northwest Explorer
+  id: 'F/V Northwest Explorer IMO: 7926538'
+  instruments:
+  - id: Cantrawl 400/601 rope trawl
+    manufacturer: Cantrawl Pacific Ltd.
+    type:
+      en: Surface Trawl
+      fr: Chalut de surface
+  - id: Motion-compensated Marel scales
+  - id: Length boards
+  - id: GPS
+  - description:
+      en: Net sounder to monitor trawl dimensions during each tow
+      fr: Sondeur à filet pour surveiller les dimensions du chalut à chaque trait
+    id: Simrad FS70 net sounder
+  type: fishing vessel
 spatial:
   bbox:
   - -173.6731
@@ -159,4 +173,3 @@ spatial:
   vertical:
   - 0.0
   - 36.0
-  vertical_positive: heightPositive

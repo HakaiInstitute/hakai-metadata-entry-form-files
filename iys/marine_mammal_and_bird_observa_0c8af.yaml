@@ -56,7 +56,6 @@ identification:
       golfe d'Alaska de l'Année internationale du saumon (YS) menée en février et
       mars 2019, afin d'améliorer encore la compréhension des facteurs ayant une incidence
       sur la survie du saumon en début d'hiver marin.
-  associated_resources: []
   dates:
     creation: '2019-02-18'
   keywords:
@@ -73,9 +72,6 @@ identification:
       - marineTurtlesBirdsMammalsAbundanceAndDistribution
       fr:
       - Abondance et distribution de tortues marines, oiseaux et mammifères
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2019-02-18T18:00:00.000Z'
@@ -91,7 +87,7 @@ metadata:
     revision: '2023-09-12T16:43:27.973Z'
   identifier: 0c8afd09-aa92-4a3f-a6bb-cdad578255f7
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/MgLSkk3m0iXQyIRXEu0UL6y0BOo1/-Mi7ZJ4pWzUCdDdSheq-
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -99,11 +95,17 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: Professor Kaganovskii
+    fr: Professor Kaganovskii
+  id: http://vocab.nerc.ac.uk/collection/C17/current/90ZH/
+  instruments:
+  - id: Instrument ID (serial number or link to controlled vocabulary term)
+  type: research vessel
 spatial:
   polygon: -128.513667,48.311 -143.000167,56.668667 -147.503333,56.667333 -147.500667,47.668333
     -136.997,47.666833 -129.9175,48.191167 -128.513667,48.311
   vertical:
   - 0.0
   - 0.0
-  vertical_positive: depthPositive

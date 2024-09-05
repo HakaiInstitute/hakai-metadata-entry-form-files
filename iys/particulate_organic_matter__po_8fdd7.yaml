@@ -79,7 +79,6 @@ identification:
       du saumon (IYS) menée en mars à avril 2020, afin d'améliorer encore la compréhension
       des facteurs ayant une incidence sur la survie du saumon en début d'hiver en
       mer.
-  associated_resources: []
   dates:
     creation: '2020-03-12'
   keywords:
@@ -95,9 +94,6 @@ identification:
       - particulateMatter
       fr:
       - Matière particulaire
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2020-03-12T19:00:00.000Z'
@@ -113,7 +109,7 @@ metadata:
     revision: '2023-09-12T17:06:38.153Z'
   identifier: 8fdd7a05-4c65-489a-9054-a768a9b51766
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MbO5L2FKLC-yxYF25dS
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -121,7 +117,14 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: Pacific Legacy
+    fr: Pacific Legacy
+  id: 'IMO: 9211810'
+  instruments:
+  - id: Niskin bottle
+  type: research vessel
 spatial:
   polygon: -128.0575,48.4165 -129.5135,48.4275 -136.9833,47.4217 -138.5117,47.4 -138.5255,47.42
     -140.0017,47.4133 -141.4917,47.4417 -142.98,47.43 -143.0117,48.395 -144.4817,48.4033
@@ -137,4 +140,3 @@ spatial:
   vertical:
   - 0.0
   - 300.0
-  vertical_positive: depthPositive

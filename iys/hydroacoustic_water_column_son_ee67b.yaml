@@ -81,7 +81,6 @@ identification:
       golfe d'Alaska de l'Année internationale du saumon (IYS) menée en mars et avril
       2020, afin d'améliorer encore la compréhension des facteurs ayant une incidence
       sur la survie hivernale du saumon en début de mer.
-  associated_resources: []
   dates:
     creation: '2020-03-12'
   keywords:
@@ -98,9 +97,6 @@ identification:
       - fishAbundanceAndDistribution
       fr:
       - Abondance et distribution de poissons
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2020-03-12T17:00:00.000Z'
@@ -116,7 +112,7 @@ metadata:
     revision: '2024-03-20T19:03:46.988Z'
   identifier: ee67bd67-3f4e-48a5-9a76-8a70e13fbae8
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/MgLSkk3m0iXQyIRXEu0UL6y0BOo1/-Mi7PSKceVLjKjbyPTj7
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -124,7 +120,14 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: Pacific Legacy
+    fr: Pacific Legacy
+  id: 'IMO: 9211810'
+  instruments:
+  - id: Instrument ID (serial number or link to controlled vocabulary term)
+  type: research vessel
 spatial:
   polygon: -128.0575,48.4165 -129.5135,48.4275 -136.9833,47.4217 -138.5117,47.4 -138.5255,47.42
     -140.0017,47.4133 -141.4917,47.4417 -142.98,47.43 -143.0117,48.395 -144.4817,48.4033
@@ -140,4 +143,3 @@ spatial:
   vertical:
   - 0.0
   - 1000.0
-  vertical_positive: depthPositive

@@ -95,11 +95,10 @@ identification:
       pour chaque espèce/taxon à chaque station. Les données d'échantillons contiennent
       des longueurs et des poids individuels pour les individus échantillonnés de
       chaque station.
-  associated_resources: []
   dates:
     creation: '2022-03-02'
     publication: '2022-06-16'
-  identifier: https://doi.org/10.21966/wevm-ww19
+  identifier: 10.21966/wevm-ww19
   keywords:
     default:
       en:
@@ -113,9 +112,6 @@ identification:
       - fishAbundanceAndDistribution
       fr:
       - Abondance et distribution de poissons
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2022-03-02T20:00:00.000Z'
@@ -131,7 +127,7 @@ metadata:
     revision: '2023-09-12T17:40:06.202Z'
   identifier: 7935fac6-b23d-4d52-9eba-0e58f8d3bcb8
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/jnK2pbrIzbMBHpSiUOi8XDUeev93/-N4dVrM-cC08iKoIz6iV
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -139,7 +135,29 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: R/V TINRO
+    fr: R/V TINTO
+  id: 'IMO: 8607086'
+  instruments:
+  - description:
+      en: Trawl net had a 10mm codend mesh size.
+      fr: Le chalut avait un maillage de cul de chalut de 10 mm.
+    id: RT 80/396 trawl net
+    type:
+      en: Midwater Trawl
+      fr: Chalut pélagique
+  - description:
+      en: Net sounder was used to keep track of trawl parameters (headrope depth,
+        vertical and horizontal openings).
+      fr: Un sondeur à filet a été utilisé pour suivre les paramètres du chalut (profondeur
+        de la corde d'entrée, ouvertures verticales et horizontales).
+    id: SIMRAD FS 70 net sounder
+    type:
+      en: Net sounder
+      fr: Sondeur à filet
+  type: research vessel
 spatial:
   polygon: 187.63391,48.62896 187.63785,48.62513 191.4717,45.4917 191.48349,45.48726
     191.5383,45.4683 192.8312,45.3843 201.66,47.4916 204.3435,48.8195 203.9733,51.905
@@ -147,4 +165,3 @@ spatial:
   vertical:
   - 0.0
   - 32.3
-  vertical_positive: heightPositive

@@ -103,12 +103,6 @@ identification:
       mieux comprendre les mécanismes qui régissent la distribution et la production
       du saumon en haute mer. Un échosondeur EK60 a été utilisé fonctionnant à 38
       et 120 kHz.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  associated_resources: []
   dates:
     creation: '2022-02-05'
     publication: '2022-10-27'
@@ -133,18 +127,13 @@ identification:
       Year of the Salmon Pan-Pacific Winter High Seas Expedition
     fr: Données du sonar acoustique de colonne d'eau du R/V TINRO lors de l'expédition
       hivernale en haute mer dans le Pacifique 2022, Année internationale du saumon
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
 metadata:
   dates:
     publication: '2023-09-11'
-    revision: '2024-09-04T23:59:03.913Z'
+    revision: '2024-03-20T19:30:01.799Z'
   identifier: e557790a-7e8a-44db-b9b1-794dfa4b6df7
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NAl4FV23uEHozW3cXsS
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -152,7 +141,15 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  id: 'IMO: 8607086'
+  instruments:
+  - id: EK60
+    manufacturer: Simrad
+    type:
+      en: Echo Sounder
+      fr: Sondeur Echo
+  type: research vessel
 spatial:
   polygon: 196.96787,50.55782 187.63785,48.62513 191.48349,45.48726 191.5383,45.4683
     192.82218,45.38496 201.65778,47.49732 204.0717,48.8267 204.025,50.9367 203.9733,51.905
@@ -160,4 +157,3 @@ spatial:
   vertical:
   - 10.0
   - 300.0
-  vertical_positive: heightPositive

@@ -6,8 +6,7 @@ contact:
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
+    url: hakai.org
   roles:
   - distributor
 - inCitation: true
@@ -17,45 +16,45 @@ contact:
     country: Canada
     email: secretariat@npafc.org
     name: North Pacific Anadromous Fish Commission
-    ror: https://ror.org/01wgn9x88
-    url: https://npafc.org
+    url: npafc.org
   roles:
   - publisher
 - inCitation: true
   individual:
-    email: phyllis.stabeno@noaa.gov
-    name: Stabeno, Phyllis
+    email: jklymak@uvic.ca
+    name: Klymak, Jody
   organization:
-    city: Washington
-    country: United States
-    name: National Oceanic and Atmospheric Administration
-    ror: https://ror.org/02z5nhe81
-    url: http://www.noaa.gov/
+    name: University of Victoria
   roles:
-  - owner
+  - custodian
   - principalInvestigator
 - inCitation: true
   individual:
-    name: Sullivan, Peggy
+    email: Amy.Tabata@dfo-mpo.gc.ca
+    name: Tabata, Amy
+  organization:
+    name: Fisheries and Oceans Canada
   roles:
-  - custodian
+  - processor
+  - author
 - inCitation: true
   individual:
-    email: shaun.bell@noaa.gov
-    name: Bell, Shaun
-    position: Physical Scientist
+    email: Tetjana.Ross@dfo-mpo.gc.ca
+    name: Ross, Tetjana
   organization:
-    city: Washington
-    country: United States
-    name: National Oceanic and Atmospheric Administration
-    ror: https://ror.org/02z5nhe81
-    url: http://www.noaa.gov/
+    name: Fisheries and Oceans Canada
   roles:
-  - custodian
+  - author
+  - principalInvestigator
+  - owner
 distribution:
-- name:
+- description:
+    en: CTD and Rosette Bottle Data
+    fr: Données sur les bouteilles CTD et Rosette
+  name:
     en: Original Data and Supplemental Materials
-  url: https://github.com/international-year-of-the-salmon/2022-Shimada-CTD/archive/refs/heads/main.zip
+    fr: Données originales et documents supplémentaires
+  url: https://github.com/international-year-of-the-salmon/2022-Franklin-CTD-Rosette/archive/refs/heads/main.zip
 identification:
   abstract:
     en: These conductivity, temperature, and depth data were collected as part of
@@ -66,7 +65,7 @@ identification:
       variability in the North Pacific Ocean and the associated changes in the physical
       environment influence the abundance, distribution, migration, and growth of
       Pacific salmon and surrounding species. This dataset includes salinity, fluorescence,
-      oxygen, collected on a SBE-911plus CTD
+      oxygen, and pH collected on a SBE-911plus CTD
     fr: Ces données de conductivité, de température et de profondeur ont été collectées
       dans le cadre de l'expédition hivernale en haute mer de l'Année internationale
       du saumon 2022, menée de janvier à avril 2022 à l'aide de 5 navires de recherche/pêche
@@ -75,46 +74,45 @@ identification:
       comment la variabilité climatique de plus en plus extrême dans l'océan Pacifique
       Nord et les changements connexes de l'environnement physique influencent l'abondance,
       la distribution, la migration et croissance du saumon du Pacifique et des espèces
-      environnantes. Ce jeu de données inclut la salinité, la fluorescence et l'oxygène,
-      collectés sur un CTD SBE-911plus
+      environnantes. Ce jeu de données inclut la salinité, la fluorescence, l'oxygène
+      et le pH collectés sur un CTD SBE-911plus
   dates:
-    creation: '2022-02-05'
-    publication: '2022-11-03'
-  identifier: 10.21966/YGT4-M087
+    creation: '2022-02-22'
+    publication: '2022-09-27'
+  identifier: 10.21966/4nv8-tm66
   keywords:
     default:
       en:
       - International Year of the Salmon
+      - chlorophyll a
+      - dissolved oxygen
       - CTD
-      - water temperature
       fr:
       - Année internationale du saumon
-      - température de l'eau
+      - chlorophylle a
     eov:
       en:
       - oxygen
-      - subSurfaceTemperature
       - subSurfaceSalinity
+      - subSurfaceTemperature
       fr:
       - Oxygène
-      - Température sous la surface
       - Salinité sous la surface
+      - Température sous la surface
   progress_code: completed
   status: published
-  temporal_begin: '2022-02-05T20:00:00.000Z'
-  temporal_end: '2022-03-04T20:00:00.000Z'
+  temporal_begin: '2022-02-22T20:00:00.000Z'
+  temporal_end: '2022-03-19T19:00:00.000Z'
   title:
-    en: Conductivity, Temperature and Depth (CTD) Data from the R/V Bell M. Shimada
-      During the 2022 International Year of the Salmon Pan-Pacific Winter High Seas
-      Expedition
-    fr: Données de conductivité, de température et de profondeur (CTD) du R/V Bell
-      M. Shimada lors de l'expédition hivernale en haute mer 2022 de l'Année internationale
-      du saumon dans le Pacifique
+    en: CTD data from the 2022 International Year of the Salmon Pan-Pacific Winter
+      High Seas Expedition
+    fr: Données CTD de l'expédition hivernale en haute mer de 2022 dans le cadre de
+      l'Année internationale du saumon dans le Pacifique
 metadata:
   dates:
-    publication: '2023-09-12'
-    revision: '2023-09-12T17:30:35.603Z'
-  identifier: 41f49dfa-8433-4f65-87f1-df3f021850c9
+    publication: '2022-09-27'
+    revision: '2022-09-27T22:10:16.344Z'
+  identifier: c31e3f07-2ea0-47fe-86a5-b7993f6dc7a1
   language: en
   maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
@@ -125,14 +123,18 @@ metadata:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
 platform:
-  description:
-    en: Bell M. Shimada
-  id: 'IMO: 9349069'
-  type: research vessel
+  id: '9781839'
+  instruments:
+  - description:
+      en: Seabird 911Plus
+    id: Seabird 911Plus
+    type:
+      en: CTD
+  type: ship
 spatial:
-  polygon: -146.9366,57.9954 -150.9696,56.9355 -151.5045,55.9524 -151.5395,49.9829
-    -151.549,47.9847 -151.4737,47.007 -146.9841,46.0242 -135.0195,45.0185 -126.2413,47.791
-    -146.9366,57.9954
+  polygon: 219.069217,56.935733 216.162284,57.008466 215.98515,55.975133 215.92355,55.043683
+    215.976817,46.942683 215.989217,46.088933 225.009084,47.055133 227.88865,50.950383
+    225.12305,52.965466 219.069217,56.935733
   vertical:
   - 0.0
-  - 100.0
+  - 2042.9

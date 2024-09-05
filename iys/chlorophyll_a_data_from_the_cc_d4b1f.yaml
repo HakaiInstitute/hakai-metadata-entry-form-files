@@ -98,7 +98,6 @@ identification:
       et l'étiquette a été transférée du flacon d'échantillon au flacon à scintillation.
       Le filtre a été retiré après filtration (à l'aide d'une pince) et placé doucement
       dans le flacon à scintillation, côté échantillon vers le haut.
-  associated_resources: []
   dates:
     creation: '2022-02-22'
   keywords:
@@ -116,9 +115,6 @@ identification:
       - oceanColour
       fr:
       - Couleur des océans
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
   status: published
   temporal_begin: '2022-02-22T20:00:00.000Z'
@@ -135,7 +131,7 @@ metadata:
     revision: '2023-09-12T17:45:41.792Z'
   identifier: d4b1fb12-9812-42c0-9d96-cbb22700d4f2
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/jnK2pbrIzbMBHpSiUOi8XDUeev93/-NBYep1KLZCukIg8jLQC
+  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -143,7 +139,12 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+  description:
+    en: CCGS Sir John Franklin
+    fr: NGCC Sir John Franklin
+  id: 'IMO: 9781839'
+  type: research vessel
 spatial:
   polygon: -143.89225,57.010483 -143.997683,56.053433 -144.070066,55.0049 -144.024283,46.957766
     -144.00765,46.058066 -134.98995,47.031716 -132.075683,50.966483 -134.92445,52.978516
@@ -151,4 +152,3 @@ spatial:
   vertical:
   - 5.0
   - 150.0
-  vertical_positive: heightPositive

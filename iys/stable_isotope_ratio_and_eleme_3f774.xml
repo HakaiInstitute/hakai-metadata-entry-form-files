@@ -879,7 +879,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-08-23T22:05:39.437Z</gco:DateTime>
+        <gco:DateTime>2024-06-05T19:03:55.316Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -988,16 +988,6 @@
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
-              </cit:dateType>
-            </cit:CI_Date>
-          </cit:date>
-          <cit:date>
-            <cit:CI_Date>
-              <cit:date>
-                <gco:Date>2024-05-01</gco:Date>
-              </cit:date>
-              <cit:dateType>
-                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
@@ -2189,7 +2179,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>North Pacific salmon (Oncorhynchus spp.) were caught by deploying trawl nets between February 21 and March 4, 2022 during the winter expeditions of the International Year of the Salmon to the North Pacific high seas onboard NOAA research vessel Bell M. Shimada. Trawl nets were deployed at each station in the top 50 meters of the water column and towed for 60 minutes (night) or 90 minutes (day) at 4 to 5 knots. A 2x2 cm sample of salmon muscle tissue was collected from above the lateral line and in front of the dorsal fin and stored at -80°C. Muscle samples were then processed in the laboratory at the University of British Columbia. Tissue was lyophilized in freeze drier for 48 hours, homogenized using mortar and pestle, encapsulated in tin (Sn) capsules, and sent for measurements of carbon and nitrogen stable isotope ratios and elemental contents at an external lab. Samples were analysed on an Elemental Analyser coupled to an Isotope Ratio Mass Spectrometer. Details on analytical procedure are provided in the supplementary materials 1 and 2. The data reported includes each sample ẟ13C, %C, ẟ15N, % N, and CN ratios, in addition to the metadata associated with each sample (e.g., coordinates of oceanographic station and bottom depth where salmon specimen was collected, etc.).</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">Le saumon du Pacifique Nord (Oncorhynchus spp.) a été capturé en déployant des chaluts entre le 21 février et le 4 mars 2022 lors des expéditions hivernales de l&#39;Année internationale du saumon en haute mer du Pacifique Nord à bord du navire de recherche Bell M. Shimada de la NOAA. Des chaluts ont été déployés à chaque station située dans les 50 premiers mètres de la colonne d&#39;eau et remorqués pendant 60 minutes (nuit) ou 90 minutes (jour) à une vitesse de 4 à 5 nœuds. Un échantillon de tissu musculaire de saumon de 2 x 2 cm a été prélevé au-dessus de la ligne latérale et devant la nageoire dorsale et conservé à -80 °C. Les échantillons musculaires ont ensuite été traités en laboratoire à l&#39;Université de la Colombie-Britannique. Les tissus ont été lyophilisés dans un lyophilisateur pendant 48 heures, homogénéisés à l&#39;aide d&#39;un mortier et d&#39;un pilon, encapsulés dans des capsules d&#39;étain (Sn) et envoyés pour des mesures des rapports d&#39;isotopes stables du carbone et de l&#39;azote et de la teneur en éléments élémentaires dans un laboratoire externe. Les échantillons ont été analysés sur un analyseur élémentaire couplé à un spectromètre de masse à rapport isotopique. Les détails sur la procédure analytique sont fournis dans les documents supplémentaires 1 et 2. Les données déclarées incluent les ratios 13C, %C, 15N, % N et CN, en plus des métadonnées associées à chaque échantillon (par exemple, les coordonnées de la station océanographique et la profondeur du fond où le spécimen de saumon a été collecté, etc.).</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -2225,33 +2215,6 @@
       </mri:extent>
       <mri:extent>
         <gex:EX_Extent>
-          <gex:geographicElement>
-            <gex:EX_GeographicDescription>
-              <gex:extentTypeCode>
-                <gco:Boolean>true</gco:Boolean>
-              </gex:extentTypeCode>
-              <gex:geographicIdentifier>
-                <mcc:MD_Identifier>
-                  <mcc:code>
-                    <gco:CharacterString></gco:CharacterString>
-                  </mcc:code>
-                  <mcc:codeSpace>
-                    <gco:CharacterString>ca.cioos</gco:CharacterString>
-                  </mcc:codeSpace>
-                  <mcc:version>
-                    <gco:CharacterString>1</gco:CharacterString>
-                  </mcc:version>
-                  <mcc:description>
-                    <gco:CharacterString>{&#39;en&#39;: &#39;North Pacific Ocean&#39;}</gco:CharacterString>
-                  </mcc:description>
-                </mcc:MD_Identifier>
-              </gex:geographicIdentifier>
-            </gex:EX_GeographicDescription>
-          </gex:geographicElement>
-        </gex:EX_Extent>
-      </mri:extent>
-      <mri:extent>
-        <gex:EX_Extent>
           <gex:verticalElement>
             <gex:EX_VerticalExtent>
               <gex:minimumValue>
@@ -2265,7 +2228,7 @@
                   <mrs:referenceSystemIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>5829</gco:CharacterString>
+                        <gco:CharacterString>5831</gco:CharacterString>
                       </mcc:code>
                       <mcc:codeSpace>
                         <gco:CharacterString>EPSG</gco:CharacterString>
@@ -2274,7 +2237,7 @@
                         <gco:CharacterString>2012-08-10</gco:CharacterString>
                       </mcc:version>
                       <mcc:description>
-                        <gco:CharacterString>EPSG::5829 - Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                        <gco:CharacterString>EPSG::5831 - Instantaneous Water Level depth - Depth relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
                       </mcc:description>
                     </mcc:MD_Identifier>
                   </mrs:referenceSystemIdentifier>
@@ -2308,7 +2271,7 @@
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NbR4b_wXH3Kew_nDn1G</gco:CharacterString>
+            <gco:CharacterString>Generated from https://cioos-siooc.github.io/metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NbR4b_wXH3Kew_nDn1G</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
