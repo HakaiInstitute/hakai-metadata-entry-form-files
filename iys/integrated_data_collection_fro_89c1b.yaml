@@ -253,8 +253,8 @@ contact:
     email: sesely@naver.com
     name: Kun Jung, Hae
   organization:
-    name: Laboratory of Fisheries Oceanography, Department of Marine Biotechnology,
-      Gangneung-Wonju National University
+    name: Lab of Fisheries Oceanography, Dept. of Marine Biotechnology, Gangneung-Wonju
+      National University
   roles:
   - author
 - inCitation: true
@@ -486,12 +486,13 @@ identification:
       grande partie de l'océan Pacifique Nord-Est et ont été collectées afin de mieux
       comprendre les conditions océaniques auxquelles le saumon est confronté en hiver
       et la façon dont cela peut influencer la survie du saumon en haute mer.
+  associated_resources: []
   dates:
     creation: '2019-02-18'
     publication: '2022-07-07'
     revision: '2023-04-21'
   edition: '4'
-  identifier: 10.21966/81jn-6p63
+  identifier: https://doi.org/10.21966/81jn-6p63
   keywords:
     default:
       en:
@@ -529,13 +530,18 @@ identification:
       Seas Expeditions
     fr: Collecte intégrée de données issues des expéditions en haute mer de l'Année
       internationale du saumon
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:24:17.062Z'
+    revision: '2024-09-05T18:22:13.695Z'
   identifier: 89c1b0c1-b358-4c0f-9fa9-467566c2ae69
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-N6JR9cDmD79RJVFDUqt
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -552,3 +558,4 @@ spatial:
   vertical:
   - 0.0
   - 1000.0
+  vertical_positive: heightPositive
