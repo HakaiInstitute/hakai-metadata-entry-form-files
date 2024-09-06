@@ -1,0 +1,130 @@
+contact:
+- inCitation: true
+  individual:
+    email: emily.haughton@hakai.org
+    name: Haughton, E.R.
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+  - coAuthor
+  - pointOfContact
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: bill.floyd@hakai.org
+    name: Floyd, W.C.
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - author
+  - coAuthor
+  - pointOfContact
+  - principalInvestigator
+  - distributor
+- inCitation: true
+  individual:
+    email: shawn.hateley@hakai.org
+    name: Hateley, S.
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - coAuthor
+  - author
+  - distributor
+distribution:
+- name:
+    en: air temperature and relative humidity time-series
+    fr: séries chronologiques sur la température de l'air et l'humidité relative
+  url: https://github.com/HakaiInstitute/hakai-airtemperature-relativehumidity-timeseries
+identification:
+  abstract:
+    en: "This data package consists of quality controlled air temperature and relative\
+      \ humidity data collected at 18 meteorological stations on Calvert and Hecate\
+      \ Islands, 1 on the Koeye River, 1 on Ethel Island in Rivers Inlet, and 1 on\
+      \ Quadra Island on British Columbia’s coast. Data is collected as part of the\
+      \ Hakai climate and hydrometric observation network which is an ongoing monitoring\
+      \ network that collects near-real time data providing many operational uses\
+      \ for the general public and for marine and air traffic. Temporal coverage:\
+      \ September 9th 2013 to December 31st 2022. Methods for data quality control\
+      \ and assurance are outlined in the accompanying README file. \n\nData packages\
+      \ are updated annually. Versioned datasets are available through the links below."
+    fr: "Cet ensemble de données comprend des données de qualité contrôlée sur la\
+      \ température de l'air et l'humidité relative recueillies dans 18 stations météorologiques\
+      \ sur les îles Calvert et Hecate, 1 sur la rivière Koeye, 1 sur l'île Ethel\
+      \ à Rivers Inlet et 1 sur l'île Quadra sur la côte de la Colombie-Britannique.\
+      \ Les données sont collectées dans le cadre du réseau d'observation climatique\
+      \ et hydrométrique de Hakai, un réseau de surveillance continue qui collecte\
+      \ des données en temps quasi réel fournissant de nombreuses utilisations opérationnelles\
+      \ pour le grand public et pour le trafic maritime et aérien. Couverture temporelle :\
+      \ du 9 septembre 2013 au 31 décembre 2022. Les méthodes de contrôle et d'assurance\
+      \ de la qualité des données sont décrites dans le fichier README joint. \n\n\
+      Les ensembles de données sont mis à jour chaque année. Les jeux de données versionnés\
+      \ sont disponibles via les liens ci-dessous."
+  associated_resources: []
+  dates:
+    creation: '2013-07-07'
+  edition: '1.0'
+  keywords:
+    default:
+      en:
+      - air temperature
+      - relative humidity
+      - climate
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  project:
+  - Watersheds
+  status: submitted
+  temporal_begin: '2013-07-07T19:00:00.000Z'
+  title:
+    en: Hakai Air Temperature and Relative Humidity Time-Series
+    fr: Séries chronologiques de température et d'humidité relative de l'air à Hakai
+metadata:
+  dates:
+    revision: '2023-03-23T21:42:49.523Z'
+  identifier: b0190d75-bca1-46de-9dd4-6156b11ed761
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-NRFOKZYbR0pe6IN7ozJ
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  bbox:
+  - -128.3
+  - 49.83
+  - -124.7
+  - 51.87
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
