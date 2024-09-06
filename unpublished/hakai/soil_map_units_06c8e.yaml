@@ -1,0 +1,132 @@
+contact:
+- inCitation: true
+  individual:
+    email: cebulmer@outlook.com
+    name: Bulmer, Chuck
+    orcid: https://orcid.org/0000-0002-6968-2092
+    position: Soil Scientist (retired)
+  organization:
+    address: 3401 Reservoir Rd
+    city: Vernon
+    country: Canada
+    email: cebulmer@outlook.com
+    name: Ministry of Forests
+    url: http://www.gov.bc.ca/for
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Sanborn, Paul
+    orcid: https://orcid.org/0000-0003-0920-4803
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: ina.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+    position: Ecosystem Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    email: media@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - custodian
+  - owner
+  - distributor
+distribution:
+- description:
+    en: digital files including point data, predicted map, and supporting documentation
+  name:
+    en: Soil_map_units_folder
+    fr: Dossier Soil_Map_Units_Folder
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://www.dropbox.com/scl/fo/ja1wxs601p80y2xkeevb7/h?rlkey=zdnsimsqlx2wfhiicdgui4trq&dl=0
+identification:
+  abstract:
+    en: Soil map units are soil entities that describe soil conditions across the
+      land. This is a raster dataset of soil map units that was prepared using a random
+      forest classifier. The map units themselves represent a classification of soil
+      conditions across the Kwakshua watershed area. These map units are intended
+      to represent the dominant soil conditions across the land. Although it is unlikely
+      they are a completely comprehensive set of all conditions present, they are
+      expected to provide categories that will fit into the vast majority of locations.
+      The classifier then assigns one of the classes to every 5m pixel within the
+      landscape.
+    fr: Les unités cartographiques des sols sont des entités du sol qui décrivent
+      les conditions du sol sur l'ensemble du territoire. Il s'agit d'un jeu de données
+      matricielles d'unités cartographiques des sols qui a été préparé à l'aide d'un
+      classificateur forestier aléatoire. Les unités cartographiques elles-mêmes représentent
+      une classification des conditions du sol dans le bassin versant du Kwakshua.
+      Ces unités cartographiques sont destinées à représenter les principales conditions
+      du sol sur l'ensemble du territoire. Bien qu'il soit peu probable qu'il s'agisse
+      d'un ensemble complet de toutes les conditions présentes, ils devraient fournir
+      des catégories adaptées à la grande majorité des sites. Le classificateur attribue
+      ensuite l'une des classes à chaque 5 m de pixel du paysage.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2016-05-01'
+    publication: '2016-11-04'
+    revision: '2022-04-25'
+  keywords:
+    default:
+      en:
+      - soil types
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: completed
+  status: submitted
+  temporal_begin: '2016-05-01T19:00:00.000Z'
+  temporal_end: '2016-09-30T19:00:00.000Z'
+  title:
+    en: Soil Map Units
+    fr: Unités cartographiques des sols
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2024-04-13T14:10:19.973Z'
+  identifier: 06c8ea05-5eb7-4384-bf97-ad67cc6ab3a2
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Wr39LYoqqPgjkcPTetJRB7ScPgO2/-NJQxQH5OsL42GRQVpsl
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: the dataset was developed using predictive mapping methods. Error checking
+        was carried out using the predictive models by comparing observed and predicted
+        values for a limited number of locations, but extensive field checking has
+        not been carried out.
+spatial:
+  bbox:
+  - -128.1426
+  - 51.5897
+  - -127.9563
+  - 51.702
+  vertical:
+  - 0.0
+  - 1000.0
+  vertical_positive: depthPositive

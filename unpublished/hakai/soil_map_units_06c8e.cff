@@ -1,0 +1,54 @@
+abstract: Soil map units are soil entities that describe soil conditions across the
+  land. This is a raster dataset of soil map units that was prepared using a random
+  forest classifier. The map units themselves represent a classification of soil conditions
+  across the Kwakshua watershed area. These map units are intended to represent the
+  dominant soil conditions across the land. Although it is unlikely they are a completely
+  comprehensive set of all conditions present, they are expected to provide categories
+  that will fit into the vast majority of locations. The classifier then assigns one
+  of the classes to every 5m pixel within the landscape.
+authors:
+- address: 3401 Reservoir Rd
+  affiliation: Ministry of Forests
+  city: Vernon
+  country: CA
+  email: cebulmer@outlook.com
+  family-names: Bulmer
+  given-names: Chuck
+  orcid: https://orcid.org/0000-0002-6968-2092
+  website: http://www.gov.bc.ca/for
+- family-names: Sanborn
+  given-names: Paul
+  orcid: https://orcid.org/0000-0003-0920-4803
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: ina.giesbrecht@hakai.org
+  family-names: Giesbrecht
+  given-names: Ian
+  orcid: https://orcid.org/0000-0001-7013-4766
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+date-released: '2024-04-13'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 06c8ea05-5eb7-4384-bf97-ad67cc6ab3a2
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_06c8ea05-5eb7-4384-bf97-ad67cc6ab3a2
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Wr39LYoqqPgjkcPTetJRB7ScPgO2/-NJQxQH5OsL42GRQVpsl
+- description: 'Soil_map_units_folder: digital files including point data, predicted
+    map, and supporting documentation'
+  type: url
+  value: https://www.dropbox.com/scl/fo/ja1wxs601p80y2xkeevb7/h?rlkey=zdnsimsqlx2wfhiicdgui4trq&dl=0
+keywords:
+- other
+- soil types
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Soil Map Units
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_06c8ea05-5eb7-4384-bf97-ad67cc6ab3a2
