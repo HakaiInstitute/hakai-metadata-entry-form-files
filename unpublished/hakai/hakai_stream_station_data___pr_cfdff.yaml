@@ -1,0 +1,149 @@
+contact:
+- inCitation: true
+  individual:
+    email: emily.haughton@hakai.org
+    name: Haughton, Emily
+    orcid: https://orcid.org/0009-0002-5756-1805
+    position: Technician
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: bill.floyd@hakai.org
+    name: Floyd, William
+    orcid: https://orcid.org/0000-0001-7487-5721
+    position: Researcher
+  organization:
+    city: Nanaimo
+    country: Canada
+    name: Vancouver Island University
+    ror: https://ror.org/033wcvv61
+    url: https://www.viu.ca/
+  roles:
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: shawn.hateley@hakai.org
+    name: Hateley, Shawn
+    position: Technician
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - contributor
+- inCitation: true
+  individual:
+    email: james.mcphail@hakaienergysolutions.com
+    name: Mcphail, James
+    position: Technician
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - contributor
+distribution:
+- description:
+    en: ERDDAP dataset
+    fr: Ensemble de données ERDDAP
+  name:
+    en: ERDDAP
+    fr: ERDDAP
+  url: https://goose.hakai.org/erddap/tabledap/HakaiWeatherStationsProvisional.html
+identification:
+  abstract:
+    en: This data set presents stream temperature, water level, discharge, and turbidity
+      data measured at 5 minute intervals since 2014. These measurements are representative
+      of four densely instrumented watersheds on Calvert and Hecate Islands, on the
+      Central Coast of British Columbia as part of the ongoing watersheds monitoring
+      by the Hakai Institute. Data is provisional and published in near real-time
+      and has not been fully quality controlled. Before using this data for analysis,
+      please contact data@hakai.org to request any information that might be relevant
+      to your objectives.
+    fr: Cet ensemble de données présente des données sur la température des cours
+      d'eau, le niveau d'eau, le débit et la turbidité mesurées à des intervalles
+      de 5 minutes depuis 2014. Ces mesures sont représentatives de quatre bassins
+      hydrographiques densément instrumentés sur les îles Calvert et Hécate, sur la
+      côte centrale de la Colombie-Britannique, dans le cadre de la surveillance continue
+      des bassins versants par l'Institut Hakai. Les données sont provisoires et publiées
+      en temps quasi réel et n'ont pas fait l'objet d'un contrôle qualité complet.
+      Avant d'utiliser ces données à des fins d'analyse, veuillez contacter data@hakai.org
+      pour demander toute information susceptible de correspondre à vos objectifs.
+  associated_resources: []
+  dates:
+    creation: '2014-08-02'
+  edition: '1'
+  keywords:
+    default:
+      en:
+      - fresh water flow
+      - water temperature
+      - watershed
+      fr:
+      - débits eau douce
+      - température de l'eau
+      - bassin versant
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en: []
+      fr: []
+  progress_code: onGoing
+  project:
+  - Watersheds
+  status: submitted
+  temporal_begin: '2014-08-02T19:00:00.000Z'
+  title:
+    en: Hakai Stream Station Data - Provisional
+    fr: Données provisoires relatives à la station Hakai Stream
+metadata:
+  dates:
+    revision: '2024-01-24T22:13:11.472Z'
+  identifier: cfdffcb0-de54-41bb-8bee-3f659567dc50
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-Nnz6y-n4j6E7PVm3OAn
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Data is provisional and therefore has not undergone rigorous quality control.
+      fr: Les données sont provisoires et n'ont donc pas fait l'objet d'un contrôle
+        de qualité rigoureux.
+spatial:
+  bbox:
+  - -128.2
+  - 51.63
+  - -127.9
+  - 51.69
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: heightPositive
