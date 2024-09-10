@@ -47,6 +47,12 @@ identification:
       mesurer les propriétés physiques de l'eau. Ceux-ci comprennent la température,
       la profondeur, la conductivité, la salinité, l'oxygène dissous, la fluorométrie,
       l'irradiance, la chlorphylle et le cdom.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
   dates:
     creation: '2022-02-02'
     publication: '2022-04-27'
@@ -61,10 +67,12 @@ identification:
       - oxygen
       - subSurfaceSalinity
       - subSurfaceTemperature
+      - other
       fr:
       - Oxygène
       - Salinité sous la surface
       - Température sous la surface
+      - Autre
   progress_code: completed
   status: published
   temporal_begin: '2022-02-02T20:00:00.000Z'
@@ -75,15 +83,20 @@ identification:
     fr: Données hydrographiques de planeur provenant du déploiement de Fairbanks à
       l'Université de l'Alaska pendant l'expédition panpacifique en haute mer 2022
       de l'Année internationale du saumon
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 instruments:
-- {}
+- id: Glider
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:55:30.255Z'
+    revision: '2024-09-10T17:46:07.820Z'
   identifier: 66b4d93d-7094-4002-845e-b3ec08f3121c
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-N4iYhzcgk1Ctn0PTOpD
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -99,6 +112,11 @@ metadata:
         de données provient du format de fichier natif du planeur et est fourni tel
         quel sans garantie expresse ou implicite d'assurance qualité ou de contrôle
         qualité.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 spatial:
   bbox:
   - -149.52008649874892
@@ -108,3 +126,4 @@ spatial:
   vertical:
   - 0.0
   - 2000.0
+  vertical_positive: heightPositive

@@ -410,7 +410,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2023-09-12T17:55:30.255Z</gco:DateTime>
+        <gco:DateTime>2024-09-10T17:46:07.820Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -477,7 +477,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -490,7 +490,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -507,7 +507,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Glider Hydrographic Data from the University of Alaska Fairbanks Deployment During the 2022 International Year of the Salmon Pan-Pacific High Seas Expedition</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Données hydrographiques de planeur provenant du déploiement de Fairbanks à l&#39;Université de l&#39;Alaska pendant l&#39;expédition panpacifique en haute mer 2022 de l&#39;Année internationale du saumon</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -1031,7 +1031,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>The University of Alaska Fairbanks College of Fisheries and Ocean Science deployed an autonomous underwater glider deployed near Seward Alaska to measure physical water properties. These include temperature, depth, conductivity, salinity, dissolved oxygen, fluorometry, irradiance, chlorphpyll, and cdom.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Le Fairbanks College of Fisheries and Ocean Science de l&#39;Université de l&#39;Alaska a déployé un planeur sous-marin autonome déployé près de Seward Alaska pour mesurer les propriétés physiques de l&#39;eau. Ceux-ci comprennent la température, la profondeur, la conductivité, la salinité, l&#39;oxygène dissous, la fluorométrie, l&#39;irradiance, la chlorphylle et le cdom.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -1083,7 +1083,7 @@
                   <mrs:referenceSystemIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>5831</gco:CharacterString>
+                        <gco:CharacterString>5829</gco:CharacterString>
                       </mcc:code>
                       <mcc:codeSpace>
                         <gco:CharacterString>EPSG</gco:CharacterString>
@@ -1092,7 +1092,7 @@
                         <gco:CharacterString>2012-08-10</gco:CharacterString>
                       </mcc:version>
                       <mcc:description>
-                        <gco:CharacterString>EPSG::5831 - Instantaneous Water Level depth - Depth relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                        <gco:CharacterString>EPSG::5829 - Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
                       </mcc:description>
                     </mcc:MD_Identifier>
                   </mrs:referenceSystemIdentifier>
@@ -1126,7 +1126,7 @@
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://cioos-siooc.github.io/metadata-entry-form</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-N4iYhzcgk1Ctn0PTOpD</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1188,6 +1188,9 @@
           <mri:keyword>
             <gco:CharacterString>subSurfaceTemperature</gco:CharacterString>
           </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>other</gco:CharacterString>
+          </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
@@ -1206,6 +1209,13 @@
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Température sous la surface</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Autre</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -1254,7 +1264,7 @@
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>This data may be redistributed and used without restriction. Dataset taken from glider native file format and is provided as is with no expressed or implied assurance of quality assurance or quality control.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Ces données peuvent être redistribuées et utilisées sans restriction. L&#39;ensemble de données provient du format de fichier natif du planeur et est fourni tel quel sans garantie expresse ou implicite d&#39;assurance qualité ou de contrôle qualité.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -1403,7 +1413,7 @@
           <mac:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
-                <gco:CharacterString></gco:CharacterString>
+                <gco:CharacterString>Glider</gco:CharacterString>
               </mcc:code>
               <mcc:description>
                 <gco:CharacterString></gco:CharacterString>
