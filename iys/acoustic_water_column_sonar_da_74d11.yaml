@@ -112,6 +112,7 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
+  associated_resources: []
   dates:
     creation: '2022-02-04'
     publication: '2022-10-27'
@@ -146,10 +147,10 @@ identification:
 metadata:
   dates:
     publication: '2023-09-11'
-    revision: '2024-03-20T19:21:13.926Z'
+    revision: '2024-09-10T17:47:02.691Z'
   identifier: 74d119f1-cd7b-4f99-a94b-5d3b3ca3b7d5
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NAl0t737aEJG000O3cv
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -157,16 +158,7 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform:
-  id: 'IMO: 9349069'
-  instruments:
-  - id: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1205/
-    manufacturer: Simrad
-    type:
-      en: Echo Sounder
-      fr: Sondeur Echo
-    version: EK80
-  type: research vessel
+platform: []
 spatial:
   polygon: -146.9366,57.9954 -150.9696,56.9355 -151.5045,55.9524 -151.5395,49.9829
     -151.549,47.9847 -151.4737,47.007 -146.9841,46.0242 -135.0195,45.0185 -126.2413,47.791
@@ -174,3 +166,4 @@ spatial:
   vertical:
   - 10.0
   - 300.0
+  vertical_positive: heightPositive
