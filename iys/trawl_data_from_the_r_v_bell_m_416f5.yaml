@@ -144,10 +144,11 @@ identification:
       pour chaque poids de prise doit être le poids total, et tous les poids sont
       exprimés en kilogrammes. Les données des échantillons contiennent les longueurs
       individuelles (en cm) et les poids des individus échantillonnés de chaque station.'
+  associated_resources: []
   dates:
     creation: '2022-02-05'
     publication: '2022-07-06'
-  identifier: 10.21966/nt8w-je90
+  identifier: https://doi.org/10.21966/nt8w-je90
   keywords:
     default:
       en:
@@ -161,6 +162,19 @@ identification:
       - fishAbundanceAndDistribution
       fr:
       - Abondance et distribution de poissons
+    taxa:
+      en:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      fr:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
   progress_code: completed
   status: published
   temporal_begin: '2022-02-05T20:00:00.000Z'
@@ -170,13 +184,18 @@ identification:
       of the Salmon Pan-Pacific Winter High Seas Expedition
     fr: Données de chalut du Bell M. Shimada de la NOAA pendant l'expédition hivernale
       en haute mer 2022 de l'Année internationale du saumon dans le Pacifique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:41:46.002Z'
+    revision: '2024-09-10T18:07:41.879Z'
   identifier: 416f5604-e36e-41af-aabc-f51651c40204
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/jnK2pbrIzbMBHpSiUOi8XDUeev93/-N6JaKvPUPtbAtA7aW5p
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -184,9 +203,7 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform:
-  id: 'IMO: 9349069'
-  type: research vessel
+platform: []
 spatial:
   polygon: -146.9366,57.9954 -150.9696,56.9355 -151.5045,55.9524 -151.5395,49.9829
     -151.549,47.9847 -151.4737,47.007 -146.9841,46.0242 -135.0195,45.0185 -126.2413,47.791
@@ -194,3 +211,4 @@ spatial:
   vertical:
   - 0.0
   - 31.38
+  vertical_positive: heightPositive
