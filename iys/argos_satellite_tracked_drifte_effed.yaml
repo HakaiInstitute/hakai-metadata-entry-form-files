@@ -89,10 +89,11 @@ identification:
       la température à la surface de la mer, la latitude, la longitude et l'heure
       de deux appareils dérivants de 40 m de long suivis par satellite qui ont été
       rejetés dans l'Alaska Stream.
+  associated_resources: []
   dates:
     creation: '2022-02-05'
     publication: '2023-02-08'
-  identifier: 10.21966/q3gz-x515
+  identifier: https://doi.org/10.21966/q3gz-x515
   keywords:
     default:
       en:
@@ -117,13 +118,18 @@ identification:
     fr: Déploiement de dispositifs dérivants suivis par satellite Argos depuis le
       R/V Bell M. Shimada lors de l'expédition hivernale en haute mer de 2022, Année
       internationale du saumon
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:32:45.171Z'
+    revision: '2024-09-10T18:06:26.063Z'
   identifier: effed135-3c69-434c-8502-09ad3a2f96ac
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-NNmPCFSaO8KCo7r7OeT
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -131,14 +137,10 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform:
-  description:
-    en: Argos satellite tracked drifter
-    fr: Drifter suivi par satellite Argos
-  id: 'IMO: 9349069'
-  type: drifting surface float
+platform: []
 spatial:
   polygon: 207.709,56.124 207.951,56.427 214.902,58.211 198.252,49.54 207.709,56.124
   vertical:
   - 0.0
   - 0.0
+  vertical_positive: heightPositive
