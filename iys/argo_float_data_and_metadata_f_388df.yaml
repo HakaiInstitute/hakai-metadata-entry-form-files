@@ -56,10 +56,11 @@ identification:
       (GDAC) à Brest (France) et Monterey (Californie) après un contrôle qualité automatisé
       (CQ), et sous forme scientifiquement contrôlée de qualité, données en mode différé,
       via les GDAC dans les six mois suivant collection.
+  associated_resources: []
   dates:
     creation: '1997-07-28'
     publication: '2022-06-16'
-  identifier: 10.17882/42182
+  identifier: https://doi.org/10.17882/42182
   keywords:
     default:
       en:
@@ -87,13 +88,18 @@ identification:
     en: Argo Float Data and Metadata from Global Data Assembly Centre (Argo GDAC)
     fr: Données flottantes Argo et métadonnées du Global Data Assembly Center (Argo
       GDAC)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:56:31.831Z'
+    revision: '2024-09-10T17:46:25.780Z'
   identifier: 388df44d-ccee-4209-afba-e62fa5be3a68
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-N4ikPcUYfX9ej0Av-79
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -117,13 +123,7 @@ metadata:
         où de telles données sont utilisées, de préférence avec le DOI et la phrase
         type suivante : « Ces données ont été collectées et mises à disposition gratuitement
         par le projet international Argo et les programmes nationaux qui y contribuent. »'
-platform:
-  description:
-    en: Argo Float
-  id: Argo Floats
-  instruments:
-  - id: Argo float
-  type: float
+platform: []
 spatial:
   bbox:
   - -190.0
@@ -133,3 +133,4 @@ spatial:
   vertical:
   - 0.0
   - 2000.0
+  vertical_positive: heightPositive
