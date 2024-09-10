@@ -392,7 +392,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-03-20T19:03:46.988Z</gco:DateTime>
+        <gco:DateTime>2024-09-10T17:58:32.338Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -489,7 +489,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Hydroacoustic Water Column Sonar Data from the 2020 Gulf of Alaska International Year of the Salmon Expedition</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Données du sonar hydroacoustique de la colonne d&#39;eau recueillies lors de l&#39;expédition du saumon dans le golfe de l&#39;Alaska en 2020, Année internationale</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -1026,7 +1026,7 @@
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://cioos-siooc.github.io/metadata-entry-form</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/MgLSkk3m0iXQyIRXEu0UL6y0BOo1/-Mi7PSKceVLjKjbyPTj7</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1231,22 +1231,16 @@
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Data coming soon</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Les données seront bientôt disponibles</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                  <lan:textGroup>
-                    <lan:LocalisedCharacterString locale="#translations">{&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Description needed once data is published</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Description nécessaire une fois les données publiées</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                  <lan:textGroup>
-                    <lan:LocalisedCharacterString locale="#translations">{&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
@@ -1263,64 +1257,4 @@
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
-  <mdb:acquisitionInformation>
-    <mac:MI_AcquisitionInformation>
-      <mac:scope>
-        <mcc:MD_Scope>
-          <mcc:level>
-            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
-          </mcc:level>
-        </mcc:MD_Scope>
-      </mac:scope>
-      <mac:platform>
-        <mac:MI_Platform>
-          <mac:identifier>
-            <mcc:MD_Identifier>
-              <mcc:authority>
-                <cit:CI_Citation>
-                  <cit:title>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:title>
-                </cit:CI_Citation>
-              </mcc:authority>
-              <mcc:code>
-                <gco:CharacterString>IMO: 9211810</gco:CharacterString>
-              </mcc:code>
-            </mcc:MD_Identifier>
-          </mac:identifier>
-          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Pacific Legacy</gco:CharacterString>
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Pacific Legacy</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mac:description>
-          <mac:instrument>
-            <mac:MI_Instrument>
-              <mac:identifier>
-                <mcc:MD_Identifier>
-                  <mcc:code>
-                    <gco:CharacterString>Instrument ID (serial number or link to controlled vocabulary term)</gco:CharacterString>
-                  </mcc:code>
-                  <mcc:description>
-                    <gco:CharacterString></gco:CharacterString>
-                  </mcc:description>
-                </mcc:MD_Identifier>
-              </mac:identifier>
-              <mac:type>
-                <gco:CharacterString></gco:CharacterString>
-              </mac:type>
-            </mac:MI_Instrument>
-          </mac:instrument>
-          <mac:instrument/>
-          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
-            <gco:Record>
-              <gco:CharacterString>research vessel</gco:CharacterString>
-            </gco:Record>
-          </mac:otherProperty>
-        </mac:MI_Platform>
-      </mac:platform>
-    </mac:MI_AcquisitionInformation>
-  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
