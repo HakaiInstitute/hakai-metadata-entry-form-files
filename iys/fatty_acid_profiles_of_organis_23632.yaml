@@ -72,6 +72,7 @@ identification:
       la survie hivernale du saumon en début de mer. Les données sur les acides gras
       fournissent des informations sur les interactions trophiques dans l'océan Pacifique
       Nord-Est et sur la santé et l'état des organismes.
+  associated_resources: []
   dates:
     creation: '2020-03-12'
   keywords:
@@ -87,6 +88,19 @@ identification:
       - other
       fr:
       - Autre
+    taxa:
+      en:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      fr:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
   progress_code: completed
   status: published
   temporal_begin: '2020-03-12T17:00:00.000Z'
@@ -96,13 +110,18 @@ identification:
       Year of the Salmon Expedition
     fr: Profils des acides gras des organismes capturés en 2020 dans le golfe d'Alaska
       Année internationale de l'expédition du saumon
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T16:31:13.343Z'
+    revision: '2024-09-10T17:55:16.219Z'
   identifier: 2363258b-0853-4e0e-b5aa-b89ca78633d7
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/MgLSkk3m0iXQyIRXEu0UL6y0BOo1/-Mhy0QQ_8q8jVaLpzRHN
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -110,14 +129,7 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform:
-  description:
-    en: Pacific Legacy
-    fr: Pacific Legacy
-  id: 'IMO: 9211810'
-  instruments:
-  - id: Instrument ID (serial number or link to controlled vocabulary term)
-  type: research vessel
+platform: []
 spatial:
   polygon: -128.0575,48.4165 -129.5135,48.4275 -136.9833,47.4217 -138.5117,47.4 -138.5255,47.42
     -140.0017,47.4133 -141.4917,47.4417 -142.98,47.43 -143.0117,48.395 -144.4817,48.4033
@@ -133,3 +145,4 @@ spatial:
   vertical:
   - 0.0
   - 40.0
+  vertical_positive: depthPositive
