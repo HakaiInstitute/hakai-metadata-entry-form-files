@@ -167,6 +167,7 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
+  associated_resources: []
   dates:
     creation: '2022-02-05'
     publication: '2023-09-14'
@@ -184,6 +185,19 @@ identification:
       - fishAbundanceAndDistribution
       fr:
       - Abondance et distribution de poissons
+    taxa:
+      en:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      fr:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
   progress_code: completed
   status: published
   temporal_begin: '2022-02-05T20:00:00.000Z'
@@ -202,10 +216,10 @@ identification:
 metadata:
   dates:
     publication: '2023-09-15'
-    revision: '2024-03-19T22:10:47.100Z'
+    revision: '2024-09-10T17:47:40.003Z'
   identifier: 2dac6609-3541-458c-88b1-5564599d9621
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NY4-RF6wM-YOIcx36xE
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -225,10 +239,7 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform:
-  id: 'FV Northwest Explorer IMO: 7926538, NOAA Bell M. Shimada IMO: 9349069, R/V
-    TINRO IMO: 8607086, Sir John Franklin IMO: 9781839'
-  type: research vessel
+platform: []
 spatial:
   polygon: -151.7547,56.26725 -150.996633333333,57.00005 -146.985483333333,58.0089
     -146.978783333333,57.00325 -146.958483333333,54.98335 -126.4011,47.7868166666667
@@ -238,3 +249,4 @@ spatial:
   vertical:
   - 0.0
   - 36.0
+  vertical_positive: heightPositive
