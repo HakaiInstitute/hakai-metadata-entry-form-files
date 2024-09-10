@@ -59,6 +59,7 @@ identification:
       mars 2019, afin d'améliorer encore la compréhension des facteurs ayant une incidence
       sur la survie hivernale du saumon en début de mer. Les marques thermiques des
       otolithes ont également été examinées pour aider à déterminer l'origine du stock.
+  associated_resources: []
   dates:
     creation: '2019-02-18'
   keywords:
@@ -75,6 +76,21 @@ identification:
       - other
       fr:
       - Autre
+    taxa:
+      en:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      - Oncorhynchus gorbuscha
+      fr:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      - Oncorhynchus gorbuscha
   progress_code: completed
   status: published
   temporal_begin: '2019-02-18T18:00:00.000Z'
@@ -84,13 +100,18 @@ identification:
       the Salmon Expedition
     fr: Données sur l'otolithe du saumon rose de l'année internationale de l'expédition
       du saumon dans le golfe d'Alaska 2019 (copie)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T16:28:38.000Z'
+    revision: '2024-09-10T17:54:31.169Z'
   identifier: daa3f67f-f758-42b0-84aa-3a8821e916b1
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/MgLSkk3m0iXQyIRXEu0UL6y0BOo1/-Mhtdx4vKCtU3J64PeDf
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -98,17 +119,11 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform:
-  description:
-    en: Professor Kaganovskii
-    fr: Professor Kaganovskii
-  id: http://vocab.nerc.ac.uk/collection/C17/current/90ZH/
-  instruments:
-  - id: Instrument ID (serial number or link to controlled vocabulary term)
-  type: research vessel
+platform: []
 spatial:
   polygon: -128.513667,48.311 -143.000167,56.668667 -147.503333,56.667333 -147.500667,47.668333
     -136.997,47.666833 -129.9175,48.191167 -128.513667,48.311
   vertical:
   - 0.0
   - 40.0
+  vertical_positive: depthPositive
