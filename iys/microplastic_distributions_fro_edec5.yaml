@@ -108,9 +108,10 @@ identification:
       du saumon (IYS) dans le golfe de l'Alaska, qui a eu lieu en février et mars
       2019, afin d'améliorer encore la compréhension des facteurs ayant une incidence
       sur la survie du saumon en début d'hiver en mer.
+  associated_resources: []
   dates:
     creation: '2019-02-18'
-  identifier: 10.21966/wvnb-8g62
+  identifier: https://doi.org/10.21966/wvnb-8g62
   keywords:
     default:
       en:
@@ -122,8 +123,10 @@ identification:
     eov:
       en:
       - marineDebris
+      - other
       fr:
       - Débris marins
+      - Autre
   progress_code: completed
   status: published
   temporal_begin: '2019-02-18T20:00:00.000Z'
@@ -133,13 +136,18 @@ identification:
       of the Salmon Expedition
     fr: Répartition des microplastiques de l'Expédition 2019 de l'Année internationale
       du saumon dans le golfe de l'Alaska
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:03:16.364Z'
+    revision: '2024-09-10T18:02:44.025Z'
   identifier: edec5074-0644-49d7-86ff-03098113d6bf
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MbJEqt63Wz3uWRvpqBg
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -153,3 +161,4 @@ spatial:
   vertical:
   - 0.0
   - 0.2
+  vertical_positive: depthPositive
