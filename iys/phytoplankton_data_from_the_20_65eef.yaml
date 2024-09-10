@@ -70,6 +70,12 @@ identification:
       du saumon (IYS) dans le golfe de l'Alaska, qui a eu lieu en mars-avril 2020
       afin d'améliorer la compréhension des facteurs ayant une incidence sur la survie
       du saumon en début d'hiver en mer.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
   dates:
     creation: '2020-03-12'
   keywords:
@@ -82,8 +88,10 @@ identification:
     eov:
       en:
       - phytoplanktonBiomassAndDiversity
+      - other
       fr:
       - Biomasse et diversité de phytoplancton
+      - Autre
   progress_code: completed
   status: published
   temporal_begin: '2020-03-12T19:00:00.000Z'
@@ -93,13 +101,18 @@ identification:
       Salmon Expedition
     fr: Données phytoplanctoniques de l'Année internationale de l'expédition du saumon
       2020 dans le golfe d'Alaska
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:54:08.799Z'
+    revision: '2024-09-10T17:22:53.566Z'
   identifier: 65eefeae-79e3-4b25-a1a2-567873607398
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-MjBGDWHgc6yJ_jOP6cL
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -122,3 +135,4 @@ spatial:
   vertical:
   - 0.0
   - 300.0
+  vertical_positive: depthPositive
