@@ -98,6 +98,7 @@ identification:
       et l'étiquette a été transférée du flacon d'échantillon au flacon à scintillation.
       Le filtre a été retiré après filtration (à l'aide d'une pince) et placé doucement
       dans le flacon à scintillation, côté échantillon vers le haut.
+  associated_resources: []
   dates:
     creation: '2022-02-22'
   keywords:
@@ -125,13 +126,18 @@ identification:
     fr: Données sur la chlorophylle-A du NGCC Sir John Franklin pendant l'expédition
       hivernale en haute mer de l'Année internationale du saumon dans le Pacifique
       2022
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:45:41.792Z'
+    revision: '2024-09-10T18:08:24.751Z'
   identifier: d4b1fb12-9812-42c0-9d96-cbb22700d4f2
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/jnK2pbrIzbMBHpSiUOi8XDUeev93/-NBYep1KLZCukIg8jLQC
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -139,12 +145,7 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform:
-  description:
-    en: CCGS Sir John Franklin
-    fr: NGCC Sir John Franklin
-  id: 'IMO: 9781839'
-  type: research vessel
+platform: []
 spatial:
   polygon: -143.89225,57.010483 -143.997683,56.053433 -144.070066,55.0049 -144.024283,46.957766
     -144.00765,46.058066 -134.98995,47.031716 -132.075683,50.966483 -134.92445,52.978516
@@ -152,3 +153,4 @@ spatial:
   vertical:
   - 5.0
   - 150.0
+  vertical_positive: heightPositive
