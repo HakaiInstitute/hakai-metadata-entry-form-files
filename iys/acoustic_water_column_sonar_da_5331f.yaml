@@ -88,6 +88,7 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
+  associated_resources: []
   dates:
     creation: '2022-04-03'
     publication: '2022-10-27'
@@ -123,10 +124,10 @@ identification:
 metadata:
   dates:
     publication: '2023-09-15'
-    revision: '2024-03-20T19:28:11.809Z'
+    revision: '2024-09-10T17:47:16.651Z'
   identifier: 5331feb9-8826-4323-a79b-4b05e8535b68
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NAoutGa6blONqGSCxPA
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -149,15 +150,7 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform:
-  id: 'F/V Northwest Explorer IMO: 7926538'
-  instruments:
-  - id: Simrad ES80
-    manufacturer: Simrad
-    type:
-      en: Echo sounder
-      fr: Sondeur à écho
-  type: fishing vessel
+platform: []
 spatial:
   bbox:
   - -173.6731
@@ -167,3 +160,4 @@ spatial:
   vertical:
   - 10.0
   - 300.0
+  vertical_positive: heightPositive
