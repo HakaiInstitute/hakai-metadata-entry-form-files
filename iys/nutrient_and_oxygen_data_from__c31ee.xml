@@ -383,7 +383,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2023-09-12T17:26:33.989Z</gco:DateTime>
+        <gco:DateTime>2024-09-10T18:05:47.816Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -450,7 +450,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -463,7 +463,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -480,7 +480,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Nutrient and Oxygen Data from Rosette Bottles from the CCGS Sir John Franklin from the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Données sur les nutriments et l&#39;oxygène provenant de bouteilles à rosettes du NGCC Sir John Franklin lors de l&#39;expédition hivernale en haute mer de 2022 dans le cadre de l&#39;Année internationale du saumon dans le Pacifique</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -508,7 +508,7 @@
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
-                <gco:CharacterString>10.21966/zecd-5k74</gco:CharacterString>
+                <gco:CharacterString>https://doi.org/10.21966/zecd-5k74</gco:CharacterString>
               </mcc:code>
             </mcc:MD_Identifier>
           </cit:identifier>
@@ -1067,7 +1067,7 @@
                   <mrs:referenceSystemIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>5831</gco:CharacterString>
+                        <gco:CharacterString>5829</gco:CharacterString>
                       </mcc:code>
                       <mcc:codeSpace>
                         <gco:CharacterString>EPSG</gco:CharacterString>
@@ -1076,7 +1076,7 @@
                         <gco:CharacterString>2012-08-10</gco:CharacterString>
                       </mcc:version>
                       <mcc:description>
-                        <gco:CharacterString>EPSG::5831 - Instantaneous Water Level depth - Depth relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                        <gco:CharacterString>EPSG::5829 - Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
                       </mcc:description>
                     </mcc:MD_Identifier>
                   </mrs:referenceSystemIdentifier>
@@ -1110,7 +1110,7 @@
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://cioos-siooc.github.io/metadata-entry-form</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-ND0C1I8wgKtQuIlSjyh</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -1371,42 +1371,4 @@
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
-  <mdb:acquisitionInformation>
-    <mac:MI_AcquisitionInformation>
-      <mac:scope>
-        <mcc:MD_Scope>
-          <mcc:level>
-            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
-          </mcc:level>
-        </mcc:MD_Scope>
-      </mac:scope>
-      <mac:platform>
-        <mac:MI_Platform>
-          <mac:identifier>
-            <mcc:MD_Identifier>
-              <mcc:authority>
-                <cit:CI_Citation>
-                  <cit:title>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:title>
-                </cit:CI_Citation>
-              </mcc:authority>
-              <mcc:code>
-                <gco:CharacterString>9781839</gco:CharacterString>
-              </mcc:code>
-            </mcc:MD_Identifier>
-          </mac:identifier>
-          <mac:description>
-            <gco:CharacterString></gco:CharacterString>
-          </mac:description>
-          <mac:instrument/>
-          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
-            <gco:Record>
-              <gco:CharacterString>ship</gco:CharacterString>
-            </gco:Record>
-          </mac:otherProperty>
-        </mac:MI_Platform>
-      </mac:platform>
-    </mac:MI_AcquisitionInformation>
-  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>

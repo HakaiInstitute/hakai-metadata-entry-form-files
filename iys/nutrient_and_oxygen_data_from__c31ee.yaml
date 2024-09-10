@@ -77,10 +77,11 @@ identification:
       climatique de plus en plus extrême dans l'océan Pacifique Nord et les changements
       connexes de l'environnement physique influencent l'abondance, la distribution,
       la migration et la croissance du saumon du Pacifique et des espèces environnantes.
+  associated_resources: []
   dates:
     creation: '2022-02-22'
     publication: '2022-09-27'
-  identifier: 10.21966/zecd-5k74
+  identifier: https://doi.org/10.21966/zecd-5k74
   keywords:
     default:
       en:
@@ -112,13 +113,18 @@ identification:
     fr: Données sur les nutriments et l'oxygène provenant de bouteilles à rosettes
       du NGCC Sir John Franklin lors de l'expédition hivernale en haute mer de 2022
       dans le cadre de l'Année internationale du saumon dans le Pacifique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:26:33.989Z'
+    revision: '2024-09-10T18:05:47.816Z'
   identifier: c31eef20-f248-4f5f-a84a-9ef37001bda3
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-ND0C1I8wgKtQuIlSjyh
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -126,9 +132,7 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform:
-  id: '9781839'
-  type: ship
+platform: []
 spatial:
   polygon: 219.069217,56.935733 216.162284,57.008466 215.98515,55.975133 215.92355,55.043683
     215.976817,46.942683 215.989217,46.088933 225.009084,47.055133 227.88865,50.950383
@@ -136,3 +140,4 @@ spatial:
   vertical:
   - 5.0
   - 300.0
+  vertical_positive: heightPositive
