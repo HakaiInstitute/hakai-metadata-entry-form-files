@@ -83,6 +83,7 @@ identification:
       des facteurs ayant une incidence sur la survie hivernale du saumon en début
       de mer. Les marqueurs de la charge pathogène du saumon, du stress et de l'inflammation
       ont été évalués à l'aide d'une plateforme QPCR de nanofluidiques à haut débit.
+  associated_resources: []
   dates:
     creation: '2020-03-12'
   keywords:
@@ -98,6 +99,19 @@ identification:
       - microbeBiomassAndDiversity
       fr:
       - Biomasse et diversité microbienne
+    taxa:
+      en:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      fr:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
   progress_code: completed
   status: published
   temporal_begin: '2020-03-12T19:00:00.000Z'
@@ -107,13 +121,18 @@ identification:
       Salmon Expedition
     fr: Données sur les agents pathogènes du saumon de l'expédition du saumon 2020
       dans le golfe de l'Alaska
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:10:49.408Z'
+    revision: '2024-09-10T18:03:54.241Z'
   identifier: bd4c4a33-40fd-40bb-97b8-689de1b450fb
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MbgV6xEmkTFk9vibpIS
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -121,14 +140,7 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform:
-  description:
-    en: Pacific Legacy
-    fr: Pacific Legacy
-  id: 'IMO: 9211810'
-  instruments:
-  - id: Instrument ID (serial number or link to controlled vocabulary term)
-  type: research vessel
+platform: []
 spatial:
   polygon: -128.0575,48.4165 -129.5135,48.4275 -136.9833,47.4217 -138.5117,47.4 -138.5255,47.42
     -140.0017,47.4133 -141.4917,47.4417 -142.98,47.43 -143.0117,48.395 -144.4817,48.4033
@@ -144,3 +156,4 @@ spatial:
   vertical:
   - 0.0
   - 40.0
+  vertical_positive: depthPositive
