@@ -83,10 +83,11 @@ identification:
       des facteurs ayant une incidence sur la survie hivernale du saumon en début
       de mer. Les marqueurs de la charge pathogène du saumon, du stress et de l'inflammation
       ont été évalués à l'aide d'une plateforme QPCR de nanofluidiques à haut débit.
+  associated_resources: []
   dates:
     creation: '2019-02-18'
     publication: '2022-06-17'
-  identifier: 10.21966/hd4h-hq92
+  identifier: https://doi.org/10.21966/hd4h-hq92
   keywords:
     default:
       en:
@@ -103,6 +104,19 @@ identification:
       fr:
       - Autre
       - Biomasse et diversité microbienne
+    taxa:
+      en:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
+      fr:
+      - Animalia
+      - Chordata
+      - Salmoniformes
+      - Salmonidae
+      - Oncorhynchus
   progress_code: completed
   status: published
   temporal_begin: '2019-02-18T18:00:00.000Z'
@@ -112,13 +126,18 @@ identification:
       Salmon Expedition
     fr: Données sur les agents pathogènes du saumon de l'expédition du saumon 2019
       dans le golfe de l'Alaska
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T16:23:44.793Z'
+    revision: '2024-09-10T17:51:23.562Z'
   identifier: 46fab525-af7a-4164-9192-ae3813263585
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/MgLSkk3m0iXQyIRXEu0UL6y0BOo1/-MhoYwumY1W22yJJK7YQ
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -126,17 +145,11 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform:
-  description:
-    en: Professor Kaganovskii
-    fr: Professor Kaganovskii
-  id: http://vocab.nerc.ac.uk/collection/C17/current/90ZH/
-  instruments:
-  - id: Instrument ID (serial number or link to controlled vocabulary term)
-  type: research vessel
+platform: []
 spatial:
   polygon: -128.513667,48.311 -143.000167,56.668667 -147.503333,56.667333 -147.500667,47.668333
     -136.997,47.666833 -129.9175,48.191167 -128.513667,48.311
   vertical:
   - 0.0
   - 40.0
+  vertical_positive: depthPositive
