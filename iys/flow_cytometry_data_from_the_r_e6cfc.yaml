@@ -142,9 +142,10 @@ identification:
       des Cryptophytes). Des échantillons d''eau pour la chlorophylle a totale (Chla)
       ont été prélevés dans des bouteilles Niskin à six profondeurs (5, 25, 50, 75,
       100, 150 m) à toutes les stations étudiées.'
+  associated_resources: []
   dates:
     creation: '2022-02-05'
-  identifier: 10.21966/j26w-by50
+  identifier: https://doi.org/10.21966/j26w-by50
   keywords:
     default:
       en:
@@ -177,15 +178,20 @@ identification:
     fr: Données de cytométrie en flux du R/V TINRO, de Bell M. Shimada de la NOAA
       et du NGCC Sir John Franklin pendant l'expédition hivernale en haute mer 2022
       de l'Année internationale du saumon dans le Pacifique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 instruments:
 - id: Niskin bottle
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:44:23.913Z'
+    revision: '2024-09-10T18:08:11.463Z'
   identifier: e6cfc3ce-06da-4591-aec2-f9e96b7be063
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/jnK2pbrIzbMBHpSiUOi8XDUeev93/-N85GJCkgo7pZ9xsRC6U
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -202,3 +208,4 @@ spatial:
   vertical:
   - 0.0
   - 5.0
+  vertical_positive: heightPositive
