@@ -70,10 +70,11 @@ identification:
       mer 2022 de l'Année internationale du saumon. Des lancers de CTD ont été effectués
       à chaque station de chalut jusqu'à une profondeur de 1 000 m à l'aide d'un CTD
       Seabird 911.
+  associated_resources: []
   dates:
     creation: '2022-03-02'
     publication: '2022-05-27'
-  identifier: 10.21966/rfv4-e505
+  identifier: https://doi.org/10.21966/rfv4-e505
   keywords:
     default:
       en:
@@ -100,6 +101,11 @@ identification:
       2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition
     fr: Données CTD (conductivité, température, profondeur) du navire TINRO et de
       l'expédition de l'Année internationale du saumon 2022
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 instruments:
 - id: Seabird 911
   manufacturer: Seabird
@@ -110,10 +116,10 @@ instruments:
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2023-09-12T17:19:38.358Z'
+    revision: '2024-09-10T18:05:16.736Z'
   identifier: 62dc9c32-db61-40de-b5bb-8daf0307b1c5
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-N35UU9m4b45_J6qefGI
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -128,3 +134,4 @@ spatial:
   vertical:
   - 0.0
   - 102.0
+  vertical_positive: heightPositive
