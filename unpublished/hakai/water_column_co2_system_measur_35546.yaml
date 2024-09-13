@@ -25,8 +25,10 @@ contact:
     address: 303-1100 Island Highway
     city: Campbell River
     country: Canada
-    email: katie.campbell@hakai.org
-    name: Tula Foundation / Hakai Institute
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - owner
   - custodian
@@ -41,12 +43,23 @@ contact:
     address: 303-1100 Island Highway
     city: Campbell River
     country: Canada
-    email: carrie.weekes@hakai.org
-    name: Tula Foundation / Hakai Institute
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - custodian
   - owner
   - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 distribution:
 - name:
     en: GitHub
@@ -125,12 +138,15 @@ identification:
           verified: false
   dates:
     creation: '2016-01-19'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/k1xg-6920
   keywords:
     default:
       en:
-      - ocean acidification, marine inorganic carbon, British Columbia, Strait of
-        Georgia
+      - ocean acidification
+      - marine inorganic carbon
+      - British Columbia
+      - Strait of Georgia
     eov:
       en:
       - inorganicCarbon
@@ -165,7 +181,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-09-13T21:26:23.868Z'
+    revision: '2024-09-13T21:40:11.440Z'
   history:
   - processingStep:
     - authority: DOI
