@@ -106,7 +106,23 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: Obsoletes
+    association_type_iso: revisionOf
+    authority: DOI
+    code: https://doi.org/10.21966/1.715738
+    title:
+      en: Water column CO2 system measurements from Hakai Oceanographic station QU39
+        from January 2016 to December 2017 in northern Salish Sea, British Columbia,
+        Canada
+      fr: Mesures du système de CO2 de la colonne d'eau de la station océanographique
+        QU39 de Hakai de janvier 2016 à décembre 2017 dans le nord de la mer des Salish,
+        en Colombie-Britannique, au Canada
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2016-01-19'
   identifier: https://doi.org/10.21966/k1xg-6920
@@ -149,7 +165,33 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-09-12T23:27:03.787Z'
+    revision: '2024-09-13T21:26:23.868Z'
+  history:
+  - processingStep:
+    - authority: DOI
+      code: https://doi.org/10.21966/1.521066
+      description:
+        en: Protocol outlining sample collection and data processing.
+        fr: Protocole décrivant la collecte des échantillons et le traitement des
+          données.
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+      title:
+        en: Hakai Institute’s Burke-o-Lator TCO2/pCO2 Analyzer Discrete Sample Analysis
+          Protocols
+    scope: DataCollectionSampling
+    scopeIso: collectionSession
+    statement:
+      en: Protocol sample collection and data processing
+      fr: Collecte d'échantillons de protocoles et traitement des données
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   identifier: 355467ad-104d-40a6-b06e-52a67bfe247e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-O6XpUwSfsllQlTBMz53
