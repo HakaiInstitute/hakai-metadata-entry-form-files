@@ -1293,7 +1293,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-23T08:05:38.288Z</gco:DateTime>
+        <gco:DateTime>2024-10-01T16:25:32.913Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1350,7 +1350,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -1363,7 +1363,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -3395,6 +3395,257 @@ Certains échantillons, en particulier ceux du début de la série chronologique
           </cit:onlineResource>
         </cit:CI_Citation>
       </mrl:additionalDocumentation>
+      <mrl:additionalDocumentation>
+        <cit:CI_Citation>
+          <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Taxonomic key used to identify diatom taxa</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Clé taxonomique utilisée pour identifier les taxons de diatomées</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </cit:title>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://www.sciencedirect.com/book/9780126930153/identifying-marine-diatoms-and-dinoflagellates</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
+          <cit:onlineResource>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://www.sciencedirect.com/book/9780126930153/identifying-marine-diatoms-and-dinoflagellates</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+            </cit:CI_OnlineResource>
+          </cit:onlineResource>
+        </cit:CI_Citation>
+      </mrl:additionalDocumentation>
+      <mrl:additionalDocumentation>
+        <cit:CI_Citation>
+          <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Taxonomic key used to identify flagellate taxa other than dinoflagellates and coccolithophores</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Clé taxonomique utilisée pour identifier les taxons flagellés autres que les dinoflagellés et les coccolithophores</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </cit:title>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://books.google.ca/books/about/Marine_Phytoplankton.html?id=_lgVAQAAIAAJ&amp;redir_esc=y</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
+          <cit:onlineResource>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://books.google.ca/books/about/Marine_Phytoplankton.html?id=_lgVAQAAIAAJ&amp;redir_esc=y</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+            </cit:CI_OnlineResource>
+          </cit:onlineResource>
+        </cit:CI_Citation>
+      </mrl:additionalDocumentation>
+      <mrl:additionalDocumentation>
+        <cit:CI_Citation>
+          <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Taxonomic key used to identify dinoflagellate taxa</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Clé taxonomique utilisée pour identifier les taxons de dinoflagellés</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </cit:title>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://www.sciencedirect.com/book/9780126930153/identifying-marine-diatoms-and-dinoflagellates</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
+          <cit:onlineResource>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://www.sciencedirect.com/book/9780126930153/identifying-marine-diatoms-and-dinoflagellates</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+            </cit:CI_OnlineResource>
+          </cit:onlineResource>
+        </cit:CI_Citation>
+      </mrl:additionalDocumentation>
+      <mrl:processStep>
+        <mrl:LI_ProcessStep>
+          <mrl:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Taxonomic key used to identify diatom taxa</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Clé taxonomique utilisée pour identifier les taxons de diatomées</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mrl:description>
+          <mrl:reference>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Hasle, G.R. and E.E. Syvertsen.  1996. Marine diatoms.  In Tomas, C. (ed) Identification of marine diatoms and dinoflagellates.  Academic Press, San Diego. Pp 5-385.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Hasle, G.R. et E.E. Syvertsen. 1996. Diatomées marines. Dans Tomas, C. (ed) Identification des diatomées et dinoflagellés marins. Academic Press, San Diego. Pages 55 à 385.</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://www.sciencedirect.com/book/9780126930153/identifying-marine-diatoms-and-dinoflagellates</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.sciencedirect.com/book/9780126930153/identifying-marine-diatoms-and-dinoflagellates</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Citation>
+          </mrl:reference>
+        </mrl:LI_ProcessStep>
+      </mrl:processStep>
+      <mrl:processStep>
+        <mrl:LI_ProcessStep>
+          <mrl:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Taxonomic key used to identify flagellate taxa other than dinoflagellates and coccolithophores</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Clé taxonomique utilisée pour identifier les taxons flagellés autres que les dinoflagellés et les coccolithophores</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mrl:description>
+          <mrl:reference>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Throndsen, J.  1993. The planktonic marine flagellates.  In Tomas, C. (ed) Marine phytoplankton.  Academic Press, San Diego, pp. 7-145.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Throndsen, J. 1993. Les flagellés marins planctoniques. Dans Tomas, C. (ed) Phytoplancton marin. Academic Press, San Diego, p. 7 à 145.</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://books.google.ca/books/about/Marine_Phytoplankton.html?id=_lgVAQAAIAAJ&amp;redir_esc=y</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://books.google.ca/books/about/Marine_Phytoplankton.html?id=_lgVAQAAIAAJ&amp;redir_esc=y</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Citation>
+          </mrl:reference>
+        </mrl:LI_ProcessStep>
+      </mrl:processStep>
+      <mrl:processStep>
+        <mrl:LI_ProcessStep>
+          <mrl:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Taxonomic key used to identify dinoflagellate taxa</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Clé taxonomique utilisée pour identifier les taxons de dinoflagellés</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mrl:description>
+          <mrl:reference>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Steidinger, K.A. and K. Tangen.  1996. Dinoflagellates.  In Tomas, C. (ed) Identification of marine diatoms and dinoflagellates.  Academic Press, San Diego, Pp 387-598.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Steidinger, K. A. et K. Tangen. 1996. Dinoflagellés. Dans Tomas, C. (ed) Identification des diatomées et dinoflagellés marins. Academic Press, San Diego, pages 387 à 598.</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://www.sciencedirect.com/book/9780126930153/identifying-marine-diatoms-and-dinoflagellates</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.sciencedirect.com/book/9780126930153/identifying-marine-diatoms-and-dinoflagellates</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Citation>
+          </mrl:reference>
+        </mrl:LI_ProcessStep>
+      </mrl:processStep>
+      <mrl:processStep>
+        <mrl:LI_ProcessStep>
+          <mrl:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Taxonomic key from local waters used to identify small flagellate species</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Clé taxonomique des eaux locales utilisée pour identifier les petites espèces flagellées</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mrl:description>
+          <mrl:reference>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Smith, P.J. 1991.  Taxonomic survey of nanoplankton in Saanich Inlet, B.C.  M.Sc. Thesis, University of Victoria.  Pp 1-198.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Smith, P. J. 1991. Étude taxonomique du nanoplancton à Saanich Inlet, en Colombie-Britannique. M.Sc. Thèse, Université de Victoria. Pages 1 à 198.</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=30361177</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=30361177</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Citation>
+          </mrl:reference>
+        </mrl:LI_ProcessStep>
+      </mrl:processStep>
     </mrl:LI_Lineage>
   </mdb:resourceLineage>
   <mdb:resourceLineage>
