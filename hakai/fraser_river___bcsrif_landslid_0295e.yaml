@@ -39,19 +39,21 @@ contact:
   - funder
 distribution:
 - description:
-    en: Metadata document detailing the survey work along the Fraser River in 2022.
-    fr: Document de métadonnées détaillant les travaux d'enquête le long du fleuve
-      Fraser en 2022.
-  name:
-    en: Hakai Institute Google Drive
-    fr: Google Drive de l'Institut Hakai
-  url: https://drive.google.com/file/d/1QZSxHws6FA5lrG1e3SPEYRXeT4B9sJor/view?usp=share_link
-- description:
     en: Webmap showing the areas surveyed in by the Airborne Coastal Observatory
     fr: Carte Web montrant les zones étudiées par l'Observatoire côtier aéroporté
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Airborne Coastal Observatory Webmap
     fr: Carte Web de l'observatoire côtier aéroporté de Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
 identification:
   abstract:
@@ -106,7 +108,20 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/1QZSxHws6FA5lrG1e3SPEYRXeT4B9sJor/view?usp=share_link
+    title:
+      en: Metadata document detailing the survey work along the Fraser River in 2022.
+      fr: Document de métadonnées détaillant les travaux d'enquête le long du fleuve
+        Fraser en 2022.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2022-07-12'
     publication: '2022-11-30'
@@ -144,7 +159,7 @@ identification:
 metadata:
   dates:
     publication: '2023-01-18'
-    revision: '2024-10-02T21:18:34.383Z'
+    revision: '2024-10-02T21:21:39.684Z'
   identifier: 0295e3a3-11b5-494d-ac60-ed4b95a15fad
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NM1KNXhdzhmufY6WFeO
@@ -165,7 +180,49 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Airborne Coastal Observatory - Piper Navajo
+    fr: Observatoire côtier aéroporté - Piper Navajo
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory – Hakai Institute
+  instruments:
+  - description:
+      en: Laser scanner used to measure the earth’s surface topography and vegetation
+      fr: Scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: Laser scanner
+      fr: Scanneur laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+    id: Aerial cameras
+    manufacturer: Phaseone Industrial
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+    version: iXU-RS1000
+  type: aeroplane
 spatial:
   bbox:
   - -121.7
