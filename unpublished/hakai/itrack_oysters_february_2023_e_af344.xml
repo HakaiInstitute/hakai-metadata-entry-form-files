@@ -1344,7 +1344,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-10-01T16:12:22.598Z</gco:DateTime>
+        <gco:DateTime>2024-10-02T20:40:10.298Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -4212,145 +4212,171 @@ Compte tenu des efforts nécessaires pour obtenir ces données et créer des pac
           </mcc:level>
         </mcc:MD_Scope>
       </mac:scope>
-      <mac:instrument>
-        <mac:MI_Instrument>
+      <mac:platform>
+        <mac:MI_Platform>
           <mac:identifier>
             <mcc:MD_Identifier>
               <mcc:authority>
                 <cit:CI_Citation>
                   <cit:title>
-                    <gco:CharacterString>Honeywell</gco:CharacterString>
+                    <gco:CharacterString></gco:CharacterString>
                   </cit:title>
                 </cit:CI_Citation>
               </mcc:authority>
               <mcc:code>
-                <gco:CharacterString>Durafet</gco:CharacterString>
+                <gco:CharacterString>https://vocab.nerc.ac.uk/collection/L06/current/99/</gco:CharacterString>
               </mcc:code>
-              <mcc:version>
-                <gco:CharacterString>III</gco:CharacterString>
-              </mcc:version>
-              <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments&amp;sensors/ph-orp-sensors/durafet-ph-sensor/pmt-hps-70-83-58-01.pdf</gco:CharacterString>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description>
+            <gco:CharacterString></gco:CharacterString>
+          </mac:description>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Honeywell</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Durafet</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>III</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments&amp;sensors/ph-orp-sensors/durafet-ph-sensor/pmt-hps-70-83-58-01.pdf</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments&amp;sensors/ph-orp-sensors/durafet-ph-sensor/pmt-hps-70-83-58-01.pdf</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>pH sensor</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup>
-                    <lan:LocalisedCharacterString locale="#fr">https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments&amp;sensors/ph-orp-sensors/durafet-ph-sensor/pmt-hps-70-83-58-01.pdf</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">capteur de pH</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
-              </mcc:description>
-            </mcc:MD_Identifier>
-          </mac:identifier>
-          <mac:type xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>pH sensor</gco:CharacterString>
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">capteur de pH</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mac:type>
-        </mac:MI_Instrument>
-      </mac:instrument>
-      <mac:instrument>
-        <mac:MI_Instrument>
-          <mac:identifier>
-            <mcc:MD_Identifier>
-              <mcc:authority>
-                <cit:CI_Citation>
-                  <cit:title>
-                    <gco:CharacterString>Walchem</gco:CharacterString>
-                  </cit:title>
-                </cit:CI_Citation>
-              </mcc:authority>
-              <mcc:code>
-                <gco:CharacterString>W600</gco:CharacterString>
-              </mcc:code>
-              <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>https://www.walchem.com/Literature/Controllers/W600/180600_W600%20Manual.pdf</gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Walchem</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>W600</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>https://www.walchem.com/Literature/Controllers/W600/180600_W600%20Manual.pdf</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">https://www.walchem.com/Literature/Controllers/W600/180600_W600%20Manual.pdf</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Water Treatment Controller with temperature sensor input</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">https://www.walchem.com/Literature/Controllers/W600/180600_W600%20Manual.pdf</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Régulateur de traitement de l&#39;eau avec entrée de capteur de température</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
-              </mcc:description>
-            </mcc:MD_Identifier>
-          </mac:identifier>
-          <mac:type xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Water Treatment Controller with temperature sensor input</gco:CharacterString>
-            <lan:PT_FreeText>
-              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Régulateur de traitement de l&#39;eau avec entrée de capteur de température</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mac:type>
-        </mac:MI_Instrument>
-      </mac:instrument>
-      <mac:instrument>
-        <mac:MI_Instrument>
-          <mac:identifier>
-            <mcc:MD_Identifier>
-              <mcc:authority>
-                <cit:CI_Citation>
-                  <cit:title>
-                    <gco:CharacterString>YSI</gco:CharacterString>
-                  </cit:title>
-                </cit:CI_Citation>
-              </mcc:authority>
-              <mcc:code>
-                <gco:CharacterString>Multilab IDS 4010-1</gco:CharacterString>
-              </mcc:code>
-              <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>https://www.ysi.com/multilab-4010-1?srsltid=AfmBOooGXVnX6dEqfftJMddOVU8VbeByoP43vlo01vKh-ABQBWfGFuV_</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup>
-                    <lan:LocalisedCharacterString locale="#fr">https://www.ysi.com/multilab-4010-1?srsltid=AfmBOooGXVnX6dEqfftJMddOVU8VbeByoP43vlo01vKh-ABQBWfGFuV_</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </mcc:description>
-            </mcc:MD_Identifier>
-          </mac:identifier>
-          <mac:type xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Salinity measurement</gco:CharacterString>
-            <lan:PT_FreeText>
-              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Mesure de la salinité</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mac:type>
-        </mac:MI_Instrument>
-      </mac:instrument>
-      <mac:instrument>
-        <mac:MI_Instrument>
-          <mac:identifier>
-            <mcc:MD_Identifier>
-              <mcc:authority>
-                <cit:CI_Citation>
-                  <cit:title>
-                    <gco:CharacterString>Dakunalytics</gco:CharacterString>
-                  </cit:title>
-                </cit:CI_Citation>
-              </mcc:authority>
-              <mcc:code>
-                <gco:CharacterString>Burke-o-Lator TCO2/pCO2 Analyzer</gco:CharacterString>
-              </mcc:code>
-              <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>10.21966/1.521066</gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>YSI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Multilab IDS 4010-1</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>https://www.ysi.com/multilab-4010-1?srsltid=AfmBOooGXVnX6dEqfftJMddOVU8VbeByoP43vlo01vKh-ABQBWfGFuV_</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">https://www.ysi.com/multilab-4010-1?srsltid=AfmBOooGXVnX6dEqfftJMddOVU8VbeByoP43vlo01vKh-ABQBWfGFuV_</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Salinity measurement</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">https://www.ysi.com/multilab-4010-1?srsltid=AfmBOooGXVnX6dEqfftJMddOVU8VbeByoP43vlo01vKh-ABQBWfGFuV_</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Mesure de la salinité</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
-              </mcc:description>
-            </mcc:MD_Identifier>
-          </mac:identifier>
-          <mac:type xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>TCO2/pCO2 Analyzer</gco:CharacterString>
-            <lan:PT_FreeText>
-              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Analyseur tCO2/pCO2</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mac:type>
-        </mac:MI_Instrument>
-      </mac:instrument>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Dakunalytics</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Burke-o-Lator TCO2/pCO2 Analyzer</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>10.21966/1.521066</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">https://www.ysi.com/multilab-4010-1?srsltid=AfmBOooGXVnX6dEqfftJMddOVU8VbeByoP43vlo01vKh-ABQBWfGFuV_</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>TCO2/pCO2 Analyzer</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Analyseur tCO2/pCO2</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>mesocosm tank</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
     </mac:MI_AcquisitionInformation>
   </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
