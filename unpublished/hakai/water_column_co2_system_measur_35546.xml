@@ -998,7 +998,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-10-08T16:10:53.465Z</gco:DateTime>
+        <gco:DateTime>2024-10-08T22:25:51.085Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2734,7 +2734,7 @@
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://github.com/HakaiInstitute/QU39_inorganic_carbon_data_2016_2023</gco:CharacterString>
+                <gco:CharacterString>https://github.com/HakaiInstitute/QU39_inorganic_carbon_data_2016_2023/releases/tag/v1.0</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -2747,28 +2747,13 @@
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
-              <cit:description>
-                <gco:CharacterString></gco:CharacterString>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0297364</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>NOAA Ocean Carbon and Acidification Data System</gco:CharacterString>
-              </cit:name>
-              <cit:description>
-                <gco:CharacterString>Ocean acidification data repository for the Global Ocean Acidification Observing Network North American Hub</gco:CharacterString>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>First release of data package.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Première version du package de données.</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>

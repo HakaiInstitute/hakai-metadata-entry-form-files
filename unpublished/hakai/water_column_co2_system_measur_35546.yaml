@@ -73,7 +73,15 @@ contact:
   roles:
   - funder
 distribution:
-- name:
+- description:
+    en: First release of data package.
+    fr: Première version du package de données.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
     en: GitHub
     fr: GitHub
     translations:
@@ -81,13 +89,7 @@ distribution:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://github.com/HakaiInstitute/QU39_inorganic_carbon_data_2016_2023
-- description:
-    en: Ocean acidification data repository for the Global Ocean Acidification Observing
-      Network North American Hub
-  name:
-    en: NOAA Ocean Carbon and Acidification Data System
-  url: https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0297364
+  url: https://github.com/HakaiInstitute/QU39_inorganic_carbon_data_2016_2023/releases/tag/v1.0
 identification:
   abstract:
     en: Carbon dioxide partial pressure (pCO2) and total dissolved inorganic carbon
@@ -218,7 +220,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-10-08T16:10:53.465Z'
+    revision: '2024-10-08T22:25:51.085Z'
   history:
   - processingStep:
     - authority: DOI
