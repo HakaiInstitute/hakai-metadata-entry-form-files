@@ -998,7 +998,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-10-08T22:27:10.430Z</gco:DateTime>
+        <gco:DateTime>2024-10-08T22:28:04.483Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1097,6 +1097,16 @@
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2024-10-08</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
@@ -2058,7 +2068,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>Carbon dioxide partial pressure (pCO2) and total dissolved inorganic carbon (TCO2) measurements were made on seawater collected from 12 depths at oceanographic station QU39 in the northern Strait of Georgia approximately every two weeks from January 2016 to December 2023. These data were collected as part of the Hakai Institute’s objective to report on patterns of ocean acidification in coastal British Columbia. Temperature, salinity, and pressure data were also captured using CTD profilers (either Sea-Bird Electronics or RBR units following best practices) at the time of seawater collection, and profile data was extracted for the depth at which Niskin bottles were tripped. Sampling depth was determined by calibrated line meter on the research vessel or RBR Solo pressure sensors attached to the Niskin bottle. Samples were fixed at the time of collection using 80 µl of mercuric chloride aboard the Hakai Institute’s research vessel. Temperature and salinity were determined at the time of sample analysis at the Quadra Island Field Station (QIFS) using NIST traceable thermometers (VWR PN 23609-176) and a YSI MultiLab 4010-1 with a MultiLab IDS 4310 conductivity and temperature probe. The YSI probe was calibrated using certified reference materials of known salinity prior to seawater sample analysis. For detailed protocols on sample collection and data processing, including CO2 system determination, please see Campbell et al. (2023; http://dx.doi.org/10.21966/1.521066).</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Des mesures de pression partielle de dioxyde de carbone (pCO2) et de carbone inorganique dissous total (TCO2) ont été effectuées sur de l&#39;eau de mer collectée à 12 profondeurs à la station océanographique QU39 dans le nord du détroit de Géorgie environ toutes les deux semaines de janvier 2016 à décembre 2023. Ces données ont été recueillies dans le cadre de l&#39;objectif de l&#39;Institut Hakai de rendre compte des modèles d&#39;acidification des océans sur la côte de la Colombie-Britannique. Les données de température, de salinité et de pression ont également été saisies à l&#39;aide de profileurs CTD (unités Sea-Bird Electronics ou RBR suivant les meilleures pratiques) au moment de la collecte de l&#39;eau de mer, et les données de profil ont été extraites pour la profondeur à laquelle les bouteilles Niskin ont été larguées. La profondeur d&#39;échantillonnage a été déterminée à l&#39;aide d&#39;un compteur linéaire étalonné sur le récipient de recherche ou de capteurs de pression RBR Solo fixés à la bouteille Niskin. Les échantillons ont été fixés au moment du prélèvement à l&#39;aide de 80 µl de chlorure mercurique à bord du navire de recherche de l&#39;Institut Hakai. La température et la salinité ont été déterminées au moment de l&#39;analyse des échantillons à la station de terrain de Quadra Island (QIFS) à l&#39;aide de thermomètres traçables du NIST (VWR PN 23609-176) et d&#39;un YSI MultiLab 4010-1 équipé d&#39;une sonde de conductivité et de température MultiLab IDS 4310. La sonde YSI a été étalonnée à l&#39;aide de matériaux de référence certifiés dont la salinité est connue avant l&#39;analyse des échantillons d&#39;eau de mer. Pour des protocoles détaillés sur la collecte d&#39;échantillons et le traitement des données, y compris la détermination du système de CO2, veuillez consulter Campbell et al. (2023 ; http://dx.doi.org/10.21966/1.521066).</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
