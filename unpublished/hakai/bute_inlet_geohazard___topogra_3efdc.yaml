@@ -1,5 +1,5 @@
 contact:
-- inCitation: true
+- inCitation: false
   organization:
     address: 1002 Wharf Street
     city: Campbell River
@@ -28,7 +28,7 @@ contact:
     url: https://tula.org
   roles:
   - funder
-- inCitation: false
+- inCitation: true
   organization:
     address: 303-1100 Island Hwy
     city: Campbell River
@@ -38,6 +38,13 @@ contact:
     url: https://www.hakai.org/
   roles:
   - originator
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - author
+  - custodian
+  - owner
+  - distributor
 distribution:
 - description:
     en: Bute Inlet Geohazard Metadata Report
@@ -184,7 +191,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-10-09T23:20:05.131Z'
+    revision: '2024-10-09T23:21:01.357Z'
   identifier: 3efdccb0-08ef-4e90-ac91-72969f94a99a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpRG7xQ84LQrgS4jhie
