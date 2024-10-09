@@ -69,7 +69,13 @@ identification:
       Repeat ACO surveys over selected areas of interest will be used in conjunction
       with more frequent RPAS-based surveys, field measurements of snow density, and
       distributed surface energy models to yield spatio-temporal observations of SWE
-      and how it varies in time and space.'
+      and how it varies in time and space.
+
+
+      The Airborne Coastal Observatory (ACO) is an aerial remote sensing platform
+      operated by Hakai Institute, with support from partners UNBC and Kisik Aerial
+      Survey. The platform is primarily focused on monitoring Ice and Snow as a part
+      of Hakai’s Cryosphere program, but the platform works on a range of applications.'
     fr: 'Dans le cadre de l''axe cryosphère de Hakai (dirigé par Bill Floyd et Brian
       Menounos) et en collaboration avec des partenaires de recherche de l''Université
       de l''île de Vancouver (gouvernement de la Colombie-Britannique, BC Hydro, Metro
@@ -87,11 +93,23 @@ identification:
       conjointement à des relevés plus fréquents basés sur des RPAS, à des mesures
       sur le terrain de la densité de la neige et à des modèles d''énergie de surface
       distribués pour fournir des observations spatio-temporelles du SWE et de sa
-      variation dans le temps et dans l''espace.'
+      variation dans le temps et dans l''espace.
+
+
+      L''Observatoire côtier aéroporté (ACO) est une plateforme de télédétection aérienne
+      exploitée par l''Institut Hakai, avec le soutien des partenaires UNBC et Kisik
+      Aerial Survey. La plateforme se concentre principalement sur la surveillance
+      de la glace et de la neige dans le cadre du programme Cryosphere de Hakai, mais
+      elle fonctionne sur une gamme d''applications.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2023-03-10'
-    publication: '2024-01-30'
+    publication: '2024-03-01'
   edition: '1.0'
   identifier: https://doi.org/10.21966/thq7-0g08
   keywords:
@@ -102,6 +120,8 @@ identification:
       - lidar
       - Hakai Institute
       - ice
+      - freshwater
+      - aco
     eov:
       en:
       - other
@@ -113,6 +133,7 @@ identification:
   progress_code: completed
   project:
   - Airborne Coastal Observatory
+  - Geospatial
   status: submitted
   temporal_begin: '2023-03-10T20:00:00.000Z'
   temporal_end: '2023-08-19T19:00:00.000Z'
@@ -120,12 +141,17 @@ identification:
     en: Cryosphere Snow Surveys - 2023 - Hakai Airborne Coastal Observatory
     fr: Relevés de la neige dans la cryosphère - 2023 - Observatoire côtier aéroporté
       de Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
-    revision: '2024-02-05T19:51:30.434Z'
+    revision: '2024-10-09T22:51:34.763Z'
   identifier: 33a367c1-2706-4301-af99-4455fbe189a0
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpRfMcU9I8mMcBH6qiv
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpRfMcU9I8mMcBH6qiv
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -138,6 +164,11 @@ metadata:
         dataset.
       fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
         de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 platform: []
 spatial:
   bbox:
