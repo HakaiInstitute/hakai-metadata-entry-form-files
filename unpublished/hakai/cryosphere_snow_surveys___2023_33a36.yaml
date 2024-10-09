@@ -50,10 +50,20 @@ distribution:
     en: Google drive link for cryosphere snow surveys metadata report
     fr: Lien Google Drive pour le rapport de métadonnées sur les relevés de neige
       dans la cryosphère
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Google drive link for cryosphere snow surveys metadata report
     fr: Lien Google Drive pour le rapport de métadonnées sur les relevés de neige
       dans la cryosphère
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/file/d/1Q_vZwbxk2djrf0uf0YCCQv_NPcBMxFLO/view?usp=drive_link
 identification:
   abstract:
@@ -108,7 +118,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsNewVersionOf
+    association_type_iso: revisionOf
+    authority: URL
+    code: https://drive.google.com/file/d/1Q_vZwbxk2djrf0uf0YCCQv_NPcBMxFLO/view?usp=drive_link
+    title:
+      en: ACO metadata report. Cryosphere 2023.
+      fr: Rapport sur les métadonnées de l'ACO. Cryosphère 2023.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2023-03-10'
     publication: '2024-03-01'
@@ -150,7 +172,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-10-09T22:55:43.058Z'
+    revision: '2024-10-09T22:57:57.539Z'
   identifier: 33a367c1-2706-4301-af99-4455fbe189a0
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpRfMcU9I8mMcBH6qiv
