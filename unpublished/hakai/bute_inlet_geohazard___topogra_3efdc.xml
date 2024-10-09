@@ -1158,7 +1158,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-10-09T23:25:20.599Z</gco:DateTime>
+        <gco:DateTime>2024-10-09T23:39:36.007Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2007,8 +2007,13 @@ la plate-forme fonctionne sur une gamme d&#39;applications.</lan:LocalisedCharac
         <mri:MD_AssociatedResource>
           <mri:name>
             <cit:CI_Citation>
-              <cit:title>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Airborne Coastal Observatory Bute Inlet Geohazard Report 2023</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Rapport de géorisque 2023 de l&#39;Observatoire côtier aéroporté de Bute Inlet</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
@@ -2204,7 +2209,7 @@ la plate-forme fonctionne sur une gamme d&#39;applications.</lan:LocalisedCharac
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Hakai Airborne Coastal Observatory Webmap</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Carte Web de l&#39;Observatoire côtier aéroporté de Hakai</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
@@ -2212,7 +2217,7 @@ la plate-forme fonctionne sur une gamme d&#39;applications.</lan:LocalisedCharac
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Webmap showing the areas surveyed in by the Airborne Coastal Observatory</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Carte Web montrant les zones étudiées par l&#39;Observatoire côtier aéroporté</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
