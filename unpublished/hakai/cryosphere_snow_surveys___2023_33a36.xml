@@ -1294,7 +1294,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-10-09T22:57:57.539Z</gco:DateTime>
+        <gco:DateTime>2024-10-09T22:58:08.082Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2685,4 +2685,120 @@ L&#39;Observatoire côtier aéroporté (ACO) est une plateforme de télédétect
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>Airborne Coastal Observatory – Hakai Institute</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Airborne Coastal Observatory - Piper Navajo</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Observatoire côtier aéroporté - Piper Navajo</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Riegl</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Laser sensor LMS-Q 780</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>LMS-Q 780 long-range airborne laser scanner</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Laser scanner used to measure the earth’s surface topography and vegetation</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">Scanner laser utilisé pour mesurer la topographie et la végétation de la surface de la Terre</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Laser scanner</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Scanneur laser</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Phaseone Industrial</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Aerial cameras iXU-RS1000</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>iXU-RS1000</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000 entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>medium format cameras</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">appareils photo de format moyen</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>aeroplane</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
