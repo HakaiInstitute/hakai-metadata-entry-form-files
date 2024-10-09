@@ -1,5 +1,5 @@
 contact:
-- inCitation: true
+- inCitation: false
   individual:
     email: data@hakai.org
     position: Geospatial Science
@@ -11,7 +11,11 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - publisher
+  - principalInvestigator
+  - pointOfContact
+  - owner
+  - custodian
+  - distributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -43,7 +47,6 @@ contact:
   - rightsHolder
   - principalInvestigator
   - processor
-  - distributor
 distribution:
 - description:
     en: USGS Glacier Mapping Data Collection Report
@@ -163,7 +166,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-10-09T23:47:49.107Z'
+    revision: '2024-10-09T23:48:19.099Z'
   identifier: 43422dc8-2573-4f60-bf87-df447d57ab7a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpRKhzLRiCcp6ENuX2r
