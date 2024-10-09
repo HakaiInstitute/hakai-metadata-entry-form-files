@@ -48,10 +48,20 @@ distribution:
 - description:
     en: USGS Glacier Mapping Data Collection Report
     fr: Rapport de collecte de données cartographiques des glaciers de l'USGS
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Institute Google Drive Metadata Report Link - USGS Glacier Mapping
     fr: Lien vers le rapport de métadonnées Google Drive de l'Institut Hakai - USGS
       Glacier Mapping
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/file/d/1darjhrdMVVZESNy0D_8aRbos95RkUfjR/view?usp=drive_link
 - description:
     en: Webmap showing the areas surveyed in by the Airborne Coastal Observatory
@@ -124,7 +134,20 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsNewVersionOf
+    association_type_iso: revisionOf
+    authority: URL
+    code: https://drive.google.com/file/d/1darjhrdMVVZESNy0D_8aRbos95RkUfjR/view?usp=drive_link
+    title:
+      en: USGS Glacier Mapping 2023 - Airborne Coastal Observatory - Metadata Report
+      fr: Cartographie des glaciers de l'USGS 2023 - Observatoire côtier aéroporté
+        - Rapport de métadonnées
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2023-05-02'
     publication: '2024-01-30'
@@ -163,7 +186,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-10-09T23:49:04.395Z'
+    revision: '2024-10-09T23:50:48.339Z'
   identifier: 43422dc8-2573-4f60-bf87-df447d57ab7a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpRKhzLRiCcp6ENuX2r
