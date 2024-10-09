@@ -1,10 +1,19 @@
 contact:
-- inCitation: true
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+  - owner
+- inCitation: false
   individual:
     email: data@hakai.org
-    position: Geospatial Science
   organization:
-    address: 1002 Wharf Street
+    address: 303-1100 Island Hwy
     city: Campbell River
     country: Canada
     email: data@hakai.org
@@ -15,23 +24,7 @@ contact:
   - custodian
   - owner
   - distributor
-  - author
-  - editor
-  - pointOfContact
-  - resourceProvider
-  - rightsHolder
-  - principalInvestigator
-  - processor
-- inCitation: false
-  organization:
-    city: Vancouver
-    country: Canada
-    name: Tula Foundation
-    ror: https://ror.org/0029jxk29
-    url: https://tula.org
-  roles:
-  - funder
-- inCitation: false
+- inCitation: true
   individual:
     email: data@hakai.org
   organization:
@@ -42,7 +35,14 @@ contact:
     name: Hakai Geospatial
     url: https://www.hakai.org/
   roles:
+  - custodian
+  - owner
+  - distributor
+  - pointOfContact
+  - principalInvestigator
+  - processor
   - publisher
+  - resourceProvider
 distribution:
 - description:
     en: Google drive link for cryosphere snow surveys metadata report
@@ -148,7 +148,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-10-09T22:51:34.763Z'
+    revision: '2024-10-09T22:55:13.498Z'
   identifier: 33a367c1-2706-4301-af99-4455fbe189a0
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpRfMcU9I8mMcBH6qiv
