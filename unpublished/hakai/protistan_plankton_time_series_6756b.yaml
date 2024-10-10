@@ -20,6 +20,21 @@ contact:
   - originator
 - inCitation: true
   individual:
+    email: wiley.evans@hakai.org
+    name: Evans, Wiley
+    orcid: https://orcid.org/0000-0002-5450-0903
+    position: Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - principalInvestigator
+  - custodian
+- inCitation: true
+  individual:
     email: drew.jordison@hakai.org
     name: Jordison, Drew
     orcid: https://orcid.org/0009-0008-0197-9261
@@ -33,21 +48,6 @@ contact:
   roles:
   - contributor
   - pointOfContact
-  - custodian
-- inCitation: true
-  individual:
-    email: wiley.evans@hakai.org
-    name: Evans, Wiley
-    orcid: https://orcid.org/0000-0002-5450-0903
-    position: Scientist
-  organization:
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - principalInvestigator
   - custodian
 - inCitation: false
   organization:
@@ -399,7 +399,7 @@ instruments:
         verified: false
 metadata:
   dates:
-    revision: '2024-10-10T15:32:56.891Z'
+    revision: '2024-10-10T17:01:02.987Z'
   history:
   - processingStep:
     - authority: URL
