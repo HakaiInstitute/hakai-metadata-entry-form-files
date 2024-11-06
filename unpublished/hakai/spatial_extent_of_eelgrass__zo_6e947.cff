@@ -1,0 +1,114 @@
+abstract: "This data package contains reports and datasets pertaining to mapping the\
+  \ spatial extent of eelgrass (Zostera marina) at several monitoring sites within\
+  \ the greater park ecosystem of Pacific Rim National Park Reserve located on the\
+  \ west coast of Vancouver Island, British Columbia, Canada. This work was a collaborative\
+  \ project between the Hakai Institute and the Pacific Rim National Park Reserve\
+  \ (PRNPR).  \n\nMonitoring sites were mapped using a small Remotely Piloted Aerial\
+  \ Systems (RPAS) (DJI Phantom Pro 3) during summer low tides in 2017 and 2018. Orthomosaics\
+  \ of each site were created using a Structure from Motion Multi-View Stereo (SfM-MVS)\
+  \ workflow within Pix4Dmapper software (Version 2.1.61, Pix4D) in Windows 10. For\
+  \ the 2017 survey, ground control points were collected for georeferencing the orthomosaics.\
+  \ This was not done in 2018 due to time limitations (please see reports for more\
+  \ details). The extent of eelgrass at each site was delineated using object-based\
+  \ image analysis (OBIA) with eCognition Developer software (eCognition Developer\
+  \ 9, 2014) and manual delineation (where necessary). Georeferenced towed underwater\
+  \ video (SplashCam Pro) data were collected at eelgrass monitoring sites during\
+  \ high tide to provide ground-truth data for the aerial analysis and delineation\
+  \ of eelgrass. \nThe data package includes:\n\nTemporal coverage: July 2017 (Broken\
+  \ Group Unit region) and May 2018 (Long Beach Unit region)\n \nThis data package\
+  \ is a component of the Hakai Institute\u2019s Habitat Mapping program. The overarching\
+  \ objective of the Hakai Habitat Mapping program is to generate spatial inventories\
+  \ of coastal habitats, investigate how these habitats are changing through time\
+  \ and the drivers of that change. \n\nThe use of this dataset requires permission\
+  \ from both the PRNPR and the Hakai Institute. To see a copy of this data sharing\
+  \ permissions, see LICENCE.txt.\n\nPlease attribute material in this data package\
+  \ as:\nReshitnyk, L. Y, and J. Yakimishyn. (2021). Spatial extent of eelgrass (Zostera\
+  \ marina) beds from monitoring sites within the greater park ecosystem of Pacific\
+  \ Rim National Park Reserve (2017, 2018). Version 1.0. Hakai Institute. Dataset.\
+  \ [access date]) DOI: https://doi.org/10.21966/8mpe-h081"
+authors:
+- address: 1002 Wharf St.
+  affiliation: Tula Foundation
+  city: Vancouver
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://tula.org
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+- affiliation: Pacific Rim National Park Reserve
+  city: Regional District of Alberni-Clayoquot
+  country: CA
+  email: Jennifer.Yakimishyn@pc.gc.ca
+  family-names: Yakimishyn
+  given-names: Jennifer
+  website: https://www.pc.gc.ca/en/pn-np/bc/pacificrim
+cff-version: 1.2.0
+contact:
+- address: 1002 Wharf St.
+  affiliation: Tula Foundation
+  city: Vancouver
+  country: CA
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://tula.org
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+date-released: '2024-11-06'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 6e947d50-8392-42ce-bff9-24b126c7cab7
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_6e947d50-8392-42ce-bff9-24b126c7cab7
+- description: DOI
+  type: doi
+  value: 10.21966/8mpe-h081
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUR4a1V0N1UxYTc2U3Q
+- description: 'Hakai Data Access Online Request Form: Online form for requesting
+    access to particular datasets owned by Hakai'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php#
+- description: 'Hakai Institute Google Drive - PRNP Eelgrass Package: Hakai Institute
+    Google Drive'
+  type: url
+  value: https://drive.google.com/drive/folders/1BmT-nNDsAPif4SJwsJ7LTAtJva_ZGXEB?usp=sharing
+keywords:
+- drone
+- Alismatales
+- Zosteraceae
+- seagrass
+- intertidal
+- towed underwater video
+- Plantae
+- Zostera
+- Liliopsida
+- Zostera marina
+- seagrassCoverAndComposition
+- Tracheophyta
+- Eelgrass
+- marine habitat
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Spatial extent of eelgrass (Zostera marina) beds from monitoring sites within
+  the greater park ecosystem of Pacific Rim National Park Reserve (2017, 2018)
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_6e947d50-8392-42ce-bff9-24b126c7cab7
+version: 1.0.0
