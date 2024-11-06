@@ -18,6 +18,21 @@ contact:
   - author
   - editor
   - principalInvestigator
+- inCitation: true
+  individual:
+    email: Jennifer.Yakimishyn@pc.gc.ca
+    name: Yakimishyn, Jennifer
+    position: Park Ecologist
+  organization:
+    city: Regional District of Alberni-Clayoquot
+    country: Canada
+    name: Pacific Rim National Park Reserve
+    ror: https://ror.org/05qjftn62
+    url: https://www.pc.gc.ca/en/pn-np/bc/pacificrim
+  roles:
+  - author
+  - principalInvestigator
+  - editor
 - inCitation: false
   organization:
     city: Campbell River
@@ -41,21 +56,6 @@ contact:
     url: https://tula.org
   roles:
   - funder
-- inCitation: true
-  individual:
-    email: Jennifer.Yakimishyn@pc.gc.ca
-    name: Yakimishyn, Jennifer
-    position: Park Ecologist
-  organization:
-    city: Regional District of Alberni-Clayoquot
-    country: Canada
-    name: Pacific Rim National Park Reserve
-    ror: https://ror.org/05qjftn62
-    url: https://www.pc.gc.ca/en/pn-np/bc/pacificrim
-  roles:
-  - author
-  - principalInvestigator
-  - editor
 - inCitation: true
   organization:
     city: Campbell River
@@ -209,7 +209,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-17'
-    revision: '2024-11-06T00:12:12.049Z'
+    revision: '2024-11-06T19:06:19.675Z'
   identifier: 6e947d50-8392-42ce-bff9-24b126c7cab7
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUR4a1V0N1UxYTc2U3Q
@@ -233,6 +233,7 @@ metadata:
 platform:
 - description:
     en: DJI Phantom Pro 3
+  id: http://vocab.nerc.ac.uk/collection/L06/current/6D/
   type: unmanned aerial vehicle
 - description:
     en: SplashCam Pro
