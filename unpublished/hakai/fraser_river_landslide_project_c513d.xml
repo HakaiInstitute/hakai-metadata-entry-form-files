@@ -2793,7 +2793,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-11-13T23:17:19.417Z</gco:DateTime>
+        <gco:DateTime>2024-11-13T23:19:18.466Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -3798,39 +3798,6 @@ des débits élevés et ont considérablement entravé la migration des saumons 
           <mri:name>
             <cit:CI_Citation>
               <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Hakai Data Access Online Request Form</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Formulaire de demande d&#39;accès aux données Hakai en ligne</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:title>
-              <cit:identifier>
-                <mcc:MD_Identifier>
-                  <mcc:authority>
-                    <cit:CI_Citation>
-                      <cit:title>
-                        <gco:CharacterString>URL</gco:CharacterString>
-                      </cit:title>
-                    </cit:CI_Citation>
-                  </mcc:authority>
-                  <mcc:code>
-                    <gco:CharacterString>https://hecate.hakai.org/auth/access-request.php</gco:CharacterString>
-                  </mcc:code>
-                </mcc:MD_Identifier>
-              </cit:identifier>
-            </cit:CI_Citation>
-          </mri:name>
-          <mri:associationType>
-            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
-          </mri:associationType>
-        </mri:MD_AssociatedResource>
-      </mri:associatedResource>
-      <mri:associatedResource>
-        <mri:MD_AssociatedResource>
-          <mri:name>
-            <cit:CI_Citation>
-              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Fraser River Landslide Project - Sites of Concern 2024</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
@@ -3977,6 +3944,36 @@ des débits élevés et ont considérablement entravé la migration des saumons 
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Rapport de métadonnées pour les données recueillies par drone dans le cadre du projet de glissement de terrain sur le fleuve Fraser.</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://hecate.hakai.org/auth/access-request.php</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Hakai Data Access Online Request Form</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Formulaire de demande d&#39;accès aux données Hakai en ligne</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:name>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Supplementary data report that details all the information gathered for the Fraser River Sites of Concern</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Rapport de données supplémentaires qui détaille toutes les informations recueillies pour les sites préoccupants du fleuve Fraser</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
