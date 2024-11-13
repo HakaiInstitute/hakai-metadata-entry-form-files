@@ -21,6 +21,23 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: true
+  individual:
+    email: data@hakai.org
+  organization:
+    address: 303-1100 Island Hwy
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Geospatial
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - custodian
+  - owner
+  - distributor
 - inCitation: false
   individual:
     email: will.mcinnes@hakai.org
@@ -40,23 +57,6 @@ contact:
   - author
   - principalInvestigator
   - coAuthor
-- inCitation: true
-  individual:
-    email: data@hakai.org
-  organization:
-    address: 303-1100 Island Hwy
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Geospatial
-    url: https://www.hakai.org/
-  roles:
-  - pointOfContact
-  - principalInvestigator
-  - processor
-  - custodian
-  - owner
-  - distributor
 - inCitation: false
   individual:
     email: keith.holmes@hakai.org
@@ -111,6 +111,23 @@ contact:
     email: aaron_steelquist@sfu.ca
     name: Steelquist, Aaron
     orcid: https://orcid.org/0000-0003-3668-7521
+    position: Research Scientist
+  organization:
+    city: Burnaby
+    country: Canada
+    name: Simon Fraser University
+    ror: https://ror.org/0213rcc28
+    url: https://www.sfu.ca
+  roles:
+  - author
+  - pointOfContact
+  - principalInvestigator
+  - processor
+- inCitation: false
+  individual:
+    email: erin_seagren@sfu.ca
+    name: Seagren, Erin
+    orcid: https://orcid.org/0000-0003-1996-9121
     position: Research Scientist
   organization:
     city: Burnaby
@@ -227,7 +244,7 @@ identification:
 metadata:
   dates:
     publication: '2024-11-06'
-    revision: '2024-11-13T22:51:20.328Z'
+    revision: '2024-11-13T22:53:27.168Z'
   identifier: c513de71-ac9d-43fa-b693-8f865de4b137
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpurN_vwkhOgSJmgBh9
