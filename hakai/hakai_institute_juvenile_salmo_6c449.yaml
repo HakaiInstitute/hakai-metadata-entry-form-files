@@ -164,20 +164,6 @@ distribution:
   name:
     en: Juvenile Salmon Program Time Series Data - All Versions
   url: https://github.com/HakaiInstitute/jsp-data/releases
-- description:
-    en: A subset of the Juvenile Salmon Program data are transformed to the Darwin
-      Core Standard and published to the Ocean Biodiversity Information System
-    fr: Un sous-ensemble des données du programme sur les saumons juvéniles est transformé
-      en Darwin Core Standard et publié dans le système d'information sur la biodiversité
-      des océans
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: Standardized OBIS (Ocean Biodiversity Information System) Data
-  url: http://ipt.iobis.org/obiscanada/resource?r=hakai_jsp
 identification:
   abstract:
     en: "The Hakai Institute Juvenile Salmon program is an ongoing initiative that\
@@ -245,7 +231,20 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: URL
+    code: http://ipt.iobis.org/obiscanada/resource?r=hakai_jsp
+    title:
+      en: Standardized OBIS (Ocean Biodiversity Information System) Data
+      fr: Données normalisées OBIS (Système d'information sur la biodiversité des
+        océans)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2015-05-12'
     publication: '2017-05-11'
@@ -360,7 +359,7 @@ identification:
 metadata:
   dates:
     publication: '2023-11-03'
-    revision: '2024-07-24T07:40:39.972Z'
+    revision: '2024-11-15T22:06:00.725Z'
   identifier: 6c449900-c726-4e9a-b241-707711e253a7
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXNUQUNpb1hBa0pYWVg
