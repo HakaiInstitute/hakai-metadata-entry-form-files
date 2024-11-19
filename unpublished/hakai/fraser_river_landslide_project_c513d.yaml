@@ -37,7 +37,7 @@ contact:
   - owner
   - collaborator
   - distributor
-- inCitation: false
+- inCitation: true
   individual:
     email: will.mcinnes@hakai.org
     name: McInnes, William
@@ -56,39 +56,7 @@ contact:
   - author
   - principalInvestigator
   - coAuthor
-- inCitation: false
-  individual:
-    email: keith.holmes@hakai.org
-    name: Holmes, Keith
-    orcid: https://orcid.org/0000-0001-8796-8222
-    position: Geospatial Scientist
-  organization:
-    city: Campbell River
-    country: Canada
-    email: holmes.keith@gmail.com
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - author
-  - processor
-  - coAuthor
-- inCitation: false
-  individual:
-    email: derek.heathfield@hakai.org
-    name: Heathfield, Derek
-    position: Geospatial Scientist
-  organization:
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - principalInvestigator
-  - author
-  - pointOfContact
-- inCitation: false
+- inCitation: true
   individual:
     email: julia_carr_2@sfu.ca
     name: Carr, Julia
@@ -105,24 +73,24 @@ contact:
   - author
   - principalInvestigator
   - processor
-- inCitation: false
+- inCitation: true
   individual:
-    email: aaron_steelquist@sfu.ca
-    name: Steelquist, Aaron
-    orcid: https://orcid.org/0000-0003-3668-7521
-    position: Research Scientist
+    email: keith.holmes@hakai.org
+    name: Holmes, Keith
+    orcid: https://orcid.org/0000-0001-8796-8222
+    position: Geospatial Scientist
   organization:
-    city: Burnaby
+    city: Campbell River
     country: Canada
-    name: Simon Fraser University
-    ror: https://ror.org/0213rcc28
-    url: https://www.sfu.ca
+    email: holmes.keith@gmail.com
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - author
-  - pointOfContact
-  - principalInvestigator
   - processor
-- inCitation: false
+  - coAuthor
+- inCitation: true
   individual:
     email: erin_seagren@sfu.ca
     name: Seagren, Erin
@@ -139,6 +107,38 @@ contact:
   - pointOfContact
   - principalInvestigator
   - processor
+- inCitation: true
+  individual:
+    email: aaron_steelquist@sfu.ca
+    name: Steelquist, Aaron
+    orcid: https://orcid.org/0000-0003-3668-7521
+    position: Research Scientist
+  organization:
+    city: Burnaby
+    country: Canada
+    name: Simon Fraser University
+    ror: https://ror.org/0213rcc28
+    url: https://www.sfu.ca
+  roles:
+  - author
+  - pointOfContact
+  - principalInvestigator
+  - processor
+- inCitation: true
+  individual:
+    email: derek.heathfield@hakai.org
+    name: Heathfield, Derek
+    position: Geospatial Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - principalInvestigator
+  - author
+  - pointOfContact
 distribution:
 - description:
     en: Metadata report for the drone data collected for the Fraser River landslide
@@ -254,7 +254,7 @@ identification:
 metadata:
   dates:
     publication: '2024-11-06'
-    revision: '2024-11-19T20:20:27.490Z'
+    revision: '2024-11-19T20:21:23.834Z'
   identifier: c513de71-ac9d-43fa-b693-8f865de4b137
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpurN_vwkhOgSJmgBh9
