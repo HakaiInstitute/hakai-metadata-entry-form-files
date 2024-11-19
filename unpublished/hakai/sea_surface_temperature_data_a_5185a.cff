@@ -8,9 +8,9 @@ abstract: "This dataset is comprised of sea surface temperature data collected u
   \ 15th until 12:00 September 1st, each year, starting in 2022. Loggers are removed\
   \ from the water after September 1st and replaced the following spring before April\
   \ 15th. These data will be collected each year until 2030. \n\nThis data package\
-  \ includes: \n-Sea surface temperature data from April 15th 2022 until September\
-  \ 1st (the duration of the light trap collection season)\n-Site metadata, including\
-  \ temperature logger location"
+  \ includes: \n-Sea surface temperature data from April 15th to September 1st for\
+  \ 2022, 2023, and 2024 (the duration of the light trap collection season)\n-Site\
+  \ metadata, including temperature logger location"
 authors:
 - affiliation: Hakai Institute
   city: Campbell River
@@ -19,6 +19,14 @@ authors:
   family-names: Earle
   given-names: Heather
   orcid: https://orcid.org/0000-0002-1072-8025
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: lauren.krzus@hakai.org
+  family-names: Krzus
+  given-names: Lauren
+  orcid: https://orcid.org/0009-0003-1220-3390
   website: https://www.hakai.org/
 - affiliation: Hakai Institute
   city: Campbell River
@@ -33,20 +41,12 @@ authors:
   email: data@hakai.org
   name: Hakai Institute
   website: https://www.hakai.org/
-- affiliation: Hakai Institute
-  city: Campbell River
-  country: CA
-  email: lauren.krzus@hakai.org
-  family-names: Krzus
-  given-names: Lauren
-  orcid: https://orcid.org/0009-0003-1220-3390
-  website: https://www.hakai.org/
 - city: Vancouver
   country: CA
   name: Tula Foundation
   website: https://tula.org
 cff-version: 1.2.0
-date-released: '2024-10-02'
+date-released: '2024-11-19'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -65,13 +65,13 @@ identifiers:
   type: url
   value: https://catalogue.hakai.org/erddap/tabledap/HakaiSentinelTemperature.html
 keywords:
-- physical-chemical
 - seaSurfaceTemperature
+- physical-chemical
 - water temperature
 license: CC-BY-NC-4.0
 license-url: https://creativecommons.org/licenses/by-nc/4.0/
 message: If you use this software, please cite it as below
-title: Sea surface temperature data along the British Columbia Coast
+title: Sea surface temperature data along the Coast of British Columbia Time Series
 type: Dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_5185ac00-8148-4472-adfd-21741d8a10ce
 version: '1.1'

@@ -781,7 +781,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-10-02T23:21:51.140Z</gco:DateTime>
+        <gco:DateTime>2024-11-19T23:38:13.787Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -866,10 +866,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Sea surface temperature data along the British Columbia Coast</gco:CharacterString>
+            <gco:CharacterString>Sea surface temperature data along the Coast of British Columbia Time Series</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Données sur la température de surface de la mer le long de la côte de la Colombie-Britannique</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Données sur la température de la surface de la mer le long de la série chronologique de la côte de la Colombie-Britannique</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -1276,6 +1276,291 @@
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Krzus, Lauren</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>lauren.krzus@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0009-0003-1220-3390</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Research Technician</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Krzus, Lauren</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>lauren.krzus@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0009-0003-1220-3390</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Research Technician</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Krzus, Lauren</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>lauren.krzus@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0009-0003-1220-3390</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Research Technician</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
               </cit:role>
               <cit:party>
@@ -1619,305 +1904,20 @@
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString>Krzus, Lauren</gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact>
-                          <cit:address>
-                            <cit:CI_Address>
-                              <cit:deliveryPoint>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:deliveryPoint>
-                              <cit:city>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:city>
-                              <cit:country>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:country>
-                              <cit:electronicMailAddress>
-                                <gco:CharacterString>lauren.krzus@hakai.org</gco:CharacterString>
-                              </cit:electronicMailAddress>
-                            </cit:CI_Address>
-                          </cit:address>
-                        </cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:partyIdentifier>
-                        <mcc:MD_Identifier>
-                          <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0009-0003-1220-3390</gco:CharacterString>
-                          </mcc:code>
-                        </mcc:MD_Identifier>
-                      </cit:partyIdentifier>
-                      <cit:positionName>
-                        <gco:CharacterString>Research Technician</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString>Krzus, Lauren</gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact>
-                          <cit:address>
-                            <cit:CI_Address>
-                              <cit:deliveryPoint>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:deliveryPoint>
-                              <cit:city>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:city>
-                              <cit:country>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:country>
-                              <cit:electronicMailAddress>
-                                <gco:CharacterString>lauren.krzus@hakai.org</gco:CharacterString>
-                              </cit:electronicMailAddress>
-                            </cit:CI_Address>
-                          </cit:address>
-                        </cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:partyIdentifier>
-                        <mcc:MD_Identifier>
-                          <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0009-0003-1220-3390</gco:CharacterString>
-                          </mcc:code>
-                        </mcc:MD_Identifier>
-                      </cit:partyIdentifier>
-                      <cit:positionName>
-                        <gco:CharacterString>Research Technician</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString>Krzus, Lauren</gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact>
-                          <cit:address>
-                            <cit:CI_Address>
-                              <cit:deliveryPoint>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:deliveryPoint>
-                              <cit:city>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:city>
-                              <cit:country>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:country>
-                              <cit:electronicMailAddress>
-                                <gco:CharacterString>lauren.krzus@hakai.org</gco:CharacterString>
-                              </cit:electronicMailAddress>
-                            </cit:CI_Address>
-                          </cit:address>
-                        </cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:partyIdentifier>
-                        <mcc:MD_Identifier>
-                          <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0009-0003-1220-3390</gco:CharacterString>
-                          </mcc:code>
-                        </mcc:MD_Identifier>
-                      </cit:partyIdentifier>
-                      <cit:positionName>
-                        <gco:CharacterString>Research Technician</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>This dataset is comprised of sea surface temperature data collected using HOBO TidbiT MX Temperature 400 data loggers (MX2203) deployed in various locations across the BC coast but particularly in the Canadian portion of the Salish Sea. Loggers are suspended at 0.5 metres depth from floating docks in proximity to light traps as part of the Sentinels of Change project which monitors larval Dungeness crab (Metacarcinus magister) using light traps. The loggers are programmed to record the water temperature at 10 minute intervals, starting at 12:00 on April 15th until 12:00 September 1st, each year, starting in 2022. Loggers are removed from the water after September 1st and replaced the following spring before April 15th. These data will be collected each year until 2030. 
 
 This data package includes: 
--Sea surface temperature data from April 15th 2022 until September 1st (the duration of the light trap collection season)
+-Sea surface temperature data from April 15th to September 1st for 2022, 2023, and 2024 (the duration of the light trap collection season)
 -Site metadata, including temperature logger location</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend des données de température de surface de la mer recueillies à l&#39;aide des enregistreurs de données HOBO TidBit MX Temperature 400 (MX2203) déployés à divers endroits sur la côte de la Colombie-Britannique, mais particulièrement dans la partie canadienne de la mer des Salish. Des bûcherons sont suspendus à 0,5 mètre de profondeur à des quais flottants à proximité de pièges lumineux dans le cadre du projet Sentinels of Change qui surveille les larves de crabe dormeur (Metacarcinus magister) à l&#39;aide de pièges lumineux. Les enregistreurs sont programmés pour enregistrer la température de l&#39;eau à intervalles de 10 minutes, à partir de 12 h le 15 avril jusqu&#39;à 12 h le 1er septembre de chaque année, à compter de 2022. Les bûcherons sont retirés de l&#39;eau après le 1er septembre et remplacés le printemps suivant avant le 15 avril. Ces données seront collectées chaque année jusqu&#39;en 2030. 
 
 Ce package de données comprend : 
--Données sur la température de surface de la mer du 15 avril 2022 au 1er septembre (durée de la saison de collecte des pièges lumineux)
+-Données sur la température de surface de la mer du 15 avril au 1er septembre pour 2022, 2023 et 2024 (durée de la saison de collecte des pièges lumineux)
 -Métadonnées du site, y compris l&#39;emplacement de l&#39;enregistreur de température</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -1942,7 +1942,7 @@ Ce package de données comprend :
                 <gml:Polygon gml:id="a1">
                   <gml:exterior>
                     <gml:LinearRing>
-                      <gml:coordinates>-130.6,54.62 -131.4,54.62 -130.9,53.35 -129.5,52.45 -128.2,51.04 -127.5,50.62 -125.9,50.14 -125.3,49.80 -124.2,49.09 -123.5,48.40 -123.4,48.27 -123.1,48.41 -123.3,48.68 -123.0,48.78 -123.2,49.01 -122.4,49.37 -122.5,49.50 -122.8,49.40 -123.3,49.40 -124.3,49.84 -124.8,50.07 -127.4,51.39 -130.1,54.16 -130.6,54.62</gml:coordinates>
+                      <gml:coordinates>-123.6,48.25 -123.2,48.37 -123.3,48.71 -123.0,48.80 -123.3,49.09 -123.0,49.10 -122.4,49.39 -122.6,49.56 -123.6,49.55 -124.8,50.10 -125.8,50.51 -127.5,51.15 -128.6,52.64 -130.4,54.77 -133.4,54.37 -132.8,52.99 -130.8,51.58 -128.3,50.21 -126.5,49.17 -125.2,48.63 -124.3,48.43 -123.6,48.25</gml:coordinates>
                     </gml:LinearRing>
                   </gml:exterior>
                 </gml:Polygon>
@@ -2376,7 +2376,7 @@ Ce package de données comprend :
                   <cit:individual>
                     <cit:CI_Individual>
                       <cit:name>
-                        <gco:CharacterString>Whalen, Matthew</gco:CharacterString>
+                        <gco:CharacterString>Krzus, Lauren</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
                         <cit:CI_Contact>
@@ -2392,7 +2392,7 @@ Ce package de données comprend :
                                 <gco:CharacterString></gco:CharacterString>
                               </cit:country>
                               <cit:electronicMailAddress>
-                                <gco:CharacterString>matt.whalen@hakai.org</gco:CharacterString>
+                                <gco:CharacterString>lauren.krzus@hakai.org</gco:CharacterString>
                               </cit:electronicMailAddress>
                             </cit:CI_Address>
                           </cit:address>
@@ -2401,12 +2401,12 @@ Ce package de données comprend :
                       <cit:partyIdentifier>
                         <mcc:MD_Identifier>
                           <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0000-0002-5262-6131</gco:CharacterString>
+                            <gco:CharacterString>https://orcid.org/0009-0003-1220-3390</gco:CharacterString>
                           </mcc:code>
                         </mcc:MD_Identifier>
                       </cit:partyIdentifier>
                       <cit:positionName>
-                        <gco:CharacterString>Project Lead</gco:CharacterString>
+                        <gco:CharacterString>Research Technician</gco:CharacterString>
                       </cit:positionName>
                     </cit:CI_Individual>
                   </cit:individual>
@@ -2475,7 +2475,7 @@ Ce package de données comprend :
                   <cit:individual>
                     <cit:CI_Individual>
                       <cit:name>
-                        <gco:CharacterString>Krzus, Lauren</gco:CharacterString>
+                        <gco:CharacterString>Whalen, Matthew</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
                         <cit:CI_Contact>
@@ -2491,7 +2491,7 @@ Ce package de données comprend :
                                 <gco:CharacterString></gco:CharacterString>
                               </cit:country>
                               <cit:electronicMailAddress>
-                                <gco:CharacterString>lauren.krzus@hakai.org</gco:CharacterString>
+                                <gco:CharacterString>matt.whalen@hakai.org</gco:CharacterString>
                               </cit:electronicMailAddress>
                             </cit:CI_Address>
                           </cit:address>
@@ -2500,12 +2500,12 @@ Ce package de données comprend :
                       <cit:partyIdentifier>
                         <mcc:MD_Identifier>
                           <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0009-0003-1220-3390</gco:CharacterString>
+                            <gco:CharacterString>https://orcid.org/0000-0002-5262-6131</gco:CharacterString>
                           </mcc:code>
                         </mcc:MD_Identifier>
                       </cit:partyIdentifier>
                       <cit:positionName>
-                        <gco:CharacterString>Research Technician</gco:CharacterString>
+                        <gco:CharacterString>Project Lead</gco:CharacterString>
                       </cit:positionName>
                     </cit:CI_Individual>
                   </cit:individual>
