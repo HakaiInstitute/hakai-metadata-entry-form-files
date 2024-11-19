@@ -7,19 +7,18 @@ abstract: "This data package contains datasets obtained from counting and measur
   \ and timing of Dungeness larval delivery along the coast of British Columbia, expanding\
   \ on an existing network of light traps in Puget Sound, Washington, coordinated\
   \ by the Pacific Northwest Crab Research Group (PCRG). \n\nLight traps are deployed\
-  \ from April 15th to September 1st each year. The first year of the project was\
-  \ 2022 when 20 light traps were deployed. In 2023, 30 light traps were deployed,\
-  \ expanding the range and density of the network.  The traps operate on a timer\
-  \ which turns the light on during dark hours and is adjusted through the season.\
-  \ The traps are checked approximately every two days and Dungeness megalopae (final\
-  \ larval stage) are counted each time. The carapace widths of Dungeness megalopae\
+  \ from April 15th to September 1st each year. The project began in 2022 with 20\
+  \ light traps, expanded to 30 in 2023, and 29 were deployed in 2024. The traps operate\
+  \ on a timer which turns the light on during dark hours and is adjusted through\
+  \ the season. The traps are checked approximately every two days and Dungeness megalopae\
+  \ (final larval stage) are counted each time. The carapace widths of Dungeness megalopae\
   \ are also measured each week. Initially, measurements were taken by hand using\
   \ calipers, however this technique was altered starting July 15th 2022 to a photo\
   \ technique which allows measurements to be taken later using software (ImageJ).\
   \ This protocol and schedule will be followed in subsequent years until 2030. \n\
   \nThis data package includes: \n-Dungeness megalopae count data from April 15th\
-  \ to September 1st for 2022 and 2023.\n-Dungeness megalopae size data (when applicable)\
-  \ from April 15th, 2022 until September 1st, 2023."
+  \ to September 1st for 2022, 2023, and 2024.\n-Dungeness megalopae size data (when\
+  \ applicable) from April 15th, 2022 until September 1st, 2024."
 authors:
 - address: Pruth Harbour
   affiliation: Hakai Institute
@@ -106,6 +105,14 @@ authors:
   country: CA
   name: Tula Foundation
   website: https://tula.org
+- name: Council of the Haida Nation
+  website: https://www.haidanation.ca/
+- name: Ministry of Water, Land, and Resource Stewardship
+  website: https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/water-land-and-resource-stewardship
+- name: Jamie's Whaling Station
+  website: https://www.jamies.com/?gad_source=1&gclid=Cj0KCQiAi_G5BhDXARIsAN5SX7pgwESr-dbNJv2YIh5aKGu5DKVsXlGScGT42VEiTUWCXiYj93YptnUaAlusEALw_wcB
+- name: Gorge Waterway Action Society
+  website: https://www.gorge.ca/
 cff-version: 1.2.0
 contact:
 - address: Pruth Harbour
@@ -117,7 +124,7 @@ contact:
   given-names: Heather
   orcid: https://orcid.org/0000-0002-1072-8025
   website: https://www.hakai.org/
-date-released: '2024-10-02'
+date-released: '2024-11-19'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -141,27 +148,27 @@ identifiers:
   type: url
   value: https://pnwcrab.com
 keywords:
-- megalopae
-- Metacarcinus
-- invertebrate
-- abundance
+- crab
 - invertebrateAbundanceAndDistribution
-- Animalia
 - Malacostraca
-- crustacean
+- invertebrate
 - Dungeness
+- dispersal
+- Animalia
+- megalopae
+- Arthropoda
+- abundance
+- crustacean
+- Metacarcinus
 - marine
 - Decapoda
-- dispersal
-- crab
 - Metacarcinus magister
 - Cancridae
-- Arthropoda
 license: CC-BY-NC-4.0
 license-url: https://creativecommons.org/licenses/by-nc/4.0/
 message: If you use this software, please cite it as below
-title: Larval Dungeness crab arrival timing, abundance, and size along the coast of
-  British Columbia
+title: Larval Dungeness crab abundance and size along the coast of British Columbia
+  Time Series
 type: Dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_d4942b86-d362-40a3-9399-c124c4c263bd
 version: '1.1'

@@ -234,6 +234,30 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: false
+  organization:
+    name: Council of the Haida Nation
+    url: https://www.haidanation.ca/
+  roles:
+  - contributor
+- inCitation: false
+  organization:
+    name: Ministry of Water, Land, and Resource Stewardship
+    url: https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/water-land-and-resource-stewardship
+  roles:
+  - contributor
+- inCitation: false
+  organization:
+    name: Jamie's Whaling Station
+    url: https://www.jamies.com/?gad_source=1&gclid=Cj0KCQiAi_G5BhDXARIsAN5SX7pgwESr-dbNJv2YIh5aKGu5DKVsXlGScGT42VEiTUWCXiYj93YptnUaAlusEALw_wcB
+  roles:
+  - contributor
+- inCitation: false
+  organization:
+    name: Gorge Waterway Action Society
+    url: https://www.gorge.ca/
+  roles:
+  - contributor
 distribution:
 - description:
     en: Website describing the Sentinels of Change project
@@ -272,33 +296,31 @@ identification:
       \ Columbia, expanding on an existing network of light traps in Puget Sound,\
       \ Washington, coordinated by the Pacific Northwest Crab Research Group (PCRG).\
       \ \n\nLight traps are deployed from April 15th to September 1st each year. The\
-      \ first year of the project was 2022 when 20 light traps were deployed. In 2023,\
-      \ 30 light traps were deployed, expanding the range and density of the network.\
-      \  The traps operate on a timer which turns the light on during dark hours and\
-      \ is adjusted through the season. The traps are checked approximately every\
-      \ two days and Dungeness megalopae (final larval stage) are counted each time.\
-      \ The carapace widths of Dungeness megalopae are also measured each week. Initially,\
-      \ measurements were taken by hand using calipers, however this technique was\
-      \ altered starting July 15th 2022 to a photo technique which allows measurements\
-      \ to be taken later using software (ImageJ). This protocol and schedule will\
-      \ be followed in subsequent years until 2030. \n\nThis data package includes:\
-      \ \n-Dungeness megalopae count data from April 15th to September 1st for 2022\
-      \ and 2023.\n-Dungeness megalopae size data (when applicable) from April 15th,\
-      \ 2022 until September 1st, 2023."
+      \ project began in 2022 with 20 light traps, expanded to 30 in 2023, and 29\
+      \ were deployed in 2024. The traps operate on a timer which turns the light\
+      \ on during dark hours and is adjusted through the season. The traps are checked\
+      \ approximately every two days and Dungeness megalopae (final larval stage)\
+      \ are counted each time. The carapace widths of Dungeness megalopae are also\
+      \ measured each week. Initially, measurements were taken by hand using calipers,\
+      \ however this technique was altered starting July 15th 2022 to a photo technique\
+      \ which allows measurements to be taken later using software (ImageJ). This\
+      \ protocol and schedule will be followed in subsequent years until 2030. \n\n\
+      This data package includes: \n-Dungeness megalopae count data from April 15th\
+      \ to September 1st for 2022, 2023, and 2024.\n-Dungeness megalopae size data\
+      \ (when applicable) from April 15th, 2022 until September 1st, 2024."
     fr: "Ce paquet de données contient des ensembles de données obtenus en comptant\
       \ et en mesurant les larves et les juvéniles de crabe dormeur (Metacarcinus\
       \ magister) capturés à l'aide de pièges lumineux de type Shanks à divers endroits\
       \ le long de la côte de la Colombie-Britannique, au Canada. Ce travail est un\
       \ projet collaboratif en cours entre l'Institut Hakai et de nombreux partenaires\
-      \ communautaires et institutionnels au sein du projet Sentinels of Change dirigé\
-      \ par l'Institut Hakai. Le but de ce projet est d'étudier l'ampleur et le moment\
-      \ de la livraison des larves de dormeur le long de la côte de la Colombie-Britannique,\
+      \ communautaires et institutionnels dans le cadre du projet Sentinels of Change\
+      \ dirigé par l'Institut Hakai. Le but de ce projet est d'étudier l'ampleur et\
+      \ le moment de la livraison des larves de dormeur le long de la côte de la Colombie-Britannique,\
       \ en élargissant un réseau existant de pièges lumineux à Puget Sound, dans l'État\
       \ de Washington, coordonné par le Pacific Northwest Crab Research Group (PCRG).\
       \ \n\nLes pièges lumineux sont déployés du 15 avril au 1er septembre de chaque\
-      \ année. La première année du projet a eu lieu en 2022, lorsque 20 pièges lumineux\
-      \ ont été déployés. En 2023, 30 pièges lumineux ont été déployés, élargissant\
-      \ la portée et la densité du réseau. Les pièges fonctionnent grâce à une minuterie\
+      \ année. Le projet a débuté en 2022 avec 20 pièges lumineux, étendu à 30 en\
+      \ 2023 et 29 ont été déployés en 2024. Les pièges fonctionnent grâce à une minuterie\
       \ qui allume la lumière pendant les heures sombres et qui est ajustée au cours\
       \ de la saison. Les pièges sont vérifiés tous les deux jours environ et les\
       \ mégalopes dormeurs (stade larvaire final) sont comptées à chaque fois. La\
@@ -309,8 +331,8 @@ identification:
       \ à l'aide d'un logiciel (ImageJ). Ce protocole et ce calendrier seront suivis\
       \ les années suivantes jusqu'en 2030. \n\nCe package de données comprend : \n\
       -Données sur le dénombrement des mégalopes dormeurs du 15 avril au 1er septembre\
-      \ pour 2022 et 2023.\n-Données sur la taille des mégalopes dorcheuses (le cas\
-      \ échéant) du 15 avril 2022 au 1er septembre 2023."
+      \ pour 2022, 2023 et 2024.\n-Données sur la taille des mégalopes dorcheuses\
+      \ (le cas échéant) du 15 avril 2022 au 1er septembre 2024."
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -374,10 +396,10 @@ identification:
   status: submitted
   temporal_begin: '2022-04-15T19:00:00.000Z'
   title:
-    en: Larval Dungeness crab arrival timing, abundance, and size along the coast
-      of British Columbia
-    fr: Moment d'arrivée, abondance et taille des larves de crabes dormeurs le long
-      de la côte de la Colombie-Britannique
+    en: Larval Dungeness crab abundance and size along the coast of British Columbia
+      Time Series
+    fr: Série chronologique sur l'abondance et la taille des larves de crabes dormeurs
+      le long de la côte de la Colombie-Britannique
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -386,7 +408,7 @@ identification:
 metadata:
   dates:
     publication: '2023-03-03'
-    revision: '2024-10-02T23:20:42.332Z'
+    revision: '2024-11-19T23:35:00.833Z'
   history:
   - additionalDocumentation:
     - authority: URL
@@ -471,10 +493,11 @@ spatial:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  polygon: -123.8,48.42 -123.7,48.26 -123.2,48.36 -123.3,48.70 -123.0,48.77 -123.6,49.11
-    -122.9,49.26 -122.8,49.45 -122.9,49.49 -123.0,49.32 -123.6,49.46 -125.3,50.47
-    -126.8,50.63 -128.1,52.24 -130.3,54.77 -131.5,54.75 -130.6,53.43 -128.0,51.14
-    -129.1,50.78 -124.4,48.39 -123.8,48.42
+  descriptionIdentifier: f32f920c-98f1-4020-995c-f9b686707ee0
+  polygon: -123.8,48.30 -123.2,48.37 -123.2,48.65 -123.0,48.77 -123.3,49.01 -122.9,49.25
+    -122.6,49.40 -123.2,49.45 -123.7,49.54 -124.5,49.89 -124.8,50.09 -126.5,50.79
+    -128.3,52.31 -130.4,54.75 -133.8,54.36 -132.9,52.85 -130.3,51.48 -128.1,50.15
+    -125.2,48.62 -123.8,48.30
   vertical:
   - 0.0
   - 2.0
