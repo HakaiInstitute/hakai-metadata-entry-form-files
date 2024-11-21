@@ -25,7 +25,7 @@ contact:
   roles:
   - custodian
   - coAuthor
-- inCitation: true
+- inCitation: false
   organization:
     address: 1002 Wharf Street
     city: Campbell River
@@ -37,7 +37,7 @@ contact:
   roles:
   - owner
   - distributor
-- inCitation: true
+- inCitation: false
   organization:
     address: 1002 Wharf Street
     city: Vancouver
@@ -48,18 +48,27 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 distribution:
 - description:
-    en: Repository of imagery and mussel segmentation data
-    fr: Référentiel d'images et de données de segmentation des moules
+    en: Imagery and mussel segmentation data stored on HuggingFace
+    fr: Imagerie et données de segmentation des moules stockées sur HuggingFace
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: HuggingFace Repository
-    fr: Référentiel HuggingFace
+    en: Imagery and Mussel Segmentation Data
+    fr: Données d'imagerie et de segmentation des moules
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -87,7 +96,7 @@ identification:
   - association_type: IsIdenticalTo
     association_type_iso: crossReference
     authority: DOI
-    code: 10.57967/hf/2762
+    code: https://doi.org/10.57967/hf/2762
     title:
       en: HuggingFace Repository
       fr: Référentiel HuggingFace
@@ -133,7 +142,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-11-21T23:02:45.549Z'
+    revision: '2024-11-21T23:18:50.240Z'
   identifier: 48acba27-5e01-4b41-9a0e-f3fc8d809a13
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/DCH8GzsQKSM8xwJ8WdQFIZrtCaq2/-O26fyGiVXoF__M22UrP
