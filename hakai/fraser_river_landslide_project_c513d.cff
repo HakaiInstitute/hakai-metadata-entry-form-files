@@ -1,46 +1,74 @@
-abstract: 'Drone imagery was collected in 2022 and 2023 in partnership with Dr. Jeremy
-  Venditti (SFU)
-
-  and Dr. Brian Menounos (UNBC, Hakai Institute). The goal of this data is to inventory
-  and
-
-  characterize the terrain throughout the Fraser River system to look at contemporary
-  and
-
-  historical landslide impact on flow dynamics, fish migration, and genetics of Fraser
-  River
-
-  Salmon. This work was underscored on November 1st, 2018 by the Big Bar Landslide,
-  which
-
-  partly blocked the Fraser River, creating a hydraulic barrier to salmon passage
-  at moderate to
-
-  high flows and significantly impeded salmon migration to the upper Fraser Basin.'
+abstract: Drone imagery was collected in 2022 - 2024 in partnership with Simon Fraser
+  University. The goal of this data is to inventory and characterize the terrain throughout
+  the Fraser River system to look at contemporary and historical landslide impact
+  on flow dynamics, fish migration, and genetics of Fraser River Salmon. This work
+  was underscored on November 1st, 2018 by the Big Bar Landslide, which partly blocked
+  the Fraser River, creating a hydraulic barrier to salmon passage at moderate to
+  high flows and significantly impeded salmon migration to the upper Fraser Basin.
 authors:
 - city: Vancouver
   country: CA
   name: Tula Foundation
   website: https://tula.org
 - address: 303-1100 Island Hwy
-  affiliation: Hakai Institute
   city: Campbell River
   country: CA
   email: data@hakai.org
-  website: https://www.hakai.org/
-- address: 303-1100 Island Hwy
-  affiliation: Hakai Institute
-  city: Campbell River
-  country: CA
-  family-names: McInnes
-  given-names: William
-  orcid: https://orcid.org/0000-0003-3208-6358
+  name: Hakai Institute
   website: https://www.hakai.org/
 - address: 303-1100 Island Hwy
   affiliation: Hakai Geospatial
   city: Campbell River
   country: CA
   email: data@hakai.org
+  website: https://www.hakai.org/
+- address: 303-1100 Island Hwy
+  affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: will.mcinnes@hakai.org
+  family-names: McInnes
+  given-names: William
+  orcid: https://orcid.org/0000-0003-3208-6358
+  website: https://www.hakai.org/
+- affiliation: Simon Fraser University
+  city: Burnaby
+  country: CA
+  email: julia_carr_2@sfu.ca
+  family-names: Carr
+  given-names: Julia
+  orcid: https://orcid.org/0000-0002-2133-1525
+  website: https://www.sfu.ca
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: keith.holmes@hakai.org
+  family-names: Holmes
+  given-names: Keith
+  orcid: https://orcid.org/0000-0001-8796-8222
+  website: https://www.hakai.org/
+- affiliation: Simon Fraser University
+  city: Burnaby
+  country: CA
+  email: erin_seagren@sfu.ca
+  family-names: Seagren
+  given-names: Erin
+  orcid: https://orcid.org/0000-0003-1996-9121
+  website: https://www.sfu.ca
+- affiliation: Simon Fraser University
+  city: Burnaby
+  country: CA
+  email: aaron_steelquist@sfu.ca
+  family-names: Steelquist
+  given-names: Aaron
+  orcid: https://orcid.org/0000-0003-3668-7521
+  website: https://www.sfu.ca
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: derek.heathfield@hakai.org
+  family-names: Heathfield
+  given-names: Derek
   website: https://www.hakai.org/
 cff-version: 1.2.0
 contact:
@@ -50,7 +78,38 @@ contact:
   country: CA
   email: data@hakai.org
   website: https://www.hakai.org/
-date-released: '2024-10-31'
+- affiliation: Simon Fraser University
+  city: Burnaby
+  country: CA
+  email: julia_carr_2@sfu.ca
+  family-names: Carr
+  given-names: Julia
+  orcid: https://orcid.org/0000-0002-2133-1525
+  website: https://www.sfu.ca
+- affiliation: Simon Fraser University
+  city: Burnaby
+  country: CA
+  email: erin_seagren@sfu.ca
+  family-names: Seagren
+  given-names: Erin
+  orcid: https://orcid.org/0000-0003-1996-9121
+  website: https://www.sfu.ca
+- affiliation: Simon Fraser University
+  city: Burnaby
+  country: CA
+  email: aaron_steelquist@sfu.ca
+  family-names: Steelquist
+  given-names: Aaron
+  orcid: https://orcid.org/0000-0003-3668-7521
+  website: https://www.sfu.ca
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: derek.heathfield@hakai.org
+  family-names: Heathfield
+  given-names: Derek
+  website: https://www.hakai.org/
+date-released: '2024-11-21'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -64,22 +123,22 @@ identifiers:
 - description: Metadata Form used to generate this record
   type: url
   value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpurN_vwkhOgSJmgBh9
-- description: 'Hakai Institute Metadata Report Link: Metadata report for the drone
-    data collected for the Fraser River landslide project.'
+- description: 'Hakai Data Access Online Request Form: Data request form for the Fraser
+    River Sites of Concern'
   type: url
-  value: https://drive.google.com/file/d/1dxLgw9mvfWFQnnmrtAXT6nNKEKo31-s_/view?usp=sharing
+  value: https://hecate.hakai.org/auth/access-request.php
 keywords:
-- Hakai Institute
-- River
-- Salmon
 - Fraser River
-- Topography
 - Landslide
 - other
+- River
+- Topography
+- Salmon
+- Hakai Institute
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0
 message: If you use this software, please cite it as below
-title: Fraser River Landslide Project - 2022-2024 - Drone Data - Hakai Institute
+title: Fraser River Landslide Project - 2022-2024 - Drone Data
 type: Dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_c513de71-ac9d-43fa-b693-8f865de4b137
 version: '1.0'
