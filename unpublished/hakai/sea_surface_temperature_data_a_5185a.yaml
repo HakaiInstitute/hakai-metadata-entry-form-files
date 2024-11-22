@@ -127,8 +127,10 @@ identification:
     authority: DOI
     code: https://doi.org/10.21966/36hp-7f40
     title:
-      en: Data Repository
-      fr: Référentiel de données
+      en: Larval Dungeness crab abundance and size time series along the coast of
+        British Columbia
+      fr: Séries chronologiques sur l'abondance et la taille des larves de crabes
+        dormeurs le long de la côte de la Colombie-Britannique
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -141,6 +143,18 @@ identification:
     title:
       en: Sentinels of Change Light Trap Network DMP
       fr: Réseau de pièges à lumière Sentinels of Change (DMP)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsIdenticalTo
+    association_type_iso: crossReference
+    authority: URL
+    code: https://github.com/HakaiInstitute/sentinels-sensor-data
+    title:
+      en: Sensor data package on GitHub
+      fr: Package de données de capteurs sur GitHub
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -205,7 +219,7 @@ instruments:
   version: MX2203
 metadata:
   dates:
-    revision: '2024-11-22T20:15:55.826Z'
+    revision: '2024-11-22T20:18:56.232Z'
   history:
   - additionalDocumentation:
     - authority: URL
