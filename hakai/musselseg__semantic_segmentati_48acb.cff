@@ -1,0 +1,90 @@
+abstract: MusselSeg is a large-scale dataset for semantic segmentation of mussel habitat
+  using high resolution drone imagery. It covers coastal mussel habitat located on
+  the central coast of British Columbia, Canada, as well as areas in California, USA
+  and provides pixel-wise annotation for mussel beds.
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: taylor.denouden@hakai.org
+  family-names: Denouden
+  given-names: Taylor
+  orcid: https://orcid.org/0000-0003-0457-1022
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: will.mcinnes@hakai.org
+  family-names: McInnes
+  given-names: William
+  orcid: https://orcid.org/0000-0003-3208-6358
+  website: https://www.hakai.org/
+- address: 1002 Wharf Street
+  city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- address: 1002 Wharf Street
+  city: Vancouver
+  country: CA
+  email: data@hakai.org
+  name: Tula Foundation
+  website: https://tula.org
+- city: Campbell River
+  country: CA
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- affiliation: University of California, Santa Cruz
+  city: Santa Cruz
+  country: US
+  family-names: Ammann
+  given-names: Karah
+  orcid: https://orcid.org/0000-0002-6200-1944
+  website: https://www.ucsc.edu
+- affiliation: University of California, Santa Cruz
+  city: Santa Cruz
+  country: US
+  email: nfletche@ucsc.edu
+  family-names: Fletcher
+  given-names: Nathaniel
+  website: https://www.ucsc.edu
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: alyssa.gehman@hakai.org
+  family-names: Gehman
+  given-names: Alyssa-Lois
+  orcid: https://orcid.org/0000-0003-0595-9950
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+date-released: '2024-11-22'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 48acba27-5e01-4b41-9a0e-f3fc8d809a13
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_48acba27-5e01-4b41-9a0e-f3fc8d809a13
+- description: DOI
+  type: doi
+  value: 10.21966/fbv4-th96
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/DCH8GzsQKSM8xwJ8WdQFIZrtCaq2/-O26fyGiVXoF__M22UrP
+- description: 'Imagery and Mussel Segmentation Data: Imagery and mussel segmentation
+    data stored on HuggingFace'
+  type: url
+  value: https://huggingface.co/datasets/HakaiInstitute/mussel-seg-1024-1024
+keywords:
+- habitat characterization
+- mollusc
+- remote sensing
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: 'MusselSeg: Semantic Segmentation for Rocky Intertidal Mussel Habitat'
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_48acba27-5e01-4b41-9a0e-f3fc8d809a13
+version: '0.1'

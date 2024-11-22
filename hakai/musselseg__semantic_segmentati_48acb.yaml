@@ -1,0 +1,235 @@
+contact:
+- inCitation: true
+  individual:
+    email: taylor.denouden@hakai.org
+    name: Denouden, Taylor
+    orcid: https://orcid.org/0000-0003-0457-1022
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: will.mcinnes@hakai.org
+    name: McInnes, William
+    orcid: https://orcid.org/0000-0003-3208-6358
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - coAuthor
+- inCitation: false
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    address: 1002 Wharf Street
+    city: Vancouver
+    country: Canada
+    email: data@hakai.org
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: true
+  individual:
+    name: Ammann, Karah
+    orcid: https://orcid.org/0000-0002-6200-1944
+    position: Research Specialist, Ecology & Evolutionary Biology Department, Long
+      Marine Lab
+  organization:
+    city: Santa Cruz
+    country: United States
+    name: University of California, Santa Cruz
+    ror: https://ror.org/03s65by71
+    url: https://www.ucsc.edu
+  roles:
+  - contributor
+- inCitation: true
+  individual:
+    email: nfletche@ucsc.edu
+    name: Fletcher, Nathaniel
+    position: Associate Research Specialist, Ecology & Evolutionary Biology Department,
+      Long Marine Lab
+  organization:
+    city: Santa Cruz
+    country: United States
+    name: University of California, Santa Cruz
+    ror: https://ror.org/03s65by71
+    url: https://www.ucsc.edu
+  roles:
+  - contributor
+- inCitation: true
+  individual:
+    email: alyssa.gehman@hakai.org
+    name: Gehman, Alyssa-Lois
+    orcid: https://orcid.org/0000-0003-0595-9950
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - principalInvestigator
+distribution:
+- description:
+    en: Imagery and mussel segmentation data stored on HuggingFace
+    fr: Imagerie et données de segmentation des moules stockées sur HuggingFace
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Imagery and Mussel Segmentation Data
+    fr: Données d'imagerie et de segmentation des moules
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://huggingface.co/datasets/HakaiInstitute/mussel-seg-1024-1024
+identification:
+  abstract:
+    en: MusselSeg is a large-scale dataset for semantic segmentation of mussel habitat
+      using high resolution drone imagery. It covers coastal mussel habitat located
+      on the central coast of British Columbia, Canada, as well as areas in California,
+      USA and provides pixel-wise annotation for mussel beds.
+    fr: MusselSeg est un ensemble de données à grande échelle pour la segmentation
+      sémantique de l'habitat des moules à l'aide d'images haute résolution prises
+      par drone. Il couvre l'habitat côtier des moules situé sur la côte centrale
+      de la Colombie-Britannique, au Canada, ainsi que des régions de Californie,
+      aux États-Unis, et fournit des annotations au pixel près pour les herbiers de
+      moules.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: IsIdenticalTo
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.57967/hf/2762
+    title:
+      en: HuggingFace Repository
+      fr: Référentiel HuggingFace
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2018-04-01'
+    publication: '2024-07-18'
+  edition: '0.1'
+  identifier: https://doi.org/10.21966/fbv4-th96
+  keywords:
+    default:
+      en:
+      - remote sensing
+      - habitat characterization
+      - mollusc
+      fr:
+      - télédétection
+      - caractérisation des habitats
+      - mollusque
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: onGoing
+  project:
+  - Geospatial
+  - Nearshore
+  status: published
+  temporal_begin: '2018-04-01T19:00:00.000Z'
+  title:
+    en: 'MusselSeg: Semantic Segmentation for Rocky Intertidal Mussel Habitat'
+    fr: 'MusselSeg : segmentation sémantique pour l''habitat des moules dans la zone
+      intertidale rocheuse'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2024-11-22'
+    revision: '2024-11-22T20:03:07.164Z'
+  identifier: 48acba27-5e01-4b41-9a0e-f3fc8d809a13
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/DCH8GzsQKSM8xwJ8WdQFIZrtCaq2/-O26fyGiVXoF__M22UrP
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: 'Limited seasonal variation due to imagery being captured primarily in summer
+        months
+
+        Imagery only covers areas with known mussel beds
+
+        Limited examples of mussel beds in urban or built-up environments'
+      fr: 'Variation saisonnière limitée en raison des images capturées principalement
+        pendant les mois d''été
+
+        L''imagerie ne couvre que les zones où l''on connaît des parcs à moules
+
+        Exemples limités de parcs à moules en milieu urbain ou bâti'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: Phantom 3, 4 Pro and Mavic 3 Enterprise
+    fr: Phantom 3, 4 Pro et Mavic 3 Enterprise
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: DJI RPAS
+  instruments: []
+  type: unmanned aerial vehicle
+spatial:
+  polygon: -130.1,51.59 -120.4,31.75 -118.4,33.38 -124.3,44.43 -122.0,49.35 -126.2,51.59
+    -130.1,51.59
+  vertical:
+  - 15.0
+  - 75.0
+  vertical_positive: depthPositive
