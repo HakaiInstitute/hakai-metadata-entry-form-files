@@ -260,30 +260,23 @@ contact:
   - contributor
 distribution:
 - description:
-    en: Website describing the Sentinels of Change project
-    fr: Site Web décrivant le projet Sentinels of Change
+    en: github repository with associated datasets, code, readme, and data dictionary
+    fr: référentiel github avec les ensembles de données associés, le code, le fichier
+      readme et le dictionnaire de données
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: Sentinels Of Change Project Website
-  url: https://sentinels.hakai.org
-- description:
-    en: Website of partner organization in Puget Sound, Pacific Northwest Crab Research
-      Group, with whom we have aligned our data collection efforts and protocols
-    fr: Site Web de l'organisation partenaire de Puget Sound, Pacific Northwest Crab
-      Research Group, avec laquelle nous avons aligné nos efforts et protocoles de
-      collecte de données
+    en: Data repository
+    fr: Référentiel de données
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  name:
-    en: Pacific Northwest Crab Research Group Website
-  url: https://pnwcrab.com
+  url: https://github.com/HakaiInstitute/sentinels-light-trap-public
 identification:
   abstract:
     en: "This data package contains datasets obtained from counting and measuring\
@@ -353,7 +346,7 @@ identification:
           verified: false
   dates:
     creation: '2022-04-15'
-  edition: '1.1'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/36hp-7f40
   keywords:
     default:
@@ -396,10 +389,8 @@ identification:
   status: submitted
   temporal_begin: '2022-04-15T19:00:00.000Z'
   title:
-    en: Larval Dungeness crab abundance and size along the coast of British Columbia
-      Time Series
-    fr: Série chronologique sur l'abondance et la taille des larves de crabes dormeurs
-      le long de la côte de la Colombie-Britannique
+    en: Larval Dungeness crab abundance and size time series
+    fr: Séries chronologiques sur l'abondance et la taille des larves de crabes dormeurs
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -408,7 +399,7 @@ identification:
 metadata:
   dates:
     publication: '2023-03-03'
-    revision: '2024-11-21T21:38:08.033Z'
+    revision: '2024-11-22T17:19:38.330Z'
   history:
   - additionalDocumentation:
     - authority: URL
@@ -437,10 +428,10 @@ metadata:
   naming_authority: ca.cioos
   use_constraints:
     licence:
-      code: CC-BY-4.0
+      code: CC-BY-SA-4.0
       title:
-        en: Creative Commons Attribution 4.0 Attribution
-      url: https://creativecommons.org/licenses/by/4.0
+        en: Creative Commons Attribution 4.0 Attribution-ShareAlike
+      url: https://creativecommons.org/licenses/by-sa/4.0/
     limitations:
       en: Appropriate QC may not be applied yet. Data collected by trained volunteers,
         possible inconsistencies in frequency of light trap checks and identification

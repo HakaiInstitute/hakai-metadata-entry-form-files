@@ -2932,7 +2932,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-11-21T21:38:08.033Z</gco:DateTime>
+        <gco:DateTime>2024-11-22T17:19:38.330Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -3027,10 +3027,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Larval Dungeness crab abundance and size along the coast of British Columbia Time Series</gco:CharacterString>
+            <gco:CharacterString>Larval Dungeness crab abundance and size time series</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Série chronologique sur l&#39;abondance et la taille des larves de crabes dormeurs le long de la côte de la Colombie-Britannique</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Séries chronologiques sur l&#39;abondance et la taille des larves de crabes dormeurs</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -3045,7 +3045,7 @@
             </cit:CI_Date>
           </cit:date>
           <cit:edition>
-            <gco:CharacterString>1.1</gco:CharacterString>
+            <gco:CharacterString>1.0</gco:CharacterString>
           </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
@@ -5056,19 +5056,19 @@ Ce package de données comprend :
           <mco:reference>
             <cit:CI_Citation>
               <cit:title>
-                <gco:CharacterString>Creative Commons Attribution 4.0 Attribution</gco:CharacterString>
+                <gco:CharacterString>Creative Commons Attribution 4.0 Attribution-ShareAlike</gco:CharacterString>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
                   <mcc:code>
-                    <gco:CharacterString>CC-BY-4.0</gco:CharacterString>
+                    <gco:CharacterString>CC-BY-SA-4.0</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://creativecommons.org/licenses/by/4.0</gco:CharacterString>
+                    <gco:CharacterString>https://creativecommons.org/licenses/by-sa/4.0/</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -5337,44 +5337,24 @@ Ce package de données comprend :
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://sentinels.hakai.org</gco:CharacterString>
+                <gco:CharacterString>https://github.com/HakaiInstitute/sentinels-light-trap-public</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>Sentinels Of Change Project Website</gco:CharacterString>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Website describing the Sentinels of Change project</gco:CharacterString>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Data repository</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Site Web décrivant le projet Sentinels of Change</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Référentiel de données</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://pnwcrab.com</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>Pacific Northwest Crab Research Group Website</gco:CharacterString>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Website of partner organization in Puget Sound, Pacific Northwest Crab Research Group, with whom we have aligned our data collection efforts and protocols</gco:CharacterString>
+                <gco:CharacterString>github repository with associated datasets, code, readme, and data dictionary</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Site Web de l&#39;organisation partenaire de Puget Sound, Pacific Northwest Crab Research Group, avec laquelle nous avons aligné nos efforts et protocoles de collecte de données</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">référentiel github avec les ensembles de données associés, le code, le fichier readme et le dictionnaire de données</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
