@@ -122,10 +122,10 @@ identification:
           à l'aide du service de traduction Amazon
         verified: false
   associated_resources:
-  - association_type: IsIdenticalTo
+  - association_type: IsSupplementTo
     association_type_iso: crossReference
-    authority: URL
-    code: https://github.com/HakaiInstitute/sentinels-sensor-data
+    authority: DOI
+    code: https://doi.org/10.21966/36hp-7f40
     title:
       en: Data Repository
       fr: Référentiel de données
@@ -148,16 +148,21 @@ identification:
           verified: false
   dates:
     creation: '2022-04-15'
-  edition: '1.1'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/4kr2-jc55
   keywords:
     default:
       en:
       - water temperature
       - physical-chemical
+      - climate change
+      - coastal zone
+      - sea surface temperature
       fr:
       - température de l'eau
       - physico-chimie
+      - changement climatique
+      - zone côtière
     eov:
       en:
       - seaSurfaceTemperature
@@ -169,9 +174,10 @@ identification:
   status: submitted
   temporal_begin: '2022-04-15T19:00:00.000Z'
   title:
-    en: Sea surface temperature data along the Coast of British Columbia Time Series
-    fr: Données sur la température de la surface de la mer le long de la série chronologique
-      de la côte de la Colombie-Britannique
+    en: Sentinels of Change Sea surface temperature time series data along the British
+      Columbia Coast
+    fr: Séries chronologiques des températures de surface de la mer de Sentinels of
+      Change le long de la côte de la Colombie-Britannique
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -199,7 +205,7 @@ instruments:
   version: MX2203
 metadata:
   dates:
-    revision: '2024-11-19T23:38:13.787Z'
+    revision: '2024-11-22T17:53:18.305Z'
   history:
   - additionalDocumentation:
     - authority: URL
@@ -227,11 +233,6 @@ metadata:
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/57FPdLIBPcb9BOLfIOW44RJVywN2/-NH0r8ddHNhVJ5bXkyqR
   naming_authority: ca.cioos
   use_constraints:
-    licence:
-      code: CC-BY-NC-4.0
-      title:
-        en: 'Creative Commons Attribution 4.0 Attribution-NonCommercial  '
-      url: https://creativecommons.org/licenses/by-nc/4.0/
     limitations:
       en: Appropriate QC may not yet be applied.
       fr: Le contrôle qualité approprié n'est peut-être pas encore appliqué.

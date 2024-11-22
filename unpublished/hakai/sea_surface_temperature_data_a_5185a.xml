@@ -781,7 +781,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-11-19T23:38:13.787Z</gco:DateTime>
+        <gco:DateTime>2024-11-22T17:53:18.305Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -866,10 +866,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Sea surface temperature data along the Coast of British Columbia Time Series</gco:CharacterString>
+            <gco:CharacterString>Sentinels of Change Sea surface temperature time series data along the British Columbia Coast</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Données sur la température de la surface de la mer le long de la série chronologique de la côte de la Colombie-Britannique</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Séries chronologiques des températures de surface de la mer de Sentinels of Change le long de la côte de la Colombie-Britannique</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -884,7 +884,7 @@
             </cit:CI_Date>
           </cit:date>
           <cit:edition>
-            <gco:CharacterString>1.1</gco:CharacterString>
+            <gco:CharacterString>1.0</gco:CharacterString>
           </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
@@ -2048,6 +2048,15 @@ Ce package de données comprend :
           <mri:keyword>
             <gco:CharacterString>physical-chemical</gco:CharacterString>
           </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>climate change</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>coastal zone</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>sea surface temperature</gco:CharacterString>
+          </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
@@ -2059,6 +2068,20 @@ Ce package de données comprend :
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">physico-chimie</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">changement climatique</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">zone côtière</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -2107,19 +2130,19 @@ Ce package de données comprend :
           <mco:reference>
             <cit:CI_Citation>
               <cit:title>
-                <gco:CharacterString>Creative Commons Attribution 4.0 Attribution-NonCommercial  </gco:CharacterString>
+                <gco:CharacterString>Creative Commons Attribution 4.0</gco:CharacterString>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
                   <mcc:code>
-                    <gco:CharacterString>CC-BY-NC-4.0</gco:CharacterString>
+                    <gco:CharacterString>CC-BY-4.0</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://creativecommons.org/licenses/by-nc/4.0/</gco:CharacterString>
+                    <gco:CharacterString>https://creativecommons.org/licenses/by/4.0/</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -2162,12 +2185,12 @@ Ce package de données comprend :
                   <mcc:authority>
                     <cit:CI_Citation>
                       <cit:title>
-                        <gco:CharacterString>URL</gco:CharacterString>
+                        <gco:CharacterString>DOI</gco:CharacterString>
                       </cit:title>
                     </cit:CI_Citation>
                   </mcc:authority>
                   <mcc:code>
-                    <gco:CharacterString>https://github.com/HakaiInstitute/sentinels-sensor-data</gco:CharacterString>
+                    <gco:CharacterString>https://doi.org/10.21966/36hp-7f40</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
