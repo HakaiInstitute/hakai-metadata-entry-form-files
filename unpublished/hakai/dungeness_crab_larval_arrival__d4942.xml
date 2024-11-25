@@ -2932,7 +2932,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-11-25T19:20:01.810Z</gco:DateTime>
+        <gco:DateTime>2024-11-25T19:20:52.477Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -3041,6 +3041,16 @@
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2024-11-25</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
@@ -4741,7 +4751,7 @@ This data package includes:
 -Dungeness megalopae count data from April 15th to September 1st for 2022, 2023, and 2024.
 -Dungeness megalopae size data (when applicable) from April 15th, 2022 until September 1st, 2024.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Ce paquet de données contient des ensembles de données obtenus en comptant et en mesurant les larves et les juvéniles de crabe dormeur (Metacarcinus magister) capturés à l&#39;aide de pièges lumineux de type Shanks à divers endroits le long de la côte de la Colombie-Britannique, au Canada. Ce travail est un projet collaboratif en cours entre l&#39;Institut Hakai et de nombreux partenaires communautaires et institutionnels dans le cadre du projet Sentinels of Change dirigé par l&#39;Institut Hakai. Le but de ce projet est d&#39;étudier l&#39;ampleur et le moment de la livraison des larves de dormeur le long de la côte de la Colombie-Britannique, en élargissant un réseau existant de pièges lumineux à Puget Sound, dans l&#39;État de Washington, coordonné par le Pacific Northwest Crab Research Group (PCRG). 
 
 Les pièges lumineux sont déployés du 15 avril au 1er septembre de chaque année. Le projet a débuté en 2022 avec 20 pièges lumineux, étendu à 30 en 2023 et 29 ont été déployés en 2024. Les pièges fonctionnent grâce à une minuterie qui allume la lumière pendant les heures sombres et qui est ajustée au cours de la saison. Les pièges sont vérifiés tous les deux jours environ et les mégalopes dormeurs (stade larvaire final) sont comptées à chaque fois. La largeur de la carapace des mégalopes de Dungeness est également mesurée chaque semaine. Initialement, les mesures étaient prises à la main à l&#39;aide de pieds à coulisse, mais cette technique a été modifiée à partir du 15 juillet 2022 pour devenir une technique photo qui permet de prendre des mesures ultérieurement à l&#39;aide d&#39;un logiciel (ImageJ). Ce protocole et ce calendrier seront suivis les années suivantes jusqu&#39;en 2030. 
