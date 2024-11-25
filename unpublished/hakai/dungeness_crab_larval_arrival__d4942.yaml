@@ -326,11 +326,6 @@ identification:
       -Données sur le dénombrement des mégalopes dormeurs du 15 avril au 1er septembre\
       \ pour 2022, 2023 et 2024.\n-Données sur la taille des mégalopes dorcheuses\
       \ (le cas échéant) du 15 avril 2022 au 1er septembre 2024."
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
   associated_resources:
   - association_type: IsDocumentedBy
     association_type_iso: crossReference
@@ -353,6 +348,20 @@ identification:
         Columbia Coast
       fr: Séries chronologiques des températures de surface de la mer de Sentinels
         of Change le long de la côte de la Colombie-Britannique
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSourceOf
+    association_type_iso: dependency
+    authority: URL
+    code: https://ipt.iobis.org/obiscanada/resource?r=hakai-sentinels-of-change-time-series
+    title:
+      en: Standardized larval Dungeness crab abundance and size data published to
+        OBIS
+      fr: Données normalisées sur l'abondance et la taille des larves de crabes dormeurs
+        publiées dans OBIS
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -415,7 +424,7 @@ identification:
 metadata:
   dates:
     publication: '2023-03-03'
-    revision: '2024-11-25T19:14:39.309Z'
+    revision: '2024-11-25T19:20:01.810Z'
   history:
   - additionalDocumentation:
     - authority: URL
