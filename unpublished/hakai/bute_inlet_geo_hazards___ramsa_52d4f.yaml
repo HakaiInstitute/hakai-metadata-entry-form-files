@@ -9,10 +9,8 @@ contact:
   roles:
   - funder
   - resourceProvider
-  - owner
   - principalInvestigator
   - pointOfContact
-  - distributor
 - inCitation: true
   individual:
     email: data@hakai.org
@@ -35,7 +33,8 @@ contact:
     city: Campbell River
     country: Canada
     email: data@hakai.org
-    name: Hakai Geospatial
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
   - author
@@ -44,6 +43,17 @@ contact:
   - principalInvestigator
   - processor
   - custodian
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 distribution:
 - description:
     en: Data request form for the 2024 Geo-Hazards project
@@ -218,7 +228,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2024-11-26T00:30:37.954Z'
+    revision: '2024-11-26T17:00:54.840Z'
   identifier: 52d4f546-dfdf-4bf1-b1ad-f6ec6f2663c0
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-OCKR1jead4rZb1ooVa6
