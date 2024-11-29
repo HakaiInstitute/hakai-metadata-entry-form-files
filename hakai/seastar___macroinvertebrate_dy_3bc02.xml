@@ -1829,7 +1829,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-23T10:45:20.175Z</gco:DateTime>
+        <gco:DateTime>2024-11-29T18:29:47.730Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1896,7 +1896,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -1909,7 +1909,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/lan/LanguageCode.xml" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml" codeListValue="CAN"></lan:CountryCode>
@@ -1951,6 +1951,19 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2024-01-26</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:edition>
+            <gco:CharacterString>3.1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -2880,16 +2893,16 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>The seastar &amp; macroinvertebrate dynamics dataset is a component of the Hakai Institute’s Nearshore research and monitoring program, designed to capture change in rocky intertidal habitats. The overarching objective of Hakai Nearshore research is to investigate the role of habitats and their associated communities, in the face of stress and disturbances from global climate change and local coastal perturbations. 
 
-The Pisaster ochraceous community was assessed from 2017-2021 at three coastal sites along the northwest edge of Calvert Island on the Central Coast of British Columbia. All three sites were exposed rocky shorelines containing high abundances of P. ochraceous. The abundance, size, and health of  P. ochraceous was surveyed within defined swaths of habitat delineated by transects. Other echinoderm species and Katharina tunicata chitons were also surveyed. The sites were surveyed on an approximately monthly basis from May-September.
+The Pisaster ochraceous community was assessed from 2017-2023 at three coastal sites along the northwest edge of Calvert Island on the Central Coast of British Columbia. All three sites were exposed rocky shorelines containing high abundances of P. ochraceous. The abundance, size, and health of  P. ochraceous was surveyed within defined swaths of habitat delineated by transects. Other echinoderm species and Katharina tunicata chitons were also surveyed. The sites were surveyed on an approximately monthly basis from May-September.
 
 This data package is freely available to everyone, following the principles of equitable access and benefit sharing. However, we expect all data users to give attribution to the data providers (read our data license) and the use of these data should happen in the light of fair use, i.e.: 1) respect the data providers, and provide helpful feedback on data quality, and 2) communicate and/or collaborate with the providers if you are considering using this dataset for manuscripts or other forms of reporting.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">L&#39;ensemble de données sur la dynamique des astres marins et des macroinvertébrés est une composante du programme de recherche et de surveillance du littoral de l&#39;Institut Hakai, conçu pour capturer les changements dans les habitats intertidaux rocheux. L&#39;objectif primordial de la recherche sur le littoral de Hakai est d&#39;étudier le rôle des habitats et de leurs communautés associées, face au stress et aux perturbations causées par le changement climatique mondial et les perturbations côtières locales. 
+            <lan:LocalisedCharacterString locale="#fr">L&#39;ensemble de données sur la dynamique des étoiles de mer et des macroinvertébrés fait partie du programme de recherche et de surveillance du littoral de l&#39;Institut Hakai, conçu pour capturer les changements dans les habitats intertidaux rocheux. L&#39;objectif principal de la recherche menée par Hakai Nearshore est d&#39;étudier le rôle des habitats et de leurs communautés associées face au stress et aux perturbations provoqués par le changement climatique mondial et les perturbations côtières locales. 
 
-La communauté ocracée de Pisaster a été évaluée de 2017 à 2021 sur trois sites côtiers le long de la limite nord-ouest de l&#39;île Calvert, sur la côte centrale de la Colombie-Britannique. Les trois sites étaient des rivages rocheux exposés contenant de fortes abondances de P. ochraceous. L&#39;abondance, la taille et la santé du P. ochraceous ont été étudiées dans des zones définies d&#39;habitat délimitées par des transects. D&#39;autres espèces d&#39;échinodermes et des chitons de Katharina tunicata ont également été étudiés. Les sites ont été étudiés sur une base mensuelle approximativement de mai à septembre.
+La communauté ochracée de Pisaster a été évaluée de 2017 à 2023 sur trois sites côtiers le long de la bordure nord-ouest de l&#39;île Calvert, sur la côte centrale de la Colombie-Britannique. Les trois sites étaient des rivages rocheux exposés contenant de grandes quantités de P. ochraceous. L&#39;abondance, la taille et la santé du P. ochraceous ont été étudiées dans des zones définies d&#39;habitat délimitées par des transects. D&#39;autres espèces d&#39;échinodermes et des chitons de Katharina tunicata ont également été étudiés. Les sites ont fait l&#39;objet de relevés environ une fois par mois de mai à septembre.
 
-Ce paquet de données est disponible gratuitement pour tous, conformément aux principes d&#39;accès équitable et de partage des avantages. Cependant, nous attendons de tous les utilisateurs de données qu&#39;ils attribuent une attribution aux fournisseurs de données (lire notre licence de données) et l&#39;utilisation de ces données doit se faire à la lumière d&#39;une utilisation équitable, c&#39;est-à-dire : 1) respecter les fournisseurs de données et fournir des commentaires utiles sur la qualité des données, et 2) communiquer et/ou collaborer avec les fournisseurs si vous envisagent d&#39;utiliser cet ensemble de données pour des manuscrits ou d&#39;autres formes de rapports.</lan:LocalisedCharacterString>
+Ce paquet de données est accessible gratuitement à tous, conformément aux principes d&#39;accès équitable et de partage des avantages. Cependant, nous attendons de tous les utilisateurs de données qu&#39;ils attribuent les noms aux fournisseurs de données (lisez notre licence de données) et l&#39;utilisation de ces données doit se faire dans le respect d&#39;une utilisation équitable, c&#39;est-à-dire : 1) respecter les fournisseurs de données et fournir des commentaires utiles sur la qualité des données, et 2) communiquer et/ou collaborer avec les fournisseurs si vous envisagez d&#39;utiliser cet ensemble de données pour des manuscrits ou d&#39;autres formes de reporting.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -3373,18 +3386,48 @@ Ce paquet de données est disponible gratuitement pour tous, conformément aux p
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Seastar and Macroinvertebrate swaths from BC Central Coast</gco:CharacterString>
+                <gco:CharacterString>Google Drive repository</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Bandes d&#39;étoiles de mer et de macroinvertébrés de la côte centrale de la Colombie-Britannique</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Référentiel Google Drive</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Data files and documentation for seastar and macroinvertebrate surveys</gco:CharacterString>
+                <gco:CharacterString>Google Drive dataset repository (v1.0-v3.0)</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Fichiers de données et documentation pour les études sur les étoiles de mer et les macroinvertébrés</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Référentiel de jeux de données Google Drive (v1.0-v3.0)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://github.com/HakaiInstitute/nearshore-RI_seastarSwaths/releases</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Github repository</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Dépôt Github</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:name>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Github dataset repository (v3.1.0-)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Référentiel de jeux de données Github (v3.1.0-)</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
