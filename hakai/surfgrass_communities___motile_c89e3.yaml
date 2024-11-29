@@ -173,24 +173,39 @@ contact:
   - contributor
 distribution:
 - description:
-    en: Data files and documentation for surfgrass motile invertebrate surveys
-    fr: Fichiers de données et documentation pour les relevés d'invertébrés mobiles
-      sur le gazon de surf
+    en: Google Drive dataset repository (v1.0-v2.0)
+    fr: Référentiel de jeux de données Google Drive (v1.0-v2.0)
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: Surfgrass motile invertebrate survey data from BC Central Coast
-    fr: Données d'une étude sur les invertébrés mobiles de Surfgrass sur la côte centrale
-      de la Colombie-Britannique
+    en: Google Drive repository
+    fr: Référentiel Google Drive
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   url: https://drive.google.com/drive/folders/1BlRY8wtJcHChBt2tko_dS8XHM4wtD5x9
+- description:
+    en: Github dataset repository (v2.1.0-)
+    fr: Référentiel de jeux de données Github (v2.1.0-)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Github repository
+    fr: Dépôt Github
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/nearshore-RI_surfgrassInverts/releases
 identification:
   abstract:
     en: "The surfgrass motile invertebrate dataset is a component of the Hakai Institute’s\
@@ -239,12 +254,17 @@ identification:
       \ des données, et 2) communiquer et/ou collaborer avec les fournisseurs si vous\
       \ envisagent d'utiliser cet ensemble de données pour des manuscrits ou d'autres\
       \ formes de rapports."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2018-05-19'
     publication: '2020-10-18'
-    revision: '2023-06-08'
-  edition: '2.0'
+    revision: '2024-01-26'
+  edition: 2.1.0
   identifier: https://doi.org/10.21966/0yk3-9b74
   keywords:
     default:
@@ -267,8 +287,41 @@ identification:
     eov:
       en:
       - invertebrateAbundanceAndDistribution
+      - macroalgalCanopyCoverAndComposition
       fr:
       - Abondance et distribution d'invertébrés
+      - Composition et couverture de la canopée de macroalgues
+    taxa:
+      en:
+      - Plantae
+      - Tracheophyta
+      - Liliopsida
+      - Alismatales
+      - Zosteraceae
+      - Phyllospadix
+      - Animalia
+      - Pagurus
+      - Animalia
+      - Mollusca
+      - Gastropoda
+      - Trochida
+      - Trochidae
+      - Jujubinus
+      fr:
+      - Plantae
+      - Tracheophyta
+      - Liliopsida
+      - Alismatales
+      - Zosteraceae
+      - Phyllospadix
+      - Animalia
+      - Pagurus
+      - Animalia
+      - Mollusca
+      - Gastropoda
+      - Trochida
+      - Trochidae
+      - Jujubinus
   progress_code: onGoing
   project:
   - Nearshore
@@ -286,7 +339,7 @@ identification:
 metadata:
   dates:
     publication: '2022-10-08'
-    revision: '2024-07-23T11:00:02.616Z'
+    revision: '2024-11-29T19:30:44.055Z'
   identifier: c89e35df-8a16-4efc-ae29-15f4e3da8a55
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-Motctf2E7ids9V-6Cfb
