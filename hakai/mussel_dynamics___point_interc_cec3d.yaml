@@ -10,7 +10,7 @@ contact:
     country: Canada
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
-    url: https://hakai.org/
+    url: https://www.hakai.org/
   roles:
   - custodian
   - pointOfContact
@@ -203,24 +203,39 @@ contact:
   - resourceProvider
 distribution:
 - description:
-    en: Data files and documentation for mussel point intercept surveys
-    fr: Fichiers de données et documentation pour les relevés des points d'interception
-      des moules
+    en: Google Drive dataset repository (v1.0-v3.0)
+    fr: Référentiel de jeux de données Google Drive (v1.0-v3.0)
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: Mussel point intercept survey data from BC Central Coast
-    fr: Données du relevé d'interception de Mussel Point sur la côte centrale de la
-      Colombie-Britannique
+    en: Google Drive repository
+    fr: Référentiel Google Drive
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   url: https://drive.google.com/drive/folders/1DSCL2GwEltXMUuVxrFOOi9h-llFo6bjL
+- description:
+    en: Github dataset repository
+    fr: Dépôt de jeux de données Github
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Github repository
+    fr: Dépôt Github
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/nearshore-RI_musselPoints/releases
 identification:
   abstract:
     en: "The mussel dynamics dataset is a component of the Hakai Institute’s Nearshore\
@@ -228,47 +243,54 @@ identification:
       \ habitats. The overarching objective of Hakai Nearshore research is to investigate\
       \ the role of habitats and their associated communities, in the face of stress\
       \ and disturbances from global climate change and local coastal perturbations.\
-      \ \n\nThe dynamics of mussel beds were assessed at three coastal sites along\
-      \ the northwest edge of Calvert Island on the central coast of British Columbia.\
-      \ All three sites were exposed rocky shorelines with large beds of Mytilus californianus\
-      \ mussels. The structure and composition of the macroalgae & sessile invertebrate\
-      \ communities were surveyed in these beds using a point-intercept design within\
-      \ permanent plots. The sites were surveyed on an approximately monthly basis\
-      \ from May-September, with two winter surveys in November and February.\n\n\
-      This data package is freely available to everyone, following the principles\
-      \ of equitable access and benefit sharing. However, we expect all data users\
-      \ to give attribution to the data providers (read our data license) and the\
-      \ use of these data should happen in the light of fair use, i.e.: 1) respect\
-      \ the data providers, and provide helpful feedback on data quality, and 2) communicate\
-      \ and/or collaborate with the providers if you are considering using this dataset\
-      \ for manuscripts or other forms of reporting."
+      \ \n\nThe dynamics of mussel beds were assessed from 2016-2023 at three coastal\
+      \ sites along the northwest edge of Calvert Island on the central coast of British\
+      \ Columbia. All three sites were exposed rocky shorelines with large beds of\
+      \ Mytilus californianus mussels. The structure and composition of the macroalgae\
+      \ & sessile invertebrate communities were surveyed in these beds using a point-intercept\
+      \ design within permanent plots. The sites were surveyed on an approximately\
+      \ monthly basis from May-September, with two winter surveys in November and\
+      \ February.\n\nThis data package is freely available to everyone, following\
+      \ the principles of equitable access and benefit sharing. However, we expect\
+      \ all data users to give attribution to the data providers (read our data license)\
+      \ and the use of these data should happen in the light of fair use, i.e.: 1)\
+      \ respect the data providers, and provide helpful feedback on data quality,\
+      \ and 2) communicate and/or collaborate with the providers if you are considering\
+      \ using this dataset for manuscripts or other forms of reporting."
     fr: "L'ensemble de données sur la dynamique des moules fait partie du programme\
-      \ de recherche et de surveillance des zones côtières de l'Institut Hakai, conçu\
-      \ pour capturer les changements dans les habitats intertidaux rocheux. L'objectif\
-      \ général de la recherche sur la région côtière de Hakai est d'étudier le rôle\
+      \ de recherche et de surveillance des zones littorales de l'Institut Hakai,\
+      \ conçu pour saisir les changements dans les habitats intertidaux rocheux. L'objectif\
+      \ principal de la recherche menée par Hakai Nearshore est d'étudier le rôle\
       \ des habitats et de leurs communautés associées face au stress et aux perturbations\
-      \ dus au changement climatique mondial et aux perturbations côtières locales.\
-      \ \n\nLa dynamique des gisements de moules a été évaluée sur trois sites côtiers\
-      \ situés le long de la limite nord-ouest de l'île Calvert, sur la côte centrale\
-      \ de la Colombie-Britannique. Les trois sites étaient des rivages rocheux exposés\
-      \ avec de grands lits de moules Mytilus californianus. La structure et la composition\
-      \ des communautés de macroalgues et d'invertébrés sessiles ont été étudiées\
-      \ dans ces lits à l'aide d'un plan d'interception ponctuelle dans des parcelles\
-      \ permanentes. Les sites ont fait l'objet de relevés environ une fois par mois\
-      \ de mai à septembre, et deux relevés hivernaux ont été effectués en novembre\
-      \ et en février.\n\nCe paquet de données est accessible gratuitement à tous,\
-      \ conformément aux principes d'accès équitable et de partage des avantages.\
-      \ Cependant, nous attendons de tous les utilisateurs de données qu'ils attribuent\
-      \ les données aux fournisseurs de données (lisez notre licence de données) et\
-      \ l'utilisation de ces données doit se faire dans le respect du fair use, c'est-à-dire :\
-      \ 1) respecter les fournisseurs de données et fournir des informations utiles\
-      \ sur la qualité des données, et 2) communiquer et/ou collaborer avec les fournisseurs\
-      \ si vous envisagez d'utiliser cet ensemble de données pour des manuscrits ou\
-      \ d'autres formes de rapports."
+      \ provoqués par le changement climatique mondial et les perturbations côtières\
+      \ locales. \n\nLa dynamique des parcs à moules a été évaluée de 2016 à 2023\
+      \ sur trois sites côtiers situés le long de la bordure nord-ouest de l'île Calvert,\
+      \ sur la côte centrale de la Colombie-Britannique. Les trois sites étaient situés\
+      \ sur des rives rocheuses exposées abritant de grands gisements de moules Mytilus\
+      \ californianus. La structure et la composition des communautés de macroalgues\
+      \ et d'invertébrés sessiles ont été étudiées dans ces lits en utilisant un plan\
+      \ d'interception ponctuelle dans des parcelles permanentes. Les sites ont fait\
+      \ l'objet de relevés environ une fois par mois de mai à septembre, avec deux\
+      \ relevés hivernaux en novembre et en février.\n\nCe paquet de données est accessible\
+      \ gratuitement à tous, conformément aux principes d'accès équitable et de partage\
+      \ des avantages. Cependant, nous attendons de tous les utilisateurs de données\
+      \ qu'ils attribuent les noms aux fournisseurs de données (lisez notre licence\
+      \ de données) et l'utilisation de ces données doit se faire dans le respect\
+      \ d'une utilisation équitable, c'est-à-dire : 1) respecter les fournisseurs\
+      \ de données et fournir des commentaires utiles sur la qualité des données,\
+      \ et 2) communiquer et/ou collaborer avec les fournisseurs si vous envisagez\
+      \ d'utiliser cet ensemble de données pour des manuscrits ou d'autres formes\
+      \ de reporting."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2017-06-27'
-    revision: '2023-06-08'
+    publication: '2020-10-13'
+    revision: '2024-01-26'
   edition: '3.0'
   identifier: https://doi.org/10.21966/ns9h-1126
   keywords:
@@ -327,7 +349,7 @@ identification:
 metadata:
   dates:
     publication: '2022-10-08'
-    revision: '2024-07-23T10:55:50.469Z'
+    revision: '2024-11-29T17:59:53.691Z'
   identifier: cec3dcef-8dba-4d91-aee6-b60ce416497c
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MotaGdFmX3xEvWjXQA5
