@@ -19,7 +19,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
             # Check all markdown, html and reStructuredText files in repo (default)
-            args: --base . --verbose --no-progress './**/*.xml'
+            args: --base . --verbose --no-progress --user-agent 'curl/7.7' './**/*.xml'
             # Use json as output format (instead of markdown)
             format: markdown
             # # Use a custom GitHub token, which
