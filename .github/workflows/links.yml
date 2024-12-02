@@ -28,7 +28,7 @@ jobs:
               --timeout 1000
               --method head
               --user-agent 'curl/7.7'
-              --exclude-path './unpublished/**/*.xml'
+              --exclude-path unpublished
               './**/*.xml'
             # Use json as output format (instead of markdown)
             format: markdown
