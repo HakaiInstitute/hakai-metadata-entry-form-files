@@ -26,6 +26,7 @@ jobs:
               --cache
               --max-retries 0
               --max-concurrency 1
+              --timeout 60
               --user-agent 'curl/7.7'
               --exclude-path './unpublished/*.xml'
               './**/*.xml'
