@@ -18,7 +18,6 @@ contact:
   - principalInvestigator
   - funder
   - processor
-  - publisher
 - inCitation: false
   organization:
     city: Vancouver
@@ -29,12 +28,16 @@ contact:
   roles:
   - funder
 - inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial
   organization:
     address: 303-1100 Island Hwy
     city: Campbell River
     country: Canada
     email: data@hakai.org
-    name: Hakai Geospatial
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
   - originator
@@ -45,6 +48,15 @@ contact:
   - custodian
   - owner
   - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 distribution:
 - description:
     en: Bute Inlet Geohazard Metadata Report
@@ -209,7 +221,7 @@ identification:
 metadata:
   dates:
     publication: '2024-10-09'
-    revision: '2024-10-09T23:39:36.007Z'
+    revision: '2024-12-03T23:26:01.138Z'
   identifier: 3efdccb0-08ef-4e90-ac91-72969f94a99a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpRG7xQ84LQrgS4jhie
