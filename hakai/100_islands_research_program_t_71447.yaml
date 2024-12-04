@@ -159,23 +159,6 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   url: https://drive.google.com/drive/folders/1P6bFCClSGbPJhMfrmBVcHawG0LxPjzZa?usp=sharing
-- description:
-    en: Fitzpatrick thesis 2018-05-01
-    fr: Thèse de Fitzpatrick 2018-05-01
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: Fitzpatrick Thesis - UVIC DSPACE Record
-    fr: Thèse de Fitzpatrick - UVIC DSPACE Record
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://dspace.library.uvic.ca/handle/1828/9312
 identification:
   abstract:
     en: "These data were collected as part of the Hakai Institute’s 100 Islands Research\
@@ -278,7 +261,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: URL
+    code: https://dspace.library.uvic.ca/handle/1828/9312
+    title:
+      en: Fitzpatrick Thesis - UVIC DSPACE Record
+      fr: Thèse de Fitzpatrick - Record UVIC DSPACE
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     publication: '2020-02-09'
   edition: '1.0'
@@ -320,7 +315,7 @@ identification:
 metadata:
   dates:
     publication: '2022-08-31'
-    revision: '2024-07-24T07:59:05.809Z'
+    revision: '2024-12-04T17:30:12.523Z'
   identifier: 71447a55-3eca-41b1-87ff-b8ef69314c4d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWN3eXE0MWhrdGJzTXg
