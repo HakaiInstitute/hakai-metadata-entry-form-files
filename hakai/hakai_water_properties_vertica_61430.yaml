@@ -1,17 +1,17 @@
 contact:
 - inCitation: false
   individual:
-    email: jessy.barrette@hakai.org
     name: Barrette, Jessy
+    orcid: https://orcid.org/0000-0002-0422-2589
     position: Oceanographic Data Integrator
   organization:
     address: 1713 Hyacinthe Bay Road
-    city: Victoria
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
-    url: hakai.org
+    url: https://www.hakai.org/
   roles:
   - custodian
   - resourceProvider
@@ -28,7 +28,9 @@ contact:
   roles:
   - distributor
   - owner
-- inCitation: true
+  - custodian
+  - publisher
+- inCitation: false
   organization:
     city: Vancouver
     country: Canada
@@ -152,7 +154,7 @@ identification:
 metadata:
   dates:
     publication: '2024-07-17'
-    revision: '2024-07-23T20:00:43.319Z'
+    revision: '2024-12-04T16:49:46.798Z'
   identifier: 6143028b-028d-46c7-a67d-f3a513435e63
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MMHJ4k2EEwxkbXkrjxa
