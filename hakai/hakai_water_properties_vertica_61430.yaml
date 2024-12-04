@@ -52,6 +52,12 @@ distribution:
         verified: false
   name:
     en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://catalogue.hakai.org/erddap/tabledap/HakaiWaterPropertiesInstrumentProfileProvisional.html
 - name:
     en: Hakai Water Properties Profile Processing and QA/QC Procedure Manual
@@ -154,7 +160,41 @@ identification:
 metadata:
   dates:
     publication: '2024-07-17'
-    revision: '2024-12-04T16:49:46.798Z'
+    revision: '2024-12-04T16:51:28.838Z'
+  history:
+  - processingStep:
+    - authority: URL
+      code: https://github.com/HakaiInstitute/hakai-datasets/raw/development/datasets_documents/HakaiWaterPropertiesProfiles/Hakai_Water_Properties_Processing_and_QAQC_Procedure_20210331.pdf
+      description:
+        en: Procedure manual describing the processing and QA/QC steps for oceanographic
+          data sampling.
+        fr: Manuel de procédures décrivant le traitement et les étapes d'AQ/CQ pour
+          l'échantillonnage des données océanographiques.
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+      title:
+        en: Hakai Water Properties Profile Processing and QA/QC Procedure Manual
+        fr: Manuel de traitement du profil des propriétés de l'eau Hakai et de la
+          procédure QA/QC
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    scope: DataCollectionSampling
+    scopeIso: collectionSession
+    statement:
+      en: Hakai Water Properties Profile Processing and QA/QC Procedure Manual
+      fr: Manuel de traitement du profil des propriétés de l'eau Hakai et de la procédure
+        QA/QC
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   identifier: 6143028b-028d-46c7-a67d-f3a513435e63
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MMHJ4k2EEwxkbXkrjxa
