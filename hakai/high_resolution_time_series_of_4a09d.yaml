@@ -84,6 +84,15 @@ contact:
     url: hakai.org
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - name:
     en: NCEI Data Submission
@@ -134,16 +143,16 @@ identification:
     default:
       en:
       - physical-chemical
-      - salinit
       - water temperature
       - ocean-atmosphere exchange
       - coastal zone
+      - salinity
       fr:
       - physico-chimie
-      - salinité
       - température de l'eau
       - échange océan-atmosphère
       - zone côtière
+      - salinité
     eov:
       en:
       - inorganicCarbon
@@ -172,7 +181,7 @@ identification:
 metadata:
   dates:
     publication: '2023-01-24'
-    revision: '2024-12-04T17:58:12.540Z'
+    revision: '2024-12-04T19:30:59.432Z'
   identifier: 4a09d56b-b120-46c8-9263-ae3c42a02e9b
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-NHZti4Qjk0UuD4Ocz77
