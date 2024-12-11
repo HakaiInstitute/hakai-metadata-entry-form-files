@@ -97,6 +97,11 @@ distribution:
 - name:
     en: NCEI Data Submission
     fr: Soumission de données au NCEI
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://www.ncei.noaa.gov/data/oceans/ncei/ocads/metadata/0246099.html
 - name:
     en: Hakai Institute ERDDAP Dataset
@@ -133,7 +138,23 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: Obsoletes
+    association_type_iso: revisionOf
+    authority: DOI
+    code: https://doi.org/10.21966/pk18-z035
+    title:
+      en: High-resolution record of surface seawater CO2 content from August 2016
+        to August 2017 collected in at the OceansAlaska shellfish hatchery in Ketchikan,
+        Alaska, USA
+      fr: Enregistrement à haute résolution de la teneur en CO2 de l'eau de mer de
+        surface d'août 2016 à août 2017 collecté à l'écloserie de mollusques OceansAlaska
+        à Ketchikan, en Alaska, aux États-Unis
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2016-08-29'
     publication: '2022-01-13'
@@ -181,7 +202,7 @@ identification:
 metadata:
   dates:
     publication: '2023-01-24'
-    revision: '2024-12-04T19:30:59.432Z'
+    revision: '2024-12-11T17:34:32.756Z'
   identifier: 4a09d56b-b120-46c8-9263-ae3c42a02e9b
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-NHZti4Qjk0UuD4Ocz77
