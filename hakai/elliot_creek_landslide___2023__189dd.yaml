@@ -65,6 +65,12 @@ distribution:
         verified: false
   name:
     en: Hakai Airborne Coastal Observatory Webmap
+    fr: Carte Web de l'Observatoire côtier aéroporté de Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
 - description:
     en: Request form link to access Elliot Creek Landslide 2023 data.
@@ -152,8 +158,8 @@ identification:
   associated_resources:
   - association_type: Continues
     association_type_iso: series
-    authority: URL
-    code: https://drive.google.com/file/d/1GWVbbZg0UM-0GLQA9urqg4uySDrLPr6D/view?usp=drive_link
+    authority: DOI
+    code: https://doi.org/10.21966/r30c-a485
     title:
       en: Elliot Slide 2022 Airborne Coastal Observatory Metadata Report
       fr: Rapport de métadonnées de l'Observatoire côtier aéroporté Elliot Slide 2022
@@ -213,7 +219,7 @@ identification:
 metadata:
   dates:
     publication: '2024-10-09'
-    revision: '2024-12-16T21:43:48.968Z'
+    revision: '2024-12-16T21:46:23.456Z'
   identifier: 189dd319-d5ef-4f2a-a060-df8d47628b86
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NpRZqJivYfce75NOoBD
