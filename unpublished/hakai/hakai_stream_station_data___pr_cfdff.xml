@@ -153,7 +153,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-01-24T22:13:11.472Z</gco:DateTime>
+        <gco:DateTime>2024-12-17T17:18:10.965Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -240,7 +240,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Hakai Stream Station Data - Provisional</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Données provisoires relatives à la station Hakai Stream</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -256,7 +256,7 @@
             </cit:CI_Date>
           </cit:date>
           <cit:edition>
-            <gco:CharacterString>1</gco:CharacterString>
+            <gco:CharacterString>1.0</gco:CharacterString>
           </cit:edition>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
@@ -745,7 +745,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>This data set presents stream temperature, water level, discharge, and turbidity data measured at 5 minute intervals since 2014. These measurements are representative of four densely instrumented watersheds on Calvert and Hecate Islands, on the Central Coast of British Columbia as part of the ongoing watersheds monitoring by the Hakai Institute. Data is provisional and published in near real-time and has not been fully quality controlled. Before using this data for analysis, please contact data@hakai.org to request any information that might be relevant to your objectives.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données présente des données sur la température des cours d&#39;eau, le niveau d&#39;eau, le débit et la turbidité mesurées à des intervalles de 5 minutes depuis 2014. Ces mesures sont représentatives de quatre bassins hydrographiques densément instrumentés sur les îles Calvert et Hécate, sur la côte centrale de la Colombie-Britannique, dans le cadre de la surveillance continue des bassins versants par l&#39;Institut Hakai. Les données sont provisoires et publiées en temps quasi réel et n&#39;ont pas fait l&#39;objet d&#39;un contrôle qualité complet. Avant d&#39;utiliser ces données à des fins d&#39;analyse, veuillez contacter data@hakai.org pour demander toute information susceptible de correspondre à vos objectifs.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -840,7 +840,7 @@
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-Nnz6y-n4j6E7PVm3OAn</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-Nnz6y-n4j6E7PVm3OAn</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -982,7 +982,7 @@
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Data is provisional and therefore has not undergone rigorous quality control.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Les données sont provisoires et n&#39;ont donc pas fait l&#39;objet d&#39;un contrôle de qualité rigoureux.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
