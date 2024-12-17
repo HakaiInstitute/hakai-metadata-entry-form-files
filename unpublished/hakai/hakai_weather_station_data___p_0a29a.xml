@@ -153,7 +153,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-01-24T22:11:17.345Z</gco:DateTime>
+        <gco:DateTime>2024-12-17T17:02:15.503Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -240,7 +240,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Hakai Weather Station Data - Provisional</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Données de la station météorologique de Hakai - Provisoires</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -256,7 +256,7 @@
             </cit:CI_Date>
           </cit:date>
           <cit:edition>
-            <gco:CharacterString>1</gco:CharacterString>
+            <gco:CharacterString>1.0</gco:CharacterString>
           </cit:edition>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
@@ -807,7 +807,7 @@
 
 Data is provisional and published in near real-time and has not been fully quality controlled. Before using this data for analysis, please contact data@hakai.org to request any information that might be relevant to your objectives.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données présente les données des stations météorologiques (pluie, température de l&#39;air, humidité relative et vent) mesurées à des intervalles de 5 minutes depuis 2014. Ces mesures proviennent de plusieurs stations réparties sur les îles Calvert et Hécate, sur la côte centrale de la Colombie-Britannique, dans le cadre de la surveillance continue des bassins versants par l&#39;Institut Hakai. Pour plus d&#39;informations sur l&#39;emplacement des stations, les variables et les méthodes de contrôle qualité, voir Korver, M.C., Haughton, E., Floyd, W.C., &amp; Giesbrecht, I.J. (2021). Débit et conditions météorologiques de sept petits bassins versants côtiers, Colombie-Britannique, Canada, 2013-2019. Discussions sur les données scientifiques du système terrestre, 2021, 1-34. 
 
 Les données sont provisoires et publiées en temps quasi réel et n&#39;ont pas fait l&#39;objet d&#39;un contrôle de qualité complet. Avant d&#39;utiliser ces données à des fins d&#39;analyse, veuillez contacter data@hakai.org pour demander toute information susceptible de correspondre à vos objectifs.</lan:LocalisedCharacterString>
@@ -904,7 +904,7 @@ Les données sont provisoires et publiées en temps quasi réel et n&#39;ont pas
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-NoDBdsagbkdA60b9eaM</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-NoDBdsagbkdA60b9eaM</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -994,9 +994,6 @@ Les données sont provisoires et publiées en temps quasi réel et n&#39;ont pas
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
-      </mri:descriptiveKeywords>
-      <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
             <gco:CharacterString>Watersheds</gco:CharacterString>
@@ -1042,7 +1039,7 @@ Les données sont provisoires et publiées en temps quasi réel et n&#39;ont pas
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Haven’t applied appropriate QC on the data yet</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Je n&#39;ai pas encore appliqué le contrôle qualité approprié aux données</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
