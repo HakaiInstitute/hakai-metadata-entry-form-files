@@ -140,19 +140,6 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   url: https://github.com/HakaiInstitute/seagrass-site-production/releases/tag/v1.2.0
-- description:
-    en: Seagrass density survey data (May 2015 - Feb 2019) published to the Ocean
-      Biodiversity Information System (OBIS)
-    fr: Enregistrement des données du relevé de densité des herbiers marins publié
-      dans le système d'information sur la biodiversité des océans (OBIS)
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: 'OBIS record: seagrass density survey data (May 2015 - Feb 2019)'
-  url: http://ipt.iobis.org/obiscanada/resource?r=hakai_seagrassdensitysurveys
 identification:
   abstract:
     en: 'The Seagrass Site-Level Production dataset is a component of Hakai Institute’s
@@ -223,7 +210,20 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsSourceOf
+    association_type_iso: dependency
+    authority: URL
+    code: http://ipt.iobis.org/obiscanada/resource?r=hakai_seagrassdensitysurveys
+    title:
+      en: 'OBIS record: seagrass density survey data (May 2015 - Feb 2019)'
+      fr: 'Record OBIS : données d''enquête sur la densité des herbiers marins (mai
+        2015 - février 2019)'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2015-05-27'
     revision: '2022-02-01'
@@ -279,7 +279,7 @@ identification:
 metadata:
   dates:
     publication: '2024-03-22'
-    revision: '2024-06-12T17:24:22.086Z'
+    revision: '2024-12-30T21:41:45.479Z'
   identifier: 59b33373-ae4a-4719-a3df-0e36a08187d8
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/lJHlH9nm20QQOPuk217xLlxWbNv1/-NPt7-mgrZEUzma8l5W_

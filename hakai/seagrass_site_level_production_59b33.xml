@@ -728,7 +728,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-06-12T17:24:22.086Z</gco:DateTime>
+        <gco:DateTime>2024-12-30T21:41:45.479Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2289,6 +2289,39 @@ Ce paquet de données est disponible gratuitement pour tous, conformément aux p
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>OBIS record: seagrass density survey data (May 2015 - Feb 2019)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Record OBIS : données d&#39;enquête sur la densité des herbiers marins (mai 2015 - février 2019)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>URL</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>http://ipt.iobis.org/obiscanada/resource?r=hakai_seagrassdensitysurveys</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="dependency"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -2384,31 +2417,6 @@ Ce paquet de données est disponible gratuitement pour tous, conformément aux p
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Référentiel Github contenant tous les fichiers relatifs au package de données</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>http://ipt.iobis.org/obiscanada/resource?r=hakai_seagrassdensitysurveys</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>OBIS record: seagrass density survey data (May 2015 - Feb 2019)</gco:CharacterString>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Seagrass density survey data (May 2015 - Feb 2019) published to the Ocean Biodiversity Information System (OBIS)</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Enregistrement des données du relevé de densité des herbiers marins publié dans le système d&#39;information sur la biodiversité des océans (OBIS)</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
