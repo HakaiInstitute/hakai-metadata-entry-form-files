@@ -135,7 +135,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-02'
-    revision: '2025-01-08T22:10:36.855Z'
+    revision: '2025-01-08T22:15:47.182Z'
   identifier: 27ba6c11-2421-4e85-bc11-1c1083514ed9
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTFqOFB5dmFHWXM5am0
@@ -149,6 +149,38 @@ metadata:
     limitations:
       en: Appropriate credit must be given to Hakai Institute and the authors of the
         dataset.
+platform:
+- description:
+    en: Hakai Institutes multibeam vessel used for mapping underwater environments.
+    fr: Navire multifaisceaux de l'Institut Hakai utilisé pour cartographier les environnements
+      sous-marins.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Hakai Blue
+  instruments:
+  - description:
+      en: The Seabat T50R Multibeam bathymetry mapping unit
+      fr: L'unité de cartographie bathymétrique multifaisceaux Seabat T50R
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Multibeam Bathymetry Mapping System
+    manufacturer: The Seabat T50R Multibeam system
+    type:
+      en: Multibeam sensor
+      fr: Détecteur multifaisceaux
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: T50R
+  type: surface vessel
 spatial:
   bbox:
   - -127.22312137
