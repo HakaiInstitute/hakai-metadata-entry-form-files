@@ -15,7 +15,6 @@ contact:
     orcid: https://orcid.org/0009-0005-6753-1142
     position: Geospatial Scientist
   organization:
-    address: 1002 Wharf Street
     city: Campbell River
     country: Canada
     name: Hakai Institute
@@ -30,12 +29,14 @@ contact:
 - inCitation: true
   individual:
     email: data@hakai.org
+    name: Hakai Geospatial
   organization:
     address: 303-1100 Island Hwy
     city: Campbell River
     country: Canada
     email: data@hakai.org
-    name: Hakai Geospatial
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
   - custodian
@@ -45,16 +46,13 @@ contact:
   - principalInvestigator
   - resourceProvider
 - inCitation: false
-  individual:
-    email: data@hakai.org
-    position: Research Organization
   organization:
-    address: 1002 Wharf Street
-    city: Victoria
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
-    url: www.hakai.org
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - owner
   - custodian
@@ -91,7 +89,7 @@ identification:
       The ROV used was a DeepTrekker DTX-2, a portable commercial grade ROV equipped
       with a 4k video
 
-      camera and rated to depts of 305m. For the purposes of this survey, video data
+      camera and rated to depths of 305m. For the purposes of this survey, video data
       was collected at a
 
       resolution of 1080p.'
@@ -107,7 +105,7 @@ identification:
       Le ROV utilisé était un DeepTrekker DTX-2, un ROV portable de qualité commerciale
       équipé d''une vidéo 4K
 
-      caméra et conçue pour des profondeurs de 305 m. Aux fins de cette enquête, les
+      caméra et nominale à des profondeurs de 305 m. Aux fins de cette enquête, les
       données vidéo ont été collectées dans un
 
       résolution de 1080p.'
@@ -120,7 +118,7 @@ identification:
   - association_type: IsDocumentedBy
     association_type_iso: crossReference
     authority: URL
-    code: https://drive.google.com/file/d/158ZlJtvMxVP7IQW25crHTESfuhghM-Nk/view?usp=sharing
+    code: https://drive.google.com/file/d/1cVKzfksYmda8KfieLqxq_BlRDNQ0GN09/view?usp=sharing
     title:
       en: Knight Inlet ROV Survey - 2024
       fr: Enquête sur les ROV de Knight Inlet - 2024
@@ -146,6 +144,23 @@ identification:
       - other
       fr:
       - Autre
+    taxa:
+      en:
+      - Animalia
+      - Cnidaria
+      - Anthozoa
+      - Scleralcyonacea
+      - Primnoidae
+      - Primnoa
+      - Primnoa pacifica
+      fr:
+      - Animalia
+      - Cnidaria
+      - Anthozoa
+      - Scleralcyonacea
+      - Primnoidae
+      - Primnoa
+      - Primnoa pacifica
   progress_code: completed
   project:
   - Geospatial
@@ -162,7 +177,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-01-08T23:11:53.572Z'
+    revision: '2025-01-10T18:24:17.965Z'
   identifier: 00f42725-0a88-4d4f-87a9-4e359d2abff4
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-OG736nDr1-1b51V4ZIc
@@ -192,30 +207,40 @@ platform:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  id: Mamalilikulla Research Vessel
+  id: Mamalilikulla
+  type: research vessel
+- description:
+    en: A portable commercial grade Remotely Operated Vehicle (ROV) equipped with
+      a 4k video camera and rated to depths of 305m.
+    fr: Un véhicule télécommandé (ROV) portable de qualité commerciale équipé d'une
+      caméra vidéo 4K et pouvant atteindre une profondeur de 305 m.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: DeepTrekker DTX-2 - TILDEN
   instruments:
   - description:
-      en: A portable commercial grade ROV equipped with a 4k video camera and rated
-        to depts of 305m.
-      fr: Un ROV portable de qualité commerciale équipé d'une caméra vidéo 4K et d'une
-        profondeur nominale de 305 m.
+      en: 4k video camera with a resolution of 1080p
+      fr: Caméra vidéo 4K avec une résolution de 1080p
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-    id: DeepTrekker DTX-2 - TILDEN
-    manufacturer: DeepTrekker
+    id: Tilden 4K camera
+    manufacturer: DeepTrekker DTX-2
+    platform: DeepTrekker DTX-2 - TILDEN
     type:
-      en: Remotely Operated Vehicle for marine surveys
-      fr: Véhicule télécommandé pour les études maritimes
+      en: Digital camera
+      fr: Appareil photo numérique
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-    version: DTX-2
-  type: surface vessel
+  type: propelled unmanned submersible
 spatial:
   bbox:
   - -126.0
