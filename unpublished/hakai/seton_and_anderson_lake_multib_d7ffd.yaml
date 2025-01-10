@@ -21,22 +21,6 @@ contact:
   - publisher
 - inCitation: true
   individual:
-    name: Viner, Nick
-    position: Geospatial Scientist
-  organization:
-    address: 1002 Wharf Street
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - principalInvestigator
-  - processor
-  - pointOfContact
-  - author
-- inCitation: true
-  individual:
     email: data@hakai.org
     name: Hakai Geospatial
   organization:
@@ -53,6 +37,24 @@ contact:
   - distributor
   - principalInvestigator
   - pointOfContact
+- inCitation: true
+  individual:
+    email: nick.viner@hakai.org
+    name: Viner, Nick
+    orcid: https://orcid.org/0009-0005-6753-1142
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - author
+  - principalInvestigator
+  - processor
 distribution:
 - description:
     en: Data request form for the Seton and Anderson Lake Multibeam Survey data.
@@ -189,7 +191,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-01-09T23:01:43.068Z'
+    revision: '2025-01-10T17:07:56.397Z'
   identifier: d7ffd737-5725-4a56-9134-a9ad91c2734d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-OCe-GBA4i93dk_I9uOR
