@@ -1,0 +1,168 @@
+contact:
+- inCitation: true
+  individual:
+    email: emily.haughton@hakai.org
+    name: Haughton, Emily
+    orcid: https://orcid.org/0009-0002-5756-1805
+    position: tech
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+    position: Researcher
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - principalInvestigator
+  - distributor
+distribution:
+- description:
+    en: Documentation and data files for stream temperature time series
+    fr: Documentation et fichiers de données pour les séries chronologiques de température
+      des cours d'eau
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Github Repository
+    fr: Référentiel Github
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/hakai-stream-temperature-data.git
+identification:
+  abstract:
+    en: 'The lack of continuous stream temperature and stage data for minimally disturbed,
+      freshwater wadeable streams limits the ability to analyze long-term trends in
+      aquatic biogeochemical data. Collecting these data supports efforts to detect
+      and track climate change-related impacts, enhances our understanding of how
+      biological, thermal, and hydrologic conditions vary across space and time, and
+      helps differentiate the effects of climate change from other environmental stressors.
+
+
+      This dataset consists of high-resolution water temperature time series, collected
+      at 5-minute intervals and updated annually from the Kwakshua Watersheds Observatory
+      on the central coast of British Columbia. The data undergo rigorous Quality
+      Control (QC), where gaps are filled, and noisy or faulty data are corrected.
+      Corrected values are flagged as ‘EV’ (Estimated Value), while suspicious data
+      points that could not be corrected are flagged as ‘SVC’ (Suspicious Value Caution).
+      All other data points are marked as ‘AV’ (Accepted Value).'
+    fr: 'L''absence de données continues sur la température et le stade des cours
+      d''eau pour les cours d''eau douce peu perturbés et praticables limite la capacité
+      d''analyser les tendances à long terme des données biogéochimiques aquatiques.
+      La collecte de ces données soutient les efforts visant à détecter et à suivre
+      les impacts liés au changement climatique, améliore notre compréhension de la
+      façon dont les conditions biologiques, thermiques et hydrologiques varient dans
+      l''espace et dans le temps, et aide à différencier les effets du changement
+      climatique des autres facteurs de stress environnementaux.
+
+
+      Cet ensemble de données consiste en des séries chronologiques de température
+      de l''eau à haute résolution, collectées à intervalles de 5 minutes et mises
+      à jour chaque année par l''observatoire des bassins versants de Kwakshua, sur
+      la côte centrale de la Colombie-Britannique. Les données sont soumises à un
+      contrôle qualité (CQ) rigoureux, au cours duquel les lacunes sont comblées et
+      les données bruyantes ou erronées sont corrigées. Les valeurs corrigées sont
+      signalées comme « EV » (valeur estimée), tandis que les points de données suspects
+      qui n''ont pas pu être corrigés sont signalés comme « SVC » (Suspicious Value
+      Caution). Tous les autres points de données sont marqués comme « AV » (valeur
+      acceptée).'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2014-09-08'
+  edition: 1.0.0
+  keywords:
+    default:
+      en:
+      - stream temperature
+      - water temperature
+      fr:
+      - température de l'eau
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: onGoing
+  project:
+  - Watersheds
+  status: submitted
+  temporal_begin: '2014-09-08T19:00:00.000Z'
+  title:
+    en: Hakai Stream Temperature Data
+    fr: Données de température du flux Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2025-01-28T23:50:36.091Z'
+  identifier: 294753f5-b0e4-4424-8c61-5c9fb2ed4670
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-OHjF0BM2dO2PcoUz8_f
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Data gaps due to power and sensor failure
+      fr: Lacunes de données dues à une panne d'alimentation et à une panne de capteur
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.1
+  - 51.63
+  - -128.0
+  - 51.67
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
