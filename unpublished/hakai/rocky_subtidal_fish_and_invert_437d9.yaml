@@ -74,7 +74,7 @@ distribution:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://drive.google.com/drive/folders/1LMwyCEDZXVhUQ1Uk6MO5PB_LeEYeG10F?usp=sharing
+  url: https://drive.google.com/file/d/14ssq4XfMQyRkD8vBqgMmmHi3luMMKwsm/view
 identification:
   abstract:
     en: "The rocky subtidal fish and invertebrate dataset is a component of Hakai\
@@ -118,12 +118,20 @@ identification:
       \ et 2) communiquer et/ou collaborer avec les fournisseurs si vous envisagent\
       \ d'utiliser cet ensemble de données pour des manuscrits ou d'autres formes\
       \ de rapports."
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsNewVersionOf
+    association_type_iso: revisionOf
+    authority: URL
+    code: https://drive.google.com/drive/folders/1LMwyCEDZXVhUQ1Uk6MO5PB_LeEYeG10F
+    title:
+      en: Fish and Invertebrate Community Survey data - All Versions
+      fr: Données de l'enquête sur les communautés de poissons et d'invertébrés -
+        Toutes les versions
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2017-07-01'
     publication: '2022-01-13'
@@ -167,7 +175,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-21'
-    revision: '2025-01-28T16:50:34.576Z'
+    revision: '2025-01-28T16:57:06.260Z'
   identifier: 35beb32e-8dc9-42ab-9630-2ae23e414026
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/df5J7W5Hk4e0p4yvlOAI0qcU9Gs2/-MtF5vh1GUMdwtJdYjoJ
