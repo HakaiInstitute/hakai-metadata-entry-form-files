@@ -1,0 +1,184 @@
+contact:
+- inCitation: true
+  individual:
+    email: emily.haughton@hakai.org
+    name: Haughton, Emily
+    position: Hydrology and Sensor Specialist
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: bill.floyd@viu.ca
+    name: Floyd, W.C.
+    position: Research Hydrologist
+  organization:
+    city: Nanaimo
+    country: Canada
+    name: Vancouver Island University
+    ror: https://ror.org/033wcvv61
+    url: https://www.viu.ca/
+  roles:
+  - owner
+  - principalInvestigator
+  - distributor
+distribution:
+- description:
+    en: Datafiles and documentation for streamflow time series data
+    fr: Fichiers de données et documentation pour les données de séries chronologiques
+      sur les flux
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Github Repository
+    fr: Référentiel Github
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/hakai-streamflow-data.git
+identification:
+  abstract:
+    en: 'This dataset provides high-resolution streamflow time series, collected at
+      5-minute intervals and updated annually from the Kwakshua Watersheds Observatory
+      on the central coast of British Columbia. It is generated using the autosalt
+      dilution method, which involves injecting a salt solution into the stream and
+      measuring changes in electrical conductivity to calculate discharge. This reliable
+      technique ensures accurate streamflow measurements, even during high-flow events,
+      making it essential for hydrological studies, water resource management, and
+      environmental assessments.
+
+
+      The data undergoes rigorous Quality Control (QC), with gaps filled and noisy
+      or faulty data corrected. Corrected data are flagged as ''EV'' (Estimated Value),
+      while uncorrectable suspicious data points are flagged ''SVC'' (Suspicious Value
+      Caution). All other data points are marked as ''AV'' (Accepted Value). QC flags
+      from the stage data are automatically applied to the corresponding 5-minute
+      discharge data. Flows exceeding the highest measured discharge are flagged with
+      ''SVC'' due to the uncertainty of extrapolating beyond the measured range.
+
+
+      This comprehensive dataset offers a dependable record of streamflow conditions,
+      vital for monitoring and analyzing streamflow dynamics, understanding the impacts
+      of climate variability, and assessing land-use changes on watershed hydrology.'
+    fr: 'Cet ensemble de données fournit des séries chronologiques à haute résolution
+      sur les débits fluviaux, collectées à intervalles de 5 minutes et mises à jour
+      chaque année par l''observatoire des bassins versants de Kwakshua, sur la côte
+      centrale de la Colombie-Britannique. Il est généré à l''aide de la méthode de
+      dilution automatique au sel, qui consiste à injecter une solution saline dans
+      le flux et à mesurer les variations de conductivité électrique pour calculer
+      le débit. Cette technique fiable garantit des mesures précises du débit, même
+      en cas de pic de débit, ce qui la rend essentielle pour les études hydrologiques,
+      la gestion des ressources en eau et les évaluations environnementales.
+
+
+      Les données sont soumises à un contrôle qualité (CQ) rigoureux, les lacunes
+      étant comblées et les données bruyantes ou erronées corrigées. Les données corrigées
+      sont signalées comme « EV » (valeur estimée), tandis que les points de données
+      suspects non corrigeables sont marqués comme « SVC » (Suspicious Value Caution).
+      Tous les autres points de données sont marqués comme « AV » (valeur acceptée).
+      Les indicateurs de contrôle qualité issus des données de la phase sont automatiquement
+      appliqués aux données de décharge correspondantes de 5 minutes. Les débits dépassant
+      le débit mesuré le plus élevé sont signalés par « SVC » en raison de l''incertitude
+      liée à l''extrapolation au-delà de la plage mesurée.
+
+
+      Cet ensemble de données complet fournit un enregistrement fiable des conditions
+      de débit, essentiel pour surveiller et analyser la dynamique des débits, comprendre
+      les impacts de la variabilité climatique et évaluer les changements d''affectation
+      des sols sur l''hydrologie des bassins versants.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2014-09-08'
+  edition: 1.0.0
+  keywords:
+    default:
+      en:
+      - streamflow
+      - discharge
+      - fresh water flow
+      - watershed
+      fr:
+      - débits eau douce
+      - bassin versant
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: onGoing
+  project:
+  - Watersheds
+  status: submitted
+  temporal_begin: '2014-09-08T19:00:00.000Z'
+  title:
+    en: Hakai Streamflow Data
+    fr: Données de Hakai Streamflow
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2025-01-28T23:28:52.185Z'
+  identifier: d986aade-6bf1-4dfa-97c2-686975f944d5
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-OHj73dBYs1okPPjDXKY
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Data gaps due to sensor failure, and power failure
+      fr: Lacunes dans les données dues à une défaillance du capteur et à une panne
+        de courant
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.1
+  - 51.64
+  - -128.0
+  - 51.67
+  descriptionIdentifier: 864e2792-d5f7-431e-96a6-9a4a118b896f
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive

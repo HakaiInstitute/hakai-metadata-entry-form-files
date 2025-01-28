@@ -1,0 +1,65 @@
+abstract: 'This dataset provides high-resolution streamflow time series, collected
+  at 5-minute intervals and updated annually from the Kwakshua Watersheds Observatory
+  on the central coast of British Columbia. It is generated using the autosalt dilution
+  method, which involves injecting a salt solution into the stream and measuring changes
+  in electrical conductivity to calculate discharge. This reliable technique ensures
+  accurate streamflow measurements, even during high-flow events, making it essential
+  for hydrological studies, water resource management, and environmental assessments.
+
+
+  The data undergoes rigorous Quality Control (QC), with gaps filled and noisy or
+  faulty data corrected. Corrected data are flagged as ''EV'' (Estimated Value), while
+  uncorrectable suspicious data points are flagged ''SVC'' (Suspicious Value Caution).
+  All other data points are marked as ''AV'' (Accepted Value). QC flags from the stage
+  data are automatically applied to the corresponding 5-minute discharge data. Flows
+  exceeding the highest measured discharge are flagged with ''SVC'' due to the uncertainty
+  of extrapolating beyond the measured range.
+
+
+  This comprehensive dataset offers a dependable record of streamflow conditions,
+  vital for monitoring and analyzing streamflow dynamics, understanding the impacts
+  of climate variability, and assessing land-use changes on watershed hydrology.'
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: emily.haughton@hakai.org
+  family-names: Haughton
+  given-names: Emily
+  website: https://www.hakai.org/
+- affiliation: Vancouver Island University
+  city: Nanaimo
+  country: CA
+  email: bill.floyd@viu.ca
+  family-names: Floyd
+  given-names: W.C.
+  website: https://www.viu.ca/
+cff-version: 1.2.0
+date-released: '2025-01-28'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: d986aade-6bf1-4dfa-97c2-686975f944d5
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_d986aade-6bf1-4dfa-97c2-686975f944d5
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-OHj73dBYs1okPPjDXKY
+- description: 'Github Repository: Datafiles and documentation for streamflow time
+    series data'
+  type: url
+  value: https://github.com/HakaiInstitute/hakai-streamflow-data.git
+keywords:
+- watershed
+- discharge
+- fresh water flow
+- other
+- streamflow
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Hakai Streamflow Data
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_d986aade-6bf1-4dfa-97c2-686975f944d5
+version: 1.0.0

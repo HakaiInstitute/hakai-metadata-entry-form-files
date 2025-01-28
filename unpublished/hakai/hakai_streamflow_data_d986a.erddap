@@ -1,0 +1,33 @@
+<addAttributes>
+    <att name='institution'>Hakai Institute</att>
+    <att name='title'>Hakai Streamflow Data</att>
+    <att name='summary'>This dataset provides high-resolution streamflow time series, collected at 5-minute intervals and updated annually from the Kwakshua Watersheds Observatory on the central coast of British Columbia. It is generated using the autosalt dilution method, which involves injecting a salt solution into the stream and measuring changes in electrical conductivity to calculate discharge. This reliable technique ensures accurate streamflow measurements, even during high-flow events, making it essential for hydrological studies, water resource management, and environmental assessments.
+
+The data undergoes rigorous Quality Control (QC), with gaps filled and noisy or faulty data corrected. Corrected data are flagged as 'EV' (Estimated Value), while uncorrectable suspicious data points are flagged 'SVC' (Suspicious Value Caution). All other data points are marked as 'AV' (Accepted Value). QC flags from the stage data are automatically applied to the corresponding 5-minute discharge data. Flows exceeding the highest measured discharge are flagged with 'SVC' due to the uncertainty of extrapolating beyond the measured range.
+
+This comprehensive dataset offers a dependable record of streamflow conditions, vital for monitoring and analyzing streamflow dynamics, understanding the impacts of climate variability, and assessing land-use changes on watershed hydrology.</att>
+    <att name='project'>Watersheds</att>
+    <att name='comment'>##Limitations:
+Data gaps due to sensor failure, and power failure</att>
+    <att name='progress'>onGoing</att>
+    <att name='keywords'>streamflow,discharge,fresh water flow,watershed,CIOOS:other</att>
+    <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary</att>
+    <att name='id'>d986aade-6bf1-4dfa-97c2-686975f944d5</att>
+    <att name='naming_authority'>ca.cioos</att>
+    <att name='date_modified'>2025-01-28T23:28:52.185Z</att>
+    <att name='product_version'>1.0.0</att>
+    <att name='license'>https://creativecommons.org/licenses/by/4.0</att>
+    <att name='creator_name'>Haughton, Emily</att>
+    <att name='creator_email'>emily.haughton@hakai.org</att>
+    <att name='creator_type'>person</att>
+    <att name='creator_institution'>Hakai Institute</att>
+    <att name='creator_city'>Campbell River</att>
+    <att name='creator_country'>Canada</att>
+    <att name='creator_url'>https://www.hakai.org/</att>
+    <att name='creator_ror'>https://ror.org/02pry0c91</att>
+    <att name='contributor_name'>Haughton, Emily;Floyd, W.C.</att>
+    <att name='contributor_role'>custodian,owner,distributor;owner,principalInvestigator,distributor</att>
+    <att name='metadata_link'>https://catalogue.hakai.org/dataset/ca-cioos_d986aade-6bf1-4dfa-97c2-686975f944d5</att>
+    <att name='infoUrl'>https://catalogue.hakai.org/dataset/ca-cioos_d986aade-6bf1-4dfa-97c2-686975f944d5</att>
+    <att name='metadata_form'>https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-OHj73dBYs1okPPjDXKY</att>
+</addAttributes>
