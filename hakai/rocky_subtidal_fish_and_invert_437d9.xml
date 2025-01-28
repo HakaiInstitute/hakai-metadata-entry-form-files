@@ -80,17 +80,17 @@
                     <gco:CharacterString>1713 Hyacinthe Bay Road - PO Box 309</gco:CharacterString>
                   </cit:deliveryPoint>
                   <cit:city>
-                    <gco:CharacterString>Heriot Bay BC  - V0P 1H0</gco:CharacterString>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
                   </cit:city>
                   <cit:country>
-                    <gco:CharacterString>CANADA</gco:CharacterString>
+                    <gco:CharacterString>Canada</gco:CharacterString>
                   </cit:country>
                 </cit:CI_Address>
               </cit:address>
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://hakai.org/</gco:CharacterString>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -168,17 +168,17 @@
                     <gco:CharacterString>1713 Hyacinthe Bay Road - PO Box 309</gco:CharacterString>
                   </cit:deliveryPoint>
                   <cit:city>
-                    <gco:CharacterString>Heriot Bay BC  - V0P 1H0</gco:CharacterString>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
                   </cit:city>
                   <cit:country>
-                    <gco:CharacterString>CANADA</gco:CharacterString>
+                    <gco:CharacterString>Canada</gco:CharacterString>
                   </cit:country>
                 </cit:CI_Address>
               </cit:address>
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://hakai.org/</gco:CharacterString>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -256,17 +256,17 @@
                     <gco:CharacterString>1713 Hyacinthe Bay Road - PO Box 309</gco:CharacterString>
                   </cit:deliveryPoint>
                   <cit:city>
-                    <gco:CharacterString>Heriot Bay BC  - V0P 1H0</gco:CharacterString>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
                   </cit:city>
                   <cit:country>
-                    <gco:CharacterString>CANADA</gco:CharacterString>
+                    <gco:CharacterString>Canada</gco:CharacterString>
                   </cit:country>
                 </cit:CI_Address>
               </cit:address>
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://hakai.org/</gco:CharacterString>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -319,10 +319,68 @@
       </cit:party>
     </cit:CI_Responsibility>
   </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="funder"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Tula Foundation</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Vancouver</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://tula.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/0029jxk29</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-01-27T22:11:58.327Z</gco:DateTime>
+        <gco:DateTime>2025-01-28T16:57:06.260Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -332,7 +390,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:Date>2022-01-21</gco:Date>
+        <gco:Date>2025-01-28</gco:Date>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
@@ -419,8 +477,8 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Rocky Subtidal Fish and Invertebrate Community Surveys from the Central Coast of BC</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Inventaires des communautés de poissons et d&#39;invertébrés subtidaux de Rocky sur la côte centrale de la Colombie-Britannique</lan:LocalisedCharacterString>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Données sur les communautés de poissons et invertébrés des zones sous-marines rocheuse de la côte centrale de la Colombie-Britannique</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -454,6 +512,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.3.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -486,17 +547,17 @@
                             <gco:CharacterString>1713 Hyacinthe Bay Road - PO Box 309</gco:CharacterString>
                           </cit:deliveryPoint>
                           <cit:city>
-                            <gco:CharacterString>Heriot Bay BC  - V0P 1H0</gco:CharacterString>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
                           </cit:city>
                           <cit:country>
-                            <gco:CharacterString>CANADA</gco:CharacterString>
+                            <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
                         <cit:CI_OnlineResource>
                           <cit:linkage>
-                            <gco:CharacterString>https://hakai.org/</gco:CharacterString>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
                           </cit:linkage>
                           <cit:protocol>
                             <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -574,17 +635,17 @@
                             <gco:CharacterString>1713 Hyacinthe Bay Road - PO Box 309</gco:CharacterString>
                           </cit:deliveryPoint>
                           <cit:city>
-                            <gco:CharacterString>Heriot Bay BC  - V0P 1H0</gco:CharacterString>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
                           </cit:city>
                           <cit:country>
-                            <gco:CharacterString>CANADA</gco:CharacterString>
+                            <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
                         <cit:CI_OnlineResource>
                           <cit:linkage>
-                            <gco:CharacterString>https://hakai.org/</gco:CharacterString>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
                           </cit:linkage>
                           <cit:protocol>
                             <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -662,17 +723,17 @@
                             <gco:CharacterString>1713 Hyacinthe Bay Road - PO Box 309</gco:CharacterString>
                           </cit:deliveryPoint>
                           <cit:city>
-                            <gco:CharacterString>Heriot Bay BC  - V0P 1H0</gco:CharacterString>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
                           </cit:city>
                           <cit:country>
-                            <gco:CharacterString>CANADA</gco:CharacterString>
+                            <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
                         <cit:CI_OnlineResource>
                           <cit:linkage>
-                            <gco:CharacterString>https://hakai.org/</gco:CharacterString>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
                           </cit:linkage>
                           <cit:protocol>
                             <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -718,6 +779,101 @@
                       </cit:contactInfo>
                       <cit:positionName>
                         <gco:CharacterString>Kelp Researcher and Field technicien</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Schmill, Alejandro</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>alex.schmill@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0009-0004-2329-3026</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
                       </cit:positionName>
                     </cit:CI_Individual>
                   </cit:individual>
@@ -813,13 +969,71 @@
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>The rocky subtidal fish and invertebrate dataset is a component of Hakai Institute’s Nearshore research and monitoring program. This dataset characterizes spatial and temporal trends in fish and invertebrates communities at 22 rocky bottom subtidal sites near Calvert Island on the Central Coast of British Columbia (2017-current). Data coverage varies by year and habitat type. Habitats include unvegetated rocky reefs and kelp forests (Macrocystis pyrifera and Nereocystis luetkeana) that were surveyed by SCUBA along 30 m transects. The total length and abundance of all fish and large invertebrates excluding urchins were measured. Seastar wasting disease was also recorded on surveys. This dataset characterizes fish and invertebrate distributions and community-level relationships in rocky subtidal nearshore areas representative of the British Columbia coast. 
 This data package is freely available to everyone, following the principles of equitable access and benefit sharing. However, we expect all data users to give attribution to the data providers (read our data license) and the use of these data should happen in the light of fair use, i.e.: 1) respect the data providers, and provide helpful feedback on data quality, and 2) communicate and/or collaborate with the providers if you are considering using this dataset for manuscripts or other forms of reporting.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">L&#39;ensemble des données sur les poissons et les invertébrés en milieux infralittoral rocheux fit parti du programme de recherche Nearshore de l&#39;Institut Hakai. Ce jeu de données caractérise les tendances spatiales et temporelles des communautés de poissons et d&#39;invertébrés dans 22 sites infralittoraux a fond rocheux près de l&#39;île Calvert sur la côte centrale de la Colombie-Britannique (2017-actuel). La couverture des données varie selon l&#39;année et le type d&#39;habitat. Les habitats comprennent des récifs rocheux non végétalisés et des forêts de varech (Macrocystis pyrifera et Nereocystis luetkeana) qui ont été étudiés par plongée le long de transects de 30 m. La longueur et l&#39;abondance de tous poissons et invertébrés (d&#39;une certaine taille), à l&#39;exception des oursins, ont été mesurées. La maladie du dépérissement des étoiles de mer a également été enregistrée lors d&#39;enquêtes. Ce jeu de données caractérise la distribution des poissons et des invertébrés ainsi que les relations au niveau des communautés dans les zones infratidales rocheuses proches du rivage représentatives de la côte de la Colombie-Britannique. 
 Ce dossier de données est accessible gratuitement à tous, conformément aux principes d&#39;accès équitable et de partage des avantages. Cependant, nous attendons de tous les utilisateurs de données qu&#39;ils attribuent aux fournisseurs de données (lire notre licence de données) et l&#39;utilisation de ces données doit se faire dans le cadre d&#39;un usage loyal, c&#39;est-à-dire : 1) respecter les fournisseurs de données et fournir des commentaires utiles sur la qualité des données, et 2) communiquer et/ou collaborer avec les fournisseurs si vous envisagent d&#39;utiliser cet ensemble de données pour des manuscrits ou d&#39;autres formes de rapports.</lan:LocalisedCharacterString>
           </lan:textGroup>
@@ -859,13 +1073,40 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
       </mri:extent>
       <mri:extent>
         <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_GeographicDescription>
+              <gex:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gex:extentTypeCode>
+              <gex:geographicIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString></gco:CharacterString>
+                  </mcc:code>
+                  <mcc:codeSpace>
+                    <gco:CharacterString>ca.cioos</gco:CharacterString>
+                  </mcc:codeSpace>
+                  <mcc:version>
+                    <gco:CharacterString>1</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>{&#39;en&#39;: &#39;Nearshore subtidal from Calvert Island to Athlone Island - BC - Central Coast&#39;, &#39;fr&#39;: &#34;Zone sublittorale littorale de l&#39;île Calvert à l&#39;île Athlone - Colombie-Britannique - Côte centrale&#34;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </gex:geographicIdentifier>
+            </gex:EX_GeographicDescription>
+          </gex:geographicElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
           <gex:verticalElement>
             <gex:EX_VerticalExtent>
               <gex:minimumValue>
                 <gco:Real>0.0</gco:Real>
               </gex:minimumValue>
               <gex:maximumValue>
-                <gco:Real>30.0</gco:Real>
+                <gco:Real>15.0</gco:Real>
               </gex:maximumValue>
               <gex:verticalCRSId>
                 <mrs:MD_ReferenceSystem>
@@ -1065,6 +1306,39 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Fish and Invertebrate Community Survey data - All Versions</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Données de l&#39;enquête sur les communautés de poissons et d&#39;invertébrés - Toutes les versions</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>URL</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://drive.google.com/drive/folders/1LMwyCEDZXVhUQ1Uk6MO5PB_LeEYeG10F</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="revisionOf"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -1099,17 +1373,17 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
                             <gco:CharacterString>1713 Hyacinthe Bay Road - PO Box 309</gco:CharacterString>
                           </cit:deliveryPoint>
                           <cit:city>
-                            <gco:CharacterString>Heriot Bay BC  - V0P 1H0</gco:CharacterString>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
                           </cit:city>
                           <cit:country>
-                            <gco:CharacterString>CANADA</gco:CharacterString>
+                            <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
                         <cit:CI_OnlineResource>
                           <cit:linkage>
-                            <gco:CharacterString>https://hakai.org/</gco:CharacterString>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
                           </cit:linkage>
                           <cit:protocol>
                             <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -1169,13 +1443,18 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://drive.google.com/drive/folders/1LMwyCEDZXVhUQ1Uk6MO5PB_LeEYeG10F?usp=sharing</gco:CharacterString>
+                <gco:CharacterString>https://drive.google.com/file/d/14ssq4XfMQyRkD8vBqgMmmHi3luMMKwsm/view</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>fish and invert v1.2.0</gco:CharacterString>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>fish and invert v1.3.0</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Fish and Invert v1.3.0</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>zip file which includes all csv, pdf and txt files associated with that project</gco:CharacterString>
