@@ -401,7 +401,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-23T12:09:17.578Z</gco:DateTime>
+        <gco:DateTime>2025-02-14T20:39:23.091Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -468,7 +468,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -481,7 +481,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -496,10 +496,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Understory kelp biomass data from BC Central Coast, v1.2.0</gco:CharacterString>
+            <gco:CharacterString>Understory kelp biomass data from BC Central Coast</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Données sur la biomasse des varechs sous la canopee de la côte centrale de la Colombie-Britannique, v1.2.0</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Données sur la biomasse du varech du sous-étage de la côte centrale de la Colombie-Britannique</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -523,8 +523,18 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2025-02-05</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
           <cit:edition>
-            <gco:CharacterString>1.2.0</gco:CharacterString>
+            <gco:CharacterString>1.3.0</gco:CharacterString>
           </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
@@ -1045,11 +1055,13 @@
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>The understory kelp biomass dataset is a component of Hakai Institute’s Nearshore research and monitoring program. This dataset characterizes spatial and temporal trends in understory kelps and kelp-consuming invertebrate communities at 22 rocky bottom subtidal sites near Calvert Island on the Central Coast of British Columbia, Canada (2014-now). Data coverage varies by year. The total length and abundance of all kelps, Desmarestia species, and urchins were measured at 6 sites seasonally (5 times within a year) from 2014-2018. Urchin behaviour was also recorded. From 2016-current, additional sites (4-15) were surveyed annually using a variation on the sampling design (reduced measurements on a subset of sites). In 2018-current kelp consumer species abundance, including small mobile grazing invertebrates, were recorded. Dry weight values and length to weight relations are also provided to extrapolate density and morphology data to biomass. Spatial and temporal variability in kelp and invertebrate community relationships is described.
+
 This data package is freely available to everyone, following the principles of equitable access and benefit sharing. However, we expect all data users to give attribution to the data providers (read our data license) and the use of these data should happen in the light of fair use, i.e.: 1) respect the data providers, and provide helpful feedback on data quality, and 2) communicate and/or collaborate with the providers if you are considering using this dataset for manuscripts or other forms of reporting.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">L&#39;ensemble de données sur la biomasse des varech de sous le canopee fait partie du programme de recherche Nearshore de l&#39;Institut Hakai. Ce jeu de données caractérise les tendances spatiales et temporelles des varech du sous-étage et des communautés d&#39;invertébrés consommateurs de varech dans 22 sites subtidaux de fond rocheux près de l&#39;île Calvert sur la côte centrale de la Colombie-Britannique, au Canada (2014 à ce jour). La couverture des données varie selon les années. La longueur totale et l&#39;abondance de tous les varech, des espèces de Desmarestia et des oursins ont été mesurées sur 6 sites de façon saisonnière (5 fois par an) de 2014 à 2018. Le comportement des oursins a également été enregistré. À partir de 2016, d&#39;autres sites (4 à 15) ont été étudiés chaque année en utilisant une variation du plan d&#39;échantillonnage (mesures réduites sur un sous-ensemble de sites). En 2018, l&#39;abondance des espèces consommatrices de varech, y compris les petits invertébrés mobiles de pâturage, a été enregistrée. Des valeurs de poids sec et des relations longueur-poids sont également fournies pour extrapoler les données de densité et de morphologie à la biomasse. La variabilité spatiale et temporelle des relations entre les communautés de varech et d&#39;invertébrés est décrite.
-Ce dossier de données est accessible gratuitement à tous, conformément aux principes d&#39;accès équitable et de partage des avantages. Cependant, nous attendons de tous les utilisateurs de données qu&#39;ils attribuent aux fournisseurs de données (lire notre licence de données) et l&#39;utilisation de ces données doit se faire dans le cadre d&#39;un usage loyal, c&#39;est-à-dire : 1) respecter les fournisseurs de données et fournir des commentaires utiles sur la qualité des données, et 2) communiquer et/ou collaborer avec les fournisseurs si vous envisagent d&#39;utiliser cet ensemble de données pour des manuscrits ou d&#39;autres formes de rapports.</lan:LocalisedCharacterString>
+          <lan:textGroup>
+            <lan:LocalisedCharacterString locale="#fr">L&#39;ensemble de données sur la biomasse du varech du sous-étage fait partie du programme de recherche et de surveillance des zones côtières de l&#39;Institut Hakai. Cet ensemble de données caractérise les tendances spatiales et temporelles des communautés d&#39;invertébrés consommant du varech du sous-étage et des communautés d&#39;invertébrés consommant du varech sur 22 sites subtidaux de fond rocheux, près de l&#39;île Calvert, sur la côte centrale de la Colombie-Britannique, au Canada (2014-aujourd&#39;hui). La couverture des données varie d&#39;une année à l&#39;autre. La longueur totale et l&#39;abondance de tous les varech, des espèces de Desmarestia et des oursins ont été mesurées sur 6 sites de façon saisonnière (5 fois en un an) de 2014 à 2018. Le comportement des oursins a également été enregistré. Depuis 2016, des sites supplémentaires (4 à 15) ont été étudiés chaque année en utilisant une variation du plan d&#39;échantillonnage (mesures réduites sur un sous-ensemble de sites). En 2018, l&#39;abondance actuelle des espèces consommatrices de varech, y compris de petits invertébrés mobiles au pâturage, a été enregistrée. Des valeurs de poids sec et des relations longueur/poids sont également fournies pour extrapoler les données de densité et de morphologie à la biomasse. La variabilité spatiale et temporelle des relations entre les communautés de varech et d&#39;invertébrés est décrite.
+
+Ce paquet de données est accessible gratuitement à tous, conformément aux principes d&#39;accès équitable et de partage des avantages. Cependant, nous attendons de tous les utilisateurs de données qu&#39;ils attribuent les noms aux fournisseurs de données (lisez notre licence de données) et l&#39;utilisation de ces données doit se faire dans le respect d&#39;une utilisation équitable, c&#39;est-à-dire : 1) respecter les fournisseurs de données et fournir des commentaires utiles sur la qualité des données, et 2) communiquer et/ou collaborer avec les fournisseurs si vous envisagez d&#39;utiliser cet ensemble de données pour des manuscrits ou d&#39;autres formes de reporting.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -1082,6 +1094,33 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
                 <gco:Decimal>52.26</gco:Decimal>
               </gex:northBoundLatitude>
             </gex:EX_GeographicBoundingBox>
+          </gex:geographicElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_GeographicDescription>
+              <gex:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gex:extentTypeCode>
+              <gex:geographicIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString></gco:CharacterString>
+                  </mcc:code>
+                  <mcc:codeSpace>
+                    <gco:CharacterString>ca.cioos</gco:CharacterString>
+                  </mcc:codeSpace>
+                  <mcc:version>
+                    <gco:CharacterString>1</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>{&#39;en&#39;: &#39;Sites near Calvert Island on the Central Coast of British Columbia, Canada&#39;, &#39;fr&#39;: &#34;Sites à proximité de l&#39;île Calvert, sur la côte centrale de la Colombie-Britannique, au Canada&#34;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </gex:geographicIdentifier>
+            </gex:EX_GeographicDescription>
           </gex:geographicElement>
         </gex:EX_Extent>
       </mri:extent>
@@ -1290,6 +1329,39 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Understory kelp biomass data - All Versions</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Données sur la biomasse du varech du sous-étage - Toutes les versions</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>URL</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://drive.google.com/drive/folders/1_w-ruJOlgZy3nC4GeozNiPs6rM5vBCnb</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="revisionOf"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -1401,13 +1473,18 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://drive.google.com/drive/folders/1_w-ruJOlgZy3nC4GeozNiPs6rM5vBCnb?usp=sharing</gco:CharacterString>
+                <gco:CharacterString>https://drive.google.com/file/d/1bEplJDeNer0G0CnZBf4Qkl5zLWGn2q2s/view</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>understory v1.2.0</gco:CharacterString>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>understory v1.3.0</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">understory v1.3.0</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>file containing all of the documents (txt, csv, pdf) pertaining to this project</gco:CharacterString>
