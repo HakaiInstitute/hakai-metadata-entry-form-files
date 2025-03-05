@@ -45,3 +45,9 @@ jobs:
           content-filepath: ./lychee/out.md
           labels: report, automated issue
           assignees: timvdstap
+          
+      # publish the link check report to github pages
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: lychee      
