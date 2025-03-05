@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+.wrapper {
+    width: 1240px;
+}
+
+section {
+    width: 1000px;
+    float: right;
+    padding-bottom: 50px;
+}
+
+footer {
+    width: 200px;
+    float: left;
+    position: fixed;
+    bottom: 50px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
