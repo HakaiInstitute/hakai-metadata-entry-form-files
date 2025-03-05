@@ -5,7 +5,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "00 00 1 * *"
-
+permissions:
+  contents: write
+  issues: write
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
