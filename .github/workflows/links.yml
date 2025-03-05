@@ -30,6 +30,7 @@ jobs:
               --method head
               --user-agent 'curl/7.7'
               --exclude-path unpublished
+              --mode task
               './**/*.xml'
             # Use json as output format (instead of markdown)
             format: markdown
