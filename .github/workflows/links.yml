@@ -35,6 +35,7 @@ jobs:
               --exclude-path iys
               --accept 100..=103,200..=299,304
               --mode task
+              --max-concurrency 1
               './**/*.xml'
             # Use json as output format (instead of markdown)
             format: markdown
