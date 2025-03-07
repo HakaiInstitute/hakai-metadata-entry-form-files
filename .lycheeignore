@@ -1,4 +1,8 @@
+# URLs to exclude from checking. Regex is also supported in here
+# see https://lychee.cli.rs/recipes/excluding-links/ for details
+# Not a real url
 https://cioos.ca/translation_method
+# these are all standards that should never go down and are not our problem
 http://standards.iso.org
 https://standards.iso.org
 https://www.iana.org
@@ -12,7 +16,3 @@ https://wiki.esipfed.org
 http://www.opengis.net
 https://www.opengis.net
 https://schemas.isotc211.org
-https://hakai.org/$
-https://www.hakai.org/$
-https://tula.org/$
-https://www.tula.org/$
