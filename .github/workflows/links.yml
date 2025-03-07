@@ -43,6 +43,15 @@ jobs:
             # Don't fail action on broken links, set to true to block pr's on failed links
             fail: false
 
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12' # install the python version needed
+
+      - name: Add metadata form link to report
+        run: |
+          python add_form_url_to_link_check_report.py
+
       - name: Create Issue From File
         if: steps.lychee.outputs.exit_code != 0 && github.event_name != 'workflow_dispatch'
         uses: peter-evans/create-issue-from-file@v5
