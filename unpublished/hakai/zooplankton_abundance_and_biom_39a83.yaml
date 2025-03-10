@@ -82,8 +82,6 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
-  - owner
-  - distributor
 - inCitation: true
   individual:
     name: Galbraith, Moira
@@ -106,6 +104,17 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 distribution:
 - description:
     en: Private GitHub repository housing the processed zooplankton data
@@ -207,7 +216,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-03-10T22:26:19.355Z'
+    revision: '2025-03-10T22:30:21.299Z'
   identifier: 39a83551-ab8e-45be-a564-cece4b229371
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-ODO1YbIGbR3Rd8hvLxT
