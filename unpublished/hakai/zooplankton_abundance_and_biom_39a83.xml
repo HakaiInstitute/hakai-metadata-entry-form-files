@@ -2708,7 +2708,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-03-10T22:31:47.284Z</gco:DateTime>
+        <gco:DateTime>2025-03-10T22:37:21.681Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -6324,60 +6324,23 @@
           </mcc:level>
         </mcc:MD_Scope>
       </mac:scope>
-      <mac:platform>
-        <mac:MI_Platform>
+      <mac:instrument>
+        <mac:MI_Instrument>
           <mac:identifier>
             <mcc:MD_Identifier>
-              <mcc:authority>
-                <cit:CI_Citation>
-                  <cit:title>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:title>
-                </cit:CI_Citation>
-              </mcc:authority>
               <mcc:code>
-                <gco:CharacterString>Good Hope</gco:CharacterString>
+                <gco:CharacterString>Vertical Haul Bongo Net</gco:CharacterString>
               </mcc:code>
+              <mcc:description>
+                <gco:CharacterString></gco:CharacterString>
+              </mcc:description>
             </mcc:MD_Identifier>
           </mac:identifier>
-          <mac:description>
-            <gco:CharacterString>8 m</gco:CharacterString>
-          </mac:description>
-          <mac:instrument/>
-          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
-            <gco:Record>
-              <gco:CharacterString>research vessel</gco:CharacterString>
-            </gco:Record>
-          </mac:otherProperty>
-        </mac:MI_Platform>
-      </mac:platform>
-      <mac:platform>
-        <mac:MI_Platform>
-          <mac:identifier>
-            <mcc:MD_Identifier>
-              <mcc:authority>
-                <cit:CI_Citation>
-                  <cit:title>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:title>
-                </cit:CI_Citation>
-              </mcc:authority>
-              <mcc:code>
-                <gco:CharacterString>Hakai Explorer</gco:CharacterString>
-              </mcc:code>
-            </mcc:MD_Identifier>
-          </mac:identifier>
-          <mac:description>
+          <mac:type>
             <gco:CharacterString></gco:CharacterString>
-          </mac:description>
-          <mac:instrument/>
-          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
-            <gco:Record>
-              <gco:CharacterString>research vessel</gco:CharacterString>
-            </gco:Record>
-          </mac:otherProperty>
-        </mac:MI_Platform>
-      </mac:platform>
+          </mac:type>
+        </mac:MI_Instrument>
+      </mac:instrument>
     </mac:MI_AcquisitionInformation>
   </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
