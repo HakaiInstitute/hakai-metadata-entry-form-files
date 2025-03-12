@@ -327,7 +327,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-03-12T22:59:01.909Z</gco:DateTime>
+        <gco:DateTime>2025-03-12T23:31:14.951Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1024,4 +1024,42 @@ Cet ensemble de données consiste en des séries chronologiques de température 
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:instrument>
+        <mac:MI_Instrument>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString>KPSI</gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>KPSI-501</gco:CharacterString>
+              </mcc:code>
+              <mcc:version>
+                <gco:CharacterString>501</gco:CharacterString>
+              </mcc:version>
+              <mcc:description>
+                <gco:CharacterString></gco:CharacterString>
+              </mcc:description>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:type>
+            <gco:CharacterString>Pressure Transducer</gco:CharacterString>
+          </mac:type>
+        </mac:MI_Instrument>
+      </mac:instrument>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
