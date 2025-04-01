@@ -1,0 +1,167 @@
+abstract: "This data package is a component of the Hakai Institute\u2019s Marna Wet\
+  \ Lab and the Martone Lab (University of British Columbia, UBC) collaborative project\
+  \ investigating environmental effects on coralline algae. Hakai Institute's Marna\
+  \ Wet Lab experimental research program uses laboratory experiments to evaluate\
+  \ marine organisms' responses to simulated current and future ocean environmental\
+  \ conditions. The overarching objective of Hakai Wet Lab experimental research is\
+  \ to investigate the mechanisms of vulnerability and resilience of a variety of\
+  \ marine species and communities under static or dynamic future environmental conditions,\
+  \ and understand how organisms are responding phenotypically, physiologically and/or\
+  \ genomically to thermal and acidification stress.\n\nCoralline algae are a diverse\
+  \ group of calcifying red algae that populate a wide range of marine environments\
+  \ globally where they provide structural support to reefs, create habitat and food\
+  \ resources for invertebrates and support biodiversity by promoting larval and kelp\
+  \ recruitment. A unique characteristic of this group of red algae is that they deposit\
+  \ calcium carbonate within their vegetative cell walls creating a hard thallus structure\
+  \ that is essential for providing support and habitat. While calcification is a\
+  \ key process for coralline algae physiology and ecology there is little known about\
+  \ the molecular, physiological and cellular mechanisms that support it and how those\
+  \ might be affected by changing climate conditions. Work on other tropical species\
+  \ of coralline algae, however, has suggested that calcifying algae might be particularly\
+  \ sensitive to thermal and acidification stress, though responses of temperate species\
+  \ are vastly understudied.\n\nCurrent work in Dr. Patrick Martone's lab is underway\
+  \ to identify putative calcification genes using tissue-specific (calcified vs.\
+  \ uncalcified) transcriptomes (RNAseq) in the articulated coralline alga, Calliarthron\
+  \ tuberculosum. The aim of this work is to understand the molecular underpinnings\
+  \ of the calcification mechanism by highlighting key calcification genes and developing\
+  \ gene-specific qPCR primers to study gene expression. Building on this foundational\
+  \ work, we propose to explore the interactive effects of pH and temperature on a\
+  \ Calvert population of Calliarthron focusing on calcification, gene expression,\
+  \ growth, and physiological stress responses through a multi-week mesocosm experiment.\n\
+  \nThis data package includes a portion of the data from this experiment relating\
+  \ to mesocosm temperature and carbonate chemistry and associated protocols, processing\
+  \ and analysis of that data collected by the Marna Wet Lab team. Additional experimental\
+  \ data is held by our collaborators Emma Jourdain and Patrick Martone (UBC). All\
+  \ data will be available upon request until the manuscript has been accepted at\
+  \ which time the data will be made publicly available. \n\nIn light of the effort\
+  \ required to obtain these data and create data packages, we request all data users\
+  \ that, in addition to following the CC-BY license terms, they give attribution\
+  \ to the data providers and follow fair use guidelines: 1) respect the data providers,\
+  \ and provide helpful feedback on data quality, and 2) communicate and/or collaborate\
+  \ with Hakai Marna Wet Lab researchers and collaborators if you are considering\
+  \ using this dataset for manuscripts or other forms of reporting."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: kate.rolheiser@hakai.org
+  family-names: Rolheiser
+  given-names: Kate
+  orcid: https://orcid.org/0000-0001-9057-1533
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: brenna.collicutt@hakai.org
+  family-names: Collicutt
+  given-names: Brenna
+  orcid: https://orcid.org/0000-0002-6821-940X
+  website: https://www.hakai.org/
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  family-names: Jourdain
+  given-names: Emma
+  orcid: https://orcid.org/0009-0002-4350-2177
+  website: https://www.ubc.ca/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: jacob.etzkorn@hakai.org
+  family-names: Etzkorn
+  given-names: Jacob M
+  orcid: https://orcid.org/0009-0003-2162-690X
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: brad.vinson@hakai.org
+  family-names: Vinson
+  given-names: Bradford
+  orcid: https://orcid.org/0009-0008-0315-9419
+  website: https://www.hakai.org/
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  family-names: Martone
+  given-names: Patrick
+  orcid: https://orcid.org/0000-0002-6345-1023
+  website: https://www.ubc.ca/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: iria.gimenez@hakai.org
+  family-names: Gimenez
+  given-names: Iria
+  orcid: https://orcid.org/0000-0001-5916-4446
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: kate.rolheiser@hakai.org
+  family-names: Rolheiser
+  given-names: Kate
+  orcid: https://orcid.org/0000-0001-9057-1533
+  website: https://www.hakai.org/
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  family-names: Jourdain
+  given-names: Emma
+  orcid: https://orcid.org/0009-0002-4350-2177
+  website: https://www.ubc.ca/
+date-released: '2025-04-01'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 78818ed7-ec26-4004-afa1-137741ddda1e
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_78818ed7-ec26-4004-afa1-137741ddda1e
+- description: DOI
+  type: doi
+  value: 10.21966/7nwn-bj60
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/KstJ1LGR2ZbovZiE2SeSKVz4y4E2/-O6XAwxhj0r9Xs-V2QSA
+- description: 'Calliarthron 2023 Experiment - Environmental Data - v1.0.0: This data
+    package collects data and information relating to protocols, data collection,
+    processing and analysis of data collected by the Hakai Marna Wet Lab team during
+    the Calliarthron 2023 experiment. This repository is currently private, please
+    contact the authors for more information.'
+  type: url
+  value: https://github.com/HakaiInstitute/hakai-wetlab-calliarthron2023
+keywords:
+- Calliarthron
+- Calliarthron tuberculosum
+- Corallinaceae
+- Corallinales
+- Florideophyceae
+- Plantae
+- Rhodophyta
+- carbonate chemistry
+- coralline algae
+- inorganicCarbon
+- mesocosms
+- ocean acidification
+- other
+- pCO2
+- pH
+- water temperature
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Calliarthron 2023 Experiment - Environmental Data
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_78818ed7-ec26-4004-afa1-137741ddda1e
+version: 1.0.0
