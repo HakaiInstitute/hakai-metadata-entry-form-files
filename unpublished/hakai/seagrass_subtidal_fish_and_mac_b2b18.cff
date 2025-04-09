@@ -4,7 +4,7 @@ abstract: "The Seagrass Fish & Macroinvertebrate dataset is a component of Hakai
   \ is to investigate the role of habitats and their associated communities, in the\
   \ face of stress and disturbances from global climate change and local coastal perturbations.\n\
   \nThis data package contains fish and macroinvertebrate observations collected from\
-  \ February 2019 to August 2021, at long-term seagrass meadow monitoring sites on\
+  \ February 2019 to August 2022, at long-term seagrass meadow monitoring sites on\
   \ British Columbia\u2019s Central Coast. SCUBA divers collected data from 6 sites\
   \ annually and 2 sites seasonally along permanent 30m transects. Fish and macroinvertebrate\
   \ data were collected concurrently; 2 fish surveys were conducted alongside 2 macroinvertebrate\
@@ -27,22 +27,26 @@ authors:
 - affiliation: Hakai Institute
   city: Campbell River
   country: CA
-  email: faye.manning@hakai.org
-  family-names: Manning
-  given-names: Faye
-  website: https://www.hakai.org/
-- affiliation: Hakai Institute
   email: zach.monteith@hakai.org
   family-names: Monteith
-  given-names: Zachary L.
+  given-names: Zachary
+  orcid: https://orcid.org/0000-0003-4963-8374
+  website: https://www.hakai.org/
 - affiliation: Hakai Institute
-  email: angeleen.olson@hakai.org
+  city: Campbell River
+  country: CA
+  family-names: Manning
+  given-names: Faye
+  orcid: https://orcid.org/0009-0002-9940-2458
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
   family-names: Olson
-  given-names: Angeleen M.
+  given-names: Angeleen
+  orcid: https://orcid.org/0000-0001-8443-1868
 - affiliation: Hakai Institute
-  email: margot@hakai.org
   family-names: Hessing-Lewis
   given-names: Margot
+  orcid: https://orcid.org/0000-0002-9956-955X
 - address: 1703 Hyacinthe Bay Rd.
   city: Heriot Bay
   country: CA
@@ -52,10 +56,14 @@ authors:
 cff-version: 1.2.0
 contact:
 - affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
   email: zach.monteith@hakai.org
   family-names: Monteith
-  given-names: Zachary L.
-date-released: '2023-11-15'
+  given-names: Zachary
+  orcid: https://orcid.org/0000-0003-4963-8374
+  website: https://www.hakai.org/
+date-released: '2025-04-09'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -68,26 +76,29 @@ identifiers:
   value: 10.21966/NMNG-SF35
 - description: Metadata Form used to generate this record
   type: url
-  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/lJHlH9nm20QQOPuk217xLlxWbNv1/-NPt7327bul36pby-Odi
-- description: 'Google Drive link: Google Drive link to data package'
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/lJHlH9nm20QQOPuk217xLlxWbNv1/-NPt7327bul36pby-Odi
+- description: 'Github release: zip package containing all contents of current data
+    package version'
   type: url
-  value: https://drive.google.com/drive/folders/1OoxmcqOnvghTvjBVkc4FwtPbBihmXnID
+  value: https://github.com/HakaiInstitute/seagrass-fish-inverts/archive/refs/tags/v1.1.1.zip
 keywords:
-- diversity
-- subtidal
-- seagrass
-- size
+- LTER
 - Zostera marina
 - abundance
-- invertebrateAbundanceAndDistribution
+- diversity
 - eelgrass
-- invertebrate
-- LTER
-- macroinvertebrate
 - fish
 - fishAbundanceAndDistribution
+- invertebrate
+- invertebrateAbundanceAndDistribution
+- macroinvertebrate
+- seagrass
+- size
+- subtidal
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0
 message: If you use this software, please cite it as below
-title: Seagrass subtidal fish and macroinvertebrate survey data from BC Central Coast
+title: Seagrass fish and macroinvertebrate swath data BC Central Coast
+type: Dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_b2b18171-35b6-4345-b81b-497a90c2e7c5
+version: 1.1.1

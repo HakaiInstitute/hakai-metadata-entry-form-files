@@ -1,8 +1,9 @@
 contact:
 - inCitation: true
   individual:
-    email: faye.manning@hakai.org
-    name: Manning, Faye
+    email: zach.monteith@hakai.org
+    name: Monteith, Zachary
+    orcid: https://orcid.org/0000-0003-4963-8374
   organization:
     city: Campbell River
     country: Canada
@@ -10,24 +11,27 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - author
-- inCitation: true
-  individual:
-    email: zach.monteith@hakai.org
-    name: Monteith, Zachary L.
-  organization:
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-  roles:
   - custodian
   - owner
   - pointOfContact
-  - author
+  - coAuthor
   - distributor
 - inCitation: true
   individual:
-    email: angeleen.olson@hakai.org
-    name: Olson, Angeleen M.
+    name: Manning, Faye
+    orcid: https://orcid.org/0009-0002-9940-2458
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    name: Olson, Angeleen
+    orcid: https://orcid.org/0000-0001-8443-1868
   organization:
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
@@ -37,8 +41,8 @@ contact:
   - principalInvestigator
 - inCitation: true
   individual:
-    email: margot@hakai.org
     name: Hessing-Lewis, Margot
+    orcid: https://orcid.org/0000-0002-9956-955X
   organization:
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
@@ -47,7 +51,7 @@ contact:
   - principalInvestigator
   - coAuthor
   - distributor
-- inCitation: true
+- inCitation: false
   organization:
     address: 1703 Hyacinthe Bay Rd.
     city: Heriot Bay
@@ -60,10 +64,10 @@ contact:
   - publisher
 distribution:
 - description:
-    en: Google Drive link to data package
+    en: zip package containing all contents of current data package version
   name:
-    en: Google Drive link
-  url: https://drive.google.com/drive/folders/1OoxmcqOnvghTvjBVkc4FwtPbBihmXnID
+    en: Github release
+  url: https://github.com/HakaiInstitute/seagrass-fish-inverts/archive/refs/tags/v1.1.1.zip
 identification:
   abstract:
     en: "The Seagrass Fish & Macroinvertebrate dataset is a component of Hakai Institute’s\
@@ -72,7 +76,7 @@ identification:
       \ research is to investigate the role of habitats and their associated communities,\
       \ in the face of stress and disturbances from global climate change and local\
       \ coastal perturbations.\n\nThis data package contains fish and macroinvertebrate\
-      \ observations collected from February 2019 to August 2021, at long-term seagrass\
+      \ observations collected from February 2019 to August 2022, at long-term seagrass\
       \ meadow monitoring sites on British Columbia’s Central Coast. SCUBA divers\
       \ collected data from 6 sites annually and 2 sites seasonally along permanent\
       \ 30m transects. Fish and macroinvertebrate data were collected concurrently;\
@@ -127,9 +131,16 @@ identification:
       \ des commentaires utiles sur la qualité des données\n- Communiquez et/ou collaborez\
       \ avec les chercheurs de Hakai Nearshore si vous envisagez d'utiliser cet ensemble\
       \ de données pour des manuscrits ou d'autres formes de rapports."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
-    creation: '2019-02-01'
+    creation: '2014-07-01'
+    revision: '2025-04-09'
+  edition: 1.1.1
   identifier: https://doi.org/10.21966/NMNG-SF35
   keywords:
     default:
@@ -152,23 +163,27 @@ identification:
       fr:
       - Abondance et distribution de poissons
       - Abondance et distribution d'invertébrés
-    taxa:
-      en: []
-      fr: []
   progress_code: onGoing
+  project:
+  - Nearshore
   status: submitted
-  temporal_begin: '2019-02-01T20:00:00.000Z'
+  temporal_begin: '2014-07-01T19:00:00.000Z'
   title:
-    en: Seagrass subtidal fish and macroinvertebrate survey data from BC Central Coast
+    en: Seagrass fish and macroinvertebrate swath data BC Central Coast
     fr: Données d'études sur les poissons et les macroinvertébrés de herbiers marins
       sous-tidaux sur la côte centrale de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
     publication: '2022-10-25'
-    revision: '2023-11-15T00:09:28.973Z'
+    revision: '2025-04-09T17:04:55.575Z'
   identifier: b2b18171-35b6-4345-b81b-497a90c2e7c5
   language: en
-  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/None/lJHlH9nm20QQOPuk217xLlxWbNv1/-NPt7327bul36pby-Odi
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/lJHlH9nm20QQOPuk217xLlxWbNv1/-NPt7327bul36pby-Odi
   naming_authority: ca.cioos
   use_constraints:
     licence:
