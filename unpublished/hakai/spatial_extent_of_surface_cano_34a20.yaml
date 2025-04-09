@@ -21,6 +21,9 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+  - owner
+  - custodian
+  - distributor
 - inCitation: false
   individual:
     name: Holmes, Keith
@@ -125,10 +128,7 @@ identification:
       \ about data access and opportunities to collaborate with the Hakai Institute.\
       \ Contact Sarah Schroeder (sschroeder@mappocean.org) and Genevieve Reynolds\
       \ (greynoldsccira@gmail.com) for more information about data access to and opportunities\
-      \ to collaborate with MaPP.\n\nRecommended citation: Reshitnyk, L. Y., Holmes,\
-      \ K.R. (2024). Canopy kelp (Macrocystis pyrifera, Nereocystis luetkeana) extent\
-      \ derived from fixed-wing surveys (2024), Central Coast, British Columbia, Canada.\
-      \ Version 1.0. Hakai Institute. Dataset. [access date]"
+      \ to collaborate with MaPP."
     fr: "Cet ensemble de données comprend l'étendue de la surface numérisée de la\
       \ canopée de deux espèces de varech formant le couvert végétal, le varech géant\
       \ (Macrocystis pyrifera) et le varech à tête plate (Nereocystis luetkeana),\
@@ -182,7 +182,6 @@ identification:
   associated_resources: []
   dates:
     creation: '2024-09-20'
-    publication: '2025-03-04'
   edition: '1.0'
   identifier: https://doi.org/10.21966/w08z-zk15
   keywords:
@@ -245,7 +244,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-04-03T21:55:14.274Z'
+    revision: '2025-04-09T21:54:16.826Z'
   identifier: 34a20547-cb60-4ecf-901b-f4ca52eae451
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-O8sPFZem68YnizN7L7l
@@ -268,16 +267,6 @@ metadata:
           verified: false
 platform:
 - description:
-    en: Airborne Coastal Observatory – Hakai Institute
-    fr: Observatoire côtier aéroporté — Institut Hakai
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  id: Airborne Coastal Observatory – Hakai Institute
-  type: aeroplane
-- description:
     en: Airborne Coastal Observatory - Piper Navajo
     fr: Observatoire côtier aéroporté - Piper Navajo
     translations:
@@ -287,7 +276,51 @@ platform:
         verified: false
   id: Airborne Coastal Observatory – Hakai Institute
   instrumentID: Airborne Coastal Observatory – Hakai Institute
-  type: aeroplane
+  instruments:
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Aerial cameras iXU-RS1000
+    instrumentID: Aerial cameras iXU-RS1000
+    manufacturer: Phaseone Industrial
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: iXU-RS1000
+  - description:
+      en: Laser scanner used to measure the earth’s surface topography and vegetation
+      fr: Scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor LMS-Q 780
+    instrumentID: Laser sensor LMS-Q 780
+    manufacturer: Riegl
+    type:
+      en: Laser scanner
+      fr: Scanneur laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  type: research aeroplane
 spatial:
   description:
     en: 'This datasets covers two distinct areas on the Central Coast of British Columbia:
