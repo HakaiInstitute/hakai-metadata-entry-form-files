@@ -800,7 +800,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-04-09T22:05:55.470Z</gco:DateTime>
+        <gco:DateTime>2025-04-09T22:20:10.339Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2135,38 +2135,100 @@ Référence recommandée : Reshitnyk, L.Y., Holmes, K.R. (2024). Étendue du va
           </mrd:onLine>
         </mrd:MD_DigitalTransferOptions>
       </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString></gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Spatial dataset representing kelp canopy area derived from fixed-wing imagery on the Central Coast of BC in 2024 (Goose Group Region, southwest Calvert Island).</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Ensemble de données spatiales représentant la superficie de la canopée de varech dérivé d&#39;images à ailes fixes sur la côte centrale de la Colombie-Britannique en 2024 (région du groupe Goose, sud-ouest de l&#39;île Calvert).</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Kelp canopy spatial dataset</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Ensemble de données spatiales sur le couvert végétal</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
     </mrd:MD_Distribution>
   </mdb:distributionInfo>
+  <mdb:resourceLineage>
+    <mrl:LI_Lineage>
+      <mrl:statement>
+        <gco:CharacterString>Hakai Institute KelpOMatic Tool</gco:CharacterString>
+      </mrl:statement>
+      <mrl:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mrl:scope>
+      <mrl:processStep>
+        <mrl:LI_ProcessStep>
+          <mrl:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Description: AI Segmentation Tool that automates surface kelp canopy in remotely sensed high resolution imagery</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Outil de segmentation basé sur l&#39;IA qui automatise la canopée de varech de surface dans des images haute résolution détectées à distance</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mrl:description>
+          <mrl:reference>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString></gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mrl:reference>
+        </mrl:LI_ProcessStep>
+      </mrl:processStep>
+      <mrl:processStep>
+        <mrl:LI_ProcessStep>
+          <mrl:description>
+            <gco:CharacterString>Title: KelpOMatic</gco:CharacterString>
+          </mrl:description>
+          <mrl:reference>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString></gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mrl:reference>
+        </mrl:LI_ProcessStep>
+      </mrl:processStep>
+      <mrl:processStep>
+        <mrl:LI_ProcessStep>
+          <mrl:description>
+            <gco:CharacterString></gco:CharacterString>
+          </mrl:description>
+          <mrl:reference>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.5281/zenodo.8323070</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://doi.org/10.5281/zenodo.8323070</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Citation>
+          </mrl:reference>
+        </mrl:LI_ProcessStep>
+      </mrl:processStep>
+    </mrl:LI_Lineage>
+  </mdb:resourceLineage>
   <mdb:metadataMaintenance>
     <mmi:MD_MaintenanceInformation>
       <mmi:maintenanceAndUpdateFrequency>

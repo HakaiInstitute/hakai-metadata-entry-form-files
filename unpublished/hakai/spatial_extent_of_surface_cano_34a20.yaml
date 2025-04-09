@@ -89,25 +89,6 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   url: https://drive.google.com/drive/u/0/folders/1PgSIMfJ4P696ZCLZ_-W0Ny9OrJUqTqw6
-- description:
-    en: Kelp canopy spatial dataset
-    fr: Ensemble de données spatiales sur le couvert végétal
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: Spatial dataset representing kelp canopy area derived from fixed-wing imagery
-      on the Central Coast of BC in 2024 (Goose Group Region, southwest Calvert Island).
-    fr: Ensemble de données spatiales représentant la superficie de la canopée de
-      varech dérivé d'images à ailes fixes sur la côte centrale de la Colombie-Britannique
-      en 2024 (région du groupe Goose, sud-ouest de l'île Calvert).
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
 identification:
   abstract:
     en: "This data package consists of digitized surface canopy extent for two species\
@@ -260,7 +241,26 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-04-09T22:05:55.470Z'
+    revision: '2025-04-09T22:20:10.339Z'
+  history:
+  - processingStep:
+    - description:
+        en: 'Description: AI Segmentation Tool that automates surface kelp canopy
+          in remotely sensed high resolution imagery'
+        fr: Outil de segmentation basé sur l'IA qui automatise la canopée de varech
+          de surface dans des images haute résolution détectées à distance
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    - description:
+        en: 'Title: KelpOMatic'
+    - authority: DOI
+      code: https://doi.org/10.5281/zenodo.8323070
+    scope: Dataset
+    statement:
+      en: Hakai Institute KelpOMatic Tool
   identifier: 34a20547-cb60-4ecf-901b-f4ca52eae451
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-O8sPFZem68YnizN7L7l
