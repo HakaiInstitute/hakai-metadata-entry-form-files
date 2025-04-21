@@ -97,12 +97,6 @@ distribution:
 - name:
     en: Raw data, processed data and code
   url: https://doi.org/10.5281/zenodo.4005400
-- description:
-    en: The peer-reviewed paper based on this dataset, published by the Canadian Journal
-      of Aquatic and Fisheries Sciences
-  name:
-    en: Canadian Journal of Fisheries and Aquatic Sciences Article
-  url: https://doi.org/10.1139/cjfas-2020-0160
 identification:
   abstract:
     en: 'Fraser River Pacific salmon have declined in recent decades possibly from
@@ -145,7 +139,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.1139/cjfas-2020-0160
+    title:
+      en: Canadian Journal of Fisheries and Aquatic Sciences Article
+      fr: Article de la Revue canadienne des sciences halieutiques et aquatiques
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     publication: '2020-09-04'
   identifier: https://doi.org/10.5281/zenodo.4005400
@@ -192,7 +198,7 @@ identification:
 metadata:
   dates:
     publication: '2023-03-13'
-    revision: '2024-07-23T12:36:09.575Z'
+    revision: '2025-04-21T22:03:19.089Z'
   identifier: 24f1c230-6c37-470c-907d-25b9b022f5c2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTZDeElXT3dpUFNlOGQ
