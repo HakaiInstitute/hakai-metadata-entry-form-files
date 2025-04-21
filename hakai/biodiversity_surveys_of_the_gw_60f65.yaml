@@ -222,28 +222,6 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   url: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA865652/
-- description:
-    en: Published paper on the eDNA data and dive survey data referenced in this data
-      record.
-    fr: Article publié sur les données eDNA et les données d'enquêtes de plongée référencées
-      dans cet enregistrement de données.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: 'Paper: Paired environmental DNA and dive surveys provide distinct but complementary
-      snapshots of marine biodiversity in a temperate fjord'
-    fr: 'Article : Des études couplées d''ADN environnemental et de plongée fournissent
-      des aperçus distincts mais complémentaires de la biodiversité marine dans un
-      fjord tempéré'
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://doi.org/10.1002/edn3.423
 identification:
   abstract:
     en: "This data package contains the datasets and reports pertaining to biodiversity\
@@ -307,7 +285,22 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.1002/edn3.423
+    title:
+      en: 'Paper: Paired environmental DNA and dive surveys provide distinct but complementary
+        snapshots of marine biodiversity in a temperate fjord'
+      fr: 'Article : Des études couplées d''ADN environnemental et de plongée fournissent
+        des clichés distincts mais complémentaires de la biodiversité marine dans
+        un fjord tempéré'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2020-09-22'
     publication: '2023-04-03'
@@ -399,7 +392,7 @@ identification:
 metadata:
   dates:
     publication: '2023-04-24'
-    revision: '2025-04-21T21:57:20.178Z'
+    revision: '2025-04-21T22:06:16.888Z'
   identifier: 60f653ae-a3fd-484d-807c-3d7e4a0712cb
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/4TvAwNKXC7PkAi0TEZsZbbAzXfi1/-NOHQei0clSbCzMMFHdq
