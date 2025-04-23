@@ -796,7 +796,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-23T13:58:07.619Z</gco:DateTime>
+        <gco:DateTime>2025-04-23T16:10:44.807Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1736,22 +1736,22 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>Plantae</gco:CharacterString>
+            <gco:CharacterString>Alismatales</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Tracheophyta</gco:CharacterString>
+            <gco:CharacterString>Plantae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Liliopsida</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Alismatales</gco:CharacterString>
+            <gco:CharacterString>Zostera</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Zosteraceae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Zostera</gco:CharacterString>
+            <gco:CharacterString>Tracheophyta</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Zostera marina</gco:CharacterString>
@@ -1759,14 +1759,14 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Plantae</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Alismatales</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Tracheophyta</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Plantae</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -1780,7 +1780,7 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Alismatales</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Zostera</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -1794,7 +1794,7 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Zostera</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Tracheophyta</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -1862,6 +1862,39 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Journal Article</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Article de revue</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.1029/2019GB006345</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -1944,31 +1977,21 @@ Ce dossier de données est accessible gratuitement à tous, conformément aux pr
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Hakai&#39;s Google Drive Folder</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Dossier Google Drive de Hakai</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
-              <cit:description>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Restricted Access Online Data Folder</gco:CharacterString>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://doi.org/10.1029/2019GB006345</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>Journal Article</gco:CharacterString>
-              </cit:name>
-              <cit:description>
-                <gco:CharacterString></gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Dossier de données en ligne à accès restreint</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>

@@ -37,12 +37,21 @@ contact:
 distribution:
 - description:
     en: Restricted Access Online Data Folder
+    fr: Dossier de données en ligne à accès restreint
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai's Google Drive Folder
+    fr: Dossier Google Drive de Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/open?id=1otQ6Akqr_m0PCQFVo2W_tgsMGA_sXDh4
-- name:
-    en: Journal Article
-  url: https://doi.org/10.1029/2019GB006345
 identification:
   abstract:
     en: 'This dataset accompanies a manuscript entitled “A synthesis of blue carbon
@@ -138,7 +147,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.1029/2019GB006345
+    title:
+      en: Journal Article
+      fr: Article de revue
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     publication: '2019-10-17'
   identifier: https://doi.org/10.21966/20SJ-J017
@@ -161,20 +182,20 @@ identification:
       - Composition et couverture des herbiers marins
     taxa:
       en:
-      - Plantae
-      - Tracheophyta
-      - Liliopsida
       - Alismatales
-      - Zosteraceae
+      - Plantae
+      - Liliopsida
       - Zostera
+      - Zosteraceae
+      - Tracheophyta
       - Zostera marina
       fr:
-      - Plantae
-      - Tracheophyta
-      - Liliopsida
       - Alismatales
-      - Zosteraceae
+      - Plantae
+      - Liliopsida
       - Zostera
+      - Zosteraceae
+      - Tracheophyta
       - Zostera marina
   progress_code: completed
   project:
@@ -191,7 +212,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-24'
-    revision: '2024-07-23T13:58:07.619Z'
+    revision: '2025-04-23T16:10:44.807Z'
   identifier: b4cac70e-a6fa-4d77-8fdb-1d3612006bc4
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVlYNnVCWW5yQ3RrUkM
