@@ -58,41 +58,22 @@ contact:
   - publisher
 distribution:
 - description:
-    en: Metadata document
-    fr: Document de métadonnées
+    en: Fraser River Airborne Surveys - data request form
+    fr: Relevés aéroportés du fleuve Fraser - formulaire de demande de données
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: Hakai Institute Google Drive - Metadata Report Link
-    fr: Hakai Institute Google Drive - Lien vers le rapport sur les métadonnées
+    en: Data Access Request
+    fr: Demande d'accès aux données
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://drive.google.com/file/d/1SXXmpGLEPS6wgxvcZXvnENneqFk5KuvJ/view?usp=share_link
-- description:
-    en: Webmap detailing the areas of interest (AOI) for each airborne coastal observatory
-      survey area.
-    fr: Carte Web détaillant les zones d'intérêt (AOI) pour chaque zone d'étude aéroportée
-      de l'observatoire côtier.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: Hakai ACO Survey Coverage Webmap
-    fr: Carte Web de couverture de l'enquête Hakai ACO
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
+  url: https://hecate.hakai.org/auth/access-request.php#
 identification:
   abstract:
     en: 'Airborne Lidar and Imagery data continued to be collected by the ACO in 2021,
@@ -268,6 +249,30 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/1SXXmpGLEPS6wgxvcZXvnENneqFk5KuvJ/view?usp=share_link
+    title:
+      en: Hakai Institute Google Drive - Metadata Report Link
+      fr: Hakai Institute Google Drive - Lien vers le rapport sur les métadonnées
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
+    title:
+      en: Hakai ACO Survey Coverage Webmap
+      fr: Carte Web de couverture de l'enquête Hakai ACO
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2021-09-16'
     publication: '2021-12-31'
@@ -306,7 +311,7 @@ identification:
 metadata:
   dates:
     publication: '2024-10-09'
-    revision: '2025-04-23T21:58:26.945Z'
+    revision: '2025-04-23T22:00:46.945Z'
   identifier: 0507a738-cd65-4ba4-943e-42b9d022b637
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NHfqx-d8tuAroY8BWc7
