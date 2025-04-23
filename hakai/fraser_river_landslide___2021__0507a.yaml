@@ -183,8 +183,8 @@ identification:
           à l'aide du service de traduction Amazon
         verified: false
   associated_resources:
-  - association_type: IsNewVersionOf
-    association_type_iso: revisionOf
+  - association_type: HasMetadata
+    association_type_iso: crossReference
     authority: URL
     code: https://drive.google.com/file/d/1SXXmpGLEPS6wgxvcZXvnENneqFk5KuvJ/view?usp=drive_link
     title:
@@ -207,20 +207,8 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-  - association_type: HasMetadata
-    association_type_iso: crossReference
-    authority: URL
-    code: https://drive.google.com/file/d/1SXXmpGLEPS6wgxvcZXvnENneqFk5KuvJ/view?usp=share_link
-    title:
-      en: Hakai Institute Google Drive - Metadata Report Link
-      fr: Hakai Institute Google Drive - Lien vers le rapport sur les métadonnées
-      translations:
-        fr:
-          message: text translated using the Amazon translate service / texte traduit
-            à l'aide du service de traduction Amazon
-          verified: false
-  - association_type: HasMetadata
-    association_type_iso: crossReference
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
     authority: URL
     code: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
     title:
@@ -269,7 +257,7 @@ identification:
 metadata:
   dates:
     publication: '2024-10-09'
-    revision: '2025-04-23T22:04:28.082Z'
+    revision: '2025-04-23T22:30:39.155Z'
   identifier: 0507a738-cd65-4ba4-943e-42b9d022b637
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NHfqx-d8tuAroY8BWc7
