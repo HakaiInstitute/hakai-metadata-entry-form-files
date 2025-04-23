@@ -1,0 +1,114 @@
+abstract: 'The primary objective of this project is to develop and test a scalable
+  Light Detection and Ranging (LiDAR) cloud optimized point cloud (COPC) and cloud-optimized
+  GeoTIFF (COGs) Application Programming Interface (API) that is web-based and easily
+  accessible by multiple user groups. The API will be designed to make LiDAR data
+  discoverable and also provide a set of simple analysis tools and export format types
+  (e.g.,GeoTIFF & geopackage) to aid in landscape change detection. The API will be
+  built on an interoperable cloud-based system that will allow input of high-density
+  LiDAR data into existing pre-processed data staging platforms and connection with
+  an accessible online application. The project will use time series COPC LiDAR data
+  of three case study regions in British Columbia that have experienced landscape
+  altering events due to climate change: 1) Elliot Creek Glacial Lake; 2) Mount Robson
+  Provincial Park; and 3) Place Glacier.
+
+
+  This pilot project is a collaborative effort between the Hakai Institute and GeoBC.
+  All LiDAR and imagery data used and made available through the application has been
+  collected and processed by the Geospatial Team at the Hakai Institute through the
+  Airborne Coastal Observatory (ACO) program. Processed data includes LAZ files, standard
+  orthomosaic imagery files (.tif) and associated location-specific metadata reports.
+  The Cloud Optimized Point Clouds (COPCs) made available through the application
+  are an extension of these LAZ format files that are optimized for cloud storage
+  and streaming access to LiDAR point cloud data. Additionally, Cloud Optimized GeoTIFFs
+  (COGs) are produced from the processed imagery data. COGs are a specialized format
+  for storing and serving geospatial raster data optimized for cloud storage and web
+  access. This format allows for efficient access to portions of the data without
+  the need to download the entire file.'
+authors:
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: derek.heathfield@hakai.org
+  family-names: Heathfield
+  given-names: Derek
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: jorin.weatherston@hakai.org
+  family-names: Weatherston
+  given-names: Jorin
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: taylor.denouden@hakai.org
+  family-names: Denouden
+  given-names: Taylor
+  orcid: https://orcid.org/0000-0003-0457-1022
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: mat.brown@hakai.org
+  family-names: Brown
+  given-names: Mat
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: keith.holmes@hakai.org
+  family-names: Holmes
+  given-names: Keith
+  orcid: https://orcid.org/0000-0001-8796-8222
+  website: https://www.hakai.org/
+- city: Ottawa
+  country: CA
+  name: Natural Resources Canada
+  website: http://www.nrcan.gc.ca/home
+- name: GeoBC
+  website: https://www2.gov.bc.ca/gov/content/home
+cff-version: 1.2.0
+date-released: '2025-04-23'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 53730b70-be6f-4e24-8b9d-4a5e2c491121
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_53730b70-be6f-4e24-8b9d-4a5e2c491121
+- description: DOI
+  type: doi
+  value: 10.21966/6x1v-1v62
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-OIMCEnEEW63IyHyYZOM
+- description: 'GeoConnections model application ''ELVIZ'': LiDAR and imagery data
+    for Elliot Creek, Mount Robson Provincial Park and Place Glacier'
+  type: url
+  value: https://elviz.ca/
+keywords:
+- Elliot Creek
+- LiDAR
+- Mount Robson Provincial Park
+- Place Glacier
+- application
+- orthomosaic imagery
+- other
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Cloud-Based LiDAR Application - ELVIZ - Place Glacier, Mt. Robson, and Elliot
+  Creek, BC
+type: Service
+url: https://catalogue.hakai.org/dataset/ca-cioos_53730b70-be6f-4e24-8b9d-4a5e2c491121
+version: '1.0'
