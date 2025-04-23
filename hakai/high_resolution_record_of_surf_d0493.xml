@@ -829,7 +829,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-23T13:35:26.423Z</gco:DateTime>
+        <gco:DateTime>2025-04-23T16:21:47.635Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2116,6 +2116,16 @@
           </mri:thesaurusName>
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Oceanography</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
           <mco:reference>
@@ -2261,7 +2271,7 @@
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://hecate.hakai.org/erddap/tabledap/HakaiSitkaBoLResearch.html</gco:CharacterString>
+                <gco:CharacterString>https://catalogue.hakai.org/erddap/tabledap/HakaiSitkaBoLResearch.html</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -2290,4 +2300,112 @@
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>SitkaBoL</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Sitka Burkolator</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Sitka Burkolator</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Dakunalytics, LLC Burke-o-Lator (BoL) pCO2/TCO2 Analyzer use LI-COR LI-840A non-dispersive infrared detectors</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Sitka BoL</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Seawater pCO2 data were calculated from corrected measurements of CO2 mixing ratio (xCO2) made using a Dakunalytics, LLC Burke-o-Lator pCO2/TCO2 analyzer following many recommended protocols by Pierrot et al. (2009) with the system theory and calculations described in detail elsewhere (Hales et al., 2004). Seawater continuously flowed between 0.5 and 1 gpm first through a Sea-Bird SBE45 thermosalinograph and into a bubble-type equilibrator. Seawater supplied to the equilibrator enters the top of the equilibration chamber through a vertical tube before contacting a dispersion plate that diverts seawater radically. Carrier gas (marine air) is pumped into the bubble-type equilibrator from the BoL electronics box at ~200 ml min-1 and enters the equilibration chamber through drip garden hose tubing positioned around the seawater dispersion plate in order to maximize the bubble production and subsequent equilibration of the carrier gas in the chamber. Full equilibration was verified by injecting high and low CO2 gas standard into the equilibration chamber and verifying carrier gas concentrations returned to the same pre-disturbance xCO2. These tests also revealed the response time of the equilibrator to be ~5 mins. Equilibrated carrier gas is then supplied to a non-dispersive infrared gas analyzer (LI-COR LI840A CO2/H2O) housed within the BoL electronics box. Carrier gas is then recirculated through the system, minimizing the need for make-up by the equilibrator. Pressure and temperature were continuously measured in the equilibrator using an Omega Pressure Sensor and Fast Response Resistance Temperature Detector (RTD), respectively. The RTD periodically stopped reporting data, so the thermosalinograph temperature is taken here to equal equilibrator temperature as these components were adjacent to each other and there was very close agreement between the RTD and the thermosalinograph. Equilibrated carrier gas, four standard gases of known mixing ratio (149.3, 451, and 752 ppm; Scott-Marin, Inc.), and unaltered marine air were all plumbed to provide gas flow to the BoL electronics box. The BoL is controlled using National Instruments LabVIEW software run on an iMac computer. The software controls data acquisition from the thermosalinograph, the pressure and temperature sensors, and the LI-COR; while also controlling Valco Instruments Co. Inc. (VICI) multi-port actuators that cycle between the gas streams plumbed to the electronics box. None of the gas streams were dried prior to analysis, and all measurements were made at 1 Hz. The prescribed measurement scheme controlled by the software was to supply equilibrated carrier gas from the equilibrator to the LI-COR continuously for 720 minutes, then cycle the actuators to consecutively allow the four standard gas streams and unaltered marine air to be measured for 90 s at 100 ml min-1 before returning to sample the carrier gas equilibrated with seawater xCO2. From each sequence of standard gas measurements, the final 20 s of data in the 50 s interval before the actuator changed position were used to construct calibration functions that were then interpolated in time between standard gas sequences. These functions were then used to calibrate the xCO2 measurements of seawater equilibrated carrier gas. Corrected seawater xCO2 was subsequently adjusted for under-pressurization in the equilibrator using the ratio of equilibrator to vented LI-COR cell pressure, and then converted to pCO2 using atmospheric pressure measured by the LI-COR. The 1 Hz seawater pCO2, temperature and salinity data were quality controlled, and then bin-averaged in 5-min interval bins. pCO2 at the equilibrator temperature was adjusted to sea surface temperature using the mean observed temperature difference between the Sea-Bird SBE45 thermosalinograph and a SAMI-Alk system deployed for a 3-week period (April 5-30, 2019) at the seawater intake.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">Les données sur le pCO2 de l&#39;eau de mer ont été calculées à partir de mesures corrigées du rapport de mélange du CO2 (xCO2) effectuées à l&#39;aide d&#39;un analyseur Burke-o-Lator pCO2/tCO2 de Dakunalytics, LLC, suivant de nombreux protocoles recommandés par Pierrot et al. (2009), la théorie du système et les calculs étant décrits en détail ailleurs (Hales et al., 2004). L&#39;eau de mer s&#39;écoulait en continu entre 0,5 et 1 gal/min, d&#39;abord à travers un thermosalinographe Sea-Bird SBE45 et dans un équilibrateur à bulles. L&#39;eau de mer fournie à l&#39;équilibrateur entre dans la partie supérieure de la chambre d&#39;équilibrage par un tube vertical avant d&#39;entrer en contact avec une plaque de dispersion qui dévie radicalement l&#39;eau de mer. Le gaz porteur (air marin) est pompé dans l&#39;équilibrateur à bulles à partir du boîtier électronique BoL à environ 200 ml min-1 et entre dans la chambre d&#39;équilibrage par un tuyau d&#39;arrosage goutte à goutte placé autour de la plaque de dispersion d&#39;eau de mer afin de maximiser la production de bulles et l&#39;équilibrage ultérieur du gaz porteur dans la chambre. L&#39;équilibrage complet a été vérifié en injectant du gaz standard à haut et à faible taux de CO2 dans la chambre d&#39;équilibrage et en vérifiant que les concentrations de gaz porteur étaient revenues au même xCO2 d&#39;avant la perturbation. Ces tests ont également révélé que le temps de réponse de l&#39;équilibrateur était d&#39;environ 5 minutes. Le gaz porteur équilibré est ensuite fourni à un analyseur de gaz infrarouge non dispersif (LI-COR LI840A CO2/H2O) logé dans le boîtier électronique BoL. Le gaz porteur est ensuite recirculé dans le système, ce qui réduit au minimum le besoin d&#39;appoint par l&#39;équilibrateur. La pression et la température ont été mesurées en continu dans l&#39;équilibrateur à l&#39;aide d&#39;un capteur de pression Omega et d&#39;un détecteur de température à résistance à réponse rapide (RTD), respectivement. Le RTD cessait périodiquement de communiquer des données, de sorte que la température du thermosalinographe est ramenée ici à la température de l&#39;équilibrateur, car ces composants étaient adjacents les uns aux autres et il y avait une concordance très étroite entre le RTD et le thermosalinographe. Du gaz porteur équilibré, quatre gaz standard dont le rapport de mélange est connu (149,3, 451 et 752 ppm ; Scott-Marin, Inc.) et de l&#39;air marin non modifié ont tous été raccordés pour fournir un flux de gaz au boîtier électronique BoL. Le BoL est contrôlé à l&#39;aide du logiciel LabVIEW de National Instruments exécuté sur un ordinateur iMac. Le logiciel contrôle l&#39;acquisition des données à partir du thermosalinographe, des capteurs de pression et de température et du LI-COR, tout en contrôlant Valco Instruments Co. Actionneurs multiports Inc. (VICI) qui circulent entre les flux de gaz raccordés au boîtier électronique. Aucun des flux de gaz n&#39;a été séché avant l&#39;analyse, et toutes les mesures ont été effectuées à 1 Hz. Le schéma de mesure prescrit contrôlé par le logiciel consistait à fournir du gaz porteur équilibré de l&#39;équilibrateur au LI-COR en continu pendant 720 minutes, puis à faire tourner les actionneurs pour permettre de mesurer les quatre flux de gaz standard et l&#39;air marin non modifié pendant 90 s à 100 ml min-1 avant de rééchantillonner le gaz porteur équilibré avec de l&#39;eau de mer xCO2. À partir de chaque séquence de mesures de gaz standard, les 20 dernières secondes de données dans l&#39;intervalle de 50 s précédant le changement de position de l&#39;actionneur ont été utilisées pour construire des fonctions d&#39;étalonnage qui ont ensuite été interpolées dans le temps entre les séquences de gaz standard. Ces fonctions ont ensuite été utilisées pour calibrer les mesures de CO2 du gaz porteur équilibré dans l&#39;eau de mer. Le xCO2 corrigé de l&#39;eau de mer a ensuite été ajusté pour tenir compte de la sous-pressurisation dans l&#39;équilibrateur en utilisant le rapport entre l&#39;équilibrateur et la pression de la cellule LI-COR ventilée, puis converti en pCO2 en utilisant la pression atmosphérique mesurée par le LI-COR. La qualité des données de pCO2, de température et de salinité de l&#39;eau de mer à 1 Hz a été contrôlée, puis calculée en binars dans des intervalles de 5 minutes. La pCO2 à la température de l&#39;équilibrateur a été ajustée à la température de surface de la mer à l&#39;aide de la différence de température moyenne observée entre le thermosalinographe Sea-Bird SBE45 et un système SAMI-ALK déployé pendant 3 semaines (du 5 au 30 avril 2019) à la prise d&#39;eau de mer.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString>pCO2/TCO2 analyzer</gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Seabird</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Seabird SBE45</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>45</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>1 Hz data captured using National Instruments LabVIEW software on an iMac computer</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">Données 1 Hz capturées à l&#39;aide du logiciel LabVIEW de National Instruments sur un ordinateur iMac</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>CTD</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">CTD</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>land/onshore structure</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
