@@ -844,7 +844,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-04-29T21:51:58.173Z</gco:DateTime>
+        <gco:DateTime>2025-04-29T22:32:57.332Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2492,6 +2492,80 @@ L&#39;observatoire côtier aéroporté (ACO) est une initiative collaborative di
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Scanneur laser</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Spectral Evolution</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>RS-5400 Field Spectroradiometer</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>RS-5400</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Portable Spectroradiometer with an imaging range from 350 - 2500nm</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">Spectroradiomètre portable avec une plage d&#39;imagerie de 350 à 2500 nm</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Field Spectroradiometer</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Spectroradiomètre de champ</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Trimble Inc</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Trimble AP+ Air GNSS-Inertial System</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>Trimble AP+ 60</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Integrated INS with AV39 GNSS Antenna, and an Applanix Type 57 IMU for the recording of position and orientation data. Used 2024 onward.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">INS intégré avec antenne GNSS AV39 et IMU Applanix Type 57 pour l&#39;enregistrement des données de position et d&#39;orientation. Utilisé à partir de 2024.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Inertial Navigation System (INS)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Système de navigation inertielle (INS)</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </mac:type>
