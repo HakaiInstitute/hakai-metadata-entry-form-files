@@ -753,7 +753,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-04-29T21:51:53.390Z</gco:DateTime>
+        <gco:DateTime>2025-04-29T22:31:01.196Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2092,20 +2092,20 @@ L&#39;observatoire côtier aéroporté (ACO) est une initiative collaborative di
                     <gco:CharacterString>LMS-Q 780 long-range airborne laser scanner</gco:CharacterString>
                   </mcc:version>
                   <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
-                    <gco:CharacterString>Laser scanner used to measure the earth’s surface topography and vegetation</gco:CharacterString>
+                    <gco:CharacterString>Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.</gco:CharacterString>
                     <lan:PT_FreeText>
                       <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                        <lan:LocalisedCharacterString locale="#fr">Scanner laser utilisé pour mesurer la topographie et la végétation de la surface de la Terre</lan:LocalisedCharacterString>
+                        <lan:LocalisedCharacterString locale="#fr">Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000 entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.</lan:LocalisedCharacterString>
                       </lan:textGroup>
                     </lan:PT_FreeText>
                   </mcc:description>
                 </mcc:MD_Identifier>
               </mac:identifier>
               <mac:type xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Laser scanner</gco:CharacterString>
+                <gco:CharacterString>medium format cameras</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Scanneur laser</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">appareils photo de format moyen</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </mac:type>
@@ -2131,7 +2131,7 @@ L&#39;observatoire côtier aéroporté (ACO) est une initiative collaborative di
                   <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
                     <gco:CharacterString>Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.</gco:CharacterString>
                     <lan:PT_FreeText>
-                      <lan:textGroup>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                         <lan:LocalisedCharacterString locale="#fr">Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000 entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.</lan:LocalisedCharacterString>
                       </lan:textGroup>
                     </lan:PT_FreeText>
@@ -2141,8 +2141,45 @@ L&#39;observatoire côtier aéroporté (ACO) est une initiative collaborative di
               <mac:type xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>medium format cameras</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">appareils photo de format moyen</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Applanix</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>POS AV</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>POS AV 510</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Integrated INS with AV39 GNSS Antenna, and an Applanix Type 46 IMU - used pre 2024</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">INS intégré avec antenne GNSS AV39 et IMU Applanix Type 46 - utilisé avant 2024</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Inertial Navigation System (INS)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Système de navigation inertielle (INS)</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </mac:type>
