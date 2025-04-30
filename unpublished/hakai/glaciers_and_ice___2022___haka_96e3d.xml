@@ -753,7 +753,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-04-30T22:38:21.509Z</gco:DateTime>
+        <gco:DateTime>2025-04-30T22:42:02.517Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1902,8 +1902,13 @@ Pour plus d&#39;informations sur le post-traitement, l&#39;assurance qualité de
         <mri:MD_AssociatedResource>
           <mri:name>
             <cit:CI_Citation>
-              <cit:title>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Glacier and Ice Field Mapping - 2021 - Airborne Coastal Observatory</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Cartographie des glaciers et des champs de glace - 2021 - Observatoire côtier aéroporté</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
@@ -2088,7 +2093,7 @@ Pour plus d&#39;informations sur le post-traitement, l&#39;assurance qualité de
                 </cit:CI_Citation>
               </mcc:authority>
               <mcc:code>
-                <gco:CharacterString>Airborne Coastal Observatory – Hakai Institute</gco:CharacterString>
+                <gco:CharacterString>Airborne Coastal Observatory – Piper Navajo aircraft - Hakai Institute</gco:CharacterString>
               </mcc:code>
             </mcc:MD_Identifier>
           </mac:identifier>
