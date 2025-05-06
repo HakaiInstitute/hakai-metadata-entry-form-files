@@ -279,7 +279,7 @@ identification:
 metadata:
   dates:
     publication: '2022-11-25'
-    revision: '2024-07-23T11:18:39.428Z'
+    revision: '2025-05-06T21:36:11.306Z'
   identifier: 0fbdb22e-d039-46a8-95e3-0bbf4f55d972
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NHg9_BbTzjf7AKpmm81
@@ -300,7 +300,88 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: 'Airborne Coastal Observatory - Piper Navajo.
+
+      The Airborne Coastal Observatory (ACO) is a collaborative initiative led by
+      the Hakai Institute in partnership with the University of Northern British Columbia
+      and Kisik Aerial Surveying. It delivers rapid, precise aerial observations of
+      coastal ecosystems—from Icefields to Oceans. A Kisik Aerial Piper Navajo aircraft,
+      equipped with advanced integrated Earth imaging sensors, collects highly visual
+      and accurate data. The aircraft is operated and maintained by Kisik Aerial Surveys
+      in Delta, BC.'
+    fr: 'Observatoire côtier aéroporté - Piper Navajo.
+
+      L''observatoire côtier aéroporté (ACO) est une initiative collaborative dirigée
+      par l''Institut Hakai en partenariat avec l''Université du Nord de la Colombie-Britannique
+      et Kisik Aerial Surveying. Il fournit des observations aériennes rapides et
+      précises des écosystèmes côtiers, des champs de glace aux océans. Un avion Kisik
+      Aerial Piper Navajo, équipé de capteurs intégrés avancés d''imagerie de la Terre,
+      collecte des données très visuelles et précises. L''avion est exploité et entretenu
+      par Kisik Aerial Surveys à Delta, en Colombie-Britannique.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Piper Navajo CG-XHK
+  instrumentID: Piper Navajo CG-XHK
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie de la surface de la Terre
+        et la végétation
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  - description:
+      en: 'Phaseone Industrial iXU-RS1000 medium format cameras, resolution: 100MP,
+        lens: 50mm f/4.0 Rodenstock'
+      fr: 'Caméras moyen format Phaseone Industrial iXU-RS1000, résolution : 100 MP,
+        objectif : 50 mm f/4.0 Rodenstock'
+    id: RGB NIR Camera
+    manufacturer: Phase 1
+    type:
+      en: RGB NIR Cameras
+      fr: Caméras NIR RGB
+    version: Phaseone Industrial iXU-RS1000
+  - description:
+      en: Collect hyperspectral data both in the VNIR (380 to 970 nm) and SWIR (970
+        to 2500 nm) region through single fore optics.
+      fr: Collectez des données hyperspectrales à la fois dans la région VNIR (380
+        à 970 nm) et SWIR (970 à 2500 nm) grâce à une optique à focale unique.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Hyperspectral Sensor
+    instrumentID: Hyperspectral Sensor
+    manufacturer: Specim
+    type:
+      en: Hyperspectral Sensor
+      fr: Capteur hyperspectral
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: AisaFENIX
+  type: research aeroplane
 spatial:
   bbox:
   - -128.0
