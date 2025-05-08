@@ -2,9 +2,9 @@ contact:
 - inCitation: true
   individual:
     email: data@hakai.org
+    name: Hakai Geospatial
     position: Lidar / Imagery Survey Team
   organization:
-    address: 1002 Wharf Street
     city: Campbell River
     country: Canada
     email: data@hakai.org
@@ -12,38 +12,51 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
+  - author
   - custodian
   - owner
   - distributor
-  - author
-  - editor
-  - pointOfContact
-  - resourceProvider
-  - rightsHolder
   - principalInvestigator
   - processor
+  - pointOfContact
+- inCitation: true
+  organization:
+    address: 1100 Island Hwy
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
   - publisher
-  - originator
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
   - funder
 distribution:
 - description:
-    en: Metadata document detailing the glacier and ice field mapping surveys conducted
-      in 2022
-    fr: Document de métadonnées détaillant les relevés cartographiques des glaciers
-      et des champs de glace réalisés en 2022
+    en: Form used to request geospatial data from the Hakai Institute.
+    fr: Formulaire utilisé pour demander des données géospatiales à l'Institut Hakai.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
-    en: Hakai Institute Google Drive
-    fr: Google Drive de l'Institut Hakai
-  url: https://drive.google.com/file/d/1Nw_WcQ_Wh_5hPXFqBaakLVkvl3LOtVWd/view?usp=sharing
-- description:
-    en: Webmap detailing the areas of interest (AOI) for each airborne coastal observatory
-      survey area.
-    fr: Carte Web détaillant les zones d'intérêt (AOI) pour chaque zone d'étude de
-      l'observatoire côtier aéroporté.
-  name:
-    en: Hakai ACO Survey Coverage Webmap
-    fr: Carte Web de couverture de l'enquête Hakai ACO
-  url: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
+    en: Hakai Data Request Form
+    fr: Formulaire de demande de données Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php
 identification:
   abstract:
     en: "The Airborne Coastal Observatory (ACO) is a collaborative program led by\
@@ -66,66 +79,104 @@ identification:
       \ local communities who will need to adapt. A better understanding of glaciers\
       \ and seasonal snow will likewise assist the oceanographic community who use\
       \ freshwater flux data to model ocean currents, predict plankton blooms and\
-      \ assess the health of fish stocks.\nA primary mission of the ACO to map and\
-      \ monitor change to regional glaciers and basin snow cover. Lidar (Light Detection\
-      \ and Ranging), high-resolution imagery, and hyperspectral imagery are combined\
-      \ with field observations to measure changes in seasonal snow cover and glacier\
-      \ mass loss.\nOver the longer term, the Hakai coastal margin observatory establishes\
-      \ routine monitoring of snow inputs across British Columbia’s Mountains. The\
-      \ importance of snow vs. rain changes dramatically across the central coast.\
+      \ assess the health of fish stocks.\n\nA primary mission of the ACO is to map\
+      \ and monitor change to regional glaciers and basin snow cover. LiDAR (Light\
+      \ Detection and Ranging), high-resolution imagery, and hyperspectral imagery\
+      \ are combined with field observations to measure changes in seasonal snow cover\
+      \ and glacier mass loss. Over the longer term, the Hakai coastal margin observatory\
+      \ establishes routine monitoring of snow inputs across British Columbia’s Mountains.\
+      \ The importance of snow vs. rain changes dramatically across the central coast.\
       \ Snow is a fundamental input variable for watershed modelling, for understanding\
       \ why watersheds across this gradient have different export characteristics,\
       \ and for monitoring watershed response to changing weather and climate. The\
       \ ACO based work is part of a larger initiative with ground sampling and sensor\
       \ networks used the validate measurements. \n \nFor more information on post\
       \ processing, data quality assurance, software used, and summary of results\
-      \ please contact data@hakai.org"
+      \ please contact data@hakai.org."
     fr: "L'Observatoire côtier aéroporté (ACO) est un programme collaboratif dirigé\
-      \ par l'Institut Hakai et ses partenaires, l'Université du Nord de la Colombie-Britannique.\
+      \ par le Hakai Institute et ses partenaires, l'Université du Nord de la Colombie-Britannique.\
       \ Le programme ACO propose des observations aériennes rapides et précises des\
-      \ écosystèmes terrestres et marins, des champs de glace aux océans, et s'applique\
+      \ écosystèmes terrestres et marins, des champs de glace aux océans, appliquées\
       \ à de multiples disciplines scientifiques. Les données sont collectées par\
       \ un avion Piper Navajo équipé d'un ensemble de systèmes et de technologies\
-      \ d'imagerie de la Terre intégrés, notamment : 1) un scanner laser aéroporté\
-      \ Riegl VQ-780 ; 2. Deux caméras numériques de format moyen PhaseOne iXU-RS\
-      \ 1000 ; 3. Spectromètre imageur Specim AISafenix ; 4. Système de navigation\
-      \ inertielle Applanix. Toutes les données sont traitées et mises à jour par\
-      \ l'équipe de technologie géospatiale de Hakai. L'avion est fourni et entretenu\
-      \ par Kisik Aerial Surveys Inc. (Delta, Colombie-Britannique).\n\nLe climat\
-      \ de la côte sud et centrale de la Colombie-Britannique la rend particulièrement\
-      \ vulnérable au changement climatique, avec des hivers relativement plus chauds\
-      \ que les environnements continentaux. Les pentes d'altitude extrêmes de la\
-      \ côte de la Colombie-Britannique peuvent toutefois apporter une certaine résilience\
-      \ dans certains bassins versants à haute altitude et à couverture glaciaire\
-      \ étendue. Une meilleure caractérisation de la couverture neigeuse et glaciaire\
-      \ améliorera notre capacité à observer les changements à long terme, à développer\
-      \ et à améliorer les modèles hydrologiques existants et à fournir des conseils\
-      \ aux communautés locales qui devront s'adapter. Une meilleure compréhension\
-      \ des glaciers et de la neige saisonnière aidera également la communauté océanographique\
+      \ intégrés d'imagerie de la Terre, notamment : 1) Un scanner laser aéroporté\
+      \ Riegl VQ-780 ; 2. Deux appareils photo numériques de format moyen PhaseOne\
+      \ iXU-RS 1000 ; 3. Spectromètre imageur Specim AISAfenix ; 4. Système de navigation\
+      \ inertielle Applanix. Toutes les données sont traitées et gérées par l'équipe\
+      \ de Hakai Geospatial Technology. L'avion est fourni et entretenu par Kisik\
+      \ Aerial Surveys Inc. (Delta, Colombie-Britannique).\n\nLe climat de la côte\
+      \ sud et centrale de la Colombie-Britannique la rend particulièrement sensible\
+      \ au changement climatique, avec des hivers relativement plus chauds que les\
+      \ environnements continentaux. Les pentes d'altitude extrêmes de la côte de\
+      \ la Colombie-Britannique peuvent toutefois apporter une certaine résilience\
+      \ dans certains bassins versants à haute altitude et couverts de glaciers. Une\
+      \ meilleure caractérisation de la couverture neigeuse et glaciaire améliorera\
+      \ notre capacité à observer les changements à long terme, à développer et à\
+      \ améliorer les modèles hydrologiques existants et à fournir des conseils aux\
+      \ communautés locales qui devront s'adapter. Une meilleure compréhension des\
+      \ glaciers et de la neige saisonnière aidera également la communauté océanographique\
       \ qui utilise les données sur les flux d'eau douce pour modéliser les courants\
       \ océaniques, prévoir les proliférations de plancton et évaluer la santé des\
-      \ stocks de poissons.\nL'une des principales missions de l'ACO est de cartographier\
+      \ stocks de poissons.\n\nL'une des missions principales de l'ACO est de cartographier\
       \ et de surveiller l'évolution des glaciers régionaux et de la couverture neigeuse\
-      \ des bassins. Le lidar (Light Detection and Ranging), l'imagerie haute résolution\
+      \ des bassins. Le LiDAR (Light Detection and Ranging), l'imagerie haute résolution\
       \ et l'imagerie hyperspectrale sont combinés à des observations sur le terrain\
-      \ pour mesurer les variations de la couverture neigeuse saisonnière et la perte\
-      \ de masse des glaciers.\nÀ plus long terme, l'observatoire de la marge côtière\
-      \ de Hakai établit une surveillance régulière des apports de neige dans les\
+      \ pour mesurer les changements de la couverture neigeuse saisonnière et la perte\
+      \ de masse des glaciers. À plus long terme, l'observatoire de la marge côtière\
+      \ de Hakai établit une surveillance de routine des apports de neige dans les\
       \ montagnes de la Colombie-Britannique. L'importance de la neige par rapport\
-      \ à la pluie change radicalement sur la côte centrale. La neige est une variable\
+      \ à la pluie varie considérablement sur la côte centrale. La neige est une variable\
       \ d'entrée fondamentale pour la modélisation des bassins versants, pour comprendre\
       \ pourquoi les bassins versants situés sur ce gradient présentent des caractéristiques\
       \ d'exportation différentes et pour surveiller la réponse des bassins versants\
-      \ aux changements météorologiques et climatiques. Les travaux basés sur l'ACO\
-      \ s'inscrivent dans le cadre d'une initiative plus vaste impliquant des prélèvements\
-      \ au sol et des réseaux de capteurs utilisés pour valider les mesures. \n \n\
-      Pour plus d'informations sur le post-traitement, l'assurance qualité des données,\
-      \ les logiciels utilisés et le résumé des résultats, veuillez contacter data@hakai.org"
-  associated_resources: []
+      \ aux changements météorologiques et climatiques. Le travail basé sur l'ACO\
+      \ fait partie d'une initiative plus vaste utilisant des réseaux d'échantillonnage\
+      \ au sol et de capteurs utilisés pour valider les mesures. \n \nPour plus d'informations\
+      \ sur le post-traitement, l'assurance qualité des données, les logiciels utilisés\
+      \ et le résumé des résultats, veuillez contacter data@hakai.org."
+  associated_resources:
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/1Nw_WcQ_Wh_5hPXFqBaakLVkvl3LOtVWd/view?usp=sharing
+    title:
+      en: Hakai Institute Google Drive - Metadata Report
+      fr: Hakai Institute Google Drive - Rapport sur les métadonnées
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementTo
+    association_type_iso: crossReference
+    authority: URL
+    code: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
+    title:
+      en: Hakai ACO Survey Coverage Webmap
+      fr: Carte Web de couverture de l'enquête Hakai ACO
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: Continues
+    association_type_iso: series
+    authority: DOI
+    code: https://doi.org/10.21966/sygq-mw80
+    title:
+      en: Glacier and Ice Field Mapping - 2021 - Airborne Coastal Observatory
+      fr: Cartographie des glaciers et des champs de glace - 2021 - Observatoire côtier
+        aéroporté
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2022-02-25'
     publication: '2022-11-30'
   edition: '1.0'
+  identifier: https://doi.org/10.21966/n3b4-d226
   keywords:
     default:
       en:
@@ -148,8 +199,10 @@ identification:
   temporal_begin: '2022-02-25T20:00:00.000Z'
   temporal_end: '2022-09-20T19:00:00.000Z'
   title:
-    en: Glaciers and Ice - 2022 - Hakai Airborne Coastal Observatory
-    fr: Glaciers et glace - 2022 - Observatoire côtier aéroporté de Hakai
+    en: Glacier and Ice Aerial Surveys in British Columbia - 2022 - Hakai Airborne
+      Coastal Observatory
+    fr: Levés aériens sur les glaciers et les glaces - 2022 - Observatoire côtier
+      aéroporté de Hakai
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -157,8 +210,8 @@ identification:
         verified: false
 metadata:
   dates:
-    publication: '2023-01-18'
-    revision: '2024-07-23T11:20:47.932Z'
+    publication: '2025-05-08'
+    revision: '2025-05-08T22:04:50.148Z'
   identifier: 96e3dd9c-7863-44d5-95cd-a3d0a8653d83
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NM0zdQjdjAMBZ4cN8ou
@@ -174,7 +227,122 @@ metadata:
         dataset.
       fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
         de l'ensemble de données.
-platform: []
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: 'Airborne Coastal Observatory - Piper Navajo.
+
+      The Airborne Coastal Observatory (ACO) is a collaborative initiative led by
+      the Hakai Institute in partnership with the University of Northern British Columbia
+      and Kisik Aerial Surveying. It delivers rapid, precise aerial observations of
+      coastal ecosystems—from Icefields to Oceans. A Kisik Aerial Piper Navajo aircraft,
+      equipped with advanced integrated Earth imaging sensors, collects highly visual
+      and accurate data. The aircraft is operated and maintained by Kisik Aerial Surveys
+      in Delta, BC.'
+    fr: 'Observatoire côtier aéroporté - Piper Navajo.
+
+      L''observatoire côtier aéroporté (ACO) est une initiative collaborative dirigée
+      par l''Institut Hakai en partenariat avec l''Université du Nord de la Colombie-Britannique
+      et Kisik Aerial Surveying. Il fournit des observations aériennes rapides et
+      précises des écosystèmes côtiers, des champs de glace aux océans. Un avion Kisik
+      Aerial Piper Navajo, équipé de capteurs intégrés avancés d''imagerie de la Terre,
+      collecte des données très visuelles et précises. L''avion est exploité et entretenu
+      par Kisik Aerial Surveys à Delta, en Colombie-Britannique.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Piper Navajo CG-XHK
+  instrumentID: Piper Navajo CG-XHK
+  instruments:
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Aerial cameras
+    manufacturer: Phaseone Industrial
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: iXU-RS1000
+  - description:
+      en: Integrated INS with AV39 GNSS Antenna, and an Applanix Type 46 IMU - used
+        pre 2024
+      fr: INS intégré avec antenne GNSS AV39 et IMU Applanix Type 46 - utilisé avant
+        2024
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: POS AV
+    manufacturer: Applanix
+    type:
+      en: Inertial Navigation System (INS)
+      fr: Système de navigation inertielle (INS)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: POS AV 510
+  - description:
+      en: Portable Spectroradiometer with an imaging range from 350 - 2500nm
+      fr: Spectroradiomètre portable avec une plage d'imagerie de 350 à 2500 nm
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: RS-5400 Field Spectroradiometer
+    manufacturer: Spectral Evolution
+    type:
+      en: Field Spectroradiometer
+      fr: Spectroradiomètre de champ
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: RS-5400
+  type: research aeroplane
 spatial:
   bbox:
   - -127.8
