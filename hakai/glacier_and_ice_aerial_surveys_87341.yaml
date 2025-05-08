@@ -1,0 +1,400 @@
+contact:
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial
+    position: Geospatial science team at the Hakai Institute
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
+  - processor
+  - principalInvestigator
+  - pointOfContact
+  - author
+  - resourceProvider
+- inCitation: true
+  organization:
+    address: 1100 Island Hwy
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Request form for the Glaciers and Icefields data
+    fr: Formulaire de demande de données sur les glaciers et les champs de glace
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Data Access Request Form
+    fr: Formulaire de demande d'accès aux données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php
+identification:
+  abstract:
+    en: 'The Airborne Coastal Observatory (ACO), developed by the Hakai Institute,
+      is an aerial remote sensing platform designed to map landscapes from icefields
+      to oceans. Using a Piper Navajo aircraft operated by Kisik Aerial Surveys (Delta,
+      BC), the ACO integrates LiDAR (Light Detection and Ranging), high-resolution
+      imagery, and hyperspectral sensors to collect detailed environmental data in
+      a single pass. These tools are used to monitor changes in regional glaciers
+      and snowpack, supported by field observations and validated through ground-based
+      sampling and sensor networks.
+
+
+      A primary focus of the ACO is to improve understanding of snow and glacier dynamics
+      across BC’s mountainous coast. Long-term monitoring by the Hakai ACO captures
+      variations in snow inputs, which differ dramatically between rain-dominated
+      and snow-dominated zones. Snowpack is a critical factor in watershed modeling,
+      helping to explain variations in runoff and providing insights into how watersheds
+      respond to changing climate conditions. Coastal elevation gradients offer some
+      resilience in high-altitude watersheds, but the region remains particularly
+      vulnerable due to its comparatively mild winters.
+
+
+      For more information on post processing, data quality assurance, software used,
+      and summary of results please contact data@hakai.org'
+    fr: 'L''observatoire côtier aéroporté (ACO), développé par l''Institut Hakai,
+      est une plateforme de télédétection aérienne conçue pour cartographier des paysages
+      allant des champs de glace aux océans. À l''aide d''un avion Piper Navajo exploité
+      par Kisik Aerial Surveys (Delta, Colombie-Britannique), l''ACO intègre le LiDAR
+      (Light Detection and Ranging), des images haute résolution et des capteurs hyperspectraux
+      pour collecter des données environnementales détaillées en un seul passage.
+      Ces outils sont utilisés pour surveiller l''évolution des glaciers et du manteau
+      neigeux de la région, en s''appuyant sur des observations de terrain et validés
+      par des réseaux d''échantillonnage et de capteurs au sol.
+
+
+      L''un des principaux objectifs de l''ACO est d''améliorer la compréhension de
+      la dynamique de la neige et des glaciers sur la côte montagneuse de la Colombie-Britannique.
+      La surveillance à long terme par l''ACO de Hakai permet de saisir les variations
+      des apports de neige, qui diffèrent considérablement entre les zones dominées
+      par la pluie et les zones dominées par la neige. Le manteau neigeux est un facteur
+      essentiel dans la modélisation des bassins versants, car il aide à expliquer
+      les variations du ruissellement et fournit des informations sur la façon dont
+      les bassins versants réagissent aux conditions climatiques changeantes. Les
+      gradients d''altitude du littoral offrent une certaine résilience dans les bassins
+      versants de haute altitude, mais la région reste particulièrement vulnérable
+      en raison de ses hivers relativement doux.
+
+
+      Pour plus d''informations sur le post-traitement, l''assurance qualité des données,
+      les logiciels utilisés et le résumé des résultats, veuillez contacter data@hakai.org'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/1ZgcHBPDNHUNRvoaYmpj-IcbDrtPWoviN/view?usp=sharing
+    title:
+      en: Metadata Report - Glaciers and Icefields Airborne Coastal Observatory
+      fr: Rapport sur les métadonnées - Observatoire côtier aéroporté des glaciers
+        et des champs de glace
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsNewVersionOf
+    association_type_iso: revisionOf
+    authority: DOI
+    code: https://doi.org/10.21966/n3b4-d226
+    title:
+      en: Glaciers and Icefields 2022 Aerial Survey
+      fr: Relevé aérien des glaciers et des champs de glace 2022
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2023-03-17'
+    publication: '2025-04-29'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/ks82-th39
+  keywords:
+    default:
+      en:
+      - LiDAR
+      - glacier
+      - snow
+      - basin
+      - Hakai
+      - topography
+      - elevation
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: completed
+  project:
+  - Airborne Coastal Observatory
+  - Geospatial
+  status: published
+  temporal_begin: '2023-03-17T19:00:00.000Z'
+  temporal_end: '2024-11-06T20:00:00.000Z'
+  title:
+    en: Glacier and Ice Aerial Surveys in British Columbia - 2023-2024 - Hakai Airborne
+      Coastal Observatory
+    fr: Levés aériens des glaciers et des glaces - 2023-2024 - Observatoire côtier
+      aéroporté de Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2025-05-08'
+    revision: '2025-05-08T22:15:56.540Z'
+  identifier: 87341cb3-f906-4fa5-973c-b6742aa0fbb5
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-OP2QaXeKeZ30lz51gEE
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: 'Airborne Coastal Observatory - Piper Navajo - CG-XHK.
+
+      The Airborne Coastal Observatory (ACO) is a collaborative initiative led by
+      the Hakai Institute in partnership with the University of Northern British Columbia
+      and Kisik Aerial Surveying. It delivers rapid, precise aerial observations of
+      coastal ecosystems—from Icefields to Oceans. A Kisik Aerial Piper Navajo aircraft,
+      equipped with advanced integrated Earth imaging sensors, collects highly visual
+      and accurate data. The aircraft is operated and maintained by Kisik Aerial Surveys
+      in Delta, BC.'
+    fr: 'Observatoire côtier aéroporté - Piper Navajo - CG-XHK.
+
+      L''observatoire côtier aéroporté (ACO) est une initiative collaborative dirigée
+      par l''Institut Hakai en partenariat avec l''Université du Nord de la Colombie-Britannique
+      et Kisik Aerial Surveying. Il fournit des observations aériennes rapides et
+      précises des écosystèmes côtiers, des champs de glace aux océans. Un avion Kisik
+      Aerial Piper Navajo, équipé de capteurs intégrés avancés d''imagerie de la Terre,
+      collecte des données très visuelles et précises. L''avion est exploité et entretenu
+      par Kisik Aerial Surveys à Delta, en Colombie-Britannique.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Piper Navajo CG-XHK
+  instrumentID: Airborne Coastal Observatory – Hakai Institute
+  instruments:
+  - description:
+      en: Full frame sensor (14204 x 10652), and with a 3.76-micrometer pixel size.
+        150MP and 100MP aerial system. 4-Band combined NIR and RGB (RGBN)
+      fr: Capteur plein format (14204 x 10652), avec une taille de pixel de 3,76 micromètres.
+        Système aérien de 150 MP et 100 MP. 4 bandes combinées NIR et RGB (RGBN)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Aerial cameras iXM-RS150F
+    instrumentID: Aerial cameras iXM-RS150F
+    manufacturer: Phaseone Industrial
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: Twin PhaseOne iXM-RS150F (RGB & NIR)
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Aerial cameras iXU-RS1000
+    instrumentID: Aerial cameras iXU-RS1000
+    manufacturer: Phaseone Industrial
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: iXU-RS1000
+  - description:
+      en: Collect hyperspectral data both in the VNIR (380 to 970 nm) and SWIR (970
+        to 2500 nm) region through single fore optics.
+      fr: Collectez des données hyperspectrales à la fois dans la région VNIR (380
+        à 970 nm) et SWIR (970 à 2500 nm) grâce à une optique à focale unique.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Hyperspectral Sensor
+    instrumentID: Hyperspectral Sensor
+    manufacturer: Specim
+    type:
+      en: Hyperspectral Sensor
+      fr: Capteur hyperspectral
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: AisaFENIX
+  - description:
+      en: Laser scanner used to measure the earth’s surface topography and vegetation
+      fr: Scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor LMS-Q 780
+    instrumentID: Laser sensor LMS-Q 780
+    manufacturer: Riegl
+    type:
+      en: Laser scanner
+      fr: Scanneur laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  - description:
+      en: Laser scanner used to measure the earth’s surface topography and vegetation
+      fr: Scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor VQ-1560 II-S
+    instrumentID: Laser sensor VQ-1560 II-S
+    manufacturer: Riegl
+    type:
+      en: Laser scanner
+      fr: Scanneur laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: VQ-1560 II-S long-range airborne laser scanner
+  - description:
+      en: Portable Spectroradiometer with an imaging range from 350 - 2500nm
+      fr: Spectroradiomètre portable avec une plage d'imagerie de 350 à 2500 nm
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: RS-5400 Field Spectroradiometer
+    instrumentID: RS-5400 Field Spectroradiometer
+    manufacturer: Spectral Evolution
+    type:
+      en: Field Spectroradiometer
+      fr: Spectroradiomètre de champ
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: RS-5400
+  - description:
+      en: Integrated INS with AV39 GNSS Antenna, and an Applanix Type 57 IMU for the
+        recording of position and orientation data. Used 2024 onward.
+      fr: INS intégré avec antenne GNSS AV39 et IMU Applanix Type 57 pour l'enregistrement
+        des données de position et d'orientation. Utilisé à partir de 2024.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Trimble AP+ Air GNSS-Inertial System
+    manufacturer: Trimble Inc
+    type:
+      en: Inertial Navigation System (INS)
+      fr: Système de navigation inertielle (INS)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: Trimble AP+ 60
+  type: research aeroplane
+spatial:
+  bbox:
+  - -128.9
+  - 48.81
+  - -115.2
+  - 54.38
+  description:
+    en: Multiple glaciers and ice packs located in mountainous regions of British
+      Columbia's Coastal and Rocky Mountains.
+    fr: Plusieurs glaciers et banquises situés dans les régions montagneuses de la
+      côte et des montagnes Rocheuses de la Colombie-Britannique.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  vertical:
+  - 0.0
+  - 3954.0
+  vertical_positive: depthPositive
