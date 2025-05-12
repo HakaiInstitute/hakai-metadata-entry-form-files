@@ -807,7 +807,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-05-12T19:04:54.745Z</gco:DateTime>
+        <gco:DateTime>2025-05-12T19:10:17.702Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2291,8 +2291,13 @@ Référence recommandée : Reshitnyk, L.Y., Holmes, K.R. (2024). Étendue du va
   </mdb:distributionInfo>
   <mdb:resourceLineage>
     <mrl:LI_Lineage>
-      <mrl:statement>
+      <mrl:statement xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>Hakai Institute KelpOMatic Tool</gco:CharacterString>
+        <lan:PT_FreeText>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+            <lan:LocalisedCharacterString locale="#fr">Outil KelpoMatic de l&#39;Institut Hakai</lan:LocalisedCharacterString>
+          </lan:textGroup>
+        </lan:PT_FreeText>
       </mrl:statement>
       <mrl:scope>
         <mcc:MD_Scope>
@@ -2313,50 +2318,13 @@ Référence recommandée : Reshitnyk, L.Y., Holmes, K.R. (2024). Étendue du va
           </mrl:description>
           <mrl:reference>
             <cit:CI_Citation>
-              <cit:title>
-                <gco:CharacterString></gco:CharacterString>
-              </cit:title>
-              <cit:identifier>
-                <mcc:MD_Identifier>
-                  <mcc:code>
-                    <gco:CharacterString></gco:CharacterString>
-                  </mcc:code>
-                </mcc:MD_Identifier>
-              </cit:identifier>
-            </cit:CI_Citation>
-          </mrl:reference>
-        </mrl:LI_ProcessStep>
-      </mrl:processStep>
-      <mrl:processStep>
-        <mrl:LI_ProcessStep>
-          <mrl:description>
-            <gco:CharacterString>Title: KelpOMatic</gco:CharacterString>
-          </mrl:description>
-          <mrl:reference>
-            <cit:CI_Citation>
-              <cit:title>
-                <gco:CharacterString></gco:CharacterString>
-              </cit:title>
-              <cit:identifier>
-                <mcc:MD_Identifier>
-                  <mcc:code>
-                    <gco:CharacterString></gco:CharacterString>
-                  </mcc:code>
-                </mcc:MD_Identifier>
-              </cit:identifier>
-            </cit:CI_Citation>
-          </mrl:reference>
-        </mrl:LI_ProcessStep>
-      </mrl:processStep>
-      <mrl:processStep>
-        <mrl:LI_ProcessStep>
-          <mrl:description>
-            <gco:CharacterString>DOI</gco:CharacterString>
-          </mrl:description>
-          <mrl:reference>
-            <cit:CI_Citation>
-              <cit:title>
-                <gco:CharacterString></gco:CharacterString>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>KelpOMatic</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">KelpoMatic</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
