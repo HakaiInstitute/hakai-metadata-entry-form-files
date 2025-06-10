@@ -1,0 +1,165 @@
+abstract: "This data package contains molecular resources derived from a large DNA-based\
+  \ survey of marine biodiversity carried out around Calvert Island, British Columbia,\
+  \ in 2021. During this survey we collected triplicate seawater samples from 208\
+  \ sites across a marine region roughly 100km2 in scale, focussed on nearshore habitats\
+  \ of kelp, seagrass, and rocky reefs. All samples were collected adjacent to the\
+  \ substrate using a niskin bottle, filtered using 0.22\u03BCm sterivex filters,\
+  \ and the resulting environmental DNA was used for amplicon sequencing to infer\
+  \ the communities of fish (12S rRNA gene) and invertebrates (COI) at each location.\
+  \ These data are part of a larger collaboration between researchers from McGill\
+  \ University, Fisheries and Oceans Canada, and the Hakai Institute, with the goal\
+  \ of optimizing the use of environmental DNA for monitoring Canada\u2019s network\
+  \ of Marine Protected Areas.  \n\nPermission to use this dataset must be granted\
+  \ by the Hakai Institute to the individual who makes the data request (please contact\
+  \ matt.lemay@hakai.org for further dialogue). Data can only be used for the permitted\
+  \ purpose and are not to be shared or repurposed."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: matt.lemay@hakai.org
+  family-names: Lemay
+  given-names: Matthew
+  orcid: https://orcid.org/0000-0001-7051-0020
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: rute.carvalho@hakai.org
+  family-names: Clemente-Carvalho
+  given-names: Rute
+  orcid: https://orcid.org/0000-0001-6922-9418
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: evan.morien@hakai.org
+  family-names: Morien
+  given-names: Evan
+  orcid: https://orcid.org/0000-0001-9821-7002
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: kristin.meagher@hakai.org
+  family-names: Robinson
+  given-names: Kristin
+  orcid: https://orcid.org/0000-0002-9500-1983
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: carolyn.prentice@hakai.org
+  family-names: Prentice
+  given-names: Carolyn
+  orcid: https://orcid.org/0000-0002-9644-8496
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Savage
+  given-names: Rosie
+  website: https://www.hakai.org/
+- affiliation: McGill University
+  city: Montreal
+  country: CA
+  family-names: Millard-Martin
+  given-names: Ben
+  website: https://www.mcgill.ca
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Hall
+  given-names: Kyle
+  website: https://www.hakai.org/
+- family-names: Sheridan
+  given-names: Kate
+- affiliation: Fisheries and Oceans Canada
+  city: Ottawa
+  country: CA
+  family-names: Jeffery
+  given-names: Nick
+  website: https://www.dfo-mpo.gc.ca
+- affiliation: Fisheries and Oceans Canada
+  city: Ottawa
+  country: CA
+  family-names: Stanley
+  given-names: Ryan
+  website: https://www.dfo-mpo.gc.ca
+- affiliation: Fisheries and Oceans Canada
+  city: Ottawa
+  country: CA
+  family-names: Rubidge
+  given-names: Emily
+  orcid: https://orcid.org/0000-0001-8997-1177
+  website: https://www.dfo-mpo.gc.ca
+- affiliation: McGill University
+  city: Montreal
+  country: CA
+  family-names: Sunday
+  given-names: Jennifer
+  orcid: https://orcid.org/0000-0001-9372-040X
+  website: https://www.mcgill.ca
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: matt.lemay@hakai.org
+  family-names: Lemay
+  given-names: Matthew
+  orcid: https://orcid.org/0000-0001-7051-0020
+  website: https://www.hakai.org/
+date-released: '2025-06-10'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 7e9c97a3-4bf1-4852-81b6-d74cedf2c94c
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_7e9c97a3-4bf1-4852-81b6-d74cedf2c94c
+- description: DOI
+  type: doi
+  value: 10.21966/vdyq-r660
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/pX9Euv7m4yaHRKPuMtylMexACtt2/-ORCQx4QHUuJ1NV1SEig
+- description: 'Illumina Sequence Reads (BioProject: PRJNA1269473): Raw Illumina Sequence
+    Reads are accessioned at NCBI (BioProject: PRJNA1269473)'
+  type: url
+  value: https://www.ncbi.nlm.nih.gov/bioproject/1269473
+- description: 'Sample Metadata: Attributes of each seawater sample collected for
+    this research project.'
+  type: url
+  value: https://drive.google.com/file/d/1HZwclPQWInj9PvzrLbWHrXX3Wfj0iJqa/view?usp=sharing
+- description: 'Methods: Detailed methods for the collection, sequencing, and bioinformatic
+    processing of samples used in this project.'
+  type: url
+  value: https://docs.google.com/document/d/1a4TWaYVssrhyoQZaYINJ9fhyyTtxMiomGHr1ORyDBU8/edit?usp=sharing
+- description: 'ASV Table (COI): Filtered, QC''ed and annotated ASV table generated
+    from the COI amplicon sequence data'
+  type: url
+  value: https://drive.google.com/file/d/1Tw03bY62hk--hEvdLtAsc4_yRrIJGI27/view?usp=sharing
+- description: 'ASV Table (12S): Filtered, QC''ed and annotated ASV table generated
+    from the 12S amplicon sequence data'
+  type: url
+  value: https://drive.google.com/file/d/1Mnr29_XJeSZsJ-jWtPCxizt37B7Wj4lB/view?usp=sharing
+- description: 'Project Webpage: This webpage provides additional information on Project
+    Optimize, which is a collaboration between researchers from the McGill University,
+    Fisheries and Oceans Canada, and the Hakai Institute'
+  type: url
+  value: https://genomegapp.weebly.com
+keywords:
+- biodiversity
+- environmental DNA
+- fish
+- fishAbundanceAndDistribution
+- invertebrateAbundanceAndDistribution
+- marine protected areas
+license: CC-BY-NC-4.0
+license-url: https://creativecommons.org/licenses/by-nc/4.0/
+message: If you use this software, please cite it as below
+title: Environmental DNA survey of Calvert Island British Columbia, 2021
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_7e9c97a3-4bf1-4852-81b6-d74cedf2c94c
+version: '1.0'
