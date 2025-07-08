@@ -1,0 +1,103 @@
+abstract: "This data package contains the datasets and reports pertaining to mapping\
+  \ the spatial extent of Zostera marina at several monitoring sites within the Gulf\
+  \ Islands National Park Reserve, British Columbia, Canada. This work was a collaborative\
+  \ project between the Hakai Institute and the Gulf Islands National Park Reserve\
+  \ (GINPR).  \n\nFour eelgrass monitoring sites (James Bay, Tumbo, Cabbage) were\
+  \ mapped using small Remotely Piloted Aerial Systems (RPAS) during summer low tides\
+  \ in June, 2024. Aerial imagery for Sidney Spit was collected by the Hakai Aerial\
+  \ Coastal Observatory (ACO) - a fixed-wing aircraft with two medium format cameras\
+  \ (RGB and NIR). Orthomosaics of each site were generated using a Structure from\
+  \ Motion Multi-View Stereo (SfM-MVS) workflow in Agisoft Metashape (Version 2.1.61,\
+  \ Pix4D) in Windows 10. Orthomosaics were georeferenced to either previous surveys\
+  \ (James Bay, Cabbage, Tumbo) or using post-processed GNSS data with onboard IMU\
+  \ data in the case of the ACO survey. \nThe extent of eelgrass at each site was\
+  \ delineated using object-based image analysis (OBIA) with eCognition Developer\
+  \ software (eCognition Developer 10.1, 2014) and manual delineation (where necessary).\
+  \ Georeferenced towed underwater video (SplashCam Pro) data were collected at eelgrass\
+  \ monitoring sites to provide ground-truth data for verifying eelgrass extent. \n\
+  \nThe data package includes:\n\n-   The report (.pdf) which describe the project,\
+  \ data collection, processing methods and results for the 2024 surveys. Comparison\
+  \ to previous eelgrass surveys is also included.\n-    A report (.pdf) which describes\
+  \ the Aerial Coastal Observatory (ACO) survey methods and equipment.\n-    Polygon\
+  \ shapefiles (.shp) of the extent of eelgrass (Z. marina) at each monitoring site.\n\
+  -    Point shapefiles (.shp) of classified towed underwater video transects*. \n\
+  -   A data dictionary (.csv) which describes the attributes of the eelgrass and\
+  \ towed video shapefiles. \n-   For Sidney Spit - field photos and transect surveys\
+  \ of eelgrass and green algae are provided as shapefiles.\n\n*The towed underwater\
+  \ video footage is not available.  \n\nThis data package is a component of the Hakai\
+  \ Institute\u2019s Habitat Mapping program whose overarching objective is to generate\
+  \ spatial inventories of coastal habitats, investigate how these habitats are changing\
+  \ through time and the drivers of that change. These data were collected as a part\
+  \ of the Coastal BC Nearshore Habitat Mapping Project (a collaboration between Parks\
+  \ Canada and the Hakai Institute). \n\nPermission to use this dataset must be granted\
+  \ by the Hakai Institute and Gulf Islands National Park Reserve to the individual\
+  \ who makes the data request. Data can only be used for the permitted purpose and\
+  \ are not to be shared or repurposed."
+authors:
+- affiliation: Hakai Institute
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+- affiliation: Parks Canada
+  city: Ottawa
+  country: CA
+  family-names: Thomson
+  given-names: Hanna
+  orcid: https://orcid.org/0000-0003-2855-063X
+  website: http://www.pc.gc.ca/eng/index.aspx
+- affiliation: Gulf Islands National Park Reserve
+  family-names: Helms
+  given-names: Sibylla
+- name: Tula Foundation
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+date-released: '2025-07-08'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: d959f8f3-6d20-42fe-94da-be49bcd3aeca
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_d959f8f3-6d20-42fe-94da-be49bcd3aeca
+- description: DOI
+  type: doi
+  value: 10.21966/x3jm-p494
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-OUG8anVj4yBJDEHy6Wj
+- description: 'Eelgrass (Z. marina) extent at Gulf Islands National Park Reserve
+    eelgrass monitoring sites (2024) v1.0.0: Folder contains reports, spatial datasets
+    and metadata related to eelgrass mapping conducted in 2024 in the Gulf Islands
+    National Park Reserve.'
+  type: url
+  value: https://drive.google.com/drive/folders/1SB6k7GaXjBvaSk2Agagw5Cr-bPLttVYY?usp=drive_link
+keywords:
+- ACO
+- Alismatales
+- Eelgrass
+- GINPR
+- Gulf Islands
+- Liliopsida
+- Plantae
+- RPAS
+- Salish Sea
+- Seagrass
+- Tracheophyta
+- Zostera
+- Zostera marina
+- Zosteraceae
+- other
+- seagrass
+- seagrassCoverAndComposition
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Eelgrass (Z. marina) extent at Gulf Islands National Park Reserve eelgrass
+  monitoring sites (2024) v1.0.0
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_d959f8f3-6d20-42fe-94da-be49bcd3aeca
+version: '1.0'

@@ -1,0 +1,319 @@
+contact:
+- inCitation: true
+  individual:
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+  organization:
+    name: Hakai Institute
+  roles:
+  - author
+  - custodian
+  - editor
+  - principalInvestigator
+  - pointOfContact
+- inCitation: true
+  individual:
+    name: Thomson, Hanna
+    orcid: https://orcid.org/0000-0003-2855-063X
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Parks Canada
+    ror: https://ror.org/008sy4716
+    url: http://www.pc.gc.ca/eng/index.aspx
+  roles:
+  - coAuthor
+  - collaborator
+  - contributor
+  - editor
+  - principalInvestigator
+- inCitation: true
+  individual:
+    name: Helms, Sibylla
+  organization:
+    name: Gulf Islands National Park Reserve
+  roles:
+  - author
+  - principalInvestigator
+  - editor
+  - coAuthor
+  - collaborator
+  - resourceProvider
+  - distributor
+- inCitation: true
+  organization:
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+  roles:
+  - funder
+  - owner
+  - custodian
+  - originator
+  - resourceProvider
+distribution:
+- description:
+    en: Folder contains reports, spatial datasets and metadata related to eelgrass
+      mapping conducted in 2024 in the Gulf Islands National Park Reserve.
+  name:
+    en: Eelgrass (Z. marina) extent at Gulf Islands National Park Reserve eelgrass
+      monitoring sites (2024) v1.0.0
+    fr: Étendue de la zostère marine (Z. marina) sur les sites de surveillance de
+      la zostère marine de la réserve de parc national des Îles-Gulf (2024) v1.0.0
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://drive.google.com/drive/folders/1SB6k7GaXjBvaSk2Agagw5Cr-bPLttVYY?usp=drive_link
+identification:
+  abstract:
+    en: "This data package contains the datasets and reports pertaining to mapping\
+      \ the spatial extent of Zostera marina at several monitoring sites within the\
+      \ Gulf Islands National Park Reserve, British Columbia, Canada. This work was\
+      \ a collaborative project between the Hakai Institute and the Gulf Islands National\
+      \ Park Reserve (GINPR).  \n\nFour eelgrass monitoring sites (James Bay, Tumbo,\
+      \ Cabbage) were mapped using small Remotely Piloted Aerial Systems (RPAS) during\
+      \ summer low tides in June, 2024. Aerial imagery for Sidney Spit was collected\
+      \ by the Hakai Aerial Coastal Observatory (ACO) - a fixed-wing aircraft with\
+      \ two medium format cameras (RGB and NIR). Orthomosaics of each site were generated\
+      \ using a Structure from Motion Multi-View Stereo (SfM-MVS) workflow in Agisoft\
+      \ Metashape (Version 2.1.61, Pix4D) in Windows 10. Orthomosaics were georeferenced\
+      \ to either previous surveys (James Bay, Cabbage, Tumbo) or using post-processed\
+      \ GNSS data with onboard IMU data in the case of the ACO survey. \nThe extent\
+      \ of eelgrass at each site was delineated using object-based image analysis\
+      \ (OBIA) with eCognition Developer software (eCognition Developer 10.1, 2014)\
+      \ and manual delineation (where necessary). Georeferenced towed underwater video\
+      \ (SplashCam Pro) data were collected at eelgrass monitoring sites to provide\
+      \ ground-truth data for verifying eelgrass extent. \n\nThe data package includes:\n\
+      \n-   The report (.pdf) which describe the project, data collection, processing\
+      \ methods and results for the 2024 surveys. Comparison to previous eelgrass\
+      \ surveys is also included.\n-    A report (.pdf) which describes the Aerial\
+      \ Coastal Observatory (ACO) survey methods and equipment.\n-    Polygon shapefiles\
+      \ (.shp) of the extent of eelgrass (Z. marina) at each monitoring site.\n- \
+      \   Point shapefiles (.shp) of classified towed underwater video transects*.\
+      \ \n-   A data dictionary (.csv) which describes the attributes of the eelgrass\
+      \ and towed video shapefiles. \n-   For Sidney Spit - field photos and transect\
+      \ surveys of eelgrass and green algae are provided as shapefiles.\n\n*The towed\
+      \ underwater video footage is not available.  \n\nThis data package is a component\
+      \ of the Hakai Institute’s Habitat Mapping program whose overarching objective\
+      \ is to generate spatial inventories of coastal habitats, investigate how these\
+      \ habitats are changing through time and the drivers of that change. These data\
+      \ were collected as a part of the Coastal BC Nearshore Habitat Mapping Project\
+      \ (a collaboration between Parks Canada and the Hakai Institute). \n\nPermission\
+      \ to use this dataset must be granted by the Hakai Institute and Gulf Islands\
+      \ National Park Reserve to the individual who makes the data request. Data can\
+      \ only be used for the permitted purpose and are not to be shared or repurposed."
+    fr: "Ce paquet de données contient les ensembles de données et les rapports relatifs\
+      \ à la cartographie de l'étendue spatiale de Zostera marina sur plusieurs sites\
+      \ de surveillance de la réserve de parc national des Îles-Gulf, en Colombie-Britannique,\
+      \ au Canada. Ce travail était un projet collaboratif entre l'Institut Hakai\
+      \ et la Réserve de parc national des îles Gulf (GINPR). \n\nQuatre sites de\
+      \ surveillance de la zostère marine (James Bay, Tumbo, Cabbage) ont été cartographiés\
+      \ à l'aide de petits systèmes aériens télépilotés (RPAS) lors des marées basses\
+      \ estivales en juin 2024. L'imagerie aérienne de Sidney Spit a été collectée\
+      \ par l'observatoire aérien côtier de Hakai (ACO), un avion à voilure fixe équipé\
+      \ de deux caméras de format moyen (RGB et NIR). Les orthomosaïques de chaque\
+      \ site ont été générées à l'aide d'un flux de travail Structure from Motion\
+      \ Multi-View Stereo (SFM-MvS) dans Agisoft Metashape (version 2.1.61, Pix4D)\
+      \ sous Windows 10. Les orthomosaïques ont été géoréférencées soit à des relevés\
+      \ précédents (James Bay, Cabbage, Tumbo), soit à l'aide de données GNSS post-traitées\
+      \ avec des données IMU intégrées dans le cas de l'enquête ACO. \nL'étendue de\
+      \ la zostère marine de chaque site a été délimitée à l'aide d'une analyse d'images\
+      \ basée sur les objets (OBIA) avec le logiciel eCognition Developer (eCognition\
+      \ Developer 10.1, 2014) et d'une délimitation manuelle (si nécessaire). Des\
+      \ données vidéo sous-marines remorquées géoréférencées (SplashCam Pro) ont été\
+      \ collectées sur des sites de surveillance de la zostère afin de fournir des\
+      \ données fiables permettant de vérifier l'étendue de la zostère. \n\nLe package\
+      \ de données comprend :\n\n- Le rapport (.pdf) qui décrit le projet, la collecte\
+      \ des données, les méthodes de traitement et les résultats des enquêtes de 2024.\
+      \ Une comparaison avec les relevés précédents sur la zostère marine est également\
+      \ incluse.\n- Un rapport (.pdf) qui décrit les méthodes et les équipements de\
+      \ relevé de l'Observatoire aérien du littoral (ACO).\n- Fichiers de formes polygonaux\
+      \ (.shp) de l'étendue de la zostère marine (Z. marina) sur chaque site de surveillance.\n\
+      - Fichiers de forme de points (.shp) de transects vidéo sous-marins remorqués\
+      \ classifiés *. \n- Un dictionnaire de données (.csv) qui décrit les attributs\
+      \ de la zostère marine et des fichiers de formes vidéo tractés. \n\n*La séquence\
+      \ vidéo sous-marine remorquée n'est pas disponible. \n\nCe paquet de données\
+      \ fait partie du programme de cartographie des habitats de l'Institut Hakai\
+      \ dont l'objectif principal est de générer des inventaires spatiaux des habitats\
+      \ côtiers, d'étudier l'évolution de ces habitats au fil du temps et les moteurs\
+      \ de ce changement. Ces données ont été recueillies dans le cadre du projet\
+      \ de cartographie des habitats côtiers de la côte de la Colombie-Britannique\
+      \ (une collaboration entre Parcs Canada et l'Institut Hakai). \n\nL'autorisation\
+      \ d'utiliser cet ensemble de données doit être accordée par l'Institut Hakai\
+      \ et la réserve de parc national des îles Gulf à la personne qui fait la demande\
+      \ de données. Les données ne peuvent être utilisées qu'aux fins autorisées et\
+      \ ne doivent pas être partagées ou réutilisées."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: Continues
+    association_type_iso: series
+    authority: DOI
+    code: 10.21966/t8hm-ge90
+    title:
+      en: Eelgrass (Z. marina) extent at Gulf Islands National Park Reserve eelgrass
+        monitoring sites (2017, 2018) v1.0.0
+      fr: Étendue de la zostère marine (Z. marina) sur les sites de surveillance de
+        la zostère marine de la réserve de parc national des Îles-Gulf (2017, 2018)
+        v1.0.0
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2024-06-05'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/x3jm-p494
+  keywords:
+    default:
+      en:
+      - Seagrass
+      - Zostera marina
+      - Eelgrass
+      - Gulf Islands
+      - Salish Sea
+      - GINPR
+      - RPAS
+      - seagrass
+      - other
+      - ACO
+    eov:
+      en:
+      - seagrassCoverAndComposition
+      fr:
+      - Composition et couverture des herbiers marins
+    taxa:
+      en:
+      - Zosteraceae
+      - Tracheophyta
+      - Zostera marina
+      - Plantae
+      - Zostera
+      - Liliopsida
+      - Alismatales
+      fr:
+      - Zosteraceae
+      - Tracheophyta
+      - Zostera marina
+      - Plantae
+      - Zostera
+      - Liliopsida
+      - Alismatales
+  progress_code: completed
+  project:
+  - Geospatial
+  - Nearshore
+  status: submitted
+  temporal_begin: '2024-06-05T19:00:00.000Z'
+  temporal_end: '2024-08-08T19:00:00.000Z'
+  title:
+    en: Eelgrass (Z. marina) extent at Gulf Islands National Park Reserve eelgrass
+      monitoring sites (2024) v1.0.0
+    fr: Étendue de la zostère marine (Z. marina) sur les sites de surveillance de
+      la zostère marine de la réserve de parc national des Îles-Gulf (2024) v1.0.0
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2025-07-08T23:09:30.231Z'
+  identifier: d959f8f3-6d20-42fe-94da-be49bcd3aeca
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-OUG8anVj4yBJDEHy6Wj
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Permission is required from both Parks Canada and the Hakai Institute for
+        the use of these data.
+      fr: L'autorisation de Parcs Canada et de l'Institut Hakai est requise pour l'utilisation
+        de ces données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: DJI Mavic 3E
+  id: DJI Mavic 3E
+  type: unmanned aerial vehicle
+- description:
+    en: Airborne Coastal Observatory - Piper Navajo
+    fr: Observatoire côtier aéroporté - Piper Navajo
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory – Hakai Institute
+  instruments:
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Aerial cameras iXU-RS1000
+    manufacturer: Phaseone Industrial
+    platform: Airborne Coastal Observatory – Hakai Institute
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: iXU-RS1000
+  type: aeroplane
+spatial:
+  bbox:
+  - -123.4
+  - 48.61
+  - -123.0
+  - 48.87
+  description:
+    en: Eelgrass monitoring sites are located within the Gulf Islands National Park
+      Reserve (GINPR).
+    fr: Les sites de surveillance de la zostère marine sont situés dans la réserve
+      de parc national des Îles-Gulf (GINPR).
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  descriptionIdentifier: 71902bf8-1e26-45f4-94ed-c538e7b36bb8
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive

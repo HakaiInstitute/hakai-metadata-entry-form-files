@@ -1,0 +1,46 @@
+<addAttributes>
+    <att name='institution'>Tula Foundation</att>
+    <att name='title'>Eelgrass (Z. marina) extent at Gulf Islands National Park Reserve eelgrass monitoring sites (2024) v1.0.0</att>
+    <att name='summary'>This data package contains the datasets and reports pertaining to mapping the spatial extent of Zostera marina at several monitoring sites within the Gulf Islands National Park Reserve, British Columbia, Canada. This work was a collaborative project between the Hakai Institute and the Gulf Islands National Park Reserve (GINPR).  
+
+Four eelgrass monitoring sites (James Bay, Tumbo, Cabbage) were mapped using small Remotely Piloted Aerial Systems (RPAS) during summer low tides in June, 2024. Aerial imagery for Sidney Spit was collected by the Hakai Aerial Coastal Observatory (ACO) - a fixed-wing aircraft with two medium format cameras (RGB and NIR). Orthomosaics of each site were generated using a Structure from Motion Multi-View Stereo (SfM-MVS) workflow in Agisoft Metashape (Version 2.1.61, Pix4D) in Windows 10. Orthomosaics were georeferenced to either previous surveys (James Bay, Cabbage, Tumbo) or using post-processed GNSS data with onboard IMU data in the case of the ACO survey. 
+The extent of eelgrass at each site was delineated using object-based image analysis (OBIA) with eCognition Developer software (eCognition Developer 10.1, 2014) and manual delineation (where necessary). Georeferenced towed underwater video (SplashCam Pro) data were collected at eelgrass monitoring sites to provide ground-truth data for verifying eelgrass extent. 
+
+The data package includes:
+
+-   The report (.pdf) which describe the project, data collection, processing methods and results for the 2024 surveys. Comparison to previous eelgrass surveys is also included.
+-    A report (.pdf) which describes the Aerial Coastal Observatory (ACO) survey methods and equipment.
+-    Polygon shapefiles (.shp) of the extent of eelgrass (Z. marina) at each monitoring site.
+-    Point shapefiles (.shp) of classified towed underwater video transects*. 
+-   A data dictionary (.csv) which describes the attributes of the eelgrass and towed video shapefiles. 
+-   For Sidney Spit - field photos and transect surveys of eelgrass and green algae are provided as shapefiles.
+
+*The towed underwater video footage is not available.  
+
+This data package is a component of the Hakai Institute’s Habitat Mapping program whose overarching objective is to generate spatial inventories of coastal habitats, investigate how these habitats are changing through time and the drivers of that change. These data were collected as a part of the Coastal BC Nearshore Habitat Mapping Project (a collaboration between Parks Canada and the Hakai Institute). 
+
+Permission to use this dataset must be granted by the Hakai Institute and Gulf Islands National Park Reserve to the individual who makes the data request. Data can only be used for the permitted purpose and are not to be shared or repurposed.</att>
+    <att name='project'>Geospatial,Nearshore</att>
+    <att name='comment'>##Limitations:
+Permission is required from both Parks Canada and the Hakai Institute for the use of these data.</att>
+    <att name='progress'>completed</att>
+    <att name='keywords'>Seagrass,Zostera marina,Eelgrass,Gulf Islands,Salish Sea,GINPR,RPAS,seagrass,other,ACO,CIOOS:seagrassCoverAndComposition,GBIF:Zosteraceae,GBIF:Tracheophyta,GBIF:Zostera marina,GBIF:Plantae,GBIF:Zostera,GBIF:Liliopsida,GBIF:Alismatales</att>
+    <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary,GBIF: GBIF Taxonomy Vocabulary</att>
+    <att name='id'>d959f8f3-6d20-42fe-94da-be49bcd3aeca</att>
+    <att name='naming_authority'>ca.cioos</att>
+    <att name='date_modified'>2025-07-08T23:09:30.231Z</att>
+    <att name='product_version'>1.0</att>
+    <att name='license'>https://creativecommons.org/licenses/by/4.0</att>
+    <att name='creator_name'>Tula Foundation</att>
+    <att name='creator_type'>institution</att>
+    <att name='creator_institution'>Tula Foundation</att>
+    <att name='creator_ror'>https://ror.org/0029jxk29</att>
+    <att name='contributor_name'>Reshitnyk, Luba;Thomson, Hanna;Helms, Sibylla;Tula Foundation</att>
+    <att name='contributor_role'>author,custodian,editor,principalInvestigator,pointOfContact;coAuthor,collaborator,contributor,editor,principalInvestigator;author,principalInvestigator,editor,coAuthor,collaborator,resourceProvider,distributor;funder,owner,custodian,originator,resourceProvider</att>
+    <att name='doi'>https://doi.org/10.21966/x3jm-p494</att>
+    <att name='metadata_link'>https://catalogue.hakai.org/dataset/ca-cioos_d959f8f3-6d20-42fe-94da-be49bcd3aeca</att>
+    <att name='infoUrl'>https://catalogue.hakai.org/dataset/ca-cioos_d959f8f3-6d20-42fe-94da-be49bcd3aeca</att>
+    <att name='metadata_form'>https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-OUG8anVj4yBJDEHy6Wj</att>
+    <att name='platform'>unmanned aerial vehicle</att>
+    <att name='platform_vocabulary'>http://vocab.nerc.ac.uk/collection/L06/current/</att>
+</addAttributes>
