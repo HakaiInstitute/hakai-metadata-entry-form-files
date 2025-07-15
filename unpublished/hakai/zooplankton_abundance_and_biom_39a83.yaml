@@ -182,6 +182,8 @@ identification:
           verified: false
   - association_type: IsDescribedBy
     association_type_iso: crossReference
+    authority: URL
+    code: https://dmptool.org/plans/128956
     title:
       en: Hakai Ocean Observing Zooplankton Microscopy Data Management Plan
       fr: Plan de gestion des données de microscopie du zooplancton d'observation
@@ -191,7 +193,11 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-  - title:
+  - association_type: IsDescribedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: https://docs.google.com/document/d/15CpGNOv2cidbOyu51Pc_OfYgmLgKqRHQ/edit
+    title:
       en: Zooplankton Samples Collection Protocol
       fr: Protocole de collecte d'échantillons de zooplancton
       translations:
@@ -199,9 +205,26 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-  - title:
+  - association_type: IsDescribedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: https://docs.google.com/document/d/1VnA8FNpPwwGaIoXmPcH1IC7eFibOVXAs/edit
+    title:
       en: Zooplankton Taxonomy Protocol
       fr: Protocole de taxonomie du zooplancton
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementTo
+    association_type_iso: crossReference
+    authority: URL
+    code: https://hakaiinstitute.github.io/hakai-metadata-entry-form/#/en/hakai/NZb1YZT9Xtbc9Cp9Jc3OtSLRffT2/-OQtxgedRzyaVsL4bWUx
+    title:
+      en: Size-fractionated zooplankton biomass and isotopes along the BC coast
+      fr: Biomasse et isotopes du zooplancton fractionnés selon la taille le long
+        de la côte de la Colombie-Britannique
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -244,7 +267,7 @@ instruments:
 - id: Vertical Haul Bongo Net
 metadata:
   dates:
-    revision: '2025-07-15T16:00:13.139Z'
+    revision: '2025-07-15T16:53:32.749Z'
   identifier: 39a83551-ab8e-45be-a564-cece4b229371
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-ODO1YbIGbR3Rd8hvLxT
