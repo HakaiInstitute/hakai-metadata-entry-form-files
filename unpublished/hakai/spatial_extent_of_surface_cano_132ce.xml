@@ -394,7 +394,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-07-21T22:30:10.971Z</gco:DateTime>
+        <gco:DateTime>2025-07-21T22:31:59.663Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -870,20 +870,23 @@ Ces données ont été collectées dans le but de générer des ensembles de don
       <mri:extent>
         <gex:EX_Extent>
           <gex:geographicElement>
-            <gex:EX_BoundingPolygon>
+            <gex:EX_GeographicBoundingBox>
               <gex:extentTypeCode>
                 <gco:Boolean>true</gco:Boolean>
               </gex:extentTypeCode>
-              <gex:polygon>
-                <gml:Polygon gml:id="a1">
-                  <gml:exterior>
-                    <gml:LinearRing>
-                      <gml:coordinates>-128.2,51.53 -128.1,51.53 -128.1,51.49 -128.0,51.48 -128.0,51.49 -128.0,51.47 -127.9,51.43 -127.9,51.41 -127.9,51.40 -128.0,51.45 -128.1,51.48 -128.2,51.53</gml:coordinates>
-                    </gml:LinearRing>
-                  </gml:exterior>
-                </gml:Polygon>
-              </gex:polygon>
-            </gex:EX_BoundingPolygon>
+              <gex:westBoundLongitude>
+                <gco:Decimal>-131.0</gco:Decimal>
+              </gex:westBoundLongitude>
+              <gex:eastBoundLongitude>
+                <gco:Decimal>-130.4</gco:Decimal>
+              </gex:eastBoundLongitude>
+              <gex:southBoundLatitude>
+                <gco:Decimal>53.74</gco:Decimal>
+              </gex:southBoundLatitude>
+              <gex:northBoundLatitude>
+                <gco:Decimal>54.46</gco:Decimal>
+              </gex:northBoundLatitude>
+            </gex:EX_GeographicBoundingBox>
           </gex:geographicElement>
         </gex:EX_Extent>
       </mri:extent>
@@ -897,7 +900,7 @@ Ces données ont été collectées dans le but de générer des ensembles de don
               <gex:geographicIdentifier>
                 <mcc:MD_Identifier>
                   <mcc:code>
-                    <gco:CharacterString></gco:CharacterString>
+                    <gco:CharacterString>9c67a313-72e7-4f9e-b54d-ddb72aa764f9</gco:CharacterString>
                   </mcc:code>
                   <mcc:codeSpace>
                     <gco:CharacterString>ca.cioos</gco:CharacterString>
