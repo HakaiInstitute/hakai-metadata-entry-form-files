@@ -22,7 +22,6 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - publisher
   - owner
   - distributor
 - inCitation: true
@@ -69,6 +68,16 @@ contact:
   - contributor
   - processor
   - coAuthor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 distribution:
 - description:
     en: Metadata report for 2024 ACO imagery collected on the Central Coast of BC
@@ -205,25 +214,25 @@ identification:
       - Composition et couverture de la canopée de macroalgues
     taxa:
       en:
-      - Phaeophyceae
       - Laminariaceae
-      - Nereocystis luetkeana
-      - Chromista
-      - Ochrophyta
       - Macrocystis
-      - Nereocystis
-      - Laminariales
       - Macrocystis pyrifera
+      - Nereocystis
+      - Ochrophyta
+      - Nereocystis luetkeana
+      - Laminariales
+      - Chromista
+      - Phaeophyceae
       fr:
-      - Phaeophyceae
       - Laminariaceae
-      - Nereocystis luetkeana
-      - Chromista
-      - Ochrophyta
       - Macrocystis
-      - Nereocystis
-      - Laminariales
       - Macrocystis pyrifera
+      - Nereocystis
+      - Ochrophyta
+      - Nereocystis luetkeana
+      - Laminariales
+      - Chromista
+      - Phaeophyceae
   progress_code: completed
   project:
   - Airborne Coastal Observatory
@@ -244,7 +253,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-05-12T19:10:17.702Z'
+    revision: '2025-07-21T15:43:33.491Z'
   history:
   - processingStep:
     - authority: DOI
