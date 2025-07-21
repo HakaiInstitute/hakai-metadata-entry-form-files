@@ -746,7 +746,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-07-21T15:43:33.491Z</gco:DateTime>
+        <gco:DateTime>2025-07-21T23:45:47.369Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1765,20 +1765,23 @@ Référence recommandée : Reshitnyk, L.Y., Holmes, K.R. (2024). Étendue du va
       <mri:extent>
         <gex:EX_Extent>
           <gex:geographicElement>
-            <gex:EX_BoundingPolygon>
+            <gex:EX_GeographicBoundingBox>
               <gex:extentTypeCode>
                 <gco:Boolean>true</gco:Boolean>
               </gex:extentTypeCode>
-              <gex:polygon>
-                <gml:Polygon gml:id="a1">
-                  <gml:exterior>
-                    <gml:LinearRing>
-                      <gml:coordinates>-128.2,51.53 -128.1,51.53 -128.1,51.49 -128.0,51.48 -128.0,51.49 -128.0,51.47 -127.9,51.43 -127.9,51.41 -127.9,51.40 -128.0,51.45 -128.1,51.48 -128.2,51.53</gml:coordinates>
-                    </gml:LinearRing>
-                  </gml:exterior>
-                </gml:Polygon>
-              </gex:polygon>
-            </gex:EX_BoundingPolygon>
+              <gex:westBoundLongitude>
+                <gco:Decimal>-128.5</gco:Decimal>
+              </gex:westBoundLongitude>
+              <gex:eastBoundLongitude>
+                <gco:Decimal>-127.9</gco:Decimal>
+              </gex:eastBoundLongitude>
+              <gex:southBoundLatitude>
+                <gco:Decimal>51.4</gco:Decimal>
+              </gex:southBoundLatitude>
+              <gex:northBoundLatitude>
+                <gco:Decimal>52.09</gco:Decimal>
+              </gex:northBoundLatitude>
+            </gex:EX_GeographicBoundingBox>
           </gex:geographicElement>
         </gex:EX_Extent>
       </mri:extent>
@@ -1792,7 +1795,7 @@ Référence recommandée : Reshitnyk, L.Y., Holmes, K.R. (2024). Étendue du va
               <gex:geographicIdentifier>
                 <mcc:MD_Identifier>
                   <mcc:code>
-                    <gco:CharacterString></gco:CharacterString>
+                    <gco:CharacterString>5a3e0361-a422-4ffd-936a-0c335fcc2481</gco:CharacterString>
                   </mcc:code>
                   <mcc:codeSpace>
                     <gco:CharacterString>ca.cioos</gco:CharacterString>
