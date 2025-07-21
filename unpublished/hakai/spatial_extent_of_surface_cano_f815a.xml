@@ -556,7 +556,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-07-21T22:46:21.224Z</gco:DateTime>
+        <gco:DateTime>2025-07-21T22:48:12.661Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -655,6 +655,16 @@
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2025-07-21</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
@@ -1072,9 +1082,7 @@ Coordinate system used: NAD1983 UTM Zone 9N
 
 This data package is a component of the MaPP Regional Kelp Monitoring Program (RKMP) whose goals (among manly) are to monitor the extent and condition of kelp forests across all four sub-regions in recognition of kelp’s ecological, cultural and economic importance. 
 
-The use of this dataset requires permission from both the MaPP and the Hakai Institute. Please communicate and/or collaborate with Hakai and MaPP if you are considering using this dataset for manuscripts or other forms of reporting. Contact Luba Reshitnyk (luba@hakai.org) or data@hakai.org for more information about data access and opportunities to collaborate with the Hakai Institute. Contact Sarah Schroeder (sschroeder@mappocean.org) and Mairead Norton (maireadnorton54@gmail.com) for more information about data access to and opportunities to collaborate with MaPP.
-
-Recommended citation: Reshitnyk, L. Y (2024). Canopy kelp (Macrocystis pyrifera, Nereocystis luetkeana) extent derived from fixed-wing surveys (2024), North Vancouver Island, British Columbia, Canada. Version 1.0. Hakai Institute [dataset] https://doi.org/10.21966/ntdg-e790.</gco:CharacterString>
+The use of this dataset requires permission from both the MaPP and the Hakai Institute. Please communicate and/or collaborate with Hakai and MaPP if you are considering using this dataset for manuscripts or other forms of reporting. Contact Luba Reshitnyk (luba@hakai.org) or data@hakai.org for more information about data access and opportunities to collaborate with the Hakai Institute. Contact Sarah Schroeder (sschroeder@mappocean.org) and Mairead Norton (maireadnorton54@gmail.com) for more information about data access to and opportunities to collaborate with MaPP.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend l&#39;étendue de la surface numérisée de la canopée de deux espèces de varech formant le couvert végétal, le varech géant (Macrocystis pyrifera) et le varech à tête plate (Nereocystis luetkeana), dans deux régions de la côte centrale de la Colombie-Britannique, au Canada. Ces données ont été collectées en partenariat entre le Marine Plan Partnership for the North Pacific Coast (mApp) et l&#39;Institut Hakai. 
@@ -1462,8 +1470,13 @@ Référence recommandée : Reshitnyk, L.Y., Holmes, K.R. (2024). Étendue du va
       </mri:resourceConstraints>
       <mri:resourceConstraints>
         <mco:MD_Constraints>
-          <mco:useLimitation>
-            <gco:CharacterString></gco:CharacterString>
+          <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Access to this data requires permission from MaPP and Hakai partners. Please see information provided in the abstract.</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">L&#39;accès à ces données nécessite l&#39;autorisation des partenaires de mApp et Hakai. Veuillez consulter les informations fournies dans le résumé.</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
