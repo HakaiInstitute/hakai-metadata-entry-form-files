@@ -235,7 +235,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-07-21T22:32:45.701Z'
+    revision: '2025-07-21T22:36:10.853Z'
   identifier: 132cecdf-de8a-4b17-b610-0e2b3a343812
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-O8sPEiAvbPxw16A-L6I
@@ -247,7 +247,15 @@ metadata:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
 platform:
-- id: Airborne Coastal Observatory – Hakai Institute
+- description:
+    en: Airborne Coastal Observatory - Piper Navajo
+    fr: Observatoire côtier aéroporté - Piper Navajo
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory – Hakai Institute
   instruments:
   - description:
       en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
@@ -270,7 +278,12 @@ platform:
             à l'aide du service de traduction Amazon
           verified: false
     version: iXU-RS1000
-  type: aeroplane
+  - description:
+      en: Laser scanner used to measure the earth’s surface topography and vegetation
+    id: Laser sensor LMS-Q 780
+    manufacturer: Riegl
+    version: LMS-Q 780 long-range airborne laser scanner
+  type: research aeroplane
 spatial:
   bbox:
   - -131.0

@@ -428,7 +428,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-07-21T22:32:45.701Z</gco:DateTime>
+        <gco:DateTime>2025-07-21T22:36:10.853Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1452,8 +1452,13 @@ Ces données ont été collectées dans le but de générer des ensembles de don
               </mcc:code>
             </mcc:MD_Identifier>
           </mac:identifier>
-          <mac:description>
-            <gco:CharacterString></gco:CharacterString>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Airborne Coastal Observatory - Piper Navajo</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Observatoire côtier aéroporté - Piper Navajo</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mac:description>
           <mac:instrument>
             <mac:MI_Instrument>
@@ -1492,9 +1497,36 @@ Ces données ont été collectées dans le but de générer des ensembles de don
               </mac:type>
             </mac:MI_Instrument>
           </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Riegl</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Laser sensor LMS-Q 780</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>LMS-Q 780 long-range airborne laser scanner</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>Laser scanner used to measure the earth’s surface topography and vegetation</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
           <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
             <gco:Record>
-              <gco:CharacterString>aeroplane</gco:CharacterString>
+              <gco:CharacterString>research aeroplane</gco:CharacterString>
             </gco:Record>
           </mac:otherProperty>
         </mac:MI_Platform>
