@@ -428,7 +428,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-07-21T22:44:16.501Z</gco:DateTime>
+        <gco:DateTime>2025-07-22T00:04:18.187Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1298,8 +1298,13 @@ Ces données ont été collectées dans le but de générer des ensembles de don
         <mri:MD_AssociatedResource>
           <mri:name>
             <cit:CI_Citation>
-              <cit:title>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Canopy kelp (Macrocystis pyrifera, Nereocystis luetkeana) extent derived from fixed-wing surveys, North Coast, British Columbia (2024)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Étendue du varech de la canopée (Macrocystis pyrifera, Nereocystis luetkeana) calculée à partir de relevés à voilure fixe, côte nord, Colombie-Britannique (2024)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
@@ -1311,7 +1316,7 @@ Ces données ont été collectées dans le but de générer des ensembles de don
                     </cit:CI_Citation>
                   </mcc:authority>
                   <mcc:code>
-                    <gco:CharacterString>https://drive.google.com/drive/u/0/folders/1cpg8cv-DH6mN1Kis6Ln_afkbmXyWKheB</gco:CharacterString>
+                    <gco:CharacterString>https://drive.google.com/drive/folders/1Mdl0EMDEejNx366DIkMjPHO6e0jTmR8m?usp=drive_link</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
@@ -1396,7 +1401,7 @@ Ces données ont été collectées dans le but de générer des ensembles de don
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString></gco:CharacterString>
+                <gco:CharacterString>https://drive.google.com/drive/folders/1AHiGKISmENvbxrZSgO3N5usJYsXo378M?usp=drive_link</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -1420,8 +1425,13 @@ Ces données ont été collectées dans le but de générer des ensembles de don
   </mdb:distributionInfo>
   <mdb:resourceLineage>
     <mrl:LI_Lineage>
-      <mrl:statement>
+      <mrl:statement xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>Hakai Institute KelpOMatic Tool</gco:CharacterString>
+        <lan:PT_FreeText>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+            <lan:LocalisedCharacterString locale="#fr">Outil KelpoMatic de l&#39;Institut Hakai</lan:LocalisedCharacterString>
+          </lan:textGroup>
+        </lan:PT_FreeText>
       </mrl:statement>
       <mrl:scope>
         <mcc:MD_Scope>
@@ -1432,39 +1442,33 @@ Ces données ont été collectées dans le but de générer des ensembles de don
       </mrl:scope>
       <mrl:additionalDocumentation>
         <cit:CI_Citation>
-          <cit:title>
-            <gco:CharacterString></gco:CharacterString>
+          <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>KelpOMatic</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">KelpoMatic</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </cit:title>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
-                <gco:CharacterString></gco:CharacterString>
+                <gco:CharacterString>https://hakai-segmentation.readthedocs.io/en/latest/</gco:CharacterString>
               </mcc:code>
             </mcc:MD_Identifier>
           </cit:identifier>
+          <cit:onlineResource>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://hakai-segmentation.readthedocs.io/en/latest/</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+            </cit:CI_OnlineResource>
+          </cit:onlineResource>
         </cit:CI_Citation>
       </mrl:additionalDocumentation>
-      <mrl:source>
-        <mrl:LI_Source>
-          <mrl:description>
-            <gco:CharacterString></gco:CharacterString>
-          </mrl:description>
-          <mrl:sourceCitation>
-            <cit:CI_Citation>
-              <cit:title>
-                <gco:CharacterString></gco:CharacterString>
-              </cit:title>
-              <cit:identifier>
-                <mcc:MD_Identifier>
-                  <mcc:code>
-                    <gco:CharacterString></gco:CharacterString>
-                  </mcc:code>
-                </mcc:MD_Identifier>
-              </cit:identifier>
-            </cit:CI_Citation>
-          </mrl:sourceCitation>
-        </mrl:LI_Source>
-      </mrl:source>
       <mrl:processStep>
         <mrl:LI_ProcessStep>
           <mrl:description>
