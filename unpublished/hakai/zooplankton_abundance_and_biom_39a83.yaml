@@ -101,15 +101,6 @@ contact:
   - publisher
 - inCitation: false
   organization:
-    city: Vancouver
-    country: Canada
-    name: Tula Foundation
-    ror: https://ror.org/0029jxk29
-    url: https://tula.org
-  roles:
-  - funder
-- inCitation: false
-  organization:
     city: Campbell River
     country: Canada
     email: data@hakai.org
@@ -119,6 +110,15 @@ contact:
   roles:
   - owner
   - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Private GitHub repository housing the processed zooplankton data
@@ -223,8 +223,8 @@ identification:
           verified: false
   - association_type: IsSupplementTo
     association_type_iso: crossReference
-    authority: URL
-    code: https://hakaiinstitute.github.io/hakai-metadata-entry-form/#/en/hakai/NZb1YZT9Xtbc9Cp9Jc3OtSLRffT2/-OQtxgedRzyaVsL4bWUx
+    authority: DOI
+    code: https://doi.org/10.21966/g7zf-1v08
     title:
       en: Size-fractionated zooplankton biomass and isotopes along the BC coast
       fr: Biomasse et isotopes du zooplancton fractionnés selon la taille le long
@@ -271,7 +271,7 @@ instruments:
 - id: Vertical Haul Bongo Net
 metadata:
   dates:
-    revision: '2025-08-07T22:09:49.652Z'
+    revision: '2025-08-07T22:13:39.427Z'
   identifier: 39a83551-ab8e-45be-a564-cece4b229371
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-ODO1YbIGbR3Rd8hvLxT
