@@ -838,7 +838,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-08-08T20:56:58.159Z</gco:DateTime>
+        <gco:DateTime>2025-08-08T23:06:59.690Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2403,15 +2403,15 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>This data package contains the datasets and reports pertaining to mapping the spatial extent of Zostera marina at several monitoring sites within the Gulf Islands National Park Reserve, British Columbia, Canada. This work was a collaborative project between the Hakai Institute and the Gulf Islands National Park Reserve (GINPR).  
 
-Four eelgrass monitoring sites were mapped in partnership with the Hakai Institute and Gulf Islands National Park reserve in 2024. Three eelgrass monitoring sites (James Bay, Tumbo, Cabbage) were mapped using small Remotely Piloted Aerial Systems (RPAS), and a fourth site, Sidney Spit was mapped by the Hakai Aerial Coastal Observatory (ACO) - a fixed-wing aircraft with two medium format cameras (RGB and NIR). Orthomosaics of each site were generated using a Structure from Motion Multi-View Stereo (SfM-MVS) workflow in Agisoft Metashape (Version 2.1.61, Pix4D) in Windows 10. Orthomosaics were georeferenced to either previous surveys (James Bay, Cabbage, Tumbo) or using post-processed GNSS data with onboard IMU data in the case of the ACO survey. 
+Four eelgrass monitoring sites were mapped in partnership with the Hakai Institute and Gulf Islands National Park Reserve in 2024. Three eelgrass monitoring sites (James Bay, Tumbo, Cabbage) were mapped using small Remotely Piloted Aerial Systems (RPAS), and a fourth site, Sidney Spit, was mapped by the Hakai Aerial Coastal Observatory (ACO) - a fixed-wing aircraft with two medium format cameras (RGB and NIR). Orthomosaics of each site were generated using a Structure from Motion Multi-View Stereo (SfM-MVS) workflow in Agisoft Metashape (Version 2.1.61, Pix4D) in Windows 10. Orthomosaics were georeferenced to either previous surveys (James Bay, Cabbage, Tumbo) or using post-processed GNSS data with onboard IMU data in the case of the ACO survey. 
 The extent of eelgrass at each site was delineated using object-based image analysis (OBIA) with eCognition Developer software (eCognition Developer 10.1, 2014) and manual delineation (where necessary). Georeferenced towed underwater video (SplashCam Pro) data were collected at eelgrass monitoring sites to provide ground-truth data for verifying eelgrass extent. 
 
 The data package includes:
 
--   The report (.pdf) which describe the project, data collection, processing methods and results for the 2024 surveys. Comparison to previous eelgrass surveys is also included.
--    A report (.pdf) which describes the Aerial Coastal Observatory (ACO) survey methods and equipment.
--    Polygon shapefiles (.shp) of the extent of eelgrass (Z. marina) at each monitoring site.
--    Point shapefiles (.shp) of classified towed underwater video transects*. 
+-  The report (.pdf) which describe the project, data collection, processing methods and results for the 2024 surveys. Comparison to previous eelgrass surveys is also included.
+-   A report (.pdf) which describes the Aerial Coastal Observatory (ACO) survey methods and equipment.
+-   Polygon shapefiles (.shp) of the extent of eelgrass (Z. marina) at each monitoring site.
+-   Point shapefiles (.shp) of classified towed underwater video transects*. 
 -   A data dictionary (.csv) which describes the attributes of the eelgrass and towed video shapefiles. 
 -   For Sidney Spit - field photos and transect surveys of eelgrass and green algae are provided as shapefiles.
 
@@ -2422,9 +2422,9 @@ This data package is a component of the Hakai Institute’s Habitat Mapping prog
 Permission to use this dataset must be granted by the Hakai Institute and Gulf Islands National Park Reserve to the individual who makes the data request.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Ce paquet de données contient les ensembles de données et les rapports relatifs à la cartographie de l&#39;étendue spatiale de Zostera marina sur plusieurs sites de surveillance de la réserve de parc national des Îles-Gulf, en Colombie-Britannique, au Canada. Ce travail était un projet collaboratif entre l&#39;Institut Hakai et la Réserve de parc national des îles Gulf (GINPR). 
+            <lan:LocalisedCharacterString locale="#fr">Ce paquet de données contient les ensembles de données et les rapports relatifs à la cartographie de l&#39;étendue spatiale de Zostera marina sur plusieurs sites de surveillance de la réserve de parc national des Îles-Gulf, en Colombie-Britannique, au Canada. Ce travail était un projet collaboratif entre l&#39;Institut Hakai et la réserve de parc national des îles Gulf (GINPR). 
 
-Quatre sites de surveillance de la zostère marine (James Bay, Tumbo, Cabbage) ont été cartographiés à l&#39;aide de petits systèmes aériens télépilotés (RPAS) lors des marées basses estivales en juin 2024. L&#39;imagerie aérienne de Sidney Spit a été collectée par l&#39;observatoire aérien côtier de Hakai (ACO), un avion à voilure fixe équipé de deux caméras de format moyen (RGB et NIR). Les orthomosaïques de chaque site ont été générées à l&#39;aide d&#39;un flux de travail Structure from Motion Multi-View Stereo (SFM-MvS) dans Agisoft Metashape (version 2.1.61, Pix4D) sous Windows 10. Les orthomosaïques ont été géoréférencées soit à des relevés précédents (James Bay, Cabbage, Tumbo), soit à l&#39;aide de données GNSS post-traitées avec des données IMU intégrées dans le cas de l&#39;enquête ACO. 
+Quatre sites de surveillance de la zostère marine ont été cartographiés en partenariat avec l&#39;Institut Hakai et la réserve de parc national des îles Gulf en 2024. Trois sites de surveillance de la zostère marine (James Bay, Tumbo, Cabbage) ont été cartographiés à l&#39;aide de petits systèmes aériens télépilotés (RPAS), et un quatrième site, Sidney Spit, a été cartographié par l&#39;observatoire aérien côtier de Hakai (ACO), un avion à voilure fixe équipé de deux caméras de format moyen (RGB et NIR). Les orthomosaïques de chaque site ont été générées à l&#39;aide d&#39;un flux de travail Structure from Motion Multi-View Stereo (SFM-MvS) dans Agisoft Metashape (version 2.1.61, Pix4D) sous Windows 10. Les orthomosaïques ont été géoréférencées soit à des relevés précédents (James Bay, Cabbage, Tumbo), soit à l&#39;aide de données GNSS post-traitées avec des données IMU intégrées dans le cas de l&#39;enquête ACO. 
 L&#39;étendue de la zostère marine de chaque site a été délimitée à l&#39;aide d&#39;une analyse d&#39;images basée sur les objets (OBIA) avec le logiciel eCognition Developer (eCognition Developer 10.1, 2014) et d&#39;une délimitation manuelle (si nécessaire). Des données vidéo sous-marines remorquées géoréférencées (SplashCam Pro) ont été collectées sur des sites de surveillance de la zostère afin de fournir des données fiables permettant de vérifier l&#39;étendue de la zostère. 
 
 Le package de données comprend :
@@ -2434,12 +2434,13 @@ Le package de données comprend :
 - Fichiers de formes polygonaux (.shp) de l&#39;étendue de la zostère marine (Z. marina) sur chaque site de surveillance.
 - Fichiers de forme de points (.shp) de transects vidéo sous-marins remorqués classifiés *. 
 - Un dictionnaire de données (.csv) qui décrit les attributs de la zostère marine et des fichiers de formes vidéo tractés. 
+- Pour Sidney Spit, des photos de terrain et des relevés de transects de zostères et d&#39;algues vertes sont fournis sous forme de shapefiles.
 
 *La séquence vidéo sous-marine remorquée n&#39;est pas disponible. 
 
 Ce paquet de données fait partie du programme de cartographie des habitats de l&#39;Institut Hakai dont l&#39;objectif principal est de générer des inventaires spatiaux des habitats côtiers, d&#39;étudier l&#39;évolution de ces habitats au fil du temps et les moteurs de ce changement. Ces données ont été recueillies dans le cadre du projet de cartographie des habitats côtiers de la côte de la Colombie-Britannique (une collaboration entre Parcs Canada et l&#39;Institut Hakai). 
 
-L&#39;autorisation d&#39;utiliser cet ensemble de données doit être accordée par l&#39;Institut Hakai et la réserve de parc national des îles Gulf à la personne qui fait la demande de données. Les données ne peuvent être utilisées qu&#39;aux fins autorisées et ne doivent pas être partagées ou réutilisées.</lan:LocalisedCharacterString>
+L&#39;autorisation d&#39;utiliser cet ensemble de données doit être accordée par l&#39;Institut Hakai et la réserve de parc national des îles Gulf à la personne qui fait la demande de données.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -2999,8 +3000,13 @@ L&#39;autorisation d&#39;utiliser cet ensemble de données doit être accordée 
               </mcc:code>
             </mcc:MD_Identifier>
           </mac:identifier>
-          <mac:description>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>DJI Mavic 3E</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">DJI Mavic 3D</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mac:description>
           <mac:instrument/>
           <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
