@@ -1996,7 +1996,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-08-07T21:59:28.294Z</gco:DateTime>
+        <gco:DateTime>2025-08-11T16:18:49.946Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -3940,14 +3940,18 @@
 
 This data package includes:
 - Size-fractionated biomass scaled to the volume of water filtered by the net
-- Size-fractionated stable isotope results</gco:CharacterString>
+- Size-fractionated stable isotope results
+
+Data will be made publicly available upon paper publication, but until then users are encouraged to reach out to request data access and for collaboration opportunities</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données contient des données sur la biomasse et les isotopes du zooplancton fractionnées en fonction de la taille obtenues lors de la collecte d&#39;échantillons par des filets verticaux par le programme d&#39;observation de l&#39;océan Hakai. L&#39;échantillon est versé dans une série de tamis et filtré sur des filtres GF/F où des poids sont prélevés tout au long du processus pour aider à déterminer la biomasse avant d&#39;être envoyé pour analyse isotopique à l&#39;installation d&#39;isotopes stables de Davis de l&#39;Université de Californie. Ces échantillons sont prélevés toutes les deux semaines à tous les mois depuis 2015 dans le nord du détroit de Georgia, en Colombie-Britannique, et environ toutes les 4 à 6 semaines depuis 2012 entre le chenal Kwakshua et Rivers Inlet, sur la côte centrale de la Colombie-Britannique.
 
 Ce package de données comprend :
 - Biomasse fractionnée par taille adaptée au volume d&#39;eau filtré par le filet
-- Résultats des isotopes stables fractionnés par taille</lan:LocalisedCharacterString>
+- Résultats des isotopes stables fractionnés par taille
+
+Les données seront mises à la disposition du public dès leur publication sur papier, mais d&#39;ici là, les utilisateurs sont invités à nous contacter pour demander l&#39;accès aux données et pour connaître les opportunités de collaboration</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -3999,7 +4003,7 @@ Ce package de données comprend :
                     <gco:CharacterString>1</gco:CharacterString>
                   </mcc:version>
                   <mcc:description>
-                    <gco:CharacterString>{&#39;en&#39;: &#39;This zooplankton microscopy data includes samples from the north Strait of Georgia, off the southern end of Quadra Island, north to the waters around Calvert Island and in Rivers Inlet, on the central coast of British Columbia&#39;, &#39;fr&#39;: &#34;Ces données de microscopie du zooplancton comprennent des échantillons prélevés dans le nord du détroit de Georgia, au large de l&#39;extrémité sud de l&#39;île Quadra, vers le nord jusqu&#39;aux eaux autour de l&#39;île Calvert et à Rivers Inlet, sur la côte centrale de la Colombie-Britannique&#34;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
+                    <gco:CharacterString>{&#39;en&#39;: &#39;This size-fractionated zooplankton biomass and isotopes data includes samples from the northern Strait of Georgia and the waters around Calvert Island and in Rivers Inlet, on the central coast of British Columbia&#39;, &#39;fr&#39;: &#34;Ces données fractionnées en fonction de la taille, de la biomasse et des isotopes du zooplancton comprennent des échantillons prélevés dans le nord du détroit de Georgia et dans les eaux autour de l&#39;île Calvert et à Rivers Inlet, sur la côte centrale de la Colombie-Britannique.&#34;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
                   </mcc:description>
                 </mcc:MD_Identifier>
               </gex:geographicIdentifier>
@@ -4102,18 +4106,6 @@ Ce package de données comprend :
             <gco:CharacterString>Zooplankton</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Calvert Island</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Quadra Island</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Rivers Inlet</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Fitz Hugh Channel</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
             <gco:CharacterString>Strait of Georgia</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
@@ -4121,6 +4113,12 @@ Ce package de données comprend :
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Central Coast of British Columbia</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Size fractionated biomass</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Size fractionated isotopes</gco:CharacterString>
           </mri:keyword>
           <mri:thesaurusName>
             <cit:CI_Citation>

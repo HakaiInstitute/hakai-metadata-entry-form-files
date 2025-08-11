@@ -120,7 +120,12 @@ identification:
 
       - Size-fractionated biomass scaled to the volume of water filtered by the net
 
-      - Size-fractionated stable isotope results'
+      - Size-fractionated stable isotope results
+
+
+      Data will be made publicly available upon paper publication, but until then
+      users are encouraged to reach out to request data access and for collaboration
+      opportunities'
     fr: 'Cet ensemble de données contient des données sur la biomasse et les isotopes
       du zooplancton fractionnées en fonction de la taille obtenues lors de la collecte
       d''échantillons par des filets verticaux par le programme d''observation de
@@ -138,7 +143,12 @@ identification:
 
       - Biomasse fractionnée par taille adaptée au volume d''eau filtré par le filet
 
-      - Résultats des isotopes stables fractionnés par taille'
+      - Résultats des isotopes stables fractionnés par taille
+
+
+      Les données seront mises à la disposition du public dès leur publication sur
+      papier, mais d''ici là, les utilisateurs sont invités à nous contacter pour
+      demander l''accès aux données et pour connaître les opportunités de collaboration'
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -217,13 +227,11 @@ identification:
     default:
       en:
       - Zooplankton
-      - Calvert Island
-      - Quadra Island
-      - Rivers Inlet
-      - Fitz Hugh Channel
       - Strait of Georgia
       - Salish Sea
       - Central Coast of British Columbia
+      - Size fractionated biomass
+      - Size fractionated isotopes
     eov:
       en:
       - zooplanktonBiomassAndDiversity
@@ -247,7 +255,7 @@ instruments:
 - id: Vertical Haul Bongo Net
 metadata:
   dates:
-    revision: '2025-08-07T21:59:28.294Z'
+    revision: '2025-08-11T16:18:49.946Z'
   identifier: dbb33efe-c207-4d9c-abef-2350595bf47a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/NZb1YZT9Xtbc9Cp9Jc3OtSLRffT2/-OQtxgedRzyaVsL4bWUx
@@ -277,13 +285,13 @@ metadata:
           verified: false
 spatial:
   description:
-    en: This zooplankton microscopy data includes samples from the north Strait of
-      Georgia, off the southern end of Quadra Island, north to the waters around Calvert
-      Island and in Rivers Inlet, on the central coast of British Columbia
-    fr: Ces données de microscopie du zooplancton comprennent des échantillons prélevés
-      dans le nord du détroit de Georgia, au large de l'extrémité sud de l'île Quadra,
-      vers le nord jusqu'aux eaux autour de l'île Calvert et à Rivers Inlet, sur la
-      côte centrale de la Colombie-Britannique
+    en: This size-fractionated zooplankton biomass and isotopes data includes samples
+      from the northern Strait of Georgia and the waters around Calvert Island and
+      in Rivers Inlet, on the central coast of British Columbia
+    fr: Ces données fractionnées en fonction de la taille, de la biomasse et des isotopes
+      du zooplancton comprennent des échantillons prélevés dans le nord du détroit
+      de Georgia et dans les eaux autour de l'île Calvert et à Rivers Inlet, sur la
+      côte centrale de la Colombie-Britannique.
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
