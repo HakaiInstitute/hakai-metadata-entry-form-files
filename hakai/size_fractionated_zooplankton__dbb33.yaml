@@ -1,0 +1,308 @@
+contact:
+- inCitation: true
+  individual:
+    email: colleen.kellogg@hakai.org
+    name: Kellogg, Colleen
+    orcid: https://orcid.org/0000-0003-4048-5316
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - custodian
+  - author
+  - contributor
+  - pointOfContact
+  - distributor
+- inCitation: true
+  individual:
+    email: kimberly.bedard@hakai.org
+    name: Bedard, Kimberly
+    orcid: https://orcid.org/0009-0003-0071-867X
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - author
+  - contributor
+  - pointOfContact
+  - distributor
+- inCitation: true
+  individual:
+    email: drew.jordison@hakai.org
+    name: Jordison, Drew
+    orcid: https://orcid.org/0009-0008-0197-9261
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - author
+  - pointOfContact
+  - contributor
+  - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Online form to request data access.
+    fr: Formulaire en ligne pour demander l'accès aux données.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Hakai Institute Data Access Request Form
+    fr: Formulaire de demande d'accès aux données de l'Institut Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php
+identification:
+  abstract:
+    en: 'This dataset contains size-fractionated zooplankton biomass and isotope data
+      obtained from collecting samples with vertical net hauls by the Hakai Ocean
+      Observing Program. The sample is poured through a series of sieves and filtered
+      onto GF/F filters where weights are taken throughout the process to help determine
+      the biomass prior to being sent for isotope analysis at the University of California
+      Davis Stable Isotope Facility. These samples have been collected biweekly to
+      monthly since 2015 in the northern Strait of Georgia, British Columbia, and
+      approximately every 4-6 weeks since 2012 between Kwakshua Channel and Rivers
+      Inlet on British Columbia''s Central Coast.
+
+
+      This data package includes:
+
+      - Size-fractionated biomass scaled to the volume of water filtered by the net
+
+      - Size-fractionated stable isotope results
+
+
+      Data will be made publicly available upon paper publication, but until then
+      users are encouraged to reach out to request data access and for collaboration
+      opportunities.'
+    fr: 'Cet ensemble de données contient des données sur la biomasse et les isotopes
+      du zooplancton fractionnées en fonction de la taille obtenues lors de la collecte
+      d''échantillons par des filets verticaux par le programme d''observation de
+      l''océan Hakai. L''échantillon est versé dans une série de tamis et filtré sur
+      des filtres GF/F où des poids sont prélevés tout au long du processus pour aider
+      à déterminer la biomasse avant d''être envoyé pour analyse isotopique à l''installation
+      d''isotopes stables de Davis de l''Université de Californie. Ces échantillons
+      sont prélevés toutes les deux semaines à tous les mois depuis 2015 dans le nord
+      du détroit de Georgia, en Colombie-Britannique, et environ toutes les 4 à 6
+      semaines depuis 2012 entre le chenal Kwakshua et Rivers Inlet, sur la côte centrale
+      de la Colombie-Britannique.
+
+
+      Ce package de données comprend :
+
+      - Biomasse fractionnée par taille adaptée au volume d''eau filtré par le filet
+
+      - Résultats des isotopes stables fractionnés par taille
+
+
+      Les données seront mises à la disposition du public dès leur publication sur
+      papier, mais d''ici là, les utilisateurs sont invités à nous contacter pour
+      demander l''accès aux données et pour connaître les opportunités de collaboration.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: IsSupplementTo
+    association_type_iso: crossReference
+    authority: DOI
+    code: 10.21966/kace-2d24
+    title:
+      en: Hakai Water Properties Vertical Profile Data Measured by Oceanographic Profilers,
+        Research
+      fr: Données de profil vertical des propriétés de l'eau Hakai mesurées par des
+        profileurs océanographiques, recherche
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsDescribedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: https://dmphub.uc3prd.cdlib.net/dmps/10.48321/D1E006AFBF
+    title:
+      en: Hakai Ocean Observing Zooplankton Isotope Data Management Plan
+      fr: Plan de gestion des données de microscopie du zooplancton d'observation
+        de l'océan à Hakai
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementTo
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.21966/g7zf-1v08
+    title:
+      en: Zooplankton taxonomic abundance and biomass along the BC Coast
+      fr: Abondance taxonomique et biomasse du zooplancton le long de la côte de la
+        Colombie-Britannique
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsDescribedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: https://docs.google.com/document/d/15CpGNOv2cidbOyu51Pc_OfYgmLgKqRHQ/edit
+    title:
+      en: Zooplankton Sample Collection Protocol
+      fr: Protocole de prélèvement d'échantillons de zooplancton
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsDescribedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: https://docs.google.com/document/d/1VG7RP5Vqcawq_ZwPXG99KaZHJ10AKlB2/edit
+    title:
+      en: Zooplankton Isotope Protocol
+      fr: Protocole sur les isotopes du zooplancton
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2012-12-10'
+    publication: '2025-08-12'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/g7zf-1v08
+  keywords:
+    default:
+      en:
+      - Zooplankton
+      - Strait of Georgia
+      - Salish Sea
+      - Central Coast of British Columbia
+      - Size fractionated biomass
+      - Size fractionated isotopes
+    eov:
+      en:
+      - zooplanktonBiomassAndDiversity
+      fr:
+      - Biomasse et diversité de zooplancton
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2012-12-10T20:00:00.000Z'
+  title:
+    en: Size-fractionated zooplankton biomass and isotopes along the BC coast
+    fr: Abondance et biomasse du zooplancton le long de la côte centrale de la Colombie-Britannique
+      (Copte)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+instruments:
+- id: Vertical Haul Bongo Net
+metadata:
+  dates:
+    publication: '2025-08-12'
+    revision: '2025-08-12T15:57:28.002Z'
+  identifier: dbb33efe-c207-4d9c-abef-2350595bf47a
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/NZb1YZT9Xtbc9Cp9Jc3OtSLRffT2/-OQtxgedRzyaVsL4bWUx
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: '- Flow meter calibrations were not routinely performed early in the dataset
+
+        - Sample metadata QC is ongoing
+
+        - Not all samples have been analyzed'
+      fr: '- Les étalonnages des débitmètres n''étaient pas effectués régulièrement
+        au début de l''ensemble de données
+
+        - Le contrôle qualité des métadonnées des échantillons est en cours
+
+        - Tous les échantillons n''ont pas été analysés'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  description:
+    en: This size-fractionated zooplankton biomass and isotopes data includes samples
+      from the northern Strait of Georgia and the waters around Calvert Island and
+      in Rivers Inlet, on the central coast of British Columbia
+    fr: Ces données fractionnées en fonction de la taille, de la biomasse et des isotopes
+      du zooplancton comprennent des échantillons prélevés dans le nord du détroit
+      de Georgia et dans les eaux autour de l'île Calvert et à Rivers Inlet, sur la
+      côte centrale de la Colombie-Britannique.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  polygon: -125.2,49.88 -124.7,50.09 -125.2,50.43 -127.1,50.96 -127.5,52.05 -128.5,51.97
+    -128.1,50.84 -127.7,50.59 -125.2,49.88
+  vertical:
+  - 0.0
+  - 350.0
+  vertical_positive: heightPositive
