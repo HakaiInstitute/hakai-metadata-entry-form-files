@@ -121,8 +121,27 @@ contact:
   - funder
 distribution:
 - description:
-    en: Private GitHub repository housing the processed zooplankton data
-    fr: Dépôt GitHub privé hébergeant les données traitées sur le zooplancton
+    en: Online form to request data access.
+    fr: Formulaire en ligne pour demander l'accès aux données.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Hakai Institute Data Access Request Form
+    fr: Formulaire de demande d'accès aux données de l'Institut Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php
+- description:
+    en: 'Internal Use: Private GitHub repository housing the processed zooplankton
+      data'
+    fr: 'Usage interne : référentiel GitHub privé hébergeant les données traitées
+      sur le zooplancton'
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -280,7 +299,7 @@ instruments:
 - id: Vertical Haul Bongo Net
 metadata:
   dates:
-    revision: '2025-08-12T16:00:41.184Z'
+    revision: '2025-08-12T16:02:30.008Z'
   identifier: 39a83551-ab8e-45be-a564-cece4b229371
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-ODO1YbIGbR3Rd8hvLxT

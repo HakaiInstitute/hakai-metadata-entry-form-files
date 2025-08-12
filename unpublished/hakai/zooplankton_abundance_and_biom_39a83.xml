@@ -2688,7 +2688,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-08-12T16:00:41.184Z</gco:DateTime>
+        <gco:DateTime>2025-08-12T16:02:30.008Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -6399,6 +6399,36 @@ Les données seront mises à la disposition du public dès leur publication sur 
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
+                <gco:CharacterString>https://hecate.hakai.org/auth/access-request.php</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Hakai Institute Data Access Request Form</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Formulaire de demande d&#39;accès aux données de l&#39;Institut Hakai</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:name>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Online form to request data access.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Formulaire en ligne pour demander l&#39;accès aux données.</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
                 <gco:CharacterString>https://github.com/HakaiInstitute/hakai-zooplankton-microscopy-dataset</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
@@ -6413,10 +6443,10 @@ Les données seront mises à la disposition du public dès leur publication sur 
                 </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Private GitHub repository housing the processed zooplankton data</gco:CharacterString>
+                <gco:CharacterString>Internal Use: Private GitHub repository housing the processed zooplankton data</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Dépôt GitHub privé hébergeant les données traitées sur le zooplancton</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Usage interne : référentiel GitHub privé hébergeant les données traitées sur le zooplancton</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
