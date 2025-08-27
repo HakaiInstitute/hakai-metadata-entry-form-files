@@ -848,7 +848,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-08-27T12:22:43.860Z</gco:DateTime>
+        <gco:DateTime>2025-08-27T12:24:18.625Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2100,6 +2100,36 @@
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
+                <gco:CharacterString>https://drive.google.com/drive/folders/1Om7-t5eRdEupaTWUw6ljkGiotJGzbiaK?usp=share_link</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Species list and oceanographic data</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Liste des espèces et données océanographiques</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:name>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Comprehensive list of all species visually observed during the bioblitz and data from an oceanographic survey.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Liste complète de toutes les espèces observées visuellement pendant le bioblitz et données provenant d&#39;une étude océanographique.</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
                 <gco:CharacterString>https://inaturalist.ca/projects/false-creek-bioblitz-2022</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
@@ -2160,46 +2190,16 @@
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>http://www.ncbi.nlm.nih.gov/bioproject/1049344</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Environmental DNA (eDNA) raw sequence data</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Données de séquences brutes d&#39;ADN environnemental (ADNe)</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Raw environmental DNA (eDNA) metabarcoding sequence data (Illumina MiSeq of COI, 12S, 16S rRNA gene) deposited in the NCBI Sequence Read Archive (BioProject: PRJNA1049344). These data were collected at 12 stations along the length of False Creek (surface and bottom depths).</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Données de séquences de métabarcodage d&#39;ADN environnemental brut (eDNA) (COI, 12S, 16S) déposées dans l&#39;archive NCBI Sequence Read.</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
                 <gco:CharacterString>https://drive.google.com/drive/folders/1gvoMGYMvJ7prSSFXYhSVQgfQ-meBDN7O?usp=share_link</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>eDNA-derived biodiversity data</gco:CharacterString>
+                <gco:CharacterString>Environmental DNA (eDNA)-derived biodiversity observations</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Données sur la biodiversité dérivées de l&#39;EDNA</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Observations de biodiversité dérivées de l&#39;ADN environnemental (ADNe)</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
@@ -2220,24 +2220,24 @@
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://drive.google.com/drive/folders/1Om7-t5eRdEupaTWUw6ljkGiotJGzbiaK?usp=share_link</gco:CharacterString>
+                <gco:CharacterString>http://www.ncbi.nlm.nih.gov/bioproject/1049344</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Species list and oceanographic data</gco:CharacterString>
+                <gco:CharacterString>Environmental DNA (eDNA) raw sequence data</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Liste des espèces et données océanographiques</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Données de séquences brutes d&#39;ADN environnemental (ADNe)</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Comprehensive list of all species visually observed during the bioblitz and data from an oceanographic survey.</gco:CharacterString>
+                <gco:CharacterString>Raw environmental DNA (eDNA) metabarcoding sequence data (Illumina MiSeq of COI, 12S, 16S rRNA gene) deposited in the NCBI Sequence Read Archive (BioProject: PRJNA1049344). These data were collected at 12 stations along the length of False Creek (surface and bottom depths).</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Liste complète de toutes les espèces observées visuellement pendant le bioblitz et données provenant d&#39;une étude océanographique.</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Données de séquences de métabarcodage d&#39;ADN environnemental brut (eDNA) (COI, 12S, 16S) déposées dans l&#39;archive NCBI Sequence Read.</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
