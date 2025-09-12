@@ -688,7 +688,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-09-12T22:09:01.683Z</gco:DateTime>
+        <gco:DateTime>2025-09-12T22:23:00.384Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1952,11 +1952,9 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>This data package consists of digitized surface canopy extent for two species of canopy forming kelp – giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana) – for two regions on the Central Coast of British Columbia, Canada. These data were collected in partnership between Marine Plan Partnership for the North Pacific Coast (MaPP) and the Hakai Institute as part of the MaPP Regional Kelp Monitoring Program (RKMP). 
+        <gco:CharacterString>This data package consists of digitized surface canopy extent for two species of canopy forming kelp – giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana) – for two regions on the Central Coast of British Columbia, Canada. Spatial datasets of kelp canopy were derived from high resolution aerial imagery (10 cm) collected from fixed-wing aerial surveys flown on September 20th, 2024. The survey regions included (1) southwest Calvert Island and (2) the Goose Group, McMullin Group and southwest Stryker Island. Survey windows for imagery collection were considered based on obtaining imagery during maximum kelp extent and during a low tide cycle therefore survey windows were planned between July through September during tides of less than +2.0 m (mean low low water).
 
-Spatial datasets of kelp canopy were derived from high resolution aerial imagery (10 cm) collected from fixed-wing aerial surveys flown on September 20th, 2024. The survey regions included (1) southwest Calvert Island and (2) the Goose Group, McMullin Group and southwest Stryker Island. Survey windows for imagery collection were considered based on obtaining imagery during maximum kelp extent and during a low tide cycle therefore survey windows were planned between July through September during tides of less than +2.0 m (mean low low water).
-
-Imagery Capture: Four-band imagery (red-green-blue-near infrared) was collected using two high resolution cameras aboard the Aerial Coastal Observatory (a fixed-wing aircraft). Imagery collection and orthomosaic processing is described in associated reports linked in this record.
+Imagery Capture: Four-band imagery (red-green-blue-near infrared) was collected using two high resolution cameras aboard the Aerial Coastal Observatory (a fixed-wing aircraft) at tide levels less than 2 m (chart datum) during boreal summer. Imagery collection and orthomosaic processing is described in associated reports linked in this record.
 Kelp delineation: Surface kelp canopy is represented by polygons which were digitized using the Hakai Institute KelpOMatic AI tool. Datasets were reviewed by a expert analyst for quality analysis/quality control purposes.  
 
 People involved with data processing, analysis and submission: Luba Reshitnyk, Keith Holmes. 
@@ -1966,8 +1964,8 @@ The data package includes:
 The ACO metadata report (.pdf) which describe the system used to acquire and process imagery. 
 Polygon shapefiles (.shp) of the extent of kelp canopy at each monitoring site by year.
 Coordinate system used: NAD1983 UTM Zone 9N
-
-This data package is a component of the MaPP Regional Kelp Monitoring Program (RKMP) whose goals (among many) are to monitor the extent and condition of kelp forests across all four sub-regions in recognition of kelp’s ecological, cultural and economic importance. 
+ 
+These data were collected in partnership between Marine Plan Partnership for the North Pacific Coast (MaPP) and the Hakai Institute as part of the MaPP Regional Kelp Monitoring Program (RKMP). This data package is a component of the MaPP Regional Kelp Monitoring Program (RKMP) whose goals (among many) are to monitor the extent and condition of kelp forests across all four sub-regions in recognition of kelp’s ecological, cultural and economic importance. 
 
 The use of this dataset requires permission from both the MaPP and the Hakai Institute.
 
