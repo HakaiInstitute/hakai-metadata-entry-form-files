@@ -1,0 +1,89 @@
+<addAttributes>
+    <att name='institution'>Tula Foundation</att>
+    <att name='title'>Time series of surface kelp canopy area derived from remotely piloted aerial systems (RPAS, or drone) surveys, Central Coast, British Columbia</att>
+    <att name='summary'>This data package represents a time series of canopy area of giant kelp, Macrocystis pyrifera, and bull kelp, Nereocystis luetkeana, derived from remotely piloted aerial system (RPAS or drones) surveys, along with relevant metadata. The kelp canopy is composed of the portions of fronds, stipes and blades floating on the surface of the water. RPAS surveys are conducted annually at long-term monitoring sites surveyed by the Hakai Institute on the Central Coast of British Columbia, Canada. These data are collected as part of the Hakai Institute Habitat Mapping Program whose broader goal is to document and understand long-term trends of kelp forests dynamics and drivers at local, regional and coast-wide scales. The Hakai Institute started using drones in 2015 as part of this work in order to capture site-level data on kelp forest distribution for long term ecological research. 
+
+Drone surveys are conducted annually in July/August during low tide (<1.5 m, chart datum) and collect RGB (red-green-blue) imagery. Canopy area is derived from drone-derived orthomosaics using a machine learning tool, the KelpOMatic, which automates the detection of extent of kelp canopy area present in high-resolution orthomosaics. Areal data are classified to species level. Outputs are reviewed by a trained analyst. Canopy area (m2) data are provided as vector features (shapefiles) in NAD83 UTM Zone 9 clipped to each site area of interest (AOI) to ensure the same areas are compared over time and then published to a geodatabase. 
+
+This data package includes a geodatabase which includes:
+- Point vector features of the location of monitoring sites.
+- Polygon vector features of canopy kelp 
+- Polygon vector features of the area of interest (AOI) of each monitoring site
+- A metadata report (.pdf) which describes methods for imagery collection, generating orthomosaics and delineating kelp extent.
+- Data dictionary (spreadsheet) which describes the attributes of the polygon vector features for canopy kelp.</att>
+    <att name='project'>Nearshore,Geospatial</att>
+    <att name='progress'>onGoing</att>
+    <att name='keywords'>kelp,kelp forest,giant kelp,bull kelp,Nereocystis luetkeana,Macrocystis pyrifera,CIOOS:macroalgalCanopyCoverAndComposition,GBIF:Macrocystis,GBIF:Ochrophyta,GBIF:Laminariaceae,GBIF:Nereocystis,GBIF:Chromista,GBIF:Phaeophyceae,GBIF:Nereocystis luetkeana,GBIF:Macrocystis pyrifera,GBIF:Laminariales</att>
+    <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary,GBIF: GBIF Taxonomy Vocabulary</att>
+    <att name='id'>291b98a4-d868-462c-852a-d6cf79ecf6ce</att>
+    <att name='naming_authority'>ca.cioos</att>
+    <att name='date_modified'>2025-09-12T21:36:15.321Z</att>
+    <att name='product_version'>1.0</att>
+    <att name='history'>Metadata record history:
+- additionalDocumentation:
+  - authority: URL
+    code: https://hakai-segmentation.readthedocs.io/en/latest/
+    title:
+      en: Kelp-O-Matic
+      fr: Kelp-O-Matic
+      translations:
+        fr:
+          message: "text translated using the Amazon translate service / texte traduit\
+            \ \xE0 l'aide du service de traduction Amazon"
+          verified: false
+  processingStep:
+  - authority: DOI
+    code: https://doi.org/10.5281/zenodo.8323070
+    description:
+      en: Machine learning tool which automates species-level detection of surface
+        canopy kelp.
+      fr: "Outil d'apprentissage automatique qui automatise la d\xE9tection au niveau\
+        \ des esp\xE8ces de varech de la canop\xE9e de surface."
+      translations:
+        fr:
+          message: "text translated using the Amazon translate service / texte traduit\
+            \ \xE0 l'aide du service de traduction Amazon"
+          verified: false
+    title:
+      en: Kelp-O-Matic
+      fr: Kelp-O-Matic
+      translations:
+        fr:
+          message: "text translated using the Amazon translate service / texte traduit\
+            \ \xE0 l'aide du service de traduction Amazon"
+          verified: false
+  scope: Dataset
+  statement:
+    en: Hakai Institute Kelp-O-Matic Tool
+    fr: Outil Kelp-O-Matic de l'Institut Hakai
+    translations:
+      fr:
+        message: "text translated using the Amazon translate service / texte traduit\
+          \ \xE0 l'aide du service de traduction Amazon"
+        verified: false
+</att>
+    <att name='license'>https://creativecommons.org/licenses/by/4.0</att>
+    <att name='creator_name'>Tula Foundation</att>
+    <att name='creator_type'>institution</att>
+    <att name='creator_institution'>Tula Foundation</att>
+    <att name='creator_city'>Vancouver</att>
+    <att name='creator_country'>Canada</att>
+    <att name='creator_url'>https://tula.org</att>
+    <att name='creator_ror'>https://ror.org/0029jxk29</att>
+    <att name='publisher_name'>Hakai Institute</att>
+    <att name='publisher_email'>data@hakai.org</att>
+    <att name='publisher_type'>institution</att>
+    <att name='publisher_institution'>Hakai Institute</att>
+    <att name='publisher_city'>Campbell River</att>
+    <att name='publisher_country'>Canada</att>
+    <att name='publisher_url'>https://www.hakai.org/</att>
+    <att name='publisher_ror'>https://ror.org/02pry0c91</att>
+    <att name='contributor_name'>Reshitnyk, Luba;Holmes, Keith;Hakai Institute;Tula Foundation</att>
+    <att name='contributor_role'>custodian;coAuthor;publisher;owner,funder,distributor</att>
+    <att name='doi'>https://doi.org/10.21966/9cbv-ra30</att>
+    <att name='metadata_link'>https://catalogue.hakai.org/dataset/ca-cioos_291b98a4-d868-462c-852a-d6cf79ecf6ce</att>
+    <att name='infoUrl'>https://catalogue.hakai.org/dataset/ca-cioos_291b98a4-d868-462c-852a-d6cf79ecf6ce</att>
+    <att name='metadata_form'>https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-OVIwXhdGT9n7FV0wmyz</att>
+    <att name='platform'>unmanned aerial vehicle</att>
+    <att name='platform_vocabulary'>http://vocab.nerc.ac.uk/collection/L06/current/</att>
+</addAttributes>
