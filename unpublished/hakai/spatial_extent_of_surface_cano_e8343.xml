@@ -1256,7 +1256,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-09-12T22:10:39.173Z</gco:DateTime>
+        <gco:DateTime>2025-09-17T23:11:59.215Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2826,12 +2826,24 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>This dataset consists of digitized surface canopy extent for two species of canopy forming kelp – giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana) – for regions on the Central Coast of British Columbia, Canada. These data were collected as part of the Hakai Institute Habitat Mapping Program which includes long-term observations in canopy kelp extent. Spatial datasets of kelp canopy were derived from high resolution aerial imagery (10 cm) collected from fixed-wing aerial surveys flown in 2020, 2021 and 2022. The survey regions included (1) northwest Calvert Island, (2) Goose Group and McMullin Group, (3) Simonds Group to Triquet Island, and (4) Athlone Island to Stryker Island.
- 
-Survey windows were considered based on obtaining imagery during maximum kelp extent and during a low tide cycle therefore survey windows were planned between July through early September during tides of less than +2.0 m (mean low low water).
-Imagery Capture: Four-band imagery (red-green-blue-near infrared) was collected using two high resolution cameras aboard the Aerial Coastal Observatory (a fixed-wing aircraft). Imagery collection and orthomosaic processing is described in associated reports linked in this record.
+        <gco:CharacterString>This data package consists of digitized surface canopy extent for two species of canopy forming kelp – giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana) – for regions on the Central Coast of British Columbia, Canada. These data were collected as part of the Hakai Institute Habitat Mapping Program which includes long-term observations in canopy kelp extent. Spatial datasets of kelp canopy were derived from high resolution aerial imagery (10 cm) collected from fixed-wing aerial surveys flown in 2020, 2021 and 2022. The survey regions included (1) northwest Calvert Island, (2) Goose Group and McMullin Group, (3) Simonds Group to Triquet Island, and (4) Athlone Island to Stryker Island. Survey windows were considered based on obtaining imagery during maximum kelp extent and during a low tide cycle therefore survey windows were planned between July through early September during tides of less than +2.0 m (mean low low water).
 
-Kelp delineation: Surface kelp canopy is represented by polygons which were digitized using a blue-near infrared image index. Classification of polygon features was completed manually by a trained analyst. Datasets were reviewed by a secondary analyst for quality analysis/quality control purposes.</gco:CharacterString>
+Imagery Capture: Four-band imagery (red-green-blue-near infrared) was collected using two high resolution cameras aboard the Aerial Coastal Observatory (ACO, - a fixed-wing aircraft) at tide levels less than 2 m (chart datum) during boreal summer. Imagery collection and orthomosaic processing is described in associated reports linked in this record.
+
+Kelp delineation: Surface kelp canopy is represented by polygons which were digitized using a blue-near infrared image index. Classification of polygon features was completed manually by a trained analyst. Datasets were reviewed by a secondary analyst for quality analysis/quality control purposes.
+
+The data package includes:
+
+- ACO metadata reports (.pdf) which describe the system used to acquire and process imagery for each of 2020, 2021 and 2022. 
+- Polygon shapefiles (.shp) of the extent of kelp canopy at each region by year.
+
+Coordinate system used: NAD1983 UTM Zone 9N
+
+These data were collected in partnership between Marine Plan Partnership for the North Pacific Coast (MaPP) and the Hakai Institute. This data package is a component of the MaPP Regional Kelp Monitoring Program (RKMP) whose goals (among many) are to monitor the extent and condition of kelp forests across all four sub-regions in recognition of kelp’s ecological, cultural and economic importance. This data package is also a part of the Hakai Institute&#39;s Marine Habitat Mapping Program whose broader goal is to document and understand long-term trends of kelp forests dynamics and drivers at local, regional and coast-wide scales.
+
+The use of this dataset requires permission from both MaPP and the Hakai Institute.
+
+Please communicate and/or collaborate with Hakai and MaPP if you are considering using this dataset for manuscripts or other forms of analysis and reporting. Contact Luba Reshitnyk (luba@hakai.org) or data@hakai.org for more information about data access and opportunities to collaborate with the Hakai Institute. Contact Sarah Schroeder (sschroeder@mappocean.org) and Genevieve Reynolds (greynoldsccira@gmail.com) for more information about data access to and opportunities to collaborate with MaPP.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend l&#39;étendue de la surface numérisée de la canopée de deux espèces de varech formant le couvert végétal, le varech géant (Macrocystis pyrifera) et le varech à tête plate (Nereocystis luetkeana), pour les régions de la côte centrale de la Colombie-Britannique, au Canada. Ces données ont été collectées dans le cadre du programme de cartographie de l&#39;habitat de l&#39;Institut Hakai, qui comprend des observations à long terme de l&#39;étendue du varech de la canopée. Les ensembles de données spatiales sur la canopée de varech ont été dérivés d&#39;images aériennes à haute résolution (10 cm) collectées lors de relevés aériens à voilure fixe effectués en 2020, 2021 et 2022. Les régions étudiées comprenaient (1) le nord-ouest de l&#39;île Calvert, (2) le groupe Goose et le groupe McMullin, (3) le groupe Simonds jusqu&#39;à l&#39;île Triquet, et (4) l&#39;île Athlone jusqu&#39;à l&#39;île Stryker.

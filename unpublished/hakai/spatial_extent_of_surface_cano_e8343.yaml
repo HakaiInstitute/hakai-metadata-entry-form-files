@@ -91,7 +91,7 @@ distribution:
   url: https://hecate.hakai.org/auth/access-request.php
 identification:
   abstract:
-    en: "This dataset consists of digitized surface canopy extent for two species\
+    en: "This data package consists of digitized surface canopy extent for two species\
       \ of canopy forming kelp – giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis\
       \ luetkeana) – for regions on the Central Coast of British Columbia, Canada.\
       \ These data were collected as part of the Hakai Institute Habitat Mapping Program\
@@ -99,18 +99,39 @@ identification:
       \ of kelp canopy were derived from high resolution aerial imagery (10 cm) collected\
       \ from fixed-wing aerial surveys flown in 2020, 2021 and 2022. The survey regions\
       \ included (1) northwest Calvert Island, (2) Goose Group and McMullin Group,\
-      \ (3) Simonds Group to Triquet Island, and (4) Athlone Island to Stryker Island.\n\
-      \ \nSurvey windows were considered based on obtaining imagery during maximum\
-      \ kelp extent and during a low tide cycle therefore survey windows were planned\
-      \ between July through early September during tides of less than +2.0 m (mean\
-      \ low low water).\nImagery Capture: Four-band imagery (red-green-blue-near infrared)\
+      \ (3) Simonds Group to Triquet Island, and (4) Athlone Island to Stryker Island.\
+      \ Survey windows were considered based on obtaining imagery during maximum kelp\
+      \ extent and during a low tide cycle therefore survey windows were planned between\
+      \ July through early September during tides of less than +2.0 m (mean low low\
+      \ water).\n\nImagery Capture: Four-band imagery (red-green-blue-near infrared)\
       \ was collected using two high resolution cameras aboard the Aerial Coastal\
-      \ Observatory (a fixed-wing aircraft). Imagery collection and orthomosaic processing\
+      \ Observatory (ACO, - a fixed-wing aircraft) at tide levels less than 2 m (chart\
+      \ datum) during boreal summer. Imagery collection and orthomosaic processing\
       \ is described in associated reports linked in this record.\n\nKelp delineation:\
       \ Surface kelp canopy is represented by polygons which were digitized using\
       \ a blue-near infrared image index. Classification of polygon features was completed\
       \ manually by a trained analyst. Datasets were reviewed by a secondary analyst\
-      \ for quality analysis/quality control purposes."
+      \ for quality analysis/quality control purposes.\n\nThe data package includes:\n\
+      \n- ACO metadata reports (.pdf) which describe the system used to acquire and\
+      \ process imagery for each of 2020, 2021 and 2022. \n- Polygon shapefiles (.shp)\
+      \ of the extent of kelp canopy at each region by year.\n\nCoordinate system\
+      \ used: NAD1983 UTM Zone 9N\n\nThese data were collected in partnership between\
+      \ Marine Plan Partnership for the North Pacific Coast (MaPP) and the Hakai Institute.\
+      \ This data package is a component of the MaPP Regional Kelp Monitoring Program\
+      \ (RKMP) whose goals (among many) are to monitor the extent and condition of\
+      \ kelp forests across all four sub-regions in recognition of kelp’s ecological,\
+      \ cultural and economic importance. This data package is also a part of the\
+      \ Hakai Institute's Marine Habitat Mapping Program whose broader goal is to\
+      \ document and understand long-term trends of kelp forests dynamics and drivers\
+      \ at local, regional and coast-wide scales.\n\nThe use of this dataset requires\
+      \ permission from both MaPP and the Hakai Institute.\n\nPlease communicate and/or\
+      \ collaborate with Hakai and MaPP if you are considering using this dataset\
+      \ for manuscripts or other forms of analysis and reporting. Contact Luba Reshitnyk\
+      \ (luba@hakai.org) or data@hakai.org for more information about data access\
+      \ and opportunities to collaborate with the Hakai Institute. Contact Sarah Schroeder\
+      \ (sschroeder@mappocean.org) and Genevieve Reynolds (greynoldsccira@gmail.com)\
+      \ for more information about data access to and opportunities to collaborate\
+      \ with MaPP."
     fr: "Cet ensemble de données comprend l'étendue de la surface numérisée de la\
       \ canopée de deux espèces de varech formant le couvert végétal, le varech géant\
       \ (Macrocystis pyrifera) et le varech à tête plate (Nereocystis luetkeana),\
@@ -224,7 +245,7 @@ identification:
 metadata:
   dates:
     publication: '2023-09-25'
-    revision: '2025-09-12T22:10:39.173Z'
+    revision: '2025-09-17T23:11:59.215Z'
   identifier: e8343aa0-dbea-4267-9f78-662bec08d4bc
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NbzgAmVWcvz-_SOMA0E
