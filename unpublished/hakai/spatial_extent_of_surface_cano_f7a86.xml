@@ -781,7 +781,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-09-17T21:28:23.511Z</gco:DateTime>
+        <gco:DateTime>2025-09-17T21:28:41.066Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2072,8 +2072,24 @@ The use of this dataset requires permission from both MaPP and the Hakai Institu
 Please communicate and/or collaborate with Hakai and MaPP if you are considering using this dataset for manuscripts or other forms of analysis and reporting. Contact Luba Reshitnyk (luba@hakai.org) or data@hakai.org for more information about data access and opportunities to collaborate with the Hakai Institute. Contact Sarah Schroeder (sschroeder@mappocean.org) and Genevieve Reynolds (greynoldsccira@gmail.com) for more information about data access to and opportunities to collaborate with MaPP.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Le programme de cartographie de l&#39;habitat marin de l&#39;Institut Hakai vise à documenter les changements spatiaux et les moteurs des écosystèmes marins côtiers (varech et zostère) à différentes échelles spatiales en Colombie-Britannique (locale, régionale et côtière). Pour étudier les tendances à l&#39;échelle régionale, nous développons et affinons des méthodes pour cartographier l&#39;étendue et la biomasse du varech spécifiques à chaque espèce à l&#39;aide d&#39;images aériennes à haute résolution afin d&#39;éclairer la collecte à long terme de la distribution du varech en Colombie-Britannique. Les varech formant la canopée sont un élément essentiel de nombreux écosystèmes marins côtiers, y compris ceux de la Colombie-Britannique. Les algues de la canopée Nereocystis luetkeana (varech taureau) et Macrocystis pyrifera (varech géant) forment un habitat tridimensionnel complexe qui abrite une diversité de poissons, d&#39;invertébrés et de mammifères marins. Les varech de la canopée figurent également parmi les producteurs primaires les plus productifs de la planète, car ils constituent une importante source de carbone pour les réseaux trophiques côtiers. Comme de nombreuses autres espèces de varech, les varech formant la canopée présentent une grande variabilité saisonnière et interannuelle, car leur recrutement, leur croissance et leur survie sont influencés par un certain nombre de facteurs abiotiques (par exemple, température, salinité, nutriments, lumière) et biotiques (par exemple, le pâturage, la compétition intraspécifique). Par conséquent, les populations de varech devraient changer en réponse à l&#39;évolution des conditions environnementales sous-jacentes associées au changement climatique. Ils peuvent également évoluer en réponse à des changements dans la communauté biotique (par exemple, rétablissement de la loutre de mer, maladie du dépérissement des étoiles de mer) ou des activités humaines (par exemple, récolte d&#39;oursins, récolte de varech). Les enquêtes menées par l&#39;ACO de Hakai visent à collecter des images pendant les marées basses estivales, lorsque la biomasse de varech est à son maximum. L&#39;imagerie des marées basses est également nécessaire pour cartographier d&#39;autres habitats côtiers tels que la zostère marine. La haute résolution des caméras aériennes permet de distinguer les différentes espèces de varech.
-Pour plus d&#39;informations sur le post-traitement, l&#39;assurance qualité des données, les logiciels utilisés et le résumé des résultats, veuillez contacter data@hakai.org</lan:LocalisedCharacterString>
+            <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend l&#39;étendue de la surface numérisée de la canopée pour deux espèces de varech formant le couvert végétal, le varech géant (Macrocystis pyrifera) et le varech à tête plate (Nereocystis luetkeana), pour les régions de la côte centrale de la Colombie-Britannique, au Canada. Les ensembles de données spatiales sur la canopée de varech ont été dérivés d&#39;images aériennes à haute résolution (10 cm) collectées lors de relevés aériens à voilure fixe effectués les 1, 16 et 19 septembre 2024. Les régions étudiées comprenaient (1) le nord-ouest de Calvert, (2) une zone comprenant le groupe Goose et le groupe McMullin et le sud-ouest de l&#39;île Stryker, (3) et la côte extérieure de Princess Royal jusqu&#39;à l&#39;île Athlone. Les fenêtres d&#39;enquête pour la collecte d&#39;images ont été prises en compte sur la base de l&#39;obtention d&#39;images pendant l&#39;étendue maximale du varech et pendant un cycle de marée basse. Par conséquent, des fenêtres d&#39;enquête ont été prévues entre juillet et septembre, lors de marées inférieures à +2,0 m (basse mer moyenne).
+
+Capture d&#39;images : Des images à quatre bandes (rouge-vert-bleu-proche infrarouge) ont été recueillies à l&#39;aide de deux caméras haute résolution à bord de l&#39;Observatoire aérien côtier (ACO, un avion à voilure fixe) à des niveaux de marée inférieurs à 2 m (référence cartographique) pendant l&#39;été boréal. La collecte d&#39;images et le traitement orthomosaïque sont décrits dans les rapports associés liés à cet enregistrement.
+
+Délimitation du varech : la surface de la canopée de varech est représentée par des polygones qui ont été numérisés à l&#39;aide de l&#39;outil d&#39;intelligence artificielle Kelp-O-Matic de l&#39;Institut Hakai. Les ensembles de données ont été examinés par un analyste expert à des fins d&#39;analyse et de contrôle de la qualité. 
+
+Le package de données comprend :
+
+- Rapport de métadonnées ACO (.pdf) qui décrit le système utilisé pour acquérir et traiter l&#39;imagerie. 
+- Fichiers de formes polygonaux (.shp) de l&#39;étendue du couvert végétal de varech sur chaque site de surveillance par année.
+
+Système de coordonnées utilisé : NAD1983 UTM Zone 9N
+ 
+Ces données ont été collectées en partenariat entre le Marine Plan Partnership for the North Pacific Coast (mApp) et l&#39;Institut Hakai. Ce paquet de données fait partie du programme régional de surveillance du varech (RKMP) du mApp dont les objectifs (parmi tant d&#39;autres) sont de surveiller l&#39;étendue et l&#39;état des forêts de varech dans les quatre sous-régions, en reconnaissance de l&#39;importance écologique, culturelle et économique du varech. Ce paquet de données fait également partie du programme de cartographie de l&#39;habitat marin de l&#39;Institut Hakai, dont l&#39;objectif général est de documenter et de comprendre les tendances à long terme de la dynamique et des moteurs des forêts de varech aux échelles locale, régionale et côtière.
+
+L&#39;utilisation de cet ensemble de données nécessite l&#39;autorisation de mApp et de l&#39;Institut Hakai.
+
+Veuillez communiquer et/ou collaborer avec Hakai et mApp si vous envisagez d&#39;utiliser cet ensemble de données pour des manuscrits ou d&#39;autres formes d&#39;analyse et de production de rapports. Contactez Luba Reshitnyk (luba@hakai.org) ou data@hakai.org pour plus d&#39;informations sur l&#39;accès aux données et les opportunités de collaboration avec l&#39;Institut Hakai. Contactez Sarah Schroeder (sschroeder@mappocean.org) et Genevieve Reynolds (greynoldsccira@gmail.com) pour plus d&#39;informations sur l&#39;accès aux données et les opportunités de collaboration avec mApp.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -2100,10 +2116,10 @@ Pour plus d&#39;informations sur le post-traitement, l&#39;assurance qualité de
                 <gco:Decimal>-128.1</gco:Decimal>
               </gex:eastBoundLongitude>
               <gex:southBoundLatitude>
-                <gco:Decimal>51.63</gco:Decimal>
+                <gco:Decimal>51.64</gco:Decimal>
               </gex:southBoundLatitude>
               <gex:northBoundLatitude>
-                <gco:Decimal>52.12</gco:Decimal>
+                <gco:Decimal>52.19</gco:Decimal>
               </gex:northBoundLatitude>
             </gex:EX_GeographicBoundingBox>
           </gex:geographicElement>
