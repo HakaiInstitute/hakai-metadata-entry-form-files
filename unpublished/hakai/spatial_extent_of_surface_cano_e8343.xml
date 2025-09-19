@@ -1256,7 +1256,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-09-19T22:58:20.823Z</gco:DateTime>
+        <gco:DateTime>2025-09-19T22:58:42.026Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -3289,6 +3289,39 @@ Délimitation du varech : La canopée de surface du varech est représentée pa
                   </mcc:authority>
                   <mcc:code>
                     <gco:CharacterString>https://drive.google.com/file/d/1hJxwZ0TQUP3aDp4Wi1qGyaJTyJ3oYaaN/view?usp=sharing</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue=""></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>ACO Metadata Project Report: Kelp Mapping - BC Central Coast (2021)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Rapport du projet de métadonnées de l&#39;ACO : cartographie du varech - Côte centrale de la Colombie-Britannique (2021)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>URL</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://drive.google.com/file/d/1kplTbGbYJktxZcauMF9P1bdGkFiGR9ud/view?usp=sharing</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
