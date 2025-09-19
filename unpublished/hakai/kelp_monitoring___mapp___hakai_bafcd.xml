@@ -844,7 +844,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-09-19T23:05:50.204Z</gco:DateTime>
+        <gco:DateTime>2025-09-19T23:09:47.115Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1765,38 +1765,44 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>The primary goal of this collective project is to gather imagery for broad areas of the British Columbia coast in order to map canopy cover of peak kelp biomass. There are multiple end users and partners through MaPP, but the methods and primary goal are the same and therefore we have grouped them into one project report. All flights have occurred during peak kelp growth season (July - September, 2020). The projects are located on the BC Central Coast (project #3007), Haida Gwaii (project #3018 &amp; #3029), the BC North Coast (project #3019, and NE Vancouver Island (project #3020). Imagery resolution varies between 8-10 cm and is the primary data product in order to extract kelp canopy extent.  
-Project #20-3007-01 was successfully flown on Sept 4th, 2020.
-Project #20-3029-01 was successfully flown on Sept 5th, 2020.
-Project #20-3020-01 was successfully flown on July 25th, 2020.
+        <gco:CharacterString>This data package consists of digitized surface canopy extent for two species of canopy forming kelp – giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana) – for two regions on the Central Coast of British Columbia, Canada. Spatial datasets of kelp canopy were derived from high resolution aerial imagery (10 cm) collected from fixed-wing aerial surveys. The survey regions included (1) southwest Calvert Island (flown August 23rd), (2) the Goose Group and Gosling Rocks region (flown August 23rd, 2020) and (3) a region from the Simonds group to Triquet Island (flown August 23rd, 2020). Survey windows for imagery collection were considered based on obtaining imagery during maximum kelp extent and during a low tide cycle therefore survey windows were planned between July through September during tides of less than +2.0 m (mean low low water).
 
-Data products available: 
-Lidar data (LAZ)- classified point cloud – digital surface model – digital terrain model. 
-Image data (TIFF) – 4 band orthophotos – RGB &amp; NIR. 
-Hyperspectral data (not always captured).
-A detailed project report with the summary of acquisition, processing, and overall hardware / software is available (PDF).
-Sensors and instrument breakdown:
-Inertial Navigation System: Manufacturer: Applanix (Canada), IMU Model: POS AV 510 IMAR, GNSS Model: Trimble AV39.
-Laser sensor: Riegl LMS-Q 780 long-range airborne laser scanner. Point density ranges per project and landscape from 1-12 points per square meter.
-Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.
-Hyperspectral Sensor: manufacturer: Specim, model: AisaFENIX 384, spectral range: 380 - 2500 nm</gco:CharacterString>
+Imagery Capture: Four-band imagery (red-green-blue-near infrared) was collected using two high resolution cameras aboard the Aerial Coastal Observatory (ACO, - a fixed-wing aircraft) at tide levels less than 2 m (chart datum) during boreal summer. Imagery collection and orthomosaic processing is described in associated reports linked in this record.
+
+Kelp delineation: Surface kelp canopy is represented by polygons which were digitized using the Hakai Institute Kelp-O-Matic AI tool. Datasets were reviewed by a expert analyst for quality analysis/quality control purposes.  
+
+The data package includes:
+
+- ACO metadata report (.pdf) which describe the system used to acquire and process imagery. 
+- Polygon shapefiles (.shp) of the extent of kelp canopy at each monitoring site by year served in a .
+
+Coordinate system used: NAD1983 UTM Zone 9N
+ 
+These data were collected in partnership between Marine Plan Partnership for the North Pacific Coast (MaPP) and the Hakai Institute. This data package is a component of the MaPP Regional Kelp Monitoring Program (RKMP) whose goals (among many) are to monitor the extent and condition of kelp forests across all four sub-regions in recognition of kelp’s ecological, cultural and economic importance. This data package is also a part of the Hakai Institute&#39;s Marine Habitat Mapping Program whose broader goal is to document and understand long-term trends of kelp forests dynamics and drivers at local, regional and coast-wide scales.
+
+The use of this dataset requires permission from both MaPP and the Hakai Institute.
+
+Please communicate and/or collaborate with Hakai and MaPP if you are considering using this dataset for manuscripts or other forms of analysis and reporting. Contact Luba Reshitnyk (luba@hakai.org) or data@hakai.org for more information about data access and opportunities to collaborate with the Hakai Institute. Contact Sarah Schroeder (sschroeder@mappocean.org) and Genevieve Reynolds (greynoldsccira@gmail.com) for more information about data access to and opportunities to collaborate with MaPP.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">L&#39;objectif principal de ce projet collectif est de rassembler des images pour de vastes zones de la côte de la Colombie-Britannique afin de cartographier la couverture de la biomasse de varech de pointe. Il existe plusieurs utilisateurs finaux et partenaires via MapP, mais les méthodes et l&#39;objectif principal sont les mêmes et nous les avons donc regroupés en un seul rapport de projet. Tous les vols ont eu lieu pendant la haute saison de croissance du varech (juillet à septembre 2020). Les projets sont situés sur la côte centrale de la Colombie-Britannique (projet #3007), Haida Gwaii (projets #3018 et #3029), sur la côte nord de la Colombie-Britannique (projet #3019 et au nord-est de l&#39;île de Vancouver (projet #3020). La résolution des images varie entre 8 et 10 cm et constitue le produit de données principal afin d&#39;extraire l&#39;étendue du couvert de varech. 
-Le projet #20 -3007-01 a été piloté avec succès le 4 septembre 2020.
-Le projet #20 -3029-01 a été piloté avec succès le 5 septembre 2020.
-Le projet #20 -3020-01 a été piloté avec succès le 25 juillet 2020.
+            <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend l&#39;étendue de la surface numérisée de la canopée de deux espèces de varech formant le couvert végétal, le varech géant (Macrocystis pyrifera) et le varech à tête plate (Nereocystis luetkeana), dans deux régions de la côte centrale de la Colombie-Britannique, au Canada. Des ensembles de données spatiales sur la canopée de varech ont été dérivés d&#39;images aériennes à haute résolution (10 cm) recueillies lors de relevés aériens à voilure fixe. Les régions étudiées comprenaient (1) le sud-ouest de l&#39;île Calvert (vol effectué le 23 août), (2) la région de Goose Group et Gosling Rocks (vol effectué le 23 août 2020) et (3) une région allant du groupe Simonds à l&#39;île Triquet (vol effectué le 23 août 2020). Les fenêtres d&#39;enquête pour la collecte d&#39;images ont été prises en compte sur la base de l&#39;obtention d&#39;images pendant l&#39;étendue maximale du varech et pendant un cycle de marée basse. Par conséquent, des fenêtres d&#39;enquête ont été prévues entre juillet et septembre, lors de marées inférieures à +2,0 m (basse mer moyenne).
 
-Produits de données disponibles : 
-Données Lidar (LAZ) - nuage de points classifié — modèle numérique de surface — modèle de terrain numérique. 
-Données d&#39;image (TIFF) — Orthophotos 4 bandes — RVB &amp; NIR. 
-Données hyperspectrales (pas toujours capturées).
-Un rapport de projet détaillé contenant le résumé de l&#39;acquisition, du traitement et de l&#39;ensemble du matériel/logiciel est disponible (PDF).
-Panne des capteurs et des instruments :
-Système de navigation inertielle : Fabricant : Applanix (Canada), modèle IMU : POS AV 510 IMAR, modèle GNSS : Trimble AV39.
-Capteur laser : scanner laser aéroporté longue portée Riegl LMS-Q 780. Les plages de densité de points par projet et paysage vont de 1 à 12 points par mètre carré.
-Caméras aériennes : deux caméras moyennes format Phaseone Industrial IXU-RS1000 entièrement intégrées, résolution : 100MP, objectif : 50 mm f/4.0 Rodenstock.
-Capteur hyperspectral : fabricant : Specim, modèle : AisaFenix 384, portée spectrale : 380 - 2500 nm</lan:LocalisedCharacterString>
+Capture d&#39;images : Des images à quatre bandes (rouge-vert-bleu-proche infrarouge) ont été recueillies à l&#39;aide de deux caméras haute résolution à bord de l&#39;Observatoire aérien côtier (ACO, un avion à voilure fixe) à des niveaux de marée inférieurs à 2 m (référence cartographique) pendant l&#39;été boréal. La collecte d&#39;images et le traitement orthomosaïque sont décrits dans les rapports associés liés à cet enregistrement.
+
+Délimitation du varech : la surface de la canopée de varech est représentée par des polygones qui ont été numérisés à l&#39;aide de l&#39;outil d&#39;intelligence artificielle Kelp-O-Matic de l&#39;Institut Hakai. Les ensembles de données ont été examinés par un analyste expert à des fins d&#39;analyse et de contrôle de la qualité. 
+
+Le package de données comprend :
+
+- Rapport de métadonnées ACO (.pdf) qui décrit le système utilisé pour acquérir et traiter l&#39;imagerie. 
+- Fichiers de formes polygonaux (.shp) de l&#39;étendue du couvert végétal de varech sur chaque site de surveillance par année desservi dans a.
+
+Système de coordonnées utilisé : NAD1983 UTM Zone 9N
+ 
+Ces données ont été collectées en partenariat entre le Marine Plan Partnership for the North Pacific Coast (mApp) et l&#39;Institut Hakai. Ce paquet de données fait partie du programme régional de surveillance du varech (RKMP) du mApp dont les objectifs (parmi tant d&#39;autres) sont de surveiller l&#39;étendue et l&#39;état des forêts de varech dans les quatre sous-régions, en reconnaissance de l&#39;importance écologique, culturelle et économique du varech. Ce paquet de données fait également partie du programme de cartographie de l&#39;habitat marin de l&#39;Institut Hakai, dont l&#39;objectif général est de documenter et de comprendre les tendances à long terme de la dynamique et des moteurs des forêts de varech aux échelles locale, régionale et côtière.
+
+L&#39;utilisation de cet ensemble de données nécessite l&#39;autorisation de mApp et de l&#39;Institut Hakai.
+
+Veuillez communiquer et/ou collaborer avec Hakai et mApp si vous envisagez d&#39;utiliser cet ensemble de données pour des manuscrits ou d&#39;autres formes d&#39;analyse et de production de rapports. Contactez Luba Reshitnyk (luba@hakai.org) ou data@hakai.org pour plus d&#39;informations sur l&#39;accès aux données et les opportunités de collaboration avec l&#39;Institut Hakai. Contactez Sarah Schroeder (sschroeder@mappocean.org) et Genevieve Reynolds (greynoldsccira@gmail.com) pour plus d&#39;informations sur l&#39;accès aux données et les opportunités de collaboration avec mApp.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -2089,6 +2095,9 @@ Capteur hyperspectral : fabricant : Specim, modèle : AisaFenix 384, portée 
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Airborne Coastal Observatory</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Geospatial</gco:CharacterString>
           </mri:keyword>
           <mri:type>
             <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
