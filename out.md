@@ -3,12 +3,12 @@
 | Status         | Count |
 |----------------|-------|
 | 🔍 Total       | 12302 |
-| ✅ Successful  | 2280  |
+| ✅ Successful  | 2277  |
 | ⏳ Timeouts    | 3     |
 | 🔀 Redirected  | 0     |
 | 👻 Excluded    | 9993  |
 | ❓ Unknown     | 0     |
-| 🚫 Errors      | 26    |
+| 🚫 Errors      | 29    |
 | ⛔ Unsupported | 0     |
 
 ## Errors per input
@@ -59,6 +59,14 @@
 
 * [404] <https://github.com/HakaiInstitute/hakai-wetlab-itracksept2023> | Rejected status code (this depends on your "accept" configuration): Not Found
 
+### Errors in hakai/kelp_and_eelgrass___bc_central_58d82.xml [form link](https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NGOKlujpcCE2A5d6PjY)
+
+* [404] <https://doi.org/10.21966/c3aq-8k82> | Rejected status code (this depends on your "accept" configuration): Not Found
+
+### Errors in hakai/kelp_and_seagrass_mapping___20_5843a.xml [form link](https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NM17eClIayI651ZLazJ)
+
+* [404] <https://doi.org/10.21966/8wbr-vk04> | Rejected status code (this depends on your "accept" configuration): Not Found
+
 ### Errors in hakai/kelp_canopy_extent_2006___nw_c_4034f.xml [form link](https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVpRZnZ2Y0d4cWhKcHk)
 
 * [404] <http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf> | Rejected status code (this depends on your "accept" configuration): Not Found
@@ -104,6 +112,10 @@
 
 * [404] <https://github.com/HakaiInstitute/hakai-wetlab-seastars2024> | Rejected status code (this depends on your "accept" configuration): Not Found
 
+### Errors in hakai/spatial_extent_of_surface_cano_e8343.xml [form link](https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NbzgAmVWcvz-_SOMA0E)
+
+* [404] <https://doi.org/10.21966/kqzp-f639> | Rejected status code (this depends on your "accept" configuration): Not Found
+
 ### Errors in hakai/stream_event_sampling___calver_8c981.xml [form link](https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUdDVkQzaXJBY1ZtMjc)
 
 * [404] <https://drive.google.com/open?id=0B3dfJwMwT2k4RzNYOGFUcFNpUms> | Rejected status code (this depends on your "accept" configuration): Not Found
@@ -116,4 +128,4 @@
 ### Errors in hakai/zooplankton_abundance_and_biom_39a83.xml [form link](https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-ODO1YbIGbR3Rd8hvLxT)
 
 * [404] <https://github.com/HakaiInstitute/hakai-zooplankton-microscopy-dataset> | Rejected status code (this depends on your "accept" configuration): Not Found
-[Full Github Actions output](https://github.com/HakaiInstitute/hakai-metadata-entry-form-files/actions/runs/17364176893?check_suite_focus=true)
+[Full Github Actions output](https://github.com/HakaiInstitute/hakai-metadata-entry-form-files/actions/runs/18146998631?check_suite_focus=true)
