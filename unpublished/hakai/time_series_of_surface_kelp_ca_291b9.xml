@@ -391,7 +391,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-09-12T21:36:15.321Z</gco:DateTime>
+        <gco:DateTime>2025-10-06T19:37:46.361Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -448,7 +448,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -461,7 +461,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -479,7 +479,7 @@
             <gco:CharacterString>Time series of surface kelp canopy area derived from remotely piloted aerial systems (RPAS, or drone) surveys, Central Coast, British Columbia</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Séries chronologiques de la superficie de la canopée de varech dérivées de relevés aériens télépilotés (RPAS ou drone), côte centrale, Colombie-Britannique</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Séries chronologiques de la superficie de la canopée de varech dérivées de relevés effectués par des systèmes aériens télépilotés (RPAS ou drones), côte centrale, Colombie-Britannique</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -927,28 +927,28 @@ Ce package de données inclut une géodatabase qui inclut :
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>Macrocystis</gco:CharacterString>
+            <gco:CharacterString>Nereocystis luetkeana</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Ochrophyta</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Laminariaceae</gco:CharacterString>
+            <gco:CharacterString>Chromista</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Macrocystis pyrifera</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Nereocystis</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Chromista</gco:CharacterString>
+            <gco:CharacterString>Laminariaceae</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Macrocystis</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Phaeophyceae</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Nereocystis luetkeana</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Macrocystis pyrifera</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Laminariales</gco:CharacterString>
@@ -956,7 +956,7 @@ Ce package de données inclut une géodatabase qui inclut :
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Macrocystis</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Nereocystis luetkeana</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -970,7 +970,14 @@ Ce package de données inclut une géodatabase qui inclut :
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Laminariaceae</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Chromista</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Macrocystis pyrifera</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -984,7 +991,14 @@ Ce package de données inclut une géodatabase qui inclut :
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Chromista</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Laminariaceae</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Macrocystis</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -992,20 +1006,6 @@ Ce package de données inclut une géodatabase qui inclut :
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Phaeophyceae</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Nereocystis luetkeana</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Macrocystis pyrifera</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
