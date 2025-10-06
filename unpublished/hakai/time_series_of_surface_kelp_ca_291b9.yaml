@@ -90,11 +90,11 @@ identification:
       \ Habitat Mapping Program whose broader goal is to document and understand long-term\
       \ trends of kelp forests dynamics and drivers at local, regional and coast-wide\
       \ scales. The Hakai Institute started using drones in 2015 as part of this work\
-      \ in order to capture site-level data on kelp forest distribution for long term\
+      \ in order to capture site-level data on kelp forest distribution for long-term\
       \ ecological research. \n\nDrone surveys are conducted annually in July/August\
       \ during low tide (<1.5 m, chart datum) and collect RGB (red-green-blue) imagery.\
       \ Canopy area is derived from drone-derived orthomosaics using a machine learning\
-      \ tool, the KelpOMatic, which automates the detection of extent of kelp canopy\
+      \ tool, the Kelp-O-Matic, which automates the detection of extent of kelp canopy\
       \ area present in high-resolution orthomosaics. Areal data are classified to\
       \ species level. Outputs are reviewed by a trained analyst. Canopy area (m2)\
       \ data are provided as vector features (shapefiles) in NAD83 UTM Zone 9 clipped\
@@ -107,38 +107,39 @@ identification:
       \ and delineating kelp extent.\n- Data dictionary (spreadsheet) which describes\
       \ the attributes of the polygon vector features for canopy kelp."
     fr: "Ce paquet de données représente une série chronologique de la superficie\
-      \ de la canopée de varech géant, Macrocystis pyrifera, et de varech taureau,\
-      \ Nereocystis luetkeana, dérivée d'un système aérien piloté à distance (RPAS\
-      \ ou drones), ainsi que des métadonnées pertinentes. La canopée de varech est\
-      \ composée de parties de frondes, de stipes et de lames flottant à la surface\
-      \ de l'eau. Des relevés RPAS sont effectués chaque année sur des sites de surveillance\
-      \ à long terme étudiés par l'Institut Hakai sur la côte centrale de la Colombie-Britannique,\
-      \ au Canada. Ces données sont collectées dans le cadre du programme de cartographie\
-      \ de l'habitat de l'Institut Hakai dont l'objectif général est de documenter\
-      \ et de comprendre les tendances à long terme de la dynamique et des moteurs\
-      \ des forêts de varech aux échelles locale, régionale et côtière. L'Institut\
-      \ Hakai a commencé à utiliser des drones en 2015 dans le cadre de ces travaux\
-      \ afin de recueillir des données au niveau du site sur la distribution des forêts\
-      \ de varech pour des recherches écologiques à long terme. \n\nDes relevés par\
-      \ drone sont effectués chaque année en juillet/août à marée basse (<1,5 m, point\
-      \ de référence cartographique) et collectent des images RGB (rouge-vert-bleu).\
-      \ La surface de la canopée est dérivée d'orthomosaïques dérivées de drones à\
-      \ l'aide d'un outil d'apprentissage automatique, le KelpoMatic, qui automatise\
-      \ la détection de l'étendue de la superficie de la canopée de varech présente\
-      \ dans les orthomosaïques à haute résolution. Les données relatives à la superficie\
-      \ sont classées par espèce. Les résultats sont examinés par un analyste qualifié.\
-      \ Les données sur la superficie de la canopée (m2) sont fournies sous forme\
-      \ d'entités vectorielles (fichiers de formes) dans la zone NAD83 UTM 9 découpées\
-      \ sur chaque zone d'intérêt (AOI) du site pour garantir que les mêmes zones\
-      \ sont comparées au fil du temps, puis publiées dans une géodatabase. \n\nCe\
-      \ package de données inclut une géodatabase qui inclut :\n- Caractéristiques\
-      \ vectorielles ponctuelles de la localisation des sites de surveillance.\n-\
-      \ Caractéristiques vectorielles polygonales du varech de la canopée \n- Caractéristiques\
-      \ vectorielles polygonales de la zone d'intérêt (AOI) de chaque site de surveillance\n\
-      - Un rapport de métadonnées (.pdf) qui décrit les méthodes de collecte d'images,\
-      \ de génération d'orthomosaïques et de délimitation de l'étendue du varech.\
-      \ Le rapport comprend également un dictionnaire de données qui décrit les attributs\
-      \ des caractéristiques vectorielles polygonales du varech de la canopée."
+      \ du couvert végétal de varech géant, Macrocystis pyrifera, et de varech taureau,\
+      \ Nereocystis luetkeana, dérivée de relevés effectués par des systèmes aériens\
+      \ télépilotés (RPAS ou drones), ainsi que des métadonnées pertinentes. La canopée\
+      \ de varech est composée de parties de frondes, de stipes et de lames flottant\
+      \ à la surface de l'eau. Des relevés RPAS sont effectués chaque année sur des\
+      \ sites de surveillance à long terme étudiés par l'Institut Hakai sur la côte\
+      \ centrale de la Colombie-Britannique, au Canada. Ces données sont collectées\
+      \ dans le cadre du programme de cartographie de l'habitat de l'Institut Hakai\
+      \ dont l'objectif général est de documenter et de comprendre les tendances à\
+      \ long terme de la dynamique et des moteurs des forêts de varech aux échelles\
+      \ locale, régionale et côtière. L'Institut Hakai a commencé à utiliser des drones\
+      \ en 2015 dans le cadre de ces travaux afin de recueillir des données au niveau\
+      \ du site sur la distribution des forêts de varech pour des recherches écologiques\
+      \ à long terme. \n\nDes relevés par drone sont effectués chaque année en juillet/août\
+      \ à marée basse (<1,5 m, point de référence cartographique) et collectent des\
+      \ images RGB (rouge-vert-bleu). La surface de la canopée est dérivée d'orthomosaïques\
+      \ dérivées de drones à l'aide d'un outil d'apprentissage automatique, le Kelp-O-Matic,\
+      \ qui automatise la détection de l'étendue de la superficie de la canopée de\
+      \ varech présente dans les orthomosaïques à haute résolution. Les données relatives\
+      \ à la superficie sont classées par espèce. Les résultats sont examinés par\
+      \ un analyste qualifié. Les données sur la superficie de la canopée (m2) sont\
+      \ fournies sous forme d'entités vectorielles (fichiers de formes) dans la zone\
+      \ NAD83 UTM 9 découpées sur chaque zone d'intérêt (AOI) du site pour garantir\
+      \ que les mêmes zones sont comparées au fil du temps, puis publiées dans une\
+      \ géodatabase. \n\nCe package de données inclut une géodatabase qui inclut :\n\
+      - Caractéristiques vectorielles ponctuelles de la localisation des sites de\
+      \ surveillance.\n- Caractéristiques vectorielles polygonales du varech de la\
+      \ canopée \n- Caractéristiques vectorielles polygonales de la zone d'intérêt\
+      \ (AOI) de chaque site de surveillance\n- Un rapport de métadonnées (.pdf) qui\
+      \ décrit les méthodes de collecte d'images, de génération d'orthomosaïques et\
+      \ de délimitation de l'étendue du varech.\n- Dictionnaire de données (feuille\
+      \ de calcul) qui décrit les attributs des caractéristiques vectorielles polygonales\
+      \ du varech de la canopée."
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -203,7 +204,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-10-06T19:37:46.361Z'
+    revision: '2025-10-06T19:41:45.012Z'
   history:
   - additionalDocumentation:
     - authority: URL
