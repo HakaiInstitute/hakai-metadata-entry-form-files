@@ -1,20 +1,4 @@
 contact:
-- inCitation: false
-  individual:
-    email: data@hakai.org
-    position: Geospatial Science
-  organization:
-    address: 1002 Wharf Street
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - custodian
-  - owner
-  - distributor
 - inCitation: true
   individual:
     email: luba.reshitnyk@hakai.org
@@ -65,6 +49,22 @@ contact:
   - coAuthor
   - processor
   - contributor
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    position: Geospatial Science
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
 - inCitation: true
   organization:
     city: Campbell River
@@ -279,7 +279,7 @@ identification:
         verified: true
 metadata:
   dates:
-    revision: '2025-10-06T22:16:22.830Z'
+    revision: '2025-10-06T22:19:25.506Z'
   history:
   - processingStep:
     - authority: DOI
