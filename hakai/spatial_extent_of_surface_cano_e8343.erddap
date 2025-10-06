@@ -1,23 +1,34 @@
 <addAttributes>
     <att name='institution'>Hakai Institute</att>
     <att name='title'>Spatial extent of surface canopy kelp derived from fixed-wing surveys (2020-2022), Central Coast, British Columbia, Canada</att>
-    <att name='summary'>This dataset consists of digitized surface canopy extent for two species of canopy forming kelp – giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana) – for regions on the Central Coast of British Columbia, Canada. These data were collected as part of the Hakai Institute Habitat Mapping Program which includes long-term observations in canopy kelp extent. Spatial datasets of kelp canopy were derived from high resolution aerial imagery (10 cm) collected from fixed-wing aerial surveys flown in 2020, 2021 and 2022. The survey regions included (1) northwest Calvert Island, (2) Goose Group and McMullin Group, (3) Simonds Group to Triquet Island, and (4) Athlone Island to Stryker Island. 
-Survey windows were considered based on obtaining imagery during maximum kelp extent and during a low tide cycle therefore survey windows were planned between July through early September during tides of less than +2.0 m (mean low low water).
-Imagery Capture: Four-band imagery (red-green-blue-near infrared) was collected using two high resolution cameras aboard the Aerial Coastal Observatory (a fixed-wing aircraft). Imagery collection and orthomosaic processing is described in associated reports linked in this record.
-Kelp delineation: Surface kelp canopy is represented by polygons which were digitized using a blue-near infrared image index. Classification of polygon features was completed manually by a trained analyst. Datasets were reviewed by a secondary analyst for quality analysis/quality control purposes.  
-People involved with sample collection, processing, analysis and/or submission: Luba Reshitnyk, Alex Guyn, Keith Holmes 
+    <att name='summary'>This data package consists of digitized surface canopy extent for two species of canopy forming kelp – giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana) – for regions on the Central Coast of British Columbia, Canada. These data were collected as part of the Hakai Institute Habitat Mapping Program which includes long-term observations in canopy kelp extent. Spatial datasets of kelp canopy were derived from high resolution aerial imagery (10 cm) collected from fixed-wing aerial surveys flown in 2020, 2021 and 2022. The survey regions included (1) northwest Calvert Island, (2) Goose Group and McMullin Group, (3) Simonds Group to Triquet Island, and (4) Athlone Island to Stryker Island. Survey windows were considered based on obtaining imagery during maximum kelp extent and during a low tide cycle therefore survey windows were planned between July through early September during tides of less than +2.0 m (mean low low water).
 
-Recommended citation: Reshitnyk, L. Y., Guyn, A., Holmes, K.R. (2023). Canopy kelp (Macrocystis pyrifera, Nereocystis luetkeana) extent derived from fixed-wing surveys (2020-2022), Central Coast, British Columbia, Canada. Version 1.0. Hakai Institute. Dataset. [access date]</att>
+Imagery Capture: Four-band imagery (red-green-blue-near infrared) was collected using two high resolution cameras aboard the Aerial Coastal Observatory (ACO, - a fixed-wing aircraft) at tide levels less than 2 m (chart datum) during boreal summer. Imagery collection and orthomosaic processing is described in associated reports linked in this record.
+
+Kelp delineation: Surface kelp canopy is represented by polygons which were digitized using a blue-near infrared image index. Classification of polygon features was completed manually by a trained analyst. Datasets were reviewed by a secondary analyst for quality analysis/quality control purposes.
+
+The data package includes:
+
+- ACO metadata reports (.pdf) which describe the system used to acquire and process imagery for each of 2020, 2021 and 2022. 
+- Polygon shapefiles (.shp) of the extent of kelp canopy at each region by year.
+
+Coordinate system used: NAD1983 UTM Zone 9N
+
+These data were collected in partnership between Marine Plan Partnership for the North Pacific Coast (MaPP) and the Hakai Institute. This data package is a component of the MaPP Regional Kelp Monitoring Program (RKMP) whose goals (among many) are to monitor the extent and condition of kelp forests across all four sub-regions in recognition of kelp’s ecological, cultural and economic importance. This data package is also a part of the Hakai Institute's Marine Habitat Mapping Program whose broader goal is to document and understand long-term trends of kelp forests dynamics and drivers at local, regional and coast-wide scales.
+
+The use of this dataset requires permission from both MaPP and the Hakai Institute.
+
+Please communicate and/or collaborate with Hakai and MaPP if you are considering using this dataset for manuscripts or other forms of analysis and reporting. Contact Luba Reshitnyk (luba@hakai.org) or data@hakai.org for more information about data access and opportunities to collaborate with the Hakai Institute. Contact Sarah Schroeder (sschroeder@mappocean.org) and Genevieve Reynolds (greynoldsccira@gmail.com) for more information about data access to and opportunities to collaborate with MaPP.</att>
     <att name='project'>Nearshore,Airborne Coastal Observatory,Geospatial</att>
     <att name='comment'>##Limitations:
 Data are available upon request.</att>
     <att name='progress'>completed</att>
-    <att name='keywords'>habitat characterization,important habitat,Macrocystis pyrifera,Nereocystis luetkeana,air photos,kelp forest,giant kelp,bull kelp,habitat mapping,CIOOS:macroalgalCanopyCoverAndComposition,GBIF:Chromista,GBIF:Ochrophyta,GBIF:Phaeophyceae,GBIF:Laminariales,GBIF:Laminariaceae,GBIF:Macrocystis,GBIF:Macrocystis pyrifera,GBIF:Chromista,GBIF:Ochrophyta,GBIF:Phaeophyceae,GBIF:Laminariales,GBIF:Laminariaceae,GBIF:Nereocystis,GBIF:Nereocystis luetkeana</att>
+    <att name='keywords'>habitat characterization,important habitat,Macrocystis pyrifera,Nereocystis luetkeana,air photos,kelp forest,giant kelp,bull kelp,habitat mapping,CIOOS:macroalgalCanopyCoverAndComposition,GBIF:Nereocystis luetkeana,GBIF:Ochrophyta,GBIF:Chromista,GBIF:Macrocystis pyrifera,GBIF:Nereocystis,GBIF:Laminariaceae,GBIF:Macrocystis,GBIF:Phaeophyceae,GBIF:Laminariales</att>
     <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary,GBIF: GBIF Taxonomy Vocabulary</att>
     <att name='id'>e8343aa0-dbea-4267-9f78-662bec08d4bc</att>
     <att name='naming_authority'>ca.cioos</att>
-    <att name='date_modified'>2024-07-23T12:15:13.610Z</att>
-    <att name='date_created'>2023-09-25</att>
+    <att name='date_modified'>2025-10-06T22:01:36.455Z</att>
+    <att name='date_created'>2025-10-06</att>
     <att name='product_version'>1.0</att>
     <att name='license'>https://creativecommons.org/licenses/by/4.0</att>
     <att name='creator_name'>Reshitnyk, Luba</att>
@@ -37,10 +48,12 @@ Data are available upon request.</att>
     <att name='publisher_country'>Canada</att>
     <att name='publisher_url'>https://www.hakai.org/</att>
     <att name='publisher_ror'>https://ror.org/02pry0c91</att>
-    <att name='contributor_name'>Reshitnyk, Luba;Guyn, Alex;Holmes, Keith;Hakai Institute</att>
-    <att name='contributor_role'>custodian,owner,distributor,author,pointOfContact,principalInvestigator,processor,originator;coAuthor,editor,processor;custodian,coAuthor,contributor,editor;publisher</att>
+    <att name='contributor_name'>Reshitnyk, Luba;Guyn, Alex;Holmes, Keith;Hakai Institute;Hakai Institute;Tula Foundation</att>
+    <att name='contributor_role'>custodian,owner,distributor,author,pointOfContact,principalInvestigator,processor,originator;coAuthor,editor,processor;custodian,coAuthor,contributor,editor;publisher;custodian,distributor,owner;funder</att>
     <att name='doi'>https://doi.org/10.21966/kqzp-f639</att>
     <att name='metadata_link'>https://catalogue.hakai.org/dataset/ca-cioos_e8343aa0-dbea-4267-9f78-662bec08d4bc</att>
     <att name='infoUrl'>https://catalogue.hakai.org/dataset/ca-cioos_e8343aa0-dbea-4267-9f78-662bec08d4bc</att>
     <att name='metadata_form'>https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NbzgAmVWcvz-_SOMA0E</att>
+    <att name='platform'>research aeroplane</att>
+    <att name='platform_vocabulary'>http://vocab.nerc.ac.uk/collection/L06/current/</att>
 </addAttributes>

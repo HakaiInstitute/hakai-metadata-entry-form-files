@@ -1,4 +1,4 @@
-abstract: "This dataset consists of digitized surface canopy extent for two species\
+abstract: "This data package consists of digitized surface canopy extent for two species\
   \ of canopy forming kelp \u2013 giant kelp (Macrocystis pyrifera) and bull kelp\
   \ (Nereocystis luetkeana) \u2013 for regions on the Central Coast of British Columbia,\
   \ Canada. These data were collected as part of the Hakai Institute Habitat Mapping\
@@ -6,22 +6,37 @@ abstract: "This dataset consists of digitized surface canopy extent for two spec
   \ of kelp canopy were derived from high resolution aerial imagery (10 cm) collected\
   \ from fixed-wing aerial surveys flown in 2020, 2021 and 2022. The survey regions\
   \ included (1) northwest Calvert Island, (2) Goose Group and McMullin Group, (3)\
-  \ Simonds Group to Triquet Island, and (4) Athlone Island to Stryker Island. \n\
-  Survey windows were considered based on obtaining imagery during maximum kelp extent\
+  \ Simonds Group to Triquet Island, and (4) Athlone Island to Stryker Island. Survey\
+  \ windows were considered based on obtaining imagery during maximum kelp extent\
   \ and during a low tide cycle therefore survey windows were planned between July\
   \ through early September during tides of less than +2.0 m (mean low low water).\n\
-  Imagery Capture: Four-band imagery (red-green-blue-near infrared) was collected\
-  \ using two high resolution cameras aboard the Aerial Coastal Observatory (a fixed-wing\
-  \ aircraft). Imagery collection and orthomosaic processing is described in associated\
-  \ reports linked in this record.\nKelp delineation: Surface kelp canopy is represented\
+  \nImagery Capture: Four-band imagery (red-green-blue-near infrared) was collected\
+  \ using two high resolution cameras aboard the Aerial Coastal Observatory (ACO,\
+  \ - a fixed-wing aircraft) at tide levels less than 2 m (chart datum) during boreal\
+  \ summer. Imagery collection and orthomosaic processing is described in associated\
+  \ reports linked in this record.\n\nKelp delineation: Surface kelp canopy is represented\
   \ by polygons which were digitized using a blue-near infrared image index. Classification\
   \ of polygon features was completed manually by a trained analyst. Datasets were\
-  \ reviewed by a secondary analyst for quality analysis/quality control purposes.\
-  \  \nPeople involved with sample collection, processing, analysis and/or submission:\
-  \ Luba Reshitnyk, Alex Guyn, Keith Holmes \n\nRecommended citation: Reshitnyk, L.\
-  \ Y., Guyn, A., Holmes, K.R. (2023). Canopy kelp (Macrocystis pyrifera, Nereocystis\
-  \ luetkeana) extent derived from fixed-wing surveys (2020-2022), Central Coast,\
-  \ British Columbia, Canada. Version 1.0. Hakai Institute. Dataset. [access date]"
+  \ reviewed by a secondary analyst for quality analysis/quality control purposes.\n\
+  \nThe data package includes:\n\n- ACO metadata reports (.pdf) which describe the\
+  \ system used to acquire and process imagery for each of 2020, 2021 and 2022. \n\
+  - Polygon shapefiles (.shp) of the extent of kelp canopy at each region by year.\n\
+  \nCoordinate system used: NAD1983 UTM Zone 9N\n\nThese data were collected in partnership\
+  \ between Marine Plan Partnership for the North Pacific Coast (MaPP) and the Hakai\
+  \ Institute. This data package is a component of the MaPP Regional Kelp Monitoring\
+  \ Program (RKMP) whose goals (among many) are to monitor the extent and condition\
+  \ of kelp forests across all four sub-regions in recognition of kelp\u2019s ecological,\
+  \ cultural and economic importance. This data package is also a part of the Hakai\
+  \ Institute's Marine Habitat Mapping Program whose broader goal is to document and\
+  \ understand long-term trends of kelp forests dynamics and drivers at local, regional\
+  \ and coast-wide scales.\n\nThe use of this dataset requires permission from both\
+  \ MaPP and the Hakai Institute.\n\nPlease communicate and/or collaborate with Hakai\
+  \ and MaPP if you are considering using this dataset for manuscripts or other forms\
+  \ of analysis and reporting. Contact Luba Reshitnyk (luba@hakai.org) or data@hakai.org\
+  \ for more information about data access and opportunities to collaborate with the\
+  \ Hakai Institute. Contact Sarah Schroeder (sschroeder@mappocean.org) and Genevieve\
+  \ Reynolds (greynoldsccira@gmail.com) for more information about data access to\
+  \ and opportunities to collaborate with MaPP."
 authors:
 - affiliation: Hakai Institute
   city: Campbell River
@@ -51,6 +66,10 @@ authors:
   email: data@hakai.org
   name: Hakai Institute
   website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
 cff-version: 1.2.0
 contact:
 - affiliation: Hakai Institute
@@ -61,7 +80,7 @@ contact:
   given-names: Luba
   orcid: https://orcid.org/0000-0003-0282-724X
   website: https://www.hakai.org/
-date-released: '2024-07-23'
+date-released: '2025-10-06'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -75,13 +94,9 @@ identifiers:
 - description: Metadata Form used to generate this record
   type: url
   value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NbzgAmVWcvz-_SOMA0E
-- description: 'Data package - Spatial extent of surface canopy kelp derived from
-    fixed-wing surveys (2020-2022), Central Coast, British Columbia, Canada: This
-    data package contains the spatial data and medata document. The document describes
-    the methods for how the kelp data were derived and includs a data dictionary for
-    attributes.'
+- description: 'Online Data Request Form: Use the form to request the spatial data'
   type: url
-  value: https://drive.google.com/drive/u/0/folders/1gQpO6gvsPbuHPLJoLQV10TfRDhf6x9Ns
+  value: https://hecate.hakai.org/auth/access-request.php
 keywords:
 - Chromista
 - Laminariaceae
@@ -105,6 +120,6 @@ license-url: https://creativecommons.org/licenses/by/4.0
 message: If you use this software, please cite it as below
 title: Spatial extent of surface canopy kelp derived from fixed-wing surveys (2020-2022),
   Central Coast, British Columbia, Canada
-type: dataset
+type: Dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_e8343aa0-dbea-4267-9f78-662bec08d4bc
 version: '1.0'
