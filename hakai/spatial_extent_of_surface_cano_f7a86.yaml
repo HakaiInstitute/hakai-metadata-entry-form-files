@@ -1,0 +1,422 @@
+contact:
+- inCitation: true
+  individual:
+    email: luba.reshitnyk@hakai.org
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - pointOfContact
+  - principalInvestigator
+  - processor
+- inCitation: true
+  individual:
+    email: keith.holmes@hakai.org
+    name: Holmes, Keith
+    orcid: https://orcid.org/0000-0001-8796-8222
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - processor
+  - coAuthor
+  - pointOfContact
+- inCitation: true
+  individual:
+    email: taylor.denouden@hakai.org
+    name: Denouden, Taylor
+    orcid: https://orcid.org/0000-0003-0457-1022
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - processor
+  - contributor
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    position: Geospatial Science
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Use the form to request the spatial data
+    fr: Utilisez le formulaire pour demander les données spatiales
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Online Data Request Form
+    fr: Formulaire de demande de données en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php
+identification:
+  abstract:
+    en: "This data package consists of digitized surface canopy extent for two species\
+      \ of canopy forming kelp – giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis\
+      \ luetkeana) – for regions on the Central Coast of British Columbia, Canada.\
+      \ Spatial datasets of kelp canopy were derived from high resolution aerial imagery\
+      \ (10 cm) collected from fixed-wing aerial surveys flown on August 4th, September\
+      \ 16th and 19th, 2023. The survey regions included (1) northwest Calvert Island,\
+      \ (2) an area including the Goose Group and McMullin Group and southwest Stryker\
+      \ Island, (3) and the outer coast of Princess Alice Island to Athlone Island.\
+      \ Survey windows for imagery collection were considered based on obtaining imagery\
+      \ during maximum kelp extent and during a low tide cycle therefore survey windows\
+      \ were planned between July through September during tides of less than +2.0\
+      \ m (mean low low water).\n\nImagery Capture: Four-band imagery (red-green-blue-near\
+      \ infrared) was collected using two high resolution cameras aboard the Airborne\
+      \ Coastal Observatory (ACO, - a fixed-wing aircraft) at tide levels less than\
+      \ 2 m (chart datum) during boreal summer. Imagery collection and orthomosaic\
+      \ processing is described in associated reports linked in this record.\n\nKelp\
+      \ delineation: Surface kelp canopy is represented by polygons which were digitized\
+      \ using the Hakai Institute Kelp-O-Matic AI tool. Datasets were reviewed by\
+      \ a expert analyst for quality analysis/quality control purposes.  \n\nThe data\
+      \ package includes:\n\n- ACO metadata report (.pdf) which describe the system\
+      \ used to acquire and process imagery. \n- Polygon shapefiles (.shp) of the\
+      \ extent of kelp canopy at each monitoring site by year.\n\nCoordinate system\
+      \ used: NAD1983 UTM Zone 9N\n \nThese data were collected in partnership between\
+      \ Marine Plan Partnership for the North Pacific Coast (MaPP) and the Hakai Institute.\
+      \ This data package is a component of the MaPP Regional Kelp Monitoring Program\
+      \ (RKMP) whose goals (among many) are to monitor the extent and condition of\
+      \ kelp forests across all four sub-regions in recognition of kelp’s ecological,\
+      \ cultural and economic importance. This data package is also a part of the\
+      \ Hakai Institute's Marine Habitat Mapping Program whose broader goal is to\
+      \ document and understand long-term trends of kelp forests dynamics and drivers\
+      \ at local, regional and coast-wide scales.\n\nThe use of this dataset requires\
+      \ permission from both MaPP and the Hakai Institute.\n\nPlease communicate and/or\
+      \ collaborate with Hakai and MaPP if you are considering using this dataset\
+      \ for manuscripts or other forms of analysis and reporting. Contact Luba Reshitnyk\
+      \ (luba@hakai.org) or data@hakai.org for more information about data access\
+      \ and opportunities to collaborate with the Hakai Institute. Contact Sarah Schroeder\
+      \ (sschroeder@mappocean.org) and Genevieve Reynolds (greynoldsccira@gmail.com)\
+      \ for more information about data access to and opportunities to collaborate\
+      \ with MaPP."
+    fr: "Cet ensemble de données comprend l'étendue de la surface numérisée de la\
+      \ canopée pour deux espèces de varech formant le couvert végétal, le varech\
+      \ géant (Macrocystis pyrifera) et le varech à tête plate (Nereocystis luetkeana),\
+      \ pour les régions de la côte centrale de la Colombie-Britannique, au Canada.\
+      \ Les ensembles de données spatiales sur la canopée de varech ont été dérivés\
+      \ d'images aériennes à haute résolution (10 cm) collectées lors de relevés aériens\
+      \ à voilure fixe effectués les 4 août, 16 et 19 septembre 2023. Les régions\
+      \ étudiées comprenaient (1) le nord-ouest de l'île Calvert, (2) une zone comprenant\
+      \ le groupe Goose et le groupe McMullin et le sud-ouest de l'île Stryker, (3)\
+      \ et la côte extérieure de l'île Princess Alice jusqu'à l'île Athlone. Les fenêtres\
+      \ d'enquête pour la collecte d'images ont été prises en compte sur la base de\
+      \ l'obtention d'images pendant l'étendue maximale du varech et pendant un cycle\
+      \ de marée basse. Par conséquent, des fenêtres d'enquête ont été prévues entre\
+      \ juillet et septembre, lors de marées inférieures à +2,0 m (basse mer moyenne).\n\
+      \nCapture d'images : Des images à quatre bandes (rouge-vert-bleu-proche infrarouge)\
+      \ ont été recueillies à l'aide de deux caméras haute résolution à bord de l'Observatoire\
+      \ côtier aéroporté (ACO, un avion à voilure fixe) à des niveaux de marée inférieurs\
+      \ à 2 m (référence cartographique) pendant l'été boréal. La collecte d'images\
+      \ et le traitement orthomosaïque sont décrits dans les rapports associés liés\
+      \ à cet enregistrement.\n\nDélimitation du varech : la surface de la canopée\
+      \ de varech est représentée par des polygones qui ont été numérisés à l'aide\
+      \ de l'outil d'intelligence artificielle Kelp-O-Matic de l'Institut Hakai. Les\
+      \ ensembles de données ont été examinés par un analyste expert à des fins d'analyse\
+      \ et de contrôle de la qualité. \n\nLe package de données comprend :\n\n- Rapport\
+      \ de métadonnées ACO (.pdf) qui décrit le système utilisé pour acquérir et traiter\
+      \ l'imagerie. \n- Fichiers de formes polygonaux (.shp) de l'étendue du couvert\
+      \ végétal de varech sur chaque site de surveillance par année.\n\nSystème de\
+      \ coordonnées utilisé : NAD1983 UTM Zone 9N\n \nCes données ont été collectées\
+      \ en partenariat entre le Marine Plan Partnership for the North Pacific Coast\
+      \ (mApp) et l'Institut Hakai. Ce paquet de données fait partie du programme\
+      \ régional de surveillance du varech (RKMP) du mApp dont les objectifs (parmi\
+      \ tant d'autres) sont de surveiller l'étendue et l'état des forêts de varech\
+      \ dans les quatre sous-régions, en reconnaissance de l'importance écologique,\
+      \ culturelle et économique du varech. Ce paquet de données fait également partie\
+      \ du programme de cartographie de l'habitat marin de l'Institut Hakai, dont\
+      \ l'objectif général est de documenter et de comprendre les tendances à long\
+      \ terme de la dynamique et des moteurs des forêts de varech aux échelles locale,\
+      \ régionale et côtière.\n\nL'utilisation de cet ensemble de données nécessite\
+      \ l'autorisation de mApp et de l'Institut Hakai.\n\nVeuillez communiquer et/ou\
+      \ collaborer avec Hakai et mApp si vous envisagez d'utiliser cet ensemble de\
+      \ données pour des manuscrits ou d'autres formes d'analyse et de production\
+      \ de rapports. Contactez Luba Reshitnyk (luba@hakai.org) ou data@hakai.org pour\
+      \ plus d'informations sur l'accès aux données et les opportunités de collaboration\
+      \ avec l'Institut Hakai. Contactez Sarah Schroeder (sschroeder@mappocean.org)\
+      \ et Genevieve Reynolds (greynoldsccira@gmail.com) pour plus d'informations\
+      \ sur l'accès aux données et les opportunités de collaboration avec mApp."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://docs.google.com/document/d/1j4ENgAW_2XtIHzDYbL8u2E5kOK2JkPEBVYdxcuv8NrE/edit?usp=drive_web&ouid=110988987704080303629
+    title:
+      en: 'Metadata Report: Spatial extent of surface canopy kelp derived from fixed-wing
+        surveys (2023), Central Coast, British Columbia, Canada'
+      fr: 'Rapport de métadonnées : Etendue spatiale du varech de surface du couvert
+        végétal dérivée de relevés à voilure fixe (2023), côte centrale, Colombie-Britannique,
+        Canada'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/1p_tswN7NludKAFQh1v47pcIevy5v3cXA/view
+    title:
+      en: 'ACO Metadata Project Report: Kelp Mapping - BC Central Coast (2023)'
+      fr: 'Rapport du projet de métadonnées de l''ACO : cartographie du varech - Côte
+        centrale de la Colombie-Britannique (2023)'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2023-08-04'
+    publication: '2024-10-02'
+    revision: '2024-10-02'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/qs1b-g693
+  keywords:
+    default:
+      en:
+      - kelp
+      - Macrocystis
+      - Nereocystis
+      - ACO
+    eov:
+      en:
+      - macroalgalCanopyCoverAndComposition
+      fr:
+      - Composition et couverture de la canopée de macroalgues
+    taxa:
+      en:
+      - Nereocystis luetkeana
+      - Ochrophyta
+      - Chromista
+      - Macrocystis pyrifera
+      - Nereocystis
+      - Laminariaceae
+      - Macrocystis
+      - Phaeophyceae
+      - Laminariales
+      fr:
+      - Nereocystis luetkeana
+      - Ochrophyta
+      - Chromista
+      - Macrocystis pyrifera
+      - Nereocystis
+      - Laminariaceae
+      - Macrocystis
+      - Phaeophyceae
+      - Laminariales
+  progress_code: completed
+  project:
+  - Airborne Coastal Observatory
+  - Geospatial
+  - Nearshore
+  status: published
+  temporal_begin: '2023-08-04T19:00:00.000Z'
+  temporal_end: '2023-09-19T19:00:00.000Z'
+  title:
+    en: Spatial extent of surface canopy kelp derived from fixed-wing surveys (2023),
+      Central Coast, British Columbia, Canada
+    fr: Etendue spatiale du varech de surface du couvert végétal dérivée de relevés
+      à voilure fixe (2023), côte centrale, Colombie-Britannique, Canada
+    translations:
+      fr:
+        verified: true
+metadata:
+  dates:
+    publication: '2025-10-06'
+    revision: '2025-10-06T22:19:25.506Z'
+  history:
+  - processingStep:
+    - authority: DOI
+      code: https://doi.org/10.5281/zenodo.8323070
+      description:
+        en: AI Segmentation Tool that automates surface kelp canopy in remotely sensed
+          high resolution imagery
+        fr: Outil de segmentation basé sur l'IA qui automatise la canopée de varech
+          de surface dans des images haute résolution détectées à distance
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+      title:
+        en: Kelp-O-Matic
+        fr: Kelp-O-Matic
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    scope: Dataset
+    statement:
+      en: Hakai Institute Kelp-O-Matic Tool
+      fr: Outil Kelp-O-Matic de l'Institut Hakai
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  identifier: f7a867ce-0f18-43f6-8148-775235d800b6
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-O8Dvx_fnz1WMY_Wetch
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: Airborne Coastal Observatory - Piper Navajo
+    fr: Observatoire côtier aéroporté - Piper Navajo
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory – Hakai Institute
+  instruments:
+  - description:
+      en: Laser scanner used to measure the earth’s surface topography and vegetation
+      fr: Scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor LMS-Q 780
+    manufacturer: Riegl
+    type:
+      en: Laser scanner
+      fr: Scanneur laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Aerial cameras iXU-RS1000
+    manufacturer: Phaseone Industrial
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: iXU-RS1000
+  type: research aeroplane
+spatial:
+  bbox:
+  - -128.6
+  - 51.64
+  - -128.1
+  - 52.19
+  description:
+    en: Central coast of British Columbia. Coastline from NW Calvert Island through
+      Triquet Island, Goose Group and north to Fingal Ledge
+    fr: Côte centrale de la Colombie-Britannique. Littoral depuis le nord-ouest de
+      l'île Calvert en passant par l'île Triquet, Goose Group et vers le nord jusqu'à
+      Fingal Ledge
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
