@@ -428,7 +428,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-10-09T19:40:37.696Z</gco:DateTime>
+        <gco:DateTime>2025-10-09T19:48:37.934Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -909,7 +909,7 @@ This data package includes a geodatabase which includes:
 - A metadata report (.pdf) which describes methods for imagery collection, generating orthomosaics and delineating kelp extent.
 - Data dictionary (spreadsheet) which describes the attributes of the polygon vector features for canopy kelp.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Ce paquet de données représente une série chronologique de la superficie du couvert végétal de varech géant, Macrocystis pyrifera, et de varech taureau, Nereocystis luetkeana, dérivée de relevés effectués par des systèmes aériens télépilotés (RPAS ou drones), ainsi que des métadonnées pertinentes. La canopée de varech est composée de parties de frondes, de stipes et de lames flottant à la surface de l&#39;eau. Des relevés RPAS sont effectués chaque année sur des sites de surveillance à long terme étudiés par l&#39;Institut Hakai sur la côte centrale de la Colombie-Britannique, au Canada. Ces données sont collectées dans le cadre du programme de cartographie de l&#39;habitat de l&#39;Institut Hakai dont l&#39;objectif général est de documenter et de comprendre les tendances à long terme de la dynamique et des moteurs des forêts de varech aux échelles locale, régionale et côtière. L&#39;Institut Hakai a commencé à utiliser des drones en 2015 dans le cadre de ces travaux afin de recueillir des données au niveau du site sur la distribution des forêts de varech pour des recherches écologiques à long terme. 
 
 Des relevés par drone sont effectués chaque année en juillet/août à marée basse (&lt;1,5 m, point de référence cartographique) et collectent des images RGB (rouge-vert-bleu). La surface de la canopée est dérivée d&#39;orthomosaïques dérivées de drones à l&#39;aide d&#39;un outil d&#39;apprentissage automatique, le Kelp-O-Matic, qui automatise la détection de l&#39;étendue de la superficie de la canopée de varech présente dans les orthomosaïques à haute résolution. Les données relatives à la superficie sont classées par espèce. Les résultats sont examinés par un analyste qualifié. Les données sur la superficie de la canopée (m2) sont fournies sous forme d&#39;entités vectorielles (fichiers de formes) dans la zone NAD83 UTM 9 découpées sur chaque zone d&#39;intérêt (AOI) du site pour garantir que les mêmes zones sont comparées au fil du temps, puis publiées dans une géodatabase. 
@@ -1353,10 +1353,10 @@ Ce package de données inclut une géodatabase qui inclut :
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Dataset -  Time series of surface kelp canopy area derived from remotely piloted aerial surveys (RPAS, or drone), Central Coast, British Columbia</gco:CharacterString>
+                <gco:CharacterString>Dataset -  Time series of surface kelp canopy area derived from remotely piloted aerial systems (RPAS, or drone), Central Coast, British Columbia</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Ensemble de données - Séries chronologiques de la superficie de la canopée de varech dérivées de relevés aériens pilotés à distance (RPAS ou drone), côte centrale, Colombie-Britannique</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Ensemble de données - Séries chronologiques de la superficie de la canopée de varech dérivées de systèmes aériens télépilotés (RPAS ou drone), côte centrale, Colombie-Britannique</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
