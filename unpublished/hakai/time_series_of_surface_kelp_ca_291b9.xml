@@ -428,7 +428,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-10-10T17:00:19.868Z</gco:DateTime>
+        <gco:DateTime>2025-10-10T17:13:00.275Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -903,7 +903,6 @@
 Drone surveys are conducted annually in July/August during low tide (&lt;1.5 m, chart datum) and collect RGB (red-green-blue) imagery. Canopy area is derived from drone-derived orthomosaics using a machine learning tool, the Kelp-O-Matic, which automates the detection of extent of kelp canopy area present in high-resolution orthomosaics. Areal data are classified to species level. Outputs are reviewed by a trained analyst. Canopy area (m2) data are provided as vector features (shapefiles) in NAD83 UTM Zone 9 clipped to each site area of interest (AOI) to ensure the same areas are compared over time and then published to a geodatabase. 
 
 This data package includes a geodatabase which includes:
-- Point vector features of the location of monitoring sites.
 - Polygon vector features of canopy kelp 
 - Polygon vector features of the area of interest (AOI) of each monitoring site
 - A metadata report (.pdf) which describes methods for imagery collection, generating orthomosaics and delineating kelp extent.

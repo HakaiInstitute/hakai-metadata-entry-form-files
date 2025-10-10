@@ -6,7 +6,6 @@
 Drone surveys are conducted annually in July/August during low tide (<1.5 m, chart datum) and collect RGB (red-green-blue) imagery. Canopy area is derived from drone-derived orthomosaics using a machine learning tool, the Kelp-O-Matic, which automates the detection of extent of kelp canopy area present in high-resolution orthomosaics. Areal data are classified to species level. Outputs are reviewed by a trained analyst. Canopy area (m2) data are provided as vector features (shapefiles) in NAD83 UTM Zone 9 clipped to each site area of interest (AOI) to ensure the same areas are compared over time and then published to a geodatabase. 
 
 This data package includes a geodatabase which includes:
-- Point vector features of the location of monitoring sites.
 - Polygon vector features of canopy kelp 
 - Polygon vector features of the area of interest (AOI) of each monitoring site
 - A metadata report (.pdf) which describes methods for imagery collection, generating orthomosaics and delineating kelp extent.
@@ -19,7 +18,7 @@ This data package is freely available to everyone, following the principles of e
     <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary,GBIF: GBIF Taxonomy Vocabulary</att>
     <att name='id'>291b98a4-d868-462c-852a-d6cf79ecf6ce</att>
     <att name='naming_authority'>ca.cioos</att>
-    <att name='date_modified'>2025-10-10T17:00:19.868Z</att>
+    <att name='date_modified'>2025-10-10T17:13:00.275Z</att>
     <att name='product_version'>1.0</att>
     <att name='history'>Metadata record history:
 - additionalDocumentation:
