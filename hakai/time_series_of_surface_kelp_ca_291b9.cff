@@ -1,0 +1,102 @@
+abstract: "This data package represents a time series of canopy area of giant kelp,\
+  \ Macrocystis pyrifera, and bull kelp, Nereocystis luetkeana, derived from remotely\
+  \ piloted aerial system (RPAS or drones) surveys, along with relevant metadata.\
+  \ The kelp canopy is composed of the portions of fronds, stipes and blades floating\
+  \ on the surface of the water. RPAS surveys are conducted annually at long-term\
+  \ monitoring sites surveyed by the Hakai Institute on the Central Coast of British\
+  \ Columbia, Canada. These data are collected as part of the Hakai Institute Habitat\
+  \ Mapping Program whose broader goal is to document and understand long-term trends\
+  \ of kelp forests dynamics and drivers at local, regional and coast-wide scales.\
+  \ The Hakai Institute started using drones in 2015 as part of this work in order\
+  \ to capture site-level data on kelp forest distribution for long-term ecological\
+  \ research. \n\nDrone surveys are conducted annually in July/August during low tide\
+  \ (<1.5 m, chart datum) and collect RGB (red-green-blue) imagery. Canopy area is\
+  \ derived from drone-derived orthomosaics using a machine learning tool, the Kelp-O-Matic,\
+  \ which automates the detection of extent of kelp canopy area present in high-resolution\
+  \ orthomosaics. Areal data are classified to species level. Outputs are reviewed\
+  \ by a trained analyst. Canopy area (m2) data are provided as vector features (shapefiles)\
+  \ in NAD83 UTM Zone 9 clipped to each site area of interest (AOI) to ensure the\
+  \ same areas are compared over time and then published to a geodatabase. \n\nThis\
+  \ data package includes a geodatabase which includes:\n- Polygon vector features\
+  \ of canopy kelp \n- Polygon vector features of the area of interest (AOI) of each\
+  \ monitoring site\n- A metadata report (.pdf) which describes methods for imagery\
+  \ collection, generating orthomosaics and delineating kelp extent.\n- Data dictionary\
+  \ (spreadsheet) which describes the attributes of the polygon vector features for\
+  \ canopy kelp.\n\nThis data package is freely available to everyone, following the\
+  \ principles of equitable access and benefit sharing. However, we expect all data\
+  \ users to give attribution to the data providers (read our data license) and the\
+  \ use of these data should happen in the light of fair use, i.e.: 1) respect the\
+  \ data providers, and provide helpful feedback on data quality, and 2) communicate\
+  \ and/or collaborate with the providers if you are considering using this dataset\
+  \ for manuscripts or other forms of reporting."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: luba.reshitnyk@hakai.org
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: keith.holmes@hakai.org
+  family-names: Holmes
+  given-names: Keith
+  orcid: https://orcid.org/0000-0001-8796-8222
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+cff-version: 1.2.0
+date-released: '2025-10-14'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 291b98a4-d868-462c-852a-d6cf79ecf6ce
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_291b98a4-d868-462c-852a-d6cf79ecf6ce
+- description: DOI
+  type: doi
+  value: 10.21966/9cbv-ra30
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-OVIwXhdGT9n7FV0wmyz
+- description: 'Dataset -  Time series of surface kelp canopy area derived from remotely
+    piloted aerial systems (RPAS, or drone), Central Coast, British Columbia: Dataset
+    contains a geodatabase of polygon vector features including (1) point location
+    of monitoring sites, (2) vector polygon features of the area mapped each year,
+    (3) vector polygon features of the kelp surface canopy at each monitoring site.'
+  type: url
+  value: https://github.com/HakaiInstitute/kelp-drone-mapping-data/releases
+keywords:
+- Chromista
+- Laminariaceae
+- Laminariales
+- Macrocystis
+- Macrocystis pyrifera
+- Nereocystis
+- Nereocystis luetkeana
+- Ochrophyta
+- Phaeophyceae
+- bull kelp
+- giant kelp
+- kelp
+- kelp forest
+- macroalgalCanopyCoverAndComposition
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Time series of surface kelp canopy area derived from remotely piloted aerial
+  systems (RPAS, or drone) surveys, Central Coast, British Columbia
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_291b98a4-d868-462c-852a-d6cf79ecf6ce
+version: '1.0'

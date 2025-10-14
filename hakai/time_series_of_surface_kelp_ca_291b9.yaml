@@ -1,0 +1,317 @@
+contact:
+- inCitation: true
+  individual:
+    email: luba.reshitnyk@hakai.org
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+    position: Research Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+- inCitation: true
+  individual:
+    email: keith.holmes@hakai.org
+    name: Holmes, Keith
+    orcid: https://orcid.org/0000-0001-8796-8222
+    position: Geospatial Research Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - owner
+  - funder
+  - distributor
+distribution:
+- description:
+    en: Dataset contains a geodatabase of polygon vector features including (1) point
+      location of monitoring sites, (2) vector polygon features of the area mapped
+      each year, (3) vector polygon features of the kelp surface canopy at each monitoring
+      site.
+    fr: Le jeu de données contient une géodatabase d'entités vectorielles polygonales,
+      y compris (1) la localisation ponctuelle des sites de surveillance, (2) les
+      caractéristiques polygonales vectorielles de la zone cartographiée chaque année,
+      (3) les caractéristiques polygonales vectorielles de la canopée superficielle
+      de varech sur chaque site de surveillance.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Dataset -  Time series of surface kelp canopy area derived from remotely piloted
+      aerial systems (RPAS, or drone), Central Coast, British Columbia
+    fr: Ensemble de données - Séries chronologiques de la superficie de la canopée
+      de varech dérivées de systèmes aériens télépilotés (RPAS ou drone), côte centrale,
+      Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/kelp-drone-mapping-data/releases
+identification:
+  abstract:
+    en: "This data package represents a time series of canopy area of giant kelp,\
+      \ Macrocystis pyrifera, and bull kelp, Nereocystis luetkeana, derived from remotely\
+      \ piloted aerial system (RPAS or drones) surveys, along with relevant metadata.\
+      \ The kelp canopy is composed of the portions of fronds, stipes and blades floating\
+      \ on the surface of the water. RPAS surveys are conducted annually at long-term\
+      \ monitoring sites surveyed by the Hakai Institute on the Central Coast of British\
+      \ Columbia, Canada. These data are collected as part of the Hakai Institute\
+      \ Habitat Mapping Program whose broader goal is to document and understand long-term\
+      \ trends of kelp forests dynamics and drivers at local, regional and coast-wide\
+      \ scales. The Hakai Institute started using drones in 2015 as part of this work\
+      \ in order to capture site-level data on kelp forest distribution for long-term\
+      \ ecological research. \n\nDrone surveys are conducted annually in July/August\
+      \ during low tide (<1.5 m, chart datum) and collect RGB (red-green-blue) imagery.\
+      \ Canopy area is derived from drone-derived orthomosaics using a machine learning\
+      \ tool, the Kelp-O-Matic, which automates the detection of extent of kelp canopy\
+      \ area present in high-resolution orthomosaics. Areal data are classified to\
+      \ species level. Outputs are reviewed by a trained analyst. Canopy area (m2)\
+      \ data are provided as vector features (shapefiles) in NAD83 UTM Zone 9 clipped\
+      \ to each site area of interest (AOI) to ensure the same areas are compared\
+      \ over time and then published to a geodatabase. \n\nThis data package includes\
+      \ a geodatabase which includes:\n- Polygon vector features of canopy kelp \n\
+      - Polygon vector features of the area of interest (AOI) of each monitoring site\n\
+      - A metadata report (.pdf) which describes methods for imagery collection, generating\
+      \ orthomosaics and delineating kelp extent.\n- Data dictionary (spreadsheet)\
+      \ which describes the attributes of the polygon vector features for canopy kelp.\n\
+      \nThis data package is freely available to everyone, following the principles\
+      \ of equitable access and benefit sharing. However, we expect all data users\
+      \ to give attribution to the data providers (read our data license) and the\
+      \ use of these data should happen in the light of fair use, i.e.: 1) respect\
+      \ the data providers, and provide helpful feedback on data quality, and 2) communicate\
+      \ and/or collaborate with the providers if you are considering using this dataset\
+      \ for manuscripts or other forms of reporting."
+    fr: "Ce paquet de données représente une série chronologique de la superficie\
+      \ du couvert végétal de varech géant, Macrocystis pyrifera, et de varech taureau,\
+      \ Nereocystis luetkeana, dérivée de relevés effectués par des systèmes aériens\
+      \ télépilotés (RPAS ou drones), ainsi que des métadonnées pertinentes. La canopée\
+      \ de varech est composée de parties de frondes, de stipes et de lames flottant\
+      \ à la surface de l'eau. Des relevés RPAS sont effectués chaque année sur des\
+      \ sites de surveillance à long terme étudiés par l'Institut Hakai sur la côte\
+      \ centrale de la Colombie-Britannique, au Canada. Ces données sont collectées\
+      \ dans le cadre du programme de cartographie de l'habitat de l'Institut Hakai\
+      \ dont l'objectif général est de documenter et de comprendre les tendances à\
+      \ long terme de la dynamique et des moteurs des forêts de varech aux échelles\
+      \ locale, régionale et côtière. L'Institut Hakai a commencé à utiliser des drones\
+      \ en 2015 dans le cadre de ces travaux afin de recueillir des données au niveau\
+      \ du site sur la distribution des forêts de varech pour des recherches écologiques\
+      \ à long terme. \n\nDes relevés par drone sont effectués chaque année en juillet/août\
+      \ à marée basse (<1,5 m, point de référence cartographique) et collectent des\
+      \ images RGB (rouge-vert-bleu). La surface de la canopée est dérivée d'orthomosaïques\
+      \ dérivées de drones à l'aide d'un outil d'apprentissage automatique, le Kelp-O-Matic,\
+      \ qui automatise la détection de l'étendue de la superficie de la canopée de\
+      \ varech présente dans les orthomosaïques à haute résolution. Les données relatives\
+      \ à la superficie sont classées par espèce. Les résultats sont examinés par\
+      \ un analyste qualifié. Les données sur la superficie de la canopée (m2) sont\
+      \ fournies sous forme d'entités vectorielles (fichiers de formes) dans la zone\
+      \ NAD83 UTM 9 découpées sur chaque zone d'intérêt (AOI) du site pour garantir\
+      \ que les mêmes zones sont comparées au fil du temps, puis publiées dans une\
+      \ géodatabase. \n\nCe package de données inclut une géodatabase qui inclut :\n\
+      - Caractéristiques vectorielles ponctuelles de la localisation des sites de\
+      \ surveillance.\n- Caractéristiques vectorielles polygonales du varech de la\
+      \ canopée \n- Caractéristiques vectorielles polygonales de la zone d'intérêt\
+      \ (AOI) de chaque site de surveillance\n- Un rapport de métadonnées (.pdf) qui\
+      \ décrit les méthodes de collecte d'images, de génération d'orthomosaïques et\
+      \ de délimitation de l'étendue du varech.\n- Dictionnaire de données (feuille\
+      \ de calcul) qui décrit les attributs des caractéristiques vectorielles polygonales\
+      \ du varech de la canopée.\n\nCe paquet de données est accessible gratuitement\
+      \ à tous, conformément aux principes d'accès équitable et de partage des avantages.\
+      \ Cependant, nous attendons de tous les utilisateurs de données qu'ils attribuent\
+      \ les noms aux fournisseurs de données (lisez notre licence de données) et l'utilisation\
+      \ de ces données doit se faire dans le respect d'une utilisation équitable,\
+      \ c'est-à-dire : 1) respecter les fournisseurs de données et fournir des commentaires\
+      \ utiles sur la qualité des données, et 2) communiquer et/ou collaborer avec\
+      \ les fournisseurs si vous envisagez d'utiliser cet ensemble de données pour\
+      \ des manuscrits ou d'autres formes de reporting."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2015-07-15'
+    publication: '2025-10-14'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/9cbv-ra30
+  keywords:
+    default:
+      en:
+      - kelp
+      - kelp forest
+      - giant kelp
+      - bull kelp
+      - Nereocystis luetkeana
+      - Macrocystis pyrifera
+    eov:
+      en:
+      - macroalgalCanopyCoverAndComposition
+      fr:
+      - Composition et couverture de la canopée de macroalgues
+    taxa:
+      en:
+      - Nereocystis luetkeana
+      - Ochrophyta
+      - Chromista
+      - Macrocystis pyrifera
+      - Nereocystis
+      - Laminariaceae
+      - Macrocystis
+      - Phaeophyceae
+      - Laminariales
+      fr:
+      - Nereocystis luetkeana
+      - Ochrophyta
+      - Chromista
+      - Macrocystis pyrifera
+      - Nereocystis
+      - Laminariaceae
+      - Macrocystis
+      - Phaeophyceae
+      - Laminariales
+  progress_code: onGoing
+  project:
+  - Nearshore
+  - Geospatial
+  status: published
+  temporal_begin: '2015-07-15T19:00:00.000Z'
+  title:
+    en: Time series of surface kelp canopy area derived from remotely piloted aerial
+      systems (RPAS, or drone) surveys, Central Coast, British Columbia
+    fr: Séries chronologiques de la superficie de la canopée de varech dérivées de
+      relevés effectués par des systèmes aériens télépilotés (RPAS ou drones), côte
+      centrale, Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2025-10-14'
+    revision: '2025-10-14T23:09:31.106Z'
+  history:
+  - additionalDocumentation:
+    - authority: URL
+      code: https://hakai-segmentation.readthedocs.io/en/latest/
+      title:
+        en: Kelp-O-Matic
+        fr: Kelp-O-Matic
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    processingStep:
+    - authority: DOI
+      code: https://doi.org/10.5281/zenodo.8323070
+      description:
+        en: Machine learning tool which automates species-level detection of surface
+          canopy kelp.
+        fr: Outil d'apprentissage automatique qui automatise la détection au niveau
+          des espèces de varech de la canopée de surface.
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+      title:
+        en: Kelp-O-Matic
+        fr: Kelp-O-Matic
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    scope: Dataset
+    statement:
+      en: Hakai Institute Kelp-O-Matic Tool
+      fr: Outil Kelp-O-Matic de l'Institut Hakai
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  identifier: 291b98a4-d868-462c-852a-d6cf79ecf6ce
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-OVIwXhdGT9n7FV0wmyz
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform:
+- id: DJI drones
+  instrumentID: DJI drones
+  instruments: []
+  type: unmanned aerial vehicle
+spatial:
+  bbox:
+  - -128.4
+  - 51.65
+  - -128.1
+  - 52.09
+  description:
+    en: Long-term kelp monitoring sites are located on the Central Coast of British
+      Columbia, Canada between Stryker Island at the north and Calvert Island at the
+      south.
+    fr: Les sites de surveillance à long terme du varech sont situés sur la côte centrale
+      de la Colombie-Britannique, au Canada, entre l'île Stryker au nord et l'île
+      Calvert au sud.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
