@@ -575,7 +575,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-10-15T17:40:50.891Z</gco:DateTime>
+        <gco:DateTime>2025-10-17T18:33:47.067Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1008,41 +1008,92 @@
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
               </cit:role>
               <cit:party>
-                <cit:CI_Individual>
+                <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Houskeeper, Henry</gco:CharacterString>
+                    <gco:CharacterString>Woods Hole Oceanographic Institution</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
                     <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
                       <cit:address>
                         <cit:CI_Address>
                           <cit:deliveryPoint>
                             <gco:CharacterString></gco:CharacterString>
                           </cit:deliveryPoint>
                           <cit:city>
-                            <gco:CharacterString></gco:CharacterString>
+                            <gco:CharacterString>Falmouth</gco:CharacterString>
                           </cit:city>
                           <cit:country>
-                            <gco:CharacterString></gco:CharacterString>
+                            <gco:CharacterString>United States</gco:CharacterString>
                           </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>henry.houskeeper@whoi.edu</gco:CharacterString>
-                          </cit:electronicMailAddress>
                         </cit:CI_Address>
                       </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.whoi.edu</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
                     </cit:CI_Contact>
                   </cit:contactInfo>
                   <cit:partyIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>https://orcid.org/0000-0001-5848-5440</gco:CharacterString>
+                        <gco:CharacterString>https://ror.org/03zbnzt98</gco:CharacterString>
                       </mcc:code>
                     </mcc:MD_Identifier>
                   </cit:partyIdentifier>
-                  <cit:positionName>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:positionName>
-                </cit:CI_Individual>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Houskeeper, Henry</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>henry.houskeeper@whoi.edu</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0001-5848-5440</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
