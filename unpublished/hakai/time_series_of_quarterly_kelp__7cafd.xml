@@ -584,7 +584,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-10-21T21:37:53.826Z</gco:DateTime>
+        <gco:DateTime>2025-10-21T22:00:50.840Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1722,7 +1722,7 @@ Bell, T.W., Allen, J.G., Cavanaugh, K.C., et Siegel, D.A. (2020). Trois décenni
             <gco:CharacterString>These satellite-derived data are estimates of canopy area for canopy kelp forests 30 m from shore at a 30 m pixel representation (sensor resolution). These data therefore are not intended for use in examining nearshore (&lt;30 m) kelp canopy extent and dynamics. These data do not differentiate between giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana).</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Ces données dérivées des satellites sont des estimations de la superficie de la canopée des forêts de varech à 30 m du rivage avec une représentation de 30 m en pixels (résolution du capteur). Ces données ne sont donc pas destinées à être utilisées pour examiner l&#39;étendue et la dynamique de la canopée de varech près du rivage (&lt;30 m).</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Ces données dérivées des satellites sont des estimations de la superficie de la canopée des forêts de varech à 30 m du rivage avec une représentation de 30 m en pixels (résolution du capteur). Ces données ne sont donc pas destinées à être utilisées pour examiner l&#39;étendue et la dynamique de la canopée de varech près du rivage (&lt;30 m). Ces données ne font pas de différence entre le varech géant (Macrocystis pyrifera) et le varech taureau (Nereocystis luetkeana).</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mco:useLimitation>
@@ -1898,6 +1898,65 @@ Bell, T.W., Allen, J.G., Cavanaugh, K.C., et Siegel, D.A. (2020). Trois décenni
       </mrd:transferOptions>
     </mrd:MD_Distribution>
   </mdb:distributionInfo>
+  <mdb:resourceLineage>
+    <mrl:LI_Lineage>
+      <mrl:statement>
+        <gco:CharacterString>Three decades of variability in California&#39;s giant kelp forests from the Landsat satellites</gco:CharacterString>
+      </mrl:statement>
+      <mrl:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="collectionSession" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mrl:scope>
+      <mrl:additionalDocumentation>
+        <cit:CI_Citation>
+          <cit:title>
+            <gco:CharacterString>Three decades of variability in California&#39;s giant kelp forests from the Landsat satellites</gco:CharacterString>
+          </cit:title>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://www.sciencedirect.com/science/article/abs/pii/S0034425718303171</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
+          <cit:onlineResource>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://www.sciencedirect.com/science/article/abs/pii/S0034425718303171</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+            </cit:CI_OnlineResource>
+          </cit:onlineResource>
+        </cit:CI_Citation>
+      </mrl:additionalDocumentation>
+      <mrl:source>
+        <mrl:LI_Source>
+          <mrl:description>
+            <gco:CharacterString></gco:CharacterString>
+          </mrl:description>
+          <mrl:sourceCitation>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString></gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mrl:sourceCitation>
+        </mrl:LI_Source>
+      </mrl:source>
+    </mrl:LI_Lineage>
+  </mdb:resourceLineage>
   <mdb:metadataMaintenance>
     <mmi:MD_MaintenanceInformation>
       <mmi:maintenanceAndUpdateFrequency>
