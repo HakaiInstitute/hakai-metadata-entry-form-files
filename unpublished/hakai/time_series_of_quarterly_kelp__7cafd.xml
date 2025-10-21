@@ -584,7 +584,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-10-21T22:00:50.840Z</gco:DateTime>
+        <gco:DateTime>2025-10-21T22:01:55.656Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1951,6 +1951,51 @@ Bell, T.W., Allen, J.G., Cavanaugh, K.C., et Siegel, D.A. (2020). Trois décenni
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
+            </cit:CI_Citation>
+          </mrl:sourceCitation>
+        </mrl:LI_Source>
+      </mrl:source>
+    </mrl:LI_Lineage>
+  </mdb:resourceLineage>
+  <mdb:resourceLineage>
+    <mrl:LI_Lineage>
+      <mrl:statement>
+        <gco:CharacterString>Kelpwatch: A new visualization and analysis tool to explore kelp canopy dynamics reveals variable response to and recovery from marine heatwaves</gco:CharacterString>
+      </mrl:statement>
+      <mrl:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="collectionSession" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mrl:scope>
+      <mrl:source>
+        <mrl:LI_Source>
+          <mrl:description>
+            <gco:CharacterString>Peer review paper</gco:CharacterString>
+          </mrl:description>
+          <mrl:sourceCitation>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>Kelpwatch: A new visualization and analysis tool to explore kelp canopy dynamics reveals variable response to and recovery from marine heatwaves</gco:CharacterString>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271477</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271477</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
             </cit:CI_Citation>
           </mrl:sourceCitation>
         </mrl:LI_Source>
