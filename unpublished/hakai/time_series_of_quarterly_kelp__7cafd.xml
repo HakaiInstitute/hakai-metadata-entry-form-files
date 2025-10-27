@@ -584,7 +584,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-10-27T22:48:28.802Z</gco:DateTime>
+        <gco:DateTime>2025-10-27T22:52:26.792Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1951,8 +1951,13 @@ Bell, T.W., Allen, J.G., Cavanaugh, K.C., et Siegel, D.A. (2020). Trois décenni
   </mdb:distributionInfo>
   <mdb:resourceLineage>
     <mrl:LI_Lineage>
-      <mrl:statement>
+      <mrl:statement xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>Three decades of variability in California&#39;s giant kelp forests from the Landsat satellites</gco:CharacterString>
+        <lan:PT_FreeText>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+            <lan:LocalisedCharacterString locale="#fr">Trois décennies de variabilité dans les forêts de varech géantes de Californie à partir des satellites Landsat</lan:LocalisedCharacterString>
+          </lan:textGroup>
+        </lan:PT_FreeText>
       </mrl:statement>
       <mrl:scope>
         <mcc:MD_Scope>
@@ -1963,8 +1968,13 @@ Bell, T.W., Allen, J.G., Cavanaugh, K.C., et Siegel, D.A. (2020). Trois décenni
       </mrl:scope>
       <mrl:additionalDocumentation>
         <cit:CI_Citation>
-          <cit:title>
+          <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Three decades of variability in California&#39;s giant kelp forests from the Landsat satellites</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Trois décennies de variabilité dans les forêts de varech géantes de Californie à partir des satellites Landsat</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </cit:title>
           <cit:identifier>
             <mcc:MD_Identifier>
@@ -2022,25 +2032,35 @@ Bell, T.W., Allen, J.G., Cavanaugh, K.C., et Siegel, D.A. (2020). Trois décenni
       </mrl:scope>
       <mrl:source>
         <mrl:LI_Source>
-          <mrl:description>
+          <mrl:description xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Peer review paper</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Document d&#39;évaluation par les pairs</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mrl:description>
           <mrl:sourceCitation>
             <cit:CI_Citation>
-              <cit:title>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Kelpwatch: A new visualization and analysis tool to explore kelp canopy dynamics reveals variable response to and recovery from marine heatwaves</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Kelpwatch : un nouvel outil de visualisation et d&#39;analyse pour explorer la dynamique de la canopée de varech révèle une réponse et un rétablissement variables aux vagues de chaleur marines</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
                   <mcc:code>
-                    <gco:CharacterString>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271477</gco:CharacterString>
+                    <gco:CharacterString>https://doi.org/10.1371/journal.pone.0271477</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271477</gco:CharacterString>
+                    <gco:CharacterString>https://doi.org/10.1371/journal.pone.0271477</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
