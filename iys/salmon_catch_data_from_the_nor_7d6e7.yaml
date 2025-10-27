@@ -42,12 +42,12 @@ contact:
   - distributor
 distribution:
 - description:
-    en: Version 1.3.1 currently includes 50,832 fishing operations (position, date,
-      catch, effort, SST) and 1,170,207 salmon examined (length, weight, sex, age,
-      gonad size)
-    fr: La version 1.3.1 inclut actuellement 50 832 opérations de pêche (position,
-      date, capture, effort, SST) et 1 170 207 saumons examinés (longueur, poids,
-      sexe, âge, taille des gonades)
+    en: Version 1.5.1 currently includes over 50,000 fishing operations (position,
+      date, catch, effort, SST) and over 1.1 million salmon examined (length, weight,
+      sex, age, gonad size)
+    fr: La version 1.5.1 inclut actuellement plus de 50 000 opérations de pêche (position,
+      date, capture, effort, SST) et plus de 1,1 million de saumons examinés (longueur,
+      poids, sexe, âge, taille des gonades)
     translations:
       fr:
         verified: true
@@ -57,7 +57,7 @@ distribution:
     translations:
       fr:
         verified: true
-  url: https://www.npafc.org/wp-content/uploads/IPSDL/IPSDL-1.3.1.zip
+  url: https://www.npafc.org/wp-content/uploads/IPSDL/IPSDL_1.5.1.zip
 identification:
   abstract:
     en: 'A new electronic archive has been assembled containing records of the data
@@ -78,16 +78,16 @@ identification:
       and future assessments of change must be compared to these records.
 
 
-      In late 2024, the archive (Version 1.3.1) currently includes 50,832 fishing
-      operations (position, date, catch, effort, SST) and 1,170,207 salmon examined
-      (length, weight, sex, age, gonad size). Missing data in some fields are common.
-      Much of the archive contains what had previously been transcribed into various
-      electronic formats by different agencies at different times since the 1960s.
-      The present effort was to develop a common format and coding system for measurements
-      and observations that were shared in common by different agencies. Fortunately,
-      scientists working under INPFC had established data exchange protocols and standards
-      so much of the basic data about salmon was collected and recorded using similar
-      methods.'
+      In July 2025, the archive (Version 1.5.1) currently includes over 50,000 fishing
+      operations (position, date, catch, effort, SST) and over 1.1 million salmon
+      examined (length, weight, sex, age, gonad size). Missing data in some fields
+      are common. Much of the archive contains what had previously been transcribed
+      into various electronic formats by different agencies at different times since
+      the 1960s. The present effort was to develop a common format and coding system
+      for measurements and observations that were shared in common by different agencies.
+      Fortunately, scientists working under INPFC had established data exchange protocols
+      and standards so much of the basic data about salmon was collected and recorded
+      using similar methods.'
     fr: 'Une nouvelle archive électronique contenant des enregistrements des données
       collectées par les navires de recherche sur le saumon dans l''océan Pacifique
       Nord et ses mers marginales depuis le milieu du XXe siècle a été constituée.
@@ -96,7 +96,7 @@ identification:
       comptait trois pays membres (le Canada, le Japon et les États-Unis d''Amérique)
       qui souhaitaient principalement déterminer la vulnérabilité du saumon produit
       par leurs pays à la capture par la pêche au saumon en haute mer, principalement
-      par les Japonais. L''INPFC a coordonné l''étude scientifique internationale
+      par les Japonais. L''INPFC a coordonné l''enquête scientifique internationale
       la plus complète de l''histoire sur la biologie du saumon en haute mer. Alors
       que l''intérêt politique pour la connaissance de la biologie du saumon en haute
       mer a diminué dans les années 1970, les diverses agences participant à des expéditions
@@ -108,17 +108,18 @@ identification:
       être comparées à ces données.
 
 
-      Fin 2024, les archives (version 1.3.1) comprenaient actuellement 50 832 opérations
-      de pêche (position, date, capture, effort, SST) et 1 170 207 saumons examinés
-      (longueur, poids, sexe, âge, taille des gonades). Les données manquantes dans
-      certains champs sont fréquentes. Une grande partie des archives contient ce
-      qui avait déjà été transcrit dans divers formats électroniques par différentes
-      agences à différentes époques depuis les années 1960. L''effort actuel visait
-      à développer un format et un système de codage communs pour les mesures et les
-      observations qui étaient partagés en commun par différents organismes. Heureusement,
-      les scientifiques travaillant pour l''INPFC avaient établi des protocoles et
-      des normes d''échange de données, si bien que la plupart des données de base
-      sur le saumon ont été collectées et enregistrées à l''aide de méthodes similaires.'
+      En juillet 2025, les archives (version 1.5.1) comprennent actuellement plus
+      de 50 000 opérations de pêche (position, date, capture, effort, SST) et plus
+      de 1,1 million de saumons examinés (longueur, poids, sexe, âge, taille des gonades).
+      Les données manquantes dans certains champs sont fréquentes. Une grande partie
+      des archives contient ce qui avait déjà été transcrit dans divers formats électroniques
+      par différentes agences à différentes époques depuis les années 1960. L''effort
+      actuel visait à développer un format et un système de codage communs pour les
+      mesures et les observations qui étaient partagés en commun par différents organismes.
+      Heureusement, les scientifiques travaillant pour l''INPFC avaient établi des
+      protocoles et des normes d''échange de données, si bien que la plupart des données
+      de base sur le saumon ont été collectées et enregistrées à l''aide de méthodes
+      similaires.'
     translations:
       fr:
         verified: true
@@ -140,8 +141,8 @@ identification:
   dates:
     creation: '1953-05-21'
     publication: '2024-08-23'
-    revision: '2024-09-11'
-  edition: 1.3.1
+    revision: '2025-07-14'
+  edition: 1.5.1
   identifier: https://doi.org/10.23849/t1wb-y481
   keywords:
     default:
@@ -167,16 +168,16 @@ identification:
       - Abondance et distribution de poissons
     taxa:
       en:
-      - Animalia
       - Chordata
-      - Salmoniformes
       - Salmonidae
+      - Salmoniformes
+      - Animalia
       - Oncorhynchus
       fr:
-      - Animalia
       - Chordata
-      - Salmoniformes
       - Salmonidae
+      - Salmoniformes
+      - Animalia
       - Oncorhynchus
   progress_code: historicalArchive
   status: published
@@ -194,8 +195,8 @@ instruments:
 - id: Long line
 metadata:
   dates:
-    publication: '2024-08-23'
-    revision: '2024-10-23T18:32:22.488Z'
+    publication: '2025-10-27'
+    revision: '2025-10-08T20:51:55.830Z'
   identifier: 7d6e7505-fdd7-4cbe-abbf-0f17c5c16113
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/jnK2pbrIzbMBHpSiUOi8XDUeev93/-Mw-3mEuvTSv_Y3PQjCu
