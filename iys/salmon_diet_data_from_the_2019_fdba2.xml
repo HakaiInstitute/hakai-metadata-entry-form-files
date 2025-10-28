@@ -605,7 +605,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2023-09-12T17:36:03.532Z</gco:DateTime>
+        <gco:DateTime>2025-10-24T22:16:04.880Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -615,7 +615,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:Date>2023-09-12</gco:Date>
+        <gco:Date>2025-10-28</gco:Date>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
@@ -672,7 +672,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -685,7 +685,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -702,7 +702,7 @@
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Salmon Diet data from the 2019 Gulf of Alaska International Year of the Salmon Expedition</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Données sur le régime alimentaire du saumon de l&#39;expédition 2019 de l&#39;Année internationale du saumon dans le golfe de l&#39;Alaska</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -733,7 +733,7 @@
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
-                <gco:CharacterString>10.21966/wzb8-ns19</gco:CharacterString>
+                <gco:CharacterString>https://doi.org/10.21966/wzb8-ns19</gco:CharacterString>
               </mcc:code>
             </mcc:MD_Identifier>
           </cit:identifier>
@@ -3183,7 +3183,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>This dataset contains salmon stomach content data collected in the Northeast Pacific Ocean during February and March 2019. These data were collected as part of the International Year of the Salmon (IYS) High Seas Expedition, to further improve the understanding of factors impacting salmon early marine winter survival. Salmon were caught with a midwater trawl at 48 of the 58 stations fished. Stomach analysis to examine salmon diet was conducted on all salmon captured (n=425) during the survey. Preliminary analysis indicated that key diet categories by volume included euphausiids, pteropods, larval fish, and squid. Stomach contents have been preserved (frozen) and will undergo additional analysis in laboratories in Canada and the US. Individual stomach content was identified to the lowest taxonomic rank possible, and weighted to the nearest 0.01 gram. Additionally, the gut fullness index (GFI) was derived.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Ce jeu de données contient des données sur la teneur en estomac du saumon recueillies dans l&#39;océan Pacifique Nord-Est en février et mars 2019. Ces données ont été recueillies dans le cadre de l&#39;expédition en haute mer de l&#39;Année internationale du saumon (AIA). Le saumon a été capturé au chalut de surface dans 48 des 58 stations pêchées. Une analyse de l&#39;estomac pour examiner le régime alimentaire du saumon a été effectuée sur tous les saumons capturés (n = 425) au cours de l&#39;enquête. Une analyse préliminaire a révélé que les principales catégories de régime selon le volume comprenaient les euphausiacés, les ptéropodes, les larves de poissons et les calmars. Le contenu de l&#39;estomac a été préservé (congelé) et fera l&#39;objet d&#39;analyses supplémentaires dans les laboratoires du Canada et des États-Unis. La teneur individuelle de l&#39;estomac a été identifiée au rang taxonomique le plus bas possible et pondérée à 0,01 gramme près. De plus, l&#39;indice de plénitude intestinale (GFI) a été calculé.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -3275,7 +3275,7 @@
             <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
           </mmi:maintenanceAndUpdateFrequency>
           <mmi:maintenanceNote>
-            <gco:CharacterString>Generated from https://cioos-siooc.github.io/metadata-entry-form</gco:CharacterString>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/jnK2pbrIzbMBHpSiUOi8XDUeev93/-Mb8GZ3BCeKPwOypwJgI</gco:CharacterString>
           </mmi:maintenanceNote>
         </mmi:MD_MaintenanceInformation>
       </mri:resourceMaintenance>
@@ -3362,6 +3362,57 @@
             <cit:CI_Citation>
               <cit:title>
                 <gco:CharacterString>eov</gco:CharacterString>
+              </cit:title>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Animalia</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Chordata</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Salmonidae</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Salmoniformes</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Animalia</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Chordata</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Salmonidae</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Salmoniformes</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>taxa</gco:CharacterString>
               </cit:title>
             </cit:CI_Citation>
           </mri:thesaurusName>
@@ -3482,7 +3533,7 @@
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://github.com/international-year-of-the-salmon/2019-salmon-diet</gco:CharacterString>
+                <gco:CharacterString>https://github.com/international-year-of-the-salmon/2019-salmon-diet/archive/refs/heads/main.zip</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -3490,46 +3541,16 @@
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Gulf of Alaska 2019 Salmon diet data</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Données sur le régime alimentaire du saumon dans le golfe d&#39;Alaska en 2019</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Internally Available Only. Must be signed into GitHub to view these data. Data includes taxa identified, to the lowest taxonomic rank possible, from the stomach contents of select salmon caught during the 2019 High Seas Expedition as part of the International Year of the Salmon (IYS) project. Data includes salmon gut fullness index and biomass of prey content.</gco:CharacterString>
+                <gco:CharacterString>Data includes taxa identified, to the lowest taxonomic rank possible, from the stomach contents of select salmon caught during the 2019 High Seas Expedition as part of the International Year of the Salmon (IYS) project. Data includes salmon gut fullness index and biomass of prey content.</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
-                    <lan:LocalisedCharacterString locale="#fr">Les données comprennent les taxons identifiés, au rang taxonomique le plus bas possible, à partir du contenu gastrique de certains saumons capturés lors de l&#39;expédition en haute mer de 2019 dans le cadre du projet de l&#39;Année internationale du saumon (AIY). Les données comprennent l&#39;indice de plénitude intestinale du saumon et la teneur en biomasse des proies.</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://github.com/international-year-of-the-salmon/2019-salmon-diet/blob/main/docs/</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Supplementary materials</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup>
-                    <lan:LocalisedCharacterString locale="#fr">Matériaux supplémentaires</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Information about the methodologies used for data collection and processing</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup>
-                    <lan:LocalisedCharacterString locale="#fr">Informations sur les méthodologies utilisées pour la collecte et le traitement des données</lan:LocalisedCharacterString>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Les données incluent des taxons identifiés, au rang taxonomique le plus bas possible, à partir du contenu stomacal de certains saumons capturés lors de l&#39;expédition en haute mer de 2019 dans le cadre du projet Année internationale du saumon (IYS). Les données comprennent l&#39;indice de remplissage intestinal du saumon et la biomasse du contenu des proies.</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>

@@ -113,28 +113,29 @@ contact:
   - distributor
 distribution:
 - description:
-    en: Internally Available Only. Must be signed into GitHub to view these data.
-      Data includes taxa identified, to the lowest taxonomic rank possible, from the
-      stomach contents of select salmon caught during the 2019 High Seas Expedition
+    en: Data includes taxa identified, to the lowest taxonomic rank possible, from
+      the stomach contents of select salmon caught during the 2019 High Seas Expedition
       as part of the International Year of the Salmon (IYS) project. Data includes
       salmon gut fullness index and biomass of prey content.
-    fr: Les données comprennent les taxons identifiés, au rang taxonomique le plus
-      bas possible, à partir du contenu gastrique de certains saumons capturés lors
-      de l'expédition en haute mer de 2019 dans le cadre du projet de l'Année internationale
-      du saumon (AIY). Les données comprennent l'indice de plénitude intestinale du
-      saumon et la teneur en biomasse des proies.
+    fr: Les données incluent des taxons identifiés, au rang taxonomique le plus bas
+      possible, à partir du contenu stomacal de certains saumons capturés lors de
+      l'expédition en haute mer de 2019 dans le cadre du projet Année internationale
+      du saumon (IYS). Les données comprennent l'indice de remplissage intestinal
+      du saumon et la biomasse du contenu des proies.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Gulf of Alaska 2019 Salmon diet data
     fr: Données sur le régime alimentaire du saumon dans le golfe d'Alaska en 2019
-  url: https://github.com/international-year-of-the-salmon/2019-salmon-diet
-- description:
-    en: Information about the methodologies used for data collection and processing
-    fr: Informations sur les méthodologies utilisées pour la collecte et le traitement
-      des données
-  name:
-    en: Supplementary materials
-    fr: Matériaux supplémentaires
-  url: https://github.com/international-year-of-the-salmon/2019-salmon-diet/blob/main/docs/
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/international-year-of-the-salmon/2019-salmon-diet/archive/refs/heads/main.zip
 identification:
   abstract:
     en: This dataset contains salmon stomach content data collected in the Northeast
@@ -162,11 +163,17 @@ identification:
       des États-Unis. La teneur individuelle de l'estomac a été identifiée au rang
       taxonomique le plus bas possible et pondérée à 0,01 gramme près. De plus, l'indice
       de plénitude intestinale (GFI) a été calculé.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
   dates:
     creation: '2019-02-18'
     publication: '2022-06-17'
   edition: '1.0'
-  identifier: 10.21966/wzb8-ns19
+  identifier: https://doi.org/10.21966/wzb8-ns19
   keywords:
     default:
       en:
@@ -183,6 +190,17 @@ identification:
       fr:
       - Biomasse et diversité de zooplancton
       - Abondance et distribution de poissons
+    taxa:
+      en:
+      - Animalia
+      - Chordata
+      - Salmonidae
+      - Salmoniformes
+      fr:
+      - Animalia
+      - Chordata
+      - Salmonidae
+      - Salmoniformes
   progress_code: completed
   status: published
   temporal_begin: '2019-02-18T20:00:00.000Z'
@@ -192,15 +210,20 @@ identification:
       Expedition
     fr: Données sur le régime alimentaire du saumon de l'expédition 2019 de l'Année
       internationale du saumon dans le golfe de l'Alaska
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 instruments:
 - id: N/A
 metadata:
   dates:
-    publication: '2023-09-12'
-    revision: '2023-09-12T17:36:03.532Z'
+    publication: '2025-10-28'
+    revision: '2025-10-24T22:16:04.880Z'
   identifier: fdba20a9-0e91-4e37-bf5f-086b08d56209
   language: en
-  maintenance_note: Generated from https://cioos-siooc.github.io/metadata-entry-form
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/jnK2pbrIzbMBHpSiUOi8XDUeev93/-Mb8GZ3BCeKPwOypwJgI
   naming_authority: ca.cioos
   use_constraints:
     licence:
@@ -214,3 +237,4 @@ spatial:
   vertical:
   - 0.0
   - 40.0
+  vertical_positive: depthPositive
