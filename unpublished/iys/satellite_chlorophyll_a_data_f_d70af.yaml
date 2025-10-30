@@ -8,7 +8,7 @@ contact:
     country: Canada
     name: University of Victoria
     ror: https://ror.org/04s5mat29
-    url: http://www.uvic.ca/
+    url: https://www.uvic.ca
   roles:
   - owner
   - custodian
@@ -39,11 +39,21 @@ distribution:
 - description:
     en: Description needed once data is published
     fr: Description requise une fois les données publiées
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Satellite Chlorophyll a data from the CCGS Sir John Franklin collected during
       the 2022 International Year of the Salmon Expedition
     fr: Données satellitaires sur la chlorophylle a du NGCC Sir John Franklin recueillies
       lors de l'expédition 2022 de l'Année internationale du saumon
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://international-year-of-the-salmon.github.io/about/data-unavailable.html
 identification:
   abstract:
@@ -63,6 +73,7 @@ identification:
   associated_resources: []
   dates:
     creation: '2022-02-22'
+  identifier: https://doi.org/10.23849/933-oo9
   keywords:
     default:
       en:
@@ -98,7 +109,7 @@ identification:
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2024-09-10T18:09:09.975Z'
+    revision: '2025-10-30T21:17:03.450Z'
   identifier: d70af273-9ce1-4083-add7-f9fc17c196d3
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/jnK2pbrIzbMBHpSiUOi8XDUeev93/-NBmZZjgFLpfedxu_xXU
