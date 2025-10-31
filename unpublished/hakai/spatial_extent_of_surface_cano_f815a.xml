@@ -988,7 +988,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-10-31T22:08:05.833Z</gco:DateTime>
+        <gco:DateTime>2025-10-31T22:08:53.888Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1093,7 +1093,7 @@
           <cit:date>
             <cit:CI_Date>
               <cit:date>
-                <gco:Date>2025-07-21</gco:Date>
+                <gco:Date>2025-10-31</gco:Date>
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
@@ -2315,12 +2315,6 @@ L&#39;utilisation de cet ensemble de données nécessite l&#39;autorisation du m
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>habitat characterization</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>important habitat</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
             <gco:CharacterString>Macrocystis pyrifera</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
@@ -2342,10 +2336,24 @@ L&#39;utilisation de cet ensemble de données nécessite l&#39;autorisation du m
             <gco:CharacterString>habitat mapping</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>caractérisation des habitats</gco:CharacterString>
+            <gco:CharacterString>important habitat</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>habitats important</gco:CharacterString>
+            <gco:CharacterString>habitat characterization</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">habitats important</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">caractérisation des habitats</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mri:keyword>
           <mri:thesaurusName>
             <cit:CI_Citation>
