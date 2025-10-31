@@ -279,31 +279,33 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-10-31T21:57:35.545Z'
+    revision: '2025-10-31T21:58:20.041Z'
   history:
-  - additionalDocumentation:
-    - authority: URL
-      code: https://hakai-segmentation.readthedocs.io/en/latest/
-      title:
-        en: KelpOMatic
-        fr: KelpoMatic
+  - processingStep:
+    - authority: DOI
+      code: https://doi.org/10.5281/zenodo.8323070
+      description:
+        en: AI Segmentation Tool that automates surface kelp canopy in remotely sensed
+          high resolution imagery
+        fr: Outil de segmentation basé sur l'IA qui automatise la canopée de varech
+          de surface dans des images haute résolution détectées à distance
         translations:
           fr:
             message: text translated using the Amazon translate service / texte traduit
               à l'aide du service de traduction Amazon
             verified: false
-    processingStep:
-    - authority: URL
-      code: https://hakai-segmentation.readthedocs.io/en/latest/
-      description:
-        en: Machine learning tool which automates species-level detection of surface
-          canopy kelp.
       title:
-        en: KelpOMatic
+        en: Kelp-O-Matic
+        fr: Kelp-O-Matic
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
     scope: Dataset
     statement:
-      en: Hakai Institute KelpOMatic Tool
-      fr: Outil KelpoMatic de l'Institut Hakai
+      en: Hakai Institute Kelp-O-Matic Tool
+      fr: Outil Kelp-O-Matic de l'Institut Hakai
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
