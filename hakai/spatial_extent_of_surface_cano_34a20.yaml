@@ -184,11 +184,6 @@ identification:
       \ avec l'Institut Hakai. Contactez Sarah Schroeder (sschroeder@mappocean.org)\
       \ et Genevieve Reynolds (greynoldsccira@gmail.com) pour plus d'informations\
       \ sur l'accès aux données et les opportunités de collaboration avec mApp."
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
   associated_resources:
   - association_type: HasMetadata
     association_type_iso: crossReference
@@ -227,6 +222,20 @@ identification:
         Central Coast, British Columbia, Canada
       fr: Etendue spatiale du varech de la canopée de surface dérivée de relevés à
         voilure fixe (2020-2022), Côte centrale, Colombie-Britannique, Canada
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: Continues
+    association_type_iso: series
+    authority: DOI
+    code: https://doi.org/10.21966/qs1b-g693
+    title:
+      en: Spatial extent of surface canopy kelp derived from fixed-wing surveys (2023),
+        Central Coast, British Columbia, Canada
+      fr: Etendue spatiale du varech de surface du couvert végétal dérivée de relevés
+        à voilure fixe (2023), côte centrale, Colombie-Britannique, Canada
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -299,7 +308,7 @@ identification:
 metadata:
   dates:
     publication: '2025-10-06'
-    revision: '2025-10-31T22:34:40.546Z'
+    revision: '2025-10-31T22:36:03.730Z'
   history:
   - processingStep:
     - authority: DOI
