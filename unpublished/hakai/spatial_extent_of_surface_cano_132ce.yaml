@@ -14,6 +14,9 @@ contact:
   roles:
   - author
   - custodian
+  - pointOfContact
+  - principalInvestigator
+  - processor
 - inCitation: true
   individual:
     name: Holmes, Keith
@@ -25,7 +28,11 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - author
+  - custodian
+  - pointOfContact
+  - coAuthor
+  - processor
+  - contributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -36,7 +43,6 @@ contact:
   roles:
   - funder
   - owner
-  - distributor
 - inCitation: true
   organization:
     city: Campbell River
@@ -46,6 +52,17 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
 distribution:
 - name:
     en: Spatial dataset representing kelp canopy area derived from fixed-wing imagery
@@ -226,7 +243,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-10-31T21:51:08.140Z'
+    revision: '2025-10-31T21:52:50.739Z'
   history:
   - additionalDocumentation:
     - authority: URL
