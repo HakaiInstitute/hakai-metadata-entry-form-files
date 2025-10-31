@@ -35,6 +35,22 @@ contact:
   - coAuthor
   - processor
   - contributor
+- inCitation: true
+  individual:
+    email: taylor.denouden@hakai.org
+    name: Denouden, Taylor
+    orcid: https://orcid.org/0000-0003-0457-1022
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - processor
+  - contributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -65,35 +81,24 @@ contact:
   - custodian
   - owner
   - distributor
-- inCitation: true
-  individual:
-    email: taylor.denouden@hakai.org
-    name: Denouden, Taylor
-    orcid: https://orcid.org/0000-0003-0457-1022
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - coAuthor
-  - processor
-  - contributor
 distribution:
-- name:
-    en: Spatial dataset representing kelp canopy area derived from fixed-wing imagery
-      on the Central Coast of BC in 2024 (Goose Group Region, southwest Calvert Island).
-    fr: Ensemble de données spatiales représentant la superficie de la canopée de
-      varech dérivé d'images à ailes fixes sur la côte centrale de la Colombie-Britannique
-      en 2024 (région du groupe Goose, sud-ouest de l'île Calvert).
+- description:
+    en: Use the form to request the spatial data
+    fr: Utilisez le formulaire pour demander les données spatiales
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://drive.google.com/drive/folders/1AHiGKISmENvbxrZSgO3N5usJYsXo378M?usp=drive_link
+  name:
+    en: Online Data Request Form
+    fr: Formulaire de demande de données en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php
 identification:
   abstract:
     en: "This data package consists of digitized surface canopy extent for two species\
@@ -183,13 +188,26 @@ identification:
   - association_type: IsMetadataFor
     association_type_iso: crossReference
     authority: URL
-    code: https://drive.google.com/drive/folders/1Mdl0EMDEejNx366DIkMjPHO6e0jTmR8m?usp=drive_link
+    code: https://drive.google.com/file/d/1YGa2O3gqDxVHJ6WkbHH5khq_IP-1ByW6/view
     title:
-      en: Canopy kelp (Macrocystis pyrifera, Nereocystis luetkeana) extent derived
-        from fixed-wing surveys, North Coast, British Columbia (2024)
-      fr: Étendue du varech de la canopée (Macrocystis pyrifera, Nereocystis luetkeana)
-        calculée à partir de relevés à voilure fixe, côte nord, Colombie-Britannique
-        (2024)
+      en: 'Metadata Report: Canopy kelp (Macrocystis pyrifera, Nereocystis luetkeana)
+        extent derived from fixed-wing surveys, North Coast, British Columbia (2024)'
+      fr: 'Rapport sur les métadonnées : étendue du varech de la canopée (Macrocystis
+        pyrifera, Nereocystis luetkeana) calculée à partir de relevés à voilure fixe,
+        côte nord, Colombie-Britannique (2024)'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/1a6Xjr2Rxh_oTcPQiCujzRlBxsxTMU64_/view
+    title:
+      en: 'ACO Metadata Project Report: Kelp Mapping - BC North Coast (2024)'
+      fr: 'Rapport du projet de métadonnées de l''ACO : Cartographie du varech - Côte
+        nord de la Colombie-Britannique (2024)'
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -261,7 +279,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-10-31T21:54:40.164Z'
+    revision: '2025-10-31T21:57:35.545Z'
   history:
   - additionalDocumentation:
     - authority: URL
