@@ -1,0 +1,167 @@
+contact:
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  individual:
+    email: dion.oxman@alaska.gov
+    name: Oxman, Dion
+  organization:
+    city: Juneau
+    country: United States
+    name: Alaska Department of Fish and Game
+    ror: https://ror.org/02rh7vj17
+    url: http://www.adfg.alaska.gov/
+  roles:
+  - owner
+  - custodian
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: jim.murphy@noaa.gov
+    name: Murphy, Jim
+    position: Research Biologist
+  organization:
+    city: Washington
+    country: United States
+    name: National Oceanic and Atmospheric Administration
+    ror: https://ror.org/02z5nhe81
+    url: http://www.noaa.gov/
+  roles:
+  - owner
+  - principalInvestigator
+  - custodian
+  - author
+distribution:
+- description:
+    en: Repository containing original salmon scale data from three vessels partaking
+      in the 2022 IYS Pan-Pacific Winter High Seas Expedition.
+    fr: Référentiel contenant des données originales sur les écailles de saumon provenant
+      de trois navires participant à l'expédition hivernale panpacifique en haute
+      mer de l'IYS en 2022.
+    translations:
+      fr:
+        verified: true
+  name:
+    en: Original Data and Supplemental Materials
+    fr: Données d'origine
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/international-year-of-the-salmon/2022-Salmon-Age-Data-from-Scales/archive/refs/heads/main.zip
+identification:
+  abstract:
+    en: Age was determined from salmonid scales collected by the NOAA Bell M. Shimada,
+      R/V TINRO, and F/V Northwest Explorer during the 2022 International Year of
+      the Salmon Pan-Pacific Winter High Seas Expedition.
+    fr: L'âge a été déterminé à partir d'écailles de salmonidés collectées par le
+      NOAA Bell M. Shimada, le R/V TINRO et le F/V Northwest Explorer lors de l'expédition
+      hivernale en haute mer panpacifique 2022 de l'Année internationale du saumon.
+    translations:
+      fr:
+        verified: true
+  associated_resources: []
+  dates:
+    creation: '2022-02-05'
+  edition: '1.0'
+  identifier: https://doi.org/10.23849/a78-lpq
+  keywords:
+    default:
+      en:
+      - North Pacific Ocean
+      - International Year of the Salmon
+      - Salmon
+      - age
+      - scales
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en:
+      - Chordata
+      - Salmonidae
+      - Salmoniformes
+      - Animalia
+      - Oncorhynchus
+      fr:
+      - Chordata
+      - Salmonidae
+      - Salmoniformes
+      - Animalia
+      - Oncorhynchus
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-02-05T20:00:00.000Z'
+  temporal_end: '2022-03-19T19:00:00.000Z'
+  title:
+    en: Salmon Scale Data from the 2022 International Year of the Salmon Pan-Pacific
+      Winter High Seas Expedition
+    fr: Données sur les écailles du saumon issues de l'expédition hivernale en haute
+      mer panpacifique de 2022, Année internationale du saumon
+    translations:
+      fr:
+        verified: true
+metadata:
+  dates:
+    publication: '2025-11-03'
+    revision: '2025-11-03T17:29:50.157Z'
+  identifier: 0caa1552-415f-49d3-a991-7a57aff8686e
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NUbhfpYrfChA1yKY46R
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: The scales collected onboard the R/V TINRO were not collected from the preferred
+        region of the fish’s body and are not considered a standardized sample. Age
+        estimates from those samples may be less accurate.
+      fr: Les écailles recueillies à bord du R/V TINRO n'ont pas été prélevées dans
+        la région préférée du corps du poisson et ne sont pas considérées comme un
+        échantillon standardisé. Les estimations d'âge à partir de ces échantillons
+        peuvent être moins précises.
+      translations:
+        fr:
+          verified: true
+platform:
+- id: 'NOAA Bell M. Shimada IMO: 9349069'
+  type: research vessel
+- id: R/V TINRO
+  type: research vessel
+- id: F/V Northwest Explorer
+  type: fishing vessel
+spatial:
+  polygon: -151.7547,56.26725 -150.996633333333,57.00005 -146.985483333333,58.0089
+    -146.978783333333,57.00325 -146.958483333333,54.98335 -126.4011,47.7868166666667
+    -135.0045,44.9980833333333 -167.1688,45.3843 -169.3867,46.2883 -169.40751,46.29369
+    -171.155,47.91104 -173.6493,48.6943 -171.6187,50.2332 -171.4807,51.2046 -165.326,53.3191
+    -151.7547,56.26725
+  vertical:
+  - 0.0
+  - 56.0
+  vertical_positive: heightPositive
