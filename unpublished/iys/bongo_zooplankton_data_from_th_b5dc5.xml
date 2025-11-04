@@ -471,7 +471,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-06-05T17:26:47.861Z</gco:DateTime>
+        <gco:DateTime>2025-11-04T18:02:30.948Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2501,6 +2501,34 @@
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>Basin-scale zooplankton composition in the Eastern Subarctic Pacific in the winter-spring</gco:CharacterString>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.1016/j.pocean.2025.103526</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -2611,7 +2639,7 @@
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Species occurrence data standardized to Darwin Core and published to the Ocean Biodiversity Information System (OBIS)</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Données d&#39;occurrence des espèces normalisées selon Darwin Core et publiées dans le Système d&#39;information sur la biodiversité des océans (OBIS)</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
@@ -2619,7 +2647,7 @@
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Zooplankton specimen occurrence data from the F/V Northwest Explorer, R/V TINRO, NOAA Bell M. Shimada and R/V CCGS Sir John Franklin has been standardized to Darwin Core and published to OBIS and GBIF.</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Les données sur la présence de spécimens de zooplancton provenant du F/V Northwest Explorer, du R/V TINRO, du NOAA Bell M. Shimada et du R/V CCGS Sir John Franklin ont été normalisées selon Darwin Core et publiées dans OBIS et GBIF.</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
