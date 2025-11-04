@@ -471,7 +471,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-11-04T18:02:30.948Z</gco:DateTime>
+        <gco:DateTime>2025-11-04T18:03:49.633Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2665,4 +2665,68 @@
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>http://vocab.nerc.ac.uk/collection/L06/current/31/</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>R/V TINRO (IMO: 8607086), NOAA Bell M. Shimada (IMO: 9349069), F/V Northwest Explorer (IMO: 7926538), R/V CCGS Sir John Franklin (IMO: 9781839)</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">R/V TINRO (OMI : 8607086), Bell M. Shimada de la NOAA (OMI : 9349069), F/V Northwest Explorer (OMI : 7926538), R/V CCGS Sir John Franklin (OMI : 9781839)</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>Paired Bongo</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Paired bongo nets (60cm diameter, 236 micron mesh size)</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">Filets bongo jumelés (60 cm de diamètre, mailles de 236 microns)</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>research vessel</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
