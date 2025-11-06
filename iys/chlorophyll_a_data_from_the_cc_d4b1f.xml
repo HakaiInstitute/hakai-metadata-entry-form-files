@@ -471,7 +471,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-09-10T18:08:24.751Z</gco:DateTime>
+        <gco:DateTime>2025-11-06T18:00:09.264Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -481,7 +481,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:Date>2023-09-12</gco:Date>
+        <gco:Date>2025-11-06</gco:Date>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
@@ -583,6 +583,13 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://doi.org/10.23849/989-ee4</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
@@ -591,7 +598,7 @@
               <cit:party>
                 <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Fisheries and Oceans Canada</gco:CharacterString>
+                    <gco:CharacterString>Department of Fisheries and Oceans</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
                     <cit:CI_Contact>
@@ -662,7 +669,7 @@
               <cit:party>
                 <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Fisheries and Oceans Canada</gco:CharacterString>
+                    <gco:CharacterString>Department of Fisheries and Oceans</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
                     <cit:CI_Contact>
@@ -1407,7 +1414,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>Chlorophyll samples on board the CCGS Sir John Franklin were collected in square, calibrated, ~330 ml HDPE bottles at several depths in the euphotic zone. Duplicates for all samples were taken when possible as variability between filters can be quite high. Each sample bottle was rinsed thoroughly three times (including the cap) before filling. After 3 rinses, bottles were filled, leaving as little room for air as possible. A filtration manifold system containing 6 filtration towers, the manifold, and a filtrate flask was set up in as dark an environment as possible. Before beginning filtration, each tower was loaded with a 25 mm GF/F filter. The volume filtered is recorded on the sample label and the label was transfered from sample bottle to scintillation vial. Filter was removed after filtration (using forceps) and gently placed in scintillation vial sample side up.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Des échantillons de chlorophylle à bord du NGCC Sir John Franklin ont été prélevés dans des bouteilles carrées calibrées d&#39;environ 330 ml en PEHD à plusieurs profondeurs dans la zone euphotique. Des doublons pour tous les échantillons ont été prélevés lorsque cela était possible, car la variabilité entre les filtres peut être assez élevée. Chaque flacon d&#39;échantillon a été soigneusement rincé trois fois (y compris le bouchon) avant le remplissage. Après 3 rinçages, les bouteilles ont été remplies, laissant le moins de place possible pour l&#39;air. Un système de collecteur de filtration contenant 6 tours de filtration, le collecteur et un flacon de filtrat a été installé dans un environnement aussi sombre que possible. Avant de commencer la filtration, chaque tour était chargée d&#39;un filtre GF/F de 25 mm. Le volume filtré est enregistré sur l&#39;étiquette de l&#39;échantillon et l&#39;étiquette a été transférée du flacon d&#39;échantillon au flacon à scintillation. Le filtre a été retiré après filtration (à l&#39;aide d&#39;une pince) et placé doucement dans le flacon à scintillation, côté échantillon vers le haut.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -1699,21 +1706,26 @@
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://international-year-of-the-salmon.github.io/about/data-unavailable.html</gco:CharacterString>
+                <gco:CharacterString>https://github.com/international-year-of-the-salmon/2022-Chlorophyll-a-Data-CCGS-Sir-John-Franklin/archive/refs/heads/main.zip</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Chlorophyll-a data from the CCGS Sir John Franklin collected during the 2022 International Year of the Salmon Expedition</gco:CharacterString>
+                <gco:CharacterString>Original Data and Supplemental Materials</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup>
-                    <lan:LocalisedCharacterString locale="#fr">Données sur la chlorophylle-A du NGCC Sir John Franklin recueillies lors de l&#39;expédition 2022 de l&#39;Année internationale du saumon</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Données originales et documents supplémentaires</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
-              <cit:description>
-                <gco:CharacterString>Description needed once data is published</gco:CharacterString>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Chlorophyll-a data from the CCGS Sir John Franklin collected during the 2022 International Year of the Salmon Expedition</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">Données sur la chlorophylle-A du NGCC Sir John Franklin recueillies au cours de l&#39;Année internationale de l&#39;expédition du saumon 2022</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
@@ -1728,4 +1740,47 @@
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>IMO: 9781839</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>CCGS Sir John Franklin</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">NGCC Sir John Franklin</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument/>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>research vessel</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>

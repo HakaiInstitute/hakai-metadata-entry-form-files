@@ -5,7 +5,7 @@ contact:
   organization:
     city: Ottawa
     country: Canada
-    name: Fisheries and Oceans Canada
+    name: Department of Fisheries and Oceans
     ror: https://ror.org/02qa1x782
     url: https://www.dfo-mpo.gc.ca
   roles:
@@ -63,13 +63,20 @@ contact:
   - publisher
 distribution:
 - description:
-    en: Description needed once data is published
-  name:
     en: Chlorophyll-a data from the CCGS Sir John Franklin collected during the 2022
       International Year of the Salmon Expedition
-    fr: Données sur la chlorophylle-A du NGCC Sir John Franklin recueillies lors de
-      l'expédition 2022 de l'Année internationale du saumon
-  url: https://international-year-of-the-salmon.github.io/about/data-unavailable.html
+    fr: Données sur la chlorophylle-A du NGCC Sir John Franklin recueillies au cours
+      de l'Année internationale de l'expédition du saumon 2022
+    translations:
+      fr:
+        verified: true
+  name:
+    en: Original Data and Supplemental Materials
+    fr: Données originales et documents supplémentaires
+    translations:
+      fr:
+        verified: true
+  url: https://github.com/international-year-of-the-salmon/2022-Chlorophyll-a-Data-CCGS-Sir-John-Franklin/archive/refs/heads/main.zip
 identification:
   abstract:
     en: Chlorophyll samples on board the CCGS Sir John Franklin were collected in
@@ -98,9 +105,15 @@ identification:
       et l'étiquette a été transférée du flacon d'échantillon au flacon à scintillation.
       Le filtre a été retiré après filtration (à l'aide d'une pince) et placé doucement
       dans le flacon à scintillation, côté échantillon vers le haut.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2022-02-22'
+  identifier: https://doi.org/10.23849/989-ee4
   keywords:
     default:
       en:
@@ -133,8 +146,8 @@ identification:
         verified: false
 metadata:
   dates:
-    publication: '2023-09-12'
-    revision: '2024-09-10T18:08:24.751Z'
+    publication: '2025-11-06'
+    revision: '2025-11-06T18:00:09.264Z'
   identifier: d4b1fb12-9812-42c0-9d96-cbb22700d4f2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/jnK2pbrIzbMBHpSiUOi8XDUeev93/-NBYep1KLZCukIg8jLQC
@@ -145,7 +158,18 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+- description:
+    en: CCGS Sir John Franklin
+    fr: NGCC Sir John Franklin
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: 'IMO: 9781839'
+  instruments: []
+  type: research vessel
 spatial:
   polygon: -143.89225,57.010483 -143.997683,56.053433 -144.070066,55.0049 -144.024283,46.957766
     -144.00765,46.058066 -134.98995,47.031716 -132.075683,50.966483 -134.92445,52.978516
