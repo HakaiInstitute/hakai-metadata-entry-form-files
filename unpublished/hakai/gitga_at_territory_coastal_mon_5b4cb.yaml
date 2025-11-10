@@ -32,9 +32,6 @@ contact:
   - custodian
   - distributor
 - inCitation: true
-  individual:
-    email: data@hakai.org
-    position: Geospatial Science
   organization:
     address: 1100 Island Hwy
     city: Campbell River
@@ -47,10 +44,10 @@ contact:
   - publisher
 distribution:
 - description:
-    en: Metadata report and dataset. Permission from the Gitga’at Nation is required
-      to access the complete report and data.
-    fr: Rapport de métadonnées et jeu de données. L'autorisation de la Nation Gitga'at
-      est requise pour accéder au rapport complet et aux données.
+    en: Access to Gitga'at survey dataset. Permission from the Gitga’at Nation is
+      required to access the complete report and data.
+    fr: Accès à l'ensemble de données de l'enquête Gitga'at. L'autorisation de la
+      Nation Gitga'at est requise pour accéder au rapport complet et aux données.
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -126,11 +123,22 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/1JzY5ELRe1sIbZdq7wBmAOT1t7Y1dNJ2v/view?usp=sharing
+    title:
+      en: ACO Metadata Report - Gitga'at Hakai Coastal Mapping 2025
+      fr: Rapport sur les métadonnées de l'ACO - Cartographie côtière de Gitga'at
+        Hakai 2025
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2025-07-15'
-    publication: '2025-11-06'
-    revision: '2025-11-06'
   edition: '1.0'
   identifier: https://doi.org/10.21966/0xex-r023
   keywords:
@@ -150,12 +158,12 @@ identification:
   progress_code: completed
   project:
   - Airborne Coastal Observatory
+  - Geospatial
   status: submitted
   temporal_begin: '2025-07-15T19:00:00.000Z'
   temporal_end: '2025-07-15T19:00:00.000Z'
   title:
-    en: Gitga'at Territory Coastal Monitoring and Mapping - 2025 - Airborne Coastal
-      Observatory
+    en: Gitga'at Territory Coastal Monitoring and Mapping - Airborne Coastal Observatory
     fr: Surveillance et cartographie du littoral du territoire Gitga'at - 2025 - Observatoire
       côtier aéroporté
     translations:
@@ -165,17 +173,12 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-11-06T23:40:20.627Z'
+    revision: '2025-11-10T21:43:36.291Z'
   identifier: 5b4cbe9f-8f2e-414c-80ff-741372891fe9
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-OdPFhWCkXwvqjCqum30
   naming_authority: ca.cioos
   use_constraints:
-    licence:
-      code: CC-BY-4.0
-      title:
-        en: Creative Commons Attribution 4.0 Attribution
-      url: https://creativecommons.org/licenses/by/4.0
     limitations:
       en: Permission from the Gitga’at Nation is required to access the complete report
         and data. Appropriate credit must be given to Hakai Institute and the authors

@@ -993,7 +993,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-11-06T23:40:20.627Z</gco:DateTime>
+        <gco:DateTime>2025-11-10T21:43:36.291Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1078,7 +1078,7 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Gitga&#39;at Territory Coastal Monitoring and Mapping - 2025 - Airborne Coastal Observatory</gco:CharacterString>
+            <gco:CharacterString>Gitga&#39;at Territory Coastal Monitoring and Mapping - Airborne Coastal Observatory</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Surveillance et cartographie du littoral du territoire Gitga&#39;at - 2025 - Observatoire côtier aéroporté</lan:LocalisedCharacterString>
@@ -1092,26 +1092,6 @@
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
-              </cit:dateType>
-            </cit:CI_Date>
-          </cit:date>
-          <cit:date>
-            <cit:CI_Date>
-              <cit:date>
-                <gco:Date>2025-11-06</gco:Date>
-              </cit:date>
-              <cit:dateType>
-                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
-              </cit:dateType>
-            </cit:CI_Date>
-          </cit:date>
-          <cit:date>
-            <cit:CI_Date>
-              <cit:date>
-                <gco:Date>2025-11-06</gco:Date>
-              </cit:date>
-              <cit:dateType>
-                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
@@ -2001,36 +1981,6 @@
                       </mcc:code>
                     </mcc:MD_Identifier>
                   </cit:partyIdentifier>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString></gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact>
-                          <cit:address>
-                            <cit:CI_Address>
-                              <cit:deliveryPoint>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:deliveryPoint>
-                              <cit:city>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:city>
-                              <cit:country>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:country>
-                              <cit:electronicMailAddress>
-                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                              </cit:electronicMailAddress>
-                            </cit:CI_Address>
-                          </cit:address>
-                        </cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:positionName>
-                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
                 </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
@@ -2256,6 +2206,9 @@ La zone d&#39;étude comprend les voies navigables du plan d&#39;utilisation mar
           <mri:keyword>
             <gco:CharacterString>Airborne Coastal Observatory</gco:CharacterString>
           </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Geospatial</gco:CharacterString>
+          </mri:keyword>
           <mri:type>
             <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
           </mri:type>
@@ -2266,7 +2219,7 @@ La zone d&#39;étude comprend les voies navigables du plan d&#39;utilisation mar
           <mco:reference>
             <cit:CI_Citation>
               <cit:title>
-                <gco:CharacterString>Creative Commons Attribution 4.0 Attribution</gco:CharacterString>
+                <gco:CharacterString>Creative Commons Attribution 4.0</gco:CharacterString>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
@@ -2278,7 +2231,7 @@ La zone d&#39;étude comprend les voies navigables du plan d&#39;utilisation mar
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://creativecommons.org/licenses/by/4.0</gco:CharacterString>
+                    <gco:CharacterString>https://creativecommons.org/licenses/by/4.0/</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -2304,6 +2257,39 @@ La zone d&#39;étude comprend les voies navigables du plan d&#39;utilisation mar
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>ACO Metadata Report - Gitga&#39;at Hakai Coastal Mapping 2025</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Rapport sur les métadonnées de l&#39;ACO - Cartographie côtière de Gitga&#39;at Hakai 2025</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>URL</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://drive.google.com/file/d/1JzY5ELRe1sIbZdq7wBmAOT1t7Y1dNJ2v/view?usp=sharing</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -2425,10 +2411,10 @@ La zone d&#39;étude comprend les voies navigables du plan d&#39;utilisation mar
                 </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Metadata report and dataset. Permission from the Gitga’at Nation is required to access the complete report and data.</gco:CharacterString>
+                <gco:CharacterString>Access to Gitga&#39;at survey dataset. Permission from the Gitga’at Nation is required to access the complete report and data.</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Rapport de métadonnées et jeu de données. L&#39;autorisation de la Nation Gitga&#39;at est requise pour accéder au rapport complet et aux données.</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Accès à l&#39;ensemble de données de l&#39;enquête Gitga&#39;at. L&#39;autorisation de la Nation Gitga&#39;at est requise pour accéder au rapport complet et aux données.</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
