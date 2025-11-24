@@ -697,7 +697,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-11-24T17:57:22.707Z</gco:DateTime>
+        <gco:DateTime>2025-11-24T17:58:14.753Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1887,14 +1887,19 @@ analyses.</lan:LocalisedCharacterString>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Data Access Request Form</gco:CharacterString>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Mystery Creek Aerial Photo and LiDAR Survey - 2025</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Photo aérienne et sondage LiDAR de Mystery Creek - 2025</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Formulaire de demande d&#39;accès aux données</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:name>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Data request form for the Mystery Creek Aerial Photo and LiDAR Survey - 2025</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Formulaire de demande de données pour le relevé de photos aériennes et LiDAR de Mystery Creek - 2025</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
