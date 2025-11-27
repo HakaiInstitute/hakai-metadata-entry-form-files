@@ -1266,7 +1266,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-11-27T17:51:16.687Z</gco:DateTime>
+        <gco:DateTime>2025-11-27T17:54:35.337Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2232,18 +2232,45 @@ L&#39;Observatoire côtier aéroporté (ACO) est une plateforme de télédétect
                 <gco:Boolean>true</gco:Boolean>
               </gex:extentTypeCode>
               <gex:westBoundLongitude>
-                <gco:Decimal>-126.8</gco:Decimal>
+                <gco:Decimal>-126.9</gco:Decimal>
               </gex:westBoundLongitude>
               <gex:eastBoundLongitude>
-                <gco:Decimal>-122.3</gco:Decimal>
+                <gco:Decimal>-122.1</gco:Decimal>
               </gex:eastBoundLongitude>
               <gex:southBoundLatitude>
-                <gco:Decimal>49.07</gco:Decimal>
+                <gco:Decimal>48.62</gco:Decimal>
               </gex:southBoundLatitude>
               <gex:northBoundLatitude>
-                <gco:Decimal>50.55</gco:Decimal>
+                <gco:Decimal>50.82</gco:Decimal>
               </gex:northBoundLatitude>
             </gex:EX_GeographicBoundingBox>
+          </gex:geographicElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_GeographicDescription>
+              <gex:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gex:extentTypeCode>
+              <gex:geographicIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString></gco:CharacterString>
+                  </mcc:code>
+                  <mcc:codeSpace>
+                    <gco:CharacterString>ca.cioos</gco:CharacterString>
+                  </mcc:codeSpace>
+                  <mcc:version>
+                    <gco:CharacterString>1</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>{&#39;en&#39;: &#39;High elevation research sites in southwest British Columbia, Canada. Sites include Tsitika watershed, Cruickshank watershed, Englishman River watershed, and Metro Vancouver - Capilano watershed.&#39;, &#39;fr&#39;: &#39;Sites de recherche en haute altitude dans le sud-ouest de la Colombie-Britannique, au Canada. Les sites comprennent le bassin versant de la Tsitika, le bassin versant de la rivière Cruickshank, le bassin versant de la rivière Englishman et le bassin hydrographique de la région métropolitaine de Vancouver et de Capilano.&#39;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </gex:geographicIdentifier>
+            </gex:EX_GeographicDescription>
           </gex:geographicElement>
         </gex:EX_Extent>
       </mri:extent>
