@@ -48,27 +48,33 @@ identification:
       \ in the fall of 2022, run by the Hakai Institute. The loggers were programmed\
       \ to record the water temperature at 10 minute intervals, starting at 12:00\
       \ on July 12th, 2022 until removed from the water. Loggers were retrieved in\
-      \ early September, 2022 and recordings beyond each retreival date are removed\
+      \ early September, 2022 and recordings beyond each retrieval date are removed\
       \ from the dataset. \n\nThis data package includes: \n-Sea surface temperature\
       \ data collected from loggers in False Creek between July 12th and mid-September,\
       \ 2022. \n-Site metadata, including temperature logger location"
-    fr: "Cet ensemble de données comprend des données sur la température de surface\
-      \ de la mer recueillies à l'aide des enregistreurs de données HOBO TiDBIT MX\
-      \ Temperature 400' (MX2203) déployés sur neuf sites à False Creek, en Colombie-Britannique.\
+    fr: "Cet ensemble de données comprend des données de température de surface de\
+      \ la mer collectées à l'aide des enregistreurs de données HOBO TidBit MX Temperature\
+      \ 400 '(MX2203) déployés sur neuf sites à False Creek, en Colombie-Britannique.\
       \ Des bûcherons ont été suspendus à 0,5 mètre de profondeur à des quais flottants\
       \ à proximité de plaques de peuplement déployées pour un Bioblitz à l'automne\
       \ 2022, géré par l'Institut Hakai. Les enregistreurs ont été programmés pour\
       \ enregistrer la température de l'eau à intervalles de 10 minutes, à partir\
-      \ de midi le 12 juillet 2022 jusqu'à ce qu'elle soit retirée de l'eau. Les enregistreurs\
-      \ ont été récupérés début septembre 2022 et les enregistrements au-delà de chaque\
-      \ date de récupération sont supprimés de l'ensemble de données. \n\nCe package\
-      \ de données inclut : \n-Données sur la température de la surface de la mer\
-      \ recueillies auprès des bûcherons de False Creek entre le 12 juillet et la\
-      \ mi-septembre 2022. \n-Métadonnées du site, y compris l'emplacement de l'enregistreur\
-      \ de température"
+      \ de midi le 12 juillet 2022 jusqu'à ce qu'ils soient retirés de l'eau. Les\
+      \ enregistreurs ont été récupérés début septembre 2022 et les enregistrements\
+      \ au-delà de chaque date de récupération sont supprimés de l'ensemble de données.\
+      \ \n\nCe package de données comprend : \n-Données sur la température de surface\
+      \ de la mer collectées auprès des enregistreurs de False Creek entre le 12 juillet\
+      \ et la mi-septembre 2022. \n-Métadonnées du site, y compris l'emplacement de\
+      \ l'enregistreur de température"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2022-07-12'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/0g6d-pk30
   keywords:
     default:
@@ -81,10 +87,9 @@ identification:
       - seaSurfaceTemperature
       fr:
       - Température de surface
-    taxa:
-      en: []
-      fr: []
   progress_code: completed
+  project:
+  - Sentinels of Change
   status: submitted
   temporal_begin: '2022-07-12T19:00:00.000Z'
   temporal_end: '2022-09-08T19:00:00.000Z'
@@ -109,7 +114,7 @@ instruments:
 metadata:
   dates:
     publication: '2024-07-12'
-    revision: '2025-12-08T19:21:03.952Z'
+    revision: '2025-12-08T19:29:31.329Z'
   identifier: b45dbc9d-bf7a-4734-86cd-3397e7c9ac62
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/57FPdLIBPcb9BOLfIOW44RJVywN2/-NHaXDtgFZr0-Oul6FZG
@@ -123,6 +128,11 @@ metadata:
     limitations:
       en: Haven't applied appropriate QC on the data yet
       fr: Je n'ai pas encore appliqué le contrôle qualité approprié aux données
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 spatial:
   polygon: -123.1,49.28 -123.1,49.28 -123.1,49.28 -123.1,49.28 -123.1,49.27 -123.1,49.27
     -123.1,49.27 -123.1,49.28 -123.1,49.28 -123.1,49.27 -123.1,49.27 -123.1,49.27

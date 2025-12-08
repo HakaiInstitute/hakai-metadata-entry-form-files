@@ -762,7 +762,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-12-08T19:21:03.952Z</gco:DateTime>
+        <gco:DateTime>2025-12-08T19:29:31.329Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -874,6 +874,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -1588,17 +1591,17 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>This dataset is comprised of sea surface temperature data collected using HOBO TidbiT MX Temperature 400&#39; data loggers (MX2203) deployed at nine locations in False Creek, British Columbia. Loggers were suspended at 0.5 metres depth from floating docks in proximity to settlement plates deployed for a Bioblitz in the fall of 2022, run by the Hakai Institute. The loggers were programmed to record the water temperature at 10 minute intervals, starting at 12:00 on July 12th, 2022 until removed from the water. Loggers were retrieved in early September, 2022 and recordings beyond each retreival date are removed from the dataset. 
+        <gco:CharacterString>This dataset is comprised of sea surface temperature data collected using HOBO TidbiT MX Temperature 400&#39; data loggers (MX2203) deployed at nine locations in False Creek, British Columbia. Loggers were suspended at 0.5 metres depth from floating docks in proximity to settlement plates deployed for a Bioblitz in the fall of 2022, run by the Hakai Institute. The loggers were programmed to record the water temperature at 10 minute intervals, starting at 12:00 on July 12th, 2022 until removed from the water. Loggers were retrieved in early September, 2022 and recordings beyond each retrieval date are removed from the dataset. 
 
 This data package includes: 
 -Sea surface temperature data collected from loggers in False Creek between July 12th and mid-September, 2022. 
 -Site metadata, including temperature logger location</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
-            <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend des données sur la température de surface de la mer recueillies à l&#39;aide des enregistreurs de données HOBO TiDBIT MX Temperature 400&#39; (MX2203) déployés sur neuf sites à False Creek, en Colombie-Britannique. Des bûcherons ont été suspendus à 0,5 mètre de profondeur à des quais flottants à proximité de plaques de peuplement déployées pour un Bioblitz à l&#39;automne 2022, géré par l&#39;Institut Hakai. Les enregistreurs ont été programmés pour enregistrer la température de l&#39;eau à intervalles de 10 minutes, à partir de midi le 12 juillet 2022 jusqu&#39;à ce qu&#39;elle soit retirée de l&#39;eau. Les enregistreurs ont été récupérés début septembre 2022 et les enregistrements au-delà de chaque date de récupération sont supprimés de l&#39;ensemble de données. 
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+            <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend des données de température de surface de la mer collectées à l&#39;aide des enregistreurs de données HOBO TidBit MX Temperature 400 &#39;(MX2203) déployés sur neuf sites à False Creek, en Colombie-Britannique. Des bûcherons ont été suspendus à 0,5 mètre de profondeur à des quais flottants à proximité de plaques de peuplement déployées pour un Bioblitz à l&#39;automne 2022, géré par l&#39;Institut Hakai. Les enregistreurs ont été programmés pour enregistrer la température de l&#39;eau à intervalles de 10 minutes, à partir de midi le 12 juillet 2022 jusqu&#39;à ce qu&#39;ils soient retirés de l&#39;eau. Les enregistreurs ont été récupérés début septembre 2022 et les enregistrements au-delà de chaque date de récupération sont supprimés de l&#39;ensemble de données. 
 
-Ce package de données inclut : 
--Données sur la température de la surface de la mer recueillies auprès des bûcherons de False Creek entre le 12 juillet et la mi-septembre 2022. 
+Ce package de données comprend : 
+-Données sur la température de surface de la mer collectées auprès des enregistreurs de False Creek entre le 12 juillet et la mi-septembre 2022. 
 -Métadonnées du site, y compris l&#39;emplacement de l&#39;enregistreur de température</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -1764,7 +1767,14 @@ Ce package de données inclut :
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:descriptiveKeywords>
-        <mri:MD_Keywords></mri:MD_Keywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Sentinels of Change</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
@@ -1802,7 +1812,7 @@ Ce package de données inclut :
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Haven&#39;t applied appropriate QC on the data yet</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Je n&#39;ai pas encore appliqué le contrôle qualité approprié aux données</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
