@@ -54,12 +54,23 @@ contact:
   - publisher
 distribution:
 - description:
-    en: HOBO Tidbit Logger Description
-    fr: Description de l'enregistreur HOBO Tidbit
+    en: Repository containing sea surface temperature data from False Creek
+    fr: Référentiel contenant les données de température de surface de la mer de False
+      Creek
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
-    en: HOBO Tidbit Logger Description
-    fr: Description de l'enregistreur HOBO Tidbit
-  url: https://www.onsetcomp.com/products/data-loggers/mx2203
+    en: 2022 Bioblitz False Creek Sensor Data repository
+    fr: Référentiel de données des capteurs Bioblitz False Creek 2022
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/bioblitz-2022-false-creek-sensor-data
 identification:
   abstract:
     en: "This dataset is comprised of sea surface temperature data collected using\
@@ -92,7 +103,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: https://www.onsetcomp.com/products/data-loggers/mx2203
+    title:
+      en: HOBO Tidbit Logger Description
+      fr: Description de l'enregistreur HOBO Tidbit
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2022-07-12'
   edition: '1.0'
@@ -135,7 +158,7 @@ instruments:
 metadata:
   dates:
     publication: '2024-07-12'
-    revision: '2025-12-08T19:32:42.285Z'
+    revision: '2025-12-08T19:36:00.693Z'
   identifier: b45dbc9d-bf7a-4734-86cd-3397e7c9ac62
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/57FPdLIBPcb9BOLfIOW44RJVywN2/-NHaXDtgFZr0-Oul6FZG
