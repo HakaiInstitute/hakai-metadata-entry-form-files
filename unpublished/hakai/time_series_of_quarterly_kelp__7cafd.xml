@@ -584,7 +584,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2025-10-27T23:00:21.504Z</gco:DateTime>
+        <gco:DateTime>2025-12-09T22:15:24.262Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -641,7 +641,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -654,7 +654,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -669,10 +669,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Time series of quarterly kelp canopy extent from Landsat 5, 7, 8, and 9 since 1984</gco:CharacterString>
+            <gco:CharacterString>Time series of quarterly kelp canopy extent from Landsat 5, 7, 8, and 9 since 1985</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Séries chronologiques de l&#39;étendue trimestrielle de la canopée de varech à partir de Landsat 5, 7, 8 et 9 depuis 1984</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Séries chronologiques de l&#39;étendue trimestrielle de la canopée de varech à partir de Landsat 5, 7, 8 et 9 depuis 1985</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -1386,7 +1386,7 @@ The kelp canopy is composed of the portions of fronds and stipes floating on the
 
 Data are organized into geotif files and contain the quarterly percent detections for each Landsat pixel across the four sensors. For example, if there were 5 clear passes of a pixel, and it was classified as kelp in 4 of them, then the pixel value is 80. Kelp presence data are given for individual 30 x 30 meter pixels for coastal areas the Central Coast of British Columbia, Canada. 
 
-Temporal Coverage: begins 1984-04-01. Dataset is ongoing.
+Temporal Coverage: begins 1985-04-01. Dataset is ongoing.
 
 These data are suitable for investigating kelp dynamics at large spatial scales and consideration should be made in their use for any given analysis. Local-scale analyses where species level data are needed, or where kelp is fringing and sparse should use higher spatial resolution imagery for mapping (e.g. fixed-wing surveys or drone surveys). For assistance with the data, please contact data@hakai.org.
 
@@ -1399,11 +1399,11 @@ Bell, T.W., Allen, J.G., Cavanaugh, K.C., &amp; Siegel, D.A. (2020). Three decad
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Ces fichiers de données représentent une série chronologique de la superficie du couvert végétal de varech géant, Macrocystis pyrifera, et de varech taureau, Nereocystis luetkeana, dérivée d&#39;images Landsat corrigées sur le plan atmosphérique : Landsat 5 Thematic Mapper (TM), Landsat 7 Enhanced Thematic Mapper Plus (ETM+), Landsat 8 Operational Land Imager (OLI) et imagerie satellite Landsat 9 Operational Land Imager 2. Les observations sont effectuées sur un cycle de répétition de 16 jours, pour chaque instrument, mais la couverture temporelle est irrégulière en raison de la couverture nuageuse, de la défaillance de l&#39;instrument et de la durée de la mission de chaque capteur (TM : 1984 — 2011, ETM+ : 1999 — présent, OLI : 2013 — présent). 
 
-La canopée de varech est composée de parties de frondes et de stipes flottant à la surface de l&#39;eau. Les zones littorales (à moins d&#39;un pixel Landsat, ~30 m) et les zones à marée basse (roches situées à proximité du rivage et au large) sont masquées au cours de ce processus. Par conséquent, la zone de canopée de varech dans ces zones est exclue de cet ensemble de données. Voir Bell et al. 2020 et 2023 pour plus de détails sur les méthodes. 
+La canopée de varech est composée de portions de frondes et de stipes flottant à la surface de l&#39;eau. Les zones littorales (à moins d&#39;un pixel Landsat, ~30 m) et les zones à marée basse (roches situées à proximité du rivage et au large) sont masquées au cours de ce processus. Par conséquent, la zone de canopée de varech dans ces zones est exclue de cet ensemble de données. Voir Bell et al. 2020 et 2023 pour plus de détails sur les méthodes. 
 
 Les données sont organisées dans des fichiers géotif et contiennent les pourcentages trimestriels de détections pour chaque pixel Landsat sur les quatre capteurs. Par exemple, s&#39;il y a 5 passes claires d&#39;un pixel et que celui-ci a été classé comme varech dans 4 d&#39;entre elles, la valeur du pixel est de 80. Les données de présence de varech sont fournies pour des pixels individuels de 30 x 30 mètres pour les zones côtières de la côte centrale de la Colombie-Britannique, au Canada. 
 
-Couverture temporelle : du 1er avril 1984 au 30 décembre 2023
+Couverture temporelle : commence le 01/04/1985. L&#39;ensemble de données est en cours.
 
 Ces données sont adaptées à l&#39;étude de la dynamique du varech à de grandes échelles spatiales et il convient de tenir compte de leur utilisation pour toute analyse donnée. Les analyses à l&#39;échelle locale pour lesquelles des données relatives à l&#39;espèce sont nécessaires, ou lorsque le varech est frisonnant et clairsemé, devraient utiliser des images à plus haute résolution spatiale pour la cartographie (par exemple, relevés à voilure fixe ou relevés par drone). Pour obtenir de l&#39;aide concernant les données, veuillez contacter data@hakai.org.
 
@@ -1411,7 +1411,7 @@ Pour une méthode détaillée, reportez-vous à ces articles :
 
 Bell TW, Cavanaugh KC, Saccomanno VR, Cavanaugh KC, Houskeeper HF, Eddy N, et al. (2023) Kelpwatch : un nouvel outil de visualisation et d&#39;analyse pour explorer la dynamique de la canopée de varech révèle une réponse et un rétablissement variables aux vagues de chaleur marines. PLoS ONE 18 (3) : e0271477. https://doi.org/10.1371/journal.pone.0271477
 
-Bell, T.W., Allen, J.G., Cavanaugh, K.C., et Siegel, D.A. (2020). Trois décennies de variabilité dans les forêts de varech géantes de Californie à partir des satellites Landsat. Télédétection de l&#39;environnement, 238, 110811.</lan:LocalisedCharacterString>
+Bell, T. W., Allen, J. G., Cavanaugh, K. C. et Siegel, DA (2020). Trois décennies de variabilité dans les forêts de varech géantes de Californie à partir des satellites Landsat. Télédétection de l&#39;environnement, 238, 110811.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>

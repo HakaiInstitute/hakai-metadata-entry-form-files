@@ -103,19 +103,7 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources:
-  - association_type: IsSupplementedBy
-    association_type_iso: crossReference
-    authority: URL
-    code: https://www.onsetcomp.com/products/data-loggers/mx2203
-    title:
-      en: HOBO Tidbit Logger Description
-      fr: Description de l'enregistreur HOBO Tidbit
-      translations:
-        fr:
-          message: text translated using the Amazon translate service / texte traduit
-            à l'aide du service de traduction Amazon
-          verified: false
+  associated_resources: []
   dates:
     creation: '2022-07-12'
   edition: '1.0'
@@ -168,7 +156,29 @@ instruments:
 metadata:
   dates:
     publication: '2024-07-12'
-    revision: '2025-12-08T19:36:52.570Z'
+    revision: '2025-12-09T17:52:15.118Z'
+  history:
+  - additionalDocumentation:
+    - authority: URL
+      code: https://www.onsetcomp.com/products/data-loggers/mx2203
+      title:
+        en: HOBO Tidbit Logger Description
+        fr: Description de l'enregistreur HOBO Tidbit
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    scope: DataCollectionSampling
+    scopeIso: collectionSession
+    statement:
+      en: HOBO Tidbit Logger
+      fr: Enregistreur HOBO Tidbit
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   identifier: b45dbc9d-bf7a-4734-86cd-3397e7c9ac62
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/57FPdLIBPcb9BOLfIOW44RJVywN2/-NHaXDtgFZr0-Oul6FZG
