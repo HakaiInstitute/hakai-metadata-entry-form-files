@@ -92,8 +92,8 @@ contact:
   - publisher
 distribution:
 - description:
-    en: Dataset contains a geodatabase of raster features of quarterly, annual kelp
-      detections derived from the Landsat satellites constellation (1985-2023).
+    en: Compressed folder containing a geodatabase of .tif files for quarterly, annual
+      kelp detections derived from the Landsat satellites constellation (1985-2023).
     fr: Le jeu de données contient une géodatabase des caractéristiques matricielles
       des détections trimestrielles et annuelles de varech dérivées de la constellation
       de satellites Landsat (1985-2023).
@@ -113,7 +113,7 @@ distribution:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://drive.google.com/drive/u/0/folders/1SDeZ-9bsjJDNc7qYsH-fqTm6jcMrqZin
+  url: https://mct-kelp-files-kkju04w5ml.s3.us-west-2.amazonaws.com/Landsat_CentralCoast_Kelp/BC_CentralCoast_Landsat_Kelp.zip
 identification:
   abstract:
     en: "These data files represents a time series of surface kelp canopy area of\
@@ -258,7 +258,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-12-09T22:15:24.262Z'
+    revision: '2025-12-19T20:15:14.168Z'
   history:
   - additionalDocumentation:
     - authority: DOI
