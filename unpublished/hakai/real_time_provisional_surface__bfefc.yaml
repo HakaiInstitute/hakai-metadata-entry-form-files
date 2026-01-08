@@ -1,0 +1,120 @@
+contact:
+- inCitation: true
+  individual:
+    email: wiley.evans@hakai.org
+    name: Evans, Wiley
+    orcid: https://orcid.org/0000-0002-5450-0903
+  organization:
+    address: 303-1100 Island Highway
+    city: Campbell River
+    country: Canada
+    email: wiley.evans@hakai.org
+    name: Tula Foundation / Hakai Institute
+  roles:
+  - owner
+  - custodian
+  - distributor
+distribution:
+- name:
+    en: Hakai Oceanography CTD and Real-time data visualization tool
+  url: https://hakai-ctd-map.server.hakai.app/
+identification:
+  abstract:
+    en: Bute Inlet, a prominent fjord on the British Columbia coast, has been a site
+      for moored, high-resolution measurements of surface seawater and marine boundary
+      layer CO2 content since February 2025. Measurements of temperature, salinity,
+      seawater and atmospheric CO2 partial pressure were collected from a surface
+      buoy located in the central fjord using a MApCO2 System. This data contribution
+      consists of measurements from February 15, 2025 to November 21, 2025.
+    fr: Bute Inlet, un fjord de premier plan sur la côte de la Colombie-Britannique,
+      est un site pour des mesures amarrées à haute résolution de la teneur en CO2
+      de l'eau de mer de surface et de la couche limite marine depuis février 2025.
+      Les mesures de la température, de la salinité, de l'eau de mer et de la pression
+      partielle de CO2 atmosphérique ont été recueillies à partir d'une bouée de surface
+      située dans le fjord central à l'aide d'un système MapCO2. Cette contribution
+      de données comprend des mesures prises entre le 15 février 2025 et le 21 novembre
+      2025.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2025-02-15'
+  edition: '1.1'
+  keywords:
+    default:
+      en:
+      - Bute Inlet, Homalco Territory, Salish Sea, ocean acidification, marine productivity
+    eov:
+      en:
+      - oxygen
+      - inorganicCarbon
+      - particulateMatter
+      - phytoplanktonBiomassAndDiversity
+      - seaSurfaceSalinity
+      - seaSurfaceTemperature
+      fr:
+      - Oxygène
+      - Carbone inorganique
+      - Matière particulaire
+      - Biomasse et diversité de phytoplancton
+      - Salinité de surface
+      - Température de surface
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: submitted
+  temporal_begin: '2025-02-15T20:00:00.000Z'
+  title:
+    en: Real-Time Provisional Surface Ocean and Marine Boundary Layer Observations
+      made from the Bute Inlet Ocean Observing Station (BIOOS) Buoy
+    fr: Observations provisoires en temps réel de l'océan de surface et de la couche
+      limite marine effectuées à partir de la bouée de la station d'observation océanique
+      de Bute Inlet (BIOOS)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2026-01-08T22:27:13.909Z'
+  identifier: bfefcdf9-c922-4e4f-a958-aa6da739d3cd
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-OOYvTmfsWUPdHkDTTFS
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-NC-4.0
+      title:
+        en: 'Creative Commons Attribution 4.0 Attribution-NonCommercial  '
+      url: https://creativecommons.org/licenses/by-nc/4.0/
+platform:
+- id: 187F
+  instruments: []
+  type: moored surface buoy
+spatial:
+  description:
+    en: This time series is centrally located within Bute Inlet with measurements
+      of the surface ocean and marine boundary layer.
+  polygon: -124.899883,50.5976
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
