@@ -1,0 +1,121 @@
+abstract: "These data files represents a time series of surface kelp canopy area of\
+  \ giant kelp, Macrocystis pyrifera, and bull kelp, Nereocystis luetkeana, derived\
+  \ from atmospherically corrected Landsat imagery: Landsat 5 Thematic Mapper (TM),\
+  \ Landsat 7 Enhanced Thematic Mapper Plus (ETM+), Landsat 8 Operational Land Imager\
+  \ (OLI), and Landsat 9 Operational Land Imager 2 satellite imagery. Observations\
+  \ are made on a 16 day repeat cycle, for each instrument, but the temporal coverage\
+  \ is irregular because of cloud cover, instrument failure, and the mission length\
+  \ of each sensor (TM: 1984 \u2013 2011, ETM+: 1999 \u2013 present, OLI: 2013 \u2013\
+  \ present). \n\nThe kelp canopy is composed of the portions of fronds and stipes\
+  \ floating on the surface of the water. Nearshore (within one Landsat pixel, ~30m)\
+  \ and low tide areas (both nearshore and offshore rocks) are masked during this\
+  \ process, therefore kelp canopy area within those areas are excluded in this dataset.\
+  \ See Bell et al. 2020 and 2023 for more details on methods. \n\nData are organized\
+  \ into geotif files and contain the quarterly percent detections for each Landsat\
+  \ pixel across the four sensors. For example, if there were 5 clear passes of a\
+  \ pixel, and it was classified as kelp in 4 of them, then the pixel value is 80.\
+  \ Kelp presence data are given for individual 30 x 30 meter pixels for coastal areas\
+  \ the Central Coast of British Columbia, Canada. \n\nThese data are suitable for\
+  \ investigating kelp dynamics at large spatial scales and consideration should be\
+  \ made in their use for any given analysis. Local-scale analyses where species level\
+  \ data are needed, or where kelp is fringing and sparse should use higher spatial\
+  \ resolution imagery for mapping (e.g. fixed-wing surveys or drone surveys). \n\n\
+  Dataset currently updated through 2023 and is under review. Dataset point of contact:\
+  \ Luba Reshitnyk, Henry Houskeeper and Tom Bell.\n\nFor detailed method refer to\
+  \ these articles:\n\nBell TW, Cavanaugh KC, Saccomanno VR, Cavanaugh KC, Houskeeper\
+  \ HF, Eddy N, et al. (2023) Kelpwatch: A new visualization and analysis tool to\
+  \ explore kelp canopy dynamics reveals variable response to and recovery from marine\
+  \ heatwaves. PLoS ONE 18(3): e0271477. https://doi.org/10.1371/journal.pone.0271477\n\
+  \nBell, T.W., Allen, J.G., Cavanaugh, K.C., & Siegel, D.A. (2020). Three decades\
+  \ of variability in California's giant kelp forests from the Landsat satellites.\
+  \ Remote Sensing of Environment, 238, 110811."
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: luba.reshitnyk@hakai.org
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+- affiliation: Woods Hole Oceanographic Institution
+  city: Falmouth
+  country: US
+  family-names: Aguilar
+  given-names: Ashland
+  website: https://www.whoi.edu
+- affiliation: Woods Hole Oceanographic Institution
+  city: Falmouth
+  country: US
+  email: henry.houskeeper@whoi.edu
+  family-names: Houskeeper
+  given-names: Henry
+  orcid: https://orcid.org/0000-0001-5848-5440
+  website: https://www.whoi.edu
+- family-names: Man
+  given-names: Lauren
+  orcid: https://orcid.org/0000-0001-9765-6783
+- affiliation: Woods Hole Oceanographic Institution
+  city: Falmouth
+  country: US
+  family-names: Bell
+  given-names: Tom
+  orcid: https://orcid.org/0000-0002-0173-2866
+  website: https://www.whoi.edu
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: luba.reshitnyk@hakai.org
+  family-names: Reshitnyk
+  given-names: Luba
+  orcid: https://orcid.org/0000-0003-0282-724X
+  website: https://www.hakai.org/
+date-released: '2026-01-27'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 7cafde4f-bdd5-4b95-a41d-7939ddcf08c6
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_7cafde4f-bdd5-4b95-a41d-7939ddcf08c6
+- description: DOI
+  type: doi
+  value: 10.21966/xc7x-9207
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-OZGbDlZ5dgF0dD-ceZ7
+- description: 'Data Access Request Form: Compressed folder containing a geodatabase
+    of .tif files for quarterly, annual kelp detections derived from the Landsat satellites
+    constellation (1985-2023).'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php
+keywords:
+- British Columbia
+- Landsat 5
+- Landsat 7
+- Landsat 8
+- Landsat 9
+- canopy kelp
+- macroalgalCanopyCoverAndComposition
+- populations
+- remote sensing
+- satellite
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Time series of quarterly kelp canopy extent from Landsat 5, 7, 8, and 9 since
+  1985
+type: Dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_7cafde4f-bdd5-4b95-a41d-7939ddcf08c6
+version: '1.0'

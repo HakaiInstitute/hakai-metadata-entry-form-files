@@ -1,0 +1,2107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/2.0 https://schemas.isotc211.org/19115/-3/mdb/2.0/mdb.xsd"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0"
+  xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
+  xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0"
+  xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
+  xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0"
+  xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0"
+  xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0"
+  xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0"
+  xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0"
+  xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0"
+  xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
+  xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
+  xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0"
+  xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+  xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0"
+  xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
+  xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0"
+  xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <mdb:metadataIdentifier>
+    <mcc:MD_Identifier>
+      <mcc:authority>
+        <cit:CI_Citation>
+          <cit:title>
+            <gco:CharacterString>ca.cioos</gco:CharacterString>
+          </cit:title>
+        </cit:CI_Citation>
+      </mcc:authority>
+      <mcc:code>
+        <gco:CharacterString>7cafde4f-bdd5-4b95-a41d-7939ddcf08c6</gco:CharacterString>
+      </mcc:code>
+    </mcc:MD_Identifier>
+  </mdb:metadataIdentifier>
+  <mdb:defaultLocale>
+    <lan:PT_Locale>
+      <lan:language>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+      </lan:language>
+      <lan:country>
+        <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
+      </lan:country>
+      <lan:characterEncoding>
+        <lan:MD_CharacterSetCode codeList="https://www.iana.org/assignments/character-sets/character-sets.xml" codeListValue="utf8" />
+      </lan:characterEncoding>
+    </lan:PT_Locale>
+  </mdb:defaultLocale>
+  <mdb:metadataScope>
+    <mdb:MD_MetadataScope>
+      <mdb:resourceScope>
+        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+      </mdb:resourceScope>
+    </mdb:MD_MetadataScope>
+  </mdb:metadataScope>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Reshitnyk, Luba</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>luba.reshitnyk@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-0282-724X</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString>Research Scientist</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Reshitnyk, Luba</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>luba.reshitnyk@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-0282-724X</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString>Research Scientist</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Reshitnyk, Luba</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>luba.reshitnyk@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-0282-724X</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString>Research Scientist</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="funder"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Tula Foundation</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Vancouver</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://tula.org</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/0029jxk29</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:dateInfo>
+    <cit:CI_Date>
+      <cit:date>
+        <gco:DateTime>2026-01-27T22:38:50.962Z</gco:DateTime>
+      </cit:date>
+      <cit:dateType>
+        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
+      </cit:dateType>
+    </cit:CI_Date>
+  </mdb:dateInfo>
+  <mdb:dateInfo>
+    <cit:CI_Date>
+      <cit:date>
+        <gco:Date>2026-01-27</gco:Date>
+      </cit:date>
+      <cit:dateType>
+        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+      </cit:dateType>
+    </cit:CI_Date>
+  </mdb:dateInfo>
+  <mdb:metadataStandard>
+    <cit:CI_Citation>
+      <cit:title>
+        <gco:CharacterString>ISO 19115-1 Geographic information - Metadata</gco:CharacterString>
+      </cit:title>
+      <cit:edition>
+        <gco:CharacterString>First Edition 2014-04-01</gco:CharacterString>
+      </cit:edition>
+    </cit:CI_Citation>
+  </mdb:metadataStandard>
+  <mdb:metadataStandard>
+    <cit:CI_Citation>
+      <cit:title>
+        <gco:CharacterString>ISO 19115-2 Geographic information - Metadata</gco:CharacterString>
+      </cit:title>
+      <cit:edition>
+        <gco:CharacterString>Second Edition 2019-01</gco:CharacterString>
+      </cit:edition>
+    </cit:CI_Citation>
+  </mdb:metadataStandard>
+  <mdb:metadataStandard>
+    <cit:CI_Citation>
+      <cit:title>
+        <gco:CharacterString>ISO 19115-1 Geographic Information - Metadata Amendment 1</gco:CharacterString>
+      </cit:title>
+      <cit:edition>
+        <gco:CharacterString>2018-02</gco:CharacterString>
+      </cit:edition>
+    </cit:CI_Citation>
+  </mdb:metadataStandard>
+  <mdb:metadataProfile>
+    <cit:CI_Citation>
+      <cit:title>
+        <gco:CharacterString>Canadian Integrated Ocean Observing System Metadata Profile of ISO 19115</gco:CharacterString>
+      </cit:title>
+      <cit:date>
+        <cit:CI_Date>
+          <cit:date>
+            <gco:Date>2019-11-06</gco:Date>
+          </cit:date>
+          <cit:dateType>
+            <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+          </cit:dateType>
+        </cit:CI_Date>
+      </cit:date>
+    </cit:CI_Citation>
+  </mdb:metadataProfile>
+  <mdb:otherLocale>
+    <lan:PT_Locale>
+      <lan:language>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+      </lan:language>
+      <lan:country>
+        <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
+      </lan:country>
+      <lan:characterEncoding>
+        <lan:MD_CharacterSetCode codeList="https://www.iana.org/assignments/character-sets/character-sets.xml" codeListValue="utf8" />
+      </lan:characterEncoding>
+    </lan:PT_Locale>
+  </mdb:otherLocale>
+  <mdb:otherLocale>
+    <lan:PT_Locale>
+      <lan:language>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+      </lan:language>
+      <lan:country>
+        <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
+      </lan:country>
+      <lan:characterEncoding>
+        <lan:MD_CharacterSetCode codeList="https://www.iana.org/assignments/character-sets/character-sets.xml" codeListValue="utf8" />
+      </lan:characterEncoding>
+    </lan:PT_Locale>
+  </mdb:otherLocale>
+  <mdb:identificationInfo>
+    <mri:MD_DataIdentification>
+      <mri:citation>
+        <cit:CI_Citation>
+          <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Time series of quarterly kelp canopy extent from Landsat 5, 7, 8, and 9 since 1985</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Séries chronologiques de l&#39;étendue trimestrielle de la canopée de varech à partir de Landsat 5, 7, 8 et 9 depuis 1985</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </cit:title>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>1985-04-01</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2026-01-27</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://doi.org/10.21966/xc7x-9207</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Reshitnyk, Luba</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>luba.reshitnyk@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-0282-724X</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Research Scientist</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Reshitnyk, Luba</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>luba.reshitnyk@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-0282-724X</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Research Scientist</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Reshitnyk, Luba</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>luba.reshitnyk@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-0282-724X</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Research Scientist</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Woods Hole Oceanographic Institution</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Falmouth</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>United States</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.whoi.edu</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/03zbnzt98</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Aguilar, Ashland</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Woods Hole Oceanographic Institution</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Falmouth</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>United States</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.whoi.edu</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/03zbnzt98</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Houskeeper, Henry</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>henry.houskeeper@whoi.edu</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0001-5848-5440</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="contributor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name>
+                    <gco:CharacterString>Man, Lauren</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact></cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://orcid.org/0000-0001-9765-6783</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:positionName>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:positionName>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="coAuthor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name>
+                    <gco:CharacterString>Man, Lauren</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact></cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://orcid.org/0000-0001-9765-6783</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:positionName>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:positionName>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="editor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name>
+                    <gco:CharacterString>Man, Lauren</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact></cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://orcid.org/0000-0001-9765-6783</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:positionName>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:positionName>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Woods Hole Oceanographic Institution</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Falmouth</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>United States</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.whoi.edu</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/03zbnzt98</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Bell, Tom</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0002-0173-2866</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+        </cit:CI_Citation>
+      </mri:citation>
+      <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
+        <gco:CharacterString>These data files represents a time series of surface kelp canopy area of giant kelp, Macrocystis pyrifera, and bull kelp, Nereocystis luetkeana, derived from atmospherically corrected Landsat imagery: Landsat 5 Thematic Mapper (TM), Landsat 7 Enhanced Thematic Mapper Plus (ETM+), Landsat 8 Operational Land Imager (OLI), and Landsat 9 Operational Land Imager 2 satellite imagery. Observations are made on a 16 day repeat cycle, for each instrument, but the temporal coverage is irregular because of cloud cover, instrument failure, and the mission length of each sensor (TM: 1984 – 2011, ETM+: 1999 – present, OLI: 2013 – present). 
+
+The kelp canopy is composed of the portions of fronds and stipes floating on the surface of the water. Nearshore (within one Landsat pixel, ~30m) and low tide areas (both nearshore and offshore rocks) are masked during this process, therefore kelp canopy area within those areas are excluded in this dataset. See Bell et al. 2020 and 2023 for more details on methods. 
+
+Data are organized into geotif files and contain the quarterly percent detections for each Landsat pixel across the four sensors. For example, if there were 5 clear passes of a pixel, and it was classified as kelp in 4 of them, then the pixel value is 80. Kelp presence data are given for individual 30 x 30 meter pixels for coastal areas the Central Coast of British Columbia, Canada. 
+
+These data are suitable for investigating kelp dynamics at large spatial scales and consideration should be made in their use for any given analysis. Local-scale analyses where species level data are needed, or where kelp is fringing and sparse should use higher spatial resolution imagery for mapping (e.g. fixed-wing surveys or drone surveys). 
+
+Dataset currently updated through 2023 and is under review. Dataset point of contact: Luba Reshitnyk, Henry Houskeeper and Tom Bell.
+
+For detailed method refer to these articles:
+
+Bell TW, Cavanaugh KC, Saccomanno VR, Cavanaugh KC, Houskeeper HF, Eddy N, et al. (2023) Kelpwatch: A new visualization and analysis tool to explore kelp canopy dynamics reveals variable response to and recovery from marine heatwaves. PLoS ONE 18(3): e0271477. https://doi.org/10.1371/journal.pone.0271477
+
+Bell, T.W., Allen, J.G., Cavanaugh, K.C., &amp; Siegel, D.A. (2020). Three decades of variability in California&#39;s giant kelp forests from the Landsat satellites. Remote Sensing of Environment, 238, 110811.</gco:CharacterString>
+        <lan:PT_FreeText>
+          <lan:textGroup>
+            <lan:LocalisedCharacterString locale="#fr">Ces fichiers de données représentent une série chronologique de la superficie du couvert végétal de varech géant, Macrocystis pyrifera, et de varech taureau, Nereocystis luetkeana, dérivée d&#39;images Landsat corrigées sur le plan atmosphérique : Landsat 5 Thematic Mapper (TM), Landsat 7 Enhanced Thematic Mapper Plus (ETM+), Landsat 8 Operational Land Imager (OLI) et imagerie satellite Landsat 9 Operational Land Imager 2. Les observations sont effectuées sur un cycle de répétition de 16 jours, pour chaque instrument, mais la couverture temporelle est irrégulière en raison de la couverture nuageuse, de la défaillance de l&#39;instrument et de la durée de la mission de chaque capteur (TM : 1984 — 2011, ETM+ : 1999 — présent, OLI : 2013 — présent). 
+
+La canopée de varech est composée de portions de frondes et de stipes flottant à la surface de l&#39;eau. Les zones littorales (à moins d&#39;un pixel Landsat, ~30 m) et les zones à marée basse (roches situées à proximité du rivage et au large) sont masquées au cours de ce processus. Par conséquent, la zone de canopée de varech dans ces zones est exclue de cet ensemble de données. Voir Bell et al. 2020 et 2023 pour plus de détails sur les méthodes. 
+
+Les données sont organisées dans des fichiers géotif et contiennent les pourcentages trimestriels de détections pour chaque pixel Landsat sur les quatre capteurs. Par exemple, s&#39;il y a 5 passes claires d&#39;un pixel et que celui-ci a été classé comme varech dans 4 d&#39;entre elles, la valeur du pixel est de 80. Les données de présence de varech sont fournies pour des pixels individuels de 30 x 30 mètres pour les zones côtières de la côte centrale de la Colombie-Britannique, au Canada. 
+
+Ces données sont appropriées pour étudier la dynamique du varech à de grandes échelles spatiales et il convient de tenir compte de leur utilisation pour toute analyse donnée. Les analyses à l&#39;échelle locale pour lesquelles des données relatives à l&#39;espèce sont nécessaires, ou lorsque le varech est frisonnant et clairsemé, devraient utiliser des images à plus haute résolution spatiale pour la cartographie (par exemple, relevés à voilure fixe ou relevés par drone). 
+
+L&#39;ensemble de données est actuellement mis à jour jusqu&#39;en 2023 et est en cours de révision. Point de contact du jeu de données : Luba Reshitnyk, Henry Houskeeper et Tom Bell.
+
+Pour une méthode détaillée, consultez ces articles :
+
+Bell TW, Cavanaugh KC, Saccomanno VR, Cavanaugh KC, Houskeeper HF, Eddy N, et al. (2023) Kelpwatch : un nouvel outil de visualisation et d&#39;analyse pour explorer la dynamique de la canopée de varech révèle une réponse et un rétablissement variables aux vagues de chaleur marines. PLoS ONE 18 (3) : e0271477. https://doi.org/10.1371/journal.pone.0271477
+
+Bell, T. W., Allen, J. G., Cavanaugh, K. C. et Siegel, DA (2020). Trois décennies de variabilité dans les forêts de varech géantes de Californie à partir des satellites Landsat. Télédétection de l&#39;environnement, 238, 110811.</lan:LocalisedCharacterString>
+          </lan:textGroup>
+        </lan:PT_FreeText>
+      </mri:abstract>
+      <mri:credit>
+        <gco:CharacterString></gco:CharacterString>
+      </mri:credit>
+      <mri:status>
+        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="onGoing"></mcc:MD_ProgressCode>
+      </mri:status>
+      <mri:topicCategory>
+        <mri:MD_TopicCategoryCode>oceans</mri:MD_TopicCategoryCode>
+      </mri:topicCategory>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_BoundingPolygon>
+              <gex:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gex:extentTypeCode>
+              <gex:polygon>
+                <gml:Polygon gml:id="a1">
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:coordinates>-130.5,54.75 -133.5,54.36 -133.0,53.09 -126.0,48.92 -123.6,48.28 -123.2,48.80 -123.8,49.61 -127.6,51.04 -128.4,52.40 -130.4,54.24 -130.5,54.75</gml:coordinates>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Polygon>
+              </gex:polygon>
+            </gex:EX_BoundingPolygon>
+          </gex:geographicElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_GeographicDescription>
+              <gex:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gex:extentTypeCode>
+              <gex:geographicIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>91538d53-f884-4c14-a6be-28ac44450854</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:codeSpace>
+                    <gco:CharacterString>ca.cioos</gco:CharacterString>
+                  </mcc:codeSpace>
+                  <mcc:version>
+                    <gco:CharacterString>1</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>{&#39;en&#39;: &#39;British Columbia coastline&#39;, &#39;fr&#39;: &#39;Littoral de la Colombie-Britannique&#39;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </gex:geographicIdentifier>
+            </gex:EX_GeographicDescription>
+          </gex:geographicElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:verticalElement>
+            <gex:EX_VerticalExtent>
+              <gex:minimumValue>
+                <gco:Real>0</gco:Real>
+              </gex:minimumValue>
+              <gex:maximumValue>
+                <gco:Real>0</gco:Real>
+              </gex:maximumValue>
+              <gex:verticalCRSId>
+                <mrs:MD_ReferenceSystem>
+                  <mrs:referenceSystemIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>5829</gco:CharacterString>
+                      </mcc:code>
+                      <mcc:codeSpace>
+                        <gco:CharacterString>EPSG</gco:CharacterString>
+                      </mcc:codeSpace>
+                      <mcc:version>
+                        <gco:CharacterString>2012-08-10T00:00:00</gco:CharacterString>
+                      </mcc:version>
+                      <mcc:description>
+                        <gco:CharacterString>Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                      </mcc:description>
+                    </mcc:MD_Identifier>
+                  </mrs:referenceSystemIdentifier>
+                  <mrs:referenceSystemType>
+                    <mrs:MD_ReferenceSystemTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ReferenceSystemTypeCode" codeListValue="vertical">vertical</mrs:MD_ReferenceSystemTypeCode>
+                  </mrs:referenceSystemType>
+                </mrs:MD_ReferenceSystem>
+              </gex:verticalCRSId>
+              <gex:verticalCRS xlink:href="https://epsg.org/crs/gml/id/5831" xlink:title="instantaneous water level depth" xlink:actuate="onRequest" />
+            </gex:EX_VerticalExtent>
+          </gex:verticalElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:temporalElement>
+            <gex:EX_TemporalExtent>
+              <gex:extent>
+                <gml:TimePeriod gml:id="time_period">
+                  <gml:beginPosition>1985-04-01T20:00:00.000Z</gml:beginPosition>
+                  <gml:endPosition indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gex:extent>
+            </gex:EX_TemporalExtent>
+          </gex:temporalElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:resourceMaintenance>
+        <mmi:MD_MaintenanceInformation>
+          <mmi:maintenanceAndUpdateFrequency>
+            <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
+          </mmi:maintenanceAndUpdateFrequency>
+          <mmi:maintenanceNote>
+            <gco:CharacterString>Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-OZGbDlZ5dgF0dD-ceZ7</gco:CharacterString>
+          </mmi:maintenanceNote>
+        </mmi:MD_MaintenanceInformation>
+      </mri:resourceMaintenance>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Oceans</gco:CharacterString>
+          </mri:keyword>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>Government of Canada Core Subject Thesaurus</gco:CharacterString>
+              </cit:title>
+              <cit:date>
+                <cit:CI_Date>
+                  <cit:date>
+                    <gco:Date>2016-10-13</gco:Date>
+                  </cit:date>
+                  <cit:dateType>
+                    <cit:CI_DateTypeCode codeList="http://wiki.esipfed.org/index.php/ISO_19115-3_Codelists#CI_DateTypeCode" codeListValue="revision"/>
+                  </cit:dateType>
+                </cit:CI_Date>
+              </cit:date>
+              <cit:edition>
+                <gco:CharacterString>N/A</gco:CharacterString>
+              </cit:edition>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>remote sensing</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>satellite</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>canopy kelp</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>populations</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>British Columbia</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Landsat 5</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Landsat 7</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Landsat 8</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Landsat 9</gco:CharacterString>
+          </mri:keyword>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>default</gco:CharacterString>
+              </cit:title>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>macroalgalCanopyCoverAndComposition</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Composition et couverture de la canopée de macroalgues</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>eov</gco:CharacterString>
+              </cit:title>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Geospatial</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Nearshore</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:resourceConstraints>
+        <mco:MD_LegalConstraints>
+          <mco:reference>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>Creative Commons Attribution 4.0 Attribution</gco:CharacterString>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>CC-BY-4.0</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://creativecommons.org/licenses/by/4.0</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Citation>
+          </mco:reference>
+          <mco:useConstraints>
+            <mco:MD_RestrictionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_RestrictionCode" codeListValue="licence" />
+          </mco:useConstraints>
+        </mco:MD_LegalConstraints>
+      </mri:resourceConstraints>
+      <mri:resourceConstraints>
+        <mco:MD_Constraints>
+          <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>These satellite-derived data are estimates of canopy area for canopy kelp forests 30 m from shore at a 30 m pixel representation (sensor resolution). These data therefore are not intended for use in examining nearshore (&lt;30 m) kelp canopy extent and dynamics. These data do not differentiate between giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana). Satellite overflight frequency changed over time.</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Ces données dérivées des satellites sont des estimations de la superficie de la canopée des forêts de varech à 30 m du rivage avec une représentation de 30 m en pixels (résolution du capteur). Ces données ne sont donc pas destinées à être utilisées pour examiner l&#39;étendue et la dynamique de la canopée de varech près du rivage (&lt;30 m). Ces données ne font pas de différence entre le varech géant (Macrocystis pyrifera) et le varech taureau (Nereocystis luetkeana). La fréquence de survol des satellites a changé au fil du temps.</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mco:useLimitation>
+        </mco:MD_Constraints>
+      </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the canopy from Landsat 5, 7 and 8, since 1984 (ongoing)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">SBC LTER : Séries chronologiques de fichiers NetCDF trimestriels sur la biomasse de varech dans la canopée à partir de Landsat 5, 7 et 8, depuis 1984 (en cours)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.6073/pasta/18874c2802c4defd4b331cac827676c5</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="dependency"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>KelpWatch Data</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Données KelpWatch</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>URL</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://kelpwatch.org/methodology</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="dependency"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
+      <mri:supplementalInformation>
+        <gco:CharacterString></gco:CharacterString>
+      </mri:supplementalInformation>
+    </mri:MD_DataIdentification>
+  </mdb:identificationInfo>
+  <mdb:distributionInfo>
+    <mrd:MD_Distribution>
+      <mrd:distributor>
+        <mrd:MD_Distributor>
+          <mrd:distributorContact>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </mrd:distributorContact>
+        </mrd:MD_Distributor>
+      </mrd:distributor>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://hecate.hakai.org/auth/access-request.php</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Data Access Request Form</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Formulaire de demande d&#39;accès aux données</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:name>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Compressed folder containing a geodatabase of .tif files for quarterly, annual kelp detections derived from the Landsat satellites constellation (1985-2023).</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Le jeu de données contient une géodatabase des caractéristiques matricielles des détections trimestrielles et annuelles de varech dérivées de la constellation de satellites Landsat (1985-2023).</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+    </mrd:MD_Distribution>
+  </mdb:distributionInfo>
+  <mdb:resourceLineage>
+    <mrl:LI_Lineage>
+      <mrl:statement xsi:type="lan:PT_FreeText_PropertyType">
+        <gco:CharacterString>Three decades of variability in California&#39;s giant kelp forests from the Landsat satellites</gco:CharacterString>
+        <lan:PT_FreeText>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+            <lan:LocalisedCharacterString locale="#fr">Trois décennies de variabilité dans les forêts de varech géantes de Californie à partir des satellites Landsat</lan:LocalisedCharacterString>
+          </lan:textGroup>
+        </lan:PT_FreeText>
+      </mrl:statement>
+      <mrl:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="collectionSession" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mrl:scope>
+      <mrl:additionalDocumentation>
+        <cit:CI_Citation>
+          <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Three decades of variability in California&#39;s giant kelp forests from the Landsat satellites</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Trois décennies de variabilité dans les forêts de varech géantes de Californie à partir des satellites Landsat</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </cit:title>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://doi.org/10.1016/j.rse.2018.06.039</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
+          <cit:onlineResource>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://doi.org/10.1016/j.rse.2018.06.039</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+            </cit:CI_OnlineResource>
+          </cit:onlineResource>
+        </cit:CI_Citation>
+      </mrl:additionalDocumentation>
+    </mrl:LI_Lineage>
+  </mdb:resourceLineage>
+  <mdb:resourceLineage>
+    <mrl:LI_Lineage>
+      <mrl:statement>
+        <gco:CharacterString>Kelpwatch: A new visualization and analysis tool to explore kelp canopy dynamics reveals variable response to and recovery from marine heatwaves</gco:CharacterString>
+      </mrl:statement>
+      <mrl:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="collectionSession" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mrl:scope>
+      <mrl:source>
+        <mrl:LI_Source>
+          <mrl:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Peer review paper</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Document d&#39;évaluation par les pairs</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mrl:description>
+          <mrl:sourceCitation>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Kelpwatch: A new visualization and analysis tool to explore kelp canopy dynamics reveals variable response to and recovery from marine heatwaves</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Kelpwatch : un nouvel outil de visualisation et d&#39;analyse pour explorer la dynamique de la canopée de varech révèle une réponse et un rétablissement variables aux vagues de chaleur marines</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.1371/journal.pone.0271477</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://doi.org/10.1371/journal.pone.0271477</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Citation>
+          </mrl:sourceCitation>
+        </mrl:LI_Source>
+      </mrl:source>
+    </mrl:LI_Lineage>
+  </mdb:resourceLineage>
+  <mdb:metadataMaintenance>
+    <mmi:MD_MaintenanceInformation>
+      <mmi:maintenanceAndUpdateFrequency>
+        <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
+      </mmi:maintenanceAndUpdateFrequency>
+    </mmi:MD_MaintenanceInformation>
+  </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>Landsat 5 Thematic Mapper (TM)</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Earth observation satellites collecting imagery at 30 m resolution,16 day repeat collections (1984-2011).</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Satellites d&#39;observation de la Terre collectant des images à une résolution de 30 m, collectes répétées 16 jours (1984-2011).</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument/>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>satellite</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>Landsat 7 Enhanced Thematic Mapper Plus (ETM+)</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Earth observation satellites collecting imagery at 30 m resolution,16 day repeat collections (1999-present).</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Satellites d&#39;observation de la Terre collectant des images à une résolution de 30 m, collectes répétées 16 jours (1999-présent).</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument/>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>satellite</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>Landsat 8 Operational Land Imager (OLI)</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Earth observation satellites collecting imagery at 30 m resolution,16 day repeat collections (2013-present).</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Satellites d&#39;observation de la Terre collectant des images à une résolution de 30 m, collectes répétées 16 jours (2013 à aujourd&#39;hui).</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument/>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>satellite</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>Landsat 9 Operational Land Imager (OLI)</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Earth observation satellites collecting imagery at 30 m resolution,16 day repeat collections (2021-present).</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Satellites d&#39;observation de la Terre collectant des images à une résolution de 30 m, collectes répétées 16 jours (2021-présent).</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument/>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>satellite</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
+</mdb:MD_Metadata>

@@ -1,0 +1,417 @@
+contact:
+- inCitation: true
+  individual:
+    email: luba.reshitnyk@hakai.org
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+    position: Research Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - custodian
+  - pointOfContact
+- inCitation: true
+  individual:
+    name: Aguilar, Ashland
+  organization:
+    city: Falmouth
+    country: United States
+    name: Woods Hole Oceanographic Institution
+    ror: https://ror.org/03zbnzt98
+    url: https://www.whoi.edu
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: henry.houskeeper@whoi.edu
+    name: Houskeeper, Henry
+    orcid: https://orcid.org/0000-0001-5848-5440
+  organization:
+    city: Falmouth
+    country: United States
+    name: Woods Hole Oceanographic Institution
+    ror: https://ror.org/03zbnzt98
+    url: https://www.whoi.edu
+  roles:
+  - author
+- inCitation: true
+  individual:
+    name: Man, Lauren
+    orcid: https://orcid.org/0000-0001-9765-6783
+  roles:
+  - contributor
+  - coAuthor
+  - editor
+- inCitation: true
+  individual:
+    name: Bell, Tom
+    orcid: https://orcid.org/0000-0002-0173-2866
+  organization:
+    city: Falmouth
+    country: United States
+    name: Woods Hole Oceanographic Institution
+    ror: https://ror.org/03zbnzt98
+    url: https://www.whoi.edu
+  roles:
+  - author
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - custodian
+  - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Compressed folder containing a geodatabase of .tif files for quarterly, annual
+      kelp detections derived from the Landsat satellites constellation (1985-2023).
+    fr: Le jeu de données contient une géodatabase des caractéristiques matricielles
+      des détections trimestrielles et annuelles de varech dérivées de la constellation
+      de satellites Landsat (1985-2023).
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Data Access Request Form
+    fr: Formulaire de demande d'accès aux données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php
+identification:
+  abstract:
+    en: "These data files represents a time series of surface kelp canopy area of\
+      \ giant kelp, Macrocystis pyrifera, and bull kelp, Nereocystis luetkeana, derived\
+      \ from atmospherically corrected Landsat imagery: Landsat 5 Thematic Mapper\
+      \ (TM), Landsat 7 Enhanced Thematic Mapper Plus (ETM+), Landsat 8 Operational\
+      \ Land Imager (OLI), and Landsat 9 Operational Land Imager 2 satellite imagery.\
+      \ Observations are made on a 16 day repeat cycle, for each instrument, but the\
+      \ temporal coverage is irregular because of cloud cover, instrument failure,\
+      \ and the mission length of each sensor (TM: 1984 – 2011, ETM+: 1999 – present,\
+      \ OLI: 2013 – present). \n\nThe kelp canopy is composed of the portions of fronds\
+      \ and stipes floating on the surface of the water. Nearshore (within one Landsat\
+      \ pixel, ~30m) and low tide areas (both nearshore and offshore rocks) are masked\
+      \ during this process, therefore kelp canopy area within those areas are excluded\
+      \ in this dataset. See Bell et al. 2020 and 2023 for more details on methods.\
+      \ \n\nData are organized into geotif files and contain the quarterly percent\
+      \ detections for each Landsat pixel across the four sensors. For example, if\
+      \ there were 5 clear passes of a pixel, and it was classified as kelp in 4 of\
+      \ them, then the pixel value is 80. Kelp presence data are given for individual\
+      \ 30 x 30 meter pixels for coastal areas the Central Coast of British Columbia,\
+      \ Canada. \n\nThese data are suitable for investigating kelp dynamics at large\
+      \ spatial scales and consideration should be made in their use for any given\
+      \ analysis. Local-scale analyses where species level data are needed, or where\
+      \ kelp is fringing and sparse should use higher spatial resolution imagery for\
+      \ mapping (e.g. fixed-wing surveys or drone surveys). \n\nDataset currently\
+      \ updated through 2023 and is under review. Dataset point of contact: Luba Reshitnyk,\
+      \ Henry Houskeeper and Tom Bell.\n\nFor detailed method refer to these articles:\n\
+      \nBell TW, Cavanaugh KC, Saccomanno VR, Cavanaugh KC, Houskeeper HF, Eddy N,\
+      \ et al. (2023) Kelpwatch: A new visualization and analysis tool to explore\
+      \ kelp canopy dynamics reveals variable response to and recovery from marine\
+      \ heatwaves. PLoS ONE 18(3): e0271477. https://doi.org/10.1371/journal.pone.0271477\n\
+      \nBell, T.W., Allen, J.G., Cavanaugh, K.C., & Siegel, D.A. (2020). Three decades\
+      \ of variability in California's giant kelp forests from the Landsat satellites.\
+      \ Remote Sensing of Environment, 238, 110811."
+    fr: "Ces fichiers de données représentent une série chronologique de la superficie\
+      \ du couvert végétal de varech géant, Macrocystis pyrifera, et de varech taureau,\
+      \ Nereocystis luetkeana, dérivée d'images Landsat corrigées sur le plan atmosphérique :\
+      \ Landsat 5 Thematic Mapper (TM), Landsat 7 Enhanced Thematic Mapper Plus (ETM+),\
+      \ Landsat 8 Operational Land Imager (OLI) et imagerie satellite Landsat 9 Operational\
+      \ Land Imager 2. Les observations sont effectuées sur un cycle de répétition\
+      \ de 16 jours, pour chaque instrument, mais la couverture temporelle est irrégulière\
+      \ en raison de la couverture nuageuse, de la défaillance de l'instrument et\
+      \ de la durée de la mission de chaque capteur (TM : 1984 — 2011, ETM+ : 1999\
+      \ — présent, OLI : 2013 — présent). \n\nLa canopée de varech est composée de\
+      \ portions de frondes et de stipes flottant à la surface de l'eau. Les zones\
+      \ littorales (à moins d'un pixel Landsat, ~30 m) et les zones à marée basse\
+      \ (roches situées à proximité du rivage et au large) sont masquées au cours\
+      \ de ce processus. Par conséquent, la zone de canopée de varech dans ces zones\
+      \ est exclue de cet ensemble de données. Voir Bell et al. 2020 et 2023 pour\
+      \ plus de détails sur les méthodes. \n\nLes données sont organisées dans des\
+      \ fichiers géotif et contiennent les pourcentages trimestriels de détections\
+      \ pour chaque pixel Landsat sur les quatre capteurs. Par exemple, s'il y a 5\
+      \ passes claires d'un pixel et que celui-ci a été classé comme varech dans 4\
+      \ d'entre elles, la valeur du pixel est de 80. Les données de présence de varech\
+      \ sont fournies pour des pixels individuels de 30 x 30 mètres pour les zones\
+      \ côtières de la côte centrale de la Colombie-Britannique, au Canada. \n\nCes\
+      \ données sont appropriées pour étudier la dynamique du varech à de grandes\
+      \ échelles spatiales et il convient de tenir compte de leur utilisation pour\
+      \ toute analyse donnée. Les analyses à l'échelle locale pour lesquelles des\
+      \ données relatives à l'espèce sont nécessaires, ou lorsque le varech est frisonnant\
+      \ et clairsemé, devraient utiliser des images à plus haute résolution spatiale\
+      \ pour la cartographie (par exemple, relevés à voilure fixe ou relevés par drone).\
+      \ \n\nL'ensemble de données est actuellement mis à jour jusqu'en 2023 et est\
+      \ en cours de révision. Point de contact du jeu de données : Luba Reshitnyk,\
+      \ Henry Houskeeper et Tom Bell.\n\nPour une méthode détaillée, consultez ces\
+      \ articles :\n\nBell TW, Cavanaugh KC, Saccomanno VR, Cavanaugh KC, Houskeeper\
+      \ HF, Eddy N, et al. (2023) Kelpwatch : un nouvel outil de visualisation et\
+      \ d'analyse pour explorer la dynamique de la canopée de varech révèle une réponse\
+      \ et un rétablissement variables aux vagues de chaleur marines. PLoS ONE 18\
+      \ (3) : e0271477. https://doi.org/10.1371/journal.pone.0271477\n\nBell, T. W.,\
+      \ Allen, J. G., Cavanaugh, K. C. et Siegel, DA (2020). Trois décennies de variabilité\
+      \ dans les forêts de varech géantes de Californie à partir des satellites Landsat.\
+      \ Télédétection de l'environnement, 238, 110811."
+  associated_resources:
+  - association_type: IsDerivedFrom
+    association_type_iso: dependency
+    authority: DOI
+    code: https://doi.org/10.6073/pasta/18874c2802c4defd4b331cac827676c5
+    title:
+      en: 'SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the
+        canopy from Landsat 5, 7 and 8, since 1984 (ongoing)'
+      fr: 'SBC LTER : Séries chronologiques de fichiers NetCDF trimestriels sur la
+        biomasse de varech dans la canopée à partir de Landsat 5, 7 et 8, depuis 1984
+        (en cours)'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsDerivedFrom
+    association_type_iso: dependency
+    authority: URL
+    code: https://kelpwatch.org/methodology
+    title:
+      en: KelpWatch Data
+      fr: Données KelpWatch
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '1985-04-01'
+    publication: '2026-01-27'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/xc7x-9207
+  keywords:
+    default:
+      en:
+      - remote sensing
+      - satellite
+      - canopy kelp
+      - populations
+      - British Columbia
+      - Landsat 5
+      - Landsat 7
+      - Landsat 8
+      - Landsat 9
+    eov:
+      en:
+      - macroalgalCanopyCoverAndComposition
+      fr:
+      - Composition et couverture de la canopée de macroalgues
+  progress_code: onGoing
+  project:
+  - Geospatial
+  - Nearshore
+  status: published
+  temporal_begin: '1985-04-01T20:00:00.000Z'
+  title:
+    en: Time series of quarterly kelp canopy extent from Landsat 5, 7, 8, and 9 since
+      1985
+    fr: Séries chronologiques de l'étendue trimestrielle de la canopée de varech à
+      partir de Landsat 5, 7, 8 et 9 depuis 1985
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2026-01-27'
+    revision: '2026-01-27T22:38:50.962Z'
+  history:
+  - additionalDocumentation:
+    - authority: DOI
+      code: https://doi.org/10.1016/j.rse.2018.06.039
+      title:
+        en: Three decades of variability in California's giant kelp forests from the
+          Landsat satellites
+        fr: Trois décennies de variabilité dans les forêts de varech géantes de Californie
+          à partir des satellites Landsat
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    scope: DataCollectionSampling
+    scopeIso: collectionSession
+    statement:
+      en: Three decades of variability in California's giant kelp forests from the
+        Landsat satellites
+      fr: Trois décennies de variabilité dans les forêts de varech géantes de Californie
+        à partir des satellites Landsat
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - scope: DataCollectionSampling
+    scopeIso: collectionSession
+    source:
+    - authority: DOI
+      code: https://doi.org/10.1371/journal.pone.0271477
+      description:
+        en: Peer review paper
+        fr: Document d'évaluation par les pairs
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+      title:
+        en: 'Kelpwatch: A new visualization and analysis tool to explore kelp canopy
+          dynamics reveals variable response to and recovery from marine heatwaves'
+        fr: 'Kelpwatch : un nouvel outil de visualisation et d''analyse pour explorer
+          la dynamique de la canopée de varech révèle une réponse et un rétablissement
+          variables aux vagues de chaleur marines'
+        translations:
+          fr:
+            message: text translated using the Amazon translate service / texte traduit
+              à l'aide du service de traduction Amazon
+            verified: false
+    statement:
+      en: 'Kelpwatch: A new visualization and analysis tool to explore kelp canopy
+        dynamics reveals variable response to and recovery from marine heatwaves'
+  identifier: 7cafde4f-bdd5-4b95-a41d-7939ddcf08c6
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-OZGbDlZ5dgF0dD-ceZ7
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: These satellite-derived data are estimates of canopy area for canopy kelp
+        forests 30 m from shore at a 30 m pixel representation (sensor resolution).
+        These data therefore are not intended for use in examining nearshore (<30
+        m) kelp canopy extent and dynamics. These data do not differentiate between
+        giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana). Satellite
+        overflight frequency changed over time.
+      fr: Ces données dérivées des satellites sont des estimations de la superficie
+        de la canopée des forêts de varech à 30 m du rivage avec une représentation
+        de 30 m en pixels (résolution du capteur). Ces données ne sont donc pas destinées
+        à être utilisées pour examiner l'étendue et la dynamique de la canopée de
+        varech près du rivage (<30 m). Ces données ne font pas de différence entre
+        le varech géant (Macrocystis pyrifera) et le varech taureau (Nereocystis luetkeana).
+        La fréquence de survol des satellites a changé au fil du temps.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: Earth observation satellites collecting imagery at 30 m resolution,16 day
+      repeat collections (1984-2011).
+    fr: Satellites d'observation de la Terre collectant des images à une résolution
+      de 30 m, collectes répétées 16 jours (1984-2011).
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Landsat 5 Thematic Mapper (TM)
+  type: satellite
+- description:
+    en: Earth observation satellites collecting imagery at 30 m resolution,16 day
+      repeat collections (1999-present).
+    fr: Satellites d'observation de la Terre collectant des images à une résolution
+      de 30 m, collectes répétées 16 jours (1999-présent).
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Landsat 7 Enhanced Thematic Mapper Plus (ETM+)
+  type: satellite
+- description:
+    en: Earth observation satellites collecting imagery at 30 m resolution,16 day
+      repeat collections (2013-present).
+    fr: Satellites d'observation de la Terre collectant des images à une résolution
+      de 30 m, collectes répétées 16 jours (2013 à aujourd'hui).
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Landsat 8 Operational Land Imager (OLI)
+  type: satellite
+- description:
+    en: Earth observation satellites collecting imagery at 30 m resolution,16 day
+      repeat collections (2021-present).
+    fr: Satellites d'observation de la Terre collectant des images à une résolution
+      de 30 m, collectes répétées 16 jours (2021-présent).
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Landsat 9 Operational Land Imager (OLI)
+  type: satellite
+spatial:
+  description:
+    en: British Columbia coastline
+    fr: Littoral de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  descriptionIdentifier: 91538d53-f884-4c14-a6be-28ac44450854
+  polygon: -130.5,54.75 -133.5,54.36 -133.0,53.09 -126.0,48.92 -123.6,48.28 -123.2,48.80
+    -123.8,49.61 -127.6,51.04 -128.4,52.40 -130.4,54.24 -130.5,54.75
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
