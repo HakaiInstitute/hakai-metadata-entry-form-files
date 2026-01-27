@@ -166,23 +166,24 @@ identification:
       \ passes claires d'un pixel et que celui-ci a été classé comme varech dans 4\
       \ d'entre elles, la valeur du pixel est de 80. Les données de présence de varech\
       \ sont fournies pour des pixels individuels de 30 x 30 mètres pour les zones\
-      \ côtières de la côte centrale de la Colombie-Britannique, au Canada. \n\nCouverture\
-      \ temporelle : commence le 01/04/1985. L'ensemble de données est en cours.\n\
-      \nCes données sont adaptées à l'étude de la dynamique du varech à de grandes\
+      \ côtières de la côte centrale de la Colombie-Britannique, au Canada. \n\nCes\
+      \ données sont appropriées pour étudier la dynamique du varech à de grandes\
       \ échelles spatiales et il convient de tenir compte de leur utilisation pour\
       \ toute analyse donnée. Les analyses à l'échelle locale pour lesquelles des\
       \ données relatives à l'espèce sont nécessaires, ou lorsque le varech est frisonnant\
       \ et clairsemé, devraient utiliser des images à plus haute résolution spatiale\
       \ pour la cartographie (par exemple, relevés à voilure fixe ou relevés par drone).\
-      \ Pour obtenir de l'aide concernant les données, veuillez contacter data@hakai.org.\n\
-      \nPour une méthode détaillée, reportez-vous à ces articles :\n\nBell TW, Cavanaugh\
-      \ KC, Saccomanno VR, Cavanaugh KC, Houskeeper HF, Eddy N, et al. (2023) Kelpwatch :\
-      \ un nouvel outil de visualisation et d'analyse pour explorer la dynamique de\
-      \ la canopée de varech révèle une réponse et un rétablissement variables aux\
-      \ vagues de chaleur marines. PLoS ONE 18 (3) : e0271477. https://doi.org/10.1371/journal.pone.0271477\n\
-      \nBell, T. W., Allen, J. G., Cavanaugh, K. C. et Siegel, DA (2020). Trois décennies\
-      \ de variabilité dans les forêts de varech géantes de Californie à partir des\
-      \ satellites Landsat. Télédétection de l'environnement, 238, 110811."
+      \ \n\nL'ensemble de données est actuellement mis à jour jusqu'en 2023 et est\
+      \ en cours de révision. Point de contact du jeu de données : Luba Reshitnyk,\
+      \ Henry Houskeeper et Tom Bell.\n\nPour une méthode détaillée, consultez ces\
+      \ articles :\n\nBell TW, Cavanaugh KC, Saccomanno VR, Cavanaugh KC, Houskeeper\
+      \ HF, Eddy N, et al. (2023) Kelpwatch : un nouvel outil de visualisation et\
+      \ d'analyse pour explorer la dynamique de la canopée de varech révèle une réponse\
+      \ et un rétablissement variables aux vagues de chaleur marines. PLoS ONE 18\
+      \ (3) : e0271477. https://doi.org/10.1371/journal.pone.0271477\n\nBell, T. W.,\
+      \ Allen, J. G., Cavanaugh, K. C. et Siegel, DA (2020). Trois décennies de variabilité\
+      \ dans les forêts de varech géantes de Californie à partir des satellites Landsat.\
+      \ Télédétection de l'environnement, 238, 110811."
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -256,7 +257,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-01-27T22:25:15.295Z'
+    revision: '2026-01-27T22:28:44.431Z'
   history:
   - additionalDocumentation:
     - authority: DOI
@@ -325,13 +326,15 @@ metadata:
         forests 30 m from shore at a 30 m pixel representation (sensor resolution).
         These data therefore are not intended for use in examining nearshore (<30
         m) kelp canopy extent and dynamics. These data do not differentiate between
-        giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana).
+        giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana). Satellite
+        overflight frequency changed over time.
       fr: Ces données dérivées des satellites sont des estimations de la superficie
         de la canopée des forêts de varech à 30 m du rivage avec une représentation
         de 30 m en pixels (résolution du capteur). Ces données ne sont donc pas destinées
         à être utilisées pour examiner l'étendue et la dynamique de la canopée de
         varech près du rivage (<30 m). Ces données ne font pas de différence entre
         le varech géant (Macrocystis pyrifera) et le varech taureau (Nereocystis luetkeana).
+        La fréquence de survol des satellites a changé au fil du temps.
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit

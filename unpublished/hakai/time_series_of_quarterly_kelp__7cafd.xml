@@ -584,7 +584,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-01-27T22:25:15.295Z</gco:DateTime>
+        <gco:DateTime>2026-01-27T22:28:44.431Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1403,11 +1403,11 @@ La canopée de varech est composée de portions de frondes et de stipes flottant
 
 Les données sont organisées dans des fichiers géotif et contiennent les pourcentages trimestriels de détections pour chaque pixel Landsat sur les quatre capteurs. Par exemple, s&#39;il y a 5 passes claires d&#39;un pixel et que celui-ci a été classé comme varech dans 4 d&#39;entre elles, la valeur du pixel est de 80. Les données de présence de varech sont fournies pour des pixels individuels de 30 x 30 mètres pour les zones côtières de la côte centrale de la Colombie-Britannique, au Canada. 
 
-Couverture temporelle : commence le 01/04/1985. L&#39;ensemble de données est en cours.
+Ces données sont appropriées pour étudier la dynamique du varech à de grandes échelles spatiales et il convient de tenir compte de leur utilisation pour toute analyse donnée. Les analyses à l&#39;échelle locale pour lesquelles des données relatives à l&#39;espèce sont nécessaires, ou lorsque le varech est frisonnant et clairsemé, devraient utiliser des images à plus haute résolution spatiale pour la cartographie (par exemple, relevés à voilure fixe ou relevés par drone). 
 
-Ces données sont adaptées à l&#39;étude de la dynamique du varech à de grandes échelles spatiales et il convient de tenir compte de leur utilisation pour toute analyse donnée. Les analyses à l&#39;échelle locale pour lesquelles des données relatives à l&#39;espèce sont nécessaires, ou lorsque le varech est frisonnant et clairsemé, devraient utiliser des images à plus haute résolution spatiale pour la cartographie (par exemple, relevés à voilure fixe ou relevés par drone). Pour obtenir de l&#39;aide concernant les données, veuillez contacter data@hakai.org.
+L&#39;ensemble de données est actuellement mis à jour jusqu&#39;en 2023 et est en cours de révision. Point de contact du jeu de données : Luba Reshitnyk, Henry Houskeeper et Tom Bell.
 
-Pour une méthode détaillée, reportez-vous à ces articles :
+Pour une méthode détaillée, consultez ces articles :
 
 Bell TW, Cavanaugh KC, Saccomanno VR, Cavanaugh KC, Houskeeper HF, Eddy N, et al. (2023) Kelpwatch : un nouvel outil de visualisation et d&#39;analyse pour explorer la dynamique de la canopée de varech révèle une réponse et un rétablissement variables aux vagues de chaleur marines. PLoS ONE 18 (3) : e0271477. https://doi.org/10.1371/journal.pone.0271477
 
@@ -1666,10 +1666,10 @@ Bell, T. W., Allen, J. G., Cavanaugh, K. C. et Siegel, DA (2020). Trois décenni
       <mri:resourceConstraints>
         <mco:MD_Constraints>
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>These satellite-derived data are estimates of canopy area for canopy kelp forests 30 m from shore at a 30 m pixel representation (sensor resolution). These data therefore are not intended for use in examining nearshore (&lt;30 m) kelp canopy extent and dynamics. These data do not differentiate between giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana).</gco:CharacterString>
+            <gco:CharacterString>These satellite-derived data are estimates of canopy area for canopy kelp forests 30 m from shore at a 30 m pixel representation (sensor resolution). These data therefore are not intended for use in examining nearshore (&lt;30 m) kelp canopy extent and dynamics. These data do not differentiate between giant kelp (Macrocystis pyrifera) and bull kelp (Nereocystis luetkeana). Satellite overflight frequency changed over time.</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Ces données dérivées des satellites sont des estimations de la superficie de la canopée des forêts de varech à 30 m du rivage avec une représentation de 30 m en pixels (résolution du capteur). Ces données ne sont donc pas destinées à être utilisées pour examiner l&#39;étendue et la dynamique de la canopée de varech près du rivage (&lt;30 m). Ces données ne font pas de différence entre le varech géant (Macrocystis pyrifera) et le varech taureau (Nereocystis luetkeana).</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Ces données dérivées des satellites sont des estimations de la superficie de la canopée des forêts de varech à 30 m du rivage avec une représentation de 30 m en pixels (résolution du capteur). Ces données ne sont donc pas destinées à être utilisées pour examiner l&#39;étendue et la dynamique de la canopée de varech près du rivage (&lt;30 m). Ces données ne font pas de différence entre le varech géant (Macrocystis pyrifera) et le varech taureau (Nereocystis luetkeana). La fréquence de survol des satellites a changé au fil du temps.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mco:useLimitation>
