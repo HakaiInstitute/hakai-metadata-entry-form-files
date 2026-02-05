@@ -1,0 +1,208 @@
+contact:
+- inCitation: true
+  organization:
+    address: 1713 Hyacinthe Road
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - distributor
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: ERDDAP Data Subset Form
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiQuadraLimpet5min.html
+identification:
+  abstract:
+    en: The limpet provides real-time data on ocean temperature, conductivity, and
+      dissolved oxygen for the waters off Quadra Island.
+    fr: La limpet fournit des données en temps réel sur la température de l'océan,
+      la conductivité et l'oxygène dissous pour les eaux au large de l'île Quadra.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2015-12-12'
+    publication: '2020-04-13'
+  keywords:
+    default:
+      en:
+      - real-time
+      - Limpet
+      - Pratical Salinity
+      - temperature
+      - sea water temperature
+      - pH
+      - chlorophyll a
+      - water temperature
+      - pressure
+      fr:
+      - chlorophylle a
+      - température de l'eau
+      - salinité pratique
+      - fluorescence
+      - pH
+      - pression
+    eov:
+      en:
+      - oxygen
+      - dissolvedOrganicCarbon
+      - subSurfaceSalinity
+      - subSurfaceTemperature
+      - seaSurfaceHeight
+      fr:
+      - Oxygène
+      - Carbone organique dissous
+      - Salinité sous la surface
+      - Température sous la surface
+      - Niveau de l'eau
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2015-12-12T20:00:00.000Z'
+  title:
+    en: Real-Time Seafloor Observatory in Hyacinthe Bay, Quadra Island, British Columbia,
+      Canada (Provisional)
+    fr: Observatoire des fonds marins en temps réel dans la baie de Hyacinthe, île
+      Quadra, Colombie-Britannique, Canada (provisoire)
+    translations:
+      fr:
+        verified: true
+metadata:
+  dates:
+    publication: '2022-02-01'
+    revision: '2026-02-05T21:17:28.380Z'
+  identifier: 41b0137d-6ac0-407d-a550-dd375475b2b0
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW5xCIKrrtNHbrGqNTx
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: This is a provisional dataset. Please refer to the research dataset for
+        science purposes.
+      fr: Il s'agit d'un jeu de données provisoire. Veuillez vous référer à l'ensemble
+        de données de recherche à des fins scientifiques.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: Oceanographic under water platform
+    fr: Plateforme océanographique sous-marine
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Limpet
+  instruments:
+  - description:
+      en: The SBE 37-SM/SMP/SMP-ODO MicroCAT is a high-accuracy conductivity and temperature
+        (pressure optional) recorder with RS-232 or RS-485 interface, internal batteries,
+        data storage, optional pump, and optional optical dissolved oxygen sensor.
+        The MicroCAT is designed for moorings or other long-duration, fixed-site deployments
+        for fully autonomous applications.
+      fr: Le SBE 37-SM/SMP/SMP-ODO MicroCAT est un enregistreur de conductivité et
+        de température haute précision (pression en option) avec interface RS-232
+        ou RS-485, batteries internes, stockage de données, pompe en option et capteur
+        optique à oxygène dissous en option. Le MicroCat est conçu pour les amarrages
+        ou autres déploiements de longue durée sur site fixe pour des applications
+        entièrement autonomes.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: SBE37 SMP-ODO
+    manufacturer: Seabird
+    type:
+      en: CTD
+      fr: CTD
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - description:
+      en: The Environmental Characterization Optics (ECO) series of single-channel
+        fluorometers delivers both high resolution and wide ranges across our entire
+        line of parameters using 14 bit digital processing. The ECO series excels
+        in biological monitoring and dye trace studies. The potted optics block results
+        in long term stability of the sensor, and the optional anti-biofouling technology
+        delivers truly long term field measurements.
+      fr: La série ECO (Environmental Characterization Optics) de fluoromètres à canal
+        unique offre à la fois une haute résolution et une large gamme de paramètres
+        à l'aide d'un traitement numérique 14 bits. La série ECO excelle dans la surveillance
+        biologique et les études de traces de colorants. Le bloc optique en pot garantit
+        une stabilité à long terme du capteur, et la technologie antibiosalissure
+        en option permet de réaliser des mesures de terrain vraiment à long terme.
+    id: Seabird ECO FL
+    manufacturer: Seabird
+    type:
+      en: Fluorescence sensor
+      fr: Capteur de fluorescence
+  - description:
+      en: 'The SeaFET™ V2 is the next generation pH sensor, upgraded from the original
+        SeaFET™. The sensing element is an ion sensitive field effect transistor (ISFET).
+        This class of device has been used for pH sensing in industrial processes,
+        food processing, clinical analysis and environmental monitoring. The advantages
+        of the ISFET include robustness, stability and precision that make it suitable
+        for ocean pH measurement at low pressure. The ISFET potential is measured
+        against two separate reference electrodes: one bearing a liquid junction (internal
+        reference) and a solid state reference electrode (external reference), providing
+        the user with the ability to assess instrument performance and ultimately
+        achieve a greater understanding of the state of acid/base equilibria in seawater.'
+      fr: 'Le SeaFet™ V2 est le capteur de pH de nouvelle génération, mis à niveau
+        du SeaFet™ original. L''élément de détection est un transistor à effet de
+        champ sensible aux ions (ISFET). Cette classe d''appareils a été utilisée
+        pour la détection du pH dans les procédés industriels, la transformation des
+        aliments, l''analyse clinique et la surveillance environnementale. Les avantages
+        de l''ISFET incluent la robustesse, la stabilité et la précision qui le rendent
+        approprié pour la mesure du pH océanique à basse pression. Le potentiel ISFET
+        est mesuré par rapport à deux électrodes de référence distinctes : l''une
+        portant une jonction liquide (référence interne) et une électrode de référence
+        à l''état solide (référence externe), ce qui permet à l''utilisateur d''évaluer
+        les performances de l''instrument et, finalement, de mieux comprendre l''état
+        d''équilibre acide/base dans l''eau de mer.'
+    id: Seabird SeaFet
+    manufacturer: Seabird
+    type:
+      en: pH sensor
+      fr: capteur de pH
+    version: V2
+  type: submersible
+spatial:
+  bbox:
+  - -125.22003
+  - 50.11736
+  - -125.22003
+  - 50.11736
+  vertical:
+  - 10.0
+  - 20.0
+  vertical_positive: depthPositive
