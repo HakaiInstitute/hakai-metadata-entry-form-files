@@ -481,7 +481,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-31T13:25:29.129Z</gco:DateTime>
+        <gco:DateTime>2026-02-05T21:20:08.206Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -548,7 +548,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -561,7 +561,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -576,10 +576,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Hakai Water Properties Vertical Profile Data Measured by Oceanographic Profilers, Research</gco:CharacterString>
+            <gco:CharacterString>Water Property Measurements from Conductivity-Temperature-Depth Profiles, BC, Canada (Research)</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Données de profil vertical des propriétés de l&#39;eau de Hakai mesurées par des profileurs océanographiques, recherche</lan:LocalisedCharacterString>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Mesures des propriétés de l&#39;eau à partir de profils de conductivité-température-profondeur, Colombie-Britannique, Canada (Recherche)</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -1302,4 +1302,305 @@ Les données ont été recueillies par le Programme océanographique de l&#39;In
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>None</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>The Hakai Institute uses a fleet of small boats (&lt; 40 feet long) to collect CTD data.</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Le Hakai Institute utilise une flotte de petits bateaux (&lt; 40 pieds de long) pour recueillir des données sur le CTD.</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>RBR</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>18066</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>XR-620</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Conductivity, temperature depth recorder with fluorometer and turbidity loggers. Self-contained, autonomous CTD logger that can be deployed for a period of up to 5 years with 1 minute sampling intervals. High accuracy measurements, holds measurements internally even without battery and fast sampling options for profiling. Temperature sensor calibrated to accuracy of +/- 0.002 deg C over range -5 to +35 deg C. Conductivity measured with inductive sensor with no exposed contacts. Pressure measured with piezo-resistive transducer with accuracy of 0.05% of full scale rating and achievable resolution of 0.001%.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">Conductivité, enregistreur de profondeur de température avec fluoromètre et enregistreur de turbidité. Enregistreur CTD autonome autonome pouvant être déployé pendant une période allant jusqu&#39;à 5 ans avec des intervalles d&#39;échantillonnage d&#39;une minute. Mesures de haute précision, maintient les mesures en interne même sans batterie et options d&#39;échantillonnage rapide pour le profilage. Capteur de température calibrée à une précision de +/- 0,002° C sur une plage de -5 à +35° C. Conductivité mesurée avec capteur inductif sans contact exposé. Pression mesurée à l&#39;aide d&#39;un transducteur piézo-résistif avec une précision de 0,05 % de la valeur nominale pleine échelle et une résolution réalisable de 0,001 %.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>RBR CTD Profiler with auxiliary sensors</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Profileur CTD de RBR avec capteurs auxiliaires</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>RBR</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>18032</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>XR-620</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Conductivity, temperature depth recorder with fluorometer and turbidity loggers. Self-contained, autonomous CTD logger that can be deployed for a period of up to 5 years with 1 minute sampling intervals. High accuracy measurements, holds measurements internally even without battery and fast sampling options for profiling. Temperature sensor calibrated to accuracy of +/- 0.002 deg C over range -5 to +35 deg C. Conductivity measured with inductive sensor with no exposed contacts. Pressure measured with piezo-resistive transducer with accuracy of 0.05% of full scale rating and achievable resolution of 0.001%.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">Conductivité, enregistreur de profondeur de température avec fluoromètre et enregistreur de turbidité. Enregistreur CTD autonome autonome pouvant être déployé pendant une période allant jusqu&#39;à 5 ans avec des intervalles d&#39;échantillonnage d&#39;une minute. Mesures de haute précision, maintient les mesures en interne même sans batterie et options d&#39;échantillonnage rapide pour le profilage. Capteur de température calibrée à une précision de +/- 0,002° C sur une plage de -5 à +35° C. Conductivité mesurée avec capteur inductif sans contact exposé. Pression mesurée à l&#39;aide d&#39;un transducteur piézo-résistif avec une précision de 0,05 % de la valeur nominale pleine échelle et une résolution réalisable de 0,001 %.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>RBR CTD Profiler with auxiliary sensors</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">Profileur CTD de RBR avec capteurs auxiliaires</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>RBR</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>80217</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>Maestro</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Conductivity, temperature depth recorder with fluorometer and turbidity loggers. Self-contained, autonomous CTD logger that can be deployed for a period of up to 5 years with 1 minute sampling intervals. High accuracy measurements, holds measurements internally even without battery and fast sampling options for profiling. Temperature sensor calibrated to accuracy of +/- 0.002 deg C over range -5 to +35 deg C. Conductivity measured with inductive sensor with no exposed contacts. Pressure measured with piezo-resistive transducer with accuracy of 0.05% of full scale rating and achievable resolution of 0.001%.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">Conductivité, enregistreur de profondeur de température avec fluoromètre et enregistreur de turbidité. Enregistreur CTD autonome autonome pouvant être déployé pendant une période allant jusqu&#39;à 5 ans avec des intervalles d&#39;échantillonnage d&#39;une minute. Mesures de haute précision, maintient les mesures en interne même sans batterie et options d&#39;échantillonnage rapide pour le profilage. Capteur de température calibrée à une précision de +/- 0,002° C sur une plage de -5 à +35° C. Conductivité mesurée avec capteur inductif sans contact exposé. Pression mesurée à l&#39;aide d&#39;un transducteur piézo-résistif avec une précision de 0,05 % de la valeur nominale pleine échelle et une résolution réalisable de 0,001 %.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>RBR CTD Profiler with auxiliary sensors</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">Profileur CTD de RBR avec capteurs auxiliaires</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>RBR</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>65679</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>Concerto</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Conductivity, temperature depth recorder with fluorometer and turbidity loggers. Self-contained, autonomous CTD logger that can be deployed for a period of up to 5 years with 1 minute sampling intervals. High accuracy measurements, holds measurements internally even without battery and fast sampling options for profiling. Temperature sensor calibrated to accuracy of +/- 0.002 deg C over range -5 to +35 deg C. Conductivity measured with inductive sensor with no exposed contacts. Pressure measured with piezo-resistive transducer with accuracy of 0.05% of full scale rating and achievable resolution of 0.001%.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">Conductivité, enregistreur de profondeur de température avec fluoromètre et enregistreur de turbidité. Enregistreur CTD autonome autonome pouvant être déployé pendant une période allant jusqu&#39;à 5 ans avec des intervalles d&#39;échantillonnage d&#39;une minute. Mesures de haute précision, maintient les mesures en interne même sans batterie et options d&#39;échantillonnage rapide pour le profilage. Capteur de température calibrée à une précision de +/- 0,002° C sur une plage de -5 à +35° C. Conductivité mesurée avec capteur inductif sans contact exposé. Pression mesurée à l&#39;aide d&#39;un transducteur piézo-résistif avec une précision de 0,05 % de la valeur nominale pleine échelle et une résolution réalisable de 0,001 %.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>RBR CTD Profiler with auxiliary sensors</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">Profileur CTD RBR avec capteurs auxiliaires</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>RBR</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>66061</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>Concerto</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Conductivity, temperature depth recorder with fluorometer and turbidity loggers. Self-contained, autonomous CTD logger that can be deployed for a period of up to 5 years with 1 minute sampling intervals. High accuracy measurements, holds measurements internally even without battery and fast sampling options for profiling. Temperature sensor calibrated to accuracy of +/- 0.002 deg C over range -5 to +35 deg C. Conductivity measured with inductive sensor with no exposed contacts. Pressure measured with piezo-resistive transducer with accuracy of 0.05% of full scale rating and achievable resolution of 0.001%.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">Conductivité, enregistreur de profondeur de température avec fluoromètre et enregistreur de turbidité. Enregistreur CTD autonome autonome pouvant être déployé pendant une période allant jusqu&#39;à 5 ans avec des intervalles d&#39;échantillonnage d&#39;une minute. Mesures de haute précision, maintient les mesures en interne même sans batterie et options d&#39;échantillonnage rapide pour le profilage. Capteur de température calibrée à une précision de +/- 0,002° C sur une plage de -5 à +35° C. Conductivité mesurée avec capteur inductif sans contact exposé. Pression mesurée à l&#39;aide d&#39;un transducteur piézo-résistif avec une précision de 0,05 % de la valeur nominale pleine échelle et une résolution réalisable de 0,001 %.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>RBR CTD Profiler with auxiliary sensors</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">Profileur CTD RBR avec capteurs auxiliaires</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Seabird</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>1907467</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>SBE19plus v2</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Self-contained self-powered CTD profiler. Measures conductivity, temperature and pressure (Digiquartz sensor) in both profiling (samples at 4 scans/sec) and moored (sample rates of once every 5 seconds to once every 9 hours) mode. Available in plastic or titanium housing with depth ranges of 600m and 7000m respectively. Miniature submersible pump provides water to the conductivity cell. Compared to the previous 19plus, the V2 incorporates an electronics upgrade and additional features, with six differentially amplified A/D input channels, one RS-232 data input channel, and 64 MB FLASH memory.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">Profileur autonome autonome CTD. Mesure la conductivité, la température et la pression (capteur Digiquartz) en mode profilage (échantillons à 4 scans/sec) et amarré (taux d&#39;échantillonnage d&#39;une fois toutes les 5 secondes à une fois toutes les 9 heures). Disponible en boîtier en plastique ou en titane avec des plages de profondeur de 600m et 7000m respectivement. La pompe submersible miniature fournit de l&#39;eau à la cellule de conductivité. Par rapport aux 19plus précédents, le V2 intègre une mise à niveau électronique et des fonctionnalités supplémentaires, avec six canaux d&#39;entrée A/D amplifiés différentiellement, un canal d&#39;entrée de données RS-232 et 64 Mo de mémoire FLASH.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Seabird CTD Profiler with auxiliary sensors</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">Profiler CTD Searbird avec capteurs auxiliaires</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Seabird</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>1907674</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>SBE19plus v2</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Self-contained self-powered CTD profiler. Measures conductivity, temperature and pressure (Digiquartz sensor) in both profiling (samples at 4 scans/sec) and moored (sample rates of once every 5 seconds to once every 9 hours) mode. Available in plastic or titanium housing with depth ranges of 600m and 7000m respectively. Miniature submersible pump provides water to the conductivity cell. Compared to the previous 19plus, the V2 incorporates an electronics upgrade and additional features, with six differentially amplified A/D input channels, one RS-232 data input channel, and 64 MB FLASH memory.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">Profileur autonome autonome CTD. Mesure la conductivité, la température et la pression (capteur Digiquartz) en mode profilage (échantillons à 4 scans/sec) et amarré (taux d&#39;échantillonnage d&#39;une fois toutes les 5 secondes à une fois toutes les 9 heures). Disponible en boîtier en plastique ou en titane avec des plages de profondeur de 600m et 7000m respectivement. La pompe submersible miniature fournit de l&#39;eau à la cellule de conductivité. Par rapport aux 19plus précédents, le V2 intègre une mise à niveau électronique et des fonctionnalités supplémentaires, avec six canaux d&#39;entrée A/D amplifiés différentiellement, un canal d&#39;entrée de données RS-232 et 64 Mo de mémoire FLASH.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Seabird CTD Profiler with auxiliary sensors</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">Profiler CTD Searbird avec capteurs auxiliaires</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>research vessel</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
