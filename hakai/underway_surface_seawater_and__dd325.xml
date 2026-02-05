@@ -633,7 +633,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-24T07:11:36.457Z</gco:DateTime>
+        <gco:DateTime>2026-02-05T21:06:11.174Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -700,7 +700,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -713,7 +713,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -728,10 +728,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Underway Surface Seawater and Marine Boundary Layer Observations Made from the Alaska Marine Highway System M/V Columbia</gco:CharacterString>
+            <gco:CharacterString>Underway Surface Seawater and Marine Boundary Layer Observations from the M/V Columbia (Research)</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Measure de l&#39;eau de mer de surface et de la couche limite marine à partir du traversier du réseau routier maritime de l&#39;Alaska M/V Columbia</lan:LocalisedCharacterString>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Observations en cours de l&#39;eau de mer de surface et de la couche limite marine à partir du M/V Columbia (Recherche)</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -1740,6 +1740,20 @@
       </mrd:transferOptions>
     </mrd:MD_Distribution>
   </mdb:distributionInfo>
+  <mdb:resourceLineage>
+    <mrl:LI_Lineage>
+      <mrl:statement>
+        <gco:CharacterString></gco:CharacterString>
+      </mrl:statement>
+      <mrl:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mrl:scope>
+    </mrl:LI_Lineage>
+  </mdb:resourceLineage>
   <mdb:metadataMaintenance>
     <mmi:MD_MaintenanceInformation>
       <mmi:maintenanceAndUpdateFrequency>
@@ -1747,4 +1761,149 @@
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>7320095</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description>
+            <gco:CharacterString>Ferry</gco:CharacterString>
+          </mac:description>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>General Oceanics</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>General Oceanics 8050 pCO2 Measuring System with LI-COR LI-840A</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>8050</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>The Model 8050 pCO, Measuring System is an autonomous analytical system for measuring carbon dioxide in oceanic surface water. The system is modeled after instruments previously built by Craig Neill/University of Bergen. The system may be used on a ship underway or, on a variety of at -sea platforms. The present pC02 system operates fully automatically.</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Seabird Electronics inc.</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>SBE 38</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>38</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>Measurements from continuously flowing seawater stream at the water intake. Data captured using National Instruments LabVIEW software on the GO8050 PC laptop control computer.</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Seabird Electronics inc.</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>SBE 45</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>45</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>Measurements from continuously flowing seawater stream. Data captured using National Instruments LabVIEW software on the GO8050 PC laptop control computer.</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Aanderaa</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Aanderaa 4330F Oxygen Optode</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>4330F</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>Data were captured using National Instruments LabVIEW software on the GO8050 PC laptop control computer. Raw dissolved oxygen measurements were salinity corrected followed Bittig et al. (2018) and manufacturer recommendations. Salinity corrected data were then converted to µmol/kg units using temperature and salinity recorded from the Sea-Bird SBE 45 MicroTSG Thermosalinograph.</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>ship</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
