@@ -1,0 +1,191 @@
+contact:
+- inCitation: false
+  individual:
+    email: jessy.barrette@hakai.org
+    name: Barrette, Jessy
+    orcid: https://orcid.org/0000-0002-0422-2589
+  organization:
+    address: 1713 Hyacinthe Bay Rd
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+- inCitation: true
+  organization:
+    address: 1713 Hyacinthe Bay Rd
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+  - owner
+  - funder
+  - publisher
+distribution:
+- name:
+    en: ERDDAP Dataset
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiQU5MMooringProvisional.html
+identification:
+  abstract:
+    en: 'The QU5 mooring is a surface mooring deployed in a shallow coastal environment
+      near the Hakai Institute Quadra Island station. The mooring is a test platform
+      were low-cost oceanographic instrumentation is deployed at different depths
+      to record sea water temperatures at an accuracy of 0.2 degrees Celsius. The
+      temperature sensors are attached to an auxiliary line suspended from the surface
+      buoy and along the main anchor line. Instruments are distributed tighter near
+      the surface to better capture the higher vertical variability near the surface.
+
+
+      This dataset present the provisional dataset which has been automatically QCed
+      and flagged.'
+    fr: 'Le mouillage QU5 est un mouillage de surface déployé dans un environnement
+      côtier peu profond près de la station de recherche de l''île Quadra de l''Institut
+      Hakai. Le mouillage est une plate-forme d''essai où de instrumentation océanographique
+      à faible coût est déployée à différentes profondeurs pour enregistrer la température
+      de l''eau de mer à une précision de 0,2 degrés Celsius. Les capteurs de température
+      sont fixés à une ligne auxiliaire suspendue à la bouée de surface et le long
+      de la ligne d''ancrage principale. Les instruments sont plus rapprochés près
+      de la surface afin de mieux saisir la variabilité verticale.
+
+
+
+      Ce jeu de données présente le jeu de données provisoire qui a été automatiquement
+      QCed et marqué.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: IsSourceOf
+    association_type_iso: dependency
+    authority: URL
+    code: https://github.com/HakaiInstitute/hakai-qu5-mooring-data
+    title:
+      en: Raw data dataset repository
+      fr: Référentiel de jeux de données brutes
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2018-10-05'
+  keywords:
+    default:
+      en:
+      - temperature
+      - mooring
+      - low-cost
+      - pruth
+      - Calvert Island
+    eov:
+      en:
+      - subSurfaceTemperature
+      - seaSurfaceTemperature
+      fr:
+      - Température sous la surface
+      - Température de surface
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2018-10-05T19:00:00.000Z'
+  title:
+    en: Oceanographic Mooring Time Series, Hyacinthe Bay, BC, Canada (Provisional)
+    fr: Série chronologique d'amarrage océanographique, baie d'Hyacinthe, Colombie-Britannique,
+      Canada (provisoire)
+    translations:
+      fr:
+        verified: true
+metadata:
+  dates:
+    publication: '2021-10-20'
+    revision: '2026-02-05T21:14:55.369Z'
+  history:
+  - scope: Dataset
+  identifier: 7ddae37a-e706-45d2-8060-8306300a98c8
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW0Az3HzggNmnqgHDw3
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Temperature accuracy is of 0.2C. This is a provisional dataset which has
+        been automatically QCed and flagged.
+      fr: La précision de la température est de 0,2 °C. Il s'agit d'un jeu de données
+        provisoire qui a été automatiquement QCed et marqué.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: Surface Mooring with a simple 30lb boat anchor. Instrumentation is fix to
+      an auxiliary line which is suspended from the surface buoy and along the main
+      anchor line.
+    fr: Amarrage de surface avec une ancre de bateau simple de 30 lb. L'instrumentation
+      est fixée à une ligne auxiliaire suspendue à la bouée de surface et le long
+      de la ligne d'ancrage principale.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: QU5M
+  instruments:
+  - description:
+      en: Only 3x4 cm, this tiny data logger measures temperatures over a wide temperature
+        range. The TidbiT v2 provides 12-bit resolution and has ±0.2 °C accuracy.
+        It is designed for outdoor and underwater environments and is waterproof to
+        300 m (1000 ft). An optical USB interface allows users to offload data in
+        seconds. Please note, a solar radiation shield is required to obtain accurate
+        air temperature measurements in sunlight (RS1 Solar Radiation Shield, assembly
+        required; or M-RSA pre-assembled Solar Radiation Shield).
+      fr: Seulement 3x4 cm, ce minuscule enregistreur de données mesure les températures
+        sur une large plage de températures. Le TidBit v2 offre une résolution 12
+        bits et une précision de ±0,2 °C. Il est conçu pour les environnements extérieurs
+        et sous-marins et est étanche jusqu'à 300 m (1000 pi). Une interface USB optique
+        permet aux utilisateurs de décharger les données en quelques secondes. Veuillez
+        noter qu'un bouclier solaire est nécessaire pour obtenir des mesures précises
+        de la température de l'air à la lumière du soleil (bouclier solaire RS1, assemblage
+        requis ; ou bouclier solaire solaire pré-assemblé M-RSA).
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Tidbits v2
+    manufacturer: Onset
+    type:
+      en: Temprature sensor
+      fr: Capteur de temprature
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: v2
+  type: mooring
+spatial:
+  bbox:
+  - -125.212195
+  - 50.12001367
+  - -125.212195
+  - 50.12001367
+  vertical:
+  - 0.0
+  - 60.0
+  vertical_positive: depthPositive
