@@ -501,7 +501,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-23T13:42:30.501Z</gco:DateTime>
+        <gco:DateTime>2026-02-05T21:08:30.365Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -568,7 +568,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -581,7 +581,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -596,10 +596,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Surface Seawater and Marine Boundary Layer CO2 Observations Made from the Kwakshua Channel (KC) Buoy on the Central Coast of British Columbia</gco:CharacterString>
+            <gco:CharacterString>Surface Seawater and Marine Boundary Layer CO2 Observations Made from the Kwakshua Channel (KC) Buoy on the Central Coast of British Columbia (Research)</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Mesures de concentration de CO2 à la surface de l&#39;eau de mer et à la couche limite marine effectuées à partir de la bouée du chenal Kwakshua (KC) sur la côte centrale de la Colombie-Britannique</lan:LocalisedCharacterString>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Observations de CO2 dans l&#39;eau de mer de surface et dans la couche limite marine effectuées à partir de la bouée du canal Kwakshua (KC) sur la côte centrale de la Colombie-Britannique (Recherche)</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -1654,4 +1654,89 @@
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>KCBuoy</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description>
+            <gco:CharacterString>Moored research station</gco:CharacterString>
+          </mac:description>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Battelle Seology</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Battelle Seaology (MApCO2) System with LI-COR LI-820</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description>
+                    <gco:CharacterString>All measurements are at sea surface temperature and atmospheric pressure. During the air cycle, fresh air is pumped through the detector for 1 minute. Once the pump stops, the system opens to the atmosphere allowing the pressure to equilibrate with atmospheric pressure. Measurements are recorded for 30 seconds at 2 Hz and then averaged. The gas streams for both the air cycle and equilibrator cycle are partially dried before entering the detector. The values listed as wet xCO2 generally have relative humidity levels ranging from 40 to 80 percent. The humidity levels increase over the course of a deployment. The infrared detector is calibrated at the beginning of every sampling period using a zero and span gas. To calculate the dry measurements, the water mole fraction in the Licor detector is measured using a relative humidity sensor located immediately downstream of the detector. Sampling frequency during this deployment varies from 30 to 180 minutes. At the beginning of each sample, the instrument self-calibrates using a zero and high standard. The zero standard is generated by cycling a small amount of air through a soda lime chamber. The high standard is from a cylinder of calibrated standard reference gas with a known concentration, standard concentrations for this deployment were 907 ppm (Praxair), 514.47 ppm (ESRL), and 901 ppm (Praxair).</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Seabird Electronics</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>SBE 16</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description>
+                    <gco:CharacterString>Temperature and conductivity measurements are recorded by a SeaBird 16 plus mounted on the mooring bridle approximately one meter below the sea surface. The sensor is powered directly from the buoy battery and data is captured using a Campbell Scientific data logger. Salinity data are derived from calibrated conductivity and temperature measurements. Sensors are replaced and sent to the factory for calibration and service annually. Data are not post-calibrated. Annual drift for this deployment was minimal and does not impact the fCO2 and pCO2 calculations (within the degree of accuracy of the CO2 measurement). No temperature or conductivity data were collected on the mooring from April 25th to August 19th 2019, for this period data from a dock tide gauge sensor (OTT PLS-C) approximately 11 km away was used. The dock sensor data was corrected by comparing data from the two sensors between August 19th and December 31st 2019.</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>moored surface buoy</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
