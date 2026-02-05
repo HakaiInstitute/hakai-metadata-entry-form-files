@@ -95,17 +95,17 @@ identification:
   status: published
   temporal_begin: '2014-07-24T19:00:00.000Z'
   title:
-    en: Pruth Dock, Calvert Island Tide and Weather Station Provisional
-    fr: Station de marée et de météo de Pruth Dock, Calvert Island Provisoire
+    en: Water Level and Weather Station Time Series, Pruth Bay, Kwakshua Channel,
+      Central Coast, BC, Canada (Provisional)
+    fr: Séries chronologiques du niveau de l'eau et des stations météorologiques,
+      baie de Pruth, canal Kwakshua, côte centrale, Colombie-Britannique, Canada (provisoire)
     translations:
       fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
+        verified: true
 metadata:
   dates:
     publication: '2024-03-14'
-    revision: '2024-07-23T13:39:35.933Z'
+    revision: '2026-02-05T21:10:00.218Z'
   identifier: 2d693456-7e65-46be-95d7-6bb697320017
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MkxD-S6TxIvv2e6_OGH
@@ -124,7 +124,49 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Dock
+    fr: Quai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Pruth Dock
+  instruments:
+  - id: OTT PLS-C
+    manufacturer: OTT
+    type:
+      en: Vented Pressure Gauge with conductivity and temperature sensor
+      fr: Manomètre ventilé avec sonde de conductivité et de température
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: PLS-C
+  - description:
+      en: The VEGAPULS 62 is a universally implementable radar sensor for continuous
+        level measurement of liquids. It is suitable for level measurement in storage
+        containers, reactors and process vessels, even under difficult process conditions.
+        With its various antenna versions and materials, VEGAPULS 62 is the optimal
+        solution for almost all applications and processes. Its wide temperature and
+        pressure range makes project planning simple.
+      fr: Le VEGAPULS 62 est un capteur radar universel pour la mesure continue de
+        niveau de liquides. Il convient à la mesure de niveau dans des conteneurs
+        de stockage, des réacteurs et des cuves de traitement, même dans des conditions
+        de processus difficiles. Avec ses différentes versions et matériaux d'antenne,
+        VEGAPULS 62 est la solution optimale pour presque toutes les applications
+        et tous les processus. Sa large plage de températures et de pressions simplifie
+        la planification des projets.
+    id: VegaPulse 62
+    manufacturer: VegaPulse
+    type:
+      en: Radar-type Tide Sensor
+      fr: Capteur de marée de type radar
+    version: '62'
+  type: unknown
 spatial:
   bbox:
   - -128.1302805556
