@@ -346,20 +346,18 @@ identification:
   status: published
   temporal_begin: '2016-04-25T19:00:00.000Z'
   title:
-    en: 8-day average satellite (Sentinel 3A and 3B) chlorophyll and suspended matter
-      concentrations for coastal British Columbia and southeast Alaska
-    fr: Concentrations moyennes de chlorophylle et de matières en suspension par satellite
-      (Sentinel 3A et 3B) sur 8 jours pour la côte de la Colombie-Britannique et le
-      sud-est de l'Alaska
+    en: Sentinel 3A and 3B Chlorophyll and Suspended Matter Concentrations for Coastal
+      British Columbia and Southeast Alaska, 8-Day Average (Research)
+    fr: Concentrations de chlorophylle et de matières en suspension Sentinel 3A et
+      3B pour la côte de la Colombie-Britannique et le sud-est de l'Alaska, moyenne
+      sur 8 jours (Recherche)
     translations:
       fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
+        verified: true
 metadata:
   dates:
     publication: '2024-04-05'
-    revision: '2024-07-18T14:45:16.347Z'
+    revision: '2026-02-05T21:20:53.263Z'
   identifier: 91107fce-93a4-4bc9-bce4-e7d9e1cf02a0
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/7U7b8oPpeTN6gjvXlUCTGJr5pga2/-Nueis-TZEnz_78f8PYf
@@ -381,7 +379,18 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Sentinel 3A and 3B OLCI
+    fr: Sentinel 3A et 3B OLCI
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Sentinel-3
+  instruments: []
+  type: orbiting satellite
 spatial:
   bbox:
   - -139.0
