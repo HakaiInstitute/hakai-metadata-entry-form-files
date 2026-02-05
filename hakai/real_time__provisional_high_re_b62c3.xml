@@ -1001,7 +1001,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-23T13:41:42.133Z</gco:DateTime>
+        <gco:DateTime>2026-02-05T21:15:41.624Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1068,7 +1068,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -1081,7 +1081,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -1096,10 +1096,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Real-Time Provisional High-Resolution Record of Surface Seawater Carbon Dioxide (CO2) Content Collected from Hakai Institute Quadra Island Field Station in Hyacinthe Bay, British Columbia, Canada</gco:CharacterString>
+            <gco:CharacterString>Seawater Carbon Dioxide (CO2) Content from the Burke-o-Lator pCO2/TCO2 analyzer located at the Hakai Institute’s Quadra Island Field Station, Hyacinthe Bay, BC, Canada (Provisional)</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Enregistrement provisoire en temps réel et à haute résolution de la teneur en dioxyde de carbone (CO2) de l&#39;eau de mer de surface recueillie à la station de terrain de l&#39;île Quadra Island de Hakai Institute à Hyacinthe Bay, Colombie-Britannique, Canada</lan:LocalisedCharacterString>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Teneur en dioxyde de carbone (CO2) de l&#39;eau de mer provenant de l&#39;analyseur pCO2/tCO2 Burke-o-Lator situé à la station de terrain de Quadra Island de l&#39;Institut Hakai, Hyacinthe Bay, Colombie-Britannique, Canada (provisoire)</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -1979,4 +1979,150 @@
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>Quadra Island Field Station</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description>
+            <gco:CharacterString>Shore-side research station</gco:CharacterString>
+          </mac:description>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Sunburst Sensors</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>SUPERCO2</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description>
+                    <gco:CharacterString>This instrument was used from December 2014 to April 2016. to We clean and replace LI840A components as necessary and do not send units in for service unless absolutely required. In general, calibration function offsets are tracked and used as a metric of drift. When the calibration function offset exceeds 30, the unit would be cleaned and rezeroed / respanned using the high CO2 gas standard.</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Dakunalytics, LLC</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Burke-o-Lator pCO2/TCO2 analyzer</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description>
+                    <gco:CharacterString>We clean and replace LI840A components as necessary and do not send units in for service unless absolutely required. In general, calibration function offsets are tracked and used as a metric of drift. When the calibration function offset exceeds 30, the unit would be cleaned and rezeroed / respanned using the high CO2 gas standard.</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Seabird Electronics</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>SBE 45</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description>
+                    <gco:CharacterString>Sea-Bird Electronics SBE 45 MicroTSG Thermosalinograph; Honeywell or Omega Pressure Sensors and Fast Response Resistance Temperature Detectors</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type>
+                <gco:CharacterString></gco:CharacterString>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Van Essen Instruments</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>CTD-Divers</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>CTD-Divers</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>The CTD-Diver is a submersible datalogger for long-term uninterrupted, real-time water level monitoring using a pressure sensor when submerged at a fixed level under the water surface. The pressure sensor measures the equivalent hydrostatic pressure of the water above the sensor diaphragm to calculate the total water depth. In addition, to a pressure sensor the CTD-Diver is also equipped with a 4-electrode conductivity sensor for measuring the true or specific electrical conductivity of the water. The Diver autonomously measures conductivity, pressure and temperature and records them in its internal memory.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup>
+                        <lan:LocalisedCharacterString locale="#fr">Le CTD-Diver est un enregistreur de données submersible pour la surveillance continue et continue du niveau d&#39;eau en temps réel à l&#39;aide d&#39;un capteur de pression lorsqu&#39;il est immergé à un niveau fixe sous la surface de l&#39;eau. Le capteur de pression mesure la pression hydrostatique équivalente de l&#39;eau au-dessus du diaphragme du capteur pour calculer la profondeur totale de l&#39;eau. En outre, pour un capteur de pression, le CTD-Diver est également équipé d&#39;un capteur de conductivité à 4 électrodes pour mesurer la conductivité électrique réelle ou spécifique de l&#39;eau. Le Diver mesure de manière autonome la conductivité, la pression et la température et les enregistre dans sa mémoire interne.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>CTD</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">CTD</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>land/onshore structure</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>

@@ -144,22 +144,19 @@ identification:
   status: published
   temporal_begin: '2014-12-19T08:00:00.000Z'
   title:
-    en: Real-Time Provisional High-Resolution Record of Surface Seawater Carbon Dioxide
-      (CO2) Content Collected from Hakai Institute Quadra Island Field Station in
-      Hyacinthe Bay, British Columbia, Canada
-    fr: Enregistrement provisoire en temps réel et à haute résolution de la teneur
-      en dioxyde de carbone (CO2) de l'eau de mer de surface recueillie à la station
-      de terrain de l'île Quadra Island de Hakai Institute à Hyacinthe Bay, Colombie-Britannique,
-      Canada
+    en: Seawater Carbon Dioxide (CO2) Content from the Burke-o-Lator pCO2/TCO2 analyzer
+      located at the Hakai Institute’s Quadra Island Field Station, Hyacinthe Bay,
+      BC, Canada (Provisional)
+    fr: Teneur en dioxyde de carbone (CO2) de l'eau de mer provenant de l'analyseur
+      pCO2/tCO2 Burke-o-Lator situé à la station de terrain de Quadra Island de l'Institut
+      Hakai, Hyacinthe Bay, Colombie-Britannique, Canada (provisoire)
     translations:
       fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
+        verified: true
 metadata:
   dates:
     publication: '2021-03-31'
-    revision: '2024-07-23T13:41:42.133Z'
+    revision: '2026-02-05T21:15:41.624Z'
   identifier: b62c3aaa-c3b8-41cb-b035-4da16209f26a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MVcYXEIW5uA9TBP6v64
@@ -185,7 +182,58 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Shore-side research station
+  id: Quadra Island Field Station
+  instruments:
+  - description:
+      en: This instrument was used from December 2014 to April 2016. to We clean and
+        replace LI840A components as necessary and do not send units in for service
+        unless absolutely required. In general, calibration function offsets are tracked
+        and used as a metric of drift. When the calibration function offset exceeds
+        30, the unit would be cleaned and rezeroed / respanned using the high CO2
+        gas standard.
+    id: SUPERCO2
+    manufacturer: Sunburst Sensors
+  - description:
+      en: We clean and replace LI840A components as necessary and do not send units
+        in for service unless absolutely required. In general, calibration function
+        offsets are tracked and used as a metric of drift. When the calibration function
+        offset exceeds 30, the unit would be cleaned and rezeroed / respanned using
+        the high CO2 gas standard.
+    id: Burke-o-Lator pCO2/TCO2 analyzer
+    manufacturer: Dakunalytics, LLC
+  - description:
+      en: Sea-Bird Electronics SBE 45 MicroTSG Thermosalinograph; Honeywell or Omega
+        Pressure Sensors and Fast Response Resistance Temperature Detectors
+    id: SBE 45
+    manufacturer: Seabird Electronics
+  - description:
+      en: The CTD-Diver is a submersible datalogger for long-term uninterrupted, real-time
+        water level monitoring using a pressure sensor when submerged at a fixed level
+        under the water surface. The pressure sensor measures the equivalent hydrostatic
+        pressure of the water above the sensor diaphragm to calculate the total water
+        depth. In addition, to a pressure sensor the CTD-Diver is also equipped with
+        a 4-electrode conductivity sensor for measuring the true or specific electrical
+        conductivity of the water. The Diver autonomously measures conductivity, pressure
+        and temperature and records them in its internal memory.
+      fr: Le CTD-Diver est un enregistreur de données submersible pour la surveillance
+        continue et continue du niveau d'eau en temps réel à l'aide d'un capteur de
+        pression lorsqu'il est immergé à un niveau fixe sous la surface de l'eau.
+        Le capteur de pression mesure la pression hydrostatique équivalente de l'eau
+        au-dessus du diaphragme du capteur pour calculer la profondeur totale de l'eau.
+        En outre, pour un capteur de pression, le CTD-Diver est également équipé d'un
+        capteur de conductivité à 4 électrodes pour mesurer la conductivité électrique
+        réelle ou spécifique de l'eau. Le Diver mesure de manière autonome la conductivité,
+        la pression et la température et les enregistre dans sa mémoire interne.
+    id: CTD-Divers
+    manufacturer: Van Essen Instruments
+    type:
+      en: CTD
+      fr: CTD
+    version: CTD-Divers
+  type: land/onshore structure
 spatial:
   bbox:
   - -125.222
