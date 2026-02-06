@@ -56,15 +56,6 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   url: https://catalogue.hakai.org/erddap/tabledap/HakaiOrfordBuoy1hour.html
-- name:
-    en: Hakai Oceanography CTD and Real-time data visualization tool
-    fr: Hakai Oceanography CTD et outil de visualisation de données en temps réel
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://hakai-ctd-map.server.hakai.app/
 identification:
   abstract:
     en: Bute Inlet, a prominent fjord on the British Columbia coast, has been a site
@@ -86,7 +77,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsPartOf
+    association_type_iso: largerWorkCitation
+    authority: URL
+    code: https://hakai-ctd-map.server.hakai.app/
+    title:
+      en: Hakai Oceanography CTD and Real-time data visualization tool
+      fr: Hakai Oceanography CTD et outil de visualisation de données en temps réel
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2025-02-15'
   edition: '1.1'
@@ -129,7 +132,7 @@ identification:
         verified: true
 metadata:
   dates:
-    revision: '2026-02-06T22:54:56.622Z'
+    revision: '2026-02-06T22:56:43.427Z'
   identifier: bfefcdf9-c922-4e4f-a958-aa6da739d3cd
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-OOYvTmfsWUPdHkDTTFS
