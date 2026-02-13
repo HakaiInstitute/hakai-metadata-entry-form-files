@@ -66,18 +66,6 @@ contact:
   - publisher
 distribution:
 - description:
-    en: Airborne Coastal Observatory metadata report for the 2020 Fraser River surveys.
-    fr: Rapport de métadonnées de l'Observatoire côtier aéroporté pour les relevés
-      2020 du fleuve Fraser.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: Metadata report
-  url: https://drive.google.com/file/d/1Zo5Nw0DVrVHFmQEi58Ggdby48pMLC2bf/view?usp=sharing
-- description:
     en: Webmap detailing the areas of interest (AOI) for each airborne coastal observatory
       survey area.
     fr: Carte Web détaillant les zones d'intérêt (AOI) de chaque zone de relevé aéroportée
@@ -89,60 +77,82 @@ distribution:
         verified: false
   name:
     en: Hakai ACO Survey Coverage Webmap
-  url: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
-identification:
-  abstract:
-    en: "2020 Fraser River Airborne Surveys\nACO Project# 20 - 3022; 3023; 3024; 3026;\
-      \ 3027; and 3028\n\nAirborne Lidar and Imagery data continued to be collected\
-      \ by the ACO in 2020, in partnership with Dr. Jeremy Venditti (SFU) and Dr.\
-      \ Brian Menounos (UNBC, Hakai Institute). The goal of this data is to inventory\
-      \ and characterize the terrain throughout the Fraser River system to look at\
-      \ contemporary and historical landslide impact on flow dynamics, fish migration,\
-      \ and genetics of Fraser River Salmon. This work was underscored on November\
-      \ 1st, 2018 by the Big Bar Landslide, which partly blocked the Fraser River,\
-      \ creating a hydraulic barrier to salmon passage at moderate to high flows and\
-      \ significantly impeded salmon migration to the upper Fraser Basin.\n\nLidar\
-      \ data (LAZ)- classified point cloud – digital surface model – digital terrain\
-      \ model. \nImage data (TIFF) – 4 band orthophotos – RGB & NIR. \nHyperspectral\
-      \ data (not always captured).\nA detailed project report with the summary of\
-      \ acquisition, processing, and overall hardware / software is available (PDF).\n\
-      Sensors and instrument breakdown:\nInertial Navigation System: Manufacturer:\
-      \ Applanix (Canada), IMU Model: POS AV 510 IMAR, GNSS Model: Trimble AV39.\n\
-      Laser sensor: Riegl LMS-Q 780 long-range airborne laser scanner. Point density\
-      \ ranges per project and landscape from 1-12 points per square meter.\nAerial\
-      \ cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium format\
-      \ cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.\nHyperspectral Sensor:\
-      \ manufacturer: Specim, model: AisaFENIX 384, spectral range: 380 - 2500 nm"
-    fr: "Relevés aéroportés 2020 sur le fleuve Fraser\nProjet ACO no 20 - 3022 ; 3023 ;\
-      \ 3024 ; 3026 ; 3027 et 3028\n\nLes données Airborne Lidar et Imagery ont continué\
-      \ d'être collectées par l'ACO en 2020, en partenariat avec le Dr Jeremy Venditti\
-      \ (SFU) et le Dr Brian Menounos (UNBC, Hakai Institute). L'objectif de ces données\
-      \ est d'inventorier et de caractériser le terrain dans tout le système du fleuve\
-      \ Fraser afin d'examiner l'impact des glissements de terrain contemporains et\
-      \ historiques sur la dynamique des flux, la migration des poissons et la génétique\
-      \ du saumon du fleuve Fraser. Ce travail a été souligné le 1er novembre 2018\
-      \ par le glissement de terrain de Big Bar, qui a partiellement bloqué le fleuve\
-      \ Fraser, créant une barrière hydraulique au passage du saumon à des débits\
-      \ modérés à élevés et a considérablement entravé la migration du saumon vers\
-      \ le haut bassin du Fraser.\n\nDonnées Lidar (LAZ) - nuage de points classifié\
-      \ — modèle numérique de surface — modèle de terrain numérique. \nDonnées d'image\
-      \ (TIFF) — Orthophotos 4 bandes — RVB & NIR. \nDonnées hyperspectrales (pas\
-      \ toujours capturées).\nUn rapport de projet détaillé contenant le résumé de\
-      \ l'acquisition, du traitement et de l'ensemble du matériel/logiciel est disponible\
-      \ (PDF).\nPanne des capteurs et des instruments :\nSystème de navigation inertielle :\
-      \ Fabricant : Applanix (Canada), modèle IMU : POS AV 510 IMAR, modèle GNSS :\
-      \ Trimble AV39.\nCapteur laser : scanner laser aéroporté longue portée Riegl\
-      \ LMS-Q 780. Les plages de densité de points par projet et paysage vont de 1\
-      \ à 12 points par mètre carré.\nCaméras aériennes : deux caméras moyennes format\
-      \ Phaseone Industrial IXU-RS1000 entièrement intégrées, résolution : 100MP,\
-      \ objectif : 50 mm f/4.0 Rodenstock.\nCapteur hyperspectral : fabricant : Specim,\
-      \ modèle : AisaFenix 384, portée spectrale : 380 - 2500 nm"
+    fr: Carte Web de couverture de l'enquête Hakai ACO
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  url: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
+identification:
+  abstract:
+    en: "2020 Fraser River Airborne Surveys\nACO Project# 20 - 3022; 3023; 3024; 3026;\
+      \ 3027; and 3028\n\nAirborne Lidar and Imagery data continued to be collected\
+      \ by the Airborne Coastal Observatory (ACO) in 2020, in partnership with Dr.\
+      \ Jeremy Venditti (SFU) and Dr. Brian Menounos (UNBC, Hakai Institute). The\
+      \ goal of this data is to inventory and characterize the terrain throughout\
+      \ the Fraser River system to look at contemporary and historical landslide impact\
+      \ on flow dynamics, fish migration, and genetics of Fraser River Salmon. This\
+      \ work was underscored on November 1st, 2018 by the Big Bar Landslide, which\
+      \ partly blocked the Fraser River, creating a hydraulic barrier to salmon passage\
+      \ at moderate to high flows and significantly impeded salmon migration to the\
+      \ upper Fraser Basin.\n\nLidar data (LAZ)- classified point cloud – digital\
+      \ surface model – digital terrain model. \nImage data (TIFF) – 4 band orthophotos\
+      \ – RGB & NIR. \nHyperspectral data (not always captured).\nA detailed project\
+      \ report with the summary of acquisition, processing, and overall hardware /\
+      \ software is available (PDF).\nSensors and instrument breakdown:\nInertial\
+      \ Navigation System: Manufacturer: Applanix (Canada), IMU Model: POS AV 510\
+      \ IMAR, GNSS Model: Trimble AV39.\nLaser sensor: Riegl LMS-Q 780 long-range\
+      \ airborne laser scanner. Point density ranges per project and landscape from\
+      \ 1-12 points per square meter.\nAerial cameras: two fully integrated Phaseone\
+      \ Industrial iXU-RS1000 medium format cameras, resolution: 100MP, lens: 50mm\
+      \ f/4.0 Rodenstock.\nHyperspectral Sensor: manufacturer: Specim, model: AisaFENIX\
+      \ 384, spectral range: 380 - 2500 nm"
+    fr: "Levés aéroportés du fleuve Fraser 2020\nProjet ACO n° 20 - 3022 ; 3023 ;\
+      \ 3024 ; 3026 ; 3027 et 3028\n\nLes données lidar et d'imagerie aéroportées\
+      \ ont continué d'être collectées par l'Observatoire côtier aéroporté (ACO) en\
+      \ 2020, en partenariat avec le Dr Jeremy Venditti (SFU) et le Dr Brian Menounos\
+      \ (UNBC, Hakai Institute). L'objectif de ces données est d'inventorier et de\
+      \ caractériser le terrain dans l'ensemble du réseau du fleuve Fraser afin d'examiner\
+      \ l'impact contemporain et historique des glissements de terrain sur la dynamique\
+      \ des flux, la migration des poissons et la génétique du saumon du fleuve Fraser.\
+      \ Ces travaux ont été soulignés le 1er novembre 2018 par le glissement de terrain\
+      \ de Big Bar, qui a partiellement bloqué le fleuve Fraser, créant une barrière\
+      \ hydraulique empêchant le passage du saumon à des débits modérés à élevés et\
+      \ entravant considérablement la migration des saumons vers le bassin supérieur\
+      \ du Fraser.\n\nDonnées lidar (LAZ) - nuage de points classifié — modèle numérique\
+      \ de surface — modèle numérique de terrain. \nDonnées d'image (TIFF) — Orthophotos\
+      \ à 4 bandes — RGB et NIR. \nDonnées hyperspectrales (pas toujours capturées).\n\
+      Un rapport de projet détaillé contenant le résumé de l'acquisition, du traitement\
+      \ et de l'ensemble du matériel et des logiciels est disponible (PDF).\nPanne\
+      \ des capteurs et des instruments :\nSystème de navigation inertielle : Fabricant :\
+      \ Applanix (Canada), modèle IMU : POS AV 510 IMAR, modèle GNSS : Trimble AV39.\n\
+      Capteur laser : scanner laser aéroporté à longue portée Riegl LMS-Q 780. La\
+      \ densité de points varie de 1 à 12 points par mètre carré par projet et par\
+      \ paysage.\nCaméras aériennes : deux caméras de format moyen Phaseone Industrial\
+      \ iXU-RS1000 entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0\
+      \ Rodenstock.\nCapteur hyperspectral : fabricant : Specim, modèle : AISAfenix\
+      \ 384, plage spectrale : 380 - 2500 nm"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/1Zo5Nw0DVrVHFmQEi58Ggdby48pMLC2bf/view?usp=sharing
+    title:
+      en: 'Metadata Report: Fraser River Airborne Surveys - 2020 - Airborne Coastal
+        Observatory'
+      fr: 'Rapport de métadonnées : Levés aéroportés du fleuve Fraser - 2020 - Observatoire
+        côtier aéroporté'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2020-07-29'
     publication: '2021-04-01'
@@ -183,7 +193,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-01'
-    revision: '2025-09-17T23:38:04.855Z'
+    revision: '2026-02-13T21:40:30.974Z'
   identifier: d7b34963-67bc-404b-bdd1-b41cc750bdaa
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-MibW0TZpoaJ4Ih_2ev7
