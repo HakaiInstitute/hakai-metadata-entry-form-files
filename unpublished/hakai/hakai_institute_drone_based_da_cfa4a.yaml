@@ -121,8 +121,8 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-  - association_type: HasMetadata
-    association_type_iso: crossReference
+  - association_type: HasPart
+    association_type_iso: isComposedOf
     authority: DOI
     code: https://doi.org/10.21966/jhqc-fq17
     title:
@@ -180,7 +180,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-02-17T22:52:21.790Z'
+    revision: '2026-02-17T22:53:16.715Z'
   identifier: cfa4ad65-ee12-47c0-9527-206a0f8d92ae
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-OCdraToZivfj6ZZ8TqZ
