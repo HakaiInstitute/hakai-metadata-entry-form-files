@@ -1481,7 +1481,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-02-13T21:40:30.974Z</gco:DateTime>
+        <gco:DateTime>2026-02-19T23:28:30.491Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2912,10 +2912,26 @@ Capteur hyperspectral : fabricant : Specim, modèle : AISAfenix 384, plage sp
             </mcc:MD_Identifier>
           </mac:identifier>
           <mac:description xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Airborne Coastal Observatory – Hakai Institute</gco:CharacterString>
+            <gco:CharacterString>Airborne Coastal Observatory – Hakai Institute collecting Lidar data (LAZ)- classified point cloud – digital surface model – digital terrain model. 
+Image data (TIFF) – 4 band orthophotos – RGB &amp; NIR. 
+Hyperspectral data (not always captured).
+A detailed project report with the summary of acquisition, processing, and overall hardware / software is available (PDF).
+Sensors and instrument breakdown:
+Inertial Navigation System: Manufacturer: Applanix (Canada), IMU Model: POS AV 510 IMAR, GNSS Model: Trimble AV39.
+Laser sensor: Riegl LMS-Q 780 long-range airborne laser scanner. Point density ranges per project and landscape from 1-12 points per square meter.
+Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.
+Hyperspectral Sensor: manufacturer: Specim, model: AisaFENIX 384, spectral range: 380 - 2500 nm</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Observatoire côtier aéroporté — Institut Hakai</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Observatoire côtier aéroporté — Institut Hakai collectant des données lidar (LAZ) — nuage de points classifié — modèle numérique de surface — modèle numérique de terrain. 
+Données d&#39;image (TIFF) — Orthophotos à 4 bandes — RGB et NIR. 
+Données hyperspectrales (pas toujours capturées).
+Un rapport de projet détaillé contenant le résumé de l&#39;acquisition, du traitement et de l&#39;ensemble du matériel et des logiciels est disponible (PDF).
+Panne des capteurs et des instruments :
+Système de navigation inertielle : Fabricant : Applanix (Canada), modèle IMU : POS AV 510 IMAR, modèle GNSS : Trimble AV39.
+Capteur laser : scanner laser aéroporté à longue portée Riegl LMS-Q 780. La densité de points varie de 1 à 12 points par mètre carré par projet et par paysage.
+Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000 entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.
+Capteur hyperspectral : fabricant : Specim, modèle : AISAfenix 384, plage spectrale : 380 - 2500 nm</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mac:description>
