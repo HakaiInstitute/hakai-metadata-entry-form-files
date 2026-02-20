@@ -1,0 +1,170 @@
+contact:
+- inCitation: true
+  individual:
+    email: wiley.evans@hakai.org
+    name: Evans, Wiley
+    orcid: https://orcid.org/0000-0002-5450-0903
+  roles:
+  - custodian
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: trevor.michalchuk@hakai.org
+    name: Michalchuk, Trevor
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    email: lydia.pollock@hakai.org
+    name: Pollock, Lydia
+  roles:
+  - coAuthor
+- inCitation: false
+  organization:
+    name: Hakai Institute
+    url: https://hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    name: Tula Foundation
+    url: https://tula.org/
+  roles:
+  - funder
+distribution:
+- name:
+    en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiPearlBoL5min.html
+identification:
+  abstract:
+    en: The Pacific Ecosystem Autonomous Research Laboratory (PEARL) at the Bamfield
+      Marine Sciences Centre has been a site for shore-based and high-resolution measurement
+      of surface seawater CO2 content since August 2025. Measurements of in situ temperature,
+      salinity, and CO2 partial pressure are made near-continuously on seawater drawn
+      from a sample line with an intake 15 m from shore and a depth of 1 m in Barkley
+      Sound on the west coast of Vancouver Island. The effort to collect these data
+      are part of the Hakai Institute’s mission to advance the understanding of carbon
+      cycling in northeast Pacific coastal settings with specific emphasis on ocean
+      acidification. This data contribution consists of provisional measurements spanning
+      the current year.
+    fr: Le laboratoire de recherche autonome des écosystèmes du Pacifique (PEARL)
+      du Centre des sciences marines de Bamfield est un site de mesure à haute résolution
+      et à terre de la teneur en CO2 de l'eau de mer de surface depuis août 2025.
+      Les mesures in situ de la température, de la salinité et de la pression partielle
+      de CO2 sont effectuées de façon quasi continue sur de l'eau de mer prélevée
+      à partir d'une ligne d'échantillonnage située à 15 m du rivage et à une profondeur
+      de 1 m dans le détroit de Barkley, sur la côte ouest de l'île de Vancouver.
+      La collecte de ces données s'inscrit dans le cadre de la mission de l'Institut
+      Hakai qui vise à mieux comprendre le cycle du carbone dans les zones côtières
+      du nord-est du Pacifique, en mettant l'accent sur l'acidification des océans.
+      Cette contribution de données consiste en des mesures provisoires couvrant l'année
+      en cours.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  identifier: https://doi.org/10.21966/a0v4-x512
+  keywords:
+    default:
+      en:
+      - Bamfield
+      - ocean acidification
+      - Bamfield Marine Sciences Centre
+      - Barkley Sound
+    eov:
+      en:
+      - inorganicCarbon
+      - seaSurfaceSalinity
+      - seaSurfaceTemperature
+      fr:
+      - Carbone inorganique
+      - Salinité de surface
+      - Température de surface
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: submitted
+  title:
+    en: Seawater Carbon Dioxide (CO2) Content from the SuperCO2 System in the Pacific
+      Ecosystem Autonomous Research Laboratory, Bamfield Marine Sciences Centre, BC,
+      Canada (Provisional)
+    fr: Teneur en dioxyde de carbone (CO2) de l'eau de mer provenant du système SuperCO2
+      du laboratoire de recherche autonome de l'écosystème du Pacifique, Bamfield
+      Marine Sciences Centre, Colombie-Britannique, Canada (provisoire)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2026-02-20T23:02:07.651Z'
+  identifier: 1efbadd2-e735-48cc-9498-e3a5a88e48a6
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-Olwvch3kCplJcz3CCeR
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: This dataset is provisional.
+      fr: Ce jeu de données est provisoire.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: Shore-side research station
+    fr: Station de recherche côtière
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: '1899'
+  instruments: []
+  type: land/onshore structure
+spatial:
+  description:
+    en: This time series is located within Barkley Sound adjacent to the Bamfield
+      Marine Sciences Centre.
+    fr: Cette série chronologique est située dans le détroit de Barkley, à côté du
+      Bamfield Marine Sciences Centre.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  polygon: -125.1361,48.8359
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
