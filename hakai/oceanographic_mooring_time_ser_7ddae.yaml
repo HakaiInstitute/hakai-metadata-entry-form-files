@@ -132,7 +132,7 @@ identification:
 metadata:
   dates:
     publication: '2021-10-20'
-    revision: '2026-02-20T20:43:37.506Z'
+    revision: '2026-02-20T21:07:27.345Z'
   identifier: 7ddae37a-e706-45d2-8060-8306300a98c8
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW0Az3HzggNmnqgHDw3
@@ -202,6 +202,31 @@ platform:
             à l'aide du service de traduction Amazon
           verified: false
     version: v2
+  - description:
+      en: A fully submersible logger that records dissolved oxygen (DO) and temperature
+        (T) measurements in fresh and saltwater. The PME oxygen sensor is an optode
+        that measures dissolved oxygen concentrations in water through a fluorescence
+        method. Data is recorded to an internal SD card.
+      fr: Un enregistreur entièrement submersible qui enregistre les mesures d'oxygène
+        dissous (DO) et de température (T) dans l'eau douce et salée. Le capteur d'oxygène
+        PME est un optode qui mesure les concentrations d'oxygène dissous dans l'eau
+        par une méthode de fluorescence. Les données sont enregistrées sur une carte
+        SD interne.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: miniDOT
+    manufacturer: PME
+    type:
+      en: Dissolved oxygen & temperature sensor
+      fr: Capteur d'oxygène dissous et de température
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   type: mooring
 spatial:
   bbox:
