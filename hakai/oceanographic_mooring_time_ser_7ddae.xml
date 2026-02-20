@@ -156,7 +156,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-02-20T20:15:51.629Z</gco:DateTime>
+        <gco:DateTime>2026-02-20T20:35:40.750Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -515,15 +515,14 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>The QU5 mooring is a surface mooring deployed in a shallow coastal environment near the Hakai Institute Quadra Island station. The mooring is a test platform were low-cost oceanographic instrumentation is deployed at different depths to record sea water temperatures at an accuracy of 0.2 degrees Celsius. The temperature sensors are attached to an auxiliary line suspended from the surface buoy and along the main anchor line. Instruments are distributed tighter near the surface to better capture the higher vertical variability near the surface.
+        <gco:CharacterString>The QU5 mooring is a surface mooring deployed in a shallow coastal environment near the Hakai Institute Quadra Island station. The mooring is a test platform where low-cost oceanographic instrumentation is deployed at different depths. This record includes sea water temperatures at an accuracy of 0.2 degrees Celsius from 2018 to 2022, dissolved oxygen at an accuracy of 5% along with temperatures and conductivity from 2021 to 2022, and for a portion of summer 2024. The sensors are attached to an auxiliary line suspended from the surface buoy and along the main anchor line. Instruments are distributed tighter near the surface to better capture the higher vertical variability near the surface.
 
 This dataset present the provisional dataset which has been automatically QCed and flagged.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Le mouillage QU5 est un mouillage de surface déployé dans un environnement côtier peu profond près de la station de recherche de l&#39;île Quadra de l&#39;Institut Hakai. Le mouillage est une plate-forme d&#39;essai où de instrumentation océanographique à faible coût est déployée à différentes profondeurs pour enregistrer la température de l&#39;eau de mer à une précision de 0,2 degrés Celsius. Les capteurs de température sont fixés à une ligne auxiliaire suspendue à la bouée de surface et le long de la ligne d&#39;ancrage principale. Les instruments sont plus rapprochés près de la surface afin de mieux saisir la variabilité verticale.
+            <lan:LocalisedCharacterString locale="#fr">L&#39;amarrage QU5 est un amarrage de surface déployé dans un environnement côtier peu profond à proximité de la station de Quadra Island de l&#39;Institut Hakai. L&#39;amarrage est une plate-forme d&#39;essai où des instruments océanographiques à faible coût sont déployés à différentes profondeurs. Ce record inclut les températures de l&#39;eau de mer avec une précision de 0,2 degré Celsius de 2018 à 2022, l&#39;oxygène dissous avec une précision de 5 % ainsi que les températures et la conductivité de 2021 à 2022, et pendant une partie de l&#39;été 2024. Les capteurs sont fixés à une ligne auxiliaire suspendue à la bouée de surface et le long de la ligne d&#39;ancrage principale. Les instruments sont répartis plus étroitement près de la surface afin de mieux saisir la plus grande variabilité verticale près de la surface.
 
-
-Ce jeu de données présente le jeu de données provisoire qui a été automatiquement QCed et marqué.</lan:LocalisedCharacterString>
+Cet ensemble de données présente l&#39;ensemble de données provisoire qui a été automatiquement QCed et marqué.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -531,7 +530,7 @@ Ce jeu de données présente le jeu de données provisoire qui a été automatiq
         <gco:CharacterString></gco:CharacterString>
       </mri:credit>
       <mri:status>
-        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="onGoing"></mcc:MD_ProgressCode>
+        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="completed"></mcc:MD_ProgressCode>
       </mri:status>
       <mri:topicCategory>
         <mri:MD_TopicCategoryCode>oceans</mri:MD_TopicCategoryCode>
@@ -604,7 +603,7 @@ Ce jeu de données présente le jeu de données provisoire qui a été automatiq
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
                   <gml:beginPosition>2018-10-05T19:00:00.000Z</gml:beginPosition>
-                  <gml:endPosition indeterminatePosition="now" />
+                  <gml:endPosition>2024-09-05T19:00:00.000Z</gml:endPosition>
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
@@ -660,10 +659,23 @@ Ce jeu de données présente le jeu de données provisoire qui a été automatiq
             <gco:CharacterString>low-cost</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>pruth</gco:CharacterString>
+            <gco:CharacterString>Quadra Island</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Calvert Island</gco:CharacterString>
+            <gco:CharacterString>salinity</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>oxygen</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Hyacinthe Bay</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">salinité</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mri:keyword>
           <mri:thesaurusName>
             <cit:CI_Citation>
@@ -682,6 +694,15 @@ Ce jeu de données présente le jeu de données provisoire qui a été automatiq
           <mri:keyword>
             <gco:CharacterString>seaSurfaceTemperature</gco:CharacterString>
           </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>oxygen</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>seaSurfaceSalinity</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>subSurfaceSalinity</gco:CharacterString>
+          </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
@@ -693,6 +714,27 @@ Ce jeu de données présente le jeu de données provisoire qui a été automatiq
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Température de surface</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Oxygène</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Salinité de surface</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Salinité sous la surface</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -749,10 +791,10 @@ Ce jeu de données présente le jeu de données provisoire qui a été automatiq
       <mri:resourceConstraints>
         <mco:MD_Constraints>
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Temperature accuracy is of 0.2C. This is a provisional dataset which has been automatically QCed and flagged.</gco:CharacterString>
+            <gco:CharacterString>Temperature accuracy is of 0.2C. Oxygen accuracy is 5%. Conductivity accuracy is 2%. This is a provisional dataset which has been automatically QCed and flagged.</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">La précision de la température est de 0,2 °C. Il s&#39;agit d&#39;un jeu de données provisoire qui a été automatiquement QCed et marqué.</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">La précision de la température est de 0,2 °C. La précision de l&#39;oxygène est de 5 %. La précision de conductivité est de 2 %. Il s&#39;agit d&#39;un ensemble de données provisoire qui a été automatiquement QCed et marqué.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mco:useLimitation>

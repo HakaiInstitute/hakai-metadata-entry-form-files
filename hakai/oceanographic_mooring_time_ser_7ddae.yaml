@@ -36,28 +36,32 @@ identification:
   abstract:
     en: 'The QU5 mooring is a surface mooring deployed in a shallow coastal environment
       near the Hakai Institute Quadra Island station. The mooring is a test platform
-      were low-cost oceanographic instrumentation is deployed at different depths
-      to record sea water temperatures at an accuracy of 0.2 degrees Celsius. The
-      temperature sensors are attached to an auxiliary line suspended from the surface
-      buoy and along the main anchor line. Instruments are distributed tighter near
-      the surface to better capture the higher vertical variability near the surface.
+      where low-cost oceanographic instrumentation is deployed at different depths.
+      This record includes sea water temperatures at an accuracy of 0.2 degrees Celsius
+      from 2018 to 2022, dissolved oxygen at an accuracy of 5% along with temperatures
+      and conductivity from 2021 to 2022, and for a portion of summer 2024. The sensors
+      are attached to an auxiliary line suspended from the surface buoy and along
+      the main anchor line. Instruments are distributed tighter near the surface to
+      better capture the higher vertical variability near the surface.
 
 
       This dataset present the provisional dataset which has been automatically QCed
       and flagged.'
-    fr: 'Le mouillage QU5 est un mouillage de surface déployé dans un environnement
-      côtier peu profond près de la station de recherche de l''île Quadra de l''Institut
-      Hakai. Le mouillage est une plate-forme d''essai où de instrumentation océanographique
-      à faible coût est déployée à différentes profondeurs pour enregistrer la température
-      de l''eau de mer à une précision de 0,2 degrés Celsius. Les capteurs de température
-      sont fixés à une ligne auxiliaire suspendue à la bouée de surface et le long
-      de la ligne d''ancrage principale. Les instruments sont plus rapprochés près
-      de la surface afin de mieux saisir la variabilité verticale.
+    fr: 'L''amarrage QU5 est un amarrage de surface déployé dans un environnement
+      côtier peu profond à proximité de la station de Quadra Island de l''Institut
+      Hakai. L''amarrage est une plate-forme d''essai où des instruments océanographiques
+      à faible coût sont déployés à différentes profondeurs. Ce record inclut les
+      températures de l''eau de mer avec une précision de 0,2 degré Celsius de 2018
+      à 2022, l''oxygène dissous avec une précision de 5 % ainsi que les températures
+      et la conductivité de 2021 à 2022, et pendant une partie de l''été 2024. Les
+      capteurs sont fixés à une ligne auxiliaire suspendue à la bouée de surface et
+      le long de la ligne d''ancrage principale. Les instruments sont répartis plus
+      étroitement près de la surface afin de mieux saisir la plus grande variabilité
+      verticale près de la surface.
 
 
-
-      Ce jeu de données présente le jeu de données provisoire qui a été automatiquement
-      QCed et marqué.'
+      Cet ensemble de données présente l''ensemble de données provisoire qui a été
+      automatiquement QCed et marqué.'
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -84,20 +88,31 @@ identification:
       - temperature
       - mooring
       - low-cost
-      - pruth
-      - Calvert Island
+      - Quadra Island
+      - salinity
+      - oxygen
+      - Hyacinthe Bay
+      fr:
+      - salinité
     eov:
       en:
       - subSurfaceTemperature
       - seaSurfaceTemperature
+      - oxygen
+      - seaSurfaceSalinity
+      - subSurfaceSalinity
       fr:
       - Température sous la surface
       - Température de surface
-  progress_code: onGoing
+      - Oxygène
+      - Salinité de surface
+      - Salinité sous la surface
+  progress_code: completed
   project:
   - Oceanography
   status: published
   temporal_begin: '2018-10-05T19:00:00.000Z'
+  temporal_end: '2024-09-05T19:00:00.000Z'
   title:
     en: Oceanographic Mooring Time Series, Hyacinthe Bay, BC, Canada (Provisional)
     fr: Série chronologique d'amarrage océanographique, baie d'Hyacinthe, Colombie-Britannique,
@@ -108,7 +123,7 @@ identification:
 metadata:
   dates:
     publication: '2021-10-20'
-    revision: '2026-02-20T20:15:51.629Z'
+    revision: '2026-02-20T20:35:40.750Z'
   history:
   - scope: Dataset
   identifier: 7ddae37a-e706-45d2-8060-8306300a98c8
@@ -122,10 +137,12 @@ metadata:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
     limitations:
-      en: Temperature accuracy is of 0.2C. This is a provisional dataset which has
-        been automatically QCed and flagged.
-      fr: La précision de la température est de 0,2 °C. Il s'agit d'un jeu de données
-        provisoire qui a été automatiquement QCed et marqué.
+      en: Temperature accuracy is of 0.2C. Oxygen accuracy is 5%. Conductivity accuracy
+        is 2%. This is a provisional dataset which has been automatically QCed and
+        flagged.
+      fr: La précision de la température est de 0,2 °C. La précision de l'oxygène
+        est de 5 %. La précision de conductivité est de 2 %. Il s'agit d'un ensemble
+        de données provisoire qui a été automatiquement QCed et marqué.
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
