@@ -1,5 +1,5 @@
 contact:
-- inCitation: true
+- inCitation: false
   organization:
     city: Campbell River
     country: Canada
@@ -7,14 +7,13 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - owner
-  - distributor
-- inCitation: false
+  - publisher
+- inCitation: true
   individual:
     email: justin.belluz@hakai.org
     name: Del Bel Belluz, Justin
     orcid: https://orcid.org/0000-0002-3536-9508
-    position: Research Technician
+    position: Research Scientist
   organization:
     address: 1713 Hyacinthe Bay Road
     city: Campbell River
@@ -26,13 +25,29 @@ contact:
   roles:
   - custodian
   - author
-  - editor
   - pointOfContact
-  - resourceProvider
   - principalInvestigator
   - originator
   - publisher
-- inCitation: false
+  - contributor
+- inCitation: true
+  individual:
+    email: kimberly.bedard@hakai.org
+    name: Bedard, Kimberly
+    orcid: https://orcid.org/0009-0003-0071-867X
+    position: Research Technician
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - pointOfContact
+  - processor
+  - contributor
+- inCitation: true
   individual:
     email: bryn.fedje@hakai.org
     name: Fedje, Bryn
@@ -46,7 +61,6 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - editor
   - processor
   - contributor
 - inCitation: false
@@ -58,6 +72,16 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 distribution:
 - description:
     en: User's manual for benchtop laboratory fluorometers used to analyze the Hakai
@@ -170,11 +194,21 @@ instruments:
       samples using the acidification module
     fr: Fluoromètre de laboratoire Turner Trilogy utilisé pour analyser des échantillons
       de chlorophylle et de phéopigment à l'aide du module d'acidification
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   id: '720001154'
   manufacturer: Turner Designs
   type:
     en: Laboratory Fluorometer
     fr: Fluoromètre de laboratoire
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   version: Trilogy
 - description:
     en: Turner Trilogy laboratory fluorometer used to analyze chlorophyll and phaeopigment
@@ -190,7 +224,7 @@ instruments:
 metadata:
   dates:
     publication: '2024-07-12'
-    revision: '2026-02-05T21:04:00.032Z'
+    revision: '2026-02-20T19:43:10.886Z'
   identifier: d55021c3-a142-4e14-8208-36c9826c1893
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/7U7b8oPpeTN6gjvXlUCTGJr5pga2/-MadZvZJ4ZeikpCgRcV8
