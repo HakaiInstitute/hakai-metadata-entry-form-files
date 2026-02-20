@@ -132,7 +132,7 @@ identification:
 metadata:
   dates:
     publication: '2021-10-20'
-    revision: '2026-02-20T21:07:27.345Z'
+    revision: '2026-02-20T21:32:20.986Z'
   identifier: 7ddae37a-e706-45d2-8060-8306300a98c8
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW0Az3HzggNmnqgHDw3
@@ -217,11 +217,40 @@ platform:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-    id: miniDOT
+    id: miniDOT Logger
     manufacturer: PME
     type:
-      en: Dissolved oxygen & temperature sensor
+      en: Dissolved oxygen & temperature sensors
       fr: Capteur d'oxygène dissous et de température
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - description:
+      en: A submersible datalogger for long-term uninterrupted, real-time water level
+        monitoring using a pressure sensor when submerged at a fixed level under the
+        water surface. The pressure sensor measures the equivalent hydrostatic pressure
+        of the water above the sensor diaphragm to calculate the total water depth.
+        The 4-electrode conductivity sensor measures the true or specific electrical
+        conductivity of the water from 0 to 120 mS/cm.
+      fr: Un enregistreur de données submersible pour une surveillance à long terme,
+        ininterrompue et en temps réel du niveau d'eau à l'aide d'un capteur de pression
+        lorsqu'il est immergé à un niveau fixe sous la surface de l'eau. Le capteur
+        de pression mesure la pression hydrostatique équivalente de l'eau au-dessus
+        du diaphragme du capteur pour calculer la profondeur totale de l'eau. La sonde
+        de conductivité à 4 électrodes mesure la conductivité électrique vraie ou
+        spécifique de l'eau de 0 à 120 mS/cm.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: CTD-Diver
+    manufacturer: Van Essen
+    type:
+      en: Conductivity, Temperature & Pressure sensors
+      fr: Capteurs de conductivité, de température et de pression
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit

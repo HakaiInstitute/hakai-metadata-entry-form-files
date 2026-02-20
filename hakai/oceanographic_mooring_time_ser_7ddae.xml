@@ -119,7 +119,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-02-20T21:07:27.345Z</gco:DateTime>
+        <gco:DateTime>2026-02-20T21:32:20.986Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1087,7 +1087,7 @@ Cet ensemble de données présente l&#39;ensemble de données provisoire qui a �
                     </cit:CI_Citation>
                   </mcc:authority>
                   <mcc:code>
-                    <gco:CharacterString>miniDOT</gco:CharacterString>
+                    <gco:CharacterString>miniDOT Logger</gco:CharacterString>
                   </mcc:code>
                   <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
                     <gco:CharacterString>A fully submersible logger that records dissolved oxygen (DO) and temperature (T) measurements in fresh and saltwater. The PME oxygen sensor is an optode that measures dissolved oxygen concentrations in water through a fluorescence method. Data is recorded to an internal SD card.</gco:CharacterString>
@@ -1100,10 +1100,44 @@ Cet ensemble de données présente l&#39;ensemble de données provisoire qui a �
                 </mcc:MD_Identifier>
               </mac:identifier>
               <mac:type xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Dissolved oxygen &amp; temperature sensor</gco:CharacterString>
+                <gco:CharacterString>Dissolved oxygen &amp; temperature sensors</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Capteur d&#39;oxygène dissous et de température</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Van Essen</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>CTD-Diver</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>A submersible datalogger for long-term uninterrupted, real-time water level monitoring using a pressure sensor when submerged at a fixed level under the water surface. The pressure sensor measures the equivalent hydrostatic pressure of the water above the sensor diaphragm to calculate the total water depth. The 4-electrode conductivity sensor measures the true or specific electrical conductivity of the water from 0 to 120 mS/cm.</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">Un enregistreur de données submersible pour une surveillance à long terme, ininterrompue et en temps réel du niveau d&#39;eau à l&#39;aide d&#39;un capteur de pression lorsqu&#39;il est immergé à un niveau fixe sous la surface de l&#39;eau. Le capteur de pression mesure la pression hydrostatique équivalente de l&#39;eau au-dessus du diaphragme du capteur pour calculer la profondeur totale de l&#39;eau. La sonde de conductivité à 4 électrodes mesure la conductivité électrique vraie ou spécifique de l&#39;eau de 0 à 120 mS/cm.</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Conductivity, Temperature &amp; Pressure sensors</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Capteurs de conductivité, de température et de pression</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </mac:type>
