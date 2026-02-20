@@ -2,43 +2,40 @@ contact:
 - inCitation: true
   organization:
     address: 1002 Wharf Street
-    city: Victoria
+    city: Campbell River
     country: Canada
-    email: info@hakai.org
+    email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
-    url: hakai.org
+    url: https://www.hakai.org/
   roles:
   - owner
   - distributor
+  - funder
 - inCitation: true
   individual:
-    email: jessy.barrette@hakai.org
     name: Barrette, Jessy
     position: Marine Instrumentation/Data Specialist
   organization:
     address: 1713 Hyacinthe Bay Road
     city: Heriot Bay
     country: Canada
-    email: info@hakai.org
+    email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
     url: hakai.org
   roles:
-  - custodian
   - processor
-  - pointOfContact
   - author
 - inCitation: true
   individual:
-    email: pramod.thupaki@hakai.org
     name: Thupaki, Pramod
     position: Scientist
   organization:
     address: 1002 Wharf St
     city: VICTORIA
     country: Canada
-    email: info@hakai.org
+    email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
     url: hakai.org
@@ -48,7 +45,6 @@ contact:
   - author
 - inCitation: false
   individual:
-    email: btimmer.viu@gmail.com
     name: Timmer, Brian
     position: M.Sc. Student
   organization:
@@ -58,6 +54,13 @@ contact:
     url: uvic.ca
   roles:
   - contributor
+- inCitation: false
+  organization:
+    email: data@hakai.org
+    name: Hakai Institute
+  roles:
+  - custodian
+  - publisher
 distribution:
 - name:
     en: ERDDAP Dataset
@@ -126,6 +129,11 @@ instruments:
   type:
     en: Acoustic Doppler Current Profiler
     fr: Profileur de courant Doppler acoustique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   version: Workhorse 300Hz
 - id: RDI WH1200
   manufacturer: RDI
@@ -136,7 +144,7 @@ instruments:
 metadata:
   dates:
     publication: '2022-02-01'
-    revision: '2026-02-20T21:13:30.839Z'
+    revision: '2026-02-20T22:41:15.221Z'
   identifier: 87a845e3-e71a-43cc-a75f-ec6a3b812a0e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MsbCMOYj2L_7dgICnzw
