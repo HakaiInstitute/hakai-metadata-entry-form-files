@@ -1,5 +1,5 @@
 contact:
-- inCitation: true
+- inCitation: false
   organization:
     city: Campbell River
     country: Canada
@@ -93,6 +93,16 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 distribution:
 - name:
     en: ERDDAP Dataset
@@ -237,7 +247,7 @@ instruments:
 metadata:
   dates:
     publication: '2024-07-12'
-    revision: '2026-02-20T19:53:38.070Z'
+    revision: '2026-02-20T19:54:30.432Z'
   history:
   - additionalDocumentation:
     - authority: URL
