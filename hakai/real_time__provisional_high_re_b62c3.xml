@@ -1001,7 +1001,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-02-20T19:00:13.243Z</gco:DateTime>
+        <gco:DateTime>2026-02-20T22:59:12.588Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1972,6 +1972,20 @@
       </mrd:transferOptions>
     </mrd:MD_Distribution>
   </mdb:distributionInfo>
+  <mdb:resourceLineage>
+    <mrl:LI_Lineage>
+      <mrl:statement>
+        <gco:CharacterString></gco:CharacterString>
+      </mrl:statement>
+      <mrl:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mrl:scope>
+    </mrl:LI_Lineage>
+  </mdb:resourceLineage>
   <mdb:metadataMaintenance>
     <mmi:MD_MaintenanceInformation>
       <mmi:maintenanceAndUpdateFrequency>
@@ -2000,12 +2014,17 @@
                 </cit:CI_Citation>
               </mcc:authority>
               <mcc:code>
-                <gco:CharacterString>Quadra Island Field Station</gco:CharacterString>
+                <gco:CharacterString>1899</gco:CharacterString>
               </mcc:code>
             </mcc:MD_Identifier>
           </mac:identifier>
-          <mac:description>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Shore-side research station</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Station de recherche côtière</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mac:description>
           <mac:instrument>
             <mac:MI_Instrument>
