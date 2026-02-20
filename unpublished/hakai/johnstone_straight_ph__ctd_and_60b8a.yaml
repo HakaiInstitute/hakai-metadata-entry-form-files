@@ -1,0 +1,166 @@
+contact:
+- inCitation: true
+  individual:
+    name: Evans, Wiley
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - principalInvestigator
+  - custodian
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    name: Michalchuk, Trevor
+  organization:
+    address: 1100 Island Hwy
+    city: Campbell River
+    country: Canada
+    email: trevor.michalchuk@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - processor
+  - editor
+- inCitation: true
+  individual:
+    name: Campbell, Katie
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - editor
+  - processor
+distribution:
+- description:
+    en: Link to Drive with Johnstone Straight datafile in text format with header
+      file
+    fr: Lien vers Drive avec le fichier de données Johnstone Straight au format texte
+      avec fichier d'en-tête
+    translations:
+      fr:
+        verified: true
+  name:
+    en: Google Drive Data Files
+    fr: Fichiers de données Google Drive
+    translations:
+      fr:
+        verified: true
+  url: https://drive.google.com/drive/folders/1uf_333OI3pujDwz7KqZQitm70XnPUMtE?usp=drive_link
+identification:
+  abstract:
+    en: Marine pH collected with SeapHox2 this includes pH, Oxygen, Temperature and
+      Salinity data, instrument was deployed at a dock at Little Bear Bay from 2020-2025
+      and instrument was moved to a dock at Chatham point lighthouse. Locations are
+      close in vicinity and all data is included in one file. Instrument was typically
+      deployed at a depth of 1.5-2.0m. This site was chosen to capture ocean pH over
+      time in the Johnstone Straight region.
+    fr: Le pH marin a été collecté avec SeaPhox2, y compris les données de pH, d'oxygène,
+      de température et de salinité. L'instrument a été déployé sur un quai à Little
+      Bear Bay de 2020 à 2025 et l'instrument a été déplacé vers un quai au phare
+      de Chatham Point. Les sites sont situés à proximité et toutes les données sont
+      incluses dans un seul fichier. L'instrument était généralement déployé à une
+      profondeur de 1,5 à 2,0 m. Ce site a été choisi pour mesurer le pH de l'océan
+      au fil du temps dans la région du détroit de Johnstone.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2020-10-05'
+  keywords:
+    default:
+      en:
+      - pH
+      - Oxygen
+      - Temperature
+      - Salinity
+      - Johnstone Straight
+      - Little Bear bay
+      - Chatham point
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: submitted
+  temporal_begin: '2020-10-05T19:00:00.000Z'
+  title:
+    en: Johnstone Straight pH, CTD and Oxygen record from Little Bear Bay(2020-2025)
+      and Chatham Point lighthouse(2050-onward)
+    fr: Enregistrement du pH, du CTD et de l'oxygène de Johnstone Straight à Little
+      Bear Bay (2020-2025) et au phare de Chatham Point (à partir de 2050)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+instruments:
+- description:
+    en: ISFET pH sensor, CTD sensor, Oxygen, Moored pH, Conductivity, Temperature,
+      Pressure (optional), and Optical Dissolved Oxygen, at user-programmable 6-second
+      to 6-hour intervals* Integrated pump RS-232 interface Internal memory and batteries
+      (can be powered externally)** Expendable anti-foulant devices, unique flow path,
+      and pumping regimen for bio-fouling protection UCI graphical software package
+      (setup, data upload, and data processing) Field-proven MicroCAT family, with
+      more than 10,000 instruments deployed Maximum depth 50 m
+    fr: Sonde de pH ISFET, sonde CTD, oxygène, pH ancré, conductivité, température,
+      pression (en option) et oxygène dissous optique, à intervalles de 6 secondes
+      à 6 heures* Pompe intégrée Interface RS-232 Mémoire interne et batteries (peuvent
+      être alimentées de manière externe) ** Dispositifs antisalissure consommables,
+      trajet d'écoulement unique et régime de pompage pour la protection contre les
+      salissures biologiques Progiciel graphique UCI (configuration, téléchargement
+      de données et traitement des données) MicroCat éprouvé sur le terrain famille,
+      avec plus de 10 000 instruments déployés Profondeur maximale 50 m
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: '2272'
+  manufacturer: Sea-bird
+  type:
+    en: SeapHOx2
+  version: '2'
+metadata:
+  dates:
+    revision: '2026-02-20T21:31:21.314Z'
+  identifier: 60b8a10f-3ecc-40ef-a898-50b1fadaf516
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/64WELpDV0tXYqOqiWFYNzMJdW4k1/-OlwbBJ4TVWMuq-VvOiI
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Provisional Data set
+      fr: Ensemble de données provisoire
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  descriptionIdentifier: f9802a49-f567-4089-9f63-2bf337a93e91
+  polygon: -125.5,50.37 -125.4,50.36 -125.4,50.27 -125.5,50.26 -125.5,50.37
+  vertical:
+  - 0.0
+  - 2.0
+  vertical_positive: heightPositive
