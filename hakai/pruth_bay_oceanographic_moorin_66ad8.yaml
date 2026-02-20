@@ -105,9 +105,7 @@ identification:
 metadata:
   dates:
     publication: '2021-12-03'
-    revision: '2024-08-21T19:42:57.933Z'
-  history:
-  - scope: Dataset
+    revision: '2026-02-20T19:24:33.811Z'
   identifier: 66ad87d2-bb96-4515-a907-6367ca6c0a2b
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW079KN2Z_OrMh7Zk6T
@@ -132,7 +130,54 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Surface Mooring with a simple 30lb boat anchor. Instrumentation is fix to
+      an auxiliary line which is suspended from the surface buoy and along the main
+      anchor line.
+    fr: Amarrage de surface avec une ancre de bateau simple de 30 lb. L'instrumentation
+      est fixée à une ligne auxiliaire suspendue à la bouée de surface et le long
+      de la ligne d'ancrage principale.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Pruth
+  instruments:
+  - description:
+      en: Only 3x4 cm, this tiny data logger measures temperatures over a wide temperature
+        range. The TidbiT v2 provides 12-bit resolution and has ±0.2 °C accuracy.
+        It is designed for outdoor and underwater environments and is waterproof to
+        300 m (1000 ft). An optical USB interface allows users to offload data in
+        seconds. Please note, a solar radiation shield is required to obtain accurate
+        air temperature measurements in sunlight (RS1 Solar Radiation Shield, assembly
+        required; or M-RSA pre-assembled Solar Radiation Shield).
+      fr: Seulement 3x4 cm, ce minuscule enregistreur de données mesure les températures
+        sur une large plage de températures. Le TidBit v2 offre une résolution 12
+        bits et une précision de ±0,2 °C. Il est conçu pour les environnements extérieurs
+        et sous-marins et est étanche jusqu'à 300 m (1000 pi). Une interface USB optique
+        permet aux utilisateurs de décharger les données en quelques secondes. Veuillez
+        noter qu'un bouclier solaire est nécessaire pour obtenir des mesures précises
+        de la température de l'air à la lumière du soleil (bouclier solaire RS1, assemblage
+        requis ; ou bouclier solaire solaire pré-assemblé M-RSA).
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Tidbits v2
+    manufacturer: Onset
+    type:
+      en: Temprature sensor
+      fr: Capteur de temprature
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: v2
+  type: mooring
 spatial:
   bbox:
   - -128.0853667
