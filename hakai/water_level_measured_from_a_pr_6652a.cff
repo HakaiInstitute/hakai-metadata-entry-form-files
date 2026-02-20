@@ -1,10 +1,10 @@
-abstract: This dataset present a time series of water level measurements made by an
-  RBR Solo pressure sensor deployed by the Hakai Institute near the Calvert Island
+abstract: This dataset presents a time series of water level measurements made by
+  an RBR Solo pressure sensor deployed by the Hakai Institute near the Calvert Island
   Research Station in the coastal region of Choke Pass. Sea Pressure collected by
-  the instrument just above the sea bed was then corrected to substract the atmospheric
-  pressure based on the Hakai Pruth Dock Weather Station. The resulting sea pressure
-  was then converted to a depth with the Gibbs Sea Water TEOS-10 toolbox and substracted
-  by the mean water level measured at the location.
+  the instrument located just above the sea bed was then corrected to subtract the
+  atmospheric pressure based on the Hakai Pruth Dock Weather Station. The resulting
+  sea pressure was then converted to a depth with the Gibbs Sea Water TEOS-10 toolbox
+  and subtracted by the mean water level measured at the location.
 authors:
 - affiliation: Hakai Institute
   city: Campbell River
@@ -56,7 +56,9 @@ identifiers:
   type: url
   value: https://catalogue.hakai.org/erddap/tabledap/HakaiCalvertCP1TideGauge.html
 keywords:
-- Calvert island
+- Calvert Island
+- Central Coast
+- Choke Pass
 - pressure
 - sea level
 - seaSurfaceHeight
