@@ -1,5 +1,18 @@
 contact:
 - inCitation: true
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+  - publisher
+- inCitation: true
   individual:
     name: Jackson, Jennifer
     orcid: https://orcid.org/0000-0002-2318-8814
@@ -30,20 +43,6 @@ contact:
     url: https://www.hakai.org/
   roles:
   - pointOfContact
-- inCitation: true
-  organization:
-    address: 1002 Wharf Street
-    city: Campbell River
-    country: Canada
-    email: info@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - owner
-  - distributor
-  - publisher
-  - custodian
 - inCitation: false
   organization:
     city: Vancouver
@@ -53,6 +52,11 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: false
+  organization:
+    name: Hakai Institute
+  roles:
+  - custodian
 distribution:
 - name:
     en: ERDDAP Dataset
@@ -138,7 +142,7 @@ instruments:
 metadata:
   dates:
     publication: '2022-04-11'
-    revision: '2026-02-20T22:44:26.739Z'
+    revision: '2026-02-20T22:48:52.172Z'
   identifier: 41770c7d-27ea-4593-ba55-040bdc5b99f0
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MkEosZGlTnDy2oMp9nX
