@@ -7,10 +7,8 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - owner
-  - distributor
   - publisher
-- inCitation: false
+- inCitation: true
   individual:
     email: justin.belluz@hakai.org
     name: Del Bel Belluz, Justin
@@ -28,11 +26,31 @@ contact:
   - custodian
   - author
   - pointOfContact
-  - resourceProvider
   - principalInvestigator
   - publisher
   - originator
-- inCitation: false
+  - contributor
+  - processor
+- inCitation: true
+  individual:
+    email: kimberly.bedard@hakai.org
+    name: Bedard, Kimberly
+    orcid: https://orcid.org/0009-0003-0071-867X
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - author
+  - pointOfContact
+  - processor
+  - contributor
+  - distributor
+- inCitation: true
   individual:
     email: bryn.fedje@hakai.org
     name: Fedje, Bryn
@@ -46,10 +64,8 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - custodian
   - processor
   - contributor
-  - editor
 - inCitation: false
   organization:
     city: Vancouver
@@ -203,7 +219,7 @@ instruments:
 metadata:
   dates:
     publication: '2024-07-12'
-    revision: '2026-02-05T21:03:22.125Z'
+    revision: '2026-02-20T19:51:41.061Z'
   history:
   - additionalDocumentation:
     - authority: URL
