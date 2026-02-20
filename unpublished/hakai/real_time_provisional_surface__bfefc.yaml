@@ -35,6 +35,20 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: true
+  individual:
+    email: kimberly.bedard@hakai.org
+    name: Bedard, Kimberly
+    orcid: https://orcid.org/0009-0003-0071-867X
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    email: katie.campbell@hakai.org
+    name: Campbell, Katie
+    orcid: https://orcid.org/0009-0008-7331-2095
+  roles:
+  - coAuthor
 distribution:
 - description:
     en: One hour binned CO2 observation served by ERDDAP
@@ -93,6 +107,7 @@ identification:
   dates:
     creation: '2025-02-15'
   edition: '1.1'
+  identifier: https://doi.org/10.21966/4jvz-bv44
   keywords:
     default:
       en:
@@ -123,16 +138,18 @@ identification:
   temporal_begin: '2025-02-15T20:00:00.000Z'
   title:
     en: Surface Seawater and Marine Boundary Layer CO2 Time Series from the Bute Inlet
-      Ocean Observing Station (BIOOS) Buoy, Bute Inlet, BC, Canada (Provisional)
+      Ocean Observing Station (BIOOS) Buoy, Bute Inlet, BC, Canada (Research)
     fr: Séries chronologiques du CO2 de l'eau de mer de surface et de la couche limite
       marine provenant de la bouée de la station d'observation océanique de Bute Inlet
       (BIOOS), Bute Inlet, Colombie-Britannique, Canada (provisoire)
     translations:
       fr:
-        verified: true
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
-    revision: '2026-02-06T22:57:15.517Z'
+    revision: '2026-02-20T19:24:08.198Z'
   identifier: bfefcdf9-c922-4e4f-a958-aa6da739d3cd
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-OOYvTmfsWUPdHkDTTFS

@@ -410,7 +410,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-02-06T22:57:15.517Z</gco:DateTime>
+        <gco:DateTime>2026-02-20T19:24:08.198Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -495,9 +495,9 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Surface Seawater and Marine Boundary Layer CO2 Time Series from the Bute Inlet Ocean Observing Station (BIOOS) Buoy, Bute Inlet, BC, Canada (Provisional)</gco:CharacterString>
+            <gco:CharacterString>Surface Seawater and Marine Boundary Layer CO2 Time Series from the Bute Inlet Ocean Observing Station (BIOOS) Buoy, Bute Inlet, BC, Canada (Research)</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Séries chronologiques du CO2 de l&#39;eau de mer de surface et de la couche limite marine provenant de la bouée de la station d&#39;observation océanique de Bute Inlet (BIOOS), Bute Inlet, Colombie-Britannique, Canada (provisoire)</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -515,6 +515,13 @@
           <cit:edition>
             <gco:CharacterString>1.1</gco:CharacterString>
           </cit:edition>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://doi.org/10.21966/4jvz-bv44</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
@@ -867,6 +874,94 @@
                     </mcc:MD_Identifier>
                   </cit:partyIdentifier>
                 </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="coAuthor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name>
+                    <gco:CharacterString>Bedard, Kimberly</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>kimberly.bedard@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://orcid.org/0009-0003-0071-867X</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:positionName>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:positionName>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="coAuthor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name>
+                    <gco:CharacterString>Campbell, Katie</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>katie.campbell@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://orcid.org/0009-0008-7331-2095</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:positionName>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:positionName>
+                </cit:CI_Individual>
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
