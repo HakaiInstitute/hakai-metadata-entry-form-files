@@ -1,5 +1,25 @@
 contact:
 - inCitation: false
+  organization:
+    address: 1713 Hyacinthe Bay Road
+    city: Heriot Bay
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: hakai.org
+  roles:
+  - distributor
+  - owner
+  - publisher
+- inCitation: true
+  individual:
+    name: Hare, Alex
+    orcid: https://orcid.org/0000-0002-3800-5830
+  roles:
+  - processor
+  - custodian
+- inCitation: true
   individual:
     name: Barrette, Jessy
     orcid: https://orcid.org/0000-0002-0422-2589
@@ -13,23 +33,15 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - custodian
   - resourceProvider
   - processor
 - inCitation: true
-  organization:
-    address: 1713 Hyacinthe Bay Road
-    city: Heriot Bay
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: hakai.org
+  individual:
+    email: jennifer.jackson@dfo-mpo.gc.ca
+    name: Jackson, Jennifer
+    orcid: https://orcid.org/0000-0002-2318-8814
   roles:
-  - distributor
-  - owner
-  - custodian
-  - publisher
+  - processor
 - inCitation: false
   organization:
     city: Vancouver
@@ -155,7 +167,7 @@ identification:
 metadata:
   dates:
     publication: '2024-07-17'
-    revision: '2026-02-20T19:46:11.663Z'
+    revision: '2026-02-21T01:12:41.791Z'
   history:
   - processingStep:
     - authority: URL
