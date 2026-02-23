@@ -381,8 +381,13 @@ distribution:
     en: Collection of IYS datasets integrated into one excel workbook including all
       trawl data
   name:
-    en: Integrated IYS Data Collection (Internal access only, sign into GitHub before
-      clicking)
+    en: Integrated IYS Data Collection
+    fr: Collecte de données IYS intégrée
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://github.com/international-year-of-the-salmon/IYS-Integrated-Data-Collection/archive/refs/tags/v4.zip
 - description:
     en: Is a component part of the Integrated Collection
@@ -462,7 +467,7 @@ distribution:
   url: https://doi.org/10.21966/yjfr-cn26
 identification:
   abstract:
-    en: 'This dataset is a collection of all of the International Year of the Salmon
+    en: This dataset is a collection of all of the International Year of the Salmon
       High Seas Expeditions trawl catch, specimen measurements, zooplankton abundance,
       and CTD datasets that were collected at sea in 2019 aboard the Professor Kaganovsky,
       2020 on the Pacific Legacy NO.1, and 2022 aboard the CCGS Sir John Franklin,
@@ -470,13 +475,6 @@ identification:
       much of the North East Pacific Ocean and were collected to better our understanding
       of the ocean conditions salmon experience during winter and how that may drive
       high seas salmon survival.
-
-
-      NOTE: This dataset is not publicly available yet. If you are a IYS Expedition
-      Participant, you must first submit your GitHub username to iys.data@hakai.org
-      so that you can be given permission to access this data. Use of this dataset
-      while it is only internally available to IYS Participants is subject to the
-      IYS Data Policy available at: https://international-year-of-the-salmon.github.io/about/Final%20IYS%20Data%20Policy_Dec132021.pdf'
     fr: Ce jeu de données regroupe toutes les données relatives aux expéditions en
       haute mer de l'Année internationale du saumon, aux prises au chalut, aux mesures
       des spécimens, à l'abondance du zooplancton et aux ensembles de données CTD
@@ -486,6 +484,9 @@ identification:
       grande partie de l'océan Pacifique Nord-Est et ont été collectées afin de mieux
       comprendre les conditions océaniques auxquelles le saumon est confronté en hiver
       et la façon dont cela peut influencer la survie du saumon en haute mer.
+    translations:
+      fr:
+        verified: true
   associated_resources: []
   dates:
     creation: '2019-02-18'
@@ -538,7 +539,7 @@ identification:
 metadata:
   dates:
     publication: '2023-09-12'
-    revision: '2024-09-05T18:28:25.174Z'
+    revision: '2026-02-23T22:38:13.398Z'
   identifier: 89c1b0c1-b358-4c0f-9fa9-467566c2ae69
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-N6JR9cDmD79RJVFDUqt
