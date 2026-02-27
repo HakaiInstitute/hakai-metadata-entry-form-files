@@ -1,0 +1,216 @@
+contact:
+- inCitation: true
+  individual:
+    email: wiley.evans@hakai.org
+    name: Evans, Wiley
+    orcid: https://orcid.org/0000-0002-5450-0903
+  organization:
+    address: 303-1100 Island Highway
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - custodian
+  - distributor
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+- inCitation: true
+  individual:
+    email: kimberly.bedard@hakai.org
+    name: Bedard, Kimberly
+    orcid: https://orcid.org/0009-0003-0071-867X
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    email: katie.campbell@hakai.org
+    name: Campbell, Katie
+    orcid: https://orcid.org/0009-0008-7331-2095
+  roles:
+  - coAuthor
+distribution:
+- description:
+    en: Hourly CO2 observation served by ERDDAP
+    fr: Observation horaire du CO2 assurée par l'ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiBIOOSBuoyResearch.html
+identification:
+  abstract:
+    en: Bute Inlet, a prominent fjord on the British Columbia coast, has been a site
+      for moored, high-resolution measurements of surface seawater and marine boundary
+      layer CO2 content since February 2025. Measurements of temperature, salinity,
+      seawater and atmospheric CO2 partial pressure were collected from a surface
+      buoy located in the central fjord using a MApCO2 System. This data contribution
+      consists of measurements from February 15, 2025 to November 21, 2025.
+    fr: Bute Inlet, un fjord de premier plan sur la côte de la Colombie-Britannique,
+      est un site pour des mesures amarrées à haute résolution de la teneur en CO2
+      de l'eau de mer de surface et de la couche limite marine depuis février 2025.
+      Les mesures de la température, de la salinité, de l'eau de mer et de la pression
+      partielle de CO2 atmosphérique ont été recueillies à partir d'une bouée de surface
+      située dans le fjord central à l'aide d'un système MapCO2. Cette contribution
+      de données comprend des mesures prises entre le 15 février 2025 et le 21 novembre
+      2025.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: IsPartOf
+    association_type_iso: largerWorkCitation
+    authority: URL
+    code: https://hakai-ctd-map.server.hakai.app/
+    title:
+      en: Hakai Oceanography CTD and Real-time data visualization tool
+      fr: Hakai Oceanography CTD et outil de visualisation de données en temps réel
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsVersionOf
+    association_type_iso: revisionOf
+    authority: DOI
+    code: https://doi.org/10.21966/adbg-d170
+    title:
+      en: Surface Seawater and Marine Boundary Layer CO2 Time Series from the Bute
+        Inlet Ocean Observing Station (BIOOS) Buoy, Bute Inlet, BC, Canada (Provisional)
+      fr: Séries chronologiques du CO2 de l'eau de mer de surface et de la couche
+        limite marine provenant de la bouée de la station d'observation océanique
+        de Bute Inlet (BIOOS), Bute Inlet, Colombie-Britannique, Canada (provisoire)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2025-02-15'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/4jvz-bv44
+  keywords:
+    default:
+      en:
+      - Bute Inlet
+      - Homalco Territory
+      - Salish Sea
+      - ocean acidification
+      - marine productivity
+    eov:
+      en:
+      - oxygen
+      - inorganicCarbon
+      - particulateMatter
+      - phytoplanktonBiomassAndDiversity
+      - seaSurfaceSalinity
+      - seaSurfaceTemperature
+      fr:
+      - Oxygène
+      - Carbone inorganique
+      - Matière particulaire
+      - Biomasse et diversité de phytoplancton
+      - Salinité de surface
+      - Température de surface
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2025-02-15T20:00:00.000Z'
+  temporal_end: '2025-11-21T20:00:00.000Z'
+  title:
+    en: Surface Seawater and Marine Boundary Layer CO2 Time Series from the Bute Inlet
+      Ocean Observing Station (BIOOS) Buoy, Bute Inlet, BC, Canada (Research)
+    fr: Séries chronologiques sur le CO2 de l'eau de mer de surface et de la couche
+      limite marine provenant de la bouée de la station d'observation océanique de
+      Bute Inlet (BIOOS), Bute Inlet, Colombie-Britannique, Canada (Recherche)
+    translations:
+      fr:
+        verified: true
+metadata:
+  dates:
+    publication: '2026-02-27'
+    revision: '2026-02-27T21:43:20.111Z'
+  identifier: bfefcdf9-c922-4e4f-a958-aa6da739d3cd
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-OOYvTmfsWUPdHkDTTFS
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: This dataset is research-ready.
+      fr: Cet ensemble de données est prêt pour la recherche.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- id: 187F
+  instruments: []
+  type: moored surface buoy
+spatial:
+  description:
+    en: This time series is centrally located within Bute Inlet with measurements
+      of the surface ocean and marine boundary layer.
+    fr: Cette série chronologique est située au centre de Bute Inlet et permet de
+      mesurer la surface de l'océan et la couche limite marine.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  polygon: -124.899883,50.5976
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
