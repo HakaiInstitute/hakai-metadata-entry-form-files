@@ -194,7 +194,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
+    code: doi.org/10.5883/DS-ARMSRED
+    title:
+      en: Barcode of Life Database (BOLD) records
+      fr: Enregistrements de la base de données Barcode of Life (BOLD)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2017-01-07'
   edition: '1.0'
@@ -231,7 +243,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-03-17T22:37:46.726Z'
+    revision: '2026-03-17T22:42:19.934Z'
   identifier: 08d3e779-2f44-4ce3-82cb-c7b763f72175
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/pX9Euv7m4yaHRKPuMtylMexACtt2/-ORSLLie2O-FFN8cPV1e
