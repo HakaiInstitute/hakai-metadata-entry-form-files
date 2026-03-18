@@ -1,0 +1,175 @@
+contact:
+- inCitation: true
+  individual:
+    email: isabelle.desmarais@hakai.org
+    name: Desmarais, Isabelle
+    orcid: https://orcid.org/0009-0004-5792-1166
+    position: Research technician
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - coAuthor
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+    position: Researcher
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    url: https://www.hakai.org/
+  roles:
+  - principalInvestigator
+  - owner
+  - custodian
+  - distributor
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: false
+  individual:
+    name: Albers, Sam
+  organization:
+    name: Hakai Institute
+  roles:
+  - pointOfContact
+  - custodian
+distribution:
+- name:
+    en: Biogeochemical Sampling of 28 Streams on Vancouver Island
+  url: https://github.com/HakaiInstitute/Biogeochemical-Sampling-of-28-Streams-on-Vancouver-Island
+identification:
+  abstract:
+    en: 'This dataset provides water chemistry data for several streams located on
+      the West Coast of Vancouver Island. It is comprised of riverine measurements
+      at 29 near-outlet stream locations in 28 watersheds, between  November 2018
+      and January 2026. Data collection was done by several partners, following established
+      field and lab protocols available in this data package. Until June 2023, we
+      only collected samples for Dissolved organic carbon (DOC) analysis. Starting
+      in June 2023, Total dissolved nitrogen (TDN), Ammonium (NH4), Silica (SiO2),
+      Phosphate (PO4) and Nitrite+Nitrate (NO2+NO3) samples were added and collected
+      during each sampling event while additional characteristics were also being
+      collected by the Hakai Institute staff at selected sites.
+
+
+      A selection of characteristics have been quality-controlled (QC) while other
+      data is provided in a raw, uncontrolled form.  It is the sole responsibility
+      of the user to examine the presence of QC flags for each data point before including
+      it in analyses, models, or visualizations.'
+    fr: 'Ce jeu de données fournit des données sur la chimie de l''eau pour plusieurs
+      cours d''eau situés sur la côte ouest de l''île de Vancouver. Il comprend des
+      mesures fluviales à 29 sites situés près de l''exutoire dans 28 bassins versants,
+      entre novembre 2018 et janvier 2026. La collecte des données a été effectuée
+      par plusieurs partenaires, conformément aux protocoles de terrain et de laboratoire
+      établis disponibles dans cet ensemble de données. Jusqu''en juin 2023, nous
+      ne collections des échantillons que pour l''analyse du carbone organique dissous
+      (COD). À partir de juin 2023, des échantillons d''azote dissous total (TDN),
+      d''ammonium (NH4), de silice (SiO2), de phosphate (PO4) et de nitrite+nitrate
+      (NO2+NO3) ont été ajoutés et collectés lors de chaque événement d''échantillonnage,
+      tandis que des caractéristiques supplémentaires étaient également collectées
+      par le personnel de l''Institut Hakai sur des sites sélectionnés.
+
+
+      Certaines caractéristiques ont fait l''objet d''un contrôle de qualité (CQ)
+      tandis que d''autres données sont fournies sous forme brute et non contrôlée.
+      Il est de la seule responsabilité de l''utilisateur d''examiner la présence
+      de drapeaux de contrôle qualité pour chaque point de données avant de l''inclure
+      dans des analyses, des modèles ou des visualisations.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2018-11-15'
+  edition: 1.0.0
+  identifier: https://doi.org/10.21966/chc3-rj93
+  keywords:
+    default:
+      en:
+      - watershed
+      - freshwater
+      - water chemistry
+      fr:
+      - bassin versant
+      - Eau douce
+      - physico-chimie
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: completed
+  project:
+  - Watersheds
+  status: submitted
+  temporal_begin: '2018-11-15T20:00:00.000Z'
+  temporal_end: '2026-01-15T20:00:00.000Z'
+  title:
+    en: Biogeochemical Sampling of 28 Streams on Vancouver Island
+    fr: Échantillonnage biogéochimique de 28 cours d'eau de l'île de Vancouver
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+instruments:
+- id: YSI ProDSS
+metadata:
+  dates:
+    revision: '2026-03-18T16:05:29.283Z'
+  identifier: 84820f31-b6db-479c-a47e-f22f2899b4d2
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/DvuBcQQuVHdxmYEF4yDNBDj30lu1/-OnCm7wniBlFr2gSXQhf
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Some data has not been quality-controlled
+      fr: Certaines données n'ont pas fait l'objet d'un contrôle de qualité
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  descriptionIdentifier: fece4a2e-91a1-4fa6-8dbb-6677f0e1943e
+  polygon: -128.4,50.65 -127.9,50.71 -123.6,48.43 -124.0,48.36 -127.3,49.77 -128.4,50.65
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
