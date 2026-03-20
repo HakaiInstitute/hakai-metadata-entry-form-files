@@ -86,7 +86,7 @@ distribution:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://github.com/HakaiInstitute/Biogeochemical-Sampling-of-28-Streams-on-Vancouver-Island
+  url: https://github.com/HakaiInstitute/Biogeochemical-Sampling-of-28-Streams-on-Vancouver-Island/releases
 identification:
   abstract:
     en: 'This dataset provides water chemistry data for several streams located on
@@ -129,7 +129,13 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsSupplementTo
+    association_type_iso: crossReference
+    authority: DOI
+    code: 10.21966/cqrt-sk09
+    title:
+      en: Stream Temperature Observations for Three Streams Near Gold River
   dates:
     creation: '2018-11-15'
   edition: 1.0.0
@@ -167,7 +173,7 @@ instruments:
 - id: YSI ProDSS
 metadata:
   dates:
-    revision: '2026-03-19T17:43:05.476Z'
+    revision: '2026-03-20T14:11:37.865Z'
   identifier: 84820f31-b6db-479c-a47e-f22f2899b4d2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/DvuBcQQuVHdxmYEF4yDNBDj30lu1/-OnCm7wniBlFr2gSXQhf
