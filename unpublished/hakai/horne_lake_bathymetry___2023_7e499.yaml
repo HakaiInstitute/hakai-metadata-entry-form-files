@@ -1,0 +1,183 @@
+contact:
+- inCitation: true
+  individual:
+    email: nick.viner@hakai.org
+    name: Viner, Nick
+    position: Geospatial Researcher
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - processor
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    position: Geospatial Science
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: www.hakai.org
+  roles:
+  - custodian
+  - owner
+  - distributor
+distribution:
+- name:
+    en: Horne Lake Bathymetric Survey Report
+  url: https://drive.google.com/file/d/18IzIl9vGpYJ3bSv113uy-vT0TpGjIxLR/view?usp=drive_link
+identification:
+  abstract:
+    en: 'In September 2023, the Hakai Geospatial Team, in partnership with the Geological
+      Survey of Canada, performed a bathymetric survey at Horne Lake, located on Vancouver
+      Island in British Columbia, Canada. The data was collected onboard the research
+      vessel Hakai Blue which is equipped with a Reson T-50r multibeam system. All
+      data is processed and maintained by the Hakai Geospatial Technology team.
+
+
+      For more information on post processing, data quality assurance, software used,
+      and summary of results please contact data@hakai.org'
+    fr: 'En septembre 2023, l''équipe géospatiale de Hakai, en partenariat avec la
+      Commission géologique du Canada, a effectué un levé bathymétrique au lac Horne,
+      situé sur l''île de Vancouver en Colombie-Britannique, au Canada. Les données
+      ont été collectées à bord du navire de recherche Hakai Blue, qui est équipé
+      d''un système multifaisceaux Reson T-50r. Toutes les données sont traitées et
+      conservées par l''équipe de technologie géospatiale de Hakai.
+
+
+      Pour plus d''informations sur le post-traitement, l''assurance qualité des données,
+      les logiciels utilisés et le résumé des résultats, veuillez contacter data@hakai.org'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2023-10-02'
+    publication: '2023-11-20'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/vwee-e004
+  keywords:
+    default:
+      en:
+      - remote sensing
+      - bathymetry
+      - hydrography
+      - Horne Lake
+      - Landslide
+      fr:
+      - télédétection
+      - bathymétrie
+      - hydrographie
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: completed
+  project:
+  - Geospatial
+  status: submitted
+  temporal_begin: '2023-10-02T19:00:00.000Z'
+  temporal_end: '2023-10-05T19:00:00.000Z'
+  title:
+    en: Horne Lake Bathymetry - 2023
+    fr: Bathymétrie du lac Horne - 2023
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2026-03-26T22:22:07.794Z'
+  identifier: 7e49967a-b5ab-443d-860b-e3c0eb0f709c
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/G8LjsjnnPxb5TxWL730BxDTQu532/-Njn-0LeJ-Uwj4L8EmOV
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-NC-4.0
+      title:
+        en: 'Creative Commons Attribution 4.0 Attribution-NonCommercial  '
+      url: https://creativecommons.org/licenses/by-nc/4.0/
+    limitations:
+      en: Not to be used for navigational or commercial purposes
+      fr: Ne pas utiliser à des fins de navigation ou commerciales
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: The Hakai Blue is a 7m aluminum research vessel equipped with a Teledyne Reson
+      Seabat T50-R Multibeam Echosounder, with an integrated Applanix INS for the
+      recording of position and orientation data. An AML XChange Sound Velocity Profiler
+      is kept on board for the recording of sound velocity profiles.
+    fr: Le Hakai Blue est un navire de recherche en aluminium de 7 m équipé d'un échosondeur
+      multifaisceaux Teledyne Reson Seabat T50-R, avec un Applanix INS intégré pour
+      l'enregistrement des données de position et d'orientation. Un profileur de vitesse
+      du son AML XChange est conservé à bord pour l'enregistrement des profils de
+      vitesse du son.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Hakai Blue
+  instruments:
+  - description:
+      en: A portable ROV unit equipped with a grabber arm and laser measuring device.
+        It has a max depth of 305m.
+      fr: Une unité ROV portable équipée d'un bras de préhension et d'un appareil
+        de mesure laser. Il a une profondeur maximale de 305 m.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: DTX2 ROV
+    manufacturer: Deep Trekker
+    type:
+      en: ROV
+      fr: ROV
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - description:
+      en: An echosounder used for generating 3D elevation models of submarine features
+        (ie. ocean floor, river beds, underwater debris, etc.). It can operate at
+        frequencies ranging between 190 - 420kHz
+      fr: Échosondeur utilisé pour générer des modèles d'élévation 3D de caractéristiques
+        sous-marines (par exemple, le fond de l'océan, le lit des rivières, les débris
+        sous-marins, etc.). Il peut fonctionner à des fréquences comprises entre 190
+        et 420 kHz
+    id: T-50R Multibeam Sonar
+    manufacturer: Teledyne
+    type:
+      en: Multibeam Sonar
+      fr: Sonar multifaisceaux
+  type: ship
+spatial:
+  bbox:
+  - -124.8
+  - 49.32
+  - -124.7
+  - 49.36
+  vertical:
+  - 0.0
+  - 100.0
+  vertical_positive: heightPositive
