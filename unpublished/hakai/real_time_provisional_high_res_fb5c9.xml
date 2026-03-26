@@ -606,7 +606,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-03-26T21:37:06.466Z</gco:DateTime>
+        <gco:DateTime>2026-03-26T21:37:09.081Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2211,8 +2211,13 @@
                   <mcc:code>
                     <gco:CharacterString>SBE 45</gco:CharacterString>
                   </mcc:code>
-                  <mcc:description>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
                     <gco:CharacterString>Sea-Bird Electronics SBE 45 MicroTSG Thermosalinograph; Honeywell or Omega Pressure Sensors and Fast Response Resistance Temperature Detectors</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">Thermosalinographe microTSG Sea-Bird Electronics SBE 45 ; capteurs de pression Honeywell ou Omega et détecteurs de température à résistance à réponse rapide</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
                   </mcc:description>
                 </mcc:MD_Identifier>
               </mac:identifier>
