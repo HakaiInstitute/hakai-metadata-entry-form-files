@@ -564,7 +564,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-02-21T14:38:35.093Z</gco:DateTime>
+        <gco:DateTime>2026-03-26T21:13:01.099Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -649,7 +649,7 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Johnstone Straight pH, CTD and Oxygen record from Little Bear Bay(2020-2025) and Chatham Point lighthouse(2050-onward)</gco:CharacterString>
+            <gco:CharacterString>Johnstone Straight pH, CTD and Oxygen record from Little Bear Bay (2020-2025) and Chatham Point lighthouse (2050-onward)</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Enregistrement du pH, du CTD et de l&#39;oxygène de Johnstone Straight à Little Bear Bay (2020-2025) et au phare de Chatham Point (à partir de 2050)</lan:LocalisedCharacterString>
@@ -1317,10 +1317,10 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>Marine pH collected with SeapHox2 this includes pH, Oxygen, Temperature and Salinity data, instrument was deployed at a dock at Little Bear Bay from 2020-2025 and instrument was moved to a dock at Chatham point lighthouse. Locations are close in vicinity and all data is included in one file. Instrument was typically deployed at a depth of 1.5-2.0m. This site was chosen to capture ocean pH over time in the Johnstone Straight region.</gco:CharacterString>
+        <gco:CharacterString>Marine pH collected with SeapHox2 this includes pH, Oxygen, Temperature and Salinity data. Instrument was deployed at a dock at Little Bear Bay from 2020-2025 and instrument was moved to a dock at Chatham point lighthouse. Locations are close in vicinity and all data is included in one file. Instrument was typically deployed at a depth of 1.5-2.0m. This site was chosen to capture ocean pH over time in the Johnstone Straight region.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Le pH marin a été collecté avec SeaPhox2, y compris les données de pH, d&#39;oxygène, de température et de salinité. L&#39;instrument a été déployé sur un quai à Little Bear Bay de 2020 à 2025 et l&#39;instrument a été déplacé vers un quai au phare de Chatham Point. Les sites sont situés à proximité et toutes les données sont incluses dans un seul fichier. L&#39;instrument était généralement déployé à une profondeur de 1,5 à 2,0 m. Ce site a été choisi pour mesurer le pH de l&#39;océan au fil du temps dans la région du détroit de Johnstone.</lan:LocalisedCharacterString>
+            <lan:LocalisedCharacterString locale="#fr">pH marin collecté avec SeaPhox2, cela inclut les données de pH, d&#39;oxygène, de température et de salinité. L&#39;instrument a été déployé sur un quai à Little Bear Bay de 2020 à 2025 et l&#39;instrument a été déplacé vers un quai au phare de Chatham Point. Les sites sont situés à proximité et toutes les données sont incluses dans un seul fichier. L&#39;instrument était généralement déployé à une profondeur de 1,5 à 2,0 m. Ce site a été choisi pour mesurer le pH de l&#39;océan au fil du temps dans la région du détroit de Johnstone.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -1479,10 +1479,30 @@
           <mri:keyword>
             <gco:CharacterString>other</gco:CharacterString>
           </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>subSurfaceTemperature</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>subSurfaceSalinity</gco:CharacterString>
+          </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Autre</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Température sous la surface</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Salinité sous la surface</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>

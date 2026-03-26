@@ -59,12 +59,12 @@ distribution:
 identification:
   abstract:
     en: Marine pH collected with SeapHox2 this includes pH, Oxygen, Temperature and
-      Salinity data, instrument was deployed at a dock at Little Bear Bay from 2020-2025
+      Salinity data. Instrument was deployed at a dock at Little Bear Bay from 2020-2025
       and instrument was moved to a dock at Chatham point lighthouse. Locations are
       close in vicinity and all data is included in one file. Instrument was typically
       deployed at a depth of 1.5-2.0m. This site was chosen to capture ocean pH over
       time in the Johnstone Straight region.
-    fr: Le pH marin a été collecté avec SeaPhox2, y compris les données de pH, d'oxygène,
+    fr: pH marin collecté avec SeaPhox2, cela inclut les données de pH, d'oxygène,
       de température et de salinité. L'instrument a été déployé sur un quai à Little
       Bear Bay de 2020 à 2025 et l'instrument a été déplacé vers un quai au phare
       de Chatham Point. Les sites sont situés à proximité et toutes les données sont
@@ -92,16 +92,20 @@ identification:
     eov:
       en:
       - other
+      - subSurfaceTemperature
+      - subSurfaceSalinity
       fr:
       - Autre
+      - Température sous la surface
+      - Salinité sous la surface
   progress_code: onGoing
   project:
   - Oceanography
   status: submitted
   temporal_begin: '2020-10-05T19:00:00.000Z'
   title:
-    en: Johnstone Straight pH, CTD and Oxygen record from Little Bear Bay(2020-2025)
-      and Chatham Point lighthouse(2050-onward)
+    en: Johnstone Straight pH, CTD and Oxygen record from Little Bear Bay (2020-2025)
+      and Chatham Point lighthouse (2050-onward)
     fr: Enregistrement du pH, du CTD et de l'oxygène de Johnstone Straight à Little
       Bear Bay (2020-2025) et au phare de Chatham Point (à partir de 2050)
     translations:
@@ -138,7 +142,7 @@ instruments:
   version: '2'
 metadata:
   dates:
-    revision: '2026-02-21T14:38:35.093Z'
+    revision: '2026-03-26T21:13:01.099Z'
   identifier: 60b8a10f-3ecc-40ef-a898-50b1fadaf516
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/64WELpDV0tXYqOqiWFYNzMJdW4k1/-OlwbBJ4TVWMuq-VvOiI
