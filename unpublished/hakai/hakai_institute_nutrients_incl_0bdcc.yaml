@@ -1,10 +1,13 @@
 contact:
 - inCitation: true
   individual:
+    email: wiley.evans@hakai.org
     name: Evans, Wiley
+    orcid: https://orcid.org/0000-0002-5450-0903
   organization:
     city: Campbell River
     country: Canada
+    email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
@@ -143,7 +146,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-02-20T22:58:10.717Z'
+    revision: '2026-03-26T22:39:40.600Z'
   identifier: 0bdcc00f-973e-4831-a6e2-38e710574b26
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/64WELpDV0tXYqOqiWFYNzMJdW4k1/-OlwXteLCzjxiPpk5loC
@@ -155,19 +158,21 @@ metadata:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
     limitations:
-      en: Not all data has been QC'd if it does not include flags associated with
+      en: Not all data has been QC'd. If it does not include flags associated with
         data then it has not been through QC process. This file contains all data
-        from all surveys and locations, Will be updated to ERDDAP portal for better
-        access and filtering of data types in the future.
-      fr: Toutes les données n'ont pas fait l'objet d'un contrôle qualité. Si elles
-        n'incluent pas de drapeaux associés aux données, cela signifie qu'elles n'ont
-        pas fait l'objet d'un processus de contrôle de la qualité. Ce fichier contient
-        toutes les données de toutes les enquêtes et de tous les sites. Il sera mis
-        à jour sur le portail ERDDAP pour un meilleur accès et un meilleur filtrage
-        des types de données à l'avenir.
+        from all surveys and locations, and will be published to ERDDAP portal for
+        better access and filtering of data types in the future.
+      fr: Toutes les données n'ont pas fait l'objet d'un contrôle qualité. S'il n'inclut
+        pas de drapeaux associés aux données, cela signifie qu'il n'a pas fait l'objet
+        d'un processus de contrôle qualité. Ce fichier contient toutes les données
+        de toutes les enquêtes et de tous les sites, et sera publié sur le portail
+        ERDDAP pour un meilleur accès et un meilleur filtrage des types de données
+        à l'avenir.
       translations:
         fr:
-          verified: true
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 spatial:
   polygon: -129.3,51.98 -127.7,51.99 -123.7,50.63 -124.8,49.19 -129.3,51.98
   vertical:
