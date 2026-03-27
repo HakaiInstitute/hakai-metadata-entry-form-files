@@ -484,7 +484,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-03-26T22:22:50.972Z</gco:DateTime>
+        <gco:DateTime>2026-03-27T17:50:15.722Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -576,6 +576,16 @@
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2025-11-21</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -1169,7 +1179,7 @@
             <gex:EX_TemporalExtent>
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
-                  <gml:beginPosition indeterminatePosition="unknown" />
+                  <gml:beginPosition>2025-11-21T20:00:00.000Z</gml:beginPosition>
                   <gml:endPosition indeterminatePosition="now" />
                 </gml:TimePeriod>
               </gex:extent>
