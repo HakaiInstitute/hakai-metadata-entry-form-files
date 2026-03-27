@@ -606,7 +606,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-03-27T21:38:45.219Z</gco:DateTime>
+        <gco:DateTime>2026-03-27T21:39:19.796Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2431,11 +2431,21 @@ Ce paquet de données Hakai est accessible gratuitement à tous, conformément a
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Github release</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Version Github</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
-              <cit:description>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>zip package containing all contents of current data package version</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">paquet zip contenant tout le contenu de la version actuelle du paquet de données</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
