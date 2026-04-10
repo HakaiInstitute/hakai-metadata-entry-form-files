@@ -987,7 +987,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-04-10T20:26:00.782Z</gco:DateTime>
+        <gco:DateTime>2026-04-10T20:29:44.303Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1096,6 +1096,16 @@
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2026-03-31</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
@@ -1684,7 +1694,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>This dataset provides quality-controlled stream temperature time series from 3 freshwater monitoring sites on the West coast of Vancouver Island, within the Mowachaht-Muchalaht First Nations territories. The three sensors were installed on May 29, 2024 and removed on May 28, 2025, producing a dataset of about 1 year. Temperature data were collected using in-situ sensors and processed to produce one representative time series per site at a uniform 10-minute resolution. Data processing included consolidation of raw sensor files, verification of timestamps and sampling intervals, and application of standardized quality flags informed by automated checks and field documentation. Where sensors were replaced at the same location, records were merged to maintain continuity, and periods affected by site changes or known influences were retained and identified through flags. All timestamps are reported in a fixed local time zone to ensure temporal consistency.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données fournit des séries chronologiques de température de cours d&#39;eau à qualité contrôlée provenant de 3 sites de surveillance de l&#39;eau douce sur la côte ouest de l&#39;île de Vancouver, sur les territoires des Premières nations de Mowachaht-Muchalaht. Les trois capteurs ont été installés le 29 mai 2024 et retirés le 28 mai 2025, produisant un ensemble de données d&#39;environ 1 an. Les données de température ont été collectées à l&#39;aide de capteurs in situ et traitées pour produire une série chronologique représentative par site à une résolution uniforme de 10 minutes. Le traitement des données comprenait la consolidation des fichiers bruts des capteurs, la vérification des horodatages et des intervalles d&#39;échantillonnage, ainsi que l&#39;application d&#39;indicateurs de qualité standardisés basés sur des contrôles automatisés et une documentation de terrain. Lorsque les capteurs ont été remplacés au même endroit, les enregistrements ont été fusionnés pour assurer la continuité, et les périodes affectées par des changements de site ou des influences connues ont été conservées et identifiées à l&#39;aide de drapeaux. Tous les horodatages sont signalés dans un fuseau horaire local fixe pour garantir la cohérence temporelle.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
