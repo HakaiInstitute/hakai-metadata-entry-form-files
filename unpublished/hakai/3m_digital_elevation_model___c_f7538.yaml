@@ -111,12 +111,12 @@ identification:
       \ rasters.\n25m Topographically Complete DEM. Compatible with BCGov TRIM data\
       \ products.\n30m Topographically Complete DEM. Compatible with STRM products.\n\
       \nMaster Terrain Dataset Creation:\n\nLiDAR point clouds from missions flown\
-      \ on 2012 and 2014 over Calvert Island where loaded (XYZ only) into a point\
-      \ feature class in an ESRI Geodatabase.\n\nOnly ground (Class 2) returns where\
-      \ loaded onto the geodatabase.\n\nESRI “terrain dataset” was created within\
-      \ the same geodatabase using the LiDAR points as embedded masspoints.\n\nTEM\
-      \ Plus lakes and ponds with average elevation values over the waterbodies’ mirrors\
-      \ were used as hard replace breaklines to achieve hydro-flattening.\n\nThe minimum\
+      \ on 2012 and 2014 over Calvert Island were loaded (XYZ only) into a point feature\
+      \ class in an ESRI Geodatabase.\n\nOnly ground (Class 2) returns where loaded\
+      \ onto the geodatabase.\n\nESRI “terrain dataset” was created within the same\
+      \ geodatabase using the LiDAR points as embedded masspoints.\n\nTEM Plus lakes\
+      \ and ponds with average elevation values over the waterbodies’ mirrors were\
+      \ used as hard replace breaklines to achieve hydro-flattening.\n\nThe minimum\
       \ bounding geometry of all contiguous LAS files’ extents was used as a soft\
       \ clip mask in the creation of the terrain dataset as project boundary.\n\n\
       The horizontal coordinate system and datum employed for the terrain dataset\
@@ -224,7 +224,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-29'
-    revision: '2026-04-13T16:43:08.739Z'
+    revision: '2026-04-13T16:52:28.985Z'
   identifier: f7538807-4d49-4ed8-ad36-836c0e71428a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW13R3BBSGRER2ZkYnM
