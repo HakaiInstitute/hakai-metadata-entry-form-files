@@ -720,7 +720,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-04-13T16:52:39.097Z</gco:DateTime>
+        <gco:DateTime>2026-04-13T17:00:53.945Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -852,6 +852,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -1777,9 +1780,9 @@ DEM topographiquement complet de 30 m. Compatible avec les produits STRM.
 
 Création du jeu de données Master Terrain :
 
-Des nuages de points LiDAR provenant de missions effectuées en 2012 et 2014 au-dessus de l&#39;île Calvert ont été chargés (XYZ uniquement) dans une classe d&#39;entités ponctuelles d&#39;une géodatabase ESRI.
+Les nuages de points LiDAR issus de missions effectuées en 2012 et 2014 au-dessus de l&#39;île Calvert ont été chargés (XYZ uniquement) dans une classe d&#39;entités ponctuelles d&#39;une géodatabase ESRI.
 
-Seul le sol (classe 2) renvoie l&#39;endroit où il a été chargé dans la géodatabase.
+Seuls les retours terrestres (classe 2) ont été chargés dans la géodatabase.
 
 Le « jeu de données de terrain » ESRI a été créé dans la même géodatabase en utilisant les points LiDAR comme points de masse intégrés.
 
