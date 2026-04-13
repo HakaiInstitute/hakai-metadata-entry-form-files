@@ -1,46 +1,40 @@
 contact:
 - inCitation: true
+  individual:
+    name: Hare, Alex
+    orcid: https://orcid.org/0000-0002-3800-5830
+  roles:
+  - processor
+  - author
+- inCitation: true
+  individual:
+    name: Barrette, Jessy
+    orcid: https://orcid.org/0000-0002-0422-2589
+  roles:
+  - processor
+  - author
+- inCitation: true
+  individual:
+    email: jennifer.jackson@dfo-mpo.gc.ca
+    name: Jackson, Jennifer
+    orcid: https://orcid.org/0000-0002-2318-8814
+  roles:
+  - processor
+  - author
+- inCitation: false
   organization:
     address: 1713 Hyacinthe Bay Road
-    city: Heriot Bay
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
-    url: hakai.org
+    url: https://www.hakai.org/
   roles:
   - distributor
   - owner
   - publisher
-- inCitation: false
-  individual:
-    email: jessy.barrette@hakai.org
-    name: Barrette, Jessy
-    orcid: https://orcid.org/0000-0002-0422-2589
-    position: Oceanographic Data Integrator
-  organization:
-    address: 1713 Hyacinthe Bay Road
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
   - custodian
-  - pointOfContact
-  - processor
-- inCitation: false
-  individual:
-    name: Hare, Alex
-  organization:
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - processor
 - inCitation: false
   organization:
     city: Vancouver
@@ -151,6 +145,7 @@ identification:
   - Oceanography
   - Nearshore
   - Watersheds
+  - Juvenile Salmon Program
   status: published
   temporal_begin: '2012-06-01T17:07:00.000Z'
   title:
@@ -164,7 +159,7 @@ identification:
 metadata:
   dates:
     publication: '2024-03-19'
-    revision: '2026-02-20T19:47:08.865Z'
+    revision: '2026-04-13T18:49:49.015Z'
   history:
   - scope: Dataset
     statement:
