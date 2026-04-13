@@ -20,8 +20,19 @@ contact:
   - owner
 - inCitation: true
   individual:
-    email: katie.pocock@hakai.org
-    name: Pocock, Katie
+    name: Michalchuk, Trevor
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - editor
+- inCitation: true
+  individual:
+    name: Campbell, Katie
     orcid: https://orcid.org/0009-0008-7331-2095
   organization:
     address: 1713 Hyacinthe Bay Road
@@ -57,8 +68,25 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
-  - funder
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
   - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: ERDDAP Dataset
@@ -70,6 +98,12 @@ distribution:
         verified: false
   name:
     en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://catalogue.hakai.org/erddap/tabledap/HakaiBamfieldBoL5min.html
 identification:
   abstract:
@@ -106,6 +140,7 @@ identification:
   associated_resources: []
   dates:
     creation: '2023-08-29'
+  identifier: https://doi.org/10.21966/65d8-k051
   keywords:
     default:
       en:
@@ -149,11 +184,13 @@ identification:
       Colombie-Britannique, Canada (provisoire)
     translations:
       fr:
-        verified: true
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
 metadata:
   dates:
-    publication: '2023-10-20'
-    revision: '2026-02-20T18:58:23.724Z'
+    publication: '2026-04-13'
+    revision: '2026-04-13T20:44:33.484Z'
   identifier: fb5c9e1e-a911-46b7-8c1d-e34215a105ed
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-NdH-jgHZQzKrYdb2nw_
@@ -186,16 +223,27 @@ platform:
   id: HakaiBamfieldBoL
   instruments:
   - description:
-      en: We clean and replace LI840A components as necessary and do not send units
-        in for service unless absolutely required. In general, calibration function
-        offsets are tracked and used as a metric of drift. When the calibration function
-        offset exceeds 30, the unit would be cleaned and rezeroed / respanned using
-        the high CO2 gas standard.
+      en: Sea-Bird Electronics SBE 45 MicroTSG Thermosalinograph; Honeywell or Omega
+        Pressure Sensors and Fast Response Resistance Temperature Detectors
+      fr: Thermosalinographe microTSG Sea-Bird Electronics SBE 45 ; capteurs de pression
+        Honeywell ou Omega et détecteurs de température à résistance à réponse rapide
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
     id: Burke-o-Lator pCO2/TCO2 analyzer
     manufacturer: Dakunalytics, LLC
   - description:
       en: Sea-Bird Electronics SBE 45 MicroTSG Thermosalinograph; Honeywell or Omega
         Pressure Sensors and Fast Response Resistance Temperature Detectors
+      fr: Thermosalinographe microTSG Sea-Bird Electronics SBE 45 ; capteurs de pression
+        Honeywell ou Omega et détecteurs de température à résistance à réponse rapide
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
     id: SBE 45
     manufacturer: Seabird Electronics
   type: land/onshore structure
