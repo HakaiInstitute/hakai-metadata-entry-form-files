@@ -1,31 +1,4 @@
 contact:
-- inCitation: false
-  individual:
-    email: data@hakai.org
-    position: Geospatial Science
-  organization:
-    address: 1100 Island Hwy
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - collaborator
-  - pointOfContact
-  - rightsHolder
-- inCitation: false
-  organization:
-    city: Vancouver
-    country: Canada
-    name: Tula Foundation
-    ror: https://ror.org/0029jxk29
-    url: https://tula.org
-  roles:
-  - funder
-  - owner
-  - rightsHolder
 - inCitation: true
   individual:
     email: keith.holmes@hakai.org
@@ -46,17 +19,6 @@ contact:
   - principalInvestigator
   - pointOfContact
   - processor
-- inCitation: true
-  organization:
-    address: 1100 Island Hwy
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - publisher
 - inCitation: true
   individual:
     email: data@hakai.org
@@ -86,6 +48,44 @@ contact:
   - stakeholder
   - rightsHolder
   - coAuthor
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    position: Geospatial Science
+  organization:
+    address: 1100 Island Hwy
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - collaborator
+  - pointOfContact
+  - rightsHolder
+  - owner
+- inCitation: true
+  organization:
+    address: 1100 Island Hwy
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+  - rightsHolder
 distribution:
 - description:
     en: Hakai Institute request form used for large datasets and or sensitive data
@@ -214,21 +214,21 @@ identification:
       - Autre
     taxa:
       en:
+      - Animalia
       - Chordata
-      - Balaenidae
-      - Cetacea
+      - Balaena
       - Balaena mysticetus
       - Mammalia
-      - Animalia
-      - Balaena
+      - Cetacea
+      - Balaenidae
       fr:
+      - Animalia
       - Chordata
-      - Balaenidae
-      - Cetacea
+      - Balaena
       - Balaena mysticetus
       - Mammalia
-      - Animalia
-      - Balaena
+      - Cetacea
+      - Balaenidae
   progress_code: completed
   project:
   - Geospatial
@@ -246,7 +246,8 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2025-12-15T23:08:07.631Z'
+    publication: '2025-12-15'
+    revision: '2026-04-15T19:16:26.726Z'
   identifier: 35900174-c64a-493e-9a7e-390ac7e997e4
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-OeY_smu3pJj8TBE9ivK
