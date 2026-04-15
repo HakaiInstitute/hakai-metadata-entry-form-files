@@ -58,128 +58,6 @@
   <mdb:contact>
     <cit:CI_Responsibility>
       <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
-      </cit:role>
-      <cit:party>
-        <cit:CI_Organisation>
-          <cit:name>
-            <gco:CharacterString>Hakai Institute</gco:CharacterString>
-          </cit:name>
-          <cit:contactInfo>
-            <cit:CI_Contact>
-              <cit:phone>
-                <cit:CI_Telephone>
-                  <cit:number>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:number>
-                </cit:CI_Telephone>
-              </cit:phone>
-              <cit:address>
-                <cit:CI_Address>
-                  <cit:deliveryPoint>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:deliveryPoint>
-                  <cit:city>
-                    <gco:CharacterString>Campbell River</gco:CharacterString>
-                  </cit:city>
-                  <cit:country>
-                    <gco:CharacterString>Canada</gco:CharacterString>
-                  </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
-                </cit:CI_Address>
-              </cit:address>
-              <cit:onlineResource>
-                <cit:CI_OnlineResource>
-                  <cit:linkage>
-                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                  </cit:linkage>
-                  <cit:protocol>
-                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                  </cit:protocol>
-                  <cit:function>
-                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                  </cit:function>
-                </cit:CI_OnlineResource>
-              </cit:onlineResource>
-            </cit:CI_Contact>
-          </cit:contactInfo>
-          <cit:partyIdentifier>
-            <mcc:MD_Identifier>
-              <mcc:code>
-                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-              </mcc:code>
-            </mcc:MD_Identifier>
-          </cit:partyIdentifier>
-        </cit:CI_Organisation>
-      </cit:party>
-    </cit:CI_Responsibility>
-  </mdb:contact>
-  <mdb:contact>
-    <cit:CI_Responsibility>
-      <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
-      </cit:role>
-      <cit:party>
-        <cit:CI_Organisation>
-          <cit:name>
-            <gco:CharacterString>Hakai Institute</gco:CharacterString>
-          </cit:name>
-          <cit:contactInfo>
-            <cit:CI_Contact>
-              <cit:phone>
-                <cit:CI_Telephone>
-                  <cit:number>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:number>
-                </cit:CI_Telephone>
-              </cit:phone>
-              <cit:address>
-                <cit:CI_Address>
-                  <cit:deliveryPoint>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:deliveryPoint>
-                  <cit:city>
-                    <gco:CharacterString>Campbell River</gco:CharacterString>
-                  </cit:city>
-                  <cit:country>
-                    <gco:CharacterString>Canada</gco:CharacterString>
-                  </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
-                </cit:CI_Address>
-              </cit:address>
-              <cit:onlineResource>
-                <cit:CI_OnlineResource>
-                  <cit:linkage>
-                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                  </cit:linkage>
-                  <cit:protocol>
-                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                  </cit:protocol>
-                  <cit:function>
-                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                  </cit:function>
-                </cit:CI_OnlineResource>
-              </cit:onlineResource>
-            </cit:CI_Contact>
-          </cit:contactInfo>
-          <cit:partyIdentifier>
-            <mcc:MD_Identifier>
-              <mcc:code>
-                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-              </mcc:code>
-            </mcc:MD_Identifier>
-          </cit:partyIdentifier>
-        </cit:CI_Organisation>
-      </cit:party>
-    </cit:CI_Responsibility>
-  </mdb:contact>
-  <mdb:contact>
-    <cit:CI_Responsibility>
-      <cit:role>
         <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
       </cit:role>
       <cit:party>
@@ -207,9 +85,6 @@
                   <cit:country>
                     <gco:CharacterString>Canada</gco:CharacterString>
                   </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
                 </cit:CI_Address>
               </cit:address>
               <cit:onlineResource>
@@ -234,6 +109,43 @@
               </mcc:code>
             </mcc:MD_Identifier>
           </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Denouden, Taylor</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>taylor.denouden@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-0457-1022</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString>Software Developer</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
         </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
@@ -241,7 +153,7 @@
   <mdb:contact>
     <cit:CI_Responsibility>
       <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="resourceProvider"/>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="contributor"/>
       </cit:role>
       <cit:party>
         <cit:CI_Organisation>
@@ -268,9 +180,6 @@
                   <cit:country>
                     <gco:CharacterString>Canada</gco:CharacterString>
                   </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
                 </cit:CI_Address>
               </cit:address>
               <cit:onlineResource>
@@ -295,6 +204,43 @@
               </mcc:code>
             </mcc:MD_Identifier>
           </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Denouden, Taylor</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>taylor.denouden@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-0457-1022</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString>Software Developer</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
         </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
@@ -329,9 +275,6 @@
                   <cit:country>
                     <gco:CharacterString>Canada</gco:CharacterString>
                   </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
                 </cit:CI_Address>
               </cit:address>
               <cit:onlineResource>
@@ -356,6 +299,43 @@
               </mcc:code>
             </mcc:MD_Identifier>
           </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Denouden, Taylor</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>taylor.denouden@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-0457-1022</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString>Software Developer</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
         </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
@@ -363,7 +343,387 @@
   <mdb:contact>
     <cit:CI_Responsibility>
       <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Denouden, Taylor</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>taylor.denouden@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-0457-1022</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString>Software Developer</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Del Bel Belluz, Justin</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>justin.belluz@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0002-3536-9508</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString>Research Scientist</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="contributor"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Del Bel Belluz, Justin</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>justin.belluz@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0002-3536-9508</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString>Research Scientist</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Del Bel Belluz, Justin</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>justin.belluz@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0002-3536-9508</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString>Research Scientist</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
       </cit:role>
       <cit:party>
         <cit:CI_Organisation>
@@ -482,71 +842,10 @@
       </cit:party>
     </cit:CI_Responsibility>
   </mdb:contact>
-  <mdb:contact>
-    <cit:CI_Responsibility>
-      <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="funder"/>
-      </cit:role>
-      <cit:party>
-        <cit:CI_Organisation>
-          <cit:name>
-            <gco:CharacterString>Hakai Institute</gco:CharacterString>
-          </cit:name>
-          <cit:contactInfo>
-            <cit:CI_Contact>
-              <cit:phone>
-                <cit:CI_Telephone>
-                  <cit:number>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:number>
-                </cit:CI_Telephone>
-              </cit:phone>
-              <cit:address>
-                <cit:CI_Address>
-                  <cit:deliveryPoint>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:deliveryPoint>
-                  <cit:city>
-                    <gco:CharacterString>Campbell River</gco:CharacterString>
-                  </cit:city>
-                  <cit:country>
-                    <gco:CharacterString>Canada</gco:CharacterString>
-                  </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
-                </cit:CI_Address>
-              </cit:address>
-              <cit:onlineResource>
-                <cit:CI_OnlineResource>
-                  <cit:linkage>
-                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                  </cit:linkage>
-                  <cit:protocol>
-                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                  </cit:protocol>
-                  <cit:function>
-                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                  </cit:function>
-                </cit:CI_OnlineResource>
-              </cit:onlineResource>
-            </cit:CI_Contact>
-          </cit:contactInfo>
-          <cit:partyIdentifier>
-            <mcc:MD_Identifier>
-              <mcc:code>
-                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-              </mcc:code>
-            </mcc:MD_Identifier>
-          </cit:partyIdentifier>
-        </cit:CI_Organisation>
-      </cit:party>
-    </cit:CI_Responsibility>
-  </mdb:contact>
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-02-05T21:20:53.263Z</gco:DateTime>
+        <gco:DateTime>2026-04-15T21:21:40.998Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -658,8 +957,18 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2026-04-15</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
           <cit:edition>
-            <gco:CharacterString>1</gco:CharacterString>
+            <gco:CharacterString>1.0</gco:CharacterString>
           </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
@@ -706,7 +1015,7 @@
                       <cit:onlineResource>
                         <cit:CI_OnlineResource>
                           <cit:linkage>
-                            <gco:CharacterString>http://www.uvic.ca/</gco:CharacterString>
+                            <gco:CharacterString>https://www.uvic.ca</gco:CharacterString>
                           </cit:linkage>
                           <cit:protocol>
                             <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -804,7 +1113,7 @@
                       <cit:onlineResource>
                         <cit:CI_OnlineResource>
                           <cit:linkage>
-                            <gco:CharacterString>http://www.uvic.ca/</gco:CharacterString>
+                            <gco:CharacterString>https://www.uvic.ca</gco:CharacterString>
                           </cit:linkage>
                           <cit:protocol>
                             <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -902,7 +1211,7 @@
                       <cit:onlineResource>
                         <cit:CI_OnlineResource>
                           <cit:linkage>
-                            <gco:CharacterString>http://www.uvic.ca/</gco:CharacterString>
+                            <gco:CharacterString>https://www.uvic.ca</gco:CharacterString>
                           </cit:linkage>
                           <cit:protocol>
                             <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -965,128 +1274,6 @@
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
               </cit:role>
               <cit:party>
@@ -1114,9 +1301,6 @@
                           <cit:country>
                             <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
@@ -1141,6 +1325,43 @@
                       </mcc:code>
                     </mcc:MD_Identifier>
                   </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Denouden, Taylor</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>taylor.denouden@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-0457-1022</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Software Developer</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
                 </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
@@ -1148,7 +1369,7 @@
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="resourceProvider"/>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="contributor"/>
               </cit:role>
               <cit:party>
                 <cit:CI_Organisation>
@@ -1175,9 +1396,6 @@
                           <cit:country>
                             <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
@@ -1202,6 +1420,43 @@
                       </mcc:code>
                     </mcc:MD_Identifier>
                   </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Denouden, Taylor</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>taylor.denouden@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-0457-1022</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Software Developer</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
                 </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
@@ -1236,9 +1491,6 @@
                           <cit:country>
                             <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
@@ -1263,6 +1515,423 @@
                       </mcc:code>
                     </mcc:MD_Identifier>
                   </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Denouden, Taylor</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>taylor.denouden@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-0457-1022</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Software Developer</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Denouden, Taylor</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>taylor.denouden@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-0457-1022</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Software Developer</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Del Bel Belluz, Justin</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>justin.belluz@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0002-3536-9508</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Research Scientist</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="contributor"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Del Bel Belluz, Justin</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>justin.belluz@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0002-3536-9508</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Research Scientist</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Del Bel Belluz, Justin</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>justin.belluz@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0002-3536-9508</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString>Research Scientist</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
                 </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
@@ -1297,131 +1966,6 @@
                           <cit:country>
                             <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="funder"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>algaeexplorer@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
@@ -1783,6 +2327,171 @@ Il est demandé que Giannini et al. (2021), Jacoby et al. (2019) et Marchese et 
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Algae Explorer</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Explorateur d&#39;algues</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>URL</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://algaeexplorer.ca</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="dependency"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Performance of OLCI Sentinel-3A satellite in the Northeast Pacific coastal waters</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Performances du satellite OLCI Sentinel-3A dans les eaux côtières du Pacifique Nord-Est</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.1016/j.rse.2021.112317</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Bioregionalization of the coastal and open oceans of British Columbia and Southeast Alaska based on Sentinel-3A satellite-derived phytoplankton seasonality</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Biorégionalisation des océans côtiers et ouverts de la Colombie-Britannique et du sud-est de l&#39;Alaska sur la base de la saisonnalité du phytoplancton dérivée du satellite Sentinel-3A</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.3389/fmars.2022.968470</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Geospatial Computing Collaborations</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Collaborations informatiques géospatiales</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.1109/PACRIM47961.2019.8985053</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>The Sentinel-3 Mission: Overview and status</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">La mission Sentinel-3 : aperçu et état d&#39;avancement</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.1109/IGARSS.2012.6351194</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -1860,36 +2569,6 @@ Il est demandé que Giannini et al. (2021), Jacoby et al. (2019) et Marchese et 
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://algaeexplorer.ca</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Algae Explorer</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Explorateur d&#39;algues</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Interactive web interface with fully processed prior day Chla and SPM imagery for the BC and southeast Alaska coast and offshore waters.</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Interface Web interactive avec imagerie Chla et SPM entièrement traitée de la veille pour la côte de la Colombie-Britannique et du sud-est de l&#39;Alaska et les eaux extracôtières.</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
                 <gco:CharacterString>https://catalogue.hakai.org/erddap/griddap/sentinel_3A_POLYMER_8Day.html</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
@@ -1903,121 +2582,11 @@ Il est demandé que Giannini et al. (2021), Jacoby et al. (2019) et Marchese et 
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
-              <cit:description>
-                <gco:CharacterString></gco:CharacterString>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://doi.org/10.1016/j.rse.2021.112317</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Performance of OLCI Sentinel-3A satellite in the Northeast Pacific coastal waters</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Performance du satellite OLCI Sentinel-3A dans les eaux côtières du Pacifique Nord-Est</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Performance evaluation of POLYMER processed Sentinel-3A imagery for the derivation of chlorophyll-a concentrations on the British Columbia and Southeast Alaska coast. Validation was performed via match-up analysis using in-situ chlorophyll-a samples from southern BC and expected ranges and seasonal trends from northern BC and Southeast Alaska.</gco:CharacterString>
+                <gco:CharacterString>8-Day average Chlorophyll and SPM Concentration data on ERDDAP</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Évaluation de la performance de l&#39;imagerie Sentinelle 3A traitée par POLYMER pour le calcul des concentrations de chlorophylle-a sur la côte de la Colombie-Britannique et du sud-est de l&#39;Alaska. La validation a été effectuée par analyse de correspondance à l&#39;aide d&#39;échantillons de chlorophylle-a in situ provenant du sud de la Colombie-Britannique et des fourchettes et tendances saisonnières attendues dans le nord de la Colombie-Britannique et le sud-est de l&#39;Alaska.</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://doi.org/10.3389/fmars.2022.968470</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Bioregionalization of the coastal and open oceans of British Columbia and Southeast Alaska based on Sentinel-3A satellite-derived phytoplankton seasonality</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Biorégionalisation des océans côtiers et ouverts de la Colombie-Britannique et du sud-est de l&#39;Alaska sur la base de la saisonnalité du phytoplancton dérivée du satellite Sentinel-3A</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:name>
-              <cit:description>
-                <gco:CharacterString>Methods section provides detailed description of data processing pipeline and results demonstrate use case for data</gco:CharacterString>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://doi.org/10.1109/PACRIM47961.2019.8985053</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Geospatial Computing Collaborations</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Collaborations en matière d&#39;informatique géospatiale</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Overview of development of automated system that outputs near real-time (prior day) fully processed OLCI Sentinel 3A chlorophyl imagery for the British Columbia and southeast Alaska coast and offshore waters.</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Vue d&#39;ensemble du développement d&#39;un système automatisé qui produit des images de chlorophylle OLCI Sentinel 3A entièrement traitées en temps quasi réel (la veille) pour la côte de la Colombie-Britannique et du sud-est de l&#39;Alaska et les eaux extracôtières.</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://doi.org/10.1109/IGARSS.2012.6351194</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>The Sentinel-3 Mission: Overview and status</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">La mission Sentinel-3 : vue d&#39;ensemble et statut</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Overview of the Sentinel-3 mission</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Présentation de la mission Sentinel-3</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Données sur la concentration moyenne de chlorophylle et de SPM sur 8 jours sur l&#39;ERDDAP</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>

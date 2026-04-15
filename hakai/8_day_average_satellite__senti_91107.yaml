@@ -14,12 +14,45 @@ contact:
     email: maycira@uvic.ca
     name: University of Victoria
     ror: https://ror.org/04s5mat29
-    url: http://www.uvic.ca/
+    url: https://www.uvic.ca
   roles:
   - originator
   - collaborator
   - principalInvestigator
 - inCitation: true
+  individual:
+    email: taylor.denouden@hakai.org
+    name: Denouden, Taylor
+    orcid: https://orcid.org/0000-0003-0457-1022
+    position: Software Developer
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - contributor
+  - processor
+  - custodian
+- inCitation: true
+  individual:
+    email: justin.belluz@hakai.org
+    name: Del Bel Belluz, Justin
+    orcid: https://orcid.org/0000-0002-3536-9508
+    position: Research Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - contributor
+  - custodian
+- inCitation: false
   organization:
     city: Campbell River
     country: Canada
@@ -28,36 +61,28 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - custodian
   - owner
-  - pointOfContact
-  - resourceProvider
-  - processor
-  - publisher
   - distributor
-  - funder
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 distribution:
 - description:
-    en: Interactive web interface with fully processed prior day Chla and SPM imagery
-      for the BC and southeast Alaska coast and offshore waters.
-    fr: Interface Web interactive avec imagerie Chla et SPM entièrement traitée de
-      la veille pour la côte de la Colombie-Britannique et du sud-est de l'Alaska
-      et les eaux extracôtières.
+    en: 8-Day average Chlorophyll and SPM Concentration data on ERDDAP
+    fr: Données sur la concentration moyenne de chlorophylle et de SPM sur 8 jours
+      sur l'ERDDAP
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: Algae Explorer
-    fr: Explorateur d'algues
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://algaeexplorer.ca
-- name:
     en: ERDDAP Dataset
     fr: Ensemble de données ERDDAP
     translations:
@@ -66,88 +91,6 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   url: https://catalogue.hakai.org/erddap/griddap/sentinel_3A_POLYMER_8Day.html
-- description:
-    en: Performance evaluation of POLYMER processed Sentinel-3A imagery for the derivation
-      of chlorophyll-a concentrations on the British Columbia and Southeast Alaska
-      coast. Validation was performed via match-up analysis using in-situ chlorophyll-a
-      samples from southern BC and expected ranges and seasonal trends from northern
-      BC and Southeast Alaska.
-    fr: Évaluation de la performance de l'imagerie Sentinelle 3A traitée par POLYMER
-      pour le calcul des concentrations de chlorophylle-a sur la côte de la Colombie-Britannique
-      et du sud-est de l'Alaska. La validation a été effectuée par analyse de correspondance
-      à l'aide d'échantillons de chlorophylle-a in situ provenant du sud de la Colombie-Britannique
-      et des fourchettes et tendances saisonnières attendues dans le nord de la Colombie-Britannique
-      et le sud-est de l'Alaska.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: Performance of OLCI Sentinel-3A satellite in the Northeast Pacific coastal
-      waters
-    fr: Performance du satellite OLCI Sentinel-3A dans les eaux côtières du Pacifique
-      Nord-Est
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://doi.org/10.1016/j.rse.2021.112317
-- description:
-    en: Methods section provides detailed description of data processing pipeline
-      and results demonstrate use case for data
-  name:
-    en: Bioregionalization of the coastal and open oceans of British Columbia and
-      Southeast Alaska based on Sentinel-3A satellite-derived phytoplankton seasonality
-    fr: Biorégionalisation des océans côtiers et ouverts de la Colombie-Britannique
-      et du sud-est de l'Alaska sur la base de la saisonnalité du phytoplancton dérivée
-      du satellite Sentinel-3A
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://doi.org/10.3389/fmars.2022.968470
-- description:
-    en: Overview of development of automated system that outputs near real-time (prior
-      day) fully processed OLCI Sentinel 3A chlorophyl imagery for the British Columbia
-      and southeast Alaska coast and offshore waters.
-    fr: Vue d'ensemble du développement d'un système automatisé qui produit des images
-      de chlorophylle OLCI Sentinel 3A entièrement traitées en temps quasi réel (la
-      veille) pour la côte de la Colombie-Britannique et du sud-est de l'Alaska et
-      les eaux extracôtières.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: Geospatial Computing Collaborations
-    fr: Collaborations en matière d'informatique géospatiale
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://doi.org/10.1109/PACRIM47961.2019.8985053
-- description:
-    en: Overview of the Sentinel-3 mission
-    fr: Présentation de la mission Sentinel-3
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: 'The Sentinel-3 Mission: Overview and status'
-    fr: 'La mission Sentinel-3 : vue d''ensemble et statut'
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://doi.org/10.1109/IGARSS.2012.6351194
 identification:
   abstract:
     en: 'This is an ongoing dataset of fully processed 8-day average Sentinel 3A and
@@ -307,10 +250,76 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsSourceOf
+    association_type_iso: dependency
+    authority: URL
+    code: https://algaeexplorer.ca
+    title:
+      en: Algae Explorer
+      fr: Explorateur d'algues
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.1016/j.rse.2021.112317
+    title:
+      en: Performance of OLCI Sentinel-3A satellite in the Northeast Pacific coastal
+        waters
+      fr: Performances du satellite OLCI Sentinel-3A dans les eaux côtières du Pacifique
+        Nord-Est
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.3389/fmars.2022.968470
+    title:
+      en: Bioregionalization of the coastal and open oceans of British Columbia and
+        Southeast Alaska based on Sentinel-3A satellite-derived phytoplankton seasonality
+      fr: Biorégionalisation des océans côtiers et ouverts de la Colombie-Britannique
+        et du sud-est de l'Alaska sur la base de la saisonnalité du phytoplancton
+        dérivée du satellite Sentinel-3A
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.1109/PACRIM47961.2019.8985053
+    title:
+      en: Geospatial Computing Collaborations
+      fr: Collaborations informatiques géospatiales
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.1109/IGARSS.2012.6351194
+    title:
+      en: 'The Sentinel-3 Mission: Overview and status'
+      fr: 'La mission Sentinel-3 : aperçu et état d''avancement'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2016-04-25'
-  edition: '1'
+    publication: '2026-04-15'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/175j-8k96
   keywords:
     default:
@@ -357,7 +366,7 @@ identification:
 metadata:
   dates:
     publication: '2024-04-05'
-    revision: '2026-02-05T21:20:53.263Z'
+    revision: '2026-04-15T21:21:40.998Z'
   identifier: 91107fce-93a4-4bc9-bce4-e7d9e1cf02a0
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/7U7b8oPpeTN6gjvXlUCTGJr5pga2/-Nueis-TZEnz_78f8PYf
