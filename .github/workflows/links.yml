@@ -22,7 +22,7 @@ jobs:
             # Check all markdown, html and reStructuredText files in repo (default)
             # ignore certificate errors
             args: >-
-              --base . 
+              --root-dir "$(pwd)"
               --verbose 
               --no-progress
               --cache
