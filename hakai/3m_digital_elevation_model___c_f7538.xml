@@ -115,7 +115,7 @@
           <cit:individual>
             <cit:CI_Individual>
               <cit:name>
-                <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
               </cit:name>
               <cit:contactInfo>
                 <cit:CI_Contact>
@@ -138,7 +138,7 @@
                 </cit:CI_Contact>
               </cit:contactInfo>
               <cit:positionName>
-                <gco:CharacterString></gco:CharacterString>
+                <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
               </cit:positionName>
             </cit:CI_Individual>
           </cit:individual>
@@ -206,7 +206,7 @@
           <cit:individual>
             <cit:CI_Individual>
               <cit:name>
-                <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
               </cit:name>
               <cit:contactInfo>
                 <cit:CI_Contact>
@@ -229,7 +229,7 @@
                 </cit:CI_Contact>
               </cit:contactInfo>
               <cit:positionName>
-                <gco:CharacterString></gco:CharacterString>
+                <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
               </cit:positionName>
             </cit:CI_Individual>
           </cit:individual>
@@ -297,7 +297,7 @@
           <cit:individual>
             <cit:CI_Individual>
               <cit:name>
-                <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
               </cit:name>
               <cit:contactInfo>
                 <cit:CI_Contact>
@@ -320,7 +320,7 @@
                 </cit:CI_Contact>
               </cit:contactInfo>
               <cit:positionName>
-                <gco:CharacterString></gco:CharacterString>
+                <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
               </cit:positionName>
             </cit:CI_Individual>
           </cit:individual>
@@ -331,7 +331,7 @@
   <mdb:contact>
     <cit:CI_Responsibility>
       <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="processor"/>
       </cit:role>
       <cit:party>
         <cit:CI_Organisation>
@@ -388,7 +388,7 @@
           <cit:individual>
             <cit:CI_Individual>
               <cit:name>
-                <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
               </cit:name>
               <cit:contactInfo>
                 <cit:CI_Contact>
@@ -411,7 +411,98 @@
                 </cit:CI_Contact>
               </cit:contactInfo>
               <cit:positionName>
-                <gco:CharacterString></gco:CharacterString>
+                <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString>1002 Wharf Street - Suite 100, V8W 1T4</gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                  <cit:electronicMailAddress>
+                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                  </cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:deliveryPoint>
+                      <cit:city>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:city>
+                      <cit:country>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:country>
+                      <cit:electronicMailAddress>
+                        <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                      </cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:positionName>
+                <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
               </cit:positionName>
             </cit:CI_Individual>
           </cit:individual>
@@ -479,7 +570,7 @@
           <cit:individual>
             <cit:CI_Individual>
               <cit:name>
-                <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
               </cit:name>
               <cit:contactInfo>
                 <cit:CI_Contact>
@@ -502,7 +593,7 @@
                 </cit:CI_Contact>
               </cit:contactInfo>
               <cit:positionName>
-                <gco:CharacterString></gco:CharacterString>
+                <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
               </cit:positionName>
             </cit:CI_Individual>
           </cit:individual>
@@ -513,7 +604,7 @@
   <mdb:contact>
     <cit:CI_Responsibility>
       <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
       </cit:role>
       <cit:party>
         <cit:CI_Organisation>
@@ -540,70 +631,6 @@
                   <cit:country>
                     <gco:CharacterString>Canada</gco:CharacterString>
                   </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
-                </cit:CI_Address>
-              </cit:address>
-              <cit:onlineResource>
-                <cit:CI_OnlineResource>
-                  <cit:linkage>
-                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                  </cit:linkage>
-                  <cit:protocol>
-                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                  </cit:protocol>
-                  <cit:function>
-                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                  </cit:function>
-                </cit:CI_OnlineResource>
-              </cit:onlineResource>
-            </cit:CI_Contact>
-          </cit:contactInfo>
-          <cit:partyIdentifier>
-            <mcc:MD_Identifier>
-              <mcc:code>
-                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-              </mcc:code>
-            </mcc:MD_Identifier>
-          </cit:partyIdentifier>
-        </cit:CI_Organisation>
-      </cit:party>
-    </cit:CI_Responsibility>
-  </mdb:contact>
-  <mdb:contact>
-    <cit:CI_Responsibility>
-      <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
-      </cit:role>
-      <cit:party>
-        <cit:CI_Organisation>
-          <cit:name>
-            <gco:CharacterString>Hakai Institute</gco:CharacterString>
-          </cit:name>
-          <cit:contactInfo>
-            <cit:CI_Contact>
-              <cit:phone>
-                <cit:CI_Telephone>
-                  <cit:number>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:number>
-                </cit:CI_Telephone>
-              </cit:phone>
-              <cit:address>
-                <cit:CI_Address>
-                  <cit:deliveryPoint>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:deliveryPoint>
-                  <cit:city>
-                    <gco:CharacterString>Campbell River</gco:CharacterString>
-                  </cit:city>
-                  <cit:country>
-                    <gco:CharacterString>Canada</gco:CharacterString>
-                  </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
                 </cit:CI_Address>
               </cit:address>
               <cit:onlineResource>
@@ -640,7 +667,7 @@
       <cit:party>
         <cit:CI_Organisation>
           <cit:name>
-            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+            <gco:CharacterString>Tula Foundation</gco:CharacterString>
           </cit:name>
           <cit:contactInfo>
             <cit:CI_Contact>
@@ -657,20 +684,17 @@
                     <gco:CharacterString></gco:CharacterString>
                   </cit:deliveryPoint>
                   <cit:city>
-                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                    <gco:CharacterString>Vancouver</gco:CharacterString>
                   </cit:city>
                   <cit:country>
                     <gco:CharacterString>Canada</gco:CharacterString>
                   </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
                 </cit:CI_Address>
               </cit:address>
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                    <gco:CharacterString>https://tula.org</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -685,7 +709,7 @@
           <cit:partyIdentifier>
             <mcc:MD_Identifier>
               <mcc:code>
-                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                <gco:CharacterString>https://ror.org/0029jxk29</gco:CharacterString>
               </mcc:code>
             </mcc:MD_Identifier>
           </cit:partyIdentifier>
@@ -696,7 +720,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-24T07:17:35.273Z</gco:DateTime>
+        <gco:DateTime>2026-04-16T16:21:53.036Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -706,7 +730,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:Date>2022-03-29</gco:Date>
+        <gco:Date>2026-04-16</gco:Date>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
@@ -763,7 +787,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -776,7 +800,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -801,6 +825,16 @@
           <cit:date>
             <cit:CI_Date>
               <cit:date>
+                <gco:Date>2012-08-06</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
                 <gco:Date>2015-06-19</gco:Date>
               </cit:date>
               <cit:dateType>
@@ -818,6 +852,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -885,7 +922,7 @@
                   <cit:individual>
                     <cit:CI_Individual>
                       <cit:name>
-                        <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                        <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
                         <cit:CI_Contact>
@@ -908,7 +945,7 @@
                         </cit:CI_Contact>
                       </cit:contactInfo>
                       <cit:positionName>
-                        <gco:CharacterString></gco:CharacterString>
+                        <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
                       </cit:positionName>
                     </cit:CI_Individual>
                   </cit:individual>
@@ -976,7 +1013,7 @@
                   <cit:individual>
                     <cit:CI_Individual>
                       <cit:name>
-                        <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                        <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
                         <cit:CI_Contact>
@@ -999,7 +1036,7 @@
                         </cit:CI_Contact>
                       </cit:contactInfo>
                       <cit:positionName>
-                        <gco:CharacterString></gco:CharacterString>
+                        <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
                       </cit:positionName>
                     </cit:CI_Individual>
                   </cit:individual>
@@ -1067,7 +1104,7 @@
                   <cit:individual>
                     <cit:CI_Individual>
                       <cit:name>
-                        <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                        <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
                         <cit:CI_Contact>
@@ -1090,7 +1127,7 @@
                         </cit:CI_Contact>
                       </cit:contactInfo>
                       <cit:positionName>
-                        <gco:CharacterString></gco:CharacterString>
+                        <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
                       </cit:positionName>
                     </cit:CI_Individual>
                   </cit:individual>
@@ -1101,7 +1138,7 @@
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="processor"/>
               </cit:role>
               <cit:party>
                 <cit:CI_Organisation>
@@ -1158,7 +1195,7 @@
                   <cit:individual>
                     <cit:CI_Individual>
                       <cit:name>
-                        <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                        <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
                         <cit:CI_Contact>
@@ -1181,7 +1218,98 @@
                         </cit:CI_Contact>
                       </cit:contactInfo>
                       <cit:positionName>
-                        <gco:CharacterString></gco:CharacterString>
+                        <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString>1002 Wharf Street - Suite 100, V8W 1T4</gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
                       </cit:positionName>
                     </cit:CI_Individual>
                   </cit:individual>
@@ -1249,7 +1377,7 @@
                   <cit:individual>
                     <cit:CI_Individual>
                       <cit:name>
-                        <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                        <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
                         <cit:CI_Contact>
@@ -1272,7 +1400,7 @@
                         </cit:CI_Contact>
                       </cit:contactInfo>
                       <cit:positionName>
-                        <gco:CharacterString></gco:CharacterString>
+                        <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
                       </cit:positionName>
                     </cit:CI_Individual>
                   </cit:individual>
@@ -1310,6 +1438,9 @@
                           <cit:country>
                             <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
@@ -1340,8 +1471,32 @@
                         <gco:CharacterString>Gonzalez Arriola, Santiago</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
-                        <cit:CI_Contact></cit:CI_Contact>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>santiago@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
                       </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0001-8869-5481</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
                       <cit:positionName>
                         <gco:CharacterString></gco:CharacterString>
                       </cit:positionName>
@@ -1381,6 +1536,9 @@
                           <cit:country>
                             <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
@@ -1411,8 +1569,32 @@
                         <gco:CharacterString>Gonzalez Arriola, Santiago</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
-                        <cit:CI_Contact></cit:CI_Contact>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>santiago@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
                       </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0001-8869-5481</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
                       <cit:positionName>
                         <gco:CharacterString></gco:CharacterString>
                       </cit:positionName>
@@ -1452,6 +1634,9 @@
                           <cit:country>
                             <gco:CharacterString>Canada</gco:CharacterString>
                           </cit:country>
+                          <cit:electronicMailAddress>
+                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                          </cit:electronicMailAddress>
                         </cit:CI_Address>
                       </cit:address>
                       <cit:onlineResource>
@@ -1482,8 +1667,32 @@
                         <gco:CharacterString>Gonzalez Arriola, Santiago</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
-                        <cit:CI_Contact></cit:CI_Contact>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>santiago@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
                       </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0001-8869-5481</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
                       <cit:positionName>
                         <gco:CharacterString></gco:CharacterString>
                       </cit:positionName>
@@ -1516,67 +1725,6 @@
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
               </cit:role>
               <cit:party>
@@ -1596,68 +1744,7 @@
                       <cit:address>
                         <cit:CI_Address>
                           <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="funder"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
+                            <gco:CharacterString>1100 Island Hwy</gco:CharacterString>
                           </cit:deliveryPoint>
                           <cit:city>
                             <gco:CharacterString>Campbell River</gco:CharacterString>
@@ -1714,9 +1801,9 @@ The following Topographically Complete DEMs have been produced natively from the
 
 Master Terrain Dataset Creation:
 
-LiDAR point clouds from missions flown on 2012 and 2014 over Calvert Island where loaded (XYZ only) into a point feature class in an ESRI Geodatabase.
+LiDAR point clouds from missions flown on 2012 and 2014 over Calvert Island were loaded (XYZ only) into a point feature class in an ESRI Geodatabase.
 
-Only ground (Class 2) returns where loaded onto the geodatabase.
+Only ground (Class 2) returns were loaded onto the geodatabase.
 
 ESRI “terrain dataset” was created within the same geodatabase using the LiDAR points as embedded masspoints.
 
@@ -1729,34 +1816,34 @@ The horizontal coordinate system and datum employed for the terrain dataset is: 
 The minimum point spacing defined during terrain dataset building was set to 1.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Ce modèle numérique d&#39;altitude (MNT) a été créé à partir du jeu de données de terrain principal (MTD) de Hakai au moyen de l&#39;outil « MNT to raster » dans ArcGIS for Desktop d&#39;ESRI à l&#39;aide d&#39;une méthode d&#39;échantillonnage Natural Neighbour. Le DEM a été créé en mode natif à une résolution de 3 m. Ce DEM a été fixé à une zone tampon à 10 m du rivage. Une combinaison de différentes altitudes autour de l&#39;île a été utilisée pour créer le rivage. 
+            <lan:LocalisedCharacterString locale="#fr">Ce modèle numérique d&#39;élévation (DEM) a été créé à partir du jeu de données de terrain principal (MTD) de Hakai au moyen de l&#39;outil « Terrain to raster » d&#39;ArcGIS for Desktop d&#39;ESRI en utilisant une méthode d&#39;échantillonnage Natural Neighbour. Le DEM a été créé nativement à une résolution de 3 m. Ce DEM a été accroché à une zone tampon de 10 m du rivage. Une combinaison de différentes altitudes autour de l&#39;île a été utilisée pour créer le rivage. 
 
-Le MNT qui en résulte est un modèle d&#39;élévation hydroaplati en terre nue et donc considéré comme « topographiquement complet ». Chaque pixel représente l&#39;altitude en mètres au-dessus du niveau moyen de la mer de la terre nue à cet endroit. Le système de référence vertical est le « Système de référence géodésique vertical canadien 1928 » (CGVD28). 
+Le DEM qui en résulte est un modèle d&#39;élévation hydroaplati en terre nue et donc considéré comme « topographiquement complet ». Chaque pixel représente l&#39;altitude en mètres au-dessus du niveau moyen de la mer de la terre nue à cet endroit. Le système de référence vertical est le « Système de référence géodésique vertical canadien 1928 » (CGVD28). 
 
-Hakai a produit des DEM à différentes résolutions de manière native directement à partir du MTD des données LiDAR. Pour vos recherches, veuillez utiliser le produit de résolution approprié parmi ceux produits par Hakai. Afin de maintenir l&#39;homogénéité, il n&#39;est pas recommandé de procéder à un suréchantillonnage ou à une mise à l&#39;échelle supérieure à partir de produits de résolution supérieure car cela pourrait introduire et propager des erreurs de différentes grandeurs dans les analyses en cours ; veuillez utiliser des produits déjà disponibles, et si vous avez besoin d&#39;une résolution non disponible, contactez data@hakai.org afin d&#39;obtenir un DEM produit directement à partir du MTD. 
+Hakai a produit des DEM à différentes résolutions de manière native directement à partir des données LiDAR MTD. Veuillez utiliser le produit de résolution approprié parmi ceux produits par Hakai à des fins de recherche. Afin de maintenir l&#39;homogénéité, le suréchantillonnage ou la mise à l&#39;échelle à partir de produits à haute résolution n&#39;est pas recommandé car cela peut introduire et propager des erreurs de différentes amplitudes dans les analyses en cours ; veuillez utiliser des produits déjà disponibles, et si vous avez besoin d&#39;une résolution non disponible, contactez data@hakai.org afin d&#39;obtenir un DEM produit directement à partir du MTD. 
 
-Les DEM topographiquement complets suivants ont été produits en mode natif à partir du DTM par Hakai :
+Les DEM topographiquement complets suivants ont été produits nativement à partir du DTM par Hakai :
 
-MNE topographiquement complète de 3 m. Ce produit a été utilisé pour produire les ensembles de données hydrologiques de Hakai (cours d&#39;eau et bassins versants)
-DEM Topographiquement complet de 20 m. Compatible avec les mesures du couvert végétal de Hakai et les rasters associés.
-MNT topographiquement complet de 25 m. Compatible avec les produits de données TRIM BCGov.
-DEM Topographiquement complet de 30 m. Compatible avec les produits STRM.
+DEM topographiquement complet de 3 m. Ce produit a été utilisé pour produire les ensembles de données hydrologiques de Hakai (cours d&#39;eau et bassins versants)
+DEM topographiquement complet de 20 m. Compatible avec les métriques de la canopée végétale de Hakai et les rasters associés.
+DEM topographiquement complet de 25 m. Compatible avec les produits de données TRIM de BCGov.
+DEM topographiquement complet de 30 m. Compatible avec les produits STRM.
 
-Création du jeu de données de terrain principal
+Création du jeu de données Master Terrain :
 
-Nuages de points LiDAR issus de missions effectuées en 2012 et 2014 au-dessus de l&#39;île Calvert où ils ont été chargés (XYZ uniquement) dans une classe d&#39;entités ponctuelles d&#39;une géodatabase ESRI.
+Les nuages de points LiDAR issus de missions effectuées en 2012 et 2014 au-dessus de l&#39;île Calvert ont été chargés (XYZ uniquement) dans une classe d&#39;entités ponctuelles d&#39;une géodatabase ESRI.
 
-Seul le sol (classe 2) renvoie l&#39;endroit où il est chargé dans la géodatabase.
+Seuls les retours terrestres (classe 2) ont été chargés dans la géodatabase.
 
-Le « jeu de données de MNT » ESRI a été créé dans la même géodatabase à l&#39;aide des points LiDAR en tant que points de masse intégrés.
+Le « jeu de données de terrain » ESRI a été créé dans la même géodatabase en utilisant les points LiDAR comme points de masse intégrés.
 
-Les lacs et les étangs TEM Plus avec des valeurs d&#39;altitude moyennes au-dessus des miroirs des plans d&#39;eau ont été utilisés comme lignes de rupture de remplacement dur pour obtenir un hydroaplatissement.
+Les lacs et étangs TEM Plus présentant des valeurs d&#39;altitude moyennes au-dessus des miroirs des plans d&#39;eau ont été utilisés pour remplacer les lignes de fracture afin de réaliser un aplatissement hydraulique.
 
-La géométrie d&#39;emprise minimale de toutes les étendues de fichiers LAS contigus a été utilisée comme masque de découpe souple lors de la création du jeu de données de MNT en tant que limite de projet.
+La géométrie de délimitation minimale des étendues de tous les fichiers LAS contigus a été utilisée comme masque souple lors de la création du jeu de données de terrain en tant que limite du projet.
 
-Le système de coordonnées horizontales et le datum utilisés pour le jeu de données de MNT sont : UTM Zone 9 NAD1983 ; le système de référence vertical a été défini sur CGVD28. Les deux systèmes de référence correspondent au système de référence natif des nuages de points LiDAR.
+Le système de coordonnées horizontales et le datum utilisés pour le jeu de données de terrain sont les suivants : UTM Zone 9 NAD1983 ; le système de référence vertical a été défini sur CGVD28. Les deux systèmes de référence correspondent au système de référence natif des nuages de points LiDAR.
 
-L&#39;espacement minimal des points défini pendant la création du jeu de données de MNT a été défini sur 1.</lan:LocalisedCharacterString>
+L&#39;espacement minimal des points défini lors de la création du jeu de données de terrain a été défini sur 1.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -1789,6 +1876,33 @@ L&#39;espacement minimal des points défini pendant la création du jeu de donn�
                 <gco:Decimal>51.734994</gco:Decimal>
               </gex:northBoundLatitude>
             </gex:EX_GeographicBoundingBox>
+          </gex:geographicElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_GeographicDescription>
+              <gex:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gex:extentTypeCode>
+              <gex:geographicIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString></gco:CharacterString>
+                  </mcc:code>
+                  <mcc:codeSpace>
+                    <gco:CharacterString>ca.cioos</gco:CharacterString>
+                  </mcc:codeSpace>
+                  <mcc:version>
+                    <gco:CharacterString>1</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>{&#39;en&#39;: &#39;Calvert and Hecate Island, Central Coast of British Columbia, Canada&#39;, &#39;fr&#39;: &#39;Île de Calvert et Hécate, côte centrale de la Colombie-Britannique, Canada&#39;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </gex:geographicIdentifier>
+            </gex:EX_GeographicDescription>
           </gex:geographicElement>
         </gex:EX_Extent>
       </mri:extent>
@@ -1836,8 +1950,8 @@ L&#39;espacement minimal des points défini pendant la création du jeu de donn�
             <gex:EX_TemporalExtent>
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
-                  <gml:beginPosition indeterminatePosition="unknown" />
-                  <gml:endPosition indeterminatePosition="unknown" />
+                  <gml:beginPosition>2012-08-06T19:00:00.000Z</gml:beginPosition>
+                  <gml:endPosition>2012-08-18T19:00:00.000Z</gml:endPosition>
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
@@ -1900,6 +2014,9 @@ L&#39;espacement minimal des points défini pendant la création du jeu de donn�
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>watersheds</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>LiDAR</gco:CharacterString>
           </mri:keyword>
           <mri:thesaurusName>
             <cit:CI_Citation>
@@ -1987,6 +2104,39 @@ L&#39;espacement minimal des points défini pendant la création du jeu de donn�
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Data collection report from Terra Remote Sensing</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Rapport de collecte de données de Terra Remote Sensing</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>URL</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://drive.google.com/file/d/0B5tZaev73xELM0UwRFpIYWFHc2c/view?usp=sharing&amp;resourcekey=0-DljJKE7O59n5IdA9xVMOBA</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -2056,7 +2206,7 @@ L&#39;espacement minimal des points défini pendant la création du jeu de donn�
                   <cit:individual>
                     <cit:CI_Individual>
                       <cit:name>
-                        <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                        <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
                       </cit:name>
                       <cit:contactInfo>
                         <cit:CI_Contact>
@@ -2079,7 +2229,7 @@ L&#39;espacement minimal des points défini pendant la création du jeu de donn�
                         </cit:CI_Contact>
                       </cit:contactInfo>
                       <cit:positionName>
-                        <gco:CharacterString></gco:CharacterString>
+                        <gco:CharacterString>Geospatial science team at the Hakai Institute</gco:CharacterString>
                       </cit:positionName>
                     </cit:CI_Individual>
                   </cit:individual>
@@ -2094,19 +2244,24 @@ L&#39;espacement minimal des points défini pendant la création du jeu de donn�
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://drive.google.com/open?id=0B-Q2IQtbEgU4Q3BfTlZ1MnR5VlU</gco:CharacterString>
+                <gco:CharacterString>https://drive.google.com/file/d/0B-Q2IQtbEgU4Q3BfTlZ1MnR5VlU/view?usp=sharing&amp;resourcekey=0-me6-537AcF9zr20rKsVfpA</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Data package</gco:CharacterString>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Hakai&#39;s repository for downloading raw data files. Restricted access.</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Référentiel Hakai pour télécharger des fichiers de données brutes. Accès restreint.</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Package de données</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:name>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Hakai&#39;s repository for downloading raw data files.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Le référentiel de Hakai pour le téléchargement de fichiers de données brutes.</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
@@ -2124,8 +2279,13 @@ L&#39;espacement minimal des points défini pendant la création du jeu de donn�
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Online map</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Carte en ligne</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Hakai&#39;s AGOL Instance is the platform for Access and online use of this dataset</gco:CharacterString>
@@ -2148,4 +2308,83 @@ L&#39;espacement minimal des points défini pendant la création du jeu de donn�
       </mmi:maintenanceAndUpdateFrequency>
     </mmi:MD_MaintenanceInformation>
   </mdb:metadataMaintenance>
+  <mdb:acquisitionInformation>
+    <mac:MI_AcquisitionInformation>
+      <mac:scope>
+        <mcc:MD_Scope>
+          <mcc:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </mcc:level>
+        </mcc:MD_Scope>
+      </mac:scope>
+      <mac:platform>
+        <mac:MI_Platform>
+          <mac:identifier>
+            <mcc:MD_Identifier>
+              <mcc:authority>
+                <cit:CI_Citation>
+                  <cit:title>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:title>
+                </cit:CI_Citation>
+              </mcc:authority>
+              <mcc:code>
+                <gco:CharacterString>LiDAR Plane</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </mac:identifier>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
+            <gco:CharacterString>Terra Remote Sensing LiDAR Plane</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Plan LiDAR de télédétection Terra</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mac:description>
+          <mac:instrument>
+            <mac:MI_Instrument>
+              <mac:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>Riegl</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>Riegl - laser scanner</gco:CharacterString>
+                  </mcc:code>
+                  <mcc:version>
+                    <gco:CharacterString>LMS-Q</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
+                    <gco:CharacterString>laser scanner used to measure the earth’s surface topography and vegetation</gco:CharacterString>
+                    <lan:PT_FreeText>
+                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                        <lan:LocalisedCharacterString locale="#fr">scanner laser utilisé pour mesurer la topographie et la végétation de la surface de la Terre</lan:LocalisedCharacterString>
+                      </lan:textGroup>
+                    </lan:PT_FreeText>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </mac:identifier>
+              <mac:type xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>long-range airborne laser scanner</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">scanner laser aéroporté longue portée</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </mac:type>
+            </mac:MI_Instrument>
+          </mac:instrument>
+          <mac:otherProperty xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/" xlink:title="SeaVoX Platform Categories">
+            <gco:Record>
+              <gco:CharacterString>research aeroplane</gco:CharacterString>
+            </gco:Record>
+          </mac:otherProperty>
+        </mac:MI_Platform>
+      </mac:platform>
+    </mac:MI_AcquisitionInformation>
+  </mdb:acquisitionInformation>
 </mdb:MD_Metadata>

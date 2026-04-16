@@ -21,8 +21,8 @@ abstract: "This Digital Elevation Model (DEM) has been created from Hakai's Mast
   \ and associated rasters.\n25m Topographically Complete DEM. Compatible with BCGov\
   \ TRIM data products.\n30m Topographically Complete DEM. Compatible with STRM products.\n\
   \nMaster Terrain Dataset Creation:\n\nLiDAR point clouds from missions flown on\
-  \ 2012 and 2014 over Calvert Island where loaded (XYZ only) into a point feature\
-  \ class in an ESRI Geodatabase.\n\nOnly ground (Class 2) returns where loaded onto\
+  \ 2012 and 2014 over Calvert Island were loaded (XYZ only) into a point feature\
+  \ class in an ESRI Geodatabase.\n\nOnly ground (Class 2) returns were loaded onto\
   \ the geodatabase.\n\nESRI \u201Cterrain dataset\u201D was created within the same\
   \ geodatabase using the LiDAR points as embedded masspoints.\n\nTEM Plus lakes and\
   \ ponds with average elevation values over the waterbodies\u2019 mirrors were used\
@@ -39,21 +39,32 @@ authors:
   city: Campbell River
   country: CA
   email: data@hakai.org
-  family-names: Hakai Geospatial Technology Team
+  family-names: Hakai Geospatial
   website: https://www.hakai.org/
 - affiliation: Hakai Institute
   city: Campbell River
   country: CA
+  email: santiago@hakai.org
   family-names: Gonzalez Arriola
   given-names: Santiago
+  orcid: https://orcid.org/0000-0001-8869-5481
   website: https://www.hakai.org/
 - family-names: Frazer
   given-names: Gordon W.
-- city: Campbell River
+- address: 1100 Island Hwy
+  city: Campbell River
   country: CA
   email: data@hakai.org
   name: Hakai Institute
   website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  name: Hakai Institute
+  website: https://www.hakai.org/
+- city: Vancouver
+  country: CA
+  name: Tula Foundation
+  website: https://tula.org
 cff-version: 1.2.0
 contact:
 - address: 1002 Wharf Street - Suite 100, V8W 1T4
@@ -61,15 +72,17 @@ contact:
   city: Campbell River
   country: CA
   email: data@hakai.org
-  family-names: Hakai Geospatial Technology Team
+  family-names: Hakai Geospatial
   website: https://www.hakai.org/
 - affiliation: Hakai Institute
   city: Campbell River
   country: CA
+  email: santiago@hakai.org
   family-names: Gonzalez Arriola
   given-names: Santiago
+  orcid: https://orcid.org/0000-0001-8869-5481
   website: https://www.hakai.org/
-date-released: '2024-07-24'
+date-released: '2026-04-16'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -83,10 +96,9 @@ identifiers:
 - description: Metadata Form used to generate this record
   type: url
   value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW13R3BBSGRER2ZkYnM
-- description: 'Data package: Hakai''s repository for downloading raw data files.
-    Restricted access.'
+- description: 'Data package: Hakai''s repository for downloading raw data files.'
   type: url
-  value: https://drive.google.com/open?id=0B-Q2IQtbEgU4Q3BfTlZ1MnR5VlU
+  value: https://drive.google.com/file/d/0B-Q2IQtbEgU4Q3BfTlZ1MnR5VlU/view?usp=sharing&resourcekey=0-me6-537AcF9zr20rKsVfpA
 - description: 'Online map: Hakai''s AGOL Instance is the platform for Access and
     online use of this dataset'
   type: url
@@ -94,6 +106,7 @@ identifiers:
 keywords:
 - Calvert Island
 - Downloadable Data
+- LiDAR
 - Topography
 - elevation
 - other
@@ -102,5 +115,6 @@ license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0
 message: If you use this software, please cite it as below
 title: 3m Digital Elevation Model - Calvert Island - British Columbia - Canada
-type: dataset
+type: Dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_f7538807-4d49-4ed8-ad36-836c0e71428a
+version: '1.0'

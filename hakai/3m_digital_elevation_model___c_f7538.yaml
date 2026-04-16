@@ -2,7 +2,8 @@ contact:
 - inCitation: true
   individual:
     email: data@hakai.org
-    name: Hakai Geospatial Technology Team
+    name: Hakai Geospatial
+    position: Geospatial science team at the Hakai Institute
   organization:
     address: 1002 Wharf Street - Suite 100, V8W 1T4
     city: Campbell River
@@ -15,14 +16,18 @@ contact:
   - pointOfContact
   - pointOfContact
   - custodian
-  - owner
+  - processor
+  - principalInvestigator
   - distributor
 - inCitation: true
   individual:
+    email: santiago@hakai.org
     name: Gonzalez Arriola, Santiago
+    orcid: https://orcid.org/0000-0001-8869-5481
   organization:
     city: Campbell River
     country: Canada
+    email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
@@ -37,6 +42,7 @@ contact:
   - author
 - inCitation: true
   organization:
+    address: 1100 Island Hwy
     city: Campbell River
     country: Canada
     email: data@hakai.org
@@ -44,13 +50,29 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - custodian
   - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
   - funder
 distribution:
 - description:
-    en: Hakai's repository for downloading raw data files. Restricted access.
-    fr: Référentiel Hakai pour télécharger des fichiers de données brutes. Accès restreint.
+    en: Hakai's repository for downloading raw data files.
+    fr: Le référentiel de Hakai pour le téléchargement de fichiers de données brutes.
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -58,7 +80,13 @@ distribution:
         verified: false
   name:
     en: Data package
-  url: https://drive.google.com/open?id=0B-Q2IQtbEgU4Q3BfTlZ1MnR5VlU
+    fr: Package de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://drive.google.com/file/d/0B-Q2IQtbEgU4Q3BfTlZ1MnR5VlU/view?usp=sharing&resourcekey=0-me6-537AcF9zr20rKsVfpA
 - description:
     en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
     fr: L'instance AGOL de Hakai est la plate-forme pour l'accès et l'utilisation
@@ -70,6 +98,12 @@ distribution:
         verified: false
   name:
     en: Online map
+    fr: Carte en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: http://hakai.maps.arcgis.com/home/item.html?id=9d546a23cf1b4e9ba65536cbf2b767a8
 identification:
   abstract:
@@ -97,12 +131,12 @@ identification:
       \ rasters.\n25m Topographically Complete DEM. Compatible with BCGov TRIM data\
       \ products.\n30m Topographically Complete DEM. Compatible with STRM products.\n\
       \nMaster Terrain Dataset Creation:\n\nLiDAR point clouds from missions flown\
-      \ on 2012 and 2014 over Calvert Island where loaded (XYZ only) into a point\
-      \ feature class in an ESRI Geodatabase.\n\nOnly ground (Class 2) returns where\
-      \ loaded onto the geodatabase.\n\nESRI “terrain dataset” was created within\
-      \ the same geodatabase using the LiDAR points as embedded masspoints.\n\nTEM\
-      \ Plus lakes and ponds with average elevation values over the waterbodies’ mirrors\
-      \ were used as hard replace breaklines to achieve hydro-flattening.\n\nThe minimum\
+      \ on 2012 and 2014 over Calvert Island were loaded (XYZ only) into a point feature\
+      \ class in an ESRI Geodatabase.\n\nOnly ground (Class 2) returns were loaded\
+      \ onto the geodatabase.\n\nESRI “terrain dataset” was created within the same\
+      \ geodatabase using the LiDAR points as embedded masspoints.\n\nTEM Plus lakes\
+      \ and ponds with average elevation values over the waterbodies’ mirrors were\
+      \ used as hard replace breaklines to achieve hydro-flattening.\n\nThe minimum\
       \ bounding geometry of all contiguous LAS files’ extents was used as a soft\
       \ clip mask in the creation of the terrain dataset as project boundary.\n\n\
       The horizontal coordinate system and datum employed for the terrain dataset\
@@ -110,59 +144,72 @@ identification:
       \ reference systems correspond to the native reference system of the LiDAR point\
       \ clouds.\n\nThe minimum point spacing defined during terrain dataset building\
       \ was set to 1."
-    fr: "Ce modèle numérique d'altitude (MNT) a été créé à partir du jeu de données\
-      \ de terrain principal (MTD) de Hakai au moyen de l'outil « MNT to raster »\
-      \ dans ArcGIS for Desktop d'ESRI à l'aide d'une méthode d'échantillonnage Natural\
-      \ Neighbour. Le DEM a été créé en mode natif à une résolution de 3 m. Ce DEM\
-      \ a été fixé à une zone tampon à 10 m du rivage. Une combinaison de différentes\
-      \ altitudes autour de l'île a été utilisée pour créer le rivage. \n\nLe MNT\
+    fr: "Ce modèle numérique d'élévation (DEM) a été créé à partir du jeu de données\
+      \ de terrain principal (MTD) de Hakai au moyen de l'outil « Terrain to raster »\
+      \ d'ArcGIS for Desktop d'ESRI en utilisant une méthode d'échantillonnage Natural\
+      \ Neighbour. Le DEM a été créé nativement à une résolution de 3 m. Ce DEM a\
+      \ été accroché à une zone tampon de 10 m du rivage. Une combinaison de différentes\
+      \ altitudes autour de l'île a été utilisée pour créer le rivage. \n\nLe DEM\
       \ qui en résulte est un modèle d'élévation hydroaplati en terre nue et donc\
       \ considéré comme « topographiquement complet ». Chaque pixel représente l'altitude\
       \ en mètres au-dessus du niveau moyen de la mer de la terre nue à cet endroit.\
       \ Le système de référence vertical est le « Système de référence géodésique\
       \ vertical canadien 1928 » (CGVD28). \n\nHakai a produit des DEM à différentes\
-      \ résolutions de manière native directement à partir du MTD des données LiDAR.\
-      \ Pour vos recherches, veuillez utiliser le produit de résolution approprié\
-      \ parmi ceux produits par Hakai. Afin de maintenir l'homogénéité, il n'est pas\
-      \ recommandé de procéder à un suréchantillonnage ou à une mise à l'échelle supérieure\
-      \ à partir de produits de résolution supérieure car cela pourrait introduire\
-      \ et propager des erreurs de différentes grandeurs dans les analyses en cours ;\
-      \ veuillez utiliser des produits déjà disponibles, et si vous avez besoin d'une\
-      \ résolution non disponible, contactez data@hakai.org afin d'obtenir un DEM\
-      \ produit directement à partir du MTD. \n\nLes DEM topographiquement complets\
-      \ suivants ont été produits en mode natif à partir du DTM par Hakai :\n\nMNE\
-      \ topographiquement complète de 3 m. Ce produit a été utilisé pour produire\
+      \ résolutions de manière native directement à partir des données LiDAR MTD.\
+      \ Veuillez utiliser le produit de résolution approprié parmi ceux produits par\
+      \ Hakai à des fins de recherche. Afin de maintenir l'homogénéité, le suréchantillonnage\
+      \ ou la mise à l'échelle à partir de produits à haute résolution n'est pas recommandé\
+      \ car cela peut introduire et propager des erreurs de différentes amplitudes\
+      \ dans les analyses en cours ; veuillez utiliser des produits déjà disponibles,\
+      \ et si vous avez besoin d'une résolution non disponible, contactez data@hakai.org\
+      \ afin d'obtenir un DEM produit directement à partir du MTD. \n\nLes DEM topographiquement\
+      \ complets suivants ont été produits nativement à partir du DTM par Hakai :\n\
+      \nDEM topographiquement complet de 3 m. Ce produit a été utilisé pour produire\
       \ les ensembles de données hydrologiques de Hakai (cours d'eau et bassins versants)\n\
-      DEM Topographiquement complet de 20 m. Compatible avec les mesures du couvert\
-      \ végétal de Hakai et les rasters associés.\nMNT topographiquement complet de\
-      \ 25 m. Compatible avec les produits de données TRIM BCGov.\nDEM Topographiquement\
+      DEM topographiquement complet de 20 m. Compatible avec les métriques de la canopée\
+      \ végétale de Hakai et les rasters associés.\nDEM topographiquement complet\
+      \ de 25 m. Compatible avec les produits de données TRIM de BCGov.\nDEM topographiquement\
       \ complet de 30 m. Compatible avec les produits STRM.\n\nCréation du jeu de\
-      \ données de terrain principal\n\nNuages de points LiDAR issus de missions effectuées\
-      \ en 2012 et 2014 au-dessus de l'île Calvert où ils ont été chargés (XYZ uniquement)\
-      \ dans une classe d'entités ponctuelles d'une géodatabase ESRI.\n\nSeul le sol\
-      \ (classe 2) renvoie l'endroit où il est chargé dans la géodatabase.\n\nLe « jeu\
-      \ de données de MNT » ESRI a été créé dans la même géodatabase à l'aide des\
-      \ points LiDAR en tant que points de masse intégrés.\n\nLes lacs et les étangs\
-      \ TEM Plus avec des valeurs d'altitude moyennes au-dessus des miroirs des plans\
-      \ d'eau ont été utilisés comme lignes de rupture de remplacement dur pour obtenir\
-      \ un hydroaplatissement.\n\nLa géométrie d'emprise minimale de toutes les étendues\
-      \ de fichiers LAS contigus a été utilisée comme masque de découpe souple lors\
-      \ de la création du jeu de données de MNT en tant que limite de projet.\n\n\
-      Le système de coordonnées horizontales et le datum utilisés pour le jeu de données\
-      \ de MNT sont : UTM Zone 9 NAD1983 ; le système de référence vertical a été\
-      \ défini sur CGVD28. Les deux systèmes de référence correspondent au système\
-      \ de référence natif des nuages de points LiDAR.\n\nL'espacement minimal des\
-      \ points défini pendant la création du jeu de données de MNT a été défini sur\
-      \ 1."
+      \ données Master Terrain :\n\nLes nuages de points LiDAR issus de missions effectuées\
+      \ en 2012 et 2014 au-dessus de l'île Calvert ont été chargés (XYZ uniquement)\
+      \ dans une classe d'entités ponctuelles d'une géodatabase ESRI.\n\nSeuls les\
+      \ retours terrestres (classe 2) ont été chargés dans la géodatabase.\n\nLe « jeu\
+      \ de données de terrain » ESRI a été créé dans la même géodatabase en utilisant\
+      \ les points LiDAR comme points de masse intégrés.\n\nLes lacs et étangs TEM\
+      \ Plus présentant des valeurs d'altitude moyennes au-dessus des miroirs des\
+      \ plans d'eau ont été utilisés pour remplacer les lignes de fracture afin de\
+      \ réaliser un aplatissement hydraulique.\n\nLa géométrie de délimitation minimale\
+      \ des étendues de tous les fichiers LAS contigus a été utilisée comme masque\
+      \ souple lors de la création du jeu de données de terrain en tant que limite\
+      \ du projet.\n\nLe système de coordonnées horizontales et le datum utilisés\
+      \ pour le jeu de données de terrain sont les suivants : UTM Zone 9 NAD1983 ;\
+      \ le système de référence vertical a été défini sur CGVD28. Les deux systèmes\
+      \ de référence correspondent au système de référence natif des nuages de points\
+      \ LiDAR.\n\nL'espacement minimal des points défini lors de la création du jeu\
+      \ de données de terrain a été défini sur 1."
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/0B5tZaev73xELM0UwRFpIYWFHc2c/view?usp=sharing&resourcekey=0-DljJKE7O59n5IdA9xVMOBA
+    title:
+      en: Data collection report from Terra Remote Sensing
+      fr: Rapport de collecte de données de Terra Remote Sensing
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
+    creation: '2012-08-06'
     publication: '2015-06-19'
     revision: '2015-07-20'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/RZVW-4A72
   keywords:
     default:
@@ -173,6 +220,7 @@ identification:
       - Downloadable Data
       - other
       - watersheds
+      - LiDAR
     eov:
       en:
       - other
@@ -183,6 +231,8 @@ identification:
   - Geospatial
   - Airborne Coastal Observatory
   status: published
+  temporal_begin: '2012-08-06T19:00:00.000Z'
+  temporal_end: '2012-08-18T19:00:00.000Z'
   title:
     en: 3m Digital Elevation Model - Calvert Island - British Columbia - Canada
     fr: Modèle numérique d'élévation de 3 m - Calvert Island - Colombie-Britannique
@@ -194,8 +244,8 @@ identification:
         verified: false
 metadata:
   dates:
-    publication: '2022-03-29'
-    revision: '2024-07-24T07:17:35.273Z'
+    publication: '2026-04-16'
+    revision: '2026-04-16T16:21:53.036Z'
   identifier: f7538807-4d49-4ed8-ad36-836c0e71428a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW13R3BBSGRER2ZkYnM
@@ -216,13 +266,52 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Terra Remote Sensing LiDAR Plane
+    fr: Plan LiDAR de télédétection Terra
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: LiDAR Plane
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Riegl - laser scanner
+    manufacturer: Riegl
+    type:
+      en: long-range airborne laser scanner
+      fr: scanner laser aéroporté longue portée
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q
+  type: research aeroplane
 spatial:
   bbox:
   - -128.16482
   - 51.408116
   - -127.868831
   - 51.734994
+  description:
+    en: Calvert and Hecate Island, Central Coast of British Columbia, Canada
+    fr: Île de Calvert et Hécate, côte centrale de la Colombie-Britannique, Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   vertical:
   - 0.0
   - 1013.0
