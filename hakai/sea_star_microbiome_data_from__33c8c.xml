@@ -1750,7 +1750,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-04-24T17:54:42.534Z</gco:DateTime>
+        <gco:DateTime>2026-04-28T16:09:56.485Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -4088,7 +4088,7 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>This data package contains field and genomic data pertaining to the manuscript &#39;Regional, seasonal and wasting disease related patterns in the dermal microbiomes of two intertidal sea star species from a multi-year time series&#39;. 
+        <gco:CharacterString>This data package contains field and genomic data pertaining to the manuscript &#39;Multi-year study of sea star microbiomes reveals regional and host-specific differences and differentially abundant taxa across wasting disease stages&#39;. 
 
 This data package is a component of the Hakai Institute’s Nearshore research and monitoring program, designed to capture change in rocky intertidal habitats. As part of the on-going rocky intertidal surveys on both Calvert and Quadra Islands, dermal swab samples were collected for three years within each region for a more detailed investigation of the microbiomes associated with two sea star species - the ochre star Pisaster ochraceus and the leather star Dermasterias imbricata. Seawater samples were also collected adjacent to the site during each survey to examine background microbial communities. DNA was extracted from swab and seawater samples and the V4 region of the 16S rRNA gene was targeted for microbial community profiling. Data were then analyzed to examine patterns in microbial communities across the different sample types, regions, seasons and stages of wasting disease within P. ochraceus. 
 
@@ -4340,7 +4340,25 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
             <gco:CharacterString>Pisaster ochraceus</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
+            <gco:CharacterString>Valvatida</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Dermasterias imbricata</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
             <gco:CharacterString>Dermasterias</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Echinodermata</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Asteroidea</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Animalia</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Pisaster</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Asteriidae</gco:CharacterString>
@@ -4350,24 +4368,6 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Forcipulatida</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Animalia</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Asteroidea</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Pisaster</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Valvatida</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Dermasterias imbricata</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Echinodermata</gco:CharacterString>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
@@ -4379,7 +4379,49 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Valvatida</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Dermasterias imbricata</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Dermasterias</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Echinodermata</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Asteroidea</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Animalia</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Pisaster</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -4401,48 +4443,6 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Forcipulatida</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Animalia</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Asteroidea</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Pisaster</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Valvatida</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Dermasterias imbricata</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Echinodermata</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
