@@ -163,7 +163,21 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsDerivedFrom
+    association_type_iso: dependency
+    authority: DOI
+    code: https://doi.org/10.21966/90h6-b497
+    title:
+      en: Bulk and Size-Fractionated Chlorophyll and Phaeopigment Concentrations Collected
+        by Niskin Bottle, BC, Canada (Provisional)
+      fr: Concentrations de chlorophylle et de phéopigments en vrac et fractionnées
+        par taille recueillies par Niskin Bottle, Colombie-Britannique, Canada (provisoire)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2017-04-14'
   edition: 1.0.0
@@ -241,7 +255,7 @@ instruments:
 metadata:
   dates:
     publication: '2024-07-12'
-    revision: '2026-03-25T21:41:52.866Z'
+    revision: '2026-05-08T20:29:17.581Z'
   identifier: d55021c3-a142-4e14-8208-36c9826c1893
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/7U7b8oPpeTN6gjvXlUCTGJr5pga2/-MadZvZJ4ZeikpCgRcV8
