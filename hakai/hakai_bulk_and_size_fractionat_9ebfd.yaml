@@ -158,7 +158,21 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsSourceOf
+    association_type_iso: dependency
+    authority: DOI
+    code: https://doi.org/10.21966/q5vm-8797
+    title:
+      en: Bulk and Size-Fractionated Chlorophyll and Phaeopigment Concentrations Collected
+        by Niskin Bottle, BC, Canada (Research)
+      fr: Concentrations de chlorophylle et de phéopigments en vrac et fractionnées
+        par taille recueillies par Niskin Bottle, Colombie-Britannique, Canada (Recherche)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2014-07-10'
     publication: '2022-01-13'
@@ -247,7 +261,7 @@ instruments:
 metadata:
   dates:
     publication: '2024-07-12'
-    revision: '2026-02-20T19:56:32.633Z'
+    revision: '2026-05-08T20:26:35.262Z'
   history:
   - additionalDocumentation:
     - authority: URL
