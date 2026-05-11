@@ -5,13 +5,14 @@ contact:
     name: Johnson, Brett T.
     position: Scientific Data Specialist
   organization:
+    city: Campbell River
+    country: Canada
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - custodian
-  - owner
   - principalInvestigator
-  - distributor
 - inCitation: true
   individual:
     email: b.hunt@oceans.ubc.ca
@@ -22,6 +23,8 @@ contact:
     city: Vancouver
     country: Canada
     name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
   roles:
   - owner
   - principalInvestigator
@@ -34,6 +37,25 @@ contact:
     ror: https://ror.org/02pry0c91
   roles:
   - author
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 distribution:
 - description:
     en: Technical Document
@@ -160,7 +182,7 @@ identification:
 metadata:
   dates:
     publication: '2021-11-19'
-    revision: '2026-05-11T19:31:27.317Z'
+    revision: '2026-05-11T19:32:23.086Z'
   identifier: eb1feb98-b11a-4663-b7ab-2216df8187bd
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-MotsOF-96liGFn57nbC
