@@ -1,17 +1,5 @@
 contact:
 - inCitation: true
-  organization:
-    address: 1002 Wharf Street
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - owner
-  - distributor
-- inCitation: true
   individual:
     name: Barrette, Jessy
     position: Marine Instrumentation/Data Specialist
@@ -55,13 +43,29 @@ contact:
     url: https://www.uvic.ca
   roles:
   - contributor
-- inCitation: false
+- inCitation: true
   organization:
+    city: Campbell River
+    country: Canada
     email: data@hakai.org
     name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
-  - custodian
   - publisher
+- inCitation: false
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+  - custodian
 - inCitation: false
   organization:
     city: Vancouver
@@ -154,7 +158,7 @@ instruments:
 metadata:
   dates:
     publication: '2022-02-01'
-    revision: '2026-05-12T21:33:55.799Z'
+    revision: '2026-05-12T21:34:22.249Z'
   identifier: 87a845e3-e71a-43cc-a75f-ec6a3b812a0e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MsbCMOYj2L_7dgICnzw
