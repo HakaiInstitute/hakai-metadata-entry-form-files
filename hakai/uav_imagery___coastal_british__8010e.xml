@@ -1605,7 +1605,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-23T12:35:01.654Z</gco:DateTime>
+        <gco:DateTime>2026-05-12T21:11:47.108Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1727,6 +1727,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
@@ -3730,7 +3733,7 @@ McMullin Islands NE
 Quadra Island Region:
 Hakai Quadra Campus + Tula House</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Il s&#39;agit d&#39;un ensemble de données d&#39;images UAV collectées et traitées par l&#39;Institut Hakai.
 
 En 2015, les véhicules aériens sans pilote de l&#39;Institut Hakai ont couvert diverses zones le long de la côte de la Colombie-Britannique. Nous répertorions ici les emplacements de nos projets. D&#39;autres métadonnées sur chacun de ces sites sont disponibles sur demande. Le but de cet enregistrement est de mettre en évidence les zones d&#39;imagerie couvertes et de rendre l&#39;imagerie disponible aux chercheurs dans la mesure du possible. Les restrictions relatives à l&#39;imagerie n&#39;existent que dans les domaines de sensibilité culturelle. Les images sont généralement fournies au format TIFF géoréférencé. Des images JPEG brutes sont également disponibles. Dans certains cas, des modèles de surface numériques ont été créés en même temps que ces images. Les résolutions spatiales varient de 1 cm à 12 cm en fonction de l&#39;altitude du vol.
@@ -3959,6 +3962,16 @@ Campus Hakai Quadra + Maison Tula</lan:LocalisedCharacterString>
           </mri:thesaurusName>
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Geospatial</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
           <mco:reference>
@@ -3992,8 +4005,13 @@ Campus Hakai Quadra + Maison Tula</lan:LocalisedCharacterString>
       </mri:resourceConstraints>
       <mri:resourceConstraints>
         <mco:MD_Constraints>
-          <mco:useLimitation>
+          <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Appropriate credit must be given to Hakai Institute and the authors of the dataset.</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Un crédit approprié doit être accordé à l&#39;Institut Hakai et aux auteurs de l&#39;ensemble de données.</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
