@@ -240,7 +240,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-23T12:38:26.749Z</gco:DateTime>
+        <gco:DateTime>2026-05-12T21:18:52.117Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -352,6 +352,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -1057,9 +1060,6 @@ Cet ensemble de données comprend des données brutes sur l&#39;abondance du zoo
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>Animalia</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
             <gco:CharacterString>Chordata</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
@@ -1071,12 +1071,8 @@ Cet ensemble de données comprend des données brutes sur l&#39;abondance du zoo
           <mri:keyword>
             <gco:CharacterString>Oncorhynchus</gco:CharacterString>
           </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Animalia</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
+          <mri:keyword>
+            <gco:CharacterString>Animalia</gco:CharacterString>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
@@ -1103,6 +1099,13 @@ Cet ensemble de données comprend des données brutes sur l&#39;abondance du zoo
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Oncorhynchus</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Animalia</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
