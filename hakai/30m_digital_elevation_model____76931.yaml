@@ -20,6 +20,7 @@ contact:
   - author
 - inCitation: false
   individual:
+    email: santiago@hakai.org
     name: Gonzalez Arriola, Santiago
     orcid: https://orcid.org/0000-0001-8869-5481
   organization:
@@ -31,17 +32,6 @@ contact:
   roles:
   - processor
   - pointOfContact
-- inCitation: true
-  organization:
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-  roles:
-  - resourceProvider
-  - distributor
-  - owner
-  - custodian
 - inCitation: false
   organization:
     city: Campbell River
@@ -53,6 +43,9 @@ contact:
   roles:
   - distributor
   - distributor
+  - owner
+  - custodian
+  - resourceProvider
 distribution:
 - description:
     en: Hakai's repository for downloading raw data files. Metadata Report
@@ -153,7 +146,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-20'
-    revision: '2026-05-14T21:56:11.135Z'
+    revision: '2026-05-14T21:56:41.862Z'
   identifier: 769311e9-1b1f-41f4-9023-38acf37a6690
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW1iT1oxc3AwR2Mxb24
