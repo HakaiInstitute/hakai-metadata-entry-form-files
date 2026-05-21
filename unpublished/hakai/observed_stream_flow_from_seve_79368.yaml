@@ -1,0 +1,258 @@
+contact:
+- inCitation: true
+  individual:
+    email: emily.haughton@hakai.org
+    name: Haughton, Emily
+    position: Technician
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: www.hakai.org
+  roles:
+  - custodian
+  - publisher
+  - author
+- inCitation: true
+  individual:
+    email: bill.floyd@via.ca
+    name: Floyd, William C.
+  organization:
+    city: Nanaimo
+    country: Canada
+    email: bill.floyd@via.ca
+    name: Vancouver Island University
+    ror: https://ror.org/033wcvv61
+    url: https://www.viu.ca/
+  roles:
+  - author
+  - pointOfContact
+  - owner
+  - distributor
+- inCitation: true
+  individual:
+    email: maatje.korver@mail.mcgill.ca
+    name: Korver, Maartje C.
+  organization:
+    name: Hakai Institute -  McGill University
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: ray@tula.org
+    name: Brunsting, Ray
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: www.hakai.org
+  roles:
+  - author
+- inCitation: true
+  organization:
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: www.hakai.org
+  roles:
+  - publisher
+distribution:
+- description:
+    en: Ongoing streamflow timeseries
+  name:
+    en: ERDDAP
+    fr: ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiWatershedsStreamStationsProvisional.subset
+- description:
+    en: Script used to calculate the rating curves
+    fr: Script utilisé pour calculer les courbes d'évaluation
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Rating Curve script
+  url: https://github.com/HakaiInstitute/RatingCurve
+- description:
+    en: Script used to calculate the hourly, daily, monthly, and yearly discharge
+      rates
+    fr: Script utilisé pour calculer les taux de rejet horaires, quotidiens, mensuels
+      et annuels
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Discharge editing script
+  url: https://github.com/HakaiInstitute/Discharge-editing
+identification:
+  abstract:
+    en: '**General field methods**
+
+
+      In natural streams it is not possible to continuously measure stream discharge,
+      thus an indirect approach was used: river height (stage) was continuously measured
+      at a gauging station using a pressure transducer and periodic discharge measurements
+      were taken along the range of potential stages to develop a stage-discharge
+      rating curve.
+
+
+      Pressure transducers were installed in the fall of 2013 at watershed 708 and
+      in the fall of 2014 at the other watersheds. Watersheds 708, 819, and 693 were
+      decommissioned in 2020 and are no longer active monitoring sites. Beginning
+      in 2025, gauging stations are visited twice per year and surveyed against a
+      minimum of three independent benchmarks to detect sensor movement or datum shifts.
+      Corrections are applied to the stage record where offsets are identified, and
+      where possible, have been applied retrospectively to earlier records. Low flows
+      were manually measured using the velocity-area method with either a Swoffer
+      Current Velocimeter or a Sontek Acoustic Doppler Velocimeter. Higher flows,
+      generally greater than 0.5 m³/s, were measured using the automated salt dilution
+      (auto-salt) method, which releases pre-defined volumes of salt solution at pre-defined
+      water stages and measures the passing salt wave using two permanently installed
+      downstream electrical conductivity sensors. Data are available in near real-time
+      using the Hakai Telemetry Network ([www.hakai.org/technology/#science-1](https://www.hakai.org/technology/#science-1)).
+
+
+      **General data QC and analysis**
+
+
+      Stage-discharge rating curves are not static but shift over time due to changes
+      in river channel morphology, often associated with flood events, and are updated
+      regularly. Discharge measurements are assigned a relative uncertainty based
+      on the measurement method and are used to develop a LOESS regression rating
+      curve with confidence intervals following the methodology of Coxon et al. (2015).
+
+
+      The discharge record linked here is a provisional, unreviewed dataset. A fully
+      QC''d time-series with uncertainty estimates, flagging, and detailed methodology
+      is available upon request or in subsequent data releases.'
+    fr: '**Méthodes générales sur le terrain**
+
+
+      Dans les cours d''eau naturels, il n''est pas possible de mesurer en continu
+      le débit des cours d''eau, c''est pourquoi une approche indirecte a été utilisée :
+      la hauteur de la rivière (niveau) a été mesurée en continu dans une station
+      de jaugeage à l''aide d''un transducteur de pression et des mesures périodiques
+      du débit ont été prises le long de la plage des étages potentiels pour développer
+      une courbe d''évaluation du débit par étapes.
+
+
+      Des capteurs de pression ont été installés à l''automne 2013 dans le bassin
+      versant 708 et à l''automne 2014 dans les autres bassins versants. Les bassins
+      versants 708, 819 et 693 ont été déclassés en 2020 et ne sont plus des sites
+      de surveillance actifs. À compter de 2025, les stations de jaugeage sont visitées
+      deux fois par an et étudiées par rapport à au moins trois points de référence
+      indépendants afin de détecter le mouvement des capteurs ou les décalages de
+      référence. Des corrections sont appliquées à l''enregistrement de l''étape où
+      les décalages sont identifiés et, dans la mesure du possible, ont été appliquées
+      rétrospectivement aux enregistrements antérieurs. Les faibles débits ont été
+      mesurés manuellement à l''aide de la méthode de la zone de vélocité à l''aide
+      d''un vélocimètre à courant Swoffer ou d''un vélocimètre Doppler acoustique
+      Sontek. Des débits plus élevés, généralement supérieurs à 0,5 m³/s, ont été
+      mesurés à l''aide de la méthode de dilution automatique du sel (auto-sel), qui
+      libère des volumes prédéfinis de solution saline à des niveaux d''eau prédéfinis
+      et mesure la vague de sel qui passe à l''aide de deux capteurs de conductivité
+      électrique installés en aval en permanence. Les données sont disponibles en
+      temps quasi réel grâce au réseau de télémétrie Hakai ([www.hakai.org/technology/
+      #science -1] (https://www.hakai.org/technology/#science-1)).
+
+
+      **Contrôle qualité et analyse des données générales**
+
+
+      Les courbes d''évaluation du débit par étapes ne sont pas statiques mais évoluent
+      au fil du temps en raison de changements dans la morphologie du chenal fluvial,
+      souvent associés à des inondations, et sont mises à jour régulièrement. Une
+      incertitude relative est attribuée aux mesures de débit en fonction de la méthode
+      de mesure et sont utilisées pour développer une courbe de régression LOESS avec
+      des intervalles de confiance selon la méthodologie de Coxon et al. (2015).
+
+
+      L''enregistrement des rejets lié ici est un ensemble de données provisoire non
+      révisé. Une série chronologique entièrement contrôlée avec des estimations d''incertitude,
+      des indicateurs et une méthodologie détaillée est disponible sur demande ou
+      lors de publications de données ultérieures.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2013-09-09'
+    publication: '2019-12-25'
+  edition: '5'
+  keywords:
+    default:
+      en:
+      - discharge
+      - water
+      - hydrograph
+      - stream
+      - high flow
+      - other
+      - watersheds
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: onGoing
+  project:
+  - Watersheds
+  status: submitted
+  temporal_begin: '2013-09-09T19:00:00.000Z'
+  title:
+    en: Observed stream flow from seven small coastal watersheds in British Columbia,
+      Canada
+    fr: Écoulement des cours d'eau observé à partir de sept petits bassins versants
+      côtiers en Colombie-Britannique, au Canada, de septembre 2013 à septembre 2019
+      Version 5 (Copte)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2026-05-21T16:27:42.997Z'
+  identifier: 79368bf3-8f02-4355-837e-3a6cef0d2886
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-OtAIe6lv3elLZd4c-V1
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.13265424
+  - 51.60936247
+  - -127.95907025
+  - 51.69558793
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
