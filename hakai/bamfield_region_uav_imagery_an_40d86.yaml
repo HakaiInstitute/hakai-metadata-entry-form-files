@@ -97,9 +97,22 @@ contact:
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
+    fr: Formulaire en ligne pour demander l'accès à des ensembles de données particuliers
+      appartenant à Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Data Access Online Request Form
-  url: https://hecate.hakai.org/auth/access-request.php#
+    fr: Formulaire de demande d'accès aux données Hakai en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/hq5n-5g06
 identification:
   abstract:
     en: 'Bamfield UAV Data Capture
@@ -324,7 +337,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-15'
-    revision: '2026-05-22T21:27:55.666Z'
+    revision: '2026-05-22T21:28:14.882Z'
   identifier: 40d86401-0e95-4ff3-b1c7-25e4e9138157
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTRhNE0wUGxJZktQTHE
