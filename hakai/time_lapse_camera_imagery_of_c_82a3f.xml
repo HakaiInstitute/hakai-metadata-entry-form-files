@@ -1118,7 +1118,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-05-22T21:52:10.563Z</gco:DateTime>
+        <gco:DateTime>2026-05-22T21:52:23.716Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2600,7 +2600,7 @@ Les images sont capturées toutes les 15 minutes entre 7h00 et 19h00, heure loca
         <gco:CharacterString></gco:CharacterString>
       </mri:credit>
       <mri:status>
-        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="completed"></mcc:MD_ProgressCode>
+        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="onGoing"></mcc:MD_ProgressCode>
       </mri:status>
       <mri:topicCategory>
         <mri:MD_TopicCategoryCode>oceans</mri:MD_TopicCategoryCode>
@@ -2673,7 +2673,7 @@ Les images sont capturées toutes les 15 minutes entre 7h00 et 19h00, heure loca
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
                   <gml:beginPosition indeterminatePosition="unknown" />
-                  <gml:endPosition indeterminatePosition="unknown" />
+                  <gml:endPosition indeterminatePosition="now" />
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
