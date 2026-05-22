@@ -70,9 +70,22 @@ contact:
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
+    fr: Formulaire en ligne pour demander l'accès à des ensembles de données particuliers
+      appartenant à Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Data Access Online Request Form
-  url: https://hecate.hakai.org/auth/access-request.php#
+    fr: Formulaire de demande d'accès aux données Hakai en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/yff8-2w22
 - description:
     en: Readme file for Hakai Kelp GEEK Tool
   name:
@@ -208,7 +221,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-02'
-    revision: '2026-05-22T21:59:49.951Z'
+    revision: '2026-05-22T22:00:12.498Z'
   identifier: 2a92ca16-f5c6-4362-acea-6bb5117b8d65
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTFUcWNIVGxwZEVLNTE
