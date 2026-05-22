@@ -51,7 +51,7 @@
   <mdb:metadataScope>
     <mdb:MD_MetadataScope>
       <mdb:resourceScope>
-        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="software" />
       </mdb:resourceScope>
     </mdb:MD_MetadataScope>
   </mdb:metadataScope>
@@ -1118,7 +1118,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-05-22T22:00:17.699Z</gco:DateTime>
+        <gco:DateTime>2026-05-22T22:02:08.171Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2545,7 +2545,7 @@ This dataset is as a part of the Hakai Habitat Mapping Program. The overarching 
 
 *Nijland, W., Reshitnyk, L., &amp; Rubidge, E. (2019). Satellite remote sensing of canopy-forming kelp on a complex coastline: A novel procedure using the Landsat image archive. Remote Sensing of Environment, 220, 41-50. doi:10.1016/j.rse.2018.10.032</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">L&#39;outil Hakai Google Earth Engine Kelp (outil GEEK) a été développé dans le cadre d&#39;une collaboration entre l&#39;Institut Hakai, l&#39;Université de Victoria et le ministère des Pêches et des Océans pour tirer parti des capacités de cloud computing pour analyser l&#39;imagerie satellite Landsat (30 m) afin d&#39;extraire l&#39;étendue de la canopée et du varech. La méthodologie originale est décrite dans Nijland et al. 2019*. 
 
 Remarque : Ce jeu de données est conçu comme une « lecture seule », car nous continuons à améliorer les résultats. Il vise à démontrer l&#39;utilité de l&#39;archive Landsat pour cartographier le varech. Ces données sont visibles sur la carte Web GEEK disponible ici.
