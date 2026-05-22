@@ -1118,7 +1118,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-05-22T21:52:59.670Z</gco:DateTime>
+        <gco:DateTime>2026-05-22T21:53:04.204Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -3040,8 +3040,13 @@ Les images sont capturées toutes les 15 minutes entre 7h00 et 19h00, heure loca
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
-              <cit:description>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Calvert Island Beach Camera Metadata</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Métadonnées de la caméra de plage de Calvert Island</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
