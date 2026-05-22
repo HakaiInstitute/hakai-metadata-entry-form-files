@@ -15,18 +15,6 @@ contact:
   - pointOfContact
   - author
   - principalInvestigator
-- inCitation: false
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - resourceProvider
-  - distributor
-  - owner
 - inCitation: true
   individual:
     email: data@hakai.org
@@ -49,6 +37,27 @@ contact:
   - originator
   - author
   - editor
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
@@ -190,7 +199,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-02'
-    revision: '2026-05-22T21:59:27.042Z'
+    revision: '2026-05-22T21:59:42.112Z'
   identifier: 2a92ca16-f5c6-4362-acea-6bb5117b8d65
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTFUcWNIVGxwZEVLNTE
