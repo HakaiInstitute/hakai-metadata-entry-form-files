@@ -93,9 +93,20 @@ distribution:
     en: Online form for requesting access to particular datasets owned by Hakai
     fr: Formulaire en ligne pour demander l'accès à des ensembles de données particuliers
       appartenant à Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Data Access Online Request Form
-  url: https://hecate.hakai.org/auth/access-request.php#
+    fr: Formulaire de demande d'accès aux données Hakai en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php#?ref=https://doi.org/10.21966/1.715699
 - description:
     en: Technical report on the development of stage-discharge rating curves for seven
       rivers draining into Kwakshua Channel (Calvert Island, BC, Canada) and a methodology
@@ -229,7 +240,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-29'
-    revision: '2026-05-14T21:46:10.487Z'
+    revision: '2026-05-22T17:56:57.974Z'
   identifier: 7de2d85e-202e-4e4a-953e-539f9d18e8c7
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MU1OTDNya1FVRkV3T1o
