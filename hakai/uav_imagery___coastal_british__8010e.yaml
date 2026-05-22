@@ -113,9 +113,22 @@ contact:
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
+    fr: Formulaire en ligne pour demander l'accès à des ensembles de données particuliers
+      appartenant à Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Data Access Online Request Form
-  url: https://hecate.hakai.org/auth/access-request.php#
+    fr: Formulaire de demande d'accès aux données Hakai en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/74y7-v484
 - description:
     en: Hakai's UAV imagery footprints / metadata / previews are available on this
       public web map.
@@ -196,6 +209,7 @@ identification:
     publication: '2015-10-19'
     revision: '2015-10-19'
   edition: '1.0'
+  identifier: https://doi.org/10.21966/74y7-v484
   keywords:
     default:
       en:
@@ -231,7 +245,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-15'
-    revision: '2026-05-12T21:15:24.494Z'
+    revision: '2026-05-22T22:03:43.485Z'
   identifier: 8010e86f-5dd9-421d-8e22-668664191205
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTVjN1laU01nM3dsWnY
