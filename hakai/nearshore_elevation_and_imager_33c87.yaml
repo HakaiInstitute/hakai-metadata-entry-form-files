@@ -25,23 +25,36 @@ contact:
   roles:
   - processor
   - pointOfContact
-- inCitation: false
+- inCitation: true
   organization:
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
   roles:
-  - resourceProvider
-  - distributor
+  - publisher
 - inCitation: false
   organization:
+    city: Campbell River
     country: Canada
     email: data@hakai.org
-    name: Hakai Research Institute
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - custodian
   - distributor
+  - owner
+  - resourceProvider
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
@@ -148,7 +161,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-21'
-    revision: '2026-05-22T21:44:32.397Z'
+    revision: '2026-05-22T21:45:18.508Z'
   identifier: 33c870b8-3b4c-429d-bc10-99dd4c7f4c7d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXN1MUhmRE9GRndsSko
