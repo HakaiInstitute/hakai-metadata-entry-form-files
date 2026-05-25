@@ -571,7 +571,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-23T12:57:27.953Z</gco:DateTime>
+        <gco:DateTime>2026-05-25T19:08:57.998Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -676,6 +676,16 @@
           <cit:date>
             <cit:CI_Date>
               <cit:date>
+                <gco:Date>2012-08-05</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
                 <gco:Date>2016-11-21</gco:Date>
               </cit:date>
               <cit:dateType>
@@ -683,6 +693,13 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://doi.org/10.21966/64tt-jh34</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
@@ -2363,8 +2380,8 @@ En raison des contraintes météorologiques et temporelles auxquelles l&#39;entr
             <gex:EX_TemporalExtent>
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
-                  <gml:beginPosition indeterminatePosition="unknown" />
-                  <gml:endPosition indeterminatePosition="unknown" />
+                  <gml:beginPosition>2012-08-05T19:00:00.000Z</gml:beginPosition>
+                  <gml:endPosition>2012-08-17T19:00:00.000Z</gml:endPosition>
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
