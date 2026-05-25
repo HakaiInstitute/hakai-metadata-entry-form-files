@@ -643,7 +643,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-05-12T21:30:52.874Z</gco:DateTime>
+        <gco:DateTime>2026-05-25T18:53:43.398Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -768,6 +768,13 @@
           <cit:edition>
             <gco:CharacterString>1.0</gco:CharacterString>
           </cit:edition>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://doi.org/10.21966/2svf-e642</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
@@ -1259,32 +1266,25 @@ Sur la base du comportement alimentaire et des habitudes de nidification, je pro
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>Chordata</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
             <gco:CharacterString>Accipitridae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Aves</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Animalia</gco:CharacterString>
+            <gco:CharacterString>Haliaeetus leucocephalus</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Haliaeetus</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
+            <gco:CharacterString>Animalia</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
             <gco:CharacterString>Accipitriformes</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Haliaeetus leucocephalus</gco:CharacterString>
+            <gco:CharacterString>Aves</gco:CharacterString>
           </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Chordata</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
+          <mri:keyword>
+            <gco:CharacterString>Chordata</gco:CharacterString>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
@@ -1296,14 +1296,7 @@ Sur la base du comportement alimentaire et des habitudes de nidification, je pro
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Aves</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Animalia</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Haliaeetus leucocephalus</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -1317,6 +1310,13 @@ Sur la base du comportement alimentaire et des habitudes de nidification, je pro
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Animalia</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Accipitriformes</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -1324,7 +1324,14 @@ Sur la base du comportement alimentaire et des habitudes de nidification, je pro
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Haliaeetus leucocephalus</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Aves</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Chordata</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
