@@ -5,12 +5,12 @@ contact:
     name: Hakai Geospatial
   organization:
     address: 1002 Wharf Street
-    city: Victoria
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
-    url: www.hakai.org
+    url: https://www.hakai.org/
   roles:
   - custodian
   - owner
@@ -75,27 +75,90 @@ contact:
   - resourceProvider
   - distributor
   - owner
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
+    fr: Formulaire en ligne pour demander l'accès à des ensembles de données particuliers
+      appartenant à Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Data Access Online Request Form
-  url: https://hecate.hakai.org/auth/access-request.php#
+    fr: Formulaire de demande d'accès aux données Hakai en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/36b8-hq30
 - description:
     en: A shapefile delineating the kelp extent for the McMullin Group Islands
+    fr: Un shapefile délimitant l'étendue du varech pour les îles du groupe McMullin
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: 2017 Kelp Extent for the McMullin Group islands
+    fr: Étendue du varech 2017 pour les îles du groupe McMullin
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/open?id=1jukkkqR46AAO14Q80XMWzwojRotSkuYS
 - description:
     en: This document describes the attributes of the 2017 Kelp Extent for the McMullin
       Group islands shapefile
+    fr: Ce document décrit les attributs de l'étendue du varech 2017 pour le fichier
+      de formes des îles du groupe McMullin.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: 'Data Attributes: UAV Substrate Layer Meta'
+    fr: 'Attributs de données : méta de la couche de substrat pour UAV'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/open?id=1sBR_cDxyR5SiYtdVeRgJwqnhaGrTOYIB
 - description:
     en: Link to a webmap showing coverage of Hakai UAV products for the Central Coast
       of British Columbia
+    fr: Lien vers une carte Web montrant la couverture des produits UAV Hakai pour
+      la côte centrale de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Link to a webmap showing coverage of Hakai UAV products for the Central Coast
       of British Columbia
+    fr: Lien vers une carte Web montrant la couverture des produits UAV Hakai pour
+      la côte centrale de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: http://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=32e5140ff008481c9f2c240fa40c27cb
 identification:
   abstract:
@@ -120,6 +183,7 @@ identification:
   associated_resources: []
   dates:
     publication: '2018-06-22'
+  identifier: https://doi.org/10.21966/36b8-hq30
   keywords:
     default:
       en:
@@ -177,7 +241,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-03'
-    revision: '2026-05-25T19:54:42.799Z'
+    revision: '2026-05-25T19:56:41.272Z'
   identifier: d61f51c3-7614-465f-bf27-c78986ca07c3
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTNoNHEyQ0g1c3VIbGE
