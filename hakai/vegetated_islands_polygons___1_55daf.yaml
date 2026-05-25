@@ -52,9 +52,22 @@ contact:
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
+    fr: Formulaire en ligne pour demander l'accès à des ensembles de données particuliers
+      appartenant à Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Data Access Online Request Form
-  url: https://hecate.hakai.org/auth/access-request.php#
+    fr: Formulaire de demande d'accès aux données Hakai en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/smwx-qp54
 - description:
     en: Hakai's AGOL Instance is the platform for Access and online use of this dataset/'s
       reference layer
@@ -148,7 +161,7 @@ identification:
 metadata:
   dates:
     publication: '2021-09-23'
-    revision: '2026-05-25T18:40:16.431Z'
+    revision: '2026-05-25T18:40:35.134Z'
   identifier: 55daf524-146e-4b06-8c6c-3255c7e3c77a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW90czhQM1A2WXJWTVg
