@@ -546,7 +546,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-05-25T19:21:06.022Z</gco:DateTime>
+        <gco:DateTime>2026-05-25T19:22:26.166Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2181,36 +2181,26 @@ Sara Wickham — Université de Victoria, Brian Starzomski — Université de Vi
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://hecate.hakai.org/geonetwork/srv/api/records/7381aff7-a4fe-4309-81f1-8eebe183b4d8/attachments/Sea Wrack Dataset Attributes_.pdf</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>Resource</gco:CharacterString>
-              </cit:name>
-              <cit:description>
-                <gco:CharacterString>Definitions and descriptions of the attributes in the Sea Wrack spatial dataset described here</gco:CharacterString>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
                 <gco:CharacterString>https://drive.google.com/open?id=17YlaowmInz_bwBTRFmWK7oMWHQFOxowt</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Sea wrack spatial data</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Données spatiales sur les épis de mer</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
-              <cit:description>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>The sea wrack spatial data used in the analysis referenced by this record.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Les données spatiales sur les épis de mer utilisées dans l&#39;analyse référencée par cet enregistrement.</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
