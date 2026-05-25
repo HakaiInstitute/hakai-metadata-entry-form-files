@@ -77,9 +77,22 @@ contact:
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
+    fr: Formulaire en ligne pour demander l'accès à des ensembles de données particuliers
+      appartenant à Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Data Access Online Request Form
-  url: https://hecate.hakai.org/auth/access-request.php#
+    fr: Formulaire de demande d'accès aux données Hakai en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/da7n-d283
 - description:
     en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
       / reference layer *** EDIT ACCORDINGLY ***
@@ -88,8 +101,20 @@ distribution:
   url: http://hakai.maps.arcgis.com/apps/webappviewer/index.html?id=f5427c3a02fb452aa675fbd5847101b5
 - description:
     en: Google drive for drone based methodology
+    fr: Google Drive pour une méthodologie basée sur les drones
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Google drive for drone based methodology
+    fr: Google Drive pour une méthodologie basée sur les drones
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/drive/folders/14Y_G23C0K0QTrW9OlIyEzcgYPMreOaQN?usp=sharing
 identification:
   abstract:
@@ -141,6 +166,7 @@ identification:
     publication: '2020-02-28'
     revision: '2020-02-28'
   edition: '1.0'
+  identifier: https://doi.org/10.21966/da7n-d283
   keywords:
     default:
       en:
@@ -177,7 +203,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-15'
-    revision: '2026-05-25T19:31:59.591Z'
+    revision: '2026-05-25T19:32:42.736Z'
   identifier: 582909b1-c87d-4c5a-8594-5f44726f43a4
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTRJWUxCNm94ZkpxNkk

@@ -68,13 +68,16 @@ identifiers:
 - description: Metadata record URL
   type: url
   value: https://catalogue.hakai.org/dataset/ca-cioos_582909b1-c87d-4c5a-8594-5f44726f43a4
+- description: DOI
+  type: doi
+  value: 10.21966/da7n-d283
 - description: Metadata Form used to generate this record
   type: url
   value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTRJWUxCNm94ZkpxNkk
 - description: 'Hakai Data Access Online Request Form: Online form for requesting
     access to particular datasets owned by Hakai'
   type: url
-  value: https://hecate.hakai.org/auth/access-request.php#
+  value: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/da7n-d283
 - description: 'ArcGIS Online Reference Layer (restricted access): Hakai''s AGOL Instance
     is the platform for Access and online use of this dataset / reference layer ***
     EDIT ACCORDINGLY ***'
