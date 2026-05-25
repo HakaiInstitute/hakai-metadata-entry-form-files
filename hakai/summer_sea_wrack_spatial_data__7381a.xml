@@ -546,7 +546,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-24T18:45:27.720Z</gco:DateTime>
+        <gco:DateTime>2026-05-25T19:18:48.143Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -668,6 +668,16 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://doi.org/10.21966/rwwv-na68</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
@@ -1897,7 +1907,7 @@ My results indicate that sea wrack can accumulate along any shoreline that is no
 
 Sara Wickham – University of Victoria, Brian Starzomski – University of Victoria, John Reynolds – Simon Fraser University, Chris Darimont – University of Victoria</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Ce jeu de données tabulaires contient les variables environnementales biophysiques (climat, caractéristiques du site ou quantité d&#39;habitat donneur) de chaque site, ainsi que la somme de la masse sèche prélevée.
 
 Les algues mortes et les herbiers marins coulés sur le rivage (communément appelé écharpe de mer) constituent un vecteur important de nutriments dérivés de la mer dans les environnements terrestres à faible productivité. Cependant, on sait peu de choses sur les processus qui facilitent le transport, le dépôt et l&#39;accumulation des éboues en Colombie-Britannique tempérée côtière. Trois grands facteurs influent sur le stock d&#39;émeutes le long d&#39;un littoral : les événements climatiques qui délogent les algues et les déplacent à terre, les caractéristiques physiques qui conservent l&#39;éclosion sur un site et la quantité d&#39;habitat potentiel du donneur à proximité.
@@ -2147,8 +2157,13 @@ Sara Wickham — Université de Victoria, Brian Starzomski — Université de Vi
       </mri:resourceConstraints>
       <mri:resourceConstraints>
         <mco:MD_Constraints>
-          <mco:useLimitation>
+          <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Appropriate credit must be given to the authors of the dataset.</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Un crédit approprié doit être accordé aux auteurs de l&#39;ensemble de données.</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
