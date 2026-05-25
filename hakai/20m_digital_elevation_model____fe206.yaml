@@ -61,6 +61,15 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
@@ -82,13 +91,39 @@ distribution:
   url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/zk1j-y602
 - description:
     en: Hakai's repository for downloading raw data files. Restricted access.
+    fr: Le référentiel de Hakai pour le téléchargement de fichiers de données brutes.
+      Accès restreint.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Geospatial Data Repository (restricted access)
+    fr: Référentiel de données géospatiales Hakai (accès restreint)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/open?id=0B-Q2IQtbEgU4OVIzOWN0Nl9RbzA
 - description:
     en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
+    fr: L'instance AGOL de Hakai est la plateforme d'accès et d'utilisation en ligne
+      de cet ensemble de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: ArcGIS Online Reference Layer (restricted access)
+    fr: Couche de référence ArcGIS Online (accès restreint)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: http://hakai.maps.arcgis.com/home/item.html?id=9d4c40833bcc4343acb3621819542ff0
 identification:
   abstract:
@@ -173,11 +208,6 @@ identification:
       \ de référence correspondent au système de référence natif des nuages de points\
       \ LiDAR.\n\nL'espacement minimal des points défini lors de la création du jeu\
       \ de données de MNT a été défini sur 1."
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
   associated_resources: []
   dates:
     publication: '2015-06-18'
@@ -210,7 +240,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-03'
-    revision: '2026-05-25T19:40:56.848Z'
+    revision: '2026-05-25T19:43:50.727Z'
   identifier: fe20660b-ef3d-4f6b-90f8-5936d9c96cb5
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTJRNjNXMTFqUE5Semc
