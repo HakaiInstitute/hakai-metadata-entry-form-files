@@ -969,7 +969,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-05-25T19:40:14.864Z</gco:DateTime>
+        <gco:DateTime>2026-05-25T19:40:35.823Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1091,6 +1091,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
@@ -2484,7 +2487,7 @@ The horizontal coordinate system and datum employed for the terrain dataset is: 
 
 The minimum point spacing defined during terrain dataset building was set to 1.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Ce MNT a été créé à partir du jeu de données de terrain principal (MTD) de Hakai à l&#39;aide de l&#39;outil « MNT to raster » dans ArcGIS for Desktop d&#39;ESRI à l&#39;aide d&#39;une méthode d&#39;échantillonnage Natural Neighbour. Le DEM a été créé nativement à une résolution de 20 m. Ce MNE a été coupé sur le littoral de l&#39;île. Une combinaison de différentes altitudes autour de l&#39;île a été utilisée pour créer le rivage. 
 
 La grille de ce MNT est alignée ou « accrochée » à la grille raster des mesures de la canopée de végétation et des rasters associés.
