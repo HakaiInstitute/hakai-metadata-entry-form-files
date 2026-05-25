@@ -60,9 +60,22 @@ contact:
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
+    fr: Formulaire en ligne pour demander l'accès à des ensembles de données particuliers
+      appartenant à Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Data Access Online Request Form
-  url: https://hecate.hakai.org/auth/access-request.php#
+    fr: Formulaire de demande d'accès aux données Hakai en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/2svf-e642
 - description:
     en: This dataset consists of plot description, eagle and reference tree information,
       vegetation data, and soil chemistry data.
@@ -192,7 +205,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-24'
-    revision: '2026-05-25T18:55:04.334Z'
+    revision: '2026-05-25T18:55:42.375Z'
   identifier: 6ebe47c3-6d59-4cb2-a7ba-111698445d8d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUxkcndoNFQ4T2xyZWI
