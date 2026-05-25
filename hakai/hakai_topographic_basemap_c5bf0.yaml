@@ -4,10 +4,12 @@ contact:
     email: data@hakai.org
     name: Hakai Geospatial Technology Team
   organization:
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - pointOfContact
   - pointOfContact
@@ -70,20 +72,57 @@ contact:
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
+    fr: Formulaire en ligne pour demander l'accès à des ensembles de données particuliers
+      appartenant à Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Data Access Online Request Form
-  url: https://hecate.hakai.org/auth/access-request.php#
+    fr: Formulaire de demande d'accès aux données Hakai en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/3aa8-3347
 - description:
     en: Hakai's repository for downloading raw data files. Restricted access.
     fr: Le dépôt de Hakai pour le téléchargement de fichiers de données brutes. Accès
       restreint.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Geospatial Data Repository (restricted access)
+    fr: Référentiel de données géospatiales Hakai (accès restreint)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/open?id=0B-Q2IQtbEgU4SUdMT3VwWVVNY28
 - description:
     en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
+    fr: L'instance AGOL de Hakai est la plateforme d'accès et d'utilisation en ligne
+      de cet ensemble de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: ArcGIS Online (restricted access)
+    fr: ArcGIS Online (accès restreint)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: http://hakai.maps.arcgis.com/home/item.html?id=c71b6a3b40df4e4daf278f82a6a20655
 identification:
   abstract:
@@ -126,6 +165,8 @@ identification:
   dates:
     publication: '2015-08-13'
     revision: '2015-08-13'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/3aa8-3347
   keywords:
     default:
       en:
@@ -156,7 +197,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-03'
-    revision: '2024-07-23T12:38:50.957Z'
+    revision: '2026-05-25T20:02:19.967Z'
   identifier: c5bf06e7-29f9-404a-a454-36a5d67b2e69
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTdQU1J3ejBLVmp5MGY
