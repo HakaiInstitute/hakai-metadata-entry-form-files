@@ -116,12 +116,6 @@ distribution:
   name:
     en: Hakai Institute Google Drive Folder
   url: https://drive.google.com/drive/u/0/folders/0B5tZaev73xELV0Rib19SS3diSGM
-- description:
-    en: Link to the technical specifications and metadata for the 2012 & 2014 data
-      collection.
-  name:
-    en: LIDAR / Hyperspectral Acquisition Metadata Record
-  url: https://hecate.hakai.org/geonetwork/srv/eng/catalog.search#/metadata/244b5915-0ccf-4fab-9720-d2ac9394a27b
 identification:
   abstract:
     en: "On August 5th, 15th ,and 17th , 2012, TRSI collected hyperspectral, LiDAR\
@@ -255,7 +249,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/drive/u/0/folders/0B5tZaev73xELV0Rib19SS3diSGM
+    title:
+      en: Data Acquisition Report
+      fr: Rapport d'acquisition de données
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2012-08-05'
     publication: '2016-11-20'
@@ -296,7 +302,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-03'
-    revision: '2026-05-25T19:12:42.183Z'
+    revision: '2026-05-25T19:14:06.191Z'
   identifier: 4be1cc5e-8846-4fba-bd94-16ca933faab8
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MU1SSXd3cG5UbzVYVW8
