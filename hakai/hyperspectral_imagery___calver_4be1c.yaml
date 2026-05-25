@@ -95,9 +95,22 @@ contact:
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
+    fr: Formulaire en ligne pour demander l'accès à des ensembles de données particuliers
+      appartenant à Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Data Access Online Request Form
-  url: https://hecate.hakai.org/auth/access-request.php#
+    fr: Formulaire de demande d'accès aux données Hakai en ligne
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/64tt-jh34
 - description:
     en: Metadata on hyperspectral collection methodology.
   name:
@@ -283,7 +296,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-03'
-    revision: '2026-05-25T19:12:17.128Z'
+    revision: '2026-05-25T19:12:42.183Z'
   identifier: 4be1cc5e-8846-4fba-bd94-16ca933faab8
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MU1SSXd3cG5UbzVYVW8
