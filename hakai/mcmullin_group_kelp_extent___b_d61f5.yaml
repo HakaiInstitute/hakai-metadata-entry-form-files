@@ -1,19 +1,8 @@
 contact:
 - inCitation: true
-  organization:
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-  roles:
-  - resourceProvider
-  - distributor
-  - owner
-- inCitation: true
   individual:
     email: data@hakai.org
-    name: Technology Team, Geospatial
-    position: Geospatial Science
+    name: Hakai Geospatial
   organization:
     address: 1002 Wharf Street
     city: Victoria
@@ -35,7 +24,9 @@ contact:
   - originator
 - inCitation: true
   individual:
+    email: keith.holmes@hakai.org
     name: Holmes, Keith
+    orcid: https://orcid.org/0000-0001-8796-8222
     position: Geospatial Scientist
   organization:
     address: 1002 Wharf Street
@@ -50,7 +41,9 @@ contact:
   - processor
 - inCitation: true
   individual:
+    email: luba.reshitnyk@hakai.org
     name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
   organization:
     country: Canada
     name: Hakai Institute
@@ -61,6 +54,27 @@ contact:
   - principalInvestigator
   - pointOfContact
   - processor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
@@ -130,34 +144,24 @@ identification:
     taxa:
       en:
       - Chromista
-      - Ochrophyta
-      - Phaeophyceae
-      - Laminariales
-      - Laminariaceae
-      - Macrocystis
       - Macrocystis pyrifera
-      - Chromista
       - Ochrophyta
-      - Phaeophyceae
-      - Laminariales
-      - Laminariaceae
       - Nereocystis
+      - Laminariales
       - Nereocystis luetkeana
+      - Laminariaceae
+      - Phaeophyceae
+      - Macrocystis
       fr:
       - Chromista
-      - Ochrophyta
-      - Phaeophyceae
-      - Laminariales
-      - Laminariaceae
-      - Macrocystis
       - Macrocystis pyrifera
-      - Chromista
       - Ochrophyta
-      - Phaeophyceae
-      - Laminariales
-      - Laminariaceae
       - Nereocystis
+      - Laminariales
       - Nereocystis luetkeana
+      - Laminariaceae
+      - Phaeophyceae
+      - Macrocystis
   progress_code: completed
   project:
   - Geospatial
@@ -173,7 +177,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-03'
-    revision: '2024-07-23T12:31:03.254Z'
+    revision: '2026-05-25T19:54:42.799Z'
   identifier: d61f51c3-7614-465f-bf27-c78986ca07c3
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTNoNHEyQ0g1c3VIbGE
@@ -194,7 +198,37 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: UAS / Drone
+    fr: UAS/Drone
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Phantom 3 Drone - Hakai Institute
+  instruments:
+  - description:
+      en: Stock DJI camera build into the phantom 3 drone
+      fr: Caméra DJI intégrée au drone Phantom 3
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: RGB camera
+    manufacturer: DJI
+    type:
+      en: RGB camera
+      fr: Caméra RGB
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: 3 Pro
+  type: unmanned aerial vehicle
 spatial:
   bbox:
   - -128.44315751
