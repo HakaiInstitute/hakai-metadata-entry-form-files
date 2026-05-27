@@ -39,14 +39,17 @@ contact:
   roles:
   - resourceProvider
   - distributor
-- inCitation: false
+  - owner
+- inCitation: true
   organization:
+    city: Campbell River
     country: Canada
     email: data@hakai.org
-    name: Hakai Research Institute
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
-  - distributor
-  - distributor
+  - publisher
 distribution:
 - description:
     en: Hakai Data Packages - Mount Cain Snow Data - Metadata Report
@@ -167,7 +170,7 @@ instruments:
 metadata:
   dates:
     publication: '2022-01-19'
-    revision: '2026-05-27T16:01:00.032Z'
+    revision: '2026-05-27T16:01:22.249Z'
   identifier: 3dc0d46c-7afe-4379-901d-37a787c1c204
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWN2Tzh0TTllTGVIU0M
