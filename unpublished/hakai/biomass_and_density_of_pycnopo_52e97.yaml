@@ -51,7 +51,8 @@ contact:
 - inCitation: true
   individual:
     email: angeleen.olson@hakai.org
-    name: Olsen, Angeleen
+    name: Olson, Angeleen
+    orcid: https://orcid.org/0000-0001-8443-1868
     position: Research Technician
   organization:
     address: P.O. Box 25039, V9W 0B7
@@ -66,7 +67,8 @@ contact:
 - inCitation: true
   individual:
     email: zach.monteith@hakai.org
-    name: Monteith, Zach
+    name: Monteith, Zachary
+    orcid: https://orcid.org/0000-0003-4963-8374
     position: Research Technician
   organization:
     city: Campbell River
@@ -115,16 +117,36 @@ contact:
   roles:
   - coAuthor
   - contributor
-- inCitation: true
+- inCitation: false
   organization:
     city: Campbell River
     country: Canada
+    email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
   - owner
   - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Repository for code and data used in this dataset.
@@ -273,7 +295,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-05-28T15:52:41.526Z'
+    revision: '2026-05-28T16:06:29.636Z'
   identifier: 52e97374-bee5-4b1a-9b85-7170a5df8d6b
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-OteEfuBSvhg-2RySC4a
