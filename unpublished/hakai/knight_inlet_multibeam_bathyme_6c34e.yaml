@@ -41,9 +41,6 @@ contact:
   roles:
   - publisher
 - inCitation: false
-  individual:
-    email: data@hakai.org
-    position: Geospatial Science
   organization:
     address: 1100 Island Hwy
     city: Campbell River
@@ -79,17 +76,11 @@ distribution:
   url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/tqj2-wh77
 identification:
   abstract:
-    en: 'Knight Inlet Multibeam Survey
-
-      In September 2023, a bathymetric survey was performed in Knight Inlet, BC in
-      order to classify the seafloor substrate in order to better inform the dive
-      team where Primnoa Pacifica is likely to be found.
-
-      Survey Site
-
-      The survey was performed within the Mamalilikulla Indigenous Protected and Conserved
-      Area (IPCA) in the Hoeya Head & Lull Bay regions, centered around 50.678074°N,
-      125.995520°W.'
+    en: In September 2023, a bathymetric survey was performed in Knight Inlet, BC
+      in order to classify the seafloor substrate in order to better inform the dive
+      team where Primnoa Pacifica is likely to be found. The survey was performed
+      within the Mamalilikulla Indigenous Protected and Conserved Area (IPCA) in the
+      Hoeya Head & Lull Bay regions, centered around 50.678074°N, 125.995520°W.
     fr: 'Levé multifaisceaux de Knight Inlet
 
       En septembre 2023, une étude bathymétrique a été réalisée à Knight Inlet, en
@@ -140,21 +131,21 @@ identification:
       - Autre
     taxa:
       en:
-      - Primnoa
-      - Primnoidae
-      - Primnoa pacifica
-      - Scleralcyonacea
+      - Cnidaria
       - Animalia
       - Anthozoa
-      - Cnidaria
+      - Primnoa
+      - Primnoa pacifica
+      - Scleralcyonacea
+      - Primnoidae
       fr:
-      - Primnoa
-      - Primnoidae
-      - Primnoa pacifica
-      - Scleralcyonacea
+      - Cnidaria
       - Animalia
       - Anthozoa
-      - Cnidaria
+      - Primnoa
+      - Primnoa pacifica
+      - Scleralcyonacea
+      - Primnoidae
   progress_code: completed
   project:
   - Geospatial
@@ -171,7 +162,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-05-27T22:52:54.771Z'
+    revision: '2026-05-28T16:36:36.479Z'
   identifier: 6c34ed6e-5a17-41f2-b83a-cd59d1ce07bd
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-OG7EOynnzSIOU7LPWgs
@@ -249,7 +240,7 @@ platform:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-  type: surface vessel
+  type: research vessel
 spatial:
   bbox:
   - -126.0537
