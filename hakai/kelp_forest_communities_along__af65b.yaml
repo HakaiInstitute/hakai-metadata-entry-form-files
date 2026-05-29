@@ -5,26 +5,17 @@ contact:
     name: Salomon, Anne
     position: Assistant Professor
   organization:
+    city: Burnaby
     country: Canada
     email: anne.salomon@sfu.ca
     name: Simon Fraser University
-  roles:
-  - principalInvestigator
-  - pointOfContact
-  - owner
-  - distributor
-- inCitation: true
-  individual:
-    email: anne.salomon@sfu.ca
-    name: Salomon, Anne
-    position: Assistant Professor
-  organization:
-    country: Canada
-    email: anne.salomon@sfu.ca
-    name: Simon Fraser University
+    ror: https://ror.org/0213rcc28
+    url: https://www.sfu.ca
   roles:
   - owner
   - custodian
+  - pointOfContact
+  - principalInvestigator
   - distributor
 distribution:
 - description:
@@ -75,6 +66,7 @@ identification:
   dates:
     creation: '2013-07-01'
     publication: '2015-08-28'
+  edition: '1.0'
   keywords:
     default:
       en:
@@ -86,9 +78,11 @@ identification:
       - other
     eov:
       en:
-      - other
+      - invertebrateAbundanceAndDistribution
+      - fishAbundanceAndDistribution
       fr:
-      - Autre
+      - Abondance et distribution d'invertébrés
+      - Abondance et distribution de poissons
   progress_code: completed
   project:
   - Geospatial
@@ -107,7 +101,7 @@ identification:
 metadata:
   dates:
     publication: '2021-09-23'
-    revision: '2024-07-23T13:46:53.292Z'
+    revision: '2026-05-29T17:44:37.569Z'
   identifier: af65bf72-27af-4747-8911-ab05591762ac
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXlMbjJYUlpvZFpITks
@@ -124,7 +118,15 @@ spatial:
   - 51.33404377878941
   - -127.74902343749999
   - 52.19077237113535
+  description:
+    en: Central Coast, British Columbia, Canada
+    fr: Côte centrale, Colombie-Britannique, Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   vertical:
   - 0.0
   - 50.0
-  vertical_positive: depthPositive
+  vertical_positive: heightPositive
