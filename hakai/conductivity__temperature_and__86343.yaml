@@ -93,6 +93,15 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Takes you to ERDDAP subset data form with cruise identifiers pre-filled. Select
@@ -100,18 +109,38 @@ distribution:
     fr: Vous dirige vers le formulaire de données du sous-ensemble ERDDAP avec les
       identifiants de croisière préremplis. Sélectionnez les colonnes que vous souhaitez
       télécharger et appuyez sur Soumettre.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Data Subset Form on Hakai ERDDAP Server
     fr: Formulaire de sous-ensemble sur le serveur Hakai ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://catalogue.hakai.org/erddap/tabledap/HakaiWaterPropertiesInstrumentProfileProvisional.html?work_area,cruise,hakai_id,vessel,device_model,device_sn,cast_processing_stage,station&work_area=~%22QUADRA|JOHNSTONE%20STRAIT%22&cruise=~%22JS|JS%20C|JS1|JS12|JSA1|JSA2|JSB|JSC|JSSOCKEYE|OTHER,JSSOCKEYE|DI_C,DISOCKEYE|DI_W,DISOCKEYE|DISOCKEYE%22
 - description:
     en: Automatically starts download of net cdf file (.nc) that will always be the
       most recent version of the complete dataset
     fr: Lance automatiquement le téléchargement du fichier NetCDF (.nc) qui sera toujours
       la version la plus récente de l'ensemble de données complet
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Direct Download of NetCDF (.nc) File
     fr: NetCDF (.nc) Téléchargement direct d'un fichier dynamique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://catalogue.hakai.org/erddap/tabledap/HakaiWaterPropertiesInstrumentProfileProvisional.nc?work_area%2Ccruise%2Chakai_id%2Cvessel%2Coperators%2Ccomments%2Cdevice_model%2Cdevice_sn%2Cdevice_firmware%2Ccast_processing_stage%2Cstation%2Clatitude%2Clongitude%2Cprecise_latitude%2Cprecise_longitude%2Ctime%2Cbottom_date_time%2Cend_date_time%2Cmeasurement_date_time%2Cbottom_depth%2Ctarget_depth%2Cdrop_speed%2Cdirection_flag%2Cdescent_rate%2Cdepth%2Cdepth_UQL%2Cdepth_flag_description%2Cpressure%2Cpressure_UQL%2Cpressure_flag_description%2Cconductivity%2Cconductivity_UQL%2Cconductivity_flag_description%2Ctemperature%2Ctemperature_UQL%2Ctemperature_flag_description%2Csalinity%2Csalinity_UQL%2Csalinity_flag_description%2Cdissolved_oxygen_ml_l%2Cdissolved_oxygen_ml_l_UQL%2Cdissolved_oxygen_ml_l_flag_description%2Crinko_do_ml_l%2Crinko_do_ml_l_UQL%2Crinko_do_ml_l_flag_description%2Cflc%2Cflc_UQL%2Cflc_flag_description%2Cturbidity%2Cturbidity_UQL%2Cturbidity_flag_description%2Cpar%2Cpar_UQL%2Cpar_flag_description%2Cc_star_at%2Cc_star_at_UQL%2Cc_star_at_flag_description%2Cph%2Cph_UQL%2Ccph_flag_description%2Cbackscatter_beta%2Cbackscatter_beta_UQL%2Cbackscatter_beta_flag_description%2Ccdom_ppb%2Ccdom_ppb_UQL%2Ccdom_flag_description&work_area=~%22QUADRA%7CJOHNSTONE%20STRAIT%22&cruise=~%22JS%7CJS%20C%7CJS1%7CJS12%7CJSA1%7CJSA2%7CJSB%7CJSC%7CJSSOCKEYE%7COTHER%2CJSSOCKEYE%7CDI_C%2CDISOCKEYE%7CDI_W%2CDISOCKEYE%7CDISOCKEYE%22
 - description:
     en: Includes the global attributes of the dataset (NC_GLOBAL) as well as variables
@@ -206,7 +235,7 @@ identification:
 metadata:
   dates:
     publication: '2023-08-29'
-    revision: '2024-06-12T17:22:55.703Z'
+    revision: '2026-06-01T16:37:54.093Z'
   identifier: 86343dd1-28d0-4d02-8eaf-402d51a7fef7
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/UTb9hNU3GJRK302QyaKNIvj2OiJ2/-NcYL5JndZWMdXmXuFqB
@@ -231,7 +260,35 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Small pleasure craft (4–6 m) converted into research vessels with outboard
+      motors
+    fr: Petits bateaux de plaisance (4 à 6 m) convertis en navires de recherche équipés
+      de moteurs hors-bord
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: http://vocab.nerc.ac.uk/collection/L06/current/31/
+  instruments:
+  - description:
+      en: Several different models of CTDs were used in this dataset. See the datafiles
+        for exact model and serial numbers
+      fr: Plusieurs modèles différents de CTD ont été utilisés dans cet ensemble de
+        données. Consultez les fichiers de données pour les numéros de modèle et de
+        série exacts
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: RBR Concerto
+    manufacturer: RBR
+    type:
+      en: CTD water column profiler
+  type: research vessel
 spatial:
   bbox:
   - -127.2
