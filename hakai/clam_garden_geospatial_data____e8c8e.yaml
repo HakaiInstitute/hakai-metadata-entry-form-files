@@ -60,28 +60,22 @@ contact:
   - funder
 distribution:
 - description:
-    en: Metadata Report Readme
-    fr: Lisez-moi du rapport de métadonnées
+    en: Data Access Request Form
+    fr: Formulaire de demande d'accès aux données
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: Hakai Institute Google Drive
-    fr: Institut Hakai sur Google Drive
+    en: Data Access Request Form
+    fr: Formulaire de demande d'accès aux données
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://drive.google.com/file/d/16GYD2kqIDDMvNB9U9hmY12qLp8MUxSBB/view?usp=sharing
-- description:
-    en: A short blog detailing some of the field work and results of the 2016 Quadra
-      Island clam garden research.
-  name:
-    en: Hakai Institute - Quadra Island Clam Garden Mapping Blog
-  url: https://www.hakai.org/blog/life-at-hakai/great-walls-quadra
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/1.346775
 identification:
   abstract:
     en: 'Clam Garden Geospatial Data - Quadra Island - 2016
@@ -190,7 +184,31 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsDescribedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: https://hakai.org/stories/great-walls-quadra
+    title:
+      en: Hakai Institute - Quadra Island Clam Garden Mapping Blog
+      fr: Institut Hakai - Blog cartographique du jardin de palourdes de l'île Quadra
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/16GYD2kqIDDMvNB9U9hmY12qLp8MUxSBB/view?usp=sharing
+    title:
+      en: Clam Garden Geospatial Data - Metadata Report readme
+      fr: Données géospatiales de Clam Garden - Rapport de métadonnées readme
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2016-05-07'
     publication: '2016-11-18'
@@ -233,7 +251,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-19'
-    revision: '2026-06-01T16:24:25.009Z'
+    revision: '2026-06-01T16:27:08.218Z'
   identifier: e8c8ed7d-51fa-45e0-b4eb-d21ddc55526a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWU1ek9Mc1IwTVhWcEo
