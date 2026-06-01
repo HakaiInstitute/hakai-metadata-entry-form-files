@@ -18,7 +18,6 @@ contact:
   - author
   - processor
   - custodian
-  - distributor
 - inCitation: true
   individual:
     email: data@hakai.org
@@ -58,7 +57,8 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - funder
+  - owner
+  - distributor
 - inCitation: false
   organization:
     city: Asheville
@@ -68,6 +68,15 @@ contact:
     url: https://www.ncei.noaa.gov
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Restricted Access Online Data Folder
@@ -162,7 +171,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-24'
-    revision: '2026-06-01T16:55:37.195Z'
+    revision: '2026-06-01T16:59:20.234Z'
   identifier: f00b9c87-190e-4b89-a864-7c012b989e49
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXg3Yk10WFU2UGRwYkY
