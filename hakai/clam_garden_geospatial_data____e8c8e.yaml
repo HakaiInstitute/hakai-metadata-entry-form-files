@@ -2,26 +2,31 @@ contact:
 - inCitation: true
   individual:
     email: data@hakai.org
-    name: Hakai Geospatial Technology Team
+    name: Hakai Geospatial
   organization:
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - pointOfContact
   - pointOfContact
   - custodian
-  - owner
   - principalInvestigator
   - processor
 - inCitation: false
   individual:
+    email: keith.holmes@hakai.org
     name: Holmes, Keith
+    orcid: https://orcid.org/0000-0001-8796-8222
   organization:
+    city: Campbell River
     country: Canada
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - processor
   - pointOfContact
@@ -34,12 +39,42 @@ contact:
   roles:
   - resourceProvider
   - distributor
+  - owner
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Metadata Report Readme
     fr: Lisez-moi du rapport de métadonnées
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Institute Google Drive
+    fr: Institut Hakai sur Google Drive
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/file/d/16GYD2kqIDDMvNB9U9hmY12qLp8MUxSBB/view?usp=sharing
 - description:
     en: A short blog detailing some of the field work and results of the 2016 Quadra
@@ -157,7 +192,9 @@ identification:
         verified: false
   associated_resources: []
   dates:
+    creation: '2016-05-07'
     publication: '2016-11-18'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/1.346775
   keywords:
     default:
@@ -183,6 +220,8 @@ identification:
   project:
   - Geospatial
   status: published
+  temporal_begin: '2016-05-07T19:00:00.000Z'
+  temporal_end: '2016-05-10T19:00:00.000Z'
   title:
     en: Clam Garden Geospatial Data - Quadra Island - 2016
     fr: Données géospatiales Clam Garden - Île Quadra - 2016
@@ -194,7 +233,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-19'
-    revision: '2024-07-23T14:07:38.704Z'
+    revision: '2026-06-01T16:24:25.009Z'
   identifier: e8c8ed7d-51fa-45e0-b4eb-d21ddc55526a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWU1ek9Mc1IwTVhWcEo
@@ -215,7 +254,39 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Hakai Institute Drone / UAV
+    fr: Drone/UAV de l'Institut Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Phantom 3 Pro Drone
+  instruments:
+  - description:
+      en: 4k  camera used to capture imagery to create orthophotos and structure from
+        motion elevation models
+      fr: Caméra 4K utilisée pour capturer des images afin de créer des orthophotos
+        et des structures à partir de modèles d'élévation de mouvement
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Phantom 3 Drone
+    manufacturer: DJI
+    type:
+      en: Drone with standard RGB 4k camera
+      fr: Drone avec caméra 4K RVB standard
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: 3 Pro
+  type: unmanned aerial vehicle
 spatial:
   bbox:
   - -125.34725189558227
