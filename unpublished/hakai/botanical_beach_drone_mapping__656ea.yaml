@@ -20,6 +20,34 @@ contact:
   - principalInvestigator
   - processor
   - originator
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial
+    position: Geospatial science team at the Hakai Institute
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - distributor
+  - pointOfContact
+  - contributor
+  - author
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 - inCitation: false
   organization:
     city: Campbell River
@@ -35,25 +63,6 @@ contact:
   - resourceProvider
   - pointOfContact
   - publisher
-- inCitation: true
-  individual:
-    email: data@hakai.org
-    name: Hakai Geospatial
-    position: Geospatial science team at the Hakai Institute
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - custodian
-  - owner
-  - distributor
-  - pointOfContact
-  - contributor
-  - author
 - inCitation: false
   organization:
     city: Vancouver
@@ -63,15 +72,6 @@ contact:
     url: https://tula.org
   roles:
   - funder
-- inCitation: true
-  organization:
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - publisher
 distribution:
 - description:
     en: Data Access Request Form
@@ -175,7 +175,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-15'
-    revision: '2026-06-02T16:14:41.041Z'
+    revision: '2026-06-02T16:16:55.121Z'
   identifier: 656ea307-fed0-48ca-b5d8-1bc017dc52d2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUdvcmtQME1NZmdWcDY
