@@ -5,7 +5,9 @@ abstract: "This record contains an Orthomosaic and Digital Surface Model (DSM) o
   \ by Hakai and its collaborators to map the intertidal habitats found within Botanical\
   \ Beach.\n\nThe images collected with the Phantom 4 Pro drone were stitched together\
   \ in Pix4D Mapper to create an orthomosaic and digital surface model (DSM). A GNSS\
-  \ survey was also conducted to collect GCPs for the drone survey.\n\nAdditional\
+  \ survey (Global Navigation Satellite System) was also conducted to collect ground\
+  \ control points for the drone survey. The survey and control point data allow the\
+  \ map information collected by the drone to be positioned accurately.\n\nAdditional\
   \ details are available in the project report.\n\nDatasets:\n\n-Orthomosaic (GeoTiff)\n\
   \n-Digital surface model (GeoTiff)\n\n-3D site model (.obj or .las)\n\n-PDF maps\
   \ of site"
@@ -14,17 +16,16 @@ authors:
   affiliation: Hakai Institute
   city: Campbell River
   country: CA
-  email: data@hakai.org
+  email: will.mcinnes@hakai.org
   family-names: McInnes
-  given-names: Will
+  given-names: William
+  orcid: https://orcid.org/0000-0003-3208-6358
   website: https://www.hakai.org/
-- address: 1002 Wharf Street
-  affiliation: Hakai Institute
+- affiliation: Hakai Institute
   city: Campbell River
   country: CA
   email: data@hakai.org
-  family-names: Technology Team
-  given-names: Geospatial
+  family-names: Hakai Geospatial
   website: https://www.hakai.org/
 - city: Campbell River
   country: CA
@@ -37,24 +38,23 @@ contact:
   affiliation: Hakai Institute
   city: Campbell River
   country: CA
-  email: data@hakai.org
+  email: will.mcinnes@hakai.org
   family-names: McInnes
-  given-names: Will
+  given-names: William
+  orcid: https://orcid.org/0000-0003-3208-6358
   website: https://www.hakai.org/
-- address: 1002 Wharf Street
-  affiliation: Hakai Institute
+- affiliation: Hakai Institute
   city: Campbell River
   country: CA
   email: data@hakai.org
-  family-names: Technology Team
-  given-names: Geospatial
+  family-names: Hakai Geospatial
   website: https://www.hakai.org/
 - city: Campbell River
   country: CA
   email: data@hakai.org
   name: Hakai Institute
   website: https://www.hakai.org/
-date-released: '2024-07-24'
+date-released: '2026-06-02'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -62,13 +62,15 @@ identifiers:
 - description: Metadata record URL
   type: url
   value: https://catalogue.hakai.org/dataset/ca-cioos_656ea307-fed0-48ca-b5d8-1bc017dc52d2
+- description: DOI
+  type: doi
+  value: 10.21966/kn3e-fn08
 - description: Metadata Form used to generate this record
   type: url
   value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUdvcmtQME1NZmdWcDY
-- description: 'Maps and Data: Hakai''s AGOL Instance is the platform for Access and
-    online use of this dataset / reference layer'
+- description: 'Data Access Request Form: Data Access Request Form'
   type: url
-  value: https://drive.google.com/drive/folders/1aSgvM2D1n9dlaRqAjeHP5PdqAw7SWS2h
+  value: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/kn3e-fn08
 keywords:
 - Downloadable Data
 - Drone
@@ -80,6 +82,7 @@ keywords:
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0
 message: If you use this software, please cite it as below
-title: Botanical Beach Drone Mapping - July 2020
+title: Botanical Beach - Juan de Fuca Provincial Park - Drone Mapping
 type: dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_656ea307-fed0-48ca-b5d8-1bc017dc52d2
+version: '1.0'
