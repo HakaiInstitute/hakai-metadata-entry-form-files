@@ -572,7 +572,7 @@
   <mdb:contact>
     <cit:CI_Responsibility>
       <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
       </cit:role>
       <cit:party>
         <cit:CI_Organisation>
@@ -633,7 +633,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-03T19:34:52.195Z</gco:DateTime>
+        <gco:DateTime>2026-06-03T19:38:23.952Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -766,7 +766,7 @@
             </cit:CI_Date>
           </cit:date>
           <cit:edition>
-            <gco:CharacterString>1</gco:CharacterString>
+            <gco:CharacterString>1.0</gco:CharacterString>
           </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
@@ -1751,26 +1751,6 @@
               </cit:name>
               <cit:description>
                 <gco:CharacterString></gco:CharacterString>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://www.ncei.noaa.gov/data/oceans/ncei/ocads/metadata/0209049.html</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>NCEI Accession 0209049</gco:CharacterString>
-              </cit:name>
-              <cit:description>
-                <gco:CharacterString>Dataset is also available on the US National Centers for Environmental Information repository.</gco:CharacterString>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
