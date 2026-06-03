@@ -67,6 +67,7 @@ contact:
     url: https://www.hakai.org/
   roles:
   - distributor
+  - owner
 - inCitation: true
   organization:
     city: Campbell River
@@ -89,13 +90,13 @@ contact:
 distribution:
 - name:
     en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://catalogue.hakai.org/erddap/tabledap/HakaiKCBuoyResearch.html
-- description:
-    en: Dataset is also available on the USA National Centers for Environmental Information
-      repository.
-  name:
-    en: NCEI Accession 0208810
-  url: https://www.ncei.noaa.gov/data/oceans/ncei/ocads/metadata/0208810.html
 identification:
   abstract:
     en: Kwakshua Channel, located near Fitz Hugh Sound on the central coast of British
@@ -123,7 +124,24 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsIdenticalTo
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.25921/8q3v-0k22
+    title:
+      en: Surface seawater and marine boundary layer partial pressure of carbon dioxide
+        (pCO2), temperature and salinity observations made from the Kwakshua Channel
+        (KC) Buoy off the central coast of British Columbia (NCEI Accession 0208810)
+      fr: Observations de la pression partielle de dioxyde de carbone (pCO2), de la
+        température et de la salinité de l'eau de mer de surface et de la couche limite
+        marine effectuées à partir de la bouée du canal Kwakshua (KC) au large de
+        la côte centrale de la Colombie-Britannique (NCEI Accession 0208810)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2018-05-01'
     publication: '2020-09-09'
@@ -165,7 +183,9 @@ identification:
 metadata:
   dates:
     publication: '2021-03-31'
-    revision: '2026-03-17T21:52:15.350Z'
+    revision: '2026-06-03T20:00:39.865Z'
+  history:
+  - scope: Dataset
   identifier: 8b069feb-57fc-4d57-bf5c-761fd7cf0b45
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MVOU3K945DDk7-D-ZfE
