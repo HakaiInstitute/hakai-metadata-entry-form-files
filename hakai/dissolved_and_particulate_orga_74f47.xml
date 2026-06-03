@@ -243,17 +243,75 @@
         <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
       </cit:role>
       <cit:party>
-        <cit:CI_Individual>
+        <cit:CI_Organisation>
           <cit:name>
-            <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+            <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
           </cit:name>
           <cit:contactInfo>
-            <cit:CI_Contact></cit:CI_Contact>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Kispiox</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
           </cit:contactInfo>
-          <cit:positionName>
-            <gco:CharacterString></gco:CharacterString>
-          </cit:positionName>
-        </cit:CI_Individual>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact></cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
   </mdb:contact>
@@ -263,17 +321,75 @@
         <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
       </cit:role>
       <cit:party>
-        <cit:CI_Individual>
+        <cit:CI_Organisation>
           <cit:name>
-            <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+            <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
           </cit:name>
           <cit:contactInfo>
-            <cit:CI_Contact></cit:CI_Contact>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Kispiox</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
           </cit:contactInfo>
-          <cit:positionName>
-            <gco:CharacterString></gco:CharacterString>
-          </cit:positionName>
-        </cit:CI_Individual>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact></cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
   </mdb:contact>
@@ -283,17 +399,75 @@
         <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
       </cit:role>
       <cit:party>
-        <cit:CI_Individual>
+        <cit:CI_Organisation>
           <cit:name>
-            <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+            <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
           </cit:name>
           <cit:contactInfo>
-            <cit:CI_Contact></cit:CI_Contact>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Kispiox</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
           </cit:contactInfo>
-          <cit:positionName>
-            <gco:CharacterString></gco:CharacterString>
-          </cit:positionName>
-        </cit:CI_Individual>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact></cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
   </mdb:contact>
@@ -303,17 +477,75 @@
         <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="originator"/>
       </cit:role>
       <cit:party>
-        <cit:CI_Individual>
+        <cit:CI_Organisation>
           <cit:name>
-            <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+            <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
           </cit:name>
           <cit:contactInfo>
-            <cit:CI_Contact></cit:CI_Contact>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Kispiox</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
           </cit:contactInfo>
-          <cit:positionName>
-            <gco:CharacterString></gco:CharacterString>
-          </cit:positionName>
-        </cit:CI_Individual>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact></cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
   </mdb:contact>
@@ -323,17 +555,75 @@
         <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
       </cit:role>
       <cit:party>
-        <cit:CI_Individual>
+        <cit:CI_Organisation>
           <cit:name>
-            <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+            <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
           </cit:name>
           <cit:contactInfo>
-            <cit:CI_Contact></cit:CI_Contact>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Kispiox</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
           </cit:contactInfo>
-          <cit:positionName>
-            <gco:CharacterString></gco:CharacterString>
-          </cit:positionName>
-        </cit:CI_Individual>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact></cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
   </mdb:contact>
@@ -343,17 +633,75 @@
         <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
       </cit:role>
       <cit:party>
-        <cit:CI_Individual>
+        <cit:CI_Organisation>
           <cit:name>
-            <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+            <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
           </cit:name>
           <cit:contactInfo>
-            <cit:CI_Contact></cit:CI_Contact>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Kispiox</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
           </cit:contactInfo>
-          <cit:positionName>
-            <gco:CharacterString></gco:CharacterString>
-          </cit:positionName>
-        </cit:CI_Individual>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
+          <cit:individual>
+            <cit:CI_Individual>
+              <cit:name>
+                <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+              </cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact></cit:CI_Contact>
+              </cit:contactInfo>
+              <cit:partyIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:partyIdentifier>
+              <cit:positionName>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:positionName>
+            </cit:CI_Individual>
+          </cit:individual>
+        </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
   </mdb:contact>
@@ -418,7 +766,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-03T22:20:23.172Z</gco:DateTime>
+        <gco:DateTime>2026-06-03T22:21:05.909Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -556,17 +904,75 @@
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
               </cit:role>
               <cit:party>
-                <cit:CI_Individual>
+                <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+                    <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
-                    <cit:CI_Contact></cit:CI_Contact>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Kispiox</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
                   </cit:contactInfo>
-                  <cit:positionName>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:positionName>
-                </cit:CI_Individual>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
@@ -576,17 +982,75 @@
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
               </cit:role>
               <cit:party>
-                <cit:CI_Individual>
+                <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+                    <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
-                    <cit:CI_Contact></cit:CI_Contact>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Kispiox</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
                   </cit:contactInfo>
-                  <cit:positionName>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:positionName>
-                </cit:CI_Individual>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
@@ -596,17 +1060,75 @@
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
               </cit:role>
               <cit:party>
-                <cit:CI_Individual>
+                <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+                    <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
-                    <cit:CI_Contact></cit:CI_Contact>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Kispiox</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
                   </cit:contactInfo>
-                  <cit:positionName>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:positionName>
-                </cit:CI_Individual>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
@@ -616,17 +1138,75 @@
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="originator"/>
               </cit:role>
               <cit:party>
-                <cit:CI_Individual>
+                <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+                    <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
-                    <cit:CI_Contact></cit:CI_Contact>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Kispiox</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
                   </cit:contactInfo>
-                  <cit:positionName>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:positionName>
-                </cit:CI_Individual>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
@@ -636,17 +1216,75 @@
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
               </cit:role>
               <cit:party>
-                <cit:CI_Individual>
+                <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+                    <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
-                    <cit:CI_Contact></cit:CI_Contact>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Kispiox</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
                   </cit:contactInfo>
-                  <cit:positionName>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:positionName>
-                </cit:CI_Individual>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
@@ -656,17 +1294,75 @@
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
               </cit:role>
               <cit:party>
-                <cit:CI_Individual>
+                <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+                    <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
-                    <cit:CI_Contact></cit:CI_Contact>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Kispiox</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
                   </cit:contactInfo>
-                  <cit:positionName>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:positionName>
-                </cit:CI_Individual>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
@@ -1793,17 +2489,75 @@ St. Pierre, K.A., Oliver, AA, Tank, S.E., Hunt, B.P.V., Giesbrecht, I., Kellogg,
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
               </cit:role>
               <cit:party>
-                <cit:CI_Individual>
+                <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Oliver, Alison A.</gco:CharacterString>
+                    <gco:CharacterString>Skeena Fisheries Commission</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
-                    <cit:CI_Contact></cit:CI_Contact>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Kispiox</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>http://www.skeenafisheries.ca/</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
                   </cit:contactInfo>
-                  <cit:positionName>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:positionName>
-                </cit:CI_Individual>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://ror.org/00gnm3617</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Oliver, Allison</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-4523-6124</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
           </mrd:distributorContact>
