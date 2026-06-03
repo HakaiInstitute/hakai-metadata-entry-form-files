@@ -802,7 +802,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-02-20T18:56:01.295Z</gco:DateTime>
+        <gco:DateTime>2026-06-03T19:45:32.710Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1878,6 +1878,13 @@
                       <cit:contactInfo>
                         <cit:CI_Contact></cit:CI_Contact>
                       </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0002-7053-4230</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
                       <cit:positionName>
                         <gco:CharacterString></gco:CharacterString>
                       </cit:positionName>
@@ -2345,10 +2352,10 @@
           <mri:name>
             <cit:CI_Citation>
               <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Hakai Institute ERDDAP Dataset</gco:CharacterString>
+                <gco:CharacterString>High-resolution record of surface seawater CO2 content from 2016-08 to 2019-05 from the OceansAlaska Shellfish Hatchery in Ketchikan, Alaska, USA (NCEI Accession 0246099)</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Ensemble de données ERDDAP de l&#39;Institut Hakai</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Enregistrement à haute résolution de la teneur en CO2 de l&#39;eau de mer de surface de 2016-08 à 2019-05 par l&#39;écloserie de mollusques OceansAlaska à Ketchikan, Alaska, États-Unis (NCEI Accession 0246099)</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:title>
@@ -2357,12 +2364,12 @@
                   <mcc:authority>
                     <cit:CI_Citation>
                       <cit:title>
-                        <gco:CharacterString>URL</gco:CharacterString>
+                        <gco:CharacterString>DOI</gco:CharacterString>
                       </cit:title>
                     </cit:CI_Citation>
                   </mcc:authority>
                   <mcc:code>
-                    <gco:CharacterString>https://catalogue.hakai.org/erddap/tabledap/HakaiKetchikanBoLResearch.html</gco:CharacterString>
+                    <gco:CharacterString>https://doi.org/10.25921/kmam-ct93</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
@@ -2487,24 +2494,24 @@
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://www.ncei.noaa.gov/data/oceans/ncei/ocads/metadata/0246099.html</gco:CharacterString>
+                <gco:CharacterString>https://catalogue.hakai.org/erddap/tabledap/HakaiKetchikanBoLResearch.html</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>NCEI Data Submission</gco:CharacterString>
+                <gco:CharacterString>Hakai Institute ERDDAP Dataset</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Soumission de données au NCEI</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Ensemble de données ERDDAP de l&#39;Institut Hakai</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>NCEI Data Submission</gco:CharacterString>
+                <gco:CharacterString>Data from High-resolution time series of surface seawater CO2 published to ERDDAP</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Soumission de données au NCEI</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">Données issues de séries chronologiques à haute résolution sur le CO2 de l&#39;eau de mer de surface publiées auprès de l&#39;ERDDAP</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>

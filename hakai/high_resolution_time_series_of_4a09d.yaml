@@ -53,6 +53,7 @@ contact:
 - inCitation: true
   individual:
     name: Hales, Burke
+    orcid: https://orcid.org/0000-0002-7053-4230
   organization:
     city: Corvallis
     country: United States
@@ -95,22 +96,24 @@ contact:
   - funder
 distribution:
 - description:
-    en: NCEI Data Submission
-    fr: Soumission de données au NCEI
+    en: Data from High-resolution time series of surface seawater CO2 published to
+      ERDDAP
+    fr: Données issues de séries chronologiques à haute résolution sur le CO2 de l'eau
+      de mer de surface publiées auprès de l'ERDDAP
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: NCEI Data Submission
-    fr: Soumission de données au NCEI
+    en: Hakai Institute ERDDAP Dataset
+    fr: Ensemble de données ERDDAP de l'Institut Hakai
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://www.ncei.noaa.gov/data/oceans/ncei/ocads/metadata/0246099.html
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiKetchikanBoLResearch.html
 identification:
   abstract:
     en: This dataset includes measurements of partial pressure of carbon dioxide (pCO2),
@@ -161,11 +164,15 @@ identification:
           verified: false
   - association_type: IsIdenticalTo
     association_type_iso: crossReference
-    authority: URL
-    code: https://catalogue.hakai.org/erddap/tabledap/HakaiKetchikanBoLResearch.html
+    authority: DOI
+    code: https://doi.org/10.25921/kmam-ct93
     title:
-      en: Hakai Institute ERDDAP Dataset
-      fr: Ensemble de données ERDDAP de l'Institut Hakai
+      en: High-resolution record of surface seawater CO2 content from 2016-08 to 2019-05
+        from the OceansAlaska Shellfish Hatchery in Ketchikan, Alaska, USA (NCEI Accession
+        0246099)
+      fr: Enregistrement à haute résolution de la teneur en CO2 de l'eau de mer de
+        surface de 2016-08 à 2019-05 par l'écloserie de mollusques OceansAlaska à
+        Ketchikan, Alaska, États-Unis (NCEI Accession 0246099)
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -218,7 +225,7 @@ identification:
 metadata:
   dates:
     publication: '2023-01-24'
-    revision: '2026-02-20T18:56:01.295Z'
+    revision: '2026-06-03T19:45:32.710Z'
   identifier: 4a09d56b-b120-46c8-9263-ae3c42a02e9b
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-NHZti4Qjk0UuD4Ocz77
