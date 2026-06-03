@@ -92,6 +92,12 @@ contact:
 distribution:
 - name:
     en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://catalogue.hakai.org/erddap/tabledap/HakaiQuadraBoLResearch.html
 - description:
     en: Dataset is also available on the USA National Centers for Environmental Information
@@ -131,12 +137,29 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsIdenticalTo
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.25921/v5j2-x847
+    title:
+      en: High-resolution record of surface seawater carbon dioxide (CO2) content
+        collected from Hakai Institute Quadra Island Field Station in Hyacinthe Bay,
+        British Columbia, Canada from 2014-12-19 to 2025-12-18 (NCEI Accession 0208638)
+      fr: Enregistrement à haute résolution de la teneur en dioxyde de carbone (CO2)
+        de l'eau de mer de surface collecté à la station de terrain de Quadra Island
+        de l'Institut Hakai à Hyacinthe Bay, en Colombie-Britannique, au Canada, du
+        19 décembre 2014 au 18 décembre 2025 (accession NCEI 0208638)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2014-12-19'
     publication: '2020-09-09'
     revision: '2020-12-18'
-  identifier: https://doi.org/10.25921/v5j2-x847
+  identifier: https://doi.org/10.21966/ea8w-bf35
   keywords:
     default:
       en:
@@ -179,7 +202,7 @@ identification:
 metadata:
   dates:
     publication: '2021-03-31'
-    revision: '2026-02-20T19:01:59.549Z'
+    revision: '2026-06-03T18:52:29.056Z'
   identifier: fe76ef4c-254a-44fe-87bc-052cd3aa9663
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MVOSTlh_rgekISRw3Q8
