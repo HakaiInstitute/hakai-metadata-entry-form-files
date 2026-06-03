@@ -429,7 +429,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-05-22T17:30:08.520Z</gco:DateTime>
+        <gco:DateTime>2026-06-03T15:57:37.758Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -531,6 +531,16 @@
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2019-08-13</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
           <cit:date>
             <cit:CI_Date>
               <cit:date>
@@ -1247,8 +1257,8 @@ Consultez les liens pour la documentation méthodologique.</lan:LocalisedCharact
             <gex:EX_TemporalExtent>
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
-                  <gml:beginPosition indeterminatePosition="unknown" />
-                  <gml:endPosition indeterminatePosition="unknown" />
+                  <gml:beginPosition>2019-08-13T19:00:00.000Z</gml:beginPosition>
+                  <gml:endPosition>2019-08-20T19:00:00.000Z</gml:endPosition>
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
@@ -1391,8 +1401,13 @@ Consultez les liens pour la documentation méthodologique.</lan:LocalisedCharact
       </mri:resourceConstraints>
       <mri:resourceConstraints>
         <mco:MD_Constraints>
-          <mco:useLimitation>
+          <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Appropriate credit must be given to Hakai Institute and the authors of the dataset.</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Un crédit approprié doit être accordé à l&#39;Institut Hakai et aux auteurs de l&#39;ensemble de données.</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
