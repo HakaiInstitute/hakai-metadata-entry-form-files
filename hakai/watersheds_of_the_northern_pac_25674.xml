@@ -422,7 +422,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-03T22:34:55.585Z</gco:DateTime>
+        <gco:DateTime>2026-06-03T22:37:34.365Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1040,11 +1040,18 @@
               <cit:party>
                 <cit:CI_Individual>
                   <cit:name>
-                    <gco:CharacterString>Biles, F. E.</gco:CharacterString>
+                    <gco:CharacterString>Biles, Frances</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
                     <cit:CI_Contact></cit:CI_Contact>
                   </cit:contactInfo>
+                  <cit:partyIdentifier>
+                    <mcc:MD_Identifier>
+                      <mcc:code>
+                        <gco:CharacterString>https://orcid.org/0000-0002-7298-2811</gco:CharacterString>
+                      </mcc:code>
+                    </mcc:MD_Identifier>
+                  </cit:partyIdentifier>
                   <cit:positionName>
                     <gco:CharacterString></gco:CharacterString>
                   </cit:positionName>
@@ -1517,13 +1524,18 @@ Référence suggérée : Gonzalez Arriola, S., Giesbrecht, I.J.W., Biles, F.E.,
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Dataset download</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Téléchargement du jeu de données</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Public Access to the dataset file hosted on Hakai&#39;s Google Drive.</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Accès public au fichier de jeu de données hébergé sur Google Drive de Hakai.</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
@@ -1545,8 +1557,13 @@ Référence suggérée : Gonzalez Arriola, S., Giesbrecht, I.J.W., Biles, F.E.,
               <cit:name>
                 <gco:CharacterString>Metadata for Watersheds of the northern Pacific coastal temperate rainforest margin</gco:CharacterString>
               </cit:name>
-              <cit:description>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Full abstract and attribute description for the Watersheds of the northern Pacific coastal temperate rainforest margin dataset.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Résumé complet et description des attributs pour l&#39;ensemble de données sur les bassins versants de la marge de la forêt pluviale tempérée côtière du Pacifique Nord.</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
