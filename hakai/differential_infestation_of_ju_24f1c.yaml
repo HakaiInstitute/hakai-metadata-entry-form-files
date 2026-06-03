@@ -3,13 +3,14 @@ contact:
   individual:
     email: brookson@ualberta.ca
     name: Brookson, Cole
+    orcid: https://orcid.org/0000-0003-1237-4096
   organization:
     city: Edmonton
     country: Canada
     email: brookson@ualberta.ca
     name: University of Alberta
     ror: https://ror.org/0160cpw27
-    url: http://ualberta.ca/
+    url: https://www.ualberta.ca
   roles:
   - author
   - pointOfContact
@@ -96,6 +97,12 @@ contact:
 distribution:
 - name:
     en: Raw data, processed data and code
+    fr: Données brutes, données traitées et code
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://doi.org/10.5281/zenodo.4005400
 identification:
   abstract:
@@ -152,9 +159,20 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
+  - association_type: IsPartOf
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.21966/1.566666
+    title:
+      en: Hakai Institute Juvenile Salmon Program Time Series
+      fr: Série chronologique du programme sur le saumon juvénile de l'Institut Hakai
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     publication: '2020-09-04'
-  identifier: https://doi.org/10.5281/zenodo.4005400
   keywords:
     default:
       en:
@@ -170,17 +188,17 @@ identification:
       - Autre
     taxa:
       en:
-      - Animalia
-      - Chordata
-      - Salmoniformes
       - Salmonidae
+      - Salmoniformes
+      - Chordata
       - Oncorhynchus
+      - Animalia
       fr:
-      - Animalia
-      - Chordata
-      - Salmoniformes
       - Salmonidae
+      - Salmoniformes
+      - Chordata
       - Oncorhynchus
+      - Animalia
   progress_code: completed
   project:
   - Juvenile Salmon Program
@@ -198,7 +216,7 @@ identification:
 metadata:
   dates:
     publication: '2023-03-13'
-    revision: '2025-04-21T22:03:34.225Z'
+    revision: '2026-06-03T18:31:28.807Z'
   identifier: 24f1c230-6c37-470c-907d-25b9b022f5c2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTZDeElXT3dpUFNlOGQ
