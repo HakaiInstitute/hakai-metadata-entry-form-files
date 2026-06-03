@@ -15,7 +15,6 @@ contact:
   - pointOfContact
   - pointOfContact
   - custodian
-  - owner
   - author
 - inCitation: true
   individual:
@@ -38,18 +37,27 @@ contact:
 - inCitation: true
   individual:
     name: Juanes, Francis
+    orcid: https://orcid.org/0000-0001-7397-0014
+  organization:
+    city: Victoria
+    country: Canada
+    name: University of Victoria
+    ror: https://ror.org/04s5mat29
+    url: https://www.uvic.ca
   roles:
   - author
-- inCitation: true
+- inCitation: false
   organization:
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - resourceProvider
   - distributor
-  - publisher
+  - owner
 distribution:
 - name:
     en: Data Download and additional information
@@ -178,7 +186,7 @@ identification:
 metadata:
   dates:
     publication: '2022-02-02'
-    revision: '2026-06-03T16:45:48.119Z'
+    revision: '2026-06-03T16:47:38.816Z'
   identifier: a0ca5d26-b457-4726-97d4-ed0c8dd6cd99
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUoydUo4NEl3VEtGdU0
