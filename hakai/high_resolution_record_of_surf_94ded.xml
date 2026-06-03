@@ -544,7 +544,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-02-20T19:08:09.677Z</gco:DateTime>
+        <gco:DateTime>2026-06-03T16:37:48.354Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -639,13 +639,23 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>High-resolution record of surface seawater CO2 content from August 2016 to August 2017 collected in at the OceansAlaska shellfish hatchery in Ketchikan, Alaska, USA</gco:CharacterString>
+            <gco:CharacterString>High-resolution record of surface seawater CO2 content from August 2016 to August 2017 collected at the OceansAlaska shellfish hatchery in Ketchikan, Alaska, USA</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Enregistrement à haute résolution de la teneur en CO2 de l&#39;eau de mer de surface d&#39;août 2016 à août 2017 recueilli à l&#39;écloserie de coquillages OceansAlaska à Ketchikan, Alaska, États-Unis</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Enregistrement à haute résolution de la teneur en CO2 de l&#39;eau de mer de surface d&#39;août 2016 à août 2017, collecté à l&#39;écloserie de mollusques OceansAlaska à Ketchikan, en Alaska, aux États-Unis</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2016-08-29</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
           <cit:date>
             <cit:CI_Date>
               <cit:date>
@@ -656,6 +666,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -1261,8 +1274,8 @@
             <gex:EX_TemporalExtent>
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
-                  <gml:beginPosition indeterminatePosition="unknown" />
-                  <gml:endPosition indeterminatePosition="unknown" />
+                  <gml:beginPosition>2016-08-29T19:00:00.000Z</gml:beginPosition>
+                  <gml:endPosition>2017-08-02T19:00:00.000Z</gml:endPosition>
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
