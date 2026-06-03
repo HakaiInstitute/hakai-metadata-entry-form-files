@@ -79,22 +79,55 @@ distribution:
 - description:
     en: Archived Version 5.0 Metadata - Hakai Google Drive
     fr: Métadonnées de la version 5.0 archivées - Google Drive
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Data package
+    fr: Package de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/drive/folders/1_8IQSlcZjFl7eNijMoSr2AsJE8aVBcL5
 - description:
     en: Script used to calculate the rating curves
     fr: Script utilisé pour calculer les courbes d'évaluation
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Rating Curve script
+    fr: Script Rating Curve
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://github.com/HakaiInstitute/RatingCurve
 - description:
     en: Script used to calculate the hourly, daily, monthly, and yearly discharge
       rates
     fr: Script utilisé pour calculer les taux de rejet horaires, quotidiens, mensuels
       et annuels
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Discharge editing script
+    fr: Script d'édition des décharges
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://github.com/HakaiInstitute/Discharge-editing
 identification:
   abstract:
@@ -268,7 +301,21 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: References
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.1002/2014WR016532
+    title:
+      en: 'Paper: A novel framework for discharge uncertainty quantification applied
+        to 500 UK gauging stations'
+      fr: 'Article : Un nouveau cadre pour la quantification de l''incertitude de
+        décharge appliqué à 500 stations de jaugeage britanniques'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2013-09-09'
     publication: '2019-12-25'
@@ -311,7 +358,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-25'
-    revision: '2026-06-03T16:21:30.673Z'
+    revision: '2026-06-03T16:24:23.245Z'
   identifier: 5033d8e4-7b58-45b5-86e6-e98e14d1d6b9
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVhmY1RwNHlma250bWg
