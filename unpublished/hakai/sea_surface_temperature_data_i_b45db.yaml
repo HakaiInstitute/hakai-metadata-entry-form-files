@@ -16,7 +16,6 @@ contact:
   - owner
   - author
   - custodian
-  - distributor
 - inCitation: true
   individual:
     email: heather.earle@hakai.org
@@ -34,7 +33,6 @@ contact:
   - custodian
   - coAuthor
   - owner
-  - distributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -54,6 +52,17 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 distribution:
 - description:
     en: Repository containing sea surface temperature data from False Creek
@@ -159,7 +168,7 @@ instruments:
 metadata:
   dates:
     publication: '2024-07-12'
-    revision: '2026-06-05T15:57:15.555Z'
+    revision: '2026-06-05T15:58:43.730Z'
   history:
   - additionalDocumentation:
     - authority: URL
