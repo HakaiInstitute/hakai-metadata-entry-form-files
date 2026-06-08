@@ -14,14 +14,31 @@ contact:
     url: https://www.hakai.org/
   roles:
   - custodian
-  - owner
-  - distributor
   - author
   - pointOfContact
   - principalInvestigator
   - processor
-  - publisher
   - originator
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 distribution:
 - description:
     en: Airborne Coastal Observatory - Fin Island / K'yel metadata report
@@ -107,6 +124,8 @@ identification:
   dates:
     creation: '2020-09-01'
     publication: '2020-10-31'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/q4c4-wx08
   keywords:
     default:
       en:
@@ -137,7 +156,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-01'
-    revision: '2026-06-08T22:46:33.190Z'
+    revision: '2026-06-08T22:47:38.375Z'
   identifier: d2e83e40-9e95-4a47-a899-b37c744be3ab
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-MiNm5cwomXVNI6vWU-R
