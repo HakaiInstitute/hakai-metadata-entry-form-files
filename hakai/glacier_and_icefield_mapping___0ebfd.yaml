@@ -121,6 +121,11 @@ identification:
       \ appareils photo moyen format Phaseone Industrial iXU-RS1000 entièrement intégrés,\
       \ résolution : 100MP, objectif : 50mm f/4.0 Rodenstock.\nCapteur hyperspectral :\
       \ fabricant : Specim, modèle : AisaFenix 384, plage spectrale : 380 - 2500 nm"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     creation: '2019-08-26'
@@ -143,6 +148,8 @@ identification:
       fr:
       - Autre
   progress_code: completed
+  project:
+  - Airborne Coastal Observatory
   status: published
   temporal_begin: '2019-08-26T19:00:00.000Z'
   temporal_end: '2019-10-01T19:00:00.000Z'
@@ -159,7 +166,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-01'
-    revision: '2024-07-23T11:08:55.478Z'
+    revision: '2026-06-09T17:14:44.889Z'
   identifier: 0ebfdd89-61d6-453c-870a-83167617b26a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-MkE_rRkw9irKz8XxrLV
@@ -175,7 +182,43 @@ metadata:
         dataset.
       fr: Les crédits appropriés doivent être accordés au Hakai Institute et aux auteurs
         de l'ensemble de données.
-platform: []
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: Airborne Coastal Observatory – Hakai Institute
+    fr: Observatoire côtier aéroporté — Hakai Institute
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory - Piper Aztec
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  type: research aeroplane
 spatial:
   bbox:
   - -127.4
