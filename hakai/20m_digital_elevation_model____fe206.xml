@@ -1027,7 +1027,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-05-25T19:45:03.783Z</gco:DateTime>
+        <gco:DateTime>2026-06-09T18:10:45.610Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1094,7 +1094,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -1107,7 +1107,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -2525,7 +2525,7 @@
 
 This DEM&#39;s grid is lined up or &#34;snapped&#34; to the raster grid of the Vegetation Canopy Metrics and associated rasters.
 		
-		The resulting DEM is a bare earth, hydro-flattened elevation model and therefore considered &#34;topographically complete&#34;. Each pixel represents the elevation in meters above average sea level of the bare earth at that location. The vertical reference system is &#34;Canadian Geodetic Vertical Datum 1928&#34; (CGVD28). 
+The resulting DEM is a bare earth, hydro-flattened elevation model and therefore considered &#34;topographically complete&#34;. Each pixel represents the elevation in meters above average sea level of the bare earth at that location. The vertical reference system is &#34;Canadian Geodetic Vertical Datum 1928&#34; (CGVD28). 
 
 Hakai has produced DEM&#39;s at different resolutions natively directly from the LiDAR data MTD. Please use the appropriate resolution product from those produced by Hakai for your research purposes. In order to maintain homogeneity, up-sampling / up-scaling from higher resolution products is not recommended as it may introduce and propagate errors of varying magnitudes into the analyses being conducted; please use products already available, and if you require a resolution not available contact data@hakai.org in order to obtain a DEM produced directly from the MTD. 
 
@@ -2552,7 +2552,7 @@ The horizontal coordinate system and datum employed for the terrain dataset is: 
 
 The minimum point spacing defined during terrain dataset building was set to 1.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Ce MNT a été créé à partir du jeu de données de terrain principal (MTD) de Hakai à l&#39;aide de l&#39;outil « MNT to raster » dans ArcGIS for Desktop d&#39;ESRI à l&#39;aide d&#39;une méthode d&#39;échantillonnage Natural Neighbour. Le DEM a été créé nativement à une résolution de 20 m. Ce MNE a été coupé sur le littoral de l&#39;île. Une combinaison de différentes altitudes autour de l&#39;île a été utilisée pour créer le rivage. 
 
 La grille de ce MNT est alignée ou « accrochée » à la grille raster des mesures de la canopée de végétation et des rasters associés.
@@ -2752,6 +2752,16 @@ L&#39;espacement minimal des points défini lors de la création du jeu de donn�
               </cit:title>
             </cit:CI_Citation>
           </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Airborne Coastal Observatory</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>

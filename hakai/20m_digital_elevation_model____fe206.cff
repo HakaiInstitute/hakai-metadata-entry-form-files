@@ -4,29 +4,29 @@ abstract: "This DEM has been created from Hakai's Master Terrain Dataset (MTD) b
   \ resolution. This DEM has been clipped to the shoreline of the island. A combination\
   \ of different elevations around the island have been used to create the shoreline.\
   \ \n\nThis DEM's grid is lined up or \"snapped\" to the raster grid of the Vegetation\
-  \ Canopy Metrics and associated rasters.\n\t\t\n\t\tThe resulting DEM is a bare\
-  \ earth, hydro-flattened elevation model and therefore considered \"topographically\
-  \ complete\". Each pixel represents the elevation in meters above average sea level\
-  \ of the bare earth at that location. The vertical reference system is \"Canadian\
-  \ Geodetic Vertical Datum 1928\" (CGVD28). \n\nHakai has produced DEM's at different\
-  \ resolutions natively directly from the LiDAR data MTD. Please use the appropriate\
-  \ resolution product from those produced by Hakai for your research purposes. In\
-  \ order to maintain homogeneity, up-sampling / up-scaling from higher resolution\
-  \ products is not recommended as it may introduce and propagate errors of varying\
-  \ magnitudes into the analyses being conducted; please use products already available,\
-  \ and if you require a resolution not available contact data@hakai.org in order\
-  \ to obtain a DEM produced directly from the MTD. \n\nThe following Topographically\
-  \ Complete DEMs have been produced natively from the DTM by Hakai: \n\n3m Topographically\
-  \ Complete DEM. This product has been used to produce Hakai's hydrologic datasets\
-  \ (Streams and Watersheds) \n20m Topographically Complete DEM. Compatible with Hakai's\
-  \ Vegetation Canopy Metrics and associated rasters.\n25m Topographically Complete\
-  \ DEM. Compatible with BCGov TRIM data products. \n30m Topographically Complete\
-  \ DEM. Compatible with STRM products.\n\nMaster Terrain Dataset Creation:\n\nLiDAR\
-  \ point clouds from missions flown on 2012 and 2014 over Calvert Island where loaded\
-  \ (XYZ only) into a point feature class in an ESRI Geodatabase. \n\nOnly ground\
-  \ (Class 2) returns where loaded onto the geodatabase.\n\nESRI \u201Cterrain dataset\u201D\
-  \ was created within the same geodatabase using the LiDAR points as embedded masspoints.\n\
-  \nTEM Plus lakes and ponds with average elevation values over the waterbodies\u2019\
+  \ Canopy Metrics and associated rasters.\n\t\t\nThe resulting DEM is a bare earth,\
+  \ hydro-flattened elevation model and therefore considered \"topographically complete\"\
+  . Each pixel represents the elevation in meters above average sea level of the bare\
+  \ earth at that location. The vertical reference system is \"Canadian Geodetic Vertical\
+  \ Datum 1928\" (CGVD28). \n\nHakai has produced DEM's at different resolutions natively\
+  \ directly from the LiDAR data MTD. Please use the appropriate resolution product\
+  \ from those produced by Hakai for your research purposes. In order to maintain\
+  \ homogeneity, up-sampling / up-scaling from higher resolution products is not recommended\
+  \ as it may introduce and propagate errors of varying magnitudes into the analyses\
+  \ being conducted; please use products already available, and if you require a resolution\
+  \ not available contact data@hakai.org in order to obtain a DEM produced directly\
+  \ from the MTD. \n\nThe following Topographically Complete DEMs have been produced\
+  \ natively from the DTM by Hakai: \n\n3m Topographically Complete DEM. This product\
+  \ has been used to produce Hakai's hydrologic datasets (Streams and Watersheds)\
+  \ \n20m Topographically Complete DEM. Compatible with Hakai's Vegetation Canopy\
+  \ Metrics and associated rasters.\n25m Topographically Complete DEM. Compatible\
+  \ with BCGov TRIM data products. \n30m Topographically Complete DEM. Compatible\
+  \ with STRM products.\n\nMaster Terrain Dataset Creation:\n\nLiDAR point clouds\
+  \ from missions flown on 2012 and 2014 over Calvert Island where loaded (XYZ only)\
+  \ into a point feature class in an ESRI Geodatabase. \n\nOnly ground (Class 2) returns\
+  \ where loaded onto the geodatabase.\n\nESRI \u201Cterrain dataset\u201D was created\
+  \ within the same geodatabase using the LiDAR points as embedded masspoints.\n\n\
+  TEM Plus lakes and ponds with average elevation values over the waterbodies\u2019\
   \ mirrors were used as hard replace breaklines to achieve hydro-flattening.\n\n\
   The minimum bounding geometry of all contiguous LAS files\u2019 extents was used\
   \ as a soft clip mask in the creation of the terrain dataset as project boundary.\n\
@@ -72,7 +72,7 @@ contact:
   given-names: Santiago
   orcid: https://orcid.org/0000-0001-8869-5481
   website: https://www.hakai.org
-date-released: '2026-05-25'
+date-released: '2026-06-09'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
