@@ -505,7 +505,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-09T17:41:55.426Z</gco:DateTime>
+        <gco:DateTime>2026-06-09T17:42:01.846Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -991,7 +991,7 @@ Laser sensor: Riegl LMS-Q 780 long-range airborne laser scanner. Point density r
 Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.
 Hyperspectral Sensor: manufacturer: Specim, model: AisaFENIX 384, spectral range: 380 - 2500 nm</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Le groupe de recherche de Brian Menounos à l&#39;UNBC, avec Hakai Geospatial, a volé Lidar et Imagery à l&#39;est de Lillooet pendant 3 jours en 2019 (13 et 22 juillet et 13 août 2019). De nouveaux vols ont été nécessaires en 2020 pour aider à éliminer le bruit des données et la faible densité de points.
 
 Le projet a eu lieu en 2019, puis de nouveau en 2020 pour des vols de retour, dans une zone de 315 km2 à l&#39;est de Lillooet, en Colombie-Britannique.
@@ -1182,6 +1182,16 @@ Capteur hyperspectral : fabricant : Specim, modèle : AisaFenix 384, plage sp
           </mri:thesaurusName>
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Airborne Coastal Observatory</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
           <mco:reference>
@@ -1218,7 +1228,7 @@ Capteur hyperspectral : fabricant : Specim, modèle : AisaFenix 384, plage sp
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Appropriate credit must be given to Hakai Institute and the authors of the dataset.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                 <lan:LocalisedCharacterString locale="#fr">Les crédits appropriés doivent être accordés au Hakai Institute et aux auteurs de l&#39;ensemble de données.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
