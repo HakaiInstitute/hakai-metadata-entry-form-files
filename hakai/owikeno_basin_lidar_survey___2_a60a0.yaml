@@ -142,7 +142,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-01'
-    revision: '2024-07-23T11:08:31.863Z'
+    revision: '2026-06-09T17:30:24.814Z'
   identifier: a60a0468-3f56-4f22-abd4-5268fcfb9744
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-MjBOaZ2eyXo9wQ38kdy
@@ -158,7 +158,38 @@ metadata:
         dataset.
       fr: Les crédits appropriés doivent être accordés au Hakai Institute et aux auteurs
         de l'ensemble de données.
-platform: []
+platform:
+- description:
+    en: Airborne Coastal Observatory – Hakai Institute
+    fr: Observatoire côtier aéroporté — Hakai Institute
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  type: research aeroplane
 spatial:
   bbox:
   - -127.3
