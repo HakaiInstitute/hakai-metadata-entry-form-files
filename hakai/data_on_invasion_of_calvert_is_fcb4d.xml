@@ -630,7 +630,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-09T17:55:33.983Z</gco:DateTime>
+        <gco:DateTime>2026-06-09T17:56:09.677Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -742,6 +742,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -1246,6 +1249,33 @@
       </mri:extent>
       <mri:extent>
         <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_GeographicDescription>
+              <gex:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gex:extentTypeCode>
+              <gex:geographicIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString></gco:CharacterString>
+                  </mcc:code>
+                  <mcc:codeSpace>
+                    <gco:CharacterString>ca.cioos</gco:CharacterString>
+                  </mcc:codeSpace>
+                  <mcc:version>
+                    <gco:CharacterString>1</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>{&#39;en&#39;: &#39;Calvert Island&#39;, &#39;fr&#39;: &#39;Île Calvert&#39;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </gex:geographicIdentifier>
+            </gex:EX_GeographicDescription>
+          </gex:geographicElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
           <gex:verticalElement>
             <gex:EX_VerticalExtent>
               <gex:minimumValue>
@@ -1596,13 +1626,18 @@
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Data</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Données</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Data Package containing among other things supporting information in the form of photographs, maps, museum records, and code for reproducing the analysis and figures for the publication describing and making inferences from these data.</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Ensemble de données contenant, entre autres, des informations complémentaires sous forme de photographies, de cartes, de documents de musée et de code pour reproduire l&#39;analyse et les chiffres de la publication décrivant et faisant des inférences à partir de ces données.</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
