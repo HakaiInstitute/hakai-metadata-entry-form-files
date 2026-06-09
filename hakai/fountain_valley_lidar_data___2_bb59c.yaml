@@ -15,16 +15,6 @@ contact:
   - custodian
   - pointOfContact
   - principalInvestigator
-- inCitation: false
-  organization:
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - owner
-  - distributor
 - inCitation: true
   organization:
     city: Campbell River
@@ -35,6 +25,16 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -172,7 +172,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-01'
-    revision: '2026-06-09T17:41:44.858Z'
+    revision: '2026-06-09T17:41:55.426Z'
   identifier: bb59cb9e-887a-40a3-b41a-f4a5b2263ce6
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-MmUnbGWVNvtiQAsYVPj
@@ -229,4 +229,4 @@ spatial:
   vertical:
   - 0.0
   - 1500.0
-  vertical_positive: heightPositive
+  vertical_positive: depthPositive
