@@ -2,8 +2,7 @@ contact:
 - inCitation: false
   individual:
     email: data@hakai.org
-    name: Geospatial Technology Team
-    position: Geospatial Science
+    name: Hakai Geospatial
   organization:
     city: Campbell River
     country: Canada
@@ -13,35 +12,13 @@ contact:
     url: https://www.hakai.org/
   roles:
   - custodian
-  - owner
-  - distributor
   - pointOfContact
   - principalInvestigator
   - processor
   - editor
   - coAuthor
   - resourceProvider
-- inCitation: true
-  individual:
-    email: data@hakai.org
-    name: Airborne Coastal Observatory
-    position: Lidar / Imagery Survey Team
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - custodian
-  - owner
-  - distributor
   - author
-  - principalInvestigator
-  - editor
-  - pointOfContact
-  - processor
   - originator
 - inCitation: true
   organization:
@@ -52,6 +29,16 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -67,6 +54,11 @@ distribution:
       Group.
     fr: Rapport de métadonnées de base détaillant les spécifications de l'enquête
       2019 du groupe Moore.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Moore Group Metadata Record
   url: https://drive.google.com/file/d/1VIy5Mb9zrmJpqKzWvPAN_OmbAdeyaGhk/view?usp=sharing
@@ -169,7 +161,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-01'
-    revision: '2024-07-23T11:07:35.792Z'
+    revision: '2026-06-10T22:39:11.950Z'
   identifier: c3958106-fc49-44bd-8227-bfc3e8bcb58c
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-Mj6MBp3WwVTVbFK-0kv
@@ -190,7 +182,38 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Airborne Coastal Observatory – Hakai Institute
+    fr: Observatoire côtier aéroporté — Hakai Institute
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory - Piper Aztec
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  type: research aeroplane
 spatial:
   bbox:
   - -129.5
