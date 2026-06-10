@@ -30,6 +30,15 @@ contact:
   roles:
   - processor
   - pointOfContact
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 - inCitation: false
   organization:
     city: Campbell River
@@ -41,15 +50,6 @@ contact:
   roles:
   - resourceProvider
   - distributor
-- inCitation: true
-  organization:
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - publisher
 - inCitation: false
   organization:
     city: Vancouver
@@ -70,6 +70,12 @@ distribution:
         verified: false
   name:
     en: Hakai Geospatial Data Repository
+    fr: Référentiel de données géospatiales Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/file/d/0B-Q2IQtbEgU4UU12ZDRhUXBxUW8/view?usp=sharing&resourcekey=0-u8GPduzlSNwKsJfU3Z9blg
 identification:
   abstract:
@@ -115,6 +121,7 @@ identification:
   dates:
     creation: '2012-08-13'
     publication: '2015-09-22'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/6xx9-1y19
   keywords:
     default:
@@ -150,7 +157,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-21'
-    revision: '2026-06-10T22:21:29.421Z'
+    revision: '2026-06-10T22:22:29.680Z'
   identifier: 1946cc53-6e11-4428-a2c9-43b34e1dcaa1
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWJRYXNXRFlMbURuMjU
