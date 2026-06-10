@@ -1005,7 +1005,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-10T22:17:26.785Z</gco:DateTime>
+        <gco:DateTime>2026-06-10T22:18:21.747Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1117,6 +1117,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
@@ -1633,26 +1636,18 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>Description:
-----------------
-The purpose of this dataset is to monitor the extent and area of Herring Spawn on the Central Coast over the long term. The 2016 herring spawn was sampled by the Hakai Institute Nearshore Ecology team. Spatial information about the location of dives, transects of dives, observations, herring roe deposits, and metadata, were collected with the ESRI Arc Collector mobile application.
+        <gco:CharacterString>The purpose of this dataset is to monitor the extent and area of Herring Spawn on the Central Coast over the long term. The 2016 herring spawn was sampled by the Hakai Institute Nearshore Ecology team. Spatial information about the location of dives, transects of dives, observations, herring roe deposits, and metadata, were collected with the ESRI Arc Collector mobile application.
 
-Brief summary of field work:  
-----------------
 The total length of spawn (extent of shoreline with herring roe), are surveyed using boat-based observations at low tide. The total width of spawn (depth interval covered by herring roe) are determined based on dive surveys. Mapped polygons representing extent of spawn will be created based on average width of spawn x length of spawn.
   
 Length of spawn is best marked at low tide, when boat-based observations can be used to view shoreline coverage of roe deposited on macroalgae (often seen as a band of white fuzz on top of rockweed and small stringy red algal turfs. Binoculars were used to help in viewing the extent of roe coverage from the boat. Notes on spawn density and coverage were kept.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Descriptif :
-—
-Le but de cet ensemble de données est de surveiller l&#39;étendue et la superficie du frai de hareng sur la côte centrale à long terme. La ponte de hareng de 2016 a été échantillonnée par l&#39;équipe d&#39;écologie du littoral de l&#39;Institut Hakai. Des informations spatiales sur l&#39;emplacement des plongées, les transects de plongées, les observations, les dépôts de harengs et les métadonnées ont été collectées avec l&#39;application mobile ESRI Arc Collector.
+            <lan:LocalisedCharacterString locale="#fr">Le but de cet ensemble de données est de surveiller l&#39;étendue et la superficie du frai du hareng sur la côte centrale à long terme. Le frai de hareng de 2016 a été échantillonné par l&#39;équipe d&#39;écologie côtière de l&#39;Institut Hakai. Des informations spatiales sur l&#39;emplacement des plongées, les transects de plongées, les observations, les dépôts de œufs de hareng et les métadonnées ont été collectées à l&#39;aide de l&#39;application mobile ESRI Arc Collector.
 
-Bref résumé des travaux sur le terrain : 
-—
-La longueur totale du frai (étendue du rivage avec des œufs de hareng) est étudiée à l&#39;aide d&#39;observations effectuées par bateau à marée basse. La largeur totale du frai (intervalle de profondeur couvert par les œufs de hareng) est déterminée sur la base de relevés en plongée. Les polygones cartographiés représentant l&#39;étendue de la réapparition seront créés en fonction de la largeur moyenne de la zone de réapparition x la longueur de la zone de réapparition.
+La longueur totale de la ponte (étendue du rivage avec les œufs de hareng) est étudiée à l&#39;aide d&#39;observations en bateau à marée basse. La largeur totale de la ponte (intervalle de profondeur couvert par les œufs de hareng) est déterminée sur la base de relevés en plongée. Des polygones cartographiés représentant l&#39;étendue de l&#39;apparition seront créés en fonction de la largeur moyenne de la zone d&#39;apparition x la longueur de la zone d&#39;apparition.
  
-La longueur du frai est mieux marquée à marée basse, lorsque les observations en bateau peuvent être utilisées pour observer la couverture littorale des œufs déposés sur les macroalgues (souvent vus sous la forme d&#39;une bande de duvet blanc sur le dessus du sébaste et de petits gazons d&#39;algues rouges filandreuses. Des jumelles ont été utilisées pour aider à voir l&#39;étendue de la couverture des œufs depuis le bateau. Des notes sur la densité et la couverture du frai ont été conservées.</lan:LocalisedCharacterString>
+La longueur du frai est mieux indiquée à marée basse, lorsque les observations en bateau peuvent être utilisées pour observer la couverture littorale d&#39;œufs déposés sur les macroalgues (souvent vus sous la forme d&#39;une bande de duvet blanc au-dessus du rockweed) et de petits gazons filandreux d&#39;algues rouges. Des jumelles ont été utilisées pour aider à observer l&#39;étendue de la couverture des œufs depuis le bateau. Les notes sur la densité et la couverture des pontes ont été conservées.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
