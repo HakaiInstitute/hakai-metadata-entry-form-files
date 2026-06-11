@@ -646,7 +646,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-24T18:53:32.287Z</gco:DateTime>
+        <gco:DateTime>2026-06-11T22:28:08.997Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -713,7 +713,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -726,7 +726,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -1603,7 +1603,7 @@
         <gco:CharacterString>The surfgrass length &amp; density dataset is a component of the Hakai Institute’s Nearshore research and monitoring program, designed to capture change in rocky intertidal habitats. ​The overarching objective of Hakai Nearshore research is to investigate the role of habitats and their associated communities, in the face of stress and disturbances from global climate change and local coastal perturbations.​ The structure, health, and coverage of surfgrass beds (Phyllospadix spp.) was surveyed at three sites along the northwestern coast of Calvert Island on the central coast of BC. All three sites were exposed rocky shores with large beds of surfgrass growing in the low intertidal. The beds were surveyed using a point-intercept method with quadrats placed along a single transect. The placement and length of the transect was replicated through time, quadrat placement was not. Various parameters (e.g., average length, shoot density, epiphyte cover) of the surfgrass were assessed at the transect and/or quadrat level. The sites were generally surveyed on a monthly basis from April to September, with winter surveys in November and February. One survey was conducted in 2017, 4 in 2018, and 5 in 2019.
 This data package is freely available to everyone, following the principles of equitable access and benefit sharing. However, we expect all data users to give attribution to the data providers (read our data license) and the use of these data should happen in the light of fair use, i.e.: 1) respect the data providers, and provide helpful feedback on data quality, and 2) communicate and/or collaborate with the providers if you are considering using this dataset for manuscripts or other forms of reporting.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Le jeu de données sur la longueur et la densité de l&#39;herbe de surf est une composante du programme de recherche et de surveillance Nearshore de l&#39;Institut Hakai, conçu pour capturer les changements dans les habitats intertidaux rocheux. L&#39;objectif principal de la recherche Hakai Nearshore est d&#39;étudier le rôle des habitats et de leurs communautés associées, face au stress et aux perturbations dues au changement climatique mondial et aux perturbations côtières locales. La structure, la santé et la couverture des herbiers de surf (Phyllospadix spp.) ont été étudiés à trois sites le long de la côte nord-ouest de l&#39;île Calvert, sur la côte centrale de la Colombie-Britannique. Les trois sites étaient des rives rocheuses exposées avec de grands lits d&#39;herbe de surf poussant dans la zone intertidale basse. Les lits ont été étudiés à l&#39;aide d&#39;une méthode d&#39;interception ponctuelle avec des quadrats placés le long d&#39;un seul transect. Le placement et la longueur du transect ont été reproduits dans le temps, mais pas le placement du quadrat. Divers paramètres (p. ex. longueur moyenne, densité des pousses, couverture épiphyte) de l&#39;herbe de surf ont été évalués au niveau du transect et/ou du quadrat. Les sites ont généralement fait l&#39;objet de relevés mensuels d&#39;avril à septembre, avec des relevés hivernaux en novembre et février. Une enquête a été menée en 2017, 4 en 2018 et 5 en 2019.
 Ce paquet de données est disponible gratuitement pour tous, conformément aux principes d&#39;accès équitable et de partage des avantages. Cependant, nous nous attendons à ce que tous les utilisateurs de données attribuent une attribution aux fournisseurs de données (lisez notre licence de données) et que l&#39;utilisation de ces données se fasse dans le cadre d&#39;une utilisation loyale, c&#39;est-à-dire : 1) respectez les fournisseurs de données et fournissez des commentaires utiles sur la qualité des données, et 2) communiquez et/ou collaborez avec les fournisseurs si vous envisagent d&#39;utiliser cet ensemble de données pour des manuscrits ou d&#39;autres formes de rapport.</lan:LocalisedCharacterString>
           </lan:textGroup>
@@ -1778,6 +1778,16 @@ Ce paquet de données est disponible gratuitement pour tous, conformément aux p
               </cit:title>
             </cit:CI_Citation>
           </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Nearshore</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
       <mri:resourceConstraints>
