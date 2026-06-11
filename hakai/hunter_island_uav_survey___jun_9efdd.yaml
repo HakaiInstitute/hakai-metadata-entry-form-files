@@ -6,12 +6,12 @@ contact:
     position: Geospatial Scientist
   organization:
     address: 1002 Wharf Street
-    city: Victoria
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
-    url: www.hakai.org
+    url: https://www.hakai.org/
   roles:
   - author
   - editor
@@ -23,7 +23,9 @@ contact:
   - custodian
 - inCitation: true
   individual:
-    name: McInnes, Will
+    email: will.mcinnes@hakai.org
+    name: McInnes, William
+    orcid: https://orcid.org/0000-0003-3208-6358
     position: Geospatial Scientist
   organization:
     address: 1002 Wharf Street
@@ -151,7 +153,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-15'
-    revision: '2024-07-23T14:16:02.582Z'
+    revision: '2026-06-11T22:46:09.998Z'
   identifier: 9efdd14d-9fb9-4f0e-9414-d890b4e18055
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVZUbTFmdzRPNkcwVTM
@@ -172,7 +174,37 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Hakai Institute Drone / UAV
+    fr: Drone/UAV de l'Institut Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Phantom 3 Pro UAV
+  instruments:
+  - description:
+      en: 4k RGB camera on a phantom 3 pro DJI drone
+      fr: Caméra RVB 4k sur un drone DJI Phantom 3 pro
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Phantom 3 Pro Drone
+    manufacturer: DJI
+    type:
+      en: Drone / UAV and RGB camera
+      fr: Drone/UAV et caméra RVB
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: 3 Pro
+  type: unmanned aerial vehicle
 spatial:
   bbox:
   - -128.22418212890625
