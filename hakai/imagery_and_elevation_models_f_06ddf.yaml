@@ -19,7 +19,6 @@ contact:
   - pointOfContact
   - principalInvestigator
   - processor
-  - publisher
   - originator
 - inCitation: true
   individual:
@@ -42,7 +41,6 @@ contact:
   - pointOfContact
   - principalInvestigator
   - processor
-  - publisher
   - originator
 - inCitation: true
   individual:
@@ -57,14 +55,8 @@ contact:
     ror: https://ror.org/02pry0c91
     url: www.hakai.org
   roles:
-  - owner
-  - distributor
   - pointOfContact
-- inCitation: true
-  individual:
-    email: data@hakai.org
-    name: Hakai Institute
-    position: Research Organization
+- inCitation: false
   organization:
     address: 1002 Wharf Street
     city: Victoria
@@ -77,8 +69,6 @@ contact:
   - resourceProvider
   - owner
   - distributor
-  - custodian
-  - pointOfContact
 distribution:
 - description:
     en: Metadata report and related project descriptions
@@ -227,7 +217,7 @@ instruments:
 metadata:
   dates:
     publication: '2022-03-15'
-    revision: '2026-06-11T22:39:52.235Z'
+    revision: '2026-06-11T22:40:32.787Z'
   identifier: 06ddfa63-2611-46a5-8d63-c1b576e85bcb
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUlOeGltRExRY2JrcTY
