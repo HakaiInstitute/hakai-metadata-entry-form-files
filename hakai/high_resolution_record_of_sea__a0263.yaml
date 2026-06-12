@@ -1,5 +1,5 @@
 contact:
-- inCitation: false
+- inCitation: true
   individual:
     email: katie.campbell@hakai.org
     name: Campbell, Katie
@@ -16,6 +16,28 @@ contact:
   - pointOfContact
   - custodian
 - inCitation: true
+  individual:
+    email: wiley.evans@hakai.org
+    name: Evans, Wiley
+    orcid: https://orcid.org/0000-0002-5450-0903
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
   organization:
     city: Campbell River
     country: Canada
@@ -27,7 +49,6 @@ contact:
   - resourceProvider
   - distributor
   - owner
-  - publisher
 - inCitation: false
   organization:
     city: Vancouver
@@ -37,6 +58,19 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: true
+  individual:
+    email: alex.hare@hakai.org
+    name: Hare, Alex
+    orcid: https://orcid.org/0000-0002-3800-5830
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
 distribution:
 - description:
     en: Restricted Access Online Data Folder
@@ -129,7 +163,7 @@ identification:
 metadata:
   dates:
     publication: '2022-02-04'
-    revision: '2026-06-12T21:54:07.968Z'
+    revision: '2026-06-12T21:57:42.938Z'
   identifier: a0263680-f0d5-46d5-85ea-483fa58c74b6
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTZ1QmZ1a3ZiZWEwM24
