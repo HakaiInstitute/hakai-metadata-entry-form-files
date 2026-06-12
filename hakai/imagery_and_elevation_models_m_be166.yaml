@@ -2,12 +2,14 @@ contact:
 - inCitation: true
   individual:
     email: data@hakai.org
-    name: Hakai Geospatial Technology Team
+    name: Hakai Geospatial
   organization:
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - pointOfContact
   - pointOfContact
@@ -162,7 +164,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-21'
-    revision: '2024-07-23T14:09:15.462Z'
+    revision: '2026-06-12T21:42:02.932Z'
   identifier: be16603d-e383-4af4-9e93-7a36a086688e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVlwc1pEdzNqdGdOSGM
@@ -183,7 +185,39 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Hakai Institute UAV / Drone
+    fr: Drone de l'Institut Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Phantom 3 Pro Drone
+  instruments:
+  - description:
+      en: Drone and RGB camera used to collect imagery to be made into an orthophoto
+        and digital elevation models of the research sites
+      fr: Drone et caméra RVB utilisés pour collecter des images à transformer en
+        orthophoto et modèles numériques d'élévation des sites de recherche
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Hakai Institute UAV / Drone
+    manufacturer: DJI
+    type:
+      en: UAV / Drone
+      fr: UAV/Drone
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: Phantom 3 Pro
+  type: unmanned aerial vehicle
 spatial:
   bbox:
   - -128.15757751464844
