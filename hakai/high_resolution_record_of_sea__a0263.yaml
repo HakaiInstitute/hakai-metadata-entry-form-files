@@ -1,93 +1,89 @@
 contact:
 - inCitation: false
   individual:
-    email: katie.pocock@hakai.org
-    name: Pocock, Katie
+    email: katie.campbell@hakai.org
+    name: Campbell, Katie
+    orcid: https://orcid.org/0009-0008-7331-2095
   organization:
+    city: Campbell River
     country: Canada
     email: katie.pocock@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - pointOfContact
   - pointOfContact
   - custodian
 - inCitation: true
   organization:
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - resourceProvider
   - distributor
   - owner
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Restricted Access Online Data Folder
   name:
     en: Hakai's Google Drive Folder
+    fr: Dossier Google Drive de Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/drive/u/0/folders/1zTXmCu7oFrt2WqRwXw6y-gOTiOodDYfe?ths=true
-- description:
-    en: Digital Object Identifier for this dataset
-  name:
-    en: 10.21966/1.614670
-  url: http://dx.doi.org/10.21966/1.715729
 identification:
   abstract:
     en: 'The Environment Canada weather mooring at Sentry Shoal in the Northern Strait
-      of
-
-      Georgia provides a platform of opportunity for collection of high frequency
-      biogeochemical
-
-      measurements. From spring to fall in 2015, 2016, and 2017, autonomous sensors
-      were
+      of Georgia provides a platform of opportunity for collection of high frequency
+      biogeochemical measurements. From spring to fall in 2015, 2016, and 2017, autonomous
+      sensors were
 
       deployed on the mooring to collect surface nitrate, temperature and salinity
-      measurements
-
-      every 30 minutes. Nitrate concentration was measured using a Satlantic SUNA
-      (Ultraviolet
-
-      Nitrate Analyzer), temperature and salinity were measured using a SeaBird 37-SMP
+      measurements every 30 minutes. Nitrate concentration was measured using a Satlantic
+      SUNA (Ultraviolet Nitrate Analyzer), temperature and salinity were measured
+      using a SeaBird 37-SMP
 
       MicroCAT. Sensors were deployed each year in the spring and serviced in the
-      field every 2-3
+      field every 2-3 months, following recovery in the fall, sensors were shipped
+      for factory service and calibration.
 
-      months, following recovery in the fall, sensors were shipped for factory service
-      and calibration.
 
       This project was supported by the Tula Foundation and the Pacific Salmon Foundation,
-
       fieldwork was a collaborative effort between the Hakai Institute, and SeaThis
       Consulting.'
-    fr: 'L''amarrage météorologique d''Environnement Canada à Sentry Shoal, dans le
-      détroit du Nord
+    fr: 'Le poste d''amarrage météorologique d''Environnement Canada à Sentry Shoal,
+      dans le nord du détroit de Géorgie, offre une plate-forme permettant de recueillir
+      des mesures biogéochimiques à haute fréquence. Du printemps à l''automne en
+      2015, 2016 et 2017, les capteurs autonomes étaient déployés sur le mouillage
+      pour recueillir des mesures de nitrates de surface, de température et de salinité
+      toutes les 30 minutes. La concentration de nitrate a été mesurée à l''aide d''un
+      Satlantic SUNA (analyseur de nitrate ultraviolet), la température et la salinité
+      ont été mesurées à l''aide d''un SeaBird 37-SMP MicroCat. Les capteurs étaient
+      déployés chaque année au printemps et entretenus sur le terrain tous les 2 à
+      3 mois. Après leur rétablissement à l''automne, les capteurs étaient expédiés
+      pour être entretenus en usine et étalonnés.
 
-      La Géorgie offre une plateforme de collecte de biogéochimiques à haute fréquence
 
-      mesures. Du printemps à l''automne 2015, 2016 et 2017, les capteurs autonomes
-      ont été
-
-      déployé sur le mouillage pour collecter les mesures de nitrate de surface, de
-      température et de salinité
-
-      toutes les 30 minutes. La concentration en nitrate a été mesurée à l''aide d''un
-      SUNA satlantique (ultraviolet)
-
-      Analyseur de nitrate), la température et la salinité ont été mesurées à l''aide
-      d''un SeaBird 37-SMP
-
-      MicroCat. Les capteurs ont été déployés chaque année au printemps et entretenus
-      sur le terrain tous les 2 à 3.
-
-      mois, après la récupération à l''automne, les capteurs ont été expédiés pour
-      le service d''usine et l''étalonnage.
-
-      Ce projet a été soutenu par la Fondation Tula et la Pacific Salmon Foundation,
-
-      le travail sur le terrain était un effort de collaboration entre l''Institut
+      Ce projet a été soutenu par la Tula Foundation et la Pacific Salmon Foundation.
+      Le travail de terrain était le fruit d''une collaboration entre l''Institut
       Hakai et SeaThis Consulting.'
     translations:
       fr:
@@ -131,7 +127,7 @@ identification:
 metadata:
   dates:
     publication: '2022-02-04'
-    revision: '2024-07-23T12:35:38.117Z'
+    revision: '2026-06-12T21:51:57.862Z'
   identifier: a0263680-f0d5-46d5-85ea-483fa58c74b6
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTZ1QmZ1a3ZiZWEwM24
