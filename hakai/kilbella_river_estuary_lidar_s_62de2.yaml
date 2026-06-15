@@ -2,32 +2,7 @@ contact:
 - inCitation: true
   individual:
     email: data@hakai.org
-    name: Technology Team, Geospatial
-    position: Geospatial Science
-  organization:
-    address: 1002 Wharf Street
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - custodian
-  - owner
-  - pointOfContact
-  - principalInvestigator
-  - processor
-  - coAuthor
-  - resourceProvider
-  - publisher
-  - funder
-  - distributor
-- inCitation: true
-  individual:
-    email: data@hakai.org
-    name: Coastal Observatory, Airborne
-    position: Lidar / Imagery Survey Team
+    name: Hakai Geospatial
   organization:
     address: 1002 Wharf Street
     city: Campbell River
@@ -50,13 +25,31 @@ contact:
   organization:
     city: Campbell River
     country: Canada
+    email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
   - publisher
-  - funder
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
   - distributor
+  - owner
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Basic metadata report on the Kilbella River LiDAR data collected.
@@ -176,7 +169,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-01'
-    revision: '2024-07-23T11:07:05.278Z'
+    revision: '2026-06-15T18:35:39.349Z'
   identifier: 62de21ed-90fb-422a-9c55-29c513a00f95
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-Mj6CPeL2BfoPN85rGFk
@@ -197,7 +190,38 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Airborne Coastal Observatory – Hakai Institute
+    fr: Observatoire côtier aéroporté — Hakai Institute
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory - Piper Aztec
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  type: research aeroplane
 spatial:
   bbox:
   - -127.4
