@@ -60,9 +60,6 @@ distribution:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  name:
-    en: Kilbella Estuary Metadata Report
-  url: https://drive.google.com/file/d/1xM4x_Kdy_Nu2eDkG1jHnNWKot5R1J11o/view?usp=sharing
 - description:
     en: Webmap detailing the areas of interest (AOI) for each airborne coastal observatory
       survey area.
@@ -133,7 +130,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/1xM4x_Kdy_Nu2eDkG1jHnNWKot5R1J11o/view?usp=sharing
+    title:
+      en: Kilbella Estuary Metadata Report
+      fr: Rapport sur les métadonnées de l'estuaire de Kilbella
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2019-09-29'
     publication: '2019-10-31'
@@ -169,7 +178,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-01'
-    revision: '2026-06-15T18:35:39.349Z'
+    revision: '2026-06-15T18:35:57.702Z'
   identifier: 62de21ed-90fb-422a-9c55-29c513a00f95
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-Mj6CPeL2BfoPN85rGFk
