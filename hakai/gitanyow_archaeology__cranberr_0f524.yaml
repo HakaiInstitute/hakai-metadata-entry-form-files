@@ -55,6 +55,11 @@ distribution:
 - description:
     en: Metadata for the Gitanyow Archaeology Airborne Coastal Observatory Data
     fr: Métadonnées pour les données de l'Observatoire côtier aéroporté Gitanyow Archéologie
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai Institute Metadata Report
   url: https://drive.google.com/file/d/1RrfiwazD67cyLEIMJU3KAoXKbfBnAj9u/view?usp=sharing
@@ -63,6 +68,11 @@ distribution:
       survey area.
     fr: Carte Web détaillant les zones d'intérêt (AOI) de chaque zone de relevé aéroportée
       de l'observatoire côtier.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai ACO Survey Coverage Webmap
   url: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
@@ -118,11 +128,24 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: HasMetadata
+    association_type_iso: crossReference
+    authority: URL
+    code: https://drive.google.com/file/d/1RrfiwazD67cyLEIMJU3KAoXKbfBnAj9u/view?usp=sharing
+    title:
+      en: Hakai Institute Metadata Report
+      fr: Rapport sur les métadonnées de l'Institut Hakai
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2020-07-30'
     publication: '2021-03-01'
   edition: '1.0'
+  identifier: https://doi.org/10.21966/5rp3-3207
   keywords:
     default:
       en:
@@ -153,7 +176,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-01'
-    revision: '2026-06-15T18:31:02.769Z'
+    revision: '2026-06-15T18:31:41.396Z'
   identifier: 0f524f76-a88b-4e0a-9c3c-ee83114c3679
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-MiNpB5mjvTnWKqOFiq-
