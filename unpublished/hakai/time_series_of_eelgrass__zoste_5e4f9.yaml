@@ -1,0 +1,338 @@
+contact:
+- inCitation: true
+  individual:
+    name: Reshitnyk, Luba
+    orcid: https://orcid.org/0000-0003-0282-724X
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - processor
+  - pointOfContact
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    name: Guyn, Alex
+    orcid: https://orcid.org/0009-0001-3208-4283
+    position: Geospatial analyst
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: keith.holmes@hakai.org
+    name: Holmes, Keith
+    orcid: https://orcid.org/0000-0001-8796-8222
+    position: Geospatial Research Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Mai, Thea
+    position: Geospatial Scientist
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+  - owner
+  - distributor
+  - originator
+  - principalInvestigator
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - owner
+  - distributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Dataset contains a geodatabase of polygon vector features including (1) vector
+      polygon features of the area mapped each year, (2) vector polygon features of
+      the eelgrass meadow extent at each monitoring site and (3) associated metadata
+      documentation (report and data dictionaries).
+    fr: Le jeu de données contient une géodatabase d'entités vectorielles polygonales,
+      y compris (1) les caractéristiques polygonales vectorielles de la zone cartographiée
+      chaque année, (2) les caractéristiques polygonales vectorielles de l'étendue
+      de la prairie de zostère sur chaque site de surveillance et (3) la documentation
+      de métadonnées associée (rapports et dictionnaires de données).
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Dataset -  Time series of eelgrass meadow extent derived from drone surveys,
+      Central Coast, British Columbia
+    fr: Ensemble de données - Série chronologique de l'étendue des prairies de zostères
+      dérivées de relevés effectués par drone, Côte centrale, Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/seagrass-drone-mapping-data
+identification:
+  abstract:
+    en: "This data package represents a time series of eelgrass (*Zostera marina*)\
+      \ meadow extent derived from remotely piloted aerial system (RPAS or drone)\
+      \ surveys, along with relevant metadata. RPAS surveys are conducted annually\
+      \ at long-term monitoring sites on the Central Coast of British Columbia, Canada.\
+      \ These data are collected as part of the Hakai Institute Habitat Mapping Program,\
+      \ whose broader goal is to document and understand long-term trends in eelgrass\
+      \ meadow dynamics and drivers at local, regional, and coast-wide scales. The\
+      \ Hakai Institute started using drones in 2015 as part of this work in order\
+      \ to capture site-level data on eelgrass distribution for long-term ecological\
+      \ research.\n\nDrone surveys are conducted annually during morning low tides\
+      \ (<0.5 m) and collect RGB (red-green-blue) imagery. Eelgrass extent is derived\
+      \ from drone-derived orthomosaics using a combination of object-based image\
+      \ analysis (OBIA) in eCognition Developer 9 and manual delineation in ArcMap\
+      \ (v10.8). Segmentation outputs are classified by a trained analyst and reviewed\
+      \ by a second analyst. A minimum mapping unit of 2 m² for minimum patch size.\
+      \ Areal extent (m²) data are provided as vector features in NAD83 UTM Zone 9N\
+      \ clipped to each site area of interest (AOI) to ensure the same areas are compared\
+      \ over time and then published to a geodatabase.\n\n \nThis data package includes\
+      \ a geodatabase which contains:\n - Polygon vector features of eelgrass meadow\
+      \ extent (.gdb)\n - Polygon vector features of the area of interest (AOI) of\
+      \ each monitoring site (.gdb)\n - A documents (.pdf) which describes site locations,\
+      \ methods for imagery collection, generating orthomosaics, and delineating eelgrass\
+      \ extent\n - A data dictionary (.csv) which describes the attributes of the\
+      \ polygon vector features\n\nThis data package is freely available to everyone,\
+      \ following the principles of equitable access and benefit sharing. However,\
+      \ we expect all data users to give attribution to the data providers (read our\
+      \ data license) and the use of these data should happen in the light of fair\
+      \ use, i.e.: 1) respect the data providers, and provide helpful feedback on\
+      \ data quality, and 2) communicate and/or collaborate with the providers if\
+      \ you are considering using this dataset for manuscripts or other forms of reporting."
+    fr: "Ce paquet de données représente une série chronologique de l'étendue des\
+      \ prairies de zostère marine (*Zostera marina*) dérivée de relevés effectués\
+      \ par des systèmes aériens télépilotés (RPAS ou drone), ainsi que des métadonnées\
+      \ pertinentes. Des relevés RPAS sont effectués chaque année sur des sites de\
+      \ surveillance à long terme sur la côte centrale de la Colombie-Britannique,\
+      \ au Canada. Ces données sont collectées dans le cadre du programme de cartographie\
+      \ de l'habitat de l'Institut Hakai, dont l'objectif général est de documenter\
+      \ et de comprendre les tendances à long terme de la dynamique des prairies de\
+      \ zostère marine et les facteurs déterminants à l'échelle locale, régionale\
+      \ et côtière. L'Institut Hakai a commencé à utiliser des drones en 2015 dans\
+      \ le cadre de ces travaux afin de recueillir des données au niveau du site sur\
+      \ la distribution de la zostère marine pour des recherches écologiques à long\
+      \ terme.\n\nDes relevés par drone sont effectués chaque année pendant les marées\
+      \ basses matinales (<0,5 m) et collectent des images RGB (rouge-vert-bleu).\
+      \ L'étendue de la zostère marine est dérivée d'orthomosaïques dérivées de drones\
+      \ en combinant l'analyse d'images basée sur les objets (OBIA) dans eCognition\
+      \ Developer 9 et la délimitation manuelle dans ArcMap (v10.8). Les résultats\
+      \ de segmentation sont classés par un analyste qualifié et examinés par un deuxième\
+      \ analyste. Une unité cartographique minimale de 2 m² pour une taille de parcelle\
+      \ minimale. Les données d'étendue (m²) sont fournies sous forme d'entités vectorielles\
+      \ dans la zone NAD83 UTM 9N découpées pour chaque zone d'intérêt (AOI) du site\
+      \ afin de garantir que les mêmes zones sont comparées au fil du temps, puis\
+      \ publiées dans une géodatabase.\n\n \nCe package de données inclut une géodatabase\
+      \ qui contient :\n - Caractéristiques vectorielles polygonales de l'étendue\
+      \ de la prairie de zostère marine (.gdb)\n - Caractéristiques vectorielles polygonales\
+      \ de la zone d'intérêt (AOI) de chaque site de surveillance (.gdb)\n - Un document\
+      \ (.pdf) qui décrit l'emplacement des sites, les méthodes de collecte d'images,\
+      \ de génération d'orthomosaïques et de délimitation de l'étendue de la zostère\
+      \ marine\n - Un dictionnaire de données (.csv) qui décrit les attributs des\
+      \ entités vectorielles des polygones\n\nCe paquet de données est accessible\
+      \ gratuitement à tous, conformément aux principes d'accès équitable et de partage\
+      \ des avantages. Cependant, nous attendons de tous les utilisateurs de données\
+      \ qu'ils attribuent les noms aux fournisseurs de données (lisez notre licence\
+      \ de données) et l'utilisation de ces données doit se faire dans le respect\
+      \ d'une utilisation équitable, c'est-à-dire : 1) respecter les fournisseurs\
+      \ de données et fournir des commentaires utiles sur la qualité des données,\
+      \ et 2) communiquer et/ou collaborer avec les fournisseurs si vous envisagez\
+      \ d'utiliser cet ensemble de données pour des manuscrits ou d'autres formes\
+      \ de reporting."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.1002/rse2.98
+    title:
+      en: 'Paper: Mapping with confidence; delineating seagrass habitats using Unoccupied
+        Aerial Systems (UAS)'
+      fr: 'Article : Cartographier en toute confiance ; délimiter les habitats des
+        herbiers marins à l''aide de systèmes aériens inoccupés (UAS)'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.21966/9cbv-ra30
+    title:
+      en: 'Data record: Time series of surface kelp canopy area derived from remotely
+        piloted aerial systems (RPAS, or drone) surveys, Central Coast, British Columbia'
+      fr: 'Enregistrement de données : Série chronologique de la superficie de la
+        canopée de varech dérivée de relevés effectués par des systèmes aériens télépilotés
+        (RPAS ou drones), côte centrale, Colombie-Britannique'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2015-07-01'
+    publication: '2020-12-07'
+    revision: '2026-06-10'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/03pw-2190
+  keywords:
+    default:
+      en:
+      - seagrass
+      - Zostera marina
+      - eelgrass
+      - nearshore
+      - habitat mapping
+      - Central Coast
+      - drone
+      - other
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en:
+      - Alismatales
+      - Plantae
+      - Zostera marina
+      - Tracheophyta
+      - Zosteraceae
+      - Liliopsida
+      - Zostera
+      fr:
+      - Alismatales
+      - Plantae
+      - Zostera marina
+      - Tracheophyta
+      - Zosteraceae
+      - Liliopsida
+      - Zostera
+  progress_code: completed
+  project:
+  - Nearshore
+  - Geospatial
+  status: submitted
+  temporal_begin: '2015-07-01T19:00:00.000Z'
+  title:
+    en: Time series of eelgrass (Zostera marina) meadow extent derived from drone
+      surveys, Central Coast, British Columbia
+    fr: Série chronologique de l'étendue des prairies de zostère marine (Zostera marina)
+      dérivée de relevés effectués par drone, côte centrale, Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2022-03-02'
+    revision: '2026-06-15T22:56:40.176Z'
+  identifier: 5e4f925a-9cf2-4e33-ae22-75c5b326ce6c
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTA3NnQ0NnRiemVLSFU
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.65354407
+  - 51.37817421
+  - -127.69773286
+  - 52.1127963
+  description:
+    en: Central Coast, British Columbia
+    fr: Côte centrale, Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
