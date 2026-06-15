@@ -52,15 +52,6 @@ contact:
   - funder
 distribution:
 - description:
-    en: Basic metadata report on the Kilbella River LiDAR data collected.
-    fr: Rapport de métadonnées de base sur les données LiDAR de la rivière Kilbella
-      collectées.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-- description:
     en: Webmap detailing the areas of interest (AOI) for each airborne coastal observatory
       survey area.
     fr: Carte Web détaillant les zones d'intérêt (AOI) de chaque zone d'observation
@@ -72,6 +63,12 @@ distribution:
         verified: false
   name:
     en: Hakai ACO Survey Coverage Webmap
+    fr: Carte Web de couverture de l'enquête Hakai ACO
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://hakai.maps.arcgis.com/home/webmap/viewer.html?webmap=75ee2603aa5a45068c7e3579796c3aab
 identification:
   abstract:
@@ -178,7 +175,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-01'
-    revision: '2026-06-15T18:35:57.702Z'
+    revision: '2026-06-15T18:36:08.230Z'
   identifier: 62de21ed-90fb-422a-9c55-29c513a00f95
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-Mj6CPeL2BfoPN85rGFk
@@ -240,4 +237,4 @@ spatial:
   vertical:
   - 0.0
   - 50.0
-  vertical_positive: heightPositive
+  vertical_positive: depthPositive
