@@ -89,6 +89,7 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+  - distributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -102,6 +103,11 @@ distribution:
 - description:
     en: 'DOC Daily Load Dataset: Oliver et al. 2017'
     fr: 'Données de charge quotidienne DOC : Oliver et al. 2017'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Data package - part 1
   url: https://drive.google.com/a/hakai.org/file/d/0Byed_WX-ZNMaM3BtUW5KQ2ZtLW8/view?usp=sharing
@@ -186,7 +192,22 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.5194/bg-2017-5
+    title:
+      en: 'Paper: Globally significant yields of dissolved organic carbon from small
+        watersheds of the Pacific coastal temperate rainforest'
+      fr: 'Article : Rendements significatifs à l''échelle mondiale en carbone organique
+        dissous provenant de petits bassins versants de la forêt pluviale tempérée
+        côtière du Pacifique'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2014-10-01'
     publication: '2016-09-14'
@@ -230,7 +251,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-29'
-    revision: '2026-06-15T16:28:25.273Z'
+    revision: '2026-06-15T16:31:44.985Z'
   identifier: 184b2f81-d87f-4615-a026-15b87930d15c
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MW9aOE1zWERKZnFEWm4
