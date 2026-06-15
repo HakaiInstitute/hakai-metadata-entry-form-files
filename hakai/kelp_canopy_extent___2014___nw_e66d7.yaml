@@ -39,6 +39,15 @@ contact:
   - principalInvestigator
   - originator
   - processor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 - inCitation: false
   individual:
     email: data@hakai.org
@@ -53,7 +62,7 @@ contact:
   roles:
   - custodian
   - pointOfContact
-- inCitation: true
+- inCitation: false
   organization:
     city: Campbell River
     country: Canada
@@ -66,8 +75,7 @@ contact:
   - distributor
   - owner
   - custodian
-  - publisher
-- inCitation: true
+- inCitation: false
   organization:
     city: Vancouver
     country: Canada
@@ -82,6 +90,12 @@ distribution:
       reference layer
   name:
     en: Hakai's ArcGIS Online Platform (restricted access)
+    fr: Plateforme ArcGIS Online de Hakai (accès restreint)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: http://hakai.maps.arcgis.com/home/item.html?id=b1d580ccf7b94387b4dc3ee795b3e142
 identification:
   abstract:
@@ -219,7 +233,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-11'
-    revision: '2026-06-15T16:03:29.660Z'
+    revision: '2026-06-15T16:04:19.859Z'
   identifier: e66d7bf7-6ba1-44ed-8ee5-2561fca92164
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXF2YmhqSGJVNjdjYVg
