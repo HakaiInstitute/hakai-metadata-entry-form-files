@@ -21,7 +21,7 @@ contact:
   - originator
   - editor
   - author
-- inCitation: true
+- inCitation: false
   organization:
     city: Campbell River
     country: Canada
@@ -33,8 +33,6 @@ contact:
   - custodian
   - owner
   - distributor
-  - funder
-  - publisher
 - inCitation: true
   individual:
     email: nick.viner@hakai.org
@@ -54,6 +52,24 @@ contact:
   - editor
   - principalInvestigator
   - processor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Online form for requesting access to particular datasets owned by Hakai
@@ -142,7 +158,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-03'
-    revision: '2026-06-15T16:57:31.486Z'
+    revision: '2026-06-15T16:58:00.694Z'
   identifier: e2d3d616-9ee2-451f-8584-14801b4c6fd0
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTlsYnhwcFE5NFpnejQ
