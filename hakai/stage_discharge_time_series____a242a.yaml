@@ -2,7 +2,7 @@ contact:
 - inCitation: false
   individual:
     email: data@hakai.org
-    name: Hakai Geospatial Technology Team
+    name: Hakai Geospatial
   organization:
     city: Campbell River
     country: Canada
@@ -16,7 +16,8 @@ contact:
   - custodian
 - inCitation: true
   individual:
-    name: Korver, Maartje
+    name: Korver, Maartje C.
+    orcid: https://orcid.org/0000-0003-1062-4864
   organization:
     country: Canada
     name: Hakai Institute
@@ -57,6 +58,11 @@ distribution:
       for access.
     fr: Les données de la feuille de calcul des congés sont stockées dans le Google
       Drive de Hakai. Contactez data@hakai.org pour y accéder.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Hakai's Google Drive (restricted access)
   url: https://drive.google.com/a/hakai.org/folderview?id=0Byed_WX-ZNMaYWdqSTVzU3YyVEE&usp=sharing
@@ -158,6 +164,8 @@ identification:
   dates:
     creation: '2014-08-01'
     publication: '2016-02-19'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/x6q2-me90
   keywords:
     default:
       en:
@@ -194,10 +202,30 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
+instruments:
+- description:
+    en: EC sensor - salt dump stream flow system
+    fr: Capteur EC - système de débit de décharge de sel
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: EC sensor
+  manufacturer: EC sensor
+  type:
+    en: EC sensor
+    fr: capteur EC
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  version: '1'
 metadata:
   dates:
     publication: '2022-03-29'
-    revision: '2024-12-05T18:03:40.882Z'
+    revision: '2026-06-15T16:44:10.890Z'
   identifier: a242acd4-e3c7-46e0-8f43-f428fb824018
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUpNR0VhOVRlU210cDI
@@ -218,7 +246,6 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
 spatial:
   bbox:
   - -128.13217163085935
