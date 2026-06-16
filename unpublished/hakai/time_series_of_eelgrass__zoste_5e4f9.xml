@@ -936,7 +936,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-16T15:40:55.916Z</gco:DateTime>
+        <gco:DateTime>2026-06-16T15:43:56.649Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1750,7 +1750,7 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
         <gco:CharacterString></gco:CharacterString>
       </mri:credit>
       <mri:status>
-        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="completed"></mcc:MD_ProgressCode>
+        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="onGoing"></mcc:MD_ProgressCode>
       </mri:status>
       <mri:topicCategory>
         <mri:MD_TopicCategoryCode>oceans</mri:MD_TopicCategoryCode>
@@ -1850,7 +1850,7 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
                   <gml:beginPosition>2015-07-01T19:00:00.000Z</gml:beginPosition>
-                  <gml:endPosition indeterminatePosition="unknown" />
+                  <gml:endPosition indeterminatePosition="now" />
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
@@ -1932,12 +1932,12 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>other</gco:CharacterString>
+            <gco:CharacterString>seagrassCoverAndComposition</gco:CharacterString>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Autre</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Composition et couverture des herbiers marins</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
