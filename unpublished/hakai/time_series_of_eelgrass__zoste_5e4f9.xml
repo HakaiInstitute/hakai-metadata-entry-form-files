@@ -936,7 +936,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-15T22:56:40.176Z</gco:DateTime>
+        <gco:DateTime>2026-06-16T15:40:55.916Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1721,7 +1721,6 @@
         <gco:CharacterString>This data package represents a time series of eelgrass (*Zostera marina*) meadow extent derived from remotely piloted aerial system (RPAS or drone) surveys, along with relevant metadata. RPAS surveys are conducted annually at long-term monitoring sites on the Central Coast of British Columbia, Canada. These data are collected as part of the Hakai Institute Habitat Mapping Program, whose broader goal is to document and understand long-term trends in eelgrass meadow dynamics and drivers at local, regional, and coast-wide scales. The Hakai Institute started using drones in 2015 as part of this work in order to capture site-level data on eelgrass distribution for long-term ecological research.
 
 Drone surveys are conducted annually during morning low tides (&lt;0.5 m) and collect RGB (red-green-blue) imagery. Eelgrass extent is derived from drone-derived orthomosaics using a combination of object-based image analysis (OBIA) in eCognition Developer 9 and manual delineation in ArcMap (v10.8). Segmentation outputs are classified by a trained analyst and reviewed by a second analyst. A minimum mapping unit of 2 m² for minimum patch size. Areal extent (m²) data are provided as vector features in NAD83 UTM Zone 9N clipped to each site area of interest (AOI) to ensure the same areas are compared over time and then published to a geodatabase.
-
  
 This data package includes a geodatabase which contains:
  - Polygon vector features of eelgrass meadow extent (.gdb)
