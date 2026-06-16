@@ -146,7 +146,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsPartOf
+    association_type_iso: largerWorkCitation
+    authority: URL
+    code: https://gemprogram.org/
+    title:
+      en: 'Website: Global Eutrophical Monitoring Program'
+      fr: 'Site Web : Programme mondial de surveillance de l''eutrophie'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   edition: '1.0'
   identifier: https://doi.org/10.21966/nrrn-rr63
   keywords:
@@ -175,6 +187,8 @@ identification:
       - Salinité sous la surface
       - Salinité de surface
   progress_code: onGoing
+  project:
+  - Oceanography
   status: submitted
   title:
     en: GEM dataset Trinidad and Tobago
@@ -186,7 +200,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-03-31T19:46:32.446Z'
+    revision: '2026-06-16T16:41:13.853Z'
   identifier: 741bd412-6387-4dcd-8d61-7046b949f406
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/P3VNaxsDaISmZcvgBvJIKlt634d2/-Op0_nycnfen8FFkS3Ti

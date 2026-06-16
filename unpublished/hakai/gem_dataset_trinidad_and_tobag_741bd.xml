@@ -730,7 +730,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-03-31T19:46:32.446Z</gco:DateTime>
+        <gco:DateTime>2026-06-16T16:41:13.853Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1811,6 +1811,16 @@
           </mri:thesaurusName>
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Oceanography</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
           <mco:reference>
@@ -1854,6 +1864,39 @@
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Website: Global Eutrophical Monitoring Program</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Site Web : Programme mondial de surveillance de l&#39;eutrophie</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>URL</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://gemprogram.org/</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
