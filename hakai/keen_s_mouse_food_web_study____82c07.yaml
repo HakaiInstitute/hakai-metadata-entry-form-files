@@ -83,9 +83,24 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.1002/ece3.8225
+    title:
+      en: 'Paper: Marine subsidy promotes spatial and dietary niche variation in an
+        omnivore, the Keen’s mouse (Peromyscus keeni)'
+      fr: 'Article : Une subvention marine favorise la variation des niches spatiales
+        et alimentaires chez un omnivore, la souris de Keen (Peromyscus keeni)'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     publication: '2020-12-25'
+  identifier: https://doi.org/10.21966/4sr8-z091
   keywords:
     default:
       en:
@@ -135,7 +150,7 @@ identification:
 metadata:
   dates:
     publication: '2021-09-23'
-    revision: '2026-06-22T20:12:48.464Z'
+    revision: '2026-06-22T20:15:45.999Z'
   identifier: 82c07005-9313-436c-9239-7be3f5907be2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXd3YjlIenphTEJNQXU
