@@ -312,7 +312,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-12T21:19:58.515Z</gco:DateTime>
+        <gco:DateTime>2026-06-22T18:59:10.903Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -407,10 +407,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Pruth Bay Oceanographic Mooring on Calvert Island Provisional</gco:CharacterString>
+            <gco:CharacterString>Pruth Bay Oceanographic Mooring on Calvert Island (Provisional)</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Mouillage océanographique de la baie Pruth sur l&#39;île Calvert, provisoires</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Amarrage océanographique de Pruth Bay sur l&#39;île Calvert (provisoire)</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -625,7 +625,7 @@ Ce jeu de données présente le jeu de données provisoire qui a été automatiq
         <gco:CharacterString></gco:CharacterString>
       </mri:credit>
       <mri:status>
-        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="onGoing"></mcc:MD_ProgressCode>
+        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="tentative"></mcc:MD_ProgressCode>
       </mri:status>
       <mri:topicCategory>
         <mri:MD_TopicCategoryCode>oceans</mri:MD_TopicCategoryCode>
@@ -698,7 +698,7 @@ Ce jeu de données présente le jeu de données provisoire qui a été automatiq
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
                   <gml:beginPosition>2017-12-04T20:00:00.000Z</gml:beginPosition>
-                  <gml:endPosition indeterminatePosition="now" />
+                  <gml:endPosition indeterminatePosition="unknown" />
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
