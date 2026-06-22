@@ -3,20 +3,19 @@ abstract: "This DEM has been created from Hakai's Master Terrain Dataset (MTD) b
   \ a Natural Neighbour sampling method. The DEM has been natively created at 30m\
   \ resolution. This DEM has been clipped to the shoreline of the island. A combination\
   \ of different elevations around the island have been used to create the shoreline.\
-  \ \n\t\t\n\t\tThe resulting DEM is a bare earth, hydro-flattened elevation model\
-  \ and therefore considered \"topographically complete\". Each pixel represents the\
-  \ elevation in meters above average sea level of the bare earth at that location.\
-  \ The vertical reference system is \"Canadian Geodetic Vertical Datum 1928\" (CGVD28).\
-  \ \n\nHakai has produced DEM's at different resolutions natively directly from the\
-  \ LiDAR data MTD. Please use the appropriate resolution product from those produced\
-  \ by Hakai for your research purposes. In order to maintain homogeneity, up-sampling\
-  \ / up-scaling from higher resolution products is not recommended as it may introduce\
-  \ and propagate errors of varying magnitudes into the analyses being conducted;\
-  \ please use products already available, and if you require a resolution not available\
-  \ contact data@hakai.org in order to obtain a DEM produced directly from the MTD.\
-  \ \n\nMaster Terrain Dataset Creation:\n\nLiDAR point clouds from missions flown\
-  \ on 2012 and 2014 over Calvert Island where loaded (XYZ only) into a point feature\
-  \ class in an ESRI Geodatabase."
+  \ \n\nThe resulting DEM is a bare earth, hydro-flattened elevation model and therefore\
+  \ considered \"topographically complete\". Each pixel represents the elevation in\
+  \ meters above average sea level of the bare earth at that location. The vertical\
+  \ reference system is \"Canadian Geodetic Vertical Datum 1928\" (CGVD28). \n\nHakai\
+  \ has produced DEM's at different resolutions natively directly from the LiDAR data\
+  \ MTD. Please use the appropriate resolution product from those produced by Hakai\
+  \ for your research purposes. In order to maintain homogeneity, up-sampling / up-scaling\
+  \ from higher resolution products is not recommended as it may introduce and propagate\
+  \ errors of varying magnitudes into the analyses being conducted; please use products\
+  \ already available, and if you require a resolution not available contact data@hakai.org\
+  \ in order to obtain a DEM produced directly from the MTD. \n\nMaster Terrain Dataset\
+  \ Creation:\n\nLiDAR point clouds from missions flown on 2012 and 2014 over Calvert\
+  \ Island where loaded (XYZ only) into a point feature class in an ESRI Geodatabase."
 authors:
 - affiliation: Hakai Institute
   city: Campbell River
