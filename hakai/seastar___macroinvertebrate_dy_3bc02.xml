@@ -1829,7 +1829,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-11-29T18:29:47.730Z</gco:DateTime>
+        <gco:DateTime>2026-06-22T19:29:57.442Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1896,7 +1896,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -1909,7 +1909,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -3110,19 +3110,19 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>Animalia</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Echinodermata</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
             <gco:CharacterString>Asteroidea</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Forcipulatida</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Asteriidae</gco:CharacterString>
+            <gco:CharacterString>Polyplacophora</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Echinodermata</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Katharina tunicata</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Pisaster</gco:CharacterString>
@@ -3131,39 +3131,22 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
             <gco:CharacterString>Pisaster ochraceus</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Animalia</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Mollusca</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Polyplacophora</gco:CharacterString>
+            <gco:CharacterString>Mopaliidae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Chitonida</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Mopaliidae</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
             <gco:CharacterString>Katharina</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Katharina tunicata</gco:CharacterString>
+            <gco:CharacterString>Mollusca</gco:CharacterString>
           </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Animalia</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
+          <mri:keyword>
+            <gco:CharacterString>Animalia</gco:CharacterString>
           </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Echinodermata</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
+          <mri:keyword>
+            <gco:CharacterString>Asteriidae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
@@ -3182,7 +3165,21 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Asteriidae</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Polyplacophora</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Echinodermata</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Katharina tunicata</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -3203,21 +3200,7 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Animalia</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Mollusca</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Polyplacophora</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Mopaliidae</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -3231,13 +3214,6 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Mopaliidae</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Katharina</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -3245,7 +3221,21 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Katharina tunicata</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Mollusca</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Animalia</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Asteriidae</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -3306,6 +3296,39 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Seastar &amp; Macroinvertebrate Dynamics - BC Central Coast - 2016-2017</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Dynamique des étoiles de mer et des macroinvertébrés - Côte centrale de la Colombie-Britannique - 2016-2017</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.21966/7RX8-DK31</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="series"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>

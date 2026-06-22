@@ -375,7 +375,20 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: Continues
+    association_type_iso: series
+    authority: DOI
+    code: https://doi.org/10.21966/7RX8-DK31
+    title:
+      en: Seastar & Macroinvertebrate Dynamics - BC Central Coast - 2016-2017
+      fr: Dynamique des étoiles de mer et des macroinvertébrés - Côte centrale de
+        la Colombie-Britannique - 2016-2017
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2016-06-23'
     publication: '2022-01-13'
@@ -405,35 +418,33 @@ identification:
       - Abondance et distribution d'invertébrés
     taxa:
       en:
-      - Animalia
-      - Echinodermata
       - Asteroidea
       - Forcipulatida
-      - Asteriidae
+      - Polyplacophora
+      - Echinodermata
+      - Katharina tunicata
       - Pisaster
       - Pisaster ochraceus
-      - Animalia
-      - Mollusca
-      - Polyplacophora
-      - Chitonida
       - Mopaliidae
+      - Chitonida
       - Katharina
-      - Katharina tunicata
+      - Mollusca
+      - Animalia
+      - Asteriidae
       fr:
-      - Animalia
-      - Echinodermata
       - Asteroidea
       - Forcipulatida
-      - Asteriidae
+      - Polyplacophora
+      - Echinodermata
+      - Katharina tunicata
       - Pisaster
       - Pisaster ochraceus
-      - Animalia
-      - Mollusca
-      - Polyplacophora
-      - Chitonida
       - Mopaliidae
+      - Chitonida
       - Katharina
-      - Katharina tunicata
+      - Mollusca
+      - Animalia
+      - Asteriidae
   progress_code: onGoing
   project:
   - Nearshore
@@ -451,7 +462,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-13'
-    revision: '2024-11-29T18:29:47.730Z'
+    revision: '2026-06-22T19:29:57.442Z'
   identifier: 3bc02dd8-7654-44f0-8c7c-02739937bdf4
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MopDTzbqRUp1a4M25L6
