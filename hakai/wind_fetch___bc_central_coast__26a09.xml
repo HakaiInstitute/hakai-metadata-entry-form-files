@@ -944,7 +944,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-22T20:31:15.662Z</gco:DateTime>
+        <gco:DateTime>2026-06-22T20:32:10.041Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1056,6 +1056,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
@@ -1576,6 +1579,7 @@
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>The wind fetch model provides information on the run-up distance and exposure for an area based on mean 2018 wind data collected from the Hakai Institute &#34;Lookout Hill&#34; weather station. The raster model has a spatial resolution of 100 meters and more models have been developed closer to NW Calvert Island at 5 meter resolution. The fetch model was created using the USGS &#34;Wave&#34; tool plugin in ARC GIS. Created by Hakai Institute geospatial technology researcher Keith Holmes.
+
 Wind fetch tool:
 Application of Wind Fetch and Wave Models for Habitat Rehabilitation and Enhancement Projects - 2012 Update
 By Jason Rohweder, James T. Rogala, Barry L. Johnson, Dennis Anderson, Steve Clark, Ferris Chamberlin, David Potter, and Kip Runyon
@@ -1585,14 +1589,15 @@ Weighted Wind Data
 The data for the fetch analysis was gathered by the Hakai Sensor Network using an RM Young anemometer (05103). Wind direction samples are taken every 5 seconds and then averaged into a single 5 minute reading. These 5 minute readings were downloaded into an excel file with a timestamp for each reading. A simple table was then generated with the proportion of wind measurements at Lookout (adding to 100 percent) in each 15 degree intervals for the selected time periods.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Le modèle de récupération du vent fournit des informations sur la distance de montée et l&#39;exposition pour une zone basée sur les données de vent moyen de 2018 collectées à partir de la station météorologique « Lookout Hill » de l&#39;Institut Hakai. Le modèle raster a une résolution spatiale de 100 mètres et d&#39;autres modèles ont été développés plus près de NW Calvert Island à une résolution de 5 mètres. Le modèle de récupération a été créé à l&#39;aide du greffon d&#39;outil « Wave » de l&#39;USGS dans ARC GIS. Créé par Keith Holmes, chercheur en technologie géospatiale de l&#39;Institut Hakai.
-Outil de récupération du vent :
-Application des modèles de vents et de vagues pour les projets de remise en état et d&#39;amélioration de l&#39;habitat - Mise à jour 2012
+            <lan:LocalisedCharacterString locale="#fr">Le modèle d&#39;extraction du vent fournit des informations sur la distance de montée et l&#39;exposition d&#39;une zone sur la base des données de vent moyennes de 2018 collectées par la station météorologique « Lookout Hill » de l&#39;Institut Hakai. Le modèle matriciel a une résolution spatiale de 100 mètres et d&#39;autres modèles ont été développés plus près du nord-ouest de l&#39;île Calvert à une résolution de 5 mètres. Le modèle de récupération a été créé à l&#39;aide du plug-in de l&#39;outil USGS « Wave » dans ARC GIS. Créé par Keith Holmes, chercheur en technologie géospatiale à l&#39;Institut Hakai.
+
+Outil Wind Fetch :
+Application des modèles d&#39;extraction du vent et des vagues pour les projets de remise en état et d&#39;amélioration de l&#39;habitat - Mise à jour 2012
 Par Jason Rohweder, James T. Rogala, Barry L. Johnson, Dennis Anderson, Steve Clark, Ferris Chamberlin, David Potter et Kip Runyon
 https://umesc.usgs.gov/management/dss/wind_fetch_wave_models_2012update.html
 
-Données pondérées sur 
-Les données pour l&#39;analyse de fetch ont été recueillies par le Hakai Sensor Network à l&#39;aide d&#39;un anémomètre RM Young (05103). Des échantillons de direction du vent sont prélevés toutes les 5 secondes puis moyennés en une seule mesure de 5 minutes. Ces lectures de 5 minutes ont été téléchargées dans un fichier Excel avec un horodatage pour chaque lecture. Un tableau simple a ensuite été généré avec la proportion de mesures de vent à Lookout (augmentation de 100 %) dans chaque intervalle de 15 degrés pour les périodes sélectionnées.</lan:LocalisedCharacterString>
+Données de vent pondérées 
+Les données pour l&#39;analyse de récupération ont été recueillies par le réseau de capteurs Hakai à l&#39;aide d&#39;un anémomètre RM Young (05103). Des échantillons de direction du vent sont prélevés toutes les 5 secondes, puis moyennés en une seule mesure de 5 minutes. Ces lectures de 5 minutes ont été téléchargées dans un fichier Excel avec un horodatage pour chaque lecture. Un tableau simple a ensuite été généré avec la proportion de mesures du vent à Lookout (en ajoutant 100 %) à chaque intervalle de 15 degrés pour les périodes sélectionnées.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -1911,13 +1916,18 @@ Les données pour l&#39;analyse de fetch ont été recueillies par le Hakai Sens
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>2018 wind fetch data download and metadata</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Téléchargement des données et métadonnées de Wind Fetch 2018</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>link to download the raster dataset and view a metadata readme file.</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">pour télécharger le jeu de données raster et afficher un fichier Lisez-moi de métadonnées.</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>

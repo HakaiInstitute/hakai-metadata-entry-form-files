@@ -64,8 +64,19 @@ distribution:
     en: link to download the raster dataset and view a metadata readme file.
     fr: pour télécharger le jeu de données raster et afficher un fichier Lisez-moi
       de métadonnées.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: 2018 wind fetch data download and metadata
+    fr: Téléchargement des données et métadonnées de Wind Fetch 2018
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/drive/folders/1zk726awG7x01OR9O18gQ3vGX_xbw4A6I?usp=sharing
 identification:
   abstract:
@@ -75,7 +86,7 @@ identification:
       \ of 100 meters and more models have been developed closer to NW Calvert Island\
       \ at 5 meter resolution. The fetch model was created using the USGS \"Wave\"\
       \ tool plugin in ARC GIS. Created by Hakai Institute geospatial technology researcher\
-      \ Keith Holmes.\nWind fetch tool:\nApplication of Wind Fetch and Wave Models\
+      \ Keith Holmes.\n\nWind fetch tool:\nApplication of Wind Fetch and Wave Models\
       \ for Habitat Rehabilitation and Enhancement Projects - 2012 Update\nBy Jason\
       \ Rohweder, James T. Rogala, Barry L. Johnson, Dennis Anderson, Steve Clark,\
       \ Ferris Chamberlin, David Potter, and Kip Runyon\nhttps://umesc.usgs.gov/management/dss/wind_fetch_wave_models_2012update.html\n\
@@ -86,26 +97,26 @@ identification:
       \ for each reading. A simple table was then generated with the proportion of\
       \ wind measurements at Lookout (adding to 100 percent) in each 15 degree intervals\
       \ for the selected time periods."
-    fr: "Le modèle de récupération du vent fournit des informations sur la distance\
-      \ de montée et l'exposition pour une zone basée sur les données de vent moyen\
-      \ de 2018 collectées à partir de la station météorologique « Lookout Hill »\
-      \ de l'Institut Hakai. Le modèle raster a une résolution spatiale de 100 mètres\
-      \ et d'autres modèles ont été développés plus près de NW Calvert Island à une\
-      \ résolution de 5 mètres. Le modèle de récupération a été créé à l'aide du greffon\
-      \ d'outil « Wave » de l'USGS dans ARC GIS. Créé par Keith Holmes, chercheur\
-      \ en technologie géospatiale de l'Institut Hakai.\nOutil de récupération du\
-      \ vent :\nApplication des modèles de vents et de vagues pour les projets de\
-      \ remise en état et d'amélioration de l'habitat - Mise à jour 2012\nPar Jason\
-      \ Rohweder, James T. Rogala, Barry L. Johnson, Dennis Anderson, Steve Clark,\
-      \ Ferris Chamberlin, David Potter et Kip Runyon\nhttps://umesc.usgs.gov/management/dss/wind_fetch_wave_models_2012update.html\n\
-      \nDonnées pondérées sur \nLes données pour l'analyse de fetch ont été recueillies\
-      \ par le Hakai Sensor Network à l'aide d'un anémomètre RM Young (05103). Des\
-      \ échantillons de direction du vent sont prélevés toutes les 5 secondes puis\
-      \ moyennés en une seule mesure de 5 minutes. Ces lectures de 5 minutes ont été\
-      \ téléchargées dans un fichier Excel avec un horodatage pour chaque lecture.\
-      \ Un tableau simple a ensuite été généré avec la proportion de mesures de vent\
-      \ à Lookout (augmentation de 100 %) dans chaque intervalle de 15 degrés pour\
-      \ les périodes sélectionnées."
+    fr: "Le modèle d'extraction du vent fournit des informations sur la distance de\
+      \ montée et l'exposition d'une zone sur la base des données de vent moyennes\
+      \ de 2018 collectées par la station météorologique « Lookout Hill » de l'Institut\
+      \ Hakai. Le modèle matriciel a une résolution spatiale de 100 mètres et d'autres\
+      \ modèles ont été développés plus près du nord-ouest de l'île Calvert à une\
+      \ résolution de 5 mètres. Le modèle de récupération a été créé à l'aide du plug-in\
+      \ de l'outil USGS « Wave » dans ARC GIS. Créé par Keith Holmes, chercheur en\
+      \ technologie géospatiale à l'Institut Hakai.\n\nOutil Wind Fetch :\nApplication\
+      \ des modèles d'extraction du vent et des vagues pour les projets de remise\
+      \ en état et d'amélioration de l'habitat - Mise à jour 2012\nPar Jason Rohweder,\
+      \ James T. Rogala, Barry L. Johnson, Dennis Anderson, Steve Clark, Ferris Chamberlin,\
+      \ David Potter et Kip Runyon\nhttps://umesc.usgs.gov/management/dss/wind_fetch_wave_models_2012update.html\n\
+      \nDonnées de vent pondérées \nLes données pour l'analyse de récupération ont\
+      \ été recueillies par le réseau de capteurs Hakai à l'aide d'un anémomètre RM\
+      \ Young (05103). Des échantillons de direction du vent sont prélevés toutes\
+      \ les 5 secondes, puis moyennés en une seule mesure de 5 minutes. Ces lectures\
+      \ de 5 minutes ont été téléchargées dans un fichier Excel avec un horodatage\
+      \ pour chaque lecture. Un tableau simple a ensuite été généré avec la proportion\
+      \ de mesures du vent à Lookout (en ajoutant 100 %) à chaque intervalle de 15\
+      \ degrés pour les périodes sélectionnées."
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -114,6 +125,7 @@ identification:
   associated_resources: []
   dates:
     publication: '2019-02-10'
+  edition: '1.0'
   keywords:
     default:
       en:
@@ -146,7 +158,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-21'
-    revision: '2026-06-22T20:31:15.662Z'
+    revision: '2026-06-22T20:32:10.041Z'
   identifier: 26a09a27-7f16-4944-b88d-8c3bf2d36f03
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXNDOU8zYXhRdDA3RWM
