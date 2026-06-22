@@ -239,11 +239,25 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsContinuedBy
+    association_type_iso: series
+    authority: DOI
+    code: https://doi.org/10.21966/5n09-aq76
+    title:
+      en: Seastar & Macroinvertebrate Dynamics - BC Central Coast
+      fr: Dynamique des étoiles de mer et des macroinvertébrés - Côte centrale de
+        la Colombie-Britannique
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2016-06-23'
     publication: '2022-01-12'
   edition: '1.0'
+  identifier: https://doi.org/10.21966/7rx8-dk31
   keywords:
     default:
       en:
@@ -312,7 +326,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-22'
-    revision: '2026-06-22T19:26:12.585Z'
+    revision: '2026-06-22T19:26:56.233Z'
   identifier: 154e88e6-2300-4ca0-b3f8-ee822d32a9a4
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MooEJK092sXt8j4VEAp
