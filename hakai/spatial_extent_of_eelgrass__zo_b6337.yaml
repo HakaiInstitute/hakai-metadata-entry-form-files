@@ -12,8 +12,6 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - owner
-  - distributor
   - custodian
   - pointOfContact
   - author
@@ -51,6 +49,16 @@ contact:
   - pointOfContact
   - contributor
   - editor
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 - inCitation: true
   individual:
     email: data@hakai.org
@@ -62,6 +70,15 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Hakai Institute Google Drive - Metadata and Data Access. Requests for access
@@ -178,21 +195,21 @@ identification:
       - Composition et couverture des herbiers marins
     taxa:
       en:
-      - Plantae
-      - Tracheophyta
-      - Liliopsida
       - Alismatales
-      - Zosteraceae
-      - Zostera
+      - Plantae
       - Zostera marina
+      - Tracheophyta
+      - Zosteraceae
+      - Liliopsida
+      - Zostera
       fr:
-      - Plantae
-      - Tracheophyta
-      - Liliopsida
       - Alismatales
-      - Zosteraceae
-      - Zostera
+      - Plantae
       - Zostera marina
+      - Tracheophyta
+      - Zosteraceae
+      - Liliopsida
+      - Zostera
   progress_code: completed
   project:
   - Geospatial
@@ -233,7 +250,7 @@ instruments:
 metadata:
   dates:
     publication: '2023-09-19'
-    revision: '2024-07-23T12:16:00.688Z'
+    revision: '2026-06-22T20:41:09.408Z'
   identifier: b63374a9-2288-4512-9820-5d1b44d2b502
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NeEpZEr5wOQ_rWGa5CN
