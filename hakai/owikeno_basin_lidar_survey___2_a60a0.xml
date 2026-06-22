@@ -784,7 +784,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-22T18:46:55.114Z</gco:DateTime>
+        <gco:DateTime>2026-06-22T18:51:16.752Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1531,8 +1531,7 @@ The entire Owikeno watershed was surveyed on August 3rd, 5th, 6th, 7th, 8th, 20t
 
 For more information contact data@hakai.org
 
-Below is a brief overview of the Airborne Coastal Observatory (ACO) and the type of data collected. For more information on post processing, data quality assurance, software used, and summary of results please contact data@hakai.org
-The ACO is an aerial remote sensing platform used by the Hakai Institute to survey landscapes in detail. A Piper Navajo aircraft carries an array of integrated airborne mapping sensors installed to collect data in concert. The aircraft is operated and maintained by Kisik Aerial Surveys (Delta, BC).  
+Below is a brief overview of the Airborne Coastal Observatory (ACO) and the type of data collected. For more information on post processing, data quality assurance, software used, and summary of results please contact data@hakai.org. The ACO is an aerial remote sensing platform used by the Hakai Institute to survey landscapes in detail. A Piper Navajo aircraft carries an array of integrated airborne mapping sensors installed to collect data in concert. The aircraft is operated and maintained by Kisik Aerial Surveys (Delta, BC).  
 
 Data products available: 
 Lidar data (LAZ)- classified point cloud – digital surface model – digital terrain model. 
@@ -1906,13 +1905,18 @@ Capteur hyperspectral : fabricant : Specim, modèle : AISAfenix 384, plage sp
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Hakai ACO Survey Coverage Webmap</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Carte Web de couverture de l&#39;enquête Hakai ACO</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Webmap detailing the areas of interest (AOI) for each airborne coastal observatory survey area.</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Carte Web détaillant les zones d&#39;intérêt (AOI) de chaque zone d&#39;observation côtière aéroportée.</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
