@@ -16,26 +16,11 @@ contact:
   - author
   - editor
   - principalInvestigator
-  - publisher
   - originator
-- inCitation: false
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - resourceProvider
-  - distributor
-  - funder
-  - publisher
 - inCitation: true
   individual:
     email: data@hakai.org
-    name: Technology Team, Geospatial
-    position: Geospatial Science
+    name: Hakai Geospatial
   organization:
     address: 1002 Wharf Street
     city: Campbell River
@@ -51,10 +36,29 @@ contact:
   - pointOfContact
   - principalInvestigator
   - processor
-  - publisher
   - originator
-  - owner
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
   - distributor
+  - owner
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
 distribution:
 - description:
     en: Hakai's AGOL Instance is the platform for Access and online use of this dataset's
@@ -161,7 +165,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-11'
-    revision: '2026-06-22T20:05:56.208Z'
+    revision: '2026-06-22T20:06:44.264Z'
   identifier: ea4e84d5-c89c-4611-9594-449e468bd76c
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUpVU2tGOVdZMk85OHU
