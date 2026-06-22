@@ -40,6 +40,15 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Data Package for the Fatty Acid of particulate matter dataset. The Data Package
@@ -94,6 +103,7 @@ identification:
   dates:
     creation: '2015-03-13'
     publication: '2021-12-02'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/RR8V-6Y52
   keywords:
     default:
@@ -132,7 +142,7 @@ identification:
 metadata:
   dates:
     publication: '2021-12-02'
-    revision: '2024-07-23T12:11:28.474Z'
+    revision: '2026-06-22T20:42:42.451Z'
   identifier: ee2791c3-3d99-41e5-8cdf-fa5d1d19944d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-Mn6jhjE3XFwoFx2b-9G
@@ -143,7 +153,43 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
-platform: []
+platform:
+- description:
+    en: Fixed sampling station
+    fr: Station d'échantillonnage fixe
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: QU39
+  instruments:
+  - description:
+      en: Gas chromatograph equipped with flame ionization detector to quantify fatty
+        acids.
+      fr: Chromatographe en phase gazeuse équipé d'un détecteur à ionisation de flamme
+        pour quantifier les acides gras.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: SCION 436-GC
+    manufacturer: SCION Instruments
+    type:
+      en: Gas Chromatograph
+      fr: Chromatographe en phase gazeuse
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - description:
+      en: Instrument used to separate fatty acids
+      fr: Instrument utilisé pour séparer les acides gras
+    id: CP-Sil 88
+    manufacturer: Agilent
+  type: moored surface buoy
 spatial:
   bbox:
   - -125.099
