@@ -179,21 +179,10 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-instruments:
-- description:
-    en: laser scanner used to measure the earth’s surface topography and vegetation
-    fr: scanner laser utilisé pour mesurer la topographie et la végétation de la surface
-      de la Terre
-  id: LiDAR Airplane - Laser Scanner
-  manufacturer: Riegl
-  type:
-    en: laser scanner
-    fr: scanner laser
-  version: LMS-Q 780 long-range airborne laser scanner
 metadata:
   dates:
     publication: '2022-03-11'
-    revision: '2026-06-22T19:13:25.791Z'
+    revision: '2026-06-22T19:14:02.812Z'
   identifier: 4fac74c8-f58c-46b0-87dc-ab70ce756880
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXR6SWM4aTRoYk9MeU0
@@ -214,6 +203,30 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
+platform:
+- id: LiDAR airplane
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser Scanner
+    manufacturer: Riegl
+    type:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  type: research aeroplane
 spatial:
   bbox:
   - -125.3704833984375
