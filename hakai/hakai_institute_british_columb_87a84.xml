@@ -377,7 +377,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-10T22:29:05.219Z</gco:DateTime>
+        <gco:DateTime>2026-06-22T19:02:45.590Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -489,6 +489,13 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:identifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://doi.org/10.21966/1cgt-q249</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:identifier>
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
@@ -948,7 +955,7 @@
         <gco:CharacterString></gco:CharacterString>
       </mri:credit>
       <mri:status>
-        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="onGoing"></mcc:MD_ProgressCode>
+        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="tentative"></mcc:MD_ProgressCode>
       </mri:status>
       <mri:topicCategory>
         <mri:MD_TopicCategoryCode>oceans</mri:MD_TopicCategoryCode>
@@ -1018,7 +1025,7 @@
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
                   <gml:beginPosition>2019-02-21T17:00:00.000Z</gml:beginPosition>
-                  <gml:endPosition indeterminatePosition="now" />
+                  <gml:endPosition indeterminatePosition="unknown" />
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
