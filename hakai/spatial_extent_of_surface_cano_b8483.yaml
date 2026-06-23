@@ -17,7 +17,6 @@ contact:
   - editor
   - pointOfContact
   - owner
-  - distributor
 - inCitation: true
   individual:
     email: briantimmer@uvic.ca
@@ -46,15 +45,6 @@ contact:
   roles:
   - coAuthor
   - contributor
-- inCitation: false
-  organization:
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - publisher
 - inCitation: true
   individual:
     name: Baum, Julia
@@ -67,6 +57,25 @@ contact:
     url: http://www.uvic.ca/
   roles:
   - coAuthor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -197,21 +206,21 @@ identification:
       - Composition et couverture de la canopée de macroalgues
     taxa:
       en:
-      - Chromista
+      - Laminariales
       - Ochrophyta
       - Phaeophyceae
-      - Laminariales
       - Laminariaceae
-      - Nereocystis
       - Nereocystis luetkeana
+      - Nereocystis
+      - Chromista
       fr:
-      - Chromista
+      - Laminariales
       - Ochrophyta
       - Phaeophyceae
-      - Laminariales
       - Laminariaceae
-      - Nereocystis
       - Nereocystis luetkeana
+      - Nereocystis
+      - Chromista
   progress_code: completed
   project:
   - Airborne Coastal Observatory
@@ -235,7 +244,7 @@ identification:
 metadata:
   dates:
     publication: '2024-03-15'
-    revision: '2024-07-17T19:26:12.744Z'
+    revision: '2026-06-23T15:48:59.207Z'
   identifier: b8483c9e-81e6-4e1a-b09f-2d66f8fee9a2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/owhqxLMKaJdQBPGxgc2FH82HfLp1/-NpNoCv2XWdhBoo5RBKV
