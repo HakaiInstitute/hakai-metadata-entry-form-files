@@ -1239,7 +1239,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-23T15:43:04.913Z</gco:DateTime>
+        <gco:DateTime>2026-06-23T15:43:51.152Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1361,6 +1361,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -2170,15 +2173,17 @@
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>The Airborne Coastal Observatory (ACO) is an aerial remote sensing platform used by the Hakai Institute to survey landscapes in detail. A Piper Navajo aircraft carries an array of integrated airborne mapping sensors installed to collect data in concert. The aircraft is operated and maintained by Kisik Aerial Surveys (Delta, BC).  
+
 Glaciers and ice fields research is conducted throughout British Columbia, Canada. Sites are listed in the table below. The primary objective of the data capture is to monitor the spatial extent of glacier and snow pack over time. The primary researcher is Dr. Brian Menounos from the University of Northern British Columbia. Point density ranges from 1-12 points per square meter for these projects. Please contact data@hakai.org for more detailed project specifications.
 
-The following sites were mapped in 2020 by ACO :Columbia Ice Field, Castle Glacier, Zilmer Glacier, Nordic Glacier, Conrad Glacier, Yoho-Peyto Glaciers, Kokanee Glacier, Haig Glacier, Klinaklini, Place Glacier, Bridge Glacier, Illecillewaet Glacier, Mt Waddington, Lajoie + Bridge Glacier, Vancouver Island Glaciers, Garibaldi Park Ice, Mt Robson Prov. Park, and Joffre Provincial Park.</gco:CharacterString>
+The following sites were mapped in 2020 by ACO: Columbia Ice Field, Castle Glacier, Zilmer Glacier, Nordic Glacier, Conrad Glacier, Yoho-Peyto Glaciers, Kokanee Glacier, Haig Glacier, Klinaklini, Place Glacier, Bridge Glacier, Illecillewaet Glacier, Mt Waddington, Lajoie + Bridge Glacier, Vancouver Island Glaciers, Garibaldi Park Ice, Mt Robson Prov. Park, and Joffre Provincial Park.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">L&#39;Airborne Coastal Observatory (ACO) est une plateforme de télédétection aérienne utilisée par l&#39;Institut Hakai pour étudier les paysages en détail. Un avion Piper Navajo transporte un ensemble de capteurs cartographiques aéroportés intégrés installés pour collecter des données de concert. L&#39;avion est exploité et entretenu par Kisik Aerial Surveys (Delta, BC). 
-La recherche sur les glaciers et les champs de glace est menée dans toute la Colombie-Britannique, au Canada. Les sites sont répertoriés dans le tableau ci-dessous. L&#39;objectif principal de la saisie des données est de surveiller l&#39;étendue spatiale du glacier et du manteau neigeux au fil du temps. Le principal chercheur est le Dr Brian Menounos de l&#39;Université du Nord de la Colombie-Britannique. La densité de points varie de 1 à 12 points par mètre carré pour ces projets. Veuillez contacter data@hakai.org pour obtenir des spécifications plus détaillées du projet.
+            <lan:LocalisedCharacterString locale="#fr">L&#39;Observatoire côtier aéroporté (ACO) est une plateforme de télédétection aérienne utilisée par l&#39;Institut Hakai pour étudier les paysages en détail. Un avion Piper Navajo transporte un ensemble de capteurs cartographiques aéroportés intégrés installés pour collecter des données de concert. L&#39;avion est exploité et entretenu par Kisik Aerial Surveys (Delta, Colombie-Britannique). 
 
-Les sites suivants ont été cartographiés en 2020 par l&#39;ACO : champ de glace Columbia, glacier Castle, glacier Zilmer, glacier Nordic, glacier Conrad, glaciers Yoho-Peyto, glacier Kokanee, glacier Haig, Klinaklini, glacier Place, glacier Bridge, glacier Illecillewaet, mont Waddington, glacier Lajoie + Bridge, île de Vancouver Glaciers, glace du parc Garibaldi, province du mont Robson Park et le parc provincial Joffre.</lan:LocalisedCharacterString>
+Des recherches sur les glaciers et les champs de glace sont menées dans toute la Colombie-Britannique, au Canada. Les sites sont répertoriés dans le tableau ci-dessous. L&#39;objectif principal de la saisie des données est de surveiller l&#39;étendue spatiale des glaciers et du manteau neigeux au fil du temps. Le chercheur principal est le Dr Brian Menounos de l&#39;Université du Nord de la Colombie-Britannique. La densité de points varie de 1 à 12 points par mètre carré pour ces projets. Veuillez contacter data@hakai.org pour obtenir des spécifications de projet plus détaillées.
+
+Les sites suivants ont été cartographiés en 2020 par l&#39;ACO : Champ de glace Columbia, glacier Castle, glacier Zilmer, glacier Nordic, glacier Conrad, glaciers Yoho-Peyto, glacier Kokanee, glacier Haig, Klinaklini, glacier Place, glacier Bridge, glacier Illecillewaet, mont Waddington, glacier Lajoie + Bridge, glaciers de l&#39;île de Vancouver, glace du parc Garibaldi, mont Robson Prov. Park et le parc provincial Joffre.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
