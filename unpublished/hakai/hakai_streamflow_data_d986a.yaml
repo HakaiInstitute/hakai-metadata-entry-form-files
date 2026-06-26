@@ -67,54 +67,45 @@ distribution:
   url: https://github.com/HakaiInstitute/hakai-streamflow-data.git
 identification:
   abstract:
-    en: 'This dataset provides high-resolution streamflow time series, collected at
-      5-minute intervals and updated annually from the Kwakshua Watersheds Observatory
-      on the central coast of British Columbia. It is generated using the autosalt
-      dilution method, which involves injecting a salt solution into the stream and
-      measuring changes in electrical conductivity to calculate discharge. This reliable
-      technique ensures accurate streamflow measurements, even during high-flow events,
-      making it essential for hydrological studies, water resource management, and
-      environmental assessments.
+    en: 'This dataset provides research-grade streamflow time series at 5-minute intervals
+      from the Kwakshua Watersheds Observatory on the central coast of British Columbia,
+      updated annually. Discharge is derived from stage-discharge rating curves, with
+      gaugings collected by the autosalt dilution method — injecting a salt solution
+      and measuring electrical conductivity to calculate discharge — a reliable technique
+      even during high-flow events.
 
+      This is the research-grade subset of the streamflow record: data from reviewed
+      rating periods with a confirmed (non-provisional) rating, assigned a quality
+      level of 2 or greater (quality level ≥ 2). Each point carries a quality flag
+      from review: ''AV'' (Accepted Value), ''EV'' (Estimated Value) for corrected
+      data, or ''SVC'' (Suspicious Value Caution) for points a reviewer assessed as
+      suspect. Flags from the stage data propagate to the corresponding discharge,
+      and flows extrapolated beyond the highest measured gauging are retained with
+      added upper-range uncertainty. Data from provisional rating periods, which have
+      not been through review, are excluded; the full unreviewed record is available
+      in the companion provisional discharge dataset.'
+    fr: 'Cet ensemble de données fournit des séries chronologiques de débit de niveau
+      scientifique à des intervalles de 5 minutes provenant de l''observatoire des
+      bassins versants du Kwakshua sur la côte centrale de la Colombie-Britannique,
+      mises à jour chaque année. Le débit est dérivé des courbes nominales de décharge
+      par étapes, les jauges étant collectées par la méthode de dilution automatique
+      au sel, qui consiste à injecter une solution saline et à mesurer la conductivité
+      électrique pour calculer le débit, une technique fiable même en cas de débit
+      élevé.
 
-      The data undergoes rigorous Quality Control (QC), with gaps filled and noisy
-      or faulty data corrected. Corrected data are flagged as ''EV'' (Estimated Value),
-      while uncorrectable suspicious data points are flagged ''SVC'' (Suspicious Value
-      Caution). All other data points are marked as ''AV'' (Accepted Value). QC flags
-      from the stage data are automatically applied to the corresponding 5-minute
-      discharge data. Flows exceeding the highest measured discharge are flagged with
-      ''SVC'' due to the uncertainty of extrapolating beyond the measured range.
-
-
-      This comprehensive dataset offers a dependable record of streamflow conditions,
-      vital for monitoring and analyzing streamflow dynamics, understanding the impacts
-      of climate variability, and assessing land-use changes on watershed hydrology.'
-    fr: 'Cet ensemble de données fournit des séries chronologiques à haute résolution
-      sur les débits fluviaux, collectées à intervalles de 5 minutes et mises à jour
-      chaque année par l''observatoire des bassins versants de Kwakshua, sur la côte
-      centrale de la Colombie-Britannique. Il est généré à l''aide de la méthode de
-      dilution automatique au sel, qui consiste à injecter une solution saline dans
-      le flux et à mesurer les variations de conductivité électrique pour calculer
-      le débit. Cette technique fiable garantit des mesures précises du débit, même
-      en cas de pic de débit, ce qui la rend essentielle pour les études hydrologiques,
-      la gestion des ressources en eau et les évaluations environnementales.
-
-
-      Les données sont soumises à un contrôle qualité (CQ) rigoureux, les lacunes
-      étant comblées et les données bruyantes ou erronées corrigées. Les données corrigées
-      sont signalées comme « EV » (valeur estimée), tandis que les points de données
-      suspects non corrigeables sont marqués comme « SVC » (Suspicious Value Caution).
-      Tous les autres points de données sont marqués comme « AV » (valeur acceptée).
-      Les indicateurs de contrôle qualité issus des données de la phase sont automatiquement
-      appliqués aux données de décharge correspondantes de 5 minutes. Les débits dépassant
-      le débit mesuré le plus élevé sont signalés par « SVC » en raison de l''incertitude
-      liée à l''extrapolation au-delà de la plage mesurée.
-
-
-      Cet ensemble de données complet fournit un enregistrement fiable des conditions
-      de débit, essentiel pour surveiller et analyser la dynamique des débits, comprendre
-      les impacts de la variabilité climatique et évaluer les changements d''affectation
-      des sols sur l''hydrologie des bassins versants.'
+      Il s''agit du sous-ensemble correspondant à la catégorie de recherche de l''enregistrement
+      des débits fluviaux : données provenant de périodes de classification examinées
+      avec une note confirmée (non provisoire), auxquelles a été attribué un niveau
+      de qualité de 2 ou plus (niveau de qualité ≥ 2). Chaque point est associé à
+      un indicateur de qualité issu de l''évaluation : « AV » (valeur acceptée), « EV »
+      (valeur estimée) pour les données corrigées ou « SVC » (Suspicious Value Caution)
+      pour les points considérés comme suspects par un évaluateur. Les indicateurs
+      provenant des données de l''étage se propagent au débit correspondant, et les
+      débits extrapolés au-delà du jaugeage le plus élevé sont conservés avec une
+      incertitude supérieure supplémentaire. Les données des périodes de notation
+      provisoires, qui n''ont pas fait l''objet d''un examen, sont exclues ; l''enregistrement
+      complet non révisé est disponible dans l''ensemble de données complémentaire
+      sur les rejets provisoires.'
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -157,7 +148,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-06-26T16:13:02.550Z'
+    revision: '2026-06-26T16:56:28.841Z'
   identifier: d986aade-6bf1-4dfa-97c2-686975f944d5
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-OHj73dBYs1okPPjDXKY
