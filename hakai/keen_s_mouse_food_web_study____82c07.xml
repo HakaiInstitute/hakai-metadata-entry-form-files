@@ -360,7 +360,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-22T20:16:29.687Z</gco:DateTime>
+        <gco:DateTime>2026-06-26T17:57:07.734Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -472,6 +472,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -830,7 +833,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>Data provided here a broad range of data types that were part of a mouse study conducted in the summers of 2015-2017. Mice (Keen’s mice, Peromyscus keeni) were live-trapped from shorelines approximately 125m into the forest at 5 sites on the Central Coast. Paired with live-trapping data are estimates of terrestrial invertebrate biomass, and littoral beach invertebrate biomass. All samples were processed for stable isotope analysis (𝛿13C and 𝛿15N) to determine which trophic levels and consumers were enriched by marine-derived subsidies, primarily from wrack. This study was part of the 100 Islands Project, investigating the effects of marine-derived nutrients on terrestrial consumers occupying island shorelines.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Les données ont fourni ici un large éventail de types de données qui ont fait partie d&#39;une étude sur la souris menée au cours des étés 2015-2017. Des souris (souris de Keen, Peromyscus keeni) ont été piégées depuis les rivages à environ 125 m dans la forêt à 5 sites de la côte centrale. Des estimations de la biomasse des invertébrés terrestres et de la biomasse des invertébrés des plages littorales sont associées aux données de piégeage vivant. Tous les échantillons ont été traités pour l&#39;analyse des isotopes stables (13C et 15N) afin de déterminer quels niveaux trophiques et quels consommateurs ont été enrichis par des subventions dérivées de la mer, principalement du wack. Cette étude s&#39;inscrivait dans le cadre du projet 100 Islands, qui étudiait les effets des nutriments d&#39;origine marine sur les consommateurs terrestres occupant les rives des îles.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -1136,8 +1139,13 @@
       </mri:resourceConstraints>
       <mri:resourceConstraints>
         <mco:MD_Constraints>
-          <mco:useLimitation>
+          <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>Creative Commons Attribution 4.0 International (CC BY 4.0)</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Creative Commons Attribution 4.0 International (CC BY 4.0)</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
