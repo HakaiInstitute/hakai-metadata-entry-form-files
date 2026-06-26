@@ -12,6 +12,7 @@ contact:
     url: https://www.hakai.org/
   roles:
   - custodian
+  - pointOfContact
 - inCitation: true
   individual:
     email: bill.floyd@viu.ca
@@ -26,17 +27,19 @@ contact:
   roles:
   - principalInvestigator
 - inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+    position: Researcher
   organization:
     city: Campbell River
     country: Canada
-    email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - publisher
-  - owner
-  - distributor
+  - pointOfContact
 - inCitation: false
   organization:
     city: Vancouver
@@ -46,6 +49,8 @@ contact:
     url: https://tula.org
   roles:
   - funder
+  - owner
+  - distributor
 distribution:
 - description:
     en: Datafiles and documentation for streamflow time series data
@@ -148,7 +153,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-06-26T16:56:28.841Z'
+    revision: '2026-06-26T16:58:17.058Z'
   identifier: d986aade-6bf1-4dfa-97c2-686975f944d5
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-OHj73dBYs1okPPjDXKY
