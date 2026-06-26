@@ -104,7 +104,21 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsDerivedFrom
+    association_type_iso: dependency
+    authority: DOI
+    code: https://doi.org/10.21966/rj8w-aa62
+    title:
+      en: Water Property Measurements from Conductivity-Temperature-Depth Profiles,
+        BC, Canada (Provisional)
+      fr: Mesures des propriétés de l'eau à partir de profils de conductivité-température-profondeur,
+        Colombie-Britannique, Canada (provisoire)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2012-06-01'
   edition: 1.0.0
@@ -165,7 +179,7 @@ identification:
 metadata:
   dates:
     publication: '2026-04-13'
-    revision: '2026-04-13T20:02:19.400Z'
+    revision: '2026-06-26T16:52:56.577Z'
   history:
   - scope: Dataset
     statement:
