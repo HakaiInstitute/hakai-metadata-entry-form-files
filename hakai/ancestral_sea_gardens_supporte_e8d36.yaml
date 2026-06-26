@@ -15,8 +15,6 @@ contact:
     url: https://www.hakai.org/
   roles:
   - custodian
-  - owner
-  - distributor
   - author
   - editor
   - pointOfContact
@@ -27,6 +25,7 @@ contact:
   individual:
     email: dlepofsk@sfu.ca
     name: Lepofsky, Dana
+    orcid: https://orcid.org/0000-0002-1858-0432
   organization:
     city: Burnaby
     country: Canada
@@ -89,6 +88,17 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -248,7 +258,7 @@ identification:
 metadata:
   dates:
     publication: '2023-01-17'
-    revision: '2026-06-26T17:08:43.262Z'
+    revision: '2026-06-26T17:10:01.020Z'
   identifier: e8d36f54-4955-463c-94e5-f0030c3230f3
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-N6FPs21mlrVKRCBYg1x
