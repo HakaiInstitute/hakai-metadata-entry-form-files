@@ -408,7 +408,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-26T17:03:48.673Z</gco:DateTime>
+        <gco:DateTime>2026-06-26T17:22:05.338Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1331,6 +1331,46 @@ Il s&#39;agit du sous-ensemble correspondant à la catégorie de recherche de l&
                     <lan:LocalisedCharacterString locale="#fr">Fichiers de données et documentation pour les données de séries chronologiques sur les flux</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://github.com/HakaiInstitute/RatingCurve</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name>
+                <gco:CharacterString>Rating Curve script</gco:CharacterString>
+              </cit:name>
+              <cit:description>
+                <gco:CharacterString>Script used to calculate the rating curves</gco:CharacterString>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://github.com/HakaiInstitute/Discharge-editing</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name>
+                <gco:CharacterString>Discharge editing script</gco:CharacterString>
+              </cit:name>
+              <cit:description>
+                <gco:CharacterString>Script used to calculate the hourly, daily, monthly, and yearly discharge rates</gco:CharacterString>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
