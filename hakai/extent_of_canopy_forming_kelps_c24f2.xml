@@ -770,7 +770,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-26T17:01:59.283Z</gco:DateTime>
+        <gco:DateTime>2026-06-26T17:04:16.902Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1436,7 +1436,7 @@ Contributors: Luba Reshitnyk and Wiebe Nijland
 
 Cite as: Canopy-forming kelps extent derived from WorldView-2 imagery, Central Coast, British Columbia, Canada. Version 1.0. Hakai Institute. Dataset. [access date].)</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">Ce jeu de données représente l&#39;étendue du varech formant un couvert (Nereocystis luetkeana et Macrocytis pyrifera) présent à la surface de l&#39;océan (ci-après dénommé varech formant un couvert de surface) pour l&#39;année et la saison au cours desquelles l&#39;imagerie a été collectée. Le varech formant une canopée (Order Laminariales) se trouve le long de la côte de la Colombie-Britannique. Deux espèces, le varech taureau (Nereocystis luetkeana) et le varech géant (Macrocystis pyrifera) sont les espèces les plus communes et constituent des éléments importants sur les plans écologique et biologique des écosystèmes côtiers. La cartographie de leur distribution est importante pour comprendre l&#39;état et la santé des zones côtières. 
 
 Le satellite WorldView-2 a été chargé par l&#39;Institut Hakai et des images ont été collectées à l&#39;été 2014 pour le groupe Goose, le groupe McMullin, l&#39;île Calvert et la région de Stirling Island. D&#39;autres images WorldView-2 ont été acquises grâce à une subvention de la DigitalGlobe Foundation pour la région de South Calvert, Simonds Group, Admiral and Tribal Groups, Spider Island et Cultus Sound. Des images de la région de l&#39;île Stryker et de l&#39;île Athlone ont été fournies grâce à une collaboration du ministère des Pêches et des Océans du Canada et de l&#39;Institut Hakai. 
@@ -1775,8 +1775,13 @@ Citer comme suit : Étendue du varech formant la canopée dérivée de l&#39;im
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Hakai&#39;s ArcGIS Online Platform (restricted access)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Plateforme ArcGIS Online de Hakai (accès restreint)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description>
                 <gco:CharacterString>Kelp Extent Data - Hakai&#39;s AGOL Instance is the platform for access and online use of this dataset&#39;s reference layer</gco:CharacterString>
@@ -1795,8 +1800,13 @@ Citer comme suit : Étendue du varech formant la canopée dérivée de l&#39;im
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Hakai Institute online web map application (Public)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Application cartographique Web en ligne de l&#39;Institut Hakai (publique)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description>
                 <gco:CharacterString>Public web map showing the imagery footprints and kelp extent polygons</gco:CharacterString>
@@ -1815,8 +1825,13 @@ Citer comme suit : Étendue du varech formant la canopée dérivée de l&#39;im
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Download the data from the Hakai Institute</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Téléchargez les données de l&#39;Institut Hakai</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Hakai Institute google drive - raw data and metadata readme file</gco:CharacterString>
