@@ -1,0 +1,247 @@
+contact:
+- inCitation: true
+  individual:
+    email: emily.haughton@hakai.org
+    name: Haughton, Emily
+    position: Hydrology and Sensor Specialist
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - pointOfContact
+- inCitation: true
+  individual:
+    email: bill.floyd@viu.ca
+    name: Floyd, W.C.
+    position: Research Hydrologist
+  organization:
+    city: Nanaimo
+    country: Canada
+    name: Vancouver Island University
+    ror: https://ror.org/033wcvv61
+    url: https://www.viu.ca/
+  roles:
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: maatje.korver@mail.mcgill.ca
+    name: Korver, Maartje
+  organization:
+    name: McGill University
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: ian.giesbrecht@hakai.org
+    name: Giesbrecht, Ian
+    orcid: https://orcid.org/0000-0001-7013-4766
+    position: Researcher
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+  - owner
+  - distributor
+distribution:
+- description:
+    en: Datafiles and documentation for streamflow time series data
+    fr: Fichiers de données et documentation pour les données de séries chronologiques
+      sur les flux
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: ERDDAP
+    fr: ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiWatershedsStreamStationsProvisional.html
+- description:
+    en: Script used to calculate the rating curves
+  name:
+    en: Rating Curve script
+  url: https://github.com/HakaiInstitute/RatingCurve
+- description:
+    en: Script used to calculate the hourly, daily, monthly, and yearly discharge
+      rates
+    fr: Script utilisé pour calculer les taux de décharge horaires, quotidiens, mensuels
+      et annuels
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Discharge editing script
+    fr: Script d'édition des décharges
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/Discharge-editing
+identification:
+  abstract:
+    en: 'This dataset provides research-grade streamflow time series at 5-minute intervals
+      from the Kwakshua Watersheds Observatory on the central coast of British Columbia,
+      updated annually. Discharge is derived from stage-discharge rating curves, with
+      gaugings collected by the autosalt dilution method — injecting a salt solution
+      and measuring electrical conductivity to calculate discharge — a reliable technique
+      even during high-flow events.
+
+      This is the research-grade subset of the streamflow record: data from reviewed
+      rating periods with a confirmed (non-provisional) rating, assigned a quality
+      level of 2 or greater (quality level ≥ 2). Each point carries a quality flag
+      from review: ''AV'' (Accepted Value), ''EV'' (Estimated Value) for corrected
+      data, or ''SVC'' (Suspicious Value Caution) for points a reviewer assessed as
+      suspect. Flags from the stage data propagate to the corresponding discharge,
+      and flows extrapolated beyond the highest measured gauging are retained with
+      added upper-range uncertainty. Data from provisional rating periods, which have
+      not been through review, are excluded; the full unreviewed record is available
+      in the companion provisional discharge dataset.'
+    fr: 'Cet ensemble de données fournit des séries chronologiques de débit de niveau
+      scientifique à des intervalles de 5 minutes provenant de l''observatoire des
+      bassins versants du Kwakshua sur la côte centrale de la Colombie-Britannique,
+      mises à jour chaque année. Le débit est dérivé des courbes nominales de décharge
+      par étapes, les jauges étant collectées par la méthode de dilution automatique
+      au sel, qui consiste à injecter une solution saline et à mesurer la conductivité
+      électrique pour calculer le débit, une technique fiable même en cas de débit
+      élevé.
+
+      Il s''agit du sous-ensemble correspondant à la catégorie de recherche de l''enregistrement
+      des débits fluviaux : données provenant de périodes de classification examinées
+      avec une note confirmée (non provisoire), auxquelles a été attribué un niveau
+      de qualité de 2 ou plus (niveau de qualité ≥ 2). Chaque point est associé à
+      un indicateur de qualité issu de l''évaluation : « AV » (valeur acceptée), « EV »
+      (valeur estimée) pour les données corrigées ou « SVC » (Suspicious Value Caution)
+      pour les points considérés comme suspects par un évaluateur. Les indicateurs
+      provenant des données de l''étage se propagent au débit correspondant, et les
+      débits extrapolés au-delà du jaugeage le plus élevé sont conservés avec une
+      incertitude supérieure supplémentaire. Les données des périodes de notation
+      provisoires, qui n''ont pas fait l''objet d''un examen, sont exclues ; l''enregistrement
+      complet non révisé est disponible dans l''ensemble de données complémentaire
+      sur les rejets provisoires.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: IsDerivedFrom
+    association_type_iso: dependency
+    authority: DOI
+    code: https://doi.org/10.21966/c6xs-y324
+    title:
+      en: Watersheds Stream Stations Timeseries, Calvert and Hecate Islands, BC, Canada
+        (Provisional)
+      fr: Séries chronologiques des stations hydrographiques des bassins versants,
+        îles Calvert et Hécate, Colombie-Britannique, Canada (provisoire)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2014-09-08'
+  edition: 1.0.0
+  identifier: https://doi.org/10.21966/47m7-ev69
+  keywords:
+    default:
+      en:
+      - streamflow
+      - discharge
+      - fresh water flow
+      - watershed
+      fr:
+      - débits eau douce
+      - bassin versant
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: onGoing
+  project:
+  - Watersheds
+  status: published
+  temporal_begin: '2014-09-08T19:00:00.000Z'
+  title:
+    en: Watersheds Stream Stations Timeseries, Calvert and Hecate Islands, BC, Canada
+      (Research)
+    fr: Séries chronologiques des stations hydrographiques des bassins versants, îles
+      Calvert et Hécate, Colombie-Britannique, Canada (Recherche)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2026-06-26'
+    revision: '2026-06-26T17:22:58.647Z'
+  identifier: d986aade-6bf1-4dfa-97c2-686975f944d5
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-OHj73dBYs1okPPjDXKY
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Data gaps due to sensor failure, and power failure
+      fr: Lacunes dans les données dues à une défaillance du capteur et à une panne
+        de courant
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.1
+  - 51.64
+  - -128.0
+  - 51.67
+  descriptionIdentifier: 864e2792-d5f7-431e-96a6-9a4a118b896f
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
