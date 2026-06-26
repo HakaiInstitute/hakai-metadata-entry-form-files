@@ -16,7 +16,8 @@ contact:
   - custodian
 - inCitation: true
   individual:
-    name: Hakai Institute Geospatial
+    email: data@hakai.org
+    name: Hakai Geospatial
   organization:
     city: Campbell River
     country: Canada
@@ -47,7 +48,7 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
-- inCitation: true
+- inCitation: false
   organization:
     city: Vancouver
     country: Canada
@@ -186,7 +187,7 @@ identification:
 metadata:
   dates:
     publication: '2024-03-14'
-    revision: '2024-07-24T18:46:20.968Z'
+    revision: '2026-06-26T17:01:48.850Z'
   identifier: c24f23f0-8d16-4bfd-835a-5475f1ecd8e8
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVE2ZkIxMnhEdmF6Rkw
@@ -207,7 +208,42 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: World View 2 Satellite
+    fr: Satellite World View 2
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: WV2
+  instruments:
+  - description:
+      en: WorldView-2 is a commercial Earth observation satellite owned by DigitalGlobe.
+        WorldView-2 provides commercially available panchromatic imagery of 0.46 m
+        resolution, and eight-band multispectral imagery with 1.84 m resolution.
+      fr: WorldView-2 est un satellite commercial d'observation de la Terre appartenant
+        à DigitalGlobe. WorldView-2 fournit des images panchromatiques disponibles
+        dans le commerce d'une résolution de 0,46 m et des images multispectrales
+        à huit bandes avec une résolution de 1,84 m.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: World View 2 Camera
+    manufacturer: Ball Aerospace & Technologies
+    type:
+      en: RGB and multispectral camera
+      fr: Caméra RGB et multispectrale
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: '1.0'
+  type: satellite
 spatial:
   bbox:
   - -128.6993408203125
