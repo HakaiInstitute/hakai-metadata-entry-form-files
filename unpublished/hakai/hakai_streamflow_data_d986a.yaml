@@ -28,6 +28,14 @@ contact:
   - principalInvestigator
 - inCitation: true
   individual:
+    email: maatje.korver@mail.mcgill.ca
+    name: Korver, Maartje
+  organization:
+    name: McGill University
+  roles:
+  - author
+- inCitation: true
+  individual:
     email: ian.giesbrecht@hakai.org
     name: Giesbrecht, Ian
     orcid: https://orcid.org/0000-0001-7013-4766
@@ -51,14 +59,6 @@ contact:
   - funder
   - owner
   - distributor
-- inCitation: true
-  individual:
-    email: maatje.korver@mail.mcgill.ca
-    name: Korver, Maartje
-  organization:
-    name: McGill University
-  roles:
-  - author
 distribution:
 - description:
     en: Datafiles and documentation for streamflow time series data
@@ -70,14 +70,14 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   name:
-    en: Github Repository
-    fr: Référentiel Github
+    en: ERDDAP
+    fr: ERDDAP
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://github.com/HakaiInstitute/hakai-streamflow-data.git
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiWatershedsStreamStationsProvisional.html
 identification:
   abstract:
     en: 'This dataset provides research-grade streamflow time series at 5-minute intervals
@@ -124,7 +124,21 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsDerivedFrom
+    association_type_iso: dependency
+    authority: DOI
+    code: https://doi.org/10.21966/c6xs-y324
+    title:
+      en: Watersheds Stream Stations Timeseries, Calvert and Hecate Islands, BC, Canada
+        (Provisional)
+      fr: Séries chronologiques des stations hydrographiques des bassins versants,
+        îles Calvert et Hécate, Colombie-Britannique, Canada (provisoire)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2014-09-08'
   edition: 1.0.0
@@ -161,7 +175,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-06-26T16:59:01.067Z'
+    revision: '2026-06-26T17:03:48.673Z'
   identifier: d986aade-6bf1-4dfa-97c2-686975f944d5
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-OHj73dBYs1okPPjDXKY

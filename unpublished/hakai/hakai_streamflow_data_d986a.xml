@@ -408,7 +408,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-26T16:59:01.067Z</gco:DateTime>
+        <gco:DateTime>2026-06-26T17:03:48.673Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -787,6 +787,87 @@
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
+                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name>
+                    <gco:CharacterString>McGill University</gco:CharacterString>
+                  </cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Korver, Maartje</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>maatje.korver@mail.mcgill.ca</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
               </cit:role>
               <cit:party>
@@ -872,87 +953,6 @@
                       </cit:partyIdentifier>
                       <cit:positionName>
                         <gco:CharacterString>Researcher</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>McGill University</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:country>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString>Korver, Maartje</gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact>
-                          <cit:address>
-                            <cit:CI_Address>
-                              <cit:deliveryPoint>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:deliveryPoint>
-                              <cit:city>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:city>
-                              <cit:country>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:country>
-                              <cit:electronicMailAddress>
-                                <gco:CharacterString>maatje.korver@mail.mcgill.ca</gco:CharacterString>
-                              </cit:electronicMailAddress>
-                            </cit:CI_Address>
-                          </cit:address>
-                        </cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:positionName>
-                        <gco:CharacterString></gco:CharacterString>
                       </cit:positionName>
                     </cit:CI_Individual>
                   </cit:individual>
@@ -1204,6 +1204,39 @@ Il s&#39;agit du sous-ensemble correspondant à la catégorie de recherche de l&
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Watersheds Stream Stations Timeseries, Calvert and Hecate Islands, BC, Canada (Provisional)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Séries chronologiques des stations hydrographiques des bassins versants, îles Calvert et Hécate, Colombie-Britannique, Canada (provisoire)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.21966/c6xs-y324</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="dependency"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -1278,16 +1311,16 @@ Il s&#39;agit du sous-ensemble correspondant à la catégorie de recherche de l&
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://github.com/HakaiInstitute/hakai-streamflow-data.git</gco:CharacterString>
+                <gco:CharacterString>https://catalogue.hakai.org/erddap/tabledap/HakaiWatershedsStreamStationsProvisional.html</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
               <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>Github Repository</gco:CharacterString>
+                <gco:CharacterString>ERDDAP</gco:CharacterString>
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Référentiel Github</lan:LocalisedCharacterString>
+                    <lan:LocalisedCharacterString locale="#fr">ERDDAP</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
