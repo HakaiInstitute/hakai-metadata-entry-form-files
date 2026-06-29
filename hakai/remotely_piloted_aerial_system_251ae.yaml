@@ -150,7 +150,7 @@ identification:
 metadata:
   dates:
     publication: '2023-03-03'
-    revision: '2024-07-23T10:33:10.678Z'
+    revision: '2026-06-29T20:30:51.628Z'
   identifier: 251aef08-4017-4493-b9d8-c4583913b511
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/DCH8GzsQKSM8xwJ8WdQFIZrtCaq2/-MnacSB0YNeFCB0Qmn2r
@@ -171,7 +171,36 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: RPAS - DJI Phantom 3 Pro
+    fr: SATP - DJI Phantom 3 Pro
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Phantom 3 Pro
+  instruments:
+  - description:
+      en: RGB camera mounted to quadcopter RPAS.
+      fr: Caméra RGB montée sur SATP quadricoptère.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: FC300X
+    manufacturer: DJI
+    type:
+      en: RGB Digital Camera
+      fr: Appareil photo numérique RVB
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  type: unmanned aerial vehicle
 spatial:
   bbox:
   - -128.7
