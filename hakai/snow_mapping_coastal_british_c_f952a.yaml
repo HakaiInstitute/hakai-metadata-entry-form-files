@@ -283,7 +283,7 @@ identification:
 metadata:
   dates:
     publication: '2022-11-24'
-    revision: '2024-07-23T11:17:52.293Z'
+    revision: '2026-06-29T20:40:06.689Z'
   identifier: f952a904-f9f7-4876-b518-c98b1fd96f7e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NHfwbwCBGTvrbThVVCS
@@ -304,7 +304,49 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Piper Navajo - ACO Plane
+    fr: Piper Navajo - Avion ACO
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie de la surface de la Terre
+        et la végétation
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  - description:
+      en: 'Phaseone Industrial iXU-RS1000 medium format cameras, resolution: 100MP,
+        lens: 50mm f/4.0 Rodenstock'
+      fr: 'Caméras moyen format Phaseone Industrial iXU-RS1000, résolution : 100 MP,
+        objectif : 50 mm f/4.0 Rodenstock'
+    id: RGB NIR Camera
+    manufacturer: Phase 1
+    type:
+      en: RGB NIR Cameras
+      fr: Caméras NIR RGB
+    version: Phaseone Industrial iXU-RS1000
+  type: aeroplane
 spatial:
   bbox:
   - -126.6
