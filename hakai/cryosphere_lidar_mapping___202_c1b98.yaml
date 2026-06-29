@@ -145,7 +145,7 @@ identification:
 metadata:
   dates:
     publication: '2022-09-01'
-    revision: '2024-07-23T11:11:14.282Z'
+    revision: '2026-06-29T20:37:33.069Z'
   identifier: c1b9801b-742b-41b6-a69b-5e7ae6f09bce
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-MuwcIsM5tcke29CYkTM
@@ -166,7 +166,38 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Airborne Coastal Observatory – Hakai Institute
+    fr: Observatoire côtier aéroporté — Institut Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory - Piper Navajo
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  type: aeroplane
 spatial:
   bbox:
   - -128.7
