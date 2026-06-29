@@ -2,7 +2,7 @@ contact:
 - inCitation: true
   individual:
     email: data@hakai.org
-    position: Geospatial Science
+    name: Hakai Geospatial
   organization:
     address: 1002 Wharf Street
     city: Campbell River
@@ -26,7 +26,6 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
-  - funder
 distribution:
 - description:
     en: Hakai Institute - ACO metadata report for the Nuchatlaht survey. 23_3051
@@ -112,7 +111,7 @@ identification:
 metadata:
   dates:
     publication: '2024-01-08'
-    revision: '2024-07-23T11:25:09.763Z'
+    revision: '2026-06-29T20:40:48.554Z'
   identifier: 3e90a567-cdd7-41f3-8157-0e7be76eefb8
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-Nlir_Hi8PQBF_etobGR
@@ -128,7 +127,47 @@ metadata:
         dataset.
       fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
         de l'ensemble de données.
-platform: []
+platform:
+- description:
+    en: Airborne Coastal Observatory – Hakai Institute
+    fr: Observatoire côtier aéroporté — Institut Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory - Piper Navajo
+  instruments:
+  - description:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: LMS-Q 780 long-range airborne laser scanner
+      fr: Scanner laser aéroporté à longue portée LMS-Q 780
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - description:
+      en: 'Phaseone Industrial iXU-RS1000 medium format cameras, resolution: 100MP,
+        lens: 50mm f/4.0 Rodenstock'
+      fr: 'Caméras moyen format Phaseone Industrial iXU-RS1000, résolution : 100 MP,
+        objectif : 50 mm f/4.0 Rodenstock'
+    id: RGB NIR Camera
+    manufacturer: Phase 1
+    type:
+      en: RGB NIR Cameras
+      fr: Caméras NIR RGB
+    version: Phaseone Industrial iXU-RS1000
+  type: aeroplane
 spatial:
   bbox:
   - -127.1
