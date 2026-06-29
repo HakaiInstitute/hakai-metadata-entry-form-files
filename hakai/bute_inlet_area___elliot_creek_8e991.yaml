@@ -5,12 +5,12 @@ contact:
     position: Science Researcher
   organization:
     address: 1002 Wharf Street
-    city: Victoria
+    city: Campbell River
     country: Canada
     email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
-    url: www.hakai.org
+    url: https://www.hakai.org/
   roles:
   - publisher
 - inCitation: true
@@ -176,7 +176,7 @@ identification:
 metadata:
   dates:
     publication: '2022-11-24'
-    revision: '2024-07-23T11:17:31.061Z'
+    revision: '2026-06-29T20:35:08.656Z'
   identifier: 8e99157a-8daf-4e68-92ae-9d22cfd46ce7
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NGORIPbYG_4RzM4_Xdv
@@ -197,7 +197,49 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Piper Navajo - ACO Plane
+    fr: Avion Piper Navajo - ACO
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  - description:
+      en: 'Phaseone Industrial iXU-RS1000 medium format cameras, resolution: 100MP,
+        lens: 50mm f/4.0 Rodenstock'
+      fr: 'Appareils photo moyen format Phaseone Industrial iXU-RS1000, résolution :
+        100 MP, objectif : 50 mm f/4.0 Rodenstock'
+    id: RGB NIR Camera
+    manufacturer: Phase 1
+    type:
+      en: RGB NIR Cameras
+      fr: Caméras RGB NIR
+    version: Phaseone Industrial iXU-RS1000
+  type: aeroplane
 spatial:
   bbox:
   - -124.9
