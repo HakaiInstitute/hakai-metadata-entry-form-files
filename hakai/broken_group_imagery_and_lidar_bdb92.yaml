@@ -2,6 +2,23 @@ contact:
 - inCitation: true
   individual:
     email: data@hakai.org
+    name: Hakai Geospatial
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+  - pointOfContact
+  - editor
+  - originator
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: data@hakai.org
     position: Lidar / Imagery Survey Team
   organization:
     address: 1002 Wharf Street
@@ -12,16 +29,25 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - custodian
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
   - owner
   - distributor
-  - author
-  - editor
-  - pointOfContact
-  - resourceProvider
-  - principalInvestigator
-  - publisher
-  - originator
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
   - funder
 distribution:
 - description:
@@ -126,7 +152,7 @@ identification:
 metadata:
   dates:
     publication: '2023-01-18'
-    revision: '2024-07-23T11:02:50.191Z'
+    revision: '2026-06-30T15:58:04.136Z'
   identifier: bdb9229b-f594-40df-994e-e52e8a678165
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-MiSHCtLPVlwdFwWw9LX
@@ -147,7 +173,49 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Airborne Coastal Observatory – Hakai Institute
+    fr: Observatoire côtier aéroporté — Institut Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory - Piper Navajo
+  instruments:
+  - description:
+      en: laser scanner used to measure the earth’s surface topography and vegetation
+      fr: scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: laser scanner
+      fr: scanner laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+    id: Aerial cameras
+    manufacturer: Phaseone Industrial
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+    version: iXU-RS1000
+  type: aeroplane
 spatial:
   polygon: -125.4,48.90 -125.4,48.85 -125.3,48.83 -125.2,48.79 -125.2,48.80 -125.2,48.85
     -125.2,48.93 -125.3,48.95 -125.3,48.97 -125.3,48.98 -125.3,48.96 -125.3,48.96
