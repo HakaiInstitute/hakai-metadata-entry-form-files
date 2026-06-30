@@ -115,7 +115,7 @@
           <cit:individual>
             <cit:CI_Individual>
               <cit:name>
-                <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
               </cit:name>
               <cit:contactInfo>
                 <cit:CI_Contact>
@@ -206,7 +206,7 @@
           <cit:individual>
             <cit:CI_Individual>
               <cit:name>
-                <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
               </cit:name>
               <cit:contactInfo>
                 <cit:CI_Contact>
@@ -297,7 +297,7 @@
           <cit:individual>
             <cit:CI_Individual>
               <cit:name>
-                <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
               </cit:name>
               <cit:contactInfo>
                 <cit:CI_Contact>
@@ -388,7 +388,7 @@
           <cit:individual>
             <cit:CI_Individual>
               <cit:name>
-                <gco:CharacterString>Hakai Geospatial Technology Team</gco:CharacterString>
+                <gco:CharacterString>Hakai Geospatial</gco:CharacterString>
               </cit:name>
               <cit:contactInfo>
                 <cit:CI_Contact>
@@ -480,7 +480,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-24T07:23:33.472Z</gco:DateTime>
+        <gco:DateTime>2026-06-30T18:23:08.391Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -547,7 +547,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -560,7 +560,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -899,24 +899,75 @@
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="author"/>
               </cit:role>
               <cit:party>
-                <cit:CI_Individual>
+                <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>Korver, Maartje C.</gco:CharacterString>
+                    <gco:CharacterString>McGill University</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
-                    <cit:CI_Contact></cit:CI_Contact>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:number>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint>
+                            <gco:CharacterString></gco:CharacterString>
+                          </cit:deliveryPoint>
+                          <cit:city>
+                            <gco:CharacterString>Montreal</gco:CharacterString>
+                          </cit:city>
+                          <cit:country>
+                            <gco:CharacterString>Canada</gco:CharacterString>
+                          </cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                      <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                          <cit:linkage>
+                            <gco:CharacterString>https://www.mcgill.ca</gco:CharacterString>
+                          </cit:linkage>
+                          <cit:protocol>
+                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                          </cit:protocol>
+                          <cit:function>
+                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                          </cit:function>
+                        </cit:CI_OnlineResource>
+                      </cit:onlineResource>
+                    </cit:CI_Contact>
                   </cit:contactInfo>
                   <cit:partyIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>https://orcid.org/0000-0003-1062-4864</gco:CharacterString>
+                        <gco:CharacterString>https://ror.org/01pxwe438</gco:CharacterString>
                       </mcc:code>
                     </mcc:MD_Identifier>
                   </cit:partyIdentifier>
-                  <cit:positionName>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:positionName>
-                </cit:CI_Individual>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString>Korver, Maartje C.</gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact></cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0003-1062-4864</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
+                      <cit:positionName>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
+                </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
           </cit:citedResponsibleParty>
