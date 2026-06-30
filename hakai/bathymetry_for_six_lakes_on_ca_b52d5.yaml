@@ -84,15 +84,6 @@ contact:
   - publisher
 - inCitation: false
   organization:
-    city: Vancouver
-    country: Canada
-    name: Tula Foundation
-    ror: https://ror.org/0029jxk29
-    url: https://tula.org
-  roles:
-  - funder
-- inCitation: false
-  organization:
     city: Campbell River
     country: Canada
     email: data@hakai.org
@@ -102,11 +93,25 @@ contact:
   roles:
   - owner
   - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
     fr: L'instance AGOL de Hakai est la plate-forme pour l'accès et l'utilisation
       en ligne de cet ensemble de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Online map
   url: http://hakai.maps.arcgis.com/home/item.html?id=b0e832a7597b40fba04d64934f02b8a8
@@ -114,6 +119,11 @@ distribution:
     en: Calvert Island Lake Bathymetry Data Download - RASTER - and readme metadata
     fr: Téléchargement des données bathymétriques du lac de l'île Calvert - RASTER
       - et métadonnées Readme
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Data package
   url: https://drive.google.com/drive/folders/1heQoHoLncElNXOIwe2D332ZvSpdwPFnG?usp=sharing
@@ -238,7 +248,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-29'
-    revision: '2026-06-30T18:23:30.199Z'
+    revision: '2026-06-30T18:23:57.681Z'
   identifier: b52d5602-f81d-4565-9574-e448e99bc997
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWxuNHhkYXVuNlFDSVY
