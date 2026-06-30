@@ -66,7 +66,7 @@ distribution:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://github.com/HakaiInstitute/hakai-stream-temperature-data.git
+  url: https://github.com/HakaiInstitute/hakai-stream-temperature-data
 identification:
   abstract:
     en: 'The lack of continuous stream temperature and stage data for minimally disturbed,
@@ -109,7 +109,21 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsSupplementTo
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.21966/c6xs-y324
+    title:
+      en: Watersheds Stream Stations Timeseries, Calvert and Hecate Islands, BC, Canada
+        (Provisional)
+      fr: Séries chronologiques des stations hydrographiques des bassins versants,
+        îles Calvert et Hécate, Colombie-Britannique, Canada (provisoire)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2014-09-08'
   edition: 1.0.0
@@ -141,14 +155,28 @@ identification:
           à l'aide du service de traduction Amazon
         verified: false
 instruments:
-- id: KPSI-501
+- description:
+    en: Fully submersible vented pressure transducer
+    fr: Transducteur de pression ventilé entièrement submersible
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: KPSI-501
   manufacturer: KPSI
   type:
     en: Pressure Transducer
+    fr: Transducteur de pression
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   version: '501'
 metadata:
   dates:
-    revision: '2025-03-12T23:59:18.494Z'
+    revision: '2026-06-30T22:52:26.240Z'
   identifier: 294753f5-b0e4-4424-8c61-5c9fb2ed4670
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/zBOULF9sDAgC4rkoZUFQq7sBGCf2/-OHjF0BM2dO2PcoUz8_f
