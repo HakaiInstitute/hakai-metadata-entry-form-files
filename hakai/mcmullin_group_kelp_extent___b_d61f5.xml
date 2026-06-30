@@ -1118,7 +1118,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-05-26T22:28:04.925Z</gco:DateTime>
+        <gco:DateTime>2026-06-30T21:28:55.224Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1185,7 +1185,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -1198,7 +1198,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -3082,19 +3082,10 @@
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>Nereocystis luetkeana</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Nereocystis</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
             <gco:CharacterString>Laminariales</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Ochrophyta</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Phaeophyceae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Macrocystis</gco:CharacterString>
@@ -3103,24 +3094,19 @@
             <gco:CharacterString>Macrocystis pyrifera</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
+            <gco:CharacterString>Phaeophyceae</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
             <gco:CharacterString>Laminariaceae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
+            <gco:CharacterString>Nereocystis luetkeana</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Nereocystis</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
             <gco:CharacterString>Chromista</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Nereocystis luetkeana</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Nereocystis</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
@@ -3133,13 +3119,6 @@
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Ochrophyta</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Phaeophyceae</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -3160,7 +3139,28 @@
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Phaeophyceae</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Laminariaceae</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Nereocystis luetkeana</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Nereocystis</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -3423,36 +3423,6 @@
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Formulaire en ligne pour demander l&#39;accès à des ensembles de données particuliers appartenant à Hakai</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://drive.google.com/open?id=1jukkkqR46AAO14Q80XMWzwojRotSkuYS</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>2017 Kelp Extent for the McMullin Group islands</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Étendue du varech 2017 pour les îles du groupe McMullin</lan:LocalisedCharacterString>
-                  </lan:textGroup>
-                </lan:PT_FreeText>
-              </cit:name>
-              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
-                <gco:CharacterString>A shapefile delineating the kelp extent for the McMullin Group Islands</gco:CharacterString>
-                <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                    <lan:LocalisedCharacterString locale="#fr">Un shapefile délimitant l&#39;étendue du varech pour les îles du groupe McMullin</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
