@@ -108,24 +108,6 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   url: https://github.com/debobrist/subsidized_isl_bird_communities
-- description:
-    en: 2020 publication in  Ecosphere Journal.
-    fr: Publication de 2020 dans Ecosphere Journal.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  name:
-    en: Marine subsidies mediate patterns in avian island biogeography
-    fr: Les subventions marines influent sur les modèles biogéographiques des îles
-      aviaires
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://doi.org/10.1098/rspb.2020.0108
 identification:
   abstract:
     en: 'Data were collected to test the theory that marine-derived nutrients can
@@ -234,7 +216,20 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.1098/rspb.2020.0108
+    title:
+      en: 'Paper: Marine subsidies mediate patterns in avian island biogeography'
+      fr: 'Article : Les subventions marines influencent les tendances de la biogéographie
+        des îles aviaires'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     publication: '2017-09-01'
   edition: '1.0'
@@ -277,7 +272,7 @@ identification:
 metadata:
   dates:
     publication: '2023-03-03'
-    revision: '2026-07-03T16:04:23.777Z'
+    revision: '2026-07-03T16:07:40.607Z'
   identifier: 12f951d4-4155-4c05-969d-a7158412f579
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUNJMG8wUVlZa1NiNUM
