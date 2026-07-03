@@ -13,15 +13,12 @@ contact:
     url: https://www.hakai.org/
   roles:
   - custodian
-  - owner
   - author
   - editor
   - pointOfContact
   - principalInvestigator
   - processor
-  - publisher
   - originator
-  - distributor
 - inCitation: true
   individual:
     name: Frazer, Gordon W.
@@ -71,6 +68,16 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 distribution:
 - description:
     en: Hakai's AGOL Instance is the platform for Access and online use of this dataset
@@ -254,7 +261,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-29'
-    revision: '2026-07-03T16:26:17.547Z'
+    revision: '2026-07-03T16:27:21.068Z'
   identifier: d94882f8-c069-454d-a0ea-96c2b17d789d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWlXa3RKM3k5Q29aTWQ
