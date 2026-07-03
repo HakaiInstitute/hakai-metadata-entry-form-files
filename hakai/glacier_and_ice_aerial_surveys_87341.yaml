@@ -1,13 +1,4 @@
 contact:
-- inCitation: false
-  organization:
-    city: Vancouver
-    country: Canada
-    name: Tula Foundation
-    ror: https://ror.org/0029jxk29
-    url: https://tula.org
-  roles:
-  - funder
 - inCitation: true
   individual:
     email: data@hakai.org
@@ -22,8 +13,6 @@ contact:
     url: https://www.hakai.org/
   roles:
   - custodian
-  - owner
-  - distributor
   - processor
   - principalInvestigator
   - pointOfContact
@@ -40,6 +29,25 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Request form for the Glaciers and Icefields data
@@ -179,7 +187,7 @@ identification:
 metadata:
   dates:
     publication: '2025-05-08'
-    revision: '2026-07-03T15:57:36.586Z'
+    revision: '2026-07-03T15:57:59.666Z'
   identifier: 87341cb3-f906-4fa5-973c-b6742aa0fbb5
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-OP2QaXeKeZ30lz51gEE
