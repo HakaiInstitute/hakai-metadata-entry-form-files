@@ -183,6 +183,7 @@ identification:
   associated_resources: []
   dates:
     publication: '2015-04-30'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/q0wm-zk34
   keywords:
     default:
@@ -223,7 +224,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-11'
-    revision: '2024-07-24T18:54:38.585Z'
+    revision: '2026-07-03T16:30:11.458Z'
   identifier: 0c8692f0-a103-4681-9247-9bb69c6e222e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUV1QlY5N1AwYk42TFo
@@ -244,7 +245,37 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Phantom 3 Pro Drone
+    fr: Phantom 3 Pro
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: DJI Phantom 3 Pro
+  instruments:
+  - description:
+      en: Phantom 3 Pro RGB  Camera used to capture imagery of kelp.
+      fr: Caméra Phantom 3 Pro RGB utilisée pour capturer des images de varech.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Hakai Institute Drone
+    manufacturer: DJI
+    type:
+      en: Drone - RGB camera
+      fr: Drone - caméra RGB
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: Phantom 3 Pro
+  type: unmanned aerial vehicle
 spatial:
   bbox:
   - -128.17543029785156
