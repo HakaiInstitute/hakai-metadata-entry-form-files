@@ -918,7 +918,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-07-03T16:27:43.347Z</gco:DateTime>
+        <gco:DateTime>2026-07-03T16:28:58.981Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2229,7 +2229,7 @@ Hakai Institute, Santiago Gonzalez Arriola, Gordon W. Frazer, Ian Giesbrecht.
 Suggested Citation: 
 Gonzalez Arriola S., G. W. Frazer, and I. Giesbrecht. 2015. LiDAR-derived watersheds and their metrics for Calvert Island. Hakai Institute Data Package. DOI: http://dx.doi.org/10.21966/1.15311</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données fournit les limites des bassins versants dérivés du LiDAR pour toutes les îles Calvert et Hecate, en Colombie-Britannique. Les bassins versants ont été délimités à partir d&#39;un modèle altimétrique numérique de 3 m. Pour chaque polygone de bassin versant, le jeu de données comprend un identificateur unique et des statistiques sommaires simples pour décrire la topographie et l&#39;hydrologie. Polygones de bassin versant Cet ensemble de données a été produit à partir des résultats de la modélisation hydrologique « traditionnelle » menée à l&#39;aide du MNT de terre nue complet topographiquement complet basé sur lidar de 2012 + 2014 avec une zone tampon de 10 m autour de la côte pour s&#39;assurer que tous les bassins versants modélisés atteignent l&#39;océan. Les bassins versants ont été délimités à l&#39;aide de points d&#39;coulée créés à l&#39;intersection des cours d&#39;eau modélisés et du littoral. Après la délimitation du bassin versant, ceux-ci ont été coupés sur le rivage de l&#39;île.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -2555,8 +2555,13 @@ Gonzalez Arriola S., G. W. Frazer, and I. Giesbrecht. 2015. LiDAR-derived waters
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Online map</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Carte en ligne</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Hakai&#39;s AGOL Instance is the platform for Access and online use of this dataset</gco:CharacterString>
@@ -2583,8 +2588,13 @@ Gonzalez Arriola S., G. W. Frazer, and I. Giesbrecht. 2015. LiDAR-derived waters
               <cit:name>
                 <gco:CharacterString>Data package</gco:CharacterString>
               </cit:name>
-              <cit:description>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Watershed Boundaries Data Download - Calvert and Hecate Islands</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Téléchargement des données sur les limites des bassins versants - Îles Calvert et Hécate</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
