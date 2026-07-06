@@ -16,7 +16,7 @@ contact:
   roles:
   - pointOfContact
   - processor
-- inCitation: false
+- inCitation: true
   organization:
     city: Campbell River
     country: Canada
@@ -26,8 +26,6 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
-  - principalInvestigator
-  - resourceProvider
 - inCitation: false
   organization:
     address: 1002 Wharf Street
@@ -42,6 +40,7 @@ contact:
   - owner
   - distributor
   - principalInvestigator
+  - resourceProvider
 - inCitation: false
   organization:
     city: Vancouver
@@ -68,7 +67,7 @@ distribution:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/tqj2-wh77
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/vwee-e004
 identification:
   abstract:
     en: 'In September 2023, the Hakai Geospatial Team, in partnership with the Geological
@@ -90,16 +89,11 @@ identification:
 
       Pour plus d''informations sur le post-traitement, l''assurance qualité des données,
       les logiciels utilisés et le résumé des résultats, veuillez contacter data@hakai.org'
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
   associated_resources:
   - association_type: HasMetadata
     association_type_iso: crossReference
     authority: URL
-    code: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/tqj2-wh77
+    code: https://drive.google.com/file/d/1tCkBSbg8viQE8RDHg-0B3K9qfWbKU_Em/view
     title:
       en: Horne Lake Bathymetric Survey Metadata Report
       fr: Rapport de métadonnées du levé bathymétrique de Horne Lake
@@ -147,20 +141,20 @@ identification:
 metadata:
   dates:
     publication: '2026-05-27'
-    revision: '2026-05-27T17:59:21.156Z'
+    revision: '2026-07-06T20:09:47.981Z'
   identifier: 7e49967a-b5ab-443d-860b-e3c0eb0f709c
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/G8LjsjnnPxb5TxWL730BxDTQu532/-Njn-0LeJ-Uwj4L8EmOV
   naming_authority: ca.cioos
   use_constraints:
     licence:
-      code: CC-BY-NC-4.0
+      code: CC-BY-4.0
       title:
-        en: 'Creative Commons Attribution 4.0 Attribution-NonCommercial  '
-      url: https://creativecommons.org/licenses/by-nc/4.0/
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
     limitations:
-      en: Not to be used for navigational or commercial purposes
-      fr: Ne pas utiliser à des fins de navigation ou commerciales
+      en: Not to be used for navigational purposes
+      fr: Ne pas utiliser à des fins de navigation
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
