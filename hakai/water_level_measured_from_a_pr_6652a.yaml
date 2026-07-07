@@ -11,7 +11,6 @@ contact:
   roles:
   - owner
   - distributor
-  - funder
 - inCitation: true
   individual:
     name: Barrette, Jessy
@@ -37,6 +36,15 @@ contact:
   roles:
   - publisher
   - custodian
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - name:
     en: ERDDAP Dataset
@@ -59,11 +67,6 @@ identification:
       la mer résultante a ensuite été convertie en profondeur à l'aide de la boîte
       à outils Gibbs Sea Water TEOS-10 et soustraite par le niveau d'eau moyen mesuré
       sur place.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
   associated_resources: []
   dates:
     creation: '2020-02-12'
@@ -101,7 +104,7 @@ identification:
 metadata:
   dates:
     publication: '2024-07-18'
-    revision: '2026-07-07T22:23:49.503Z'
+    revision: '2026-07-07T22:24:22.808Z'
   identifier: 6652a7a9-d27f-4cbe-ac04-435c238e991d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-Mknr8pYvIQKw4r-WTFd
