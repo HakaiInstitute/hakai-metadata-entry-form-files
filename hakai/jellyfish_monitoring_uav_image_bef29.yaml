@@ -22,8 +22,7 @@ contact:
 - inCitation: true
   individual:
     email: data@hakai.org
-    name: Geospatial Technology Team
-    position: Geospatial Science
+    name: Hakai Geospatial
   organization:
     city: Campbell River
     country: Canada
@@ -177,19 +176,19 @@ identification:
       - Autre
     taxa:
       en:
-      - Animalia
-      - Cnidaria
       - Scyphozoa
       - Semaeostomeae
       - Ulmaridae
+      - Cnidaria
       - Aurelia
+      - Animalia
       fr:
-      - Animalia
-      - Cnidaria
       - Scyphozoa
       - Semaeostomeae
       - Ulmaridae
+      - Cnidaria
       - Aurelia
+      - Animalia
   progress_code: completed
   project:
   - Geospatial
@@ -207,7 +206,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-11'
-    revision: '2024-07-24T12:13:41.897Z'
+    revision: '2026-07-07T22:36:09.386Z'
   identifier: bef293d6-8721-4214-b8f5-03b5ffb28e1c
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUZiYThoMU5xSzFXdks
@@ -228,7 +227,37 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: RPAS Drone
+    fr: Drone RPAS
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Phantom 3 Pro
+  instruments:
+  - description:
+      en: RGB camera
+      fr: Caméra RGB
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Phantom 3 Pro Camera
+    manufacturer: DJI
+    type:
+      en: RGB commercial camera
+      fr: Caméra commerciale RGB
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: 3 Pro
+  type: unmanned aerial vehicle
 spatial:
   bbox:
   - -128.13097000122067
