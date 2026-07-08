@@ -113,8 +113,8 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-  - association_type: IsVersionOf
-    association_type_iso: revisionOf
+  - association_type: IsDerivedFrom
+    association_type_iso: dependency
     authority: DOI
     code: https://doi.org/10.21966/adbg-d170
     title:
@@ -173,7 +173,7 @@ identification:
 metadata:
   dates:
     publication: '2026-02-27'
-    revision: '2026-04-15T19:05:42.176Z'
+    revision: '2026-07-08T16:04:58.292Z'
   identifier: bfefcdf9-c922-4e4f-a958-aa6da739d3cd
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-OOYvTmfsWUPdHkDTTFS
