@@ -174,6 +174,7 @@ identification:
   dates:
     creation: '2022-03-05'
     publication: '2022-11-30'
+  edition: '1.0'
   identifier: https://doi.org/10.21966/7hcz-7h72
   keywords:
     default:
@@ -207,7 +208,7 @@ identification:
 metadata:
   dates:
     publication: '2023-01-18'
-    revision: '2024-12-05T18:13:57.645Z'
+    revision: '2026-07-10T18:00:34.161Z'
   identifier: 532c06ad-0b55-4e86-9088-cec970a0a8e1
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NM0OpChVdtahTI6YHDs
@@ -228,7 +229,49 @@ metadata:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-platform: []
+platform:
+- description:
+    en: Airborne Coastal Observatory - Piper Navajo
+    fr: Observatoire côtier aéroporté - Piper Navajo
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Airborne Coastal Observatory – Hakai Institute
+  instruments:
+  - description:
+      en: Laser scanner used to measure the earth’s surface topography and vegetation
+      fr: Scanner laser utilisé pour mesurer la topographie et la végétation de la
+        surface de la Terre
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Laser sensor
+    manufacturer: Riegl
+    type:
+      en: Laser scanner
+      fr: Scanneur laser
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: LMS-Q 780 long-range airborne laser scanner
+  - description:
+      en: 'Aerial cameras: two fully integrated Phaseone Industrial iXU-RS1000 medium
+        format cameras, resolution: 100MP, lens: 50mm f/4.0 Rodenstock.'
+      fr: 'Caméras aériennes : deux caméras de format moyen Phaseone Industrial iXU-RS1000
+        entièrement intégrées, résolution : 100 MP, objectif : 50 mm f/4.0 Rodenstock.'
+    id: Aerial cameras
+    manufacturer: Phaseone Industrial
+    type:
+      en: medium format cameras
+      fr: appareils photo de format moyen
+    version: iXU-RS1000
+  type: research aeroplane
 spatial:
   bbox:
   - -126.8
