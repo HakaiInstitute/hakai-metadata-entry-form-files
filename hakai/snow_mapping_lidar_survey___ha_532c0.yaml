@@ -13,8 +13,6 @@ contact:
     url: https://www.hakai.org/
   roles:
   - custodian
-  - owner
-  - distributor
   - author
   - resourceProvider
   - pointOfContact
@@ -25,13 +23,15 @@ contact:
   - originator
 - inCitation: false
   organization:
-    city: Vancouver
+    city: Campbell River
     country: Canada
-    name: Tula Foundation
-    ror: https://ror.org/0029jxk29
-    url: https://tula.org
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
-  - funder
+  - owner
+  - distributor
 - inCitation: true
   organization:
     city: Campbell River
@@ -42,6 +42,15 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Metadata document detailing the snow survey work completed in 2022
@@ -208,7 +217,7 @@ identification:
 metadata:
   dates:
     publication: '2023-01-18'
-    revision: '2026-07-10T18:00:34.161Z'
+    revision: '2026-07-10T18:01:21.914Z'
   identifier: 532c06ad-0b55-4e86-9088-cec970a0a8e1
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NM0OpChVdtahTI6YHDs
