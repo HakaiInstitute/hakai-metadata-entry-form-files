@@ -66,6 +66,7 @@ contact:
   roles:
   - resourceProvider
   - distributor
+  - owner
 - inCitation: true
   organization:
     city: Campbell River
@@ -178,16 +179,26 @@ instruments:
       intertidal sites
     fr: Dispositif de levé RTK de base et rover utilisé pour géolocaliser les informations
       xyz pour les sites intertidaux rocheux
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   id: Topcon GR5
   manufacturer: Topcon
   type:
     en: RTK survey GPS
     fr: GPS de levé RTK
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   version: GR5
 metadata:
   dates:
     publication: '2022-03-11'
-    revision: '2026-07-10T18:04:00.833Z'
+    revision: '2026-07-10T18:04:32.592Z'
   identifier: 7de69ca8-b3f3-4761-b441-dfc9e63b1fbc
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXBVWDBQSFpnWjBBS0Q
