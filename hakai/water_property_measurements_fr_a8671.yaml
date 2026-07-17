@@ -1,25 +1,5 @@
 contact:
 - inCitation: true
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - publisher
-- inCitation: false
-  organization:
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - owner
-  - distributor
-- inCitation: true
   individual:
     email: wiley.evans@hakai.org
     name: Evans, Wiley
@@ -47,6 +27,26 @@ contact:
   - coAuthor
   - custodian
   - pointOfContact
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -144,7 +144,7 @@ identification:
 metadata:
   dates:
     publication: '2026-04-27'
-    revision: '2026-07-17T17:08:13.673Z'
+    revision: '2026-07-17T17:08:27.249Z'
   identifier: a8671db6-81cc-4c92-b681-58595fe66182
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/3LY8ezYsI9hglwZSsfkAdSBcoEG3/-OqDQ7wqqJtwSgUoAN1g
