@@ -248,16 +248,6 @@ contact:
     url: https://www.hakai.org/
   roles:
   - contributor
-- inCitation: true
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - publisher
 - inCitation: false
   individual:
     email: brenton.twist@hakai.org
@@ -272,15 +262,16 @@ contact:
     url: https://www.hakai.org/
   roles:
   - contributor
-- inCitation: false
+- inCitation: true
   organization:
-    city: Vancouver
+    city: Campbell River
     country: Canada
-    name: Tula Foundation
-    ror: https://ror.org/0029jxk29
-    url: https://tula.org
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
-  - funder
+  - publisher
 - inCitation: false
   organization:
     city: Campbell River
@@ -292,6 +283,15 @@ contact:
   - custodian
   - owner
   - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Data files and documentation for Fucus point intercept surveys.
@@ -429,7 +429,7 @@ identification:
 metadata:
   dates:
     publication: '2024-09-03'
-    revision: '2026-07-17T17:23:05.556Z'
+    revision: '2026-07-17T17:23:17.621Z'
   identifier: 52797e17-c0ed-46a4-9dcd-e34f801c6205
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-MopPnOL2o_bshK-cKxr
