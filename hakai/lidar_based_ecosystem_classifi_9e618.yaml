@@ -153,59 +153,46 @@ distribution:
   url: https://drive.google.com/open?id=1M2LGth_ICscNvZTGdqcugtzXriuUIedk
 identification:
   abstract:
-    en: 'The purpose of this work was to define and map a set of repeating ecohydrological
-      classes on Calvert and Hecate Islands using remote sensing data and an unsupervised
-      classification technique. The resulting map provides a new tool for characterizing
-      the extent and internal properties of different ecosystem classes, for stratifying
-      future study designs, and for evaluating the influence of terrestrial landscape
-      characteristics on watershed processes.
-
-
-      "Traditionally, forest inventory and ecosystem mapping at local to regional
-      scales rely on manual interpretation of aerial photographs, based on standardized,
-      expert-driven classification schemes. These current approaches provide the information
-      needed for forest ecosystem management but constrain the thematic and spatial
-      resolution of mapping and are infrequently repeated. The goal of this research
-      was to demonstrate the utility of an unsupervised, quantitative technique based
-      on Light Detection And Ranging (LiDAR) data and multi-spectral satellite imagery
-      for mapping local-scale ecosystems over a heterogeneous landscape of forested
-      and non-forested ecosystems. We derived a range of metrics characterizing local
-      terrain and vegetation from LiDAR and RapidEye imagery for Calvert and Hecate
-      Islands, British Columbia. These metrics were used in a cluster analysis to
-      classify and quantitatively characterize ecological units across the island.
-      A total of 18 clusters were derived. The clusters were attributed with quantitative
-      summary statistics from the remotely sensed data inputs and contextualized through
-      comparison to ecological units delineated in a traditional expert-driven mapping
-      method using aerial photographs. The 18 clusters describe ecosystems ranging
-      from open shrublands to dense, productive forest and include a riparian zone
-      and many wetter and wetland ecosystems. The clusters provide detailed, spatially-explicit
-      information for characterizing the landscape as a mosaic of units defined by
-      topography and vegetation structure. This study demonstrates that using various
-      types of remotely sensed data in a quantitative classification can provide scientists
-      and managers with multi- variate information unique from that which results
-      from traditional, expert-based ecosystem mapping methods." - Abstract from Thompson
-      et al. 2016.
-
-
-      A complete explanation of methods is available in Thompson et al. 2016. Data-driven
-      regionalization of forested and non-forested ecosystem in coastal British Columbia
-      with LiDAR and RapidEye imagery. The manuscript is available here: <a href="https://www.researchgate.net/publication/296623199_Data-driven_regionalization_of_forested_and_non-forested_ecosystems_in_coastal_British_Columbia_with_LiDAR_and_RapidEye_imagery">Thompson
-      et al. 2016</a>
-
-
-      A small number of data voids in the 2012 LiDAR coverage were present and were
-      excluded from the analysis. Although the voids have since been filled with new
-      LiDAR data acquired in 2014, the new data were not included in the analysis
-      of Thompson et al. Other “gaps” in the spatial coverage of the final map are
-      a result of the exclusion of non-vegetated areas (as guided by the Normalized
-      Difference Vegetation Index (NDVI) and the provincial Freshwater Atlas (FWA):
-      https://www2.gov.bc.ca/gov/content/data/geographic-data-services/topographic-data/freshwater).
-      In addition to small waterbodies, these non-vegetated areas include a few small
-      areas at high elevation that were snow-covered at the time of the RapidEye image
-      acquisition.
-
-
-      DOI: http://dx.doi.org/10.21966/1.135248'
+    en: "The purpose of this work was to define and map a set of repeating ecohydrological\
+      \ classes on Calvert and Hecate Islands using remote sensing data and an unsupervised\
+      \ classification technique. The resulting map provides a new tool for characterizing\
+      \ the extent and internal properties of different ecosystem classes, for stratifying\
+      \ future study designs, and for evaluating the influence of terrestrial landscape\
+      \ characteristics on watershed processes.\n\n\"Traditionally, forest inventory\
+      \ and ecosystem mapping at local to regional scales rely on manual interpretation\
+      \ of aerial photographs, based on standardized, expert-driven classification\
+      \ schemes. These current approaches provide the information needed for forest\
+      \ ecosystem management but constrain the thematic and spatial resolution of\
+      \ mapping and are infrequently repeated. The goal of this research was to demonstrate\
+      \ the utility of an unsupervised, quantitative technique based on Light Detection\
+      \ And Ranging (LiDAR) data and multi-spectral satellite imagery for mapping\
+      \ local-scale ecosystems over a heterogeneous landscape of forested and non-forested\
+      \ ecosystems. We derived a range of metrics characterizing local terrain and\
+      \ vegetation from LiDAR and RapidEye imagery for Calvert and Hecate Islands,\
+      \ British Columbia. These metrics were used in a cluster analysis to classify\
+      \ and quantitatively characterize ecological units across the island. A total\
+      \ of 18 clusters were derived. The clusters were attributed with quantitative\
+      \ summary statistics from the remotely sensed data inputs and contextualized\
+      \ through comparison to ecological units delineated in a traditional expert-driven\
+      \ mapping method using aerial photographs. The 18 clusters describe ecosystems\
+      \ ranging from open shrublands to dense, productive forest and include a riparian\
+      \ zone and many wetter and wetland ecosystems. The clusters provide detailed,\
+      \ spatially-explicit information for characterizing the landscape as a mosaic\
+      \ of units defined by topography and vegetation structure. This study demonstrates\
+      \ that using various types of remotely sensed data in a quantitative classification\
+      \ can provide scientists and managers with multi- variate information unique\
+      \ from that which results from traditional, expert-based ecosystem mapping methods.\"\
+      \ - Abstract from Thompson et al. 2016.\n\nA complete explanation of methods\
+      \ is available in Thompson et al. 2016. \n\nA small number of data voids in\
+      \ the 2012 LiDAR coverage were present and were excluded from the analysis.\
+      \ Although the voids have since been filled with new LiDAR data acquired in\
+      \ 2014, the new data were not included in the analysis of Thompson et al. Other\
+      \ “gaps” in the spatial coverage of the final map are a result of the exclusion\
+      \ of non-vegetated areas (as guided by the Normalized Difference Vegetation\
+      \ Index (NDVI) and the provincial Freshwater Atlas (FWA): https://www2.gov.bc.ca/gov/content/data/geographic-data-services/topographic-data/freshwater).\
+      \ In addition to small waterbodies, these non-vegetated areas include a few\
+      \ small areas at high elevation that were snow-covered at the time of the RapidEye\
+      \ image acquisition."
     fr: 'Le but de ce travail était de définir et de cartographier un ensemble de
       classes écohydrologiques répétitives sur les îles Calvert et Hécate à l''aide
       de données de télédétection et d''une technique de classification non supervisée.
@@ -266,6 +253,11 @@ identification:
 
 
       DOI : http://dx.doi.org/10.21966/1.135248'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources:
   - association_type: IsPublishedIn
     association_type_iso: largerWorkCitation
@@ -325,7 +317,7 @@ identification:
 metadata:
   dates:
     publication: '2022-03-29'
-    revision: '2026-07-28T15:33:14.532Z'
+    revision: '2026-07-28T15:34:48.068Z'
   identifier: 9e61819e-8385-41d2-a5c5-0e2f37c522ef
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MVFjSmdJMGxrU1pZbXM
