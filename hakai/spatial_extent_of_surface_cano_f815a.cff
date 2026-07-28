@@ -16,7 +16,7 @@ abstract: "This data package consists of digitized surface canopy extent for two
   \ Imagery resolution is 10 cm. Imagery collection and orthomosaic processing is\
   \ described in associated reports linked in this record. \n\nKelp delineation: Surface\
   \ kelp canopy (species-level) is represented by polygons which were digitized using\
-  \ the Hakai Institute KelpOMatic AI tool (https://hakai-segmentation.readthedocs.io/en/latest/).\
+  \ the Hakai Institute KelpOMatic AI tool (https://habitat-mapper.readthedocs.io/en/latest/).\
   \ Datasets were reviewed by an expert analyst for quality analysis/quality control\
   \ purposes.  \n\nThe data package includes:\n\n- The ACO metadata report (.pdf)\
   \ which describe the system used to acquire and process imagery. \n- Polygon shapefiles\
@@ -62,10 +62,6 @@ authors:
   email: data@hakai.org
   name: Hakai Institute
   website: https://www.hakai.org/
-- city: Vancouver
-  country: CA
-  name: Tula Foundation
-  website: https://tula.org
 cff-version: 1.2.0
 contact:
 - affiliation: Hakai Institute
@@ -84,7 +80,7 @@ contact:
   given-names: Keith
   orcid: https://orcid.org/0000-0001-8796-8222
   website: https://www.hakai.org/
-date-released: '2025-10-31'
+date-released: '2026-07-28'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -124,6 +120,6 @@ license-url: https://creativecommons.org/licenses/by/4.0
 message: If you use this software, please cite it as below
 title: Spatial extent of surface canopy kelp derived from fixed-wing surveys (2024),
   North Vancouver Island, British Columbia, Canada
-type: Dataset
+type: dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_f815a700-c943-4d6f-afeb-a4854ad10cfc
 version: '1.0'
