@@ -1,0 +1,184 @@
+contact:
+- inCitation: true
+  individual:
+    email: chris.mackenzie@hakai.org
+    name: Mackenzie, Christopher James
+    orcid: https://orcid.org/0009-0002-1811-6047
+    position: Research Technician
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - collaborator
+- inCitation: true
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: info@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: ERDDAP Dataset
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiPruthDockProvisional.html
+identification:
+  abstract:
+    en: The Hakai Institute maintains a weather and tide station on the main dock
+      of its remote station located on Calvert Island within Pruth Bay. The weather
+      station measures the air temperature, wind speed and direction, humidity, atmospheric
+      pressure, UV radiation, solar radiation, PAR, and precipitation since July 2014.
+      In June 2018, a tide station was installed to measure the water level within
+      the bay. The station is a combination of a primary radar sensor mounted below
+      the dock above the water and a secondary vented pressure sensor mounted within
+      the water 2m below the lowest tides.
+    fr: L'Institut Hakai maintient une station météorologique et marée sur le quai
+      principal de sa station éloignée située sur l'île Calvert, dans la baie de Pruth.
+      La station météorologique mesure la température de l'air, la vitesse et la direction
+      du vent, l'humidité, la pression atmosphérique, le rayonnement UV, le rayonnement
+      solaire, le PAR et les précipitations depuis juillet 2014. En juin 2018, une
+      station de marée a été installée pour mesurer le niveau d'eau dans la baie.
+      La station est une combinaison d'un capteur radar primaire monté sous le quai
+      au-dessus de l'eau et d'un capteur de pression ventilé secondaire monté dans
+      l'eau à 2 m sous les marées les plus basses.
+  associated_resources: []
+  dates:
+    creation: '2014-07-24'
+    publication: '2021-10-01'
+  identifier: https://doi.org/10.21966/8d4w-sr07
+  keywords:
+    default:
+      en:
+      - Weather station
+      - tide station
+      - water level
+      fr:
+      - Station météorologique
+      - station marégraphique
+      - niveau d'eau
+    eov:
+      en:
+      - seaSurfaceHeight
+      - other
+      - seaSurfaceTemperature
+      fr:
+      - Niveau de l'eau
+      - Autre
+      - Température de surface
+  progress_code: tentative
+  project:
+  - Oceanography
+  - Watersheds
+  status: published
+  temporal_begin: '2014-07-24T19:00:00.000Z'
+  title:
+    en: Water Level and Weather Station Time Series, Pruth Bay, Kwakshua Channel,
+      Central Coast, BC, Canada (Provisional)
+    fr: Séries chronologiques du niveau de l'eau et des stations météorologiques,
+      baie de Pruth, canal Kwakshua, côte centrale, Colombie-Britannique, Canada (provisoire)
+    translations:
+      fr:
+        verified: true
+metadata:
+  dates:
+    publication: '2024-03-14'
+    revision: '2026-07-17T16:23:12.316Z'
+  identifier: 2d693456-7e65-46be-95d7-6bb697320017
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MkxD-S6TxIvv2e6_OGH
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: This is data is provisional only. Please handle with care.
+      fr: Ces données ne sont que provisoires. Veuillez manipuler avec précaution.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: Dock
+    fr: Quai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Pruth Dock
+  instruments:
+  - id: OTT PLS-C
+    manufacturer: OTT
+    type:
+      en: Vented Pressure Gauge with conductivity and temperature sensor
+      fr: Manomètre ventilé avec sonde de conductivité et de température
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: PLS-C
+  - description:
+      en: The VEGAPULS 62 is a universally implementable radar sensor for continuous
+        level measurement of liquids. It is suitable for level measurement in storage
+        containers, reactors and process vessels, even under difficult process conditions.
+        With its various antenna versions and materials, VEGAPULS 62 is the optimal
+        solution for almost all applications and processes. Its wide temperature and
+        pressure range makes project planning simple.
+      fr: Le VEGAPULS 62 est un capteur radar universel pour la mesure continue de
+        niveau de liquides. Il convient à la mesure de niveau dans des conteneurs
+        de stockage, des réacteurs et des cuves de traitement, même dans des conditions
+        de processus difficiles. Avec ses différentes versions et matériaux d'antenne,
+        VEGAPULS 62 est la solution optimale pour presque toutes les applications
+        et tous les processus. Sa large plage de températures et de pressions simplifie
+        la planification des projets.
+    id: VegaPulse 62
+    manufacturer: VegaPulse
+    type:
+      en: Radar-type Tide Sensor
+      fr: Capteur de marée de type radar
+    version: '62'
+  type: unknown
+spatial:
+  bbox:
+  - -128.1302805556
+  - 51.6544888889
+  - -128.1302805556
+  - 51.6544888889
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
