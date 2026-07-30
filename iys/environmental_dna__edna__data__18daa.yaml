@@ -1,0 +1,290 @@
+contact:
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  individual:
+    email: Christoph.Deeg@dfo-mpo.gc.ca
+    name: Deeg, Christoph
+    position: Postdoctoral Fellow
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - owner
+  - custodian
+  - principalInvestigator
+  - pointOfContact
+  - author
+- inCitation: true
+  individual:
+    name: Tam, Christopher
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Department of Fisheries and Oceans
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - principalInvestigator
+  - author
+- inCitation: true
+  individual:
+    name: Esenkulova, Svetlana
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Pacific Salmon Foundation
+    ror: https://ror.org/04901nj56
+    url: https://www.psf.ca/
+  roles:
+  - principalInvestigator
+  - author
+- inCitation: true
+  individual:
+    email: abigail.wells@noaa.gov
+    name: Wells, Abi
+    position: Geneticist
+  organization:
+    city: Washington
+    country: United States
+    name: National Oceanic and Atmospheric Administration
+    ror: https://ror.org/02z5nhe81
+    url: http://www.noaa.gov/
+  roles:
+  - principalInvestigator
+  - author
+- inCitation: true
+  individual:
+    name: Soshnina, Valeriia
+  organization:
+    city: Moscow
+    country: Russia
+    name: All-Russian Research Institute Fisheries and Oceanography
+    ror: https://ror.org/00apb0c64
+    url: http://www.vniro.ru/ru/
+  roles:
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    name: Ens, Nicholas
+  organization:
+    city: Victoria
+    country: Canada
+    name: University of Victoria
+    ror: https://ror.org/04s5mat29
+    url: https://www.uvic.ca
+  roles:
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    name: Schulze, Angela
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Department of Fisheries and Oceans
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - author
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: kristi.saunders@dfo-mpo.gc.ca
+    name: Miller-Saunders, Kristi
+    orcid: https://orcid.org/0000-0002-2667-712X
+    position: Program Head of Salmon Genetics
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Fisheries and Oceans Canada
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - author
+  - principalInvestigator
+distribution:
+- description:
+    en: Dataset from multi amplicon metabarcoding environmental DNA analysis from
+      the 2022 IYS High Seas Expedition
+    fr: Ensemble de données provenant de l'analyse de l'ADN environnemental par métabarcodage
+      à barres multi-amplicons lors de l'expédition IYS High Seas de 2022
+    translations:
+      fr:
+        verified: true
+  name:
+    en: Data and Supplementary Materials
+    fr: Données et matériaux supplémentaires
+    translations:
+      fr:
+        verified: true
+  url: https://github.com/international-year-of-the-salmon/2022-eDNA/archive/refs/heads/main.zip
+- description:
+    en: Link to the dataset as originally published on Dryad
+    fr: Lien vers l'ensemble de données tel que publié initialement sur Dryad
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: 'Dataset: Spatiotemporal patterns of salmon winter habitat usage in the Northeast
+      Pacific uncovered by environmental DNA'
+    fr: 'Ensemble de données : Modèles spatio-temporels de l''utilisation de l''habitat
+      hivernal du saumon dans le Pacifique Nord-Est découverts par l''ADN environnemental'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://doi.org/10.5061/dryad.c2fqz61nn
+identification:
+  abstract:
+    en: Amplicon sequence variant (asv) dataset from multi amplicon metabarcoding
+      environmental DNA analysis from the International Year of the Salmon Signature
+      expedition to the Northeast Pacific in Feb/Mar 2022. A table of all asv generated
+      in the study is provided  in ASV.csv, broken down by amplicon and sample and
+      listing the occurance of said asv in said sample. Further, total reads per amplicon/sample
+      bin are recorded as well as a taxonomic assignment. Note that this data is provided
+      prior to filtering, e.g. "Homo sapiens" reads are abundant and should be considered
+      contamination. The metadata to sampling stations is provided in the sample_metadata.csv
+      which contains the date, lat/long, as well as detailed environmental metadata
+      associated with the sample. Refer to Deeg et al. "Spatiotemporal patterns of
+      salmon winter habitat usage in the Northeast Pacific uncovered by environmental
+      DNA" ICES Journal of Marine Science 2025 (https://doi.org/10.1093/icesjms/fsaf104)
+      for detailed information on sample collection, sequencing and bioinformatic
+      processing.
+    fr: Ensemble de données de variants de séquences d'amplicons (asv) issu d'une
+      analyse de l'ADN environnemental par métabarcodage à barres multi-amplicons
+      lors de l'expédition Signature de l'Année internationale du saumon dans le Pacifique
+      Nord-Est en février/mars 2022. Un tableau de tous les asv générés dans l'étude
+      est fourni dans ASV.csv, ventilé par amplicon et échantillon et répertoriant
+      la présence dudit asv dans ledit échantillon. De plus, le nombre total de lectures
+      par amplicon/bac d'échantillons est enregistré ainsi qu'une attribution taxonomique.
+      Notez que ces données sont fournies avant le filtrage. Par exemple, les lectures
+      d' « Homo sapiens » sont abondantes et doivent être considérées comme une contamination.
+      Les métadonnées des stations d'échantillonnage sont fournies dans le fichier
+      sample_metadata.csv qui contient la date, lat/long, ainsi que des métadonnées
+      environnementales détaillées associées à l'échantillon. Reportez-vous à Deeg
+      et coll. « Les modèles spatiotemporels de l'utilisation de l'habitat hivernal
+      du saumon dans le Pacifique Nord-Est découverts par l'ADN environnemental »
+      ICES Journal of Marine Science 2025 (https://doi.org/10.1093/icesjms/fsaf104)
+      pour des informations détaillées sur le prélèvement d'échantillons, le séquençage
+      et le traitement bioinformatique.
+    translations:
+      fr:
+        verified: true
+  associated_resources:
+  - association_type: IsCitedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.1093/icesjms/fsaf104
+    title:
+      en: Spatiotemporal patterns of salmon winter habitat usage in the Northeast
+        Pacific uncovered by environmental DNA
+      fr: Les modèles spatio-temporels de l'utilisation de l'habitat hivernal du saumon
+        dans le Pacifique Nord-Est découverts par l'ADN environnemental
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2022-02-05'
+  identifier: https://doi.org/10.5061/dryad.c2fqz61nn
+  keywords:
+    default:
+      en:
+      - North Pacific Ocean
+      - International Year of the Salmon
+      - eDNA
+      - Pacific Salmon
+      - Ecosystems
+    eov:
+      en:
+      - fishAbundanceAndDistribution
+      - zooplanktonBiomassAndDiversity
+      - invertebrateAbundanceAndDistribution
+      - marineTurtlesBirdsMammalsAbundanceAndDistribution
+      - phytoplanktonBiomassAndDiversity
+      - seagrassCoverAndComposition
+      - microbeBiomassAndDiversity
+      - macroalgalCanopyCoverAndComposition
+      - hardCoralCoverAndComposition
+      fr:
+      - Abondance et distribution de poissons
+      - Biomasse et diversité de zooplancton
+      - Abondance et distribution d'invertébrés
+      - Abondance et distribution de tortues marines, oiseaux et mammifères
+      - Biomasse et diversité de phytoplancton
+      - Composition et couverture des herbiers marins
+      - Biomasse et diversité microbienne
+      - Composition et couverture de la canopée de macroalgues
+      - Composition et couverture des coraux durs
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-02-05T20:00:00.000Z'
+  temporal_end: '2022-03-20T19:00:00.000Z'
+  title:
+    en: Environmental DNA (eDNA) data from the CCGS Sir John Franklin, NOAA Bell M.
+      Shimada and R/V TINRO during the 2022 International Year of the Salmon Pan-Pacific
+      Winter High Seas Expedition
+    fr: Données d'ADN environnemental (eDNA) provenant de la Garde côtière canadienne
+      Sir John Franklin, de la NOAA Bell M. Shimada et du R/V TINRO lors de l'expédition
+      panpacifique hivernale en haute mer de l'Année internationale du saumon 2022
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2025-11-05'
+    revision: '2025-11-05T22:26:46.687Z'
+  identifier: 18daa2d8-acd6-47bf-98b7-af0a535b43bf
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NUcx5QqllIa_q2ZWszT
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC0
+      title:
+        en: Creative Commons 0
+      url: https://creativecommons.org/share-your-work/public-domain/cc0
+platform:
+- id: 'CCGS Sir John Franklin IMO: 9781839, NOAA Bell M. Shimada IMO: 9349069, R/V
+    TINRO IMO: 8607086'
+  instruments: []
+  type: research vessel
+spatial:
+  polygon: -146.987533333333,58.0061833333333 -143.837716,57.008466 -140.978466,56.93305
+    -134.904316,52.9722 -132.11135,50.950383 -126.385166666667,47.7898833333333 -130.6276,46.7975
+    -135.001416666667,45.0000166666667 -167.1688,45.3843 -169.3867,46.2883 -169.40751,46.29369
+    -171.155,47.91104 -169.065,49.065 -165.1367,50.0767 -151.875183333333,56.3804666666667
+    -150.982833333333,56.99215 -146.987533333333,58.0061833333333
+  vertical:
+  - 2.0
+  - 3.0
+  vertical_positive: heightPositive
