@@ -1,0 +1,207 @@
+contact:
+- inCitation: false
+  individual:
+    email: jessy.barrette@hakai.org
+    name: Barrette, Jessy
+    orcid: https://orcid.org/0000-0002-0422-2589
+  organization:
+    address: 1713 Hyacinthe Bay Rd
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - pointOfContact
+- inCitation: true
+  organization:
+    address: 1713 Hyacinthe Bay Rd
+    city: Heriot Bay
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: www.hakai.org
+  roles:
+  - distributor
+  - owner
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiPruthMooringProvisional.html
+identification:
+  abstract:
+    en: "The Pruth Bay mooring is a surface mooring deployed in a shallow coastal\
+      \ environment near the Hakai Institute Calvert Island field station. The mooring\
+      \ is a test platform where low-cost oceanographic instrumentation is deployed\
+      \ at different depths to record sea water temperatures at an accuracy of 0.2\
+      \ degrees Celsius. The temperature sensors are attached to an auxiliary line\
+      \ suspended from the surface buoy and along the main anchor line. Instruments\
+      \ are distributed tighter near the surface to better capture the higher vertical\
+      \ variability near the surface. \n\nThis dataset present the provisional dataset\
+      \ which has been automatically QCed and flagged."
+    fr: "L'amarrage de la baie Pruth est un amarrage de surface déployé dans un environnement\
+      \ côtier peu profond près de la station de terrain de l'île Calvert de l'Institut\
+      \ Hakai. L'amarrage est une plate-forme d'essai où l'instrumentation océanographique\
+      \ à faible coût est déployée à différentes profondeurs pour enregistrer la température\
+      \ de l'eau de mer à une précision de 0,2 degrés Celsius. Les capteurs de température\
+      \ sont fixés à une ligne auxiliaire suspendue à la bouée de surface et le long\
+      \ de la ligne d'ancrage principale. Les instruments sont répartis plus étroitement\
+      \ près de la surface pour mieux saisir la variabilité verticale la plus élevée\
+      \ près de la surface. \n\nCe jeu de données présente le jeu de données provisoire\
+      \ qui a été automatiquement QCed et marqué."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: IsSourceOf
+    association_type_iso: dependency
+    authority: URL
+    code: https://github.com/HakaiInstitute/hakai-pruth-mooring-data
+    title:
+      en: Raw original data repository
+      fr: Référentiel de données brutes d'origine
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2017-12-04'
+  keywords:
+    default:
+      en:
+      - temperature
+      - mooring
+      - low-cost
+      - pruth
+      - Calvert Island
+      - Provisional Dataset
+    eov:
+      en:
+      - subSurfaceTemperature
+      - seaSurfaceTemperature
+      - other
+      fr:
+      - Température sous la surface
+      - Température de surface
+      - Autre
+  progress_code: tentative
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2017-12-04T20:00:00.000Z'
+  title:
+    en: Pruth Bay Oceanographic Mooring on Calvert Island (Provisional)
+    fr: Amarrage océanographique de Pruth Bay sur l'île Calvert (provisoire)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2021-12-03'
+    revision: '2026-06-22T19:00:35.182Z'
+  identifier: 66ad87d2-bb96-4515-a907-6367ca6c0a2b
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MW079KN2Z_OrMh7Zk6T
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: "Temperature accuracy is of 0.2C. The platform initially deployed at [51°\
+        \ 39.3810' N,\t128° 05.4890' W] and was moved to [51°39.126'N,\t128°05.122'W]\
+        \ based on Transport Canada request.  This is a provisional dataset which\
+        \ has been automatically QCed and flagged."
+      fr: La précision de la température est de 0,2 °C. La plate-forme déployée initialement
+        à [51° 39,3810' N., 128° 05,4890' O.] et a été déplacée à [51°39,126'N, 128°05.122'O]
+        à la demande de Transports Canada. Il s'agit d'un jeu de données provisoire
+        qui a été automatiquement QCed et marqué.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: Surface Mooring with a simple 30lb boat anchor. Instrumentation is fix to
+      an auxiliary line which is suspended from the surface buoy and along the main
+      anchor line.
+    fr: Amarrage de surface avec une ancre de bateau simple de 30 lb. L'instrumentation
+      est fixée à une ligne auxiliaire suspendue à la bouée de surface et le long
+      de la ligne d'ancrage principale.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Pruth
+  instruments:
+  - description:
+      en: Only 3x4 cm, this tiny data logger measures temperatures over a wide temperature
+        range. The TidbiT v2 provides 12-bit resolution and has ±0.2 °C accuracy.
+        It is designed for outdoor and underwater environments and is waterproof to
+        300 m (1000 ft). An optical USB interface allows users to offload data in
+        seconds. Please note, a solar radiation shield is required to obtain accurate
+        air temperature measurements in sunlight (RS1 Solar Radiation Shield, assembly
+        required; or M-RSA pre-assembled Solar Radiation Shield).
+      fr: Seulement 3x4 cm, ce minuscule enregistreur de données mesure les températures
+        sur une large plage de températures. Le TidBit v2 offre une résolution 12
+        bits et une précision de ±0,2 °C. Il est conçu pour les environnements extérieurs
+        et sous-marins et est étanche jusqu'à 300 m (1000 pi). Une interface USB optique
+        permet aux utilisateurs de décharger les données en quelques secondes. Veuillez
+        noter qu'un bouclier solaire est nécessaire pour obtenir des mesures précises
+        de la température de l'air à la lumière du soleil (bouclier solaire RS1, assemblage
+        requis ; ou bouclier solaire solaire pré-assemblé M-RSA).
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: Tidbits v2
+    manufacturer: Onset
+    type:
+      en: Temprature sensor
+      fr: Capteur de temprature
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: v2
+  type: mooring
+spatial:
+  bbox:
+  - -128.0853667
+  - 51.6521
+  - -128.0853667
+  - 51.6521
+  vertical:
+  - 0.0
+  - 60.0
+  vertical_positive: heightPositive
