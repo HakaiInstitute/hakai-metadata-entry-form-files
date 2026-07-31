@@ -1,0 +1,143 @@
+contact:
+- inCitation: true
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+  - custodian
+- inCitation: false
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+  - custodian
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+- inCitation: true
+  individual:
+    email: shawn.hateley@hakai.org
+    name: Hateley, Shawn
+    orcid: https://orcid.org/0009-0002-4583-0326
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - custodian
+distribution:
+- name:
+    en: ERDDAP Dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiQuadraWeather5min.html
+identification:
+  abstract:
+    en: The Hakai Institute maintains a weather station on located on Quadra Island
+      near Hyacinthe Bay. The weather station measures the air temperature, wind speed
+      and direction, humidity, atmospheric pressure, UV radiation, solar radiation,
+      photosynthetically active radiation (PAR), and precipitation since July 2012.
+    fr: L'Institut Hakai possède une station météorologique située sur l'île Quadra,
+      près de la baie d'Hyacinthe. La station météorologique mesure la température
+      de l'air, la vitesse et la direction du vent, l'humidité, la pression atmosphérique,
+      le rayonnement UV, le rayonnement solaire, le PAR et les précipitations depuis
+      juillet 2012.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2012-11-29'
+  keywords:
+    default:
+      en:
+      - Weather station
+      - air temperature
+      - wind speed
+      - wind direction
+      - precipitation
+      - humidity
+      - atmospheric pressure
+      - UV radiation
+      - solar radiation
+      - photosynthetically active radiation
+      fr:
+      - Station météorologique
+      - pression atmosphérique
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: tentative
+  project:
+  - Oceanography
+  status: published
+  temporal_begin: '2012-11-29T20:00:00.000Z'
+  title:
+    en: Weather Station Time Series, Hyacinthe Bay, BC, Canada (Provisional)
+    fr: Séries chronologiques des stations météorologiques, Hyacinthe Bay, Colombie-Britannique,
+      Canada (provisoire)
+    translations:
+      fr:
+        verified: true
+metadata:
+  dates:
+    publication: '2026-07-31'
+    revision: '2026-07-31T20:06:21.853Z'
+  identifier: 4add33cd-b182-4825-900a-5695f333125a
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/3LY8ezYsI9hglwZSsfkAdSBcoEG3/-OyesAm4pxUK1wqBMn7x
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: This is data is provisional only. Please handle with care.
+      fr: Ces données ne sont que provisoires. Veuillez manipuler avec précaution.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -125.2221111
+  - 50.1162556
+  - -125.2221111
+  - 50.1162556
+  vertical:
+  - 0.0
+  - 0.0
+  vertical_positive: depthPositive
