@@ -1,0 +1,191 @@
+contact:
+- inCitation: true
+  individual:
+    email: wiley.evans@hakai.org
+    name: Evans, Wiley
+    orcid: https://orcid.org/0000-0002-5450-0903
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+- inCitation: true
+  individual:
+    email: sam.albers@hakai.org
+    name: Albers, Sam
+    orcid: https://orcid.org/0000-0002-9270-7884
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - custodian
+  - pointOfContact
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Upcast profiles from BIOOS deployed wirewalker
+    fr: Profils Upcast provenant de Wirewalker déployé par BIOOS
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: ERDDAP dataset
+    fr: Ensemble de données ERDDAP
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://catalogue.hakai.org/erddap/tabledap/HakaiWirewalkerRealTime.html
+identification:
+  abstract:
+    en: Bute Inlet, a prominent fjord on the British Columbia coast, has been a site
+      for high-resolution oceanographic profiling through the Bute Inlet Ocean Observing
+      Station (BIOOS). A Canadian Pacific Robotic Ocean Observing Facility (C-PROOF)
+      Wirewalker wave-powered profiling instrument is deployed on a mooring in the
+      central fjord, collecting vertical profiles of conductivity, temperature, pressure,
+      and dissolved oxygen concentration. This data contribution consists of real-time
+      measurements reliant on satellite communications. The data is presented as-is
+      and some communication gaps will be present resulting in an incomplete record.
+      This data has not undergone full quality control.
+    fr: Bute Inlet, un fjord important de la côte de la Colombie-Britannique, a été
+      le site d'un profilage océanographique à haute résolution par le biais de la
+      station d'observation océanique de Bute Inlet (BIOOS). Un instrument de profilage
+      à ondes Wirewalker du Centre robotique d'observation océanique du Canadien Pacifique
+      (C-PROOF) est déployé sur un amarrage dans le fjord central, pour recueillir
+      des profils verticaux de conductivité, de température, de pression et de concentration
+      d'oxygène dissous. Cette contribution de données consiste en des mesures provisoires
+      couvrant l'année en cours et n'a pas fait l'objet d'un contrôle de qualité complet.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: PreviousVersionOf
+    association_type_iso: crossReference
+    authority: URL
+    code: https://catalogue.hakai.org/dataset/ca-cioos_a8671db6-81cc-4c92-b681-58595fe66182
+    title:
+      en: Water Property Measurements from the Bute Inlet Ocean Observing Station
+        (BIOOS) Wirewalker, Bute Inlet, BC, Canada (Provisional)
+      fr: Mesures des propriétés de l'eau à partir de la station d'observation océanique
+        de Bute Inlet (BIOOS) Wirewalker, Bute Inlet, Colombie-Britannique, Canada
+        (provisoire)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2026-03-26'
+  keywords:
+    default:
+      en:
+      - oceans
+      - bute-inlet
+      - homalco-territory
+      - salish-sea
+      - marine-productivity
+      - oceanography
+      - water temperature
+      - salinity
+      - wirewalker
+      fr:
+      - température de l'eau
+      - salinité
+    eov:
+      en:
+      - subSurfaceTemperature
+      - subSurfaceSalinity
+      - oxygen
+      - phytoplanktonBiomassAndDiversity
+      fr:
+      - Température sous la surface
+      - Salinité sous la surface
+      - Oxygène
+      - Biomasse et diversité de phytoplancton
+  progress_code: onGoing
+  project:
+  - Oceanography
+  status: submitted
+  temporal_begin: '2026-03-26T19:00:00.000Z'
+  title:
+    en: Water Property Measurements from the Bute Inlet Ocean Observing Station (BIOOS)
+      Wirewalker, Bute Inlet, BC, Canada (Real-Time)
+    fr: Mesures des propriétés de l'eau à partir de la station d'observation océanique
+      de Bute Inlet (BIOOS) Wirewalker, Bute Inlet, Colombie-Britannique, Canada (en
+      temps réel)
+    translations:
+      fr:
+        verified: true
+metadata:
+  dates:
+    revision: '2026-08-10T22:05:07.090Z'
+  identifier: 2f74c998-7788-4967-a0f4-ab6bc5cc2765
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/3LY8ezYsI9hglwZSsfkAdSBcoEG3/-OzhdriEzC6Cish3c7RU
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Haven’t applied appropriate QC on the data yet.
+      fr: Je n'ai pas encore appliqué le contrôle qualité approprié aux données.
+      translations:
+        fr:
+          verified: true
+platform:
+- id: 187F
+  instruments: []
+  type: moored surface buoy
+spatial:
+  bbox:
+  - -124.9009
+  - 50.5744
+  - -124.9009
+  - 50.5744
+  vertical:
+  - 0.0
+  - 250.0
+  vertical_positive: heightPositive
