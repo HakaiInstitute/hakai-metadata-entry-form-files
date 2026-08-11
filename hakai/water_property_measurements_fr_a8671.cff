@@ -51,9 +51,15 @@ identifiers:
 - description: Metadata Form used to generate this record
   type: url
   value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/3LY8ezYsI9hglwZSsfkAdSBcoEG3/-OqDQ7wqqJtwSgUoAN1g
-- description: 'ERDDAP dataset: Upcast profiles from BIOOS deployed wirewalker'
+- description: 'ERDDAP provisional dataset: Upcast profiles from the BIOOS-deployed
+    Wirewalker, sourced from data offloaded directly from the instrument. This is
+    the most complete record.'
   type: url
   value: https://catalogue.hakai.org/erddap/tabledap/HakaiWirewalkerProvisional.html
+- description: 'ERDDAP realtime dataset: Upcast profiles from the BIOOS-deployed Wirewalker,
+    sourced from satellite telemetry. This is the most up-to-date record.'
+  type: url
+  value: https://catalogue.hakai.org/erddap/tabledap/HakaiWirewalkerRealTime.html
 keywords:
 - bute-inlet
 - homalco-territory
