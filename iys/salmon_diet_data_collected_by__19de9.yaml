@@ -1,0 +1,125 @@
+contact:
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    email: secretariat@npafc.org
+    name: North Pacific Anadromous Fish Commission
+    ror: https://ror.org/01wgn9x88
+    url: https://npafc.org
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+- inCitation: true
+  individual:
+    email: emily.fergusson@noaa.gov
+    name: Fergusson, Emily
+    position: Fishery Research Biologist
+  organization:
+    city: Seattle
+    country: United States
+    name: Alaska Fisheries Science Center
+    ror: https://ror.org/01h7fye62
+    url: https://www.fisheries.noaa.gov/about/alaska-fisheries-science-center
+  roles:
+  - owner
+  - principalInvestigator
+  - author
+  - custodian
+distribution:
+- description:
+    en: Original Data and Supplemental Materials
+    fr: Description requise une fois les données publiées
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Salmon diet data from NOAA Bell M. Shimada
+    fr: Données sur le régime alimentaire du saumon provenant de la NOAA Bell M. Shimada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/international-year-of-the-salmon/2022-Shimada-Salmon-Diet/archive/refs/heads/main.zip
+identification:
+  abstract:
+    en: This data record contains the stomach content data from salmon caught by the
+      NOAA Bell M. Shimada during the 2022 International Year of the Salmon Pan-Pacific
+      Winter High Seas Expedition in the North Pacific Ocean.
+    fr: Cet enregistrement de données contient les données sur le contenu stomacal
+      des saumons capturés par la NOAA Bell M. Shimada lors de l'expédition hivernale
+      panpacifique en haute mer de l'Année internationale du saumon 2022 dans l'océan
+      Pacifique Nord.
+    translations:
+      fr:
+        verified: true
+  associated_resources: []
+  dates:
+    creation: '2022-02-05'
+  edition: '1.0'
+  identifier: https://doi.org/10.23849/767-flp
+  keywords:
+    default:
+      en:
+      - salmon
+      - stomach content
+      - diet
+      - North Pacific Ocean
+      - International Year of the Salmon
+    eov:
+      en:
+      - invertebrateAbundanceAndDistribution
+      - zooplanktonBiomassAndDiversity
+      fr:
+      - Abondance et distribution d'invertébrés
+      - Biomasse et diversité de zooplancton
+  progress_code: completed
+  status: published
+  temporal_begin: '2022-02-05T20:00:00.000Z'
+  temporal_end: '2022-03-04T20:00:00.000Z'
+  title:
+    en: Salmon diet data collected by the NOAA Bell M. Shimada during the 2022 International
+      Year of the Salmon Pan-Pacific Winter High Seas Expedition
+    fr: Données sur le régime alimentaire du saumon recueillies par la NOAA Bell M.
+      Shimada lors de l'expédition hivernale panpacifique en haute mer 2022 de l'Année
+      internationale du saumon
+    translations:
+      fr:
+        verified: true
+metadata:
+  dates:
+    publication: '2026-08-11'
+    revision: '2026-08-11T21:14:00.842Z'
+  identifier: 19de9c1f-40ac-4607-a142-1d32e11cd38a
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/iys/8uVZo4FfAIdLqGWmrgPsQ1Jfs9P2/-NYtXWvbKtsUlVibSfpw
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+platform:
+- id: 'NOAA Bell M. Shimada IMO: 9349069'
+  instruments: []
+  type: research vessel
+spatial:
+  polygon: -146.9366,57.9954 -150.9696,56.9355 -151.5045,55.9524 -151.5395,49.9829
+    -151.549,47.9847 -151.4737,47.007 -146.9841,46.0242 -135.0195,45.0185 -126.2413,47.791
+    -146.9366,57.9954
+  vertical:
+  - 0.0
+  - 31.38
+  vertical_positive: heightPositive
