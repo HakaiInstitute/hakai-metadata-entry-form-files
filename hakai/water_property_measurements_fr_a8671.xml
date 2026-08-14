@@ -517,7 +517,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-08-11T22:52:26.023Z</gco:DateTime>
+        <gco:DateTime>2026-08-14T22:18:50.377Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1355,10 +1355,10 @@
       <mri:resourceConstraints>
         <mco:MD_Constraints>
           <mco:useLimitation xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Haven’t applied appropriate QC on the data yet.</gco:CharacterString>
+            <gco:CharacterString>Both datasets are provisional, and appropriate QC has not been applied on the data.</gco:CharacterString>
             <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Je n&#39;ai pas encore appliqué le contrôle qualité approprié aux données.</lan:LocalisedCharacterString>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">Les deux ensembles de données sont provisoires et aucun contrôle de qualité approprié n&#39;a été appliqué aux données.</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mco:useLimitation>
