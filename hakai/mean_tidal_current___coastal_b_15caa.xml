@@ -649,7 +649,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-22T19:11:10.781Z</gco:DateTime>
+        <gco:DateTime>2026-08-17T17:39:19.414Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -716,7 +716,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -729,7 +729,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -754,7 +754,7 @@
           <cit:date>
             <cit:CI_Date>
               <cit:date>
-                <gco:Date>2000-09-16</gco:Date>
+                <gco:Date>2008-11-01</gco:Date>
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
@@ -1038,7 +1038,7 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>Tidal Currents is a raster layer where each pixel represents root mean square (RMS) average tidal speeds (m/s) over a large number of tidal cycles. Raster resolution 500 by 500 m. Data from 2008. Original data was provided by BCMCA, and projected to BC Albers- reprojected for online use in WGS84 Web Mercator Auxiliary Sphere by Keith Holmes. More information about the original data and model used in Foreman et al, 2000.
+        <gco:CharacterString>Tidal Currents is a raster layer where each pixel represents root mean square (RMS) average tidal speeds (m/s) over a large number of tidal cycles. Raster resolution 500 by 500 m. Data from 2008. Original data was provided by BCMCA, and projected to BC Albers- reprojected for online use in WGS84 Web Mercator Auxiliary Sphere. More information about the original data and model used in Foreman et al, 2008.
 
 The purpose of this dataset is to identify RMS tidal speeds within the Canadian Pacific EEZ to help inform the physical feature identified in the BCMCA Physical Report. Data presented as 2 km x 2 km planning units for MARXAN analysis.
 
@@ -1057,29 +1057,29 @@ Foreman, M.G.G., W.R. Crawford, J.Y. Cherniawsky, R.F. Henry and M.R. Tarbotton.
 No data value: -3.40282306074e+038
 
 Dataset created by:
-Dr. Mike Foreman (DFO) / The British Columbia Marine Conservation Analysis (BCMCA), a Tides Canada Initiatives Project - Foreman, M.G.G., W.R. Crawford, J.Y. Cherniawsky, R.F. Henry and M.R. Tarbotton. A high-resolution assimilating tidal model for the northeast Pacific Ocean. Journal of Geophysical Research. 2000. Pages 105:28, 629-28, 652., and the Hakai Institute.</gco:CharacterString>
+Dr. Mike Foreman (DFO) / The British Columbia Marine Conservation Analysis (BCMCA), a Tides Canada Initiatives Project - Foreman, M.G.G., W.R. Crawford, J.Y. Cherniawsky, R.F. Henry and M.R. Tarbotton. A high-resolution assimilating tidal model for the northeast Pacific Ocean. Journal of Geophysical Research. 2000. Pages 105:28, 629-28, 652.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Courants de marée est une couche raster dans laquelle chaque pixel représente la vitesse moyenne quadratique moyenne quadratique (RMS) des marées (m/s) sur un grand nombre de cycles de marée. Résolution raster 500 x 500 m. Données de 2008. Les données originales ont été fournies par la BCMCA et projetées à BC Albers - reprojetées pour une utilisation en ligne dans WGS84 Web Mercator Auxiliary Sphere par Keith Holmes. Plus d&#39;informations sur les données originales et le modèle utilisés dans Foreman et al, 2000.
+            <lan:LocalisedCharacterString locale="#fr">Tidal Currents est une couche matricielle dans laquelle chaque pixel représente la vitesse moyenne des marées (m/s) sur un grand nombre de cycles de marée. Résolution matricielle de 500 x 500 m. Données de 2008. Les données originales ont été fournies par la BCMCA et projetées vers BC Albers, reprojetées pour une utilisation en ligne dans WGS84 Web Mercator Auxiliary Sphere. Plus d&#39;informations sur les données originales et le modèle utilisés dans Foreman et al, 2008.
 
-Le but de cet ensemble de données est d&#39;identifier les vitesses de marée RMS dans la ZEE du Canadien Pacifique afin d&#39;aider à éclairer la caractéristique physique identifiée dans le rapport physique de la BCMCA. Données présentées sous forme d&#39;unités de planification de 2 km x 2 km pour l&#39;analyse MARXAN.
+Le but de cet ensemble de données est d&#39;identifier les vitesses de marée RMS dans la ZEE du Pacifique canadien afin d&#39;aider à éclairer les caractéristiques physiques identifiées dans le rapport physique de la BCMCA. Données présentées sous forme d&#39;unités de planification de 2 km x 2 km pour l&#39;analyse MARXAN.
 
-Valeur quadratique moyenne quadratique (RMS) des vitesses des marées. La vitesse de marée RMS est issue d&#39;un modèle de circulation diagnostique tridimensionnel pour le nord-est de l&#39;océan Pacifique (Dr Mike Foreman, ministère des Pêches et des Océans). Les vitesses des marées modélisées sont barotropes, ce qui signifie que la densité n&#39;est pas prise en compte. Les points extraits de ce modèle ont été affichés puis convertis en raster.
+Root Mean Square (RMS) des vitesses de marée. La vitesse de marée RMS provient d&#39;un modèle diagnostique de circulation 3D pour le nord-est de l&#39;océan Pacifique (Dr Mike Foreman, ministère des Pêches et des Océans). Les vitesses de marée modélisées sont barotropes, ce qui signifie que la densité n&#39;est pas prise en compte. Les points extraits de ce modèle ont été affichés puis convertis en raster.
 
 Fichier de métadonnées : http://bcmca.ca/datafiles/individualfiles/bcmca_eco_physical_hightidalcurrent_marxan_metadata.htm
 
-Dr Mike Foreman (MPO)/The British Columbia Marine Conservation Analysis (BCMCA), un projet d&#39;initiatives de Tides Canada
+Dr Mike Foreman (DFO)/L&#39;analyse de la conservation marine de la Colombie-Britannique (BCMCA), un projet d&#39;initiatives de Tides Canada
 
 Date de publication : 2008
 
-La British Columbia Marine Conservation Analysis (BCMCA) est un projet collaboratif rassemblant et analysant des informations spatiales sur l&#39;océan Pacifique du Canada. L&#39;objectif global de la BCMCA est d&#39;identifier les zones marines à haute valeur de conservation et les zones marines importantes pour l&#39;usage humain. Les résultats du projet visent à informer et à aider à faire progresser les initiatives de planification marine en Colombie-Britannique en fournissant des analyses scientifiques collaboratives et évaluées par des pairs fondées sur les meilleures données spatiales écologiques et d&#39;utilisation humaine à des échelles pertinentes pour une analyse de l&#39;ensemble de la côte de la Colombie-Britannique.
+L&#39;analyse de la conservation marine de la Colombie-Britannique (BCMCA) est un projet collaboratif rassemblant et analysant des informations spatiales sur l&#39;océan Pacifique canadien. L&#39;objectif général de la BCMCA est d&#39;identifier les zones marines à haute valeur de conservation et les zones marines importantes pour l&#39;utilisation humaine. Les résultats du projet visent à informer et à faire avancer les initiatives de planification marine en Colombie-Britannique en fournissant des analyses scientifiques collaboratives et évaluées par des pairs basées sur les meilleures données spatiales écologiques et humaines à des échelles pertinentes pour une analyse à l&#39;échelle de la côte de la Colombie-Britannique.
 
-Foreman, M.G.G., W.R. Crawford, J.Y. Cherniawsky, R.F. Henry et M.R. Tarbotton. Un modèle de marée assimilateur à haute résolution pour le nord-est de l&#39;océan Pacifique. Journal of Geophysical Research. 2000. Pages 105 : 28, 629 à 628, 652.
+Foreman, M.G.G., W.R. Crawford, J.Y. Cherniawsky, R.F. Henry et M.R. Tarbotton. Un modèle de marée assimilateur à haute résolution pour le nord-est de l&#39;océan Pacifique. Journal de recherche géophysique. 2000. Pages 105:28, 629 à 28 et 652.
 
 Aucune valeur de données : -3,40282306074e+038
 
-Jeu de données créé par :
-Dr Mike Foreman (MPO)/The British Columbia Marine Conservation Analysis (BCMCA), un projet d&#39;initiatives de Tides Canada - Foreman, M.G.G., W.R. Crawford, J.Y. Cherniawsky, R.F. Henry et M.R. Tarbotton. Un modèle de marée assimilateur à haute résolution pour le nord-est de l&#39;océan Pacifique. Journal of Geophysical Research. 2000. Pages 105:28, 629-28, 652., et l&#39;Institut Hakai.</lan:LocalisedCharacterString>
+Ensemble de données créé par :
+Dr Mike Foreman (DFO)/L&#39;analyse de la conservation marine de la Colombie-Britannique (BCMCA), un projet d&#39;initiatives de Tides Canada - Foreman, M.G.G., W.R. Crawford, J.Y. Cherniawsky, R.F. Henry et M.R. Tarbotton. Un modèle de marée assimilateur à haute résolution pour le nord-est de l&#39;océan Pacifique. Journal de recherche géophysique. 2000. Pages 105:28, 629 à 28 et 652.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
