@@ -236,7 +236,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-19'
-    revision: '2026-08-17T17:45:04.902Z'
+    revision: '2026-08-17T17:51:15.325Z'
   identifier: 15caa6c8-be9b-4f19-81ae-bb82321eafd6
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MXZtOVowU1p6eWZsSUE
@@ -262,6 +262,20 @@ spatial:
   - -124.14550781249997
   - 52.9883372533954
   vertical:
-  - 0.0
-  - 500.0
-  vertical_positive: depthPositive
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
