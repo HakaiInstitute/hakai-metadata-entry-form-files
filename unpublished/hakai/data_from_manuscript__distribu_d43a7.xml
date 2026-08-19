@@ -517,7 +517,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-08-19T16:05:48.665Z</gco:DateTime>
+        <gco:DateTime>2026-08-19T16:15:02.457Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -602,10 +602,10 @@
       <mri:citation>
         <cit:CI_Citation>
           <cit:title xsi:type="lan:PT_FreeText_PropertyType">
-            <gco:CharacterString>Data from Manuscript: Distributions and drivers of parasite abundance in the hermit crab Pagurus hirsutiusculus</gco:CharacterString>
+            <gco:CharacterString>Data from Manuscript: Parasites of the hermit crab Pagurus hirsutiusculus; distribution, prevalence, and thermal ecology</gco:CharacterString>
             <lan:PT_FreeText>
               <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                <lan:LocalisedCharacterString locale="#fr">Données tirées du manuscrit : Distributions et facteurs de l&#39;abondance des parasites chez le bernard-l&#39;ermite Pagurus hirsutiusculus</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Données extraites du manuscrit : Parasites du crabe ermite Pagurus hirsutiusculus ; distribution, prévalence et écologie thermique</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
@@ -1592,196 +1592,6 @@
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString>Gehman, Alyssa-Lois</gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact>
-                          <cit:address>
-                            <cit:CI_Address>
-                              <cit:deliveryPoint>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:deliveryPoint>
-                              <cit:city>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:city>
-                              <cit:country>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:country>
-                              <cit:electronicMailAddress>
-                                <gco:CharacterString>alyssa.gehman@hakai.org</gco:CharacterString>
-                              </cit:electronicMailAddress>
-                            </cit:CI_Address>
-                          </cit:address>
-                        </cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:partyIdentifier>
-                        <mcc:MD_Identifier>
-                          <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0000-0003-0595-9950</gco:CharacterString>
-                          </mcc:code>
-                        </mcc:MD_Identifier>
-                      </cit:partyIdentifier>
-                      <cit:positionName>
-                        <gco:CharacterString>Scientist</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString>Gehman, Alyssa-Lois</gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact>
-                          <cit:address>
-                            <cit:CI_Address>
-                              <cit:deliveryPoint>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:deliveryPoint>
-                              <cit:city>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:city>
-                              <cit:country>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:country>
-                              <cit:electronicMailAddress>
-                                <gco:CharacterString>alyssa.gehman@hakai.org</gco:CharacterString>
-                              </cit:electronicMailAddress>
-                            </cit:CI_Address>
-                          </cit:address>
-                        </cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:partyIdentifier>
-                        <mcc:MD_Identifier>
-                          <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0000-0003-0595-9950</gco:CharacterString>
-                          </mcc:code>
-                        </mcc:MD_Identifier>
-                      </cit:partyIdentifier>
-                      <cit:positionName>
-                        <gco:CharacterString>Scientist</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="coAuthor"/>
               </cit:role>
               <cit:party>
@@ -2033,10 +1843,10 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>This dataset contains data and code used in the manuscript “Distribution and drivers of parasite abundance in the hermit crab Pagurus hirsutiusculus”. Further details about the methodology is located in the manuscript and its supplementary material. This data is meant to inform our understanding about what parasites are present in the host Pagurus hirsutiusculus, as well as what factors control their abundance. This study also investigates how parasite infection affects host thermal response. Hermit crabs were surveyed for prevalence and occurrence at a variety of sites from Calvert Island down to Southern Vancouver Island from August 2020 - September 2021. Host relative abundance, salinity, and host size were measured at the sites. DNA sequence data from three different parasites were obtained from Calvert Island, Quadra Island, and Maple Bay during this sampling period. Metabolic rate was measured at 5 temperatures (12°C, 17°C, 22°C, 27°C, 32°C) in Pagurus hirsutiusculus infected by Peltogaster sp. and uninfected individuals in a laboratory at the University of British Columbia. Survival was recorded at ambient seawater conditions (12°C), and post temperature experiment. Moulting was also recorded at ambient seawater conditions. Additionally, this dataset contains occurrence and prevalence records of Peltogaster sp. found during a review of the literature conducted in the summer of 2020.</gco:CharacterString>
+        <gco:CharacterString>This dataset contains data and code used in the manuscript “Parasites of the hermit crab Pagurus hirsutiusculus; distribution, prevalence, and thermal ecology”. Further details about the methodology is located in the manuscript and its supplementary material. This data is meant to inform our understanding about what parasites are present in the host Pagurus hirsutiusculus, as well as what factors control their abundance. This study also investigates how parasite infection affects host thermal response. Hermit crabs were surveyed for prevalence and occurrence at a variety of sites from Calvert Island down to Southern Vancouver Island from August 2020 - September 2021. Host relative abundance, salinity, and host size were measured at the sites. DNA sequence data from three different parasites were obtained from Calvert Island, Quadra Island, and Maple Bay during this sampling period. Metabolic rate was measured at 5 temperatures (12°C, 17°C, 22°C, 27°C, 32°C) in Pagurus hirsutiusculus infected by Peltogaster sp. and uninfected individuals in a laboratory at the University of British Columbia. Survival was recorded at ambient seawater conditions (12°C), and post temperature experiment. Moulting was also recorded at ambient seawater conditions. Additionally, this dataset contains occurrence and prevalence records of Peltogaster sp. found during a review of the literature conducted in the summer of 2020.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup>
-            <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données contient les données et le code utilisés dans le manuscrit « Distribution et facteurs de l&#39;abondance des parasites chez le crabe ermite Pagurus hirsutiusculus ». De plus amples détails sur la méthodologie se trouvent dans le manuscrit et ses documents supplémentaires. Ces données visent à mieux comprendre quels parasites sont présents chez l&#39;hôte Pagurus hirsutiusculus, ainsi que les facteurs qui contrôlent leur abondance. Cette étude examine également comment l&#39;infection parasitaire affecte la réponse thermique de l&#39;hôte. La prévalence et la présence de crabes ermites ont été étudiées sur divers sites, de l&#39;île Calvert au sud de l&#39;île de Vancouver, d&#39;août 2020 à septembre 2021. L&#39;abondance relative, la salinité et la taille de l&#39;hôte ont été mesurées sur les sites. Les données de séquence d&#39;ADN de trois parasites différents ont été obtenues sur l&#39;île Calvert, l&#39;île Quadra et Maple Bay au cours de cette période d&#39;échantillonnage. Le taux métabolique a été mesuré à 5 températures (12 °C, 17 °C, 22 °C, 27 °C, 32 °C) chez Pagurus hirsutiusculus infecté par Peltogaster sp. et chez des sujets non infectés dans un laboratoire de l&#39;Université de la Colombie-Britannique. La survie a été enregistrée dans des conditions ambiantes d&#39;eau de mer (12 °C) et après une expérience de température. La mue a également été enregistrée dans des conditions ambiantes d&#39;eau de mer. De plus, cet ensemble de données contient des données d&#39;occurrence et de prévalence de Peltogaster sp. trouvées lors d&#39;une revue de la littérature réalisée à l&#39;été 2020.</lan:LocalisedCharacterString>
+            <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données contient les données et le code utilisés dans le manuscrit « Parasites du crabe ermite Pagurus hirsutiusculus ; distribution, prévalence et écologie thermique ». De plus amples détails sur la méthodologie se trouvent dans le manuscrit et ses documents supplémentaires. Ces données visent à mieux comprendre quels parasites sont présents chez l&#39;hôte Pagurus hirsutiusculus, ainsi que les facteurs qui contrôlent leur abondance. Cette étude examine également comment l&#39;infection parasitaire affecte la réponse thermique de l&#39;hôte. La prévalence et la présence de crabes ermites ont été étudiées sur divers sites, de l&#39;île Calvert au sud de l&#39;île de Vancouver, d&#39;août 2020 à septembre 2021. L&#39;abondance relative, la salinité et la taille de l&#39;hôte ont été mesurées sur les sites. Les données de séquence d&#39;ADN de trois parasites différents ont été obtenues sur l&#39;île Calvert, l&#39;île Quadra et Maple Bay au cours de cette période d&#39;échantillonnage. Le taux métabolique a été mesuré à 5 températures (12 °C, 17 °C, 22 °C, 27 °C, 32 °C) chez Pagurus hirsutiusculus infecté par Peltogaster sp. et chez des sujets non infectés dans un laboratoire de l&#39;Université de la Colombie-Britannique. La survie a été enregistrée dans des conditions ambiantes d&#39;eau de mer (12 °C) et après une expérience de température. La mue a également été enregistrée dans des conditions ambiantes d&#39;eau de mer. De plus, cet ensemble de données contient des données d&#39;occurrence et de prévalence de Peltogaster sp. trouvées lors d&#39;une revue de la littérature réalisée à l&#39;été 2020.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -2602,105 +2412,6 @@
                       </mcc:code>
                     </mcc:MD_Identifier>
                   </cit:partyIdentifier>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString>Gehman, Alyssa-Lois</gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact>
-                          <cit:address>
-                            <cit:CI_Address>
-                              <cit:deliveryPoint>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:deliveryPoint>
-                              <cit:city>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:city>
-                              <cit:country>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:country>
-                              <cit:electronicMailAddress>
-                                <gco:CharacterString>alyssa.gehman@hakai.org</gco:CharacterString>
-                              </cit:electronicMailAddress>
-                            </cit:CI_Address>
-                          </cit:address>
-                        </cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:partyIdentifier>
-                        <mcc:MD_Identifier>
-                          <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0000-0003-0595-9950</gco:CharacterString>
-                          </mcc:code>
-                        </mcc:MD_Identifier>
-                      </cit:partyIdentifier>
-                      <cit:positionName>
-                        <gco:CharacterString>Scientist</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </mrd:distributorContact>
-        </mrd:MD_Distributor>
-      </mrd:distributor>
-      <mrd:distributor>
-        <mrd:MD_Distributor>
-          <mrd:distributorContact>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
                 </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
@@ -2725,8 +2436,13 @@
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
-              <cit:description>
-                <gco:CharacterString></gco:CharacterString>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Field data and code stored in a GitHub repository</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Données de champ et code stockés dans un référentiel GitHub</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
@@ -2742,8 +2458,13 @@
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Sanger sequence data from the DNA Barcoding analysis (NCBI)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Données de séquence de Sanger issues de l&#39;analyse de l&#39;ADN par codes-barres (NCBI)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description>
                 <gco:CharacterString></gco:CharacterString>
@@ -2762,8 +2483,13 @@
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Sanger sequence data from the DNA Barcoding analysis</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Données de séquence de Sanger issues de l&#39;analyse des codes-barres ADN</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description>
                 <gco:CharacterString></gco:CharacterString>
@@ -2782,8 +2508,13 @@
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Sequences on Barcode of Life</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Séquences sur Barcode of Life</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description>
                 <gco:CharacterString></gco:CharacterString>

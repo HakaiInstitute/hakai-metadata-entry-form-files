@@ -83,8 +83,6 @@ contact:
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
-  - owner
-  - distributor
   - coAuthor
   - principalInvestigator
 - inCitation: true
@@ -117,7 +115,15 @@ contact:
   roles:
   - funder
 distribution:
-- name:
+- description:
+    en: Field data and code stored in a GitHub repository
+    fr: Données de champ et code stockés dans un référentiel GitHub
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
     en: Field data and code (GitHub)
     fr: Données et code des champs (GitHub)
     translations:
@@ -128,18 +134,37 @@ distribution:
   url: https://github.com/HakaiInstitute/hermitcrabparasites_abbott
 - name:
     en: Sanger sequence data from the DNA Barcoding analysis (NCBI)
+    fr: Données de séquence de Sanger issues de l'analyse de l'ADN par codes-barres
+      (NCBI)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://www.ncbi.nlm.nih.gov/nuccore/PQ137795
 - name:
     en: Sanger sequence data from the DNA Barcoding analysis
+    fr: Données de séquence de Sanger issues de l'analyse des codes-barres ADN
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://www.ncbi.nlm.nih.gov/nuccore/PQ137829.1/
 - name:
     en: Sequences on Barcode of Life
+    fr: Séquences sur Barcode of Life
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: dx.doi.org/10.5883/DS-GEHMAN
 identification:
   abstract:
-    en: This dataset contains data and code used in the manuscript “Distribution and
-      drivers of parasite abundance in the hermit crab Pagurus hirsutiusculus”. Further
-      details about the methodology is located in the manuscript and its supplementary
+    en: This dataset contains data and code used in the manuscript “Parasites of the
+      hermit crab Pagurus hirsutiusculus; distribution, prevalence, and thermal ecology”.
+      Further details about the methodology is located in the manuscript and its supplementary
       material. This data is meant to inform our understanding about what parasites
       are present in the host Pagurus hirsutiusculus, as well as what factors control
       their abundance. This study also investigates how parasite infection affects
@@ -156,8 +181,8 @@ identification:
       this dataset contains occurrence and prevalence records of Peltogaster sp. found
       during a review of the literature conducted in the summer of 2020.
     fr: Cet ensemble de données contient les données et le code utilisés dans le manuscrit
-      « Distribution et facteurs de l'abondance des parasites chez le crabe ermite
-      Pagurus hirsutiusculus ». De plus amples détails sur la méthodologie se trouvent
+      « Parasites du crabe ermite Pagurus hirsutiusculus ; distribution, prévalence
+      et écologie thermique ». De plus amples détails sur la méthodologie se trouvent
       dans le manuscrit et ses documents supplémentaires. Ces données visent à mieux
       comprendre quels parasites sont présents chez l'hôte Pagurus hirsutiusculus,
       ainsi que les facteurs qui contrôlent leur abondance. Cette étude examine également
@@ -260,10 +285,10 @@ identification:
   temporal_begin: '2020-05-04T19:00:00.000Z'
   temporal_end: '2021-09-15T19:00:00.000Z'
   title:
-    en: 'Data from Manuscript: Distributions and drivers of parasite abundance in
-      the hermit crab Pagurus hirsutiusculus'
-    fr: 'Données tirées du manuscrit : Distributions et facteurs de l''abondance des
-      parasites chez le bernard-l''ermite Pagurus hirsutiusculus'
+    en: 'Data from Manuscript: Parasites of the hermit crab Pagurus hirsutiusculus;
+      distribution, prevalence, and thermal ecology'
+    fr: 'Données extraites du manuscrit : Parasites du crabe ermite Pagurus hirsutiusculus ;
+      distribution, prévalence et écologie thermique'
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -271,7 +296,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-08-19T16:05:48.665Z'
+    revision: '2026-08-19T16:15:02.457Z'
   identifier: d43a79c1-a6ba-4e37-8dc2-6ced6312828e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/3eh7IMAvm8ZUtcMBeifFL0eJCIA3/-O5Kei32z9cfatfgKj5y
