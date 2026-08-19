@@ -28,16 +28,23 @@ contact:
   - funder
   - owner
 distribution:
-- description:
-    en: Hakai Metadata Report
-    fr: Rapport de métadonnées Hakai
+- name:
+    en: Data Access Request Form
+    fr: Formulaire de demande d'accès aux données
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  name:
-    en: Hakai Data - Metadata Readme
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/1ty5-e654
+- name:
+    en: Metadata Readme
+    fr: Fichier Readme des métadonnées
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/file/d/1pKNlqEUPPMcIJxM_xaMX2zHW5HaDFiSi/view?usp=sharing
 identification:
   abstract:
@@ -80,7 +87,19 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: http://doi.org/10.1016/j.pocean.2013.05.028
+    title:
+      en: 'Paper: A spatial framework for representing nearshore ecosystems'
+      fr: 'Article : Un cadre spatial pour représenter les écosystèmes côtiers'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     publication: '2016-09-02'
   edition: '1.0'
@@ -134,7 +153,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-18'
-    revision: '2026-08-19T20:46:44.856Z'
+    revision: '2026-08-19T22:20:05.563Z'
   identifier: 0219e1d6-8dfc-4718-b89b-ea3dff06a70d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWtuNVpwdEdLRXZTODc
