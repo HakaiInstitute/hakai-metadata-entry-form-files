@@ -2,7 +2,7 @@ abstract: "This dataset represents modeled areal extent of eelgrass meadows (Zos
   \ marina) in coastal British Columbia, Canada. This dataset was generated between\
   \ 2016 and 2017 as part of the Commission for Environmental Cooperation efforts\
   \ to estimate blue carbon storage in eelgrass meadows across the Pacific Northwest.\
-  \  \nTo model the areal spatial extent of British Columbia a novel tool was created\
+  \ To model the areal spatial extent of British Columbia a novel tool was created\
   \ for use in ArcGIS. This tool required 2 inputs: (1) the coastline data from Shorezone\
   \ (ie. vector line features with attributes on the presence or absence of eelgrass\
   \ along a linear extent of coastline) and (2) bathymetry data. Briefly, each line\
@@ -10,35 +10,22 @@ abstract: "This dataset represents modeled areal extent of eelgrass meadows (Zos
   \ were used to generate Thiessen polygons. Thiessen polygons were clipped to a selected\
   \ bathymetric contour (5 m or 3 m) based on the results of regional bathymetry analysis.\
   \ The modeled outputs were compared to available mapping data from the British Columbia\
-  \ Marine Conservation Analysis Atlas to assess model accuracy.  \nPlease refer to\
-  \ the report summary for the details on methods and caveats. \n\nLimitations and\
-  \ caveats:\n\nThe modeling outputs of this work were dependent on (1) the resolution\
-  \ and accuracy of bathymetric data (which was not available for all parts of the\
-  \ BC coast) and (2) ShoreZone coverage (not all parts of the BC coast were surveyed\
-  \ using ShoreZone methods at the time of the analysis). ShoreZone data has been\
-  \ shown to underestimate the presence of eelgrass and the ability of ShoreZone to\
-  \ map the presence of eelgrass depends on eelgrass being visible in the intertidal\
-  \ and shallow subtidal region during the low tide imagery acquisition, therefore\
-  \ deeper subtidal beds are missed. ShoreZone data, and therefore these modeled outputs,\
-  \ represents a snapshot in time. Given known long-term dynamics of eelgrass meadows,\
-  \ these data do not indicate areas that have undergone losses or gains in eelgrass\
-  \ extent.  \n\nPlease refer to the report summary which contains a map that shows\
-  \ regions where eelgrass extent was not modeled due to the lack of available bathymetry\
-  \ and/or ShoreZone data."
+  \ Marine Conservation Analysis Atlas to assess model accuracy. \n\nPlease refer\
+  \ to the report summary for the details on methods and caveats."
 authors:
-- affiliation: Hakai Institute
-  city: Campbell River
+- city: Campbell River
   country: CA
   email: data@hakai.org
+  name: Hakai Institute
   website: https://www.hakai.org/
 cff-version: 1.2.0
 contact:
-- affiliation: Hakai Institute
-  city: Campbell River
+- city: Campbell River
   country: CA
   email: data@hakai.org
+  name: Hakai Institute
   website: https://www.hakai.org/
-date-released: '2026-08-18'
+date-released: '2026-08-19'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other

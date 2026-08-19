@@ -1,7 +1,5 @@
 contact:
 - inCitation: true
-  individual:
-    email: data@hakai.org
   organization:
     city: Campbell River
     country: Canada
@@ -47,37 +45,24 @@ identification:
       \ marina) in coastal British Columbia, Canada. This dataset was generated between\
       \ 2016 and 2017 as part of the Commission for Environmental Cooperation efforts\
       \ to estimate blue carbon storage in eelgrass meadows across the Pacific Northwest.\
-      \  \nTo model the areal spatial extent of British Columbia a novel tool was\
-      \ created for use in ArcGIS. This tool required 2 inputs: (1) the coastline\
-      \ data from Shorezone (ie. vector line features with attributes on the presence\
-      \ or absence of eelgrass along a linear extent of coastline) and (2) bathymetry\
-      \ data. Briefly, each line segment of coast in ShoreZone was converted to points\
-      \ along its vertices and points were used to generate Thiessen polygons. Thiessen\
-      \ polygons were clipped to a selected bathymetric contour (5 m or 3 m) based\
-      \ on the results of regional bathymetry analysis. The modeled outputs were compared\
-      \ to available mapping data from the British Columbia Marine Conservation Analysis\
-      \ Atlas to assess model accuracy.  \nPlease refer to the report summary for\
-      \ the details on methods and caveats. \n\nLimitations and caveats:\n\nThe modeling\
-      \ outputs of this work were dependent on (1) the resolution and accuracy of\
-      \ bathymetric data (which was not available for all parts of the BC coast) and\
-      \ (2) ShoreZone coverage (not all parts of the BC coast were surveyed using\
-      \ ShoreZone methods at the time of the analysis). ShoreZone data has been shown\
-      \ to underestimate the presence of eelgrass and the ability of ShoreZone to\
-      \ map the presence of eelgrass depends on eelgrass being visible in the intertidal\
-      \ and shallow subtidal region during the low tide imagery acquisition, therefore\
-      \ deeper subtidal beds are missed. ShoreZone data, and therefore these modeled\
-      \ outputs, represents a snapshot in time. Given known long-term dynamics of\
-      \ eelgrass meadows, these data do not indicate areas that have undergone losses\
-      \ or gains in eelgrass extent.  \n\nPlease refer to the report summary which\
-      \ contains a map that shows regions where eelgrass extent was not modeled due\
-      \ to the lack of available bathymetry and/or ShoreZone data."
+      \ To model the areal spatial extent of British Columbia a novel tool was created\
+      \ for use in ArcGIS. This tool required 2 inputs: (1) the coastline data from\
+      \ Shorezone (ie. vector line features with attributes on the presence or absence\
+      \ of eelgrass along a linear extent of coastline) and (2) bathymetry data. Briefly,\
+      \ each line segment of coast in ShoreZone was converted to points along its\
+      \ vertices and points were used to generate Thiessen polygons. Thiessen polygons\
+      \ were clipped to a selected bathymetric contour (5 m or 3 m) based on the results\
+      \ of regional bathymetry analysis. The modeled outputs were compared to available\
+      \ mapping data from the British Columbia Marine Conservation Analysis Atlas\
+      \ to assess model accuracy. \n\nPlease refer to the report summary for the details\
+      \ on methods and caveats."
     fr: "Cet ensemble de données représente l'étendue modélisée des prairies de zostères\
       \ marines (Zostera marina) sur la côte de la Colombie-Britannique, au Canada.\
       \ Cet ensemble de données a été généré entre 2016 et 2017 dans le cadre des\
       \ efforts de la Commission de coopération environnementale visant à estimer\
       \ le stockage du carbone bleu dans les prairies de zostères du nord-ouest du\
-      \ Pacifique. \nPour modéliser l'étendue spatiale de la Colombie-Britannique,\
-      \ un nouvel outil a été créé pour être utilisé dans ArcGIS. Cet outil nécessitait\
+      \ Pacifique. Pour modéliser l'étendue spatiale de la Colombie-Britannique, un\
+      \ nouvel outil a été créé pour être utilisé dans ArcGIS. Cet outil nécessitait\
       \ deux entrées : (1) les données côtières de Shorezone (c'est-à-dire des caractéristiques\
       \ vectorielles avec des attributs sur la présence ou l'absence de zostère marine\
       \ le long d'une étendue linéaire du littoral) et (2) des données bathymétriques.\
@@ -87,9 +72,9 @@ identification:
       \ sélectionné (5 m ou 3 m) sur la base des résultats d'une analyse bathymétrique\
       \ régionale. Les résultats modélisés ont été comparés aux données cartographiques\
       \ disponibles provenant de l'Atlas d'analyse de la conservation marine de la\
-      \ Colombie-Britannique afin d'évaluer la précision du modèle. \nVeuillez consulter\
+      \ Colombie-Britannique afin d'évaluer la précision du modèle. \n\nVeuillez consulter\
       \ le résumé du rapport pour plus de détails sur les méthodes et les mises en\
-      \ garde. \nContactez data@hakai.org pour plus d'informations."
+      \ garde."
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -147,7 +132,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-18'
-    revision: '2026-08-18T20:21:49.789Z'
+    revision: '2026-08-19T16:40:56.388Z'
   identifier: 0219e1d6-8dfc-4718-b89b-ea3dff06a70d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWtuNVpwdEdLRXZTODc
@@ -159,10 +144,44 @@ metadata:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
     limitations:
-      en: Appropriate credit must be given to Hakai Institute and the authors of the
-        dataset.
-      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
-        de l'ensemble de données.
+      en: 'The modeling outputs of this work were dependent on (1) the resolution
+        and accuracy of bathymetric data (which was not available for all parts of
+        the BC coast) and (2) ShoreZone coverage (not all parts of the BC coast were
+        surveyed using ShoreZone methods at the time of the analysis). ShoreZone data
+        has been shown to underestimate the presence of eelgrass and the ability of
+        ShoreZone to map the presence of eelgrass depends on eelgrass being visible
+        in the intertidal and shallow subtidal region during the low tide imagery
+        acquisition, therefore deeper subtidal beds are missed. ShoreZone data, and
+        therefore these modeled outputs, represents a snapshot in time. Given known
+        long-term dynamics of eelgrass meadows, these data do not indicate areas that
+        have undergone losses or gains in eelgrass extent. Please refer to the report
+        summary which contains a map that shows regions where eelgrass extent was
+        not modeled due to the lack of available bathymetry and/or ShoreZone data.
+
+
+        Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.'
+      fr: 'Les résultats de modélisation de ce travail dépendaient (1) de la résolution
+        et de la précision des données bathymétriques (qui n''étaient pas disponibles
+        pour toutes les parties de la côte de la Colombie-Britannique) et (2) de la
+        couverture de ShoreZone (les régions de la côte de la Colombie-Britannique
+        n''étaient pas toutes étudiées à l''aide des méthodes ShoreZone au moment
+        de l''analyse). Il a été démontré que les données de ShoreZone sous-estiment
+        la présence de zostère marine et que la capacité de ShoreZone à cartographier
+        la présence de zostère dépend de la visibilité de la zostère dans la région
+        intertidale et subtidale peu profonde lors de l''acquisition d''images à marée
+        basse, de sorte que les lits subtidaux plus profonds ne sont pas pris en compte.
+        Les données ShoreZone, et donc ces sorties modélisées, représentent un instantané
+        temporel. Compte tenu de la dynamique à long terme connue des prairies de
+        zostère, ces données n''indiquent pas les zones qui ont subi des pertes ou
+        des gains en termes d''étendue de zostère. Veuillez consulter le résumé du
+        rapport qui contient une carte montrant les régions où l''étendue de la zostère
+        marine n''a pas été modélisée en raison du manque de données bathymétriques
+        et/ou ShoreZone disponibles.
+
+
+        Un crédit approprié doit être accordé à l''Institut Hakai et aux auteurs de
+        l''ensemble de données.'
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -174,6 +193,14 @@ spatial:
   - 48.23443097294032
   - -122.49023482203482
   - 54.52958287232971
+  description:
+    en: Coastal British Columbia, Canada
+    fr: Côte de la Colombie-Britannique, Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   vertical:
   - 0.0
   - 50.0
