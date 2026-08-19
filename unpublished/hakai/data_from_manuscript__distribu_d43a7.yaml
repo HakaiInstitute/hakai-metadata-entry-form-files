@@ -49,8 +49,11 @@ contact:
     name: Janusson, Carly
     orcid: https://orcid.org/0009-0002-8218-540X
   organization:
+    city: Campbell River
+    country: Canada
     name: Hakai Institute
-    url: hakai.org
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - coAuthor
 - inCitation: true
@@ -59,8 +62,11 @@ contact:
     name: Lemay, Matthew
     orcid: https://orcid.org/0000-0001-7051-0020
   organization:
+    city: Campbell River
+    country: Canada
     name: Hakai Institute
-    url: hakai.org
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - coAuthor
   - principalInvestigator
@@ -81,6 +87,35 @@ contact:
   - distributor
   - coAuthor
   - principalInvestigator
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - name:
     en: Field data and code (GitHub)
@@ -236,7 +271,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-08-19T16:02:39.765Z'
+    revision: '2026-08-19T16:05:48.665Z'
   identifier: d43a79c1-a6ba-4e37-8dc2-6ced6312828e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/3eh7IMAvm8ZUtcMBeifFL0eJCIA3/-O5Kei32z9cfatfgKj5y
