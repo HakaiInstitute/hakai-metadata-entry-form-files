@@ -133,7 +133,21 @@ identification:
       \ utiles sur la qualité des données, et 2) communiquer et/ou collaborer avec\
       \ les fournisseurs si vous envisagez d'utiliser cet ensemble de données pour\
       \ des manuscrits ou d'autres formes de reporting."
-  associated_resources: []
+  associated_resources:
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.25607/OBP-2068
+    title:
+      en: Hakai Nearshore - Kelp Forest and Rocky Reef Monitoring Survey Protocols
+        Community Assessment
+      fr: Hakai Nearshore - Protocoles d'enquête de surveillance de la forêt de varech
+        et des récifs rocheux - Évaluation communautaire
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2014-05-01'
     revision: '2022-01-12'
@@ -163,20 +177,20 @@ identification:
     taxa:
       en:
       - Laminariales
-      - Ochrophyta
-      - Macrocystis
-      - Macrocystis pyrifera
-      - Phaeophyceae
-      - Laminariaceae
       - Chromista
+      - Phaeophyceae
+      - Macrocystis pyrifera
+      - Ochrophyta
+      - Laminariaceae
+      - Macrocystis
       fr:
       - Laminariales
-      - Ochrophyta
-      - Macrocystis
-      - Macrocystis pyrifera
-      - Phaeophyceae
-      - Laminariaceae
       - Chromista
+      - Phaeophyceae
+      - Macrocystis pyrifera
+      - Ochrophyta
+      - Laminariaceae
+      - Macrocystis
   progress_code: onGoing
   project:
   - Nearshore
@@ -194,7 +208,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-21'
-    revision: '2026-06-29T20:49:32.666Z'
+    revision: '2026-08-19T16:54:31.207Z'
   identifier: 7d3f525a-6ba2-494b-893a-147e2a812306
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/df5J7W5Hk4e0p4yvlOAI0qcU9Gs2/-MtFxWh-RyO-TnboGr5A
