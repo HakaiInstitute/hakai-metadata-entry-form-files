@@ -1,0 +1,43 @@
+<addAttributes>
+    <att name='institution'>Hakai Institute</att>
+    <att name='title'>Modeled Eelgrass Extent, British Columbia, Canada</att>
+    <att name='summary'>This dataset represents modeled areal extent of eelgrass meadows (Zostera marina) in coastal British Columbia, Canada. This dataset was generated between 2016 and 2017 as part of the Commission for Environmental Cooperation efforts to estimate blue carbon storage in eelgrass meadows across the Pacific Northwest. To model the areal spatial extent of British Columbia a novel tool was created for use in ArcGIS. This tool required 2 inputs: (1) the coastline data from Shorezone (ie. vector line features with attributes on the presence or absence of eelgrass along a linear extent of coastline) and (2) bathymetry data. Briefly, each line segment of coast in ShoreZone was converted to points along its vertices and points were used to generate Thiessen polygons. Thiessen polygons were clipped to a selected bathymetric contour (5 m or 3 m) based on the results of regional bathymetry analysis. The modeled outputs were compared to available mapping data from the British Columbia Marine Conservation Analysis Atlas to assess model accuracy. 
+
+Please refer to the report summary for the details on methods and caveats.</att>
+    <att name='project'>Geospatial</att>
+    <att name='comment'>##Limitations:
+The modeling outputs of this work were dependent on (1) the resolution and accuracy of bathymetric data (which was not available for all parts of the BC coast) and (2) ShoreZone coverage (not all parts of the BC coast were surveyed using ShoreZone methods at the time of the analysis). ShoreZone data has been shown to underestimate the presence of eelgrass and the ability of ShoreZone to map the presence of eelgrass depends on eelgrass being visible in the intertidal and shallow subtidal region during the low tide imagery acquisition, therefore deeper subtidal beds are missed. ShoreZone data, and therefore these modeled outputs, represents a snapshot in time. Given known long-term dynamics of eelgrass meadows, these data do not indicate areas that have undergone losses or gains in eelgrass extent. Please refer to the report summary which contains a map that shows regions where eelgrass extent was not modeled due to the lack of available bathymetry and/or ShoreZone data.
+
+Appropriate credit must be given to Hakai Institute and the authors of the dataset.</att>
+    <att name='progress'>completed</att>
+    <att name='keywords'>eelgrass,Commission for Environmental Cooperation,seagrass,intertidal,blue carbon,shorezone,Zostera,CIOOS:other,CIOOS:seagrassCoverAndComposition,GBIF:Tracheophyta,GBIF:Liliopsida,GBIF:Zostera marina,GBIF:Alismatales,GBIF:Zosteraceae,GBIF:Zostera,GBIF:Plantae</att>
+    <att name='keywords_vocabulary'>CIOOS: CIOOS Essential Ocean Variables Vocabulary,GBIF: GBIF Taxonomy Vocabulary</att>
+    <att name='id'>0219e1d6-8dfc-4718-b89b-ea3dff06a70d</att>
+    <att name='naming_authority'>ca.cioos</att>
+    <att name='date_modified'>2026-08-19T22:20:46.322Z</att>
+    <att name='date_created'>2026-08-19</att>
+    <att name='product_version'>1.0</att>
+    <att name='license'>https://creativecommons.org/licenses/by/4.0</att>
+    <att name='creator_name'>Hakai Institute</att>
+    <att name='creator_email'>data@hakai.org</att>
+    <att name='creator_type'>institution</att>
+    <att name='creator_institution'>Hakai Institute</att>
+    <att name='creator_city'>Campbell River</att>
+    <att name='creator_country'>Canada</att>
+    <att name='creator_url'>https://www.hakai.org/</att>
+    <att name='creator_ror'>https://ror.org/02pry0c91</att>
+    <att name='publisher_name'>Hakai Institute</att>
+    <att name='publisher_email'>data@hakai.org</att>
+    <att name='publisher_type'>institution</att>
+    <att name='publisher_institution'>Hakai Institute</att>
+    <att name='publisher_city'>Campbell River</att>
+    <att name='publisher_country'>Canada</att>
+    <att name='publisher_url'>https://www.hakai.org/</att>
+    <att name='publisher_ror'>https://ror.org/02pry0c91</att>
+    <att name='contributor_name'>Hakai Institute;Tula Foundation</att>
+    <att name='contributor_role'>resourceProvider,distributor,custodian,owner,publisher,processor,author,principalInvestigator,pointOfContact;funder,owner</att>
+    <att name='doi'>https://doi.org/10.21966/1ty5-e654</att>
+    <att name='metadata_link'>https://catalogue.hakai.org/dataset/ca-cioos_0219e1d6-8dfc-4718-b89b-ea3dff06a70d</att>
+    <att name='infoUrl'>https://catalogue.hakai.org/dataset/ca-cioos_0219e1d6-8dfc-4718-b89b-ea3dff06a70d</att>
+    <att name='metadata_form'>https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWtuNVpwdEdLRXZTODc</att>
+</addAttributes>
