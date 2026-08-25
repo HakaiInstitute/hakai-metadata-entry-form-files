@@ -422,7 +422,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-08-25T20:14:36.702Z</gco:DateTime>
+        <gco:DateTime>2026-08-25T20:28:21.962Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -790,7 +790,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>Artificial Reef Monitoring Structures (ARMS) are standardized units consisting of a stack of PVC plates that have been globally deployed in coral reef environments to monitor biodiversity. We tested the applicability of ARMS as a biodiversity monitoring system in NE Pacific temperate ecosystems, including kelp forests and urchin barrens. 10 ARMS were deployed for one year, five in a kelp forest and five in an adjacent urchin barren. Each ARMS unit was augmented with the addition of a 14x14 cm PVC settlement plate and a 20x7cm scrub brush; these two devices were replaced every 2 months. Seawater samples were collected in parallel every 2 months for the purposes of analyzing eDNA. We recorded a total of 420 animal species and 167 seaweed species across all devices and 305 animal species and 135 seaweed species from just the ARMS. ARMS accumulated species rapidly and did not reach an asymptote, suggesting that more than 10 replicates may be required to capture the full diversity able to settle on the ARMS. ARMS in the kelp and barren habitats were distinct, indicating a high potential for habitat resolution. We observed a very low degree of similarity between the ARMS and all other datasets included in this investigation – similarity was below 40% regardless of comparison (ARMS vs plates, ARMS vs eDNA). We observed a trend of decreasing similarity between the ARMS and the plates from April to January, indicating some influence of priority effects on structuring ARMS communities. However, the ARMS did support an additional richness component that is likely the result of successional processes, including facilitation.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Les structures de surveillance des récifs artificiels (ARMS) sont des unités standardisées composées d&#39;une pile de plaques en PVC qui ont été déployées dans le monde entier dans les environnements de récifs coralliens pour surveiller la biodiversité. Nous avons testé l&#39;applicabilité de l&#39;ARMS en tant que système de surveillance de la biodiversité dans les écosystèmes tempérés du nord-est du Pacifique, y compris les forêts de varech et les landes à oursins. 10 ARMS ont été déployés pendant un an, cinq dans une forêt de varech et cinq dans une clairière à oursins adjacente. Chaque unité ARMS a été complétée par l&#39;ajout d&#39;une plaque de tassement en PVC de 14 x 14 cm et d&#39;une brosse à récurer de 20 x 7 cm ; ces deux appareils ont été remplacés tous les 2 mois. Des échantillons d&#39;eau de mer ont été collectés en parallèle tous les 2 mois à des fins d&#39;analyse de l&#39;ADNe. Nous avons enregistré un total de 420 espèces animales et 167 espèces d&#39;algues sur tous les appareils, ainsi que 305 espèces animales et 135 espèces d&#39;algues à partir de l&#39;ARMS uniquement. L&#39;ARMS a accumulé rapidement des espèces et n&#39;a pas atteint d&#39;asymptote, ce qui suggère que plus de 10 répétitions pourraient être nécessaires pour capturer toute la diversité capable de s&#39;installer sur l&#39;ARMS. Les ARMS présents dans les habitats de varech et de terres arides étaient distincts, ce qui indique un fort potentiel de résolution de l&#39;habitat. Nous avons observé un très faible degré de similitude entre l&#39;ARMS et tous les autres ensembles de données inclus dans cette enquête : la similitude était inférieure à 40 % quelle que soit la comparaison (ARMS contre plaques, ARMS contre eDNA). Nous avons observé une tendance à la baisse de la similitude entre l&#39;ARMS et les plaques d&#39;avril à janvier, ce qui indique une certaine influence des effets de priorité sur la structuration des communautés ARMS. Cependant, l&#39;ARMS a soutenu une composante de richesse supplémentaire qui est probablement le résultat de processus de succession, y compris la facilitation.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -1044,6 +1044,9 @@
         <mri:MD_Keywords>
           <mri:keyword>
             <gco:CharacterString>Sentinels of Change</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Genomics</gco:CharacterString>
           </mri:keyword>
           <mri:type>
             <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
