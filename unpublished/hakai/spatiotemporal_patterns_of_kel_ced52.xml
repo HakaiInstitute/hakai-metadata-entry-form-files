@@ -533,12 +533,12 @@
   <mdb:contact>
     <cit:CI_Responsibility>
       <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
       </cit:role>
       <cit:party>
         <cit:CI_Organisation>
           <cit:name>
-            <gco:CharacterString>University of British Columbia</gco:CharacterString>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
           </cit:name>
           <cit:contactInfo>
             <cit:CI_Contact>
@@ -555,7 +555,7 @@
                     <gco:CharacterString></gco:CharacterString>
                   </cit:deliveryPoint>
                   <cit:city>
-                    <gco:CharacterString>Vancouver</gco:CharacterString>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
                   </cit:city>
                   <cit:country>
                     <gco:CharacterString>Canada</gco:CharacterString>
@@ -565,7 +565,7 @@
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://www.ubc.ca/</gco:CharacterString>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -580,47 +580,68 @@
           <cit:partyIdentifier>
             <mcc:MD_Identifier>
               <mcc:code>
-                <gco:CharacterString>https://ror.org/03rmrcq20</gco:CharacterString>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
               </mcc:code>
             </mcc:MD_Identifier>
           </cit:partyIdentifier>
-          <cit:individual>
-            <cit:CI_Individual>
-              <cit:name>
-                <gco:CharacterString>Salland, Nora</gco:CharacterString>
-              </cit:name>
-              <cit:contactInfo>
-                <cit:CI_Contact>
-                  <cit:address>
-                    <cit:CI_Address>
-                      <cit:deliveryPoint>
-                        <gco:CharacterString></gco:CharacterString>
-                      </cit:deliveryPoint>
-                      <cit:city>
-                        <gco:CharacterString></gco:CharacterString>
-                      </cit:city>
-                      <cit:country>
-                        <gco:CharacterString></gco:CharacterString>
-                      </cit:country>
-                      <cit:electronicMailAddress>
-                        <gco:CharacterString>marinescience@nora-salland.de</gco:CharacterString>
-                      </cit:electronicMailAddress>
-                    </cit:CI_Address>
-                  </cit:address>
-                </cit:CI_Contact>
-              </cit:contactInfo>
-              <cit:partyIdentifier>
-                <mcc:MD_Identifier>
-                  <mcc:code>
-                    <gco:CharacterString>https://orcid.org/0000-0002-9924-3365</gco:CharacterString>
-                  </mcc:code>
-                </mcc:MD_Identifier>
-              </cit:partyIdentifier>
-              <cit:positionName>
-                <gco:CharacterString>Postdoctoral Research Fellow</gco:CharacterString>
-              </cit:positionName>
-            </cit:CI_Individual>
-          </cit:individual>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Hakai Institute</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString>Campbell River</gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString>Canada</gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+          <cit:partyIdentifier>
+            <mcc:MD_Identifier>
+              <mcc:code>
+                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
+              </mcc:code>
+            </mcc:MD_Identifier>
+          </cit:partyIdentifier>
         </cit:CI_Organisation>
       </cit:party>
     </cit:CI_Responsibility>
@@ -686,7 +707,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-08-24T16:01:23.461Z</gco:DateTime>
+        <gco:DateTime>2026-08-27T15:48:17.961Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1182,101 +1203,6 @@
             <cit:CI_Responsibility>
               <cit:role>
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="originator"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>University of British Columbia</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Vancouver</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.ubc.ca/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/03rmrcq20</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString>Salland, Nora</gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact>
-                          <cit:address>
-                            <cit:CI_Address>
-                              <cit:deliveryPoint>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:deliveryPoint>
-                              <cit:city>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:city>
-                              <cit:country>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:country>
-                              <cit:electronicMailAddress>
-                                <gco:CharacterString>marinescience@nora-salland.de</gco:CharacterString>
-                              </cit:electronicMailAddress>
-                            </cit:CI_Address>
-                          </cit:address>
-                        </cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:partyIdentifier>
-                        <mcc:MD_Identifier>
-                          <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0000-0002-9924-3365</gco:CharacterString>
-                          </mcc:code>
-                        </mcc:MD_Identifier>
-                      </cit:partyIdentifier>
-                      <cit:positionName>
-                        <gco:CharacterString>Postdoctoral Research Fellow</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
               </cit:role>
               <cit:party>
                 <cit:CI_Organisation>
@@ -2004,7 +1930,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>The survey aims to investigate the spatial and temporal (seasonal effects) on microbial kelp-tissue communities associated with the Pacific Bull Kelp Nereocystis luetkeana and the Giant Kelp Macrocystis spp. In total, we visited 10 sites across the Salish Sea, Strait of Juan de Fuca and the Central Coast of British Columbia, Canada. Key sites were surveyed on a semi-monthly basis to allow us to detect microbial responses and changes in their diversity and community, and differences between both host species. Bacterial communities will be assessed by collected swab samples of host tissue, followed by 16S analysis and compared to the surrounding water columns. Microbial data will be set into context to sea temperature, overall host health (e.g. blade bleaching) and biofouling of the host organisms (e.g. by bryozoa, amphipoda and other macro organisms). Another aspect of this survey is the differences over time of microbial communities associated with Nereocystis blades, external bulb (pneumatocyst) and internal bulb, and the potential change in communities due to air exposure of the host organism during low tides.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">L&#39;étude vise à étudier les effets spatiaux et temporels (effets saisonniers) sur les communautés microbiennes de tissus de varech associées au varech à taureaux du Pacifique Nereocystis luetkeana et au varech géant Macrocystis spp. Au total, nous avons visité 10 sites dans la mer des Salish, dans le détroit de Juan de Fuca et sur la côte centrale de la Colombie-Britannique, au Canada. Les sites clés ont été étudiés tous les deux mois pour nous permettre de détecter les réponses microbiennes et les changements dans leur diversité et leur communauté, ainsi que les différences entre les deux espèces hôtes. Les communautés bactériennes seront évaluées en prélevant des échantillons de tissu hôte sur écouvillons, puis en effectuant une analyse 16S et en les comparant aux colonnes d&#39;eau environnantes. Les données microbiennes seront mises en contexte en fonction de la température de la mer, de la santé globale de l&#39;hôte (par exemple, le blanchiment des lames) et de l&#39;encrassement biologique des organismes hôtes (par exemple par des bryozoaires, des amphipodes et d&#39;autres macroorganismes). Un autre aspect de cette étude concerne les différences dans le temps entre les communautés microbiennes associées aux lames de Néréocyste, au bulbe externe (pneumatocyste) et au bulbe interne, ainsi que le changement potentiel des communautés dû à l&#39;exposition à l&#39;air de l&#39;organisme hôte pendant les marées basses.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -2452,7 +2378,7 @@
               <cit:party>
                 <cit:CI_Organisation>
                   <cit:name>
-                    <gco:CharacterString>University of British Columbia</gco:CharacterString>
+                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
                   </cit:name>
                   <cit:contactInfo>
                     <cit:CI_Contact>
@@ -2469,7 +2395,7 @@
                             <gco:CharacterString></gco:CharacterString>
                           </cit:deliveryPoint>
                           <cit:city>
-                            <gco:CharacterString>Vancouver</gco:CharacterString>
+                            <gco:CharacterString>Campbell River</gco:CharacterString>
                           </cit:city>
                           <cit:country>
                             <gco:CharacterString>Canada</gco:CharacterString>
@@ -2479,7 +2405,7 @@
                       <cit:onlineResource>
                         <cit:CI_OnlineResource>
                           <cit:linkage>
-                            <gco:CharacterString>https://www.ubc.ca/</gco:CharacterString>
+                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
                           </cit:linkage>
                           <cit:protocol>
                             <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -2494,47 +2420,10 @@
                   <cit:partyIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>https://ror.org/03rmrcq20</gco:CharacterString>
+                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
                       </mcc:code>
                     </mcc:MD_Identifier>
                   </cit:partyIdentifier>
-                  <cit:individual>
-                    <cit:CI_Individual>
-                      <cit:name>
-                        <gco:CharacterString>Salland, Nora</gco:CharacterString>
-                      </cit:name>
-                      <cit:contactInfo>
-                        <cit:CI_Contact>
-                          <cit:address>
-                            <cit:CI_Address>
-                              <cit:deliveryPoint>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:deliveryPoint>
-                              <cit:city>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:city>
-                              <cit:country>
-                                <gco:CharacterString></gco:CharacterString>
-                              </cit:country>
-                              <cit:electronicMailAddress>
-                                <gco:CharacterString>marinescience@nora-salland.de</gco:CharacterString>
-                              </cit:electronicMailAddress>
-                            </cit:CI_Address>
-                          </cit:address>
-                        </cit:CI_Contact>
-                      </cit:contactInfo>
-                      <cit:partyIdentifier>
-                        <mcc:MD_Identifier>
-                          <mcc:code>
-                            <gco:CharacterString>https://orcid.org/0000-0002-9924-3365</gco:CharacterString>
-                          </mcc:code>
-                        </mcc:MD_Identifier>
-                      </cit:partyIdentifier>
-                      <cit:positionName>
-                        <gco:CharacterString>Postdoctoral Research Fellow</gco:CharacterString>
-                      </cit:positionName>
-                    </cit:CI_Individual>
-                  </cit:individual>
                 </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
