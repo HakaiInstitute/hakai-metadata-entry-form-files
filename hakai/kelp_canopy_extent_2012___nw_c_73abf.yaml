@@ -1,0 +1,364 @@
+contact:
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    name: Holmes, Keith
+    orcid: https://orcid.org/0000-0001-8796-8222
+    position: Geospatial Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - author
+  - editor
+  - pointOfContact
+  - principalInvestigator
+  - processor
+  - originator
+- inCitation: true
+  individual:
+    email: jenn.burt@gmail.com
+    name: Burt, Jenn
+    orcid: https://orcid.org/0000-0001-5536-4694
+    position: Science Researcher
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - principalInvestigator
+  - pointOfContact
+  - editor
+  - processor
+  - originator
+- inCitation: false
+  individual:
+    email: data@hakai.org
+    name: Hakai Geospatial
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - pointOfContact
+  - custodian
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    position: Geospatial Science
+  organization:
+    address: 1100 Island Hwy
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - resourceProvider
+  - distributor
+  - owner
+  - custodian
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- name:
+    en: Data Access Request Form
+    fr: Formulaire de demande d'accès aux données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/63rs-yt91
+- description:
+    en: Hakai's AGOL Instance is the platform for Access and online use of this dataset/'s
+      reference layer
+    fr: L'instance AGOL de Hakai est la plate-forme d'accès et d'utilisation en ligne
+      de la couche de référence de cet ensemble de données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Hakai's ArcGIS Online Platform (restricted access)
+    fr: Plateforme ArcGIS Online de Hakai (accès restreint)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: http://hakai.maps.arcgis.com/home/item.html?id=ec2e688fb85f4607af65376482222e5f
+identification:
+  abstract:
+    en: "Polygons manually created based on August 2012 air photos.\n\nTwo species\
+      \ are mapped: Nereocystis luetkeana and Macrocystis pyrifera.\n\nDensity is\
+      \ classified as either High or Low according the KIM 1 methodologies detailed\
+      \ in the 2007 Sutherland Kelp Inventory report (http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf)\n\
+      \nAreas covered: West Beach – 7th beach to West Beach + Choked Passage – Surf\
+      \ Pass and North Beach to Wolf Beach North to Hakai Land and Sea Beach.\n\n\
+      Air Photos gathered by Terra Remote Sensing and processed by the CEDD Lab and\
+      \ Hyperspectral Lab at the University of Victoria.\n\nImagery was share with\
+      \ SFU volunteer crew (Jenn Burt, Amanda Schrack, and Sebastian Mather). Quality\
+      \ control checked March 2015 by Keith Holmes and Jenn Burt.\n\nKelp extent layer\
+      \ is represented by polygons which were digitized manually in ARC GIS.\n\nAttributes:\n\
+      \nFID - Unique identification number - ARC auto generated during polygon creation\n\
+      \nShape - Polygon - spatial representation\n\nSpecies - \"Macro\" / \"Nereo\"\
+      \ / Mixed detailing the two possible kelp canopy species. Macro refers to macrocystis\
+      \ pyrifera or giant kelp. Nereo refers to nereocystis luetkeana or bull kelp.\
+      \ Mixed is a homogenous mix of both Macro and Nereo species. Defined by GIS\
+      \ techs - identified by \"credit\" field. \n\nDensity - density of kelp defined\
+      \ as either high or low. Based on the Sutherland methodology for kelp density.\
+      \ High = high density / based on mean kelp plants found per square meter. Low\
+      \ = low density - still a continuous bed of kelp with large gaps the length\
+      \ of each fond.\n\nArea sq_m - size of each kelp bed in square meters. Defined\
+      \ by arc geometry calculation.\n\nConcat - concatenation of species and density\
+      \ information. Used for cartographic purposes. Defined by concatenating species\
+      \ and density metrics in ARC GIS.\n\nConfidence - Used by GIS technician to\
+      \ identify difficult to detect species / kelp bed extent / density. Used to\
+      \ inform reviewers and quality control spatial information. High = High confidence\
+      \ - no need to check over, Medium = medium confidence - check over, Low = low\
+      \ confidence - unsure of major elements - reviewer check over. A \"Checked\"\
+      \ may be added to the information to determine quality control has been completed\
+      \ on low confidence polygons. Determined by the last \"credit\" reviewer.\n\n\
+      Credit - Initials of GIS technician to create and give the final quality check\
+      \ on the kelp extent polygon. KH = Keith Holmes, JB = Jenn Burt, AS = Amanda\
+      \ Schrack, SM = Sebastian Mather.\n\nSpecies_la - full Latin species name for\
+      \ the kelp. macrocystis pyrifera / nereocystis luetkeana / mixed. Mixed has\
+      \ a homogenous mix of both macrocystis pyrifera and nereocystis luetkeana species\n\
+      \n\nDataset created by Jenn Burt and Keith Holmes. Simon Fraser University Volunteers:\
+      \ Amanda Schrack and Sebastian Mather\nContact: data@hakai.org"
+    fr: "Polygones créés manuellement à partir de photos aériennes prises en août\
+      \ 2012.\n\nDeux espèces sont cartographiées : Nereocystis luetkeana et Macrocystis\
+      \ pyrifera.\n\nLa densité est classée comme élevée ou faible selon les méthodologies\
+      \ KIM 1 détaillées dans le rapport d'inventaire du varech de Sutherland 2007\
+      \ (http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf)\n\nZones couvertes :\
+      \ West Beach — 7e plage à West Beach + Choked Passage — Surf Pass et North Beach\
+      \ à Wolf Beach North jusqu'à Hakai Land and Sea Beach.\n\nPhotos aériennes recueillies\
+      \ par Terra Remote Sensing et traitées par le laboratoire CEDD et le laboratoire\
+      \ hyperspectral de l'Université de Victoria.\n\nLes images ont été partagées\
+      \ avec l'équipe de bénévoles de la SFU (Jenn Burt, Amanda Schrack et Sebastian\
+      \ Mather). Contrôle qualité vérifié en mars 2015 par Keith Holmes et Jenn Burt.\n\
+      \nLa couche d'étendue de varech est représentée par des polygones qui ont été\
+      \ numérisés manuellement dans ARC GIS.\n\nAttributs :\n\nFID - Numéro d'identification\
+      \ unique - ARC généré automatiquement lors de la création du polygone\n\nForme\
+      \ - Polygone - représentation spatiale\n\nEspèces - « Macro »/« Nereo »/Mixte\
+      \ détaillant les deux espèces possibles de la canopée de varech. Macro fait\
+      \ référence à macrocystis pyrifera ou varech géant. Nereo fait référence à nereocystis\
+      \ luetkeana ou varech taureau. Mixed est un mélange homogène d'espèces Macro\
+      \ et Nereo. Défini par les techniciens des SIG - identifié par le champ « crédit ».\
+      \ \n\nDensité : densité du varech définie comme étant élevée ou faible. Basé\
+      \ sur la méthodologie de Sutherland pour la densité du varech. Élevé = haute\
+      \ densité/basé sur la moyenne des plants de varech trouvés par mètre carré.\
+      \ Faible = faible densité - il s'agit toujours d'un lit continu de varech avec\
+      \ de grands espaces sur la longueur de chaque fond.\n\nSuperficie en m² - taille\
+      \ de chaque lit de varech en mètres carrés. Défini par le calcul de la géométrie\
+      \ de l'arc.\n\nConcat - concaténation d'informations sur les espèces et la densité.\
+      \ Utilisé à des fins cartographiques. Défini par la concaténation des espèces\
+      \ et des métriques de densité dans ARC GIS.\n\nConfiance - Utilisée par un technicien\
+      \ en SIG pour identifier les espèces difficiles à détecter, l'étendue et la\
+      \ densité du lit de varech. Utilisé pour informer les réviseurs et contrôler\
+      \ la qualité des informations spatiales. Haut = niveau de confiance élevé -\
+      \ pas besoin de vérifier, moyen = niveau de confiance moyen - vérification,\
+      \ faible = niveau de confiance faible - incertitude quant aux principaux éléments\
+      \ - vérification par l'évaluateur. La mention « Vérifié » peut être ajoutée\
+      \ aux informations pour déterminer que le contrôle qualité a été effectué sur\
+      \ les polygones à faible niveau de confiance. Déterminé par le dernier évaluateur\
+      \ de « crédit ».\n\nCrédit : Initiales du technicien en SIG chargé de créer\
+      \ le polygone d'étendue du varech et d'effectuer le contrôle de qualité final.\
+      \ KH = Keith Holmes, JB = Jenn Burt, États-Unis = Amanda Schrack, SM = Sebastian\
+      \ Mather.\n\nSpecies_LA - nom latin complet de l'espèce pour le varech. macrocystis\
+      \ pyrifera/nereocystis luetkeana/mixed. Mixed contient un mélange homogène d'espèces\
+      \ macrocystis pyrifera et nereocystis luetkeana\n\n\nEnsemble de données créé\
+      \ par Jenn Burt et Keith Holmes. Bénévoles de l'Université Simon Fraser : Amanda\
+      \ Schrack et Sebastian Mather\nContactez : data@hakai.org"
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: IsNewVersionOf
+    association_type_iso: revisionOf
+    authority: DOI
+    code: https://doi.org/10.21966/dzhe-t816
+    title:
+      en: Kelp Canopy Extent 2006 - NW Calvert Island
+      fr: Étendue de la canopée de varech 2006 - Nord-Ouest de l'île Calvert
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: PreviousVersionOf
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.21966/agnf-hj89
+    title:
+      en: Kelp Canopy Extent - 2014 - NW Calvert Island
+      fr: Étendue de la canopée de varech - 2014 - NW de l'île Calvert
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: PreviousVersionOf
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.21966/q0wm-zk34
+    title:
+      en: Kelp Canopy Extent - 2015 - NW Calvert Island - British Columbia - Canada
+      fr: Étendue de la canopée de varech - 2015 - NW de l'île Calvert - Colombie-Britannique
+        - Canada
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2012-08-15'
+    publication: '2015-12-04'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/63rs-yt91
+  keywords:
+    default:
+      en:
+      - Downloadable Data
+      - Kelp
+      - canopy
+      - extent
+      - calvert
+      - bull kelp
+      - giant kelp
+      - hakai
+      - '2012'
+      - other
+    eov:
+      en:
+      - other
+      - macroalgalCanopyCoverAndComposition
+      fr:
+      - Autre
+      - Composition et couverture de la canopée de macroalgues
+    taxa:
+      en:
+      - Nereocystis luetkeana
+      - Macrocystis pyrifera
+      - Phaeophyceae
+      - Macrocystis
+      - Chromista
+      - Nereocystis
+      - Ochrophyta
+      - Laminariales
+      - Laminariaceae
+      fr:
+      - Nereocystis luetkeana
+      - Macrocystis pyrifera
+      - Phaeophyceae
+      - Macrocystis
+      - Chromista
+      - Nereocystis
+      - Ochrophyta
+      - Laminariales
+      - Laminariaceae
+  progress_code: completed
+  project:
+  - Geospatial
+  status: published
+  temporal_begin: '2012-08-15T19:00:00.000Z'
+  temporal_end: '2012-08-15T19:00:00.000Z'
+  title:
+    en: Kelp Canopy Extent 2012 - NW Calvert Island
+    fr: Étendue de la canopée de varech 2012 - NW Calvert Island
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    publication: '2026-08-31'
+    revision: '2026-08-31T19:02:30.327Z'
+  identifier: 73abfecf-d35c-4f9c-a991-eee5cece08ea
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUxUM01laTFaREhKbWE
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Appropriate credit must be given to Hakai Institute and the authors of the
+        dataset.
+      fr: Un crédit approprié doit être accordé à l'Institut Hakai et aux auteurs
+        de l'ensemble de données.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+spatial:
+  bbox:
+  - -128.16959381103513
+  - 51.63613234359897
+  - -128.11191558837888
+  - 51.681709494104325
+  description:
+    en: Northwest Calvert Island, Central Coast, British Columbia
+    fr: Northwest Calvert Island, côte centrale, Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
