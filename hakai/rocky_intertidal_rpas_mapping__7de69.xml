@@ -1895,7 +1895,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-08-31T16:54:52.267Z</gco:DateTime>
+        <gco:DateTime>2026-08-31T16:56:19.827Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -3724,18 +3724,45 @@ Nous avons effectué la cartographie de niveau 1 et de niveau 2 sur les sites in
                 <gco:Boolean>true</gco:Boolean>
               </gex:extentTypeCode>
               <gex:westBoundLongitude>
-                <gco:Decimal>-128.20729486</gco:Decimal>
+                <gco:Decimal>-128.6286</gco:Decimal>
               </gex:westBoundLongitude>
               <gex:eastBoundLongitude>
-                <gco:Decimal>-128.07875481</gco:Decimal>
+                <gco:Decimal>-122.8941</gco:Decimal>
               </gex:eastBoundLongitude>
               <gex:southBoundLatitude>
-                <gco:Decimal>51.64597234</gco:Decimal>
+                <gco:Decimal>48.1332</gco:Decimal>
               </gex:southBoundLatitude>
               <gex:northBoundLatitude>
-                <gco:Decimal>51.76579671</gco:Decimal>
+                <gco:Decimal>51.9689</gco:Decimal>
               </gex:northBoundLatitude>
             </gex:EX_GeographicBoundingBox>
+          </gex:geographicElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_GeographicDescription>
+              <gex:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gex:extentTypeCode>
+              <gex:geographicIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString></gco:CharacterString>
+                  </mcc:code>
+                  <mcc:codeSpace>
+                    <gco:CharacterString>ca.cioos</gco:CharacterString>
+                  </mcc:codeSpace>
+                  <mcc:version>
+                    <gco:CharacterString>1</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>{&#39;en&#39;: &#39;Rocky intertidal sites in British Columbia Canada. Locations are concentrated on the BC Central Coast, and are also located along areas of the Salish Sea and Southern Vancouver Island.&#39;, &#39;fr&#39;: &#34;Sites intertidaux rocheux en Colombie-Britannique, au Canada. Les sites sont concentrés sur la côte centrale de la Colombie-Britannique et sont également situés le long de zones de la mer des Salish et du sud de l&#39;île de Vancouver.&#34;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </gex:geographicIdentifier>
+            </gex:EX_GeographicDescription>
           </gex:geographicElement>
         </gex:EX_Extent>
       </mri:extent>
