@@ -1,22 +1,4 @@
 contact:
-- inCitation: false
-  organization:
-    city: Vancouver
-    country: Canada
-    name: Tula Foundation
-    ror: https://ror.org/0029jxk29
-    url: https://tula.org
-  roles:
-  - owner
-  - resourceProvider
-  - funder
-  - distributor
-- inCitation: true
-  organization:
-    country: Canada
-    name: Hakai Institute
-  roles:
-  - publisher
 - inCitation: true
   individual:
     email: data@hakai.org
@@ -34,6 +16,31 @@ contact:
   - principalInvestigator
   - custodian
   - processor
+- inCitation: true
+  organization:
+    country: Canada
+    name: Hakai Institute
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Please fill out the form to gain access to the North Vancouver Island Aerial
@@ -163,7 +170,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-08-31T17:42:24.524Z'
+    revision: '2026-08-31T17:44:14.567Z'
   identifier: 940218ef-d7f8-4f3f-9e69-52150ecdbec5
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-OCoHpqOwDbp834fqRY3
