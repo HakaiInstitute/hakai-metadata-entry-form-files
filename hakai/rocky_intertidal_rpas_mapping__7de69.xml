@@ -1895,7 +1895,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-08-31T16:53:11.507Z</gco:DateTime>
+        <gco:DateTime>2026-08-31T16:54:51.330Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2004,16 +2004,6 @@
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
-              </cit:dateType>
-            </cit:CI_Date>
-          </cit:date>
-          <cit:date>
-            <cit:CI_Date>
-              <cit:date>
-                <gco:Date>2020-10-15</gco:Date>
-              </cit:date>
-              <cit:dateType>
-                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
@@ -3699,7 +3689,7 @@ Level 2: At least once per year, collect fine-resolution orthomosaics to classif
 
 We performed the Level 1 and Level 2 mapping at the following Hakai Rocky Intertidal sites as well as the level 1 and level 2 mapping at the three seasonal sites, we mapped sites requested by Alyssa Gehman / Chris Harley, Patrick Martone, and the seasonal Pyropia sites.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">L&#39;ensemble de données intertidales rocheuses se compose d&#39;images de drones et de données associées, collectées dans le cadre d&#39;un levé littoral à l&#39;Institut Hakai. 
 
 Les objectifs de ce projet sont les suivants :
@@ -3794,7 +3784,7 @@ Nous avons effectué la cartographie de niveau 1 et de niveau 2 sur les sites in
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
                   <gml:beginPosition>2016-05-14T19:00:00.000Z</gml:beginPosition>
-                  <gml:endPosition indeterminatePosition="unknown" />
+                  <gml:endPosition>2026-08-10T19:00:00.000Z</gml:endPosition>
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
