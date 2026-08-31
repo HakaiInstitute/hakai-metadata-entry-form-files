@@ -6,7 +6,7 @@ abstract: "Polygons manually created based on August 2012 air photos.\n\nTwo spe
   \ Surf Pass and North Beach to Wolf Beach North to Hakai Land and Sea Beach.\n\n\
   Air Photos gathered by Terra Remote Sensing and processed by the CEDD Lab and Hyperspectral\
   \ Lab at the University of Victoria.\n\nImagery was share with SFU volunteer crew\
-  \ (Jenn Burt, Amanda Schrack, and Sebastian Mather). Quality conrol checked March\
+  \ (Jenn Burt, Amanda Schrack, and Sebastian Mather). Quality control checked March\
   \ 2015 by Keith Holmes and Jenn Burt.\n\nKelp extent layer is represented by polygons\
   \ which were digitized manually in ARC GIS.\n\nAttributes:\n\nFID - Unique identification\
   \ number - ARC auto generated during polygon creation\n\nShape - Polygon - spatial\
@@ -51,21 +51,12 @@ authors:
   given-names: Jenn
   orcid: https://orcid.org/0000-0001-5536-4694
   website: https://www.hakai.org/
-- affiliation: Hakai Institute
+- address: 1100 Island Hwy
+  affiliation: Hakai Institute
   city: Campbell River
   country: CA
   email: data@hakai.org
-  family-names: Hakai Geospatial
   website: https://www.hakai.org/
-- city: Campbell River
-  country: CA
-  email: data@hakai.org
-  name: Hakai Institute
-  website: https://www.hakai.org/
-- city: Vancouver
-  country: CA
-  name: Tula Foundation
-  website: https://tula.org
 cff-version: 1.2.0
 contact:
 - affiliation: Hakai Institute
@@ -90,7 +81,7 @@ contact:
   email: data@hakai.org
   family-names: Hakai Geospatial
   website: https://www.hakai.org/
-date-released: '2024-07-24'
+date-released: '2026-08-31'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -104,6 +95,9 @@ identifiers:
 - description: Metadata Form used to generate this record
   type: url
   value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MUxUM01laTFaREhKbWE
+- description: 'Data Access Request Form: Not available'
+  type: url
+  value: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/63rs-yt91
 - description: 'Hakai''s ArcGIS Online Platform (restricted access): Hakai''s AGOL
     Instance is the platform for Access and online use of this dataset/''s reference
     layer'
@@ -111,18 +105,29 @@ identifiers:
   value: http://hakai.maps.arcgis.com/home/item.html?id=ec2e688fb85f4607af65376482222e5f
 keywords:
 - '2012'
+- Chromista
 - Downloadable Data
 - Kelp
+- Laminariaceae
+- Laminariales
+- Macrocystis
+- Macrocystis pyrifera
+- Nereocystis
+- Nereocystis luetkeana
+- Ochrophyta
+- Phaeophyceae
 - bull kelp
 - calvert
 - canopy
 - extent
 - giant kelp
 - hakai
+- macroalgalCanopyCoverAndComposition
 - other
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0
 message: If you use this software, please cite it as below
 title: Kelp Canopy Extent 2012 - NW Calvert Island
-type: Dataset
+type: dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_73abfecf-d35c-4f9c-a991-eee5cece08ea
+version: '1.0'

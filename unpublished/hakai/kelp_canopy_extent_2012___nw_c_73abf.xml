@@ -1261,67 +1261,6 @@
   <mdb:contact>
     <cit:CI_Responsibility>
       <cit:role>
-        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
-      </cit:role>
-      <cit:party>
-        <cit:CI_Organisation>
-          <cit:name>
-            <gco:CharacterString>Hakai Institute</gco:CharacterString>
-          </cit:name>
-          <cit:contactInfo>
-            <cit:CI_Contact>
-              <cit:phone>
-                <cit:CI_Telephone>
-                  <cit:number>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:number>
-                </cit:CI_Telephone>
-              </cit:phone>
-              <cit:address>
-                <cit:CI_Address>
-                  <cit:deliveryPoint>
-                    <gco:CharacterString></gco:CharacterString>
-                  </cit:deliveryPoint>
-                  <cit:city>
-                    <gco:CharacterString>Campbell River</gco:CharacterString>
-                  </cit:city>
-                  <cit:country>
-                    <gco:CharacterString>Canada</gco:CharacterString>
-                  </cit:country>
-                  <cit:electronicMailAddress>
-                    <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                  </cit:electronicMailAddress>
-                </cit:CI_Address>
-              </cit:address>
-              <cit:onlineResource>
-                <cit:CI_OnlineResource>
-                  <cit:linkage>
-                    <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                  </cit:linkage>
-                  <cit:protocol>
-                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                  </cit:protocol>
-                  <cit:function>
-                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                  </cit:function>
-                </cit:CI_OnlineResource>
-              </cit:onlineResource>
-            </cit:CI_Contact>
-          </cit:contactInfo>
-          <cit:partyIdentifier>
-            <mcc:MD_Identifier>
-              <mcc:code>
-                <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-              </mcc:code>
-            </mcc:MD_Identifier>
-          </cit:partyIdentifier>
-        </cit:CI_Organisation>
-      </cit:party>
-    </cit:CI_Responsibility>
-  </mdb:contact>
-  <mdb:contact>
-    <cit:CI_Responsibility>
-      <cit:role>
         <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="funder"/>
       </cit:role>
       <cit:party>
@@ -1380,7 +1319,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-07-24T18:43:01.841Z</gco:DateTime>
+        <gco:DateTime>2026-08-31T19:02:30.327Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1485,6 +1424,16 @@
           <cit:date>
             <cit:CI_Date>
               <cit:date>
+                <gco:Date>2012-08-15</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
                 <gco:Date>2015-12-04</gco:Date>
               </cit:date>
               <cit:dateType>
@@ -1492,6 +1441,9 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -2776,250 +2728,6 @@
           <cit:citedResponsibleParty>
             <cit:CI_Responsibility>
               <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="resourceProvider"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="distributor"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
-                <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="custodian"/>
-              </cit:role>
-              <cit:party>
-                <cit:CI_Organisation>
-                  <cit:name>
-                    <gco:CharacterString>Hakai Institute</gco:CharacterString>
-                  </cit:name>
-                  <cit:contactInfo>
-                    <cit:CI_Contact>
-                      <cit:phone>
-                        <cit:CI_Telephone>
-                          <cit:number>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:number>
-                        </cit:CI_Telephone>
-                      </cit:phone>
-                      <cit:address>
-                        <cit:CI_Address>
-                          <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
-                          </cit:deliveryPoint>
-                          <cit:city>
-                            <gco:CharacterString>Campbell River</gco:CharacterString>
-                          </cit:city>
-                          <cit:country>
-                            <gco:CharacterString>Canada</gco:CharacterString>
-                          </cit:country>
-                          <cit:electronicMailAddress>
-                            <gco:CharacterString>data@hakai.org</gco:CharacterString>
-                          </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                      </cit:address>
-                      <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                          <cit:linkage>
-                            <gco:CharacterString>https://www.hakai.org/</gco:CharacterString>
-                          </cit:linkage>
-                          <cit:protocol>
-                            <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                          </cit:protocol>
-                          <cit:function>
-                            <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
-                          </cit:function>
-                        </cit:CI_OnlineResource>
-                      </cit:onlineResource>
-                    </cit:CI_Contact>
-                  </cit:contactInfo>
-                  <cit:partyIdentifier>
-                    <mcc:MD_Identifier>
-                      <mcc:code>
-                        <gco:CharacterString>https://ror.org/02pry0c91</gco:CharacterString>
-                      </mcc:code>
-                    </mcc:MD_Identifier>
-                  </cit:partyIdentifier>
-                </cit:CI_Organisation>
-              </cit:party>
-            </cit:CI_Responsibility>
-          </cit:citedResponsibleParty>
-          <cit:citedResponsibleParty>
-            <cit:CI_Responsibility>
-              <cit:role>
                 <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="publisher"/>
               </cit:role>
               <cit:party>
@@ -3039,7 +2747,7 @@
                       <cit:address>
                         <cit:CI_Address>
                           <cit:deliveryPoint>
-                            <gco:CharacterString></gco:CharacterString>
+                            <gco:CharacterString>1100 Island Hwy</gco:CharacterString>
                           </cit:deliveryPoint>
                           <cit:city>
                             <gco:CharacterString>Campbell River</gco:CharacterString>
@@ -3074,6 +2782,36 @@
                       </mcc:code>
                     </mcc:MD_Identifier>
                   </cit:partyIdentifier>
+                  <cit:individual>
+                    <cit:CI_Individual>
+                      <cit:name>
+                        <gco:CharacterString></gco:CharacterString>
+                      </cit:name>
+                      <cit:contactInfo>
+                        <cit:CI_Contact>
+                          <cit:address>
+                            <cit:CI_Address>
+                              <cit:deliveryPoint>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:deliveryPoint>
+                              <cit:city>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:city>
+                              <cit:country>
+                                <gco:CharacterString></gco:CharacterString>
+                              </cit:country>
+                              <cit:electronicMailAddress>
+                                <gco:CharacterString>data@hakai.org</gco:CharacterString>
+                              </cit:electronicMailAddress>
+                            </cit:CI_Address>
+                          </cit:address>
+                        </cit:CI_Contact>
+                      </cit:contactInfo>
+                      <cit:positionName>
+                        <gco:CharacterString>Geospatial Science</gco:CharacterString>
+                      </cit:positionName>
+                    </cit:CI_Individual>
+                  </cit:individual>
                 </cit:CI_Organisation>
               </cit:party>
             </cit:CI_Responsibility>
@@ -3091,7 +2829,7 @@ Areas covered: West Beach – 7th beach to West Beach + Choked Passage – Surf 
 
 Air Photos gathered by Terra Remote Sensing and processed by the CEDD Lab and Hyperspectral Lab at the University of Victoria.
 
-Imagery was share with SFU volunteer crew (Jenn Burt, Amanda Schrack, and Sebastian Mather). Quality conrol checked March 2015 by Keith Holmes and Jenn Burt.
+Imagery was share with SFU volunteer crew (Jenn Burt, Amanda Schrack, and Sebastian Mather). Quality control checked March 2015 by Keith Holmes and Jenn Burt.
 
 Kelp extent layer is represented by polygons which were digitized manually in ARC GIS.
 
@@ -3120,43 +2858,43 @@ Dataset created by Jenn Burt and Keith Holmes. Simon Fraser University Volunteer
 Contact: data@hakai.org</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Polygones créés manuellement à partir de photos aériennes d&#39;août 2012.
+            <lan:LocalisedCharacterString locale="#fr">Polygones créés manuellement à partir de photos aériennes prises en août 2012.
 
 Deux espèces sont cartographiées : Nereocystis luetkeana et Macrocystis pyrifera.
 
-La densité est classée comme élevée ou faible selon les méthodologies KIM 1 détaillées dans le rapport Sutherland Kelp Inventory 2007 (http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf)
+La densité est classée comme élevée ou faible selon les méthodologies KIM 1 détaillées dans le rapport d&#39;inventaire du varech de Sutherland 2007 (http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf)
 
-Zones couvertes : West Beach - 7e plage à West Beach + passage étranglé - Surf Pass et North Beach à Wolf Beach North jusqu&#39;à Hakai Land et Sea Beach.
+Zones couvertes : West Beach — 7e plage à West Beach + Choked Passage — Surf Pass et North Beach à Wolf Beach North jusqu&#39;à Hakai Land and Sea Beach.
 
-Air Photos recueillies par Terra Remote Sensing et traitées par le laboratoire CEDD et le laboratoire hyperspectral de l&#39;Université de Victoria.
+Photos aériennes recueillies par Terra Remote Sensing et traitées par le laboratoire CEDD et le laboratoire hyperspectral de l&#39;Université de Victoria.
 
-Les images ont été partagées avec l&#39;équipe bénévole de la SFU (Jenn Burt, Amanda Schrack et Sebastian Mather). Contrôle de la qualité vérifié en mars 2015 par Keith Holmes et Jenn Burt.
+Les images ont été partagées avec l&#39;équipe de bénévoles de la SFU (Jenn Burt, Amanda Schrack et Sebastian Mather). Contrôle qualité vérifié en mars 2015 par Keith Holmes et Jenn Burt.
 
-La couche d&#39;étendue de Kelp est représentée par des polygones numérisés manuellement dans ARC GIS.
+La couche d&#39;étendue de varech est représentée par des polygones qui ont été numérisés manuellement dans ARC GIS.
 
 Attributs :
 
-FID - Numéro d&#39;identification unique - ARC généré automatiquement lors de la création d&#39;un polygone
+FID - Numéro d&#39;identification unique - ARC généré automatiquement lors de la création du polygone
 
 Forme - Polygone - représentation spatiale
 
-Espèce - « Macro »/« Nereo »/Mixte détaillant les deux espèces possibles de la canopée de varech. Macro fait référence à macrocystis pyrifera ou varech géant. Nereo fait référence au nereocystis luetkeana ou au varech de taureau. Mixed est un mélange homogène d&#39;espèces Macro et Nereo. Définie par les techniciens SIG - identifiée par le champ « crédit ». 
+Espèces - « Macro »/« Nereo »/Mixte détaillant les deux espèces possibles de la canopée de varech. Macro fait référence à macrocystis pyrifera ou varech géant. Nereo fait référence à nereocystis luetkeana ou varech taureau. Mixed est un mélange homogène d&#39;espèces Macro et Nereo. Défini par les techniciens des SIG - identifié par le champ « crédit ». 
 
-Densité - densité du varech définie comme élevée ou faible. Basé sur la méthodologie Sutherland pour la densité du varech. Élevé = haute densité/basé sur la moyenne des plants de varech trouvés par mètre carré. Faible = faible densité - toujours un lit continu de varech avec de grands espaces sur la longueur de chaque fond.
+Densité : densité du varech définie comme étant élevée ou faible. Basé sur la méthodologie de Sutherland pour la densité du varech. Élevé = haute densité/basé sur la moyenne des plants de varech trouvés par mètre carré. Faible = faible densité - il s&#39;agit toujours d&#39;un lit continu de varech avec de grands espaces sur la longueur de chaque fond.
 
-Superficie sq_m - taille de chaque lit de varech en mètres carrés. Défini par le calcul de la géométrie des arcs.
+Superficie en m² - taille de chaque lit de varech en mètres carrés. Défini par le calcul de la géométrie de l&#39;arc.
 
-Concat - concaténation des informations sur les espèces et la densité. Utilisé à des fins cartographiques. Définie par la concaténation des espèces et des mesures de densité dans ARC GIS.
+Concat - concaténation d&#39;informations sur les espèces et la densité. Utilisé à des fins cartographiques. Défini par la concaténation des espèces et des métriques de densité dans ARC GIS.
 
-Confiance - Utilisé par un technicien SIG pour identifier les espèces difficiles à détecter, l&#39;étendue du lit de varech et la densité. Utilisé pour informer les réviseurs et contrôler la qualité des informations spatiales. Élevé = niveau de confiance élevé - pas besoin de vérifier, moyen = niveau de confiance moyen - vérification, faible = faible confiance - incertain des principaux éléments - vérification de l&#39;examinateur. Un « vérifié » peut être ajouté aux informations pour déterminer si le contrôle de qualité a été effectué sur les polygones de faible confiance. Déterminé par le dernier examinateur de « crédit ».
+Confiance - Utilisée par un technicien en SIG pour identifier les espèces difficiles à détecter, l&#39;étendue et la densité du lit de varech. Utilisé pour informer les réviseurs et contrôler la qualité des informations spatiales. Haut = niveau de confiance élevé - pas besoin de vérifier, moyen = niveau de confiance moyen - vérification, faible = niveau de confiance faible - incertitude quant aux principaux éléments - vérification par l&#39;évaluateur. La mention « Vérifié » peut être ajoutée aux informations pour déterminer que le contrôle qualité a été effectué sur les polygones à faible niveau de confiance. Déterminé par le dernier évaluateur de « crédit ».
 
-Crédit - Initiales du technicien SIG pour créer et donner le contrôle de qualité final sur le polygone d&#39;étendue de varech. KH = Keith Holmes, JB = Jenn Burt, AS = Amanda Schrack, SM = Sebastian Mather.
+Crédit : Initiales du technicien en SIG chargé de créer le polygone d&#39;étendue du varech et d&#39;effectuer le contrôle de qualité final. KH = Keith Holmes, JB = Jenn Burt, États-Unis = Amanda Schrack, SM = Sebastian Mather.
 
-Species_LA - nom d&#39;espèce latin complet du varech. macrocystis pyrifera/nereocystis luetkeana/mixed. Mixed présente un mélange homogène d&#39;espèces de macrocystis pyrifera et de nereocystis luetkeana.
+Species_LA - nom latin complet de l&#39;espèce pour le varech. macrocystis pyrifera/nereocystis luetkeana/mixed. Mixed contient un mélange homogène d&#39;espèces macrocystis pyrifera et nereocystis luetkeana
 
 
-Jeu de données créé par Jenn Burt et Keith Holmes. Bénévoles de l&#39;Université Simon Fraser : Amanda Schrack et Sebastian Mather
-Contact : data@hakai.org</lan:LocalisedCharacterString>
+Ensemble de données créé par Jenn Burt et Keith Holmes. Bénévoles de l&#39;Université Simon Fraser : Amanda Schrack et Sebastian Mather
+Contactez : data@hakai.org</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -3194,29 +2932,56 @@ Contact : data@hakai.org</lan:LocalisedCharacterString>
       </mri:extent>
       <mri:extent>
         <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_GeographicDescription>
+              <gex:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gex:extentTypeCode>
+              <gex:geographicIdentifier>
+                <mcc:MD_Identifier>
+                  <mcc:code>
+                    <gco:CharacterString></gco:CharacterString>
+                  </mcc:code>
+                  <mcc:codeSpace>
+                    <gco:CharacterString>ca.cioos</gco:CharacterString>
+                  </mcc:codeSpace>
+                  <mcc:version>
+                    <gco:CharacterString>1</gco:CharacterString>
+                  </mcc:version>
+                  <mcc:description>
+                    <gco:CharacterString>{&#39;en&#39;: &#39;Northwest Calvert Island, Central Coast, British Columbia&#39;, &#39;fr&#39;: &#39;Northwest Calvert Island, côte centrale, Colombie-Britannique&#39;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
+                  </mcc:description>
+                </mcc:MD_Identifier>
+              </gex:geographicIdentifier>
+            </gex:EX_GeographicDescription>
+          </gex:geographicElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:extent>
+        <gex:EX_Extent>
           <gex:verticalElement>
             <gex:EX_VerticalExtent>
               <gex:minimumValue>
-                <gco:Real>0.0</gco:Real>
+                <gco:Real>0</gco:Real>
               </gex:minimumValue>
               <gex:maximumValue>
-                <gco:Real>50.0</gco:Real>
+                <gco:Real>0</gco:Real>
               </gex:maximumValue>
               <gex:verticalCRSId>
                 <mrs:MD_ReferenceSystem>
                   <mrs:referenceSystemIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>5831</gco:CharacterString>
+                        <gco:CharacterString>5829</gco:CharacterString>
                       </mcc:code>
                       <mcc:codeSpace>
                         <gco:CharacterString>EPSG</gco:CharacterString>
                       </mcc:codeSpace>
                       <mcc:version>
-                        <gco:CharacterString>2012-08-10</gco:CharacterString>
+                        <gco:CharacterString>2012-08-10T00:00:00</gco:CharacterString>
                       </mcc:version>
                       <mcc:description>
-                        <gco:CharacterString>EPSG::5831 - Instantaneous Water Level depth - Depth relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                        <gco:CharacterString>Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
                       </mcc:description>
                     </mcc:MD_Identifier>
                   </mrs:referenceSystemIdentifier>
@@ -3236,8 +3001,8 @@ Contact : data@hakai.org</lan:LocalisedCharacterString>
             <gex:EX_TemporalExtent>
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
-                  <gml:beginPosition indeterminatePosition="unknown" />
-                  <gml:endPosition indeterminatePosition="unknown" />
+                  <gml:beginPosition>2012-08-15T19:00:00.000Z</gml:beginPosition>
+                  <gml:endPosition>2012-08-15T19:00:00.000Z</gml:endPosition>
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
@@ -3327,6 +3092,9 @@ Contact : data@hakai.org</lan:LocalisedCharacterString>
           <mri:keyword>
             <gco:CharacterString>other</gco:CharacterString>
           </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>macroalgalCanopyCoverAndComposition</gco:CharacterString>
+          </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
@@ -3334,10 +3102,118 @@ Contact : data@hakai.org</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Composition et couverture de la canopée de macroalgues</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
           <mri:thesaurusName>
             <cit:CI_Citation>
               <cit:title>
                 <gco:CharacterString>eov</gco:CharacterString>
+              </cit:title>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Nereocystis luetkeana</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Macrocystis pyrifera</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Phaeophyceae</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Macrocystis</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Chromista</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Nereocystis</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Ochrophyta</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Laminariales</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Laminariaceae</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Nereocystis luetkeana</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Macrocystis pyrifera</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Phaeophyceae</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Macrocystis</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Chromista</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Nereocystis</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Ochrophyta</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Laminariales</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Laminariaceae</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title>
+                <gco:CharacterString>taxa</gco:CharacterString>
               </cit:title>
             </cit:CI_Citation>
           </mri:thesaurusName>
@@ -3396,6 +3272,105 @@ Contact : data@hakai.org</lan:LocalisedCharacterString>
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Kelp Canopy Extent 2006 - NW Calvert Island</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Étendue de la canopée de varech 2006 - Nord-Ouest de l&#39;île Calvert</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.21966/dzhe-t816</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="revisionOf"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Kelp Canopy Extent - 2014 - NW Calvert Island</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Étendue de la canopée de varech - 2014 - NW de l&#39;île Calvert</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.21966/agnf-hj89</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Kelp Canopy Extent - 2015 - NW Calvert Island - British Columbia - Canada</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Étendue de la canopée de varech - 2015 - NW de l&#39;île Calvert - Colombie-Britannique - Canada</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.21966/q0wm-zk34</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -3473,16 +3448,51 @@ Contact : data@hakai.org</lan:LocalisedCharacterString>
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
+                <gco:CharacterString>https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/63rs-yt91</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Data Access Request Form</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Formulaire de demande d&#39;accès aux données</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:name>
+              <cit:description>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
                 <gco:CharacterString>http://hakai.maps.arcgis.com/home/item.html?id=ec2e688fb85f4607af65376482222e5f</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Hakai&#39;s ArcGIS Online Platform (restricted access)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Plateforme ArcGIS Online de Hakai (accès restreint)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
-              <cit:description>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Hakai&#39;s AGOL Instance is the platform for Access and online use of this dataset/&#39;s reference layer</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">L&#39;instance AGOL de Hakai est la plate-forme d&#39;accès et d&#39;utilisation en ligne de la couche de référence de cet ensemble de données</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
