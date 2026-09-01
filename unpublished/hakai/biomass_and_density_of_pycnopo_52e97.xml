@@ -523,7 +523,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-01T16:55:10.349Z</gco:DateTime>
+        <gco:DateTime>2026-09-01T16:55:30.853Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -3346,8 +3346,15 @@
             <mac:MI_Instrument>
               <mac:identifier>
                 <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>RBR</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
                   <mcc:code>
-                    <gco:CharacterString>RBR</gco:CharacterString>
+                    <gco:CharacterString>80217</gco:CharacterString>
                   </mcc:code>
                   <mcc:version>
                     <gco:CharacterString>1.430</gco:CharacterString>
