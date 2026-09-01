@@ -117,17 +117,6 @@ contact:
   roles:
   - coAuthor
   - contributor
-- inCitation: false
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - owner
-  - distributor
 - inCitation: true
   organization:
     city: Campbell River
@@ -138,6 +127,8 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+  - owner
+  - distributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -147,6 +138,49 @@ contact:
     url: https://tula.org
   roles:
   - funder
+- inCitation: true
+  individual:
+    email: ondine.pontier@hakai.org
+    name: Pontier, Ondine
+    orcid: https://orcid.org/0000-0003-1828-0576
+    position: Research Technician
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - contributor
+- inCitation: true
+  individual:
+    email: margot@hakai.org
+    name: Hessing-Lewis, Margot
+    position: Scientist
+  organization:
+    address: P.O. Box 25039, V9W 0B7
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+- inCitation: true
+  individual:
+    name: Blaine, Tristan
+  roles:
+  - coAuthor
+  - contributor
+- inCitation: true
+  individual:
+    email: jennifer.jackson@dfo-mpo.gc.ca
+    name: Jackson, Jennifer
+    orcid: https://orcid.org/0000-0002-2318-8814
+  roles:
+  - coAuthor
+  - contributor
 distribution:
 - description:
     en: Repository for code and data used in this dataset.
@@ -264,20 +298,20 @@ identification:
     taxa:
       en:
       - Asteroidea
+      - Animalia
       - Forcipulatida
-      - Echinodermata
       - Pycnopodia helianthoides
       - Pycnopodia
-      - Animalia
       - Asteriidae
+      - Echinodermata
       fr:
       - Asteroidea
+      - Animalia
       - Forcipulatida
-      - Echinodermata
       - Pycnopodia helianthoides
       - Pycnopodia
-      - Animalia
       - Asteriidae
+      - Echinodermata
   progress_code: completed
   project:
   - Oceanography
@@ -295,7 +329,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-05-28T16:11:49.174Z'
+    revision: '2026-09-01T16:14:45.517Z'
   identifier: 52e97374-bee5-4b1a-9b85-7170a5df8d6b
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-OteEfuBSvhg-2RySC4a
