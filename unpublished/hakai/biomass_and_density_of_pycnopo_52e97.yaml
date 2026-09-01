@@ -1,6 +1,38 @@
 contact:
 - inCitation: true
   individual:
+    email: alyssa.gehman@hakai.org
+    name: Gehman, Alyssa-Lois
+    orcid: https://orcid.org/0000-0003-0595-9950
+    position: Scientist
+  organization:
+    address: P.O. Box 25039, V9W 0B7
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+  - pointOfContact
+  - principalInvestigator
+- inCitation: true
+  individual:
+    email: ondine.pontier@hakai.org
+    name: Pontier, Ondine
+    orcid: https://orcid.org/0000-0003-1828-0576
+    position: Research Technician
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - contributor
+- inCitation: true
+  individual:
     email: tyrel.froese@hakai.org
     name: Froese, Tyrel
     orcid: https://orcid.org/0000-0002-6964-8353
@@ -18,21 +50,18 @@ contact:
   - pointOfContact
 - inCitation: true
   individual:
-    email: alyssa.gehman@hakai.org
-    name: Gehman, Alyssa-Lois
-    orcid: https://orcid.org/0000-0003-0595-9950
-    position: Scientist
-  organization:
-    address: P.O. Box 25039, V9W 0B7
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
+    email: derek.vanmaanen@hakai.org
+    name: VanMaanen, Derek
+    position: Scientific Diver
   roles:
-  - author
-  - pointOfContact
-  - principalInvestigator
+  - coAuthor
+  - contributor
+- inCitation: true
+  individual:
+    name: Blaine, Tristan
+  roles:
+  - coAuthor
+  - contributor
 - inCitation: true
   individual:
     email: gillian.sadlierbrown@hakai.org
@@ -96,53 +125,9 @@ contact:
   - contributor
 - inCitation: true
   individual:
-    email: derek.vanmaanen@hakai.org
-    name: VanMaanen, Derek
-    position: Scientific Diver
-  roles:
-  - coAuthor
-  - contributor
-- inCitation: true
-  individual:
     email: carolyn.prentice@hakai.org
     name: Prentice, Carolyn
     orcid: https://orcid.org/0000-0002-9644-8496
-    position: Research Technician
-  organization:
-    city: Campbell River
-    country: Canada
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - coAuthor
-  - contributor
-- inCitation: true
-  organization:
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - publisher
-  - owner
-  - distributor
-- inCitation: false
-  organization:
-    city: Vancouver
-    country: Canada
-    name: Tula Foundation
-    ror: https://ror.org/0029jxk29
-    url: https://tula.org
-  roles:
-  - funder
-- inCitation: true
-  individual:
-    email: ondine.pontier@hakai.org
-    name: Pontier, Ondine
-    orcid: https://orcid.org/0000-0003-1828-0576
     position: Research Technician
   organization:
     city: Campbell River
@@ -169,18 +154,33 @@ contact:
   - coAuthor
 - inCitation: true
   individual:
-    name: Blaine, Tristan
-  roles:
-  - coAuthor
-  - contributor
-- inCitation: true
-  individual:
     email: jennifer.jackson@dfo-mpo.gc.ca
     name: Jackson, Jennifer
     orcid: https://orcid.org/0000-0002-2318-8814
   roles:
   - coAuthor
   - contributor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Repository for code and data used in this dataset.
@@ -239,11 +239,6 @@ identification:
       à une salinité plus élevée dans les fjords. Ces tendances suggèrent que les
       fjords constituent un refuge contre les conséquences de la SSWD et que la protection
       de ces populations pourrait être impérative pour l'espèce.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
   associated_resources:
   - association_type: IsPublishedIn
     association_type_iso: largerWorkCitation
@@ -329,7 +324,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-01T16:14:45.517Z'
+    revision: '2026-09-01T16:16:16.085Z'
   identifier: 52e97374-bee5-4b1a-9b85-7170a5df8d6b
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/Q7WjoEJM1Sc9HrFLJCRgKAtMzTH2/-OteEfuBSvhg-2RySC4a
