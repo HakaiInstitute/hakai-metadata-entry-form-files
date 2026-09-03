@@ -1,0 +1,79 @@
+abstract: This dataset consists of surface underway measurements collected from the
+  M/V Seaspan Royal as it transited the coastal waters of British Columbia, Canada
+  from 2022-07-01 to 2022-12-20. Seawater was drawn from a depth of 2.5 m to a Sunburst
+  SuperCO2 system and ancillary sensors from Sea-Bird Scientific. Measurements of
+  temperature, salinity, dissolved oxygen content, and CO2 partial pressure were made
+  every 2 seconds on seawater flowing through the system and instruments, and these
+  data were logged by the SuperCO2 system. Seawater was delivered from the intake
+  to analytical equipment using an AMT 1/2 HP pump (4295-98). Temperature and salinity
+  data were collected using a Fluke thermometer (model 1523) with thermistor probe
+  (model 5610) in the equilibrator, a Sea-Bird SBE 45 MicroTSG Thermosalinograph,
+  and a SBE 38 Digital Oceanographic Thermometer at the seawater intake. Dissolved
+  oxygen content was measured using a SBE63 oxygen optode. Raw oxygen measurements
+  (with salinity reference = 0) were corrected for salt content following the approach
+  provided with the SBE63 Manual revision 010. CO2 measurements were made with a LI-COR
+  LI850 non-dispersive infrared detector housed with the SuperCO2 system. Standardization
+  of the CO2 measurements was achieved through the measurement of four gas standards
+  (Linde; 98.83 ppm, 386.30 ppm, 469.69 ppm, and 1248.45 ppm) that had undergone re-calibration
+  using a zero (N2) and span gas (ESRL; 1567.44 ppm) bracketing the gas standard concentrations.
+  A standardization sequence (measurement of each gas standard sequentially for a
+  period of 90 seconds) was conducted every 4 or 12 hours (over different periods
+  of the data record) and included a 90-second measurement period of atmospheric CO2
+  partial pressure on air drawn to the system from an intake on the aft deck. The
+  final 20 seconds of atmospheric measurements were retained in the final dataset.
+  Position and weather information (from an Airmax 120WX Weatherstation instrument
+  positioned above the bridge) were logged separately from the SuperCO2 system data,
+  and then merged with the SuperCO2 system data by time-matching the position and
+  weather data to the SuperCO2 system data. This project was supported by the Tula
+  Foundation and Seaspan.
+authors:
+- affiliation: Hakai Institute
+  family-names: Evans
+  given-names: Wiley
+- affiliation: Hakai Institute
+  family-names: Pocock
+  given-names: Katie
+- affiliation: Hakai Institute
+  family-names: Barrette
+  given-names: Jessy
+- affiliation: Hakai Institute
+  family-names: Davis
+  given-names: Chris
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  family-names: Evans
+  given-names: Wiley
+date-released: '2026-09-03'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 1f1774ff-7398-4099-b89f-59df7ef0749e
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_1f1774ff-7398-4099-b89f-59df7ef0749e
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/64WELpDV0tXYqOqiWFYNzMJdW4k1/-P0d5bTNUbXdaZiFm9zI
+- description: 'NCEI Accession 0276518: NCEI Data download'
+  type: url
+  value: https://www.ncei.noaa.gov/data/oceans/ncei/ocads/data/0276518/
+keywords:
+- Ocean Carbon
+- inorganicCarbon
+- oxygen
+- pCO2
+- salinity
+- subSurfaceSalinity
+- subSurfaceTemperature
+- underway measurement
+- water temperature
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Surface underway seawater and marine boundary layer observations of partial
+  pressure of carbon dioxide (pCO2), water temperature, salinity and other parameters
+  made during the M/V Seaspan Royal cruises in the coastal waters of British Columbia,
+  Canada from 2022-07-01 to 2022-12-20
+type: dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_1f1774ff-7398-4099-b89f-59df7ef0749e
