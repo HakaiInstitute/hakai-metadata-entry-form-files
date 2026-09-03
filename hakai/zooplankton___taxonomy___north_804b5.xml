@@ -299,7 +299,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-03T20:18:31.667Z</gco:DateTime>
+        <gco:DateTime>2026-09-03T20:24:45.919Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1193,6 +1193,39 @@
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>How zooplankton communities are shaped in a complex and dynamic coastal system with strong tidal influence</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">Comment les communautés zooplanctoniques sont façonnées dans un système côtier complexe et dynamique soumis à une forte influence des marées</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.1016/j.ecss.2020.107103</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
