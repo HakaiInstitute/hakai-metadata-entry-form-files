@@ -99,7 +99,21 @@ identification:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  associated_resources: []
+  associated_resources:
+  - association_type: IsCitedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.1016/j.pocean.2022.102843
+    title:
+      en: A high-resolution time series of particulate matter fatty acids reveals
+        temporal dynamics of the composition and quality available to zooplankton
+        in a temperate coastal ocean
+      fr: Une série chronologique à haute résolution des acides gras particulaires
+        révèle la dynamique temporelle de la composition et de la qualité disponibles
+        pour le zooplancton dans un océan côtier tempéré
+      translations:
+        fr:
+          verified: true
   dates:
     creation: '2015-03-13'
     publication: '2021-12-02'
@@ -142,7 +156,7 @@ identification:
 metadata:
   dates:
     publication: '2021-12-02'
-    revision: '2026-09-03T20:18:10.572Z'
+    revision: '2026-09-03T20:19:43.690Z'
   identifier: ee2791c3-3d99-41e5-8cdf-fa5d1d19944d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-Mn6jhjE3XFwoFx2b-9G
