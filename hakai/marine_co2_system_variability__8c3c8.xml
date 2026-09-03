@@ -526,7 +526,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-03T19:55:05.963Z</gco:DateTime>
+        <gco:DateTime>2026-09-03T20:09:59.851Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1750,6 +1750,26 @@
                     <lan:LocalisedCharacterString locale="#fr">Lien vers les données contenant des mesures discrètes du pCO2 de l&#39;eau de mer et du carbone inorganique total (TCO2)</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://bg.copernicus.org/articles/19/1277/2022/</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name>
+                <gco:CharacterString>Marine CO2 system variability along the northeast Pacific Inside Passage determined from an Alaskan ferry</gco:CharacterString>
+              </cit:name>
+              <cit:description>
+                <gco:CharacterString></gco:CharacterString>
               </cit:description>
             </cit:CI_OnlineResource>
           </mrd:onLine>
