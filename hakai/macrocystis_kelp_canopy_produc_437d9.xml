@@ -428,7 +428,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-08-19T16:54:31.207Z</gco:DateTime>
+        <gco:DateTime>2026-09-08T20:06:16.510Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1196,37 +1196,30 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>Laminariales</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Chromista</gco:CharacterString>
+            <gco:CharacterString>Macrocystis pyrifera</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Phaeophyceae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Macrocystis pyrifera</gco:CharacterString>
+            <gco:CharacterString>Macrocystis</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Chromista</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Ochrophyta</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Laminariaceae</gco:CharacterString>
+            <gco:CharacterString>Laminariales</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Macrocystis</gco:CharacterString>
+            <gco:CharacterString>Laminariaceae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Laminariales</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Chromista</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Macrocystis pyrifera</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -1240,7 +1233,14 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Macrocystis pyrifera</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Macrocystis</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Chromista</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -1254,14 +1254,14 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Laminariaceae</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Laminariales</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Macrocystis</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Laminariaceae</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -1339,12 +1339,12 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
                   <mcc:authority>
                     <cit:CI_Citation>
                       <cit:title>
-                        <gco:CharacterString>DOI</gco:CharacterString>
+                        <gco:CharacterString>URL</gco:CharacterString>
                       </cit:title>
                     </cit:CI_Citation>
                   </mcc:authority>
                   <mcc:code>
-                    <gco:CharacterString>https://doi.org/10.25607/OBP-2068</gco:CharacterString>
+                    <gco:CharacterString>https://drive.google.com/drive/folders/1cdvOEI-bFlnNRFEBRXxy2cadgl58nr0c?usp=sharing</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
@@ -1429,7 +1429,7 @@ Ce paquet de données est accessible gratuitement à tous, conformément aux pri
           <mrd:onLine>
             <cit:CI_OnlineResource>
               <cit:linkage>
-                <gco:CharacterString>https://drive.google.com/drive/folders/1cdvOEI-bFlnNRFEBRXxy2cadgl58nr0c?usp=sharing</gco:CharacterString>
+                <gco:CharacterString>https://github.com/HakaiInstitute/Macrocystis_kelp_canopy_productivity.git</gco:CharacterString>
               </cit:linkage>
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
