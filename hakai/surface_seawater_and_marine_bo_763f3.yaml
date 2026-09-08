@@ -179,7 +179,7 @@ identification:
 metadata:
   dates:
     publication: '2021-03-31'
-    revision: '2026-09-08T16:32:16.264Z'
+    revision: '2026-09-08T16:33:09.368Z'
   identifier: 763f3e59-49fe-420a-91da-a046b4690bea
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/tV5qE0aUgaOjSVmgPgiZ6MyHuSy1/-MVwuNesQj7Lp1-f-cp9
@@ -227,6 +227,31 @@ platform:
         The high standard is from a cylinder of calibrated standard reference gas
         with a known concentration, standard concentrations for this deployment were
         907 ppm (Praxair), 514.47 ppm (ESRL), and 901 ppm (Praxair).
+      fr: Toutes les mesures sont effectuées à la température de surface de la mer
+        et à la pression atmosphérique. Pendant le cycle de l'air, de l'air frais
+        est pompé à travers le détecteur pendant 1 minute. Une fois la pompe arrêtée,
+        le système s'ouvre à l'atmosphère, ce qui permet à la pression de s'équilibrer
+        avec la pression atmosphérique. Les mesures sont enregistrées pendant 30 secondes
+        à 2 Hz, puis moyennées. Les flux de gaz pour le cycle d'air et le cycle d'équilibrage
+        sont partiellement séchés avant d'entrer dans le détecteur. Les valeurs répertoriées
+        sous forme de xCO2 humide ont généralement des niveaux d'humidité relative
+        allant de 40 à 80 %. Les niveaux d'humidité augmentent au cours d'un déploiement.
+        Le détecteur infrarouge est étalonné au début de chaque période d'échantillonnage
+        à l'aide d'un gaz zéro et d'un gaz d'intervalle. Pour calculer les mesures
+        à sec, la fraction molaire d'eau dans le détecteur Licor est mesurée à l'aide
+        d'un capteur d'humidité relative situé immédiatement en aval du détecteur.
+        La fréquence d'échantillonnage au cours de ce déploiement varie de 30 à 180
+        minutes. Au début de chaque échantillon, l'instrument s'auto-étalonne en utilisant
+        une norme zéro et élevée. La norme zéro est générée en faisant circuler une
+        petite quantité d'air dans une chambre à chaux sodée. La norme la plus élevée
+        provient d'une bouteille de gaz de référence étalonné dont la concentration
+        est connue. Les concentrations standard pour ce déploiement étaient de 907
+        ppm (Praxair), 514,47 ppm (ESRL) et 901 ppm (Praxair).
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
     id: Battelle Seaology (MApCO2) System with LI-COR LI-820
     manufacturer: Battelle Seology
   - description:
