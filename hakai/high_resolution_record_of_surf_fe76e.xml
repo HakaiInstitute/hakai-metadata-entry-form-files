@@ -728,7 +728,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-08T16:27:00.512Z</gco:DateTime>
+        <gco:DateTime>2026-09-08T16:27:56.576Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1849,7 +1849,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>This dataset includes continuous sea surface measurements of partial pressure of carbon dioxide (pCO2), sea surface temperature and salinity collected from Hakai Institute Quadra Island Field Station in Hyacinthe Bay, British Columbia, Canada. Quadra Island, at the northern terminus of the Salish Sea, has been a site for shore-based and high-resolution measurement of surface seawater CO2 content since December 2014. Measurements of in situ temperature, salinity, and CO2 partial pressure are made near-continuously on seawater drawn from a sample line with an intake 50 m from shore and a depth of 1 m in Hyacinthe Bay on the eastern side of Quadra Island. The effort to collect these data are part of the Hakai Institute&#39;s directive to advance the understanding of carbon cycling in northeast Pacific coastal settings with specific emphasis on ocean acidification.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend des mesures continues à la surface de la mer de la pression partielle de dioxyde de carbone (pCO2), de la température de surface de la mer et de la salinité recueillies à partir de la station de terrain sur l&#39;île Quadra de l&#39;Institut Hakai dans la baie de Hyacinthe en Colombie-Britannique au Canada de 2014-12-19 à 2019-12- 31. L&#39;île Quadra, à l&#39;extrémité nord de la mer des Salish, est un site de mesure côtière et à haute résolution de la teneur en CO2 de l&#39;eau de mer de surface depuis décembre 2014. Les mesures de la température in situ, de la salinité et de la pression partielle de CO2 sont effectuées en continu sur de l&#39;eau de mer prélevée sur une ligne d&#39;échantillonnage avec une prise à 50 m de la rive et à une profondeur de 1 m dans la baie Hyacinthe du côté est de l&#39;île Quadra. Les efforts de collecte de ces données fait partie de la directive de l’Institut Hakai visant à faire progresser la compréhension du cycle du carbone dans les zones côtières du nord-est du Pacifique, en mettant particulièrement l’accent sur l’acidification des océans.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -2105,7 +2105,11 @@
         </mco:MD_LegalConstraints>
       </mri:resourceConstraints>
       <mri:resourceConstraints>
-        <mco:MD_Constraints></mco:MD_Constraints>
+        <mco:MD_Constraints>
+          <mco:useLimitation>
+            <gco:CharacterString></gco:CharacterString>
+          </mco:useLimitation>
+        </mco:MD_Constraints>
       </mri:resourceConstraints>
       <mri:associatedResource>
         <mri:MD_AssociatedResource>
