@@ -56,7 +56,7 @@ identification:
       \ good for science quality level.\n\nTwo versions of the Wirewalker record are\
       \ included: provisional data offloaded directly from the instrument, which is\
       \ the more complete, and real-time data received via satellite, which is the\
-      \ more current. \n\n\n\nData were collected by the Hakai Institute Oceanography\
+      \ more current. \n\nData were collected by the Hakai Institute Oceanography\
       \ Program, the Nearshore Program, and the Juvenile Salmon Program."
     fr: "Données sur la température, la conductivité, l'oxygène dissous, la fluorescence,\
       \ le rayonnement photosynthétique actif, la turbidité et la matière organique\
@@ -78,9 +78,9 @@ identification:
       \ scientifique.\n\nDeux versions de l'enregistrement Wirewalker sont incluses :\
       \ les données provisoires provenant directement de l'instrument, qui sont les\
       \ plus complètes, et les données en temps réel reçues par satellite, qui sont\
-      \ les plus récentes. \n\n\n\nLes données ont été recueillies par le programme\
-      \ océanographique de l'Institut Hakai, le programme Nearshore et le programme\
-      \ sur les saumons juvéniles."
+      \ les plus récentes. \n\nLes données ont été recueillies par le programme océanographique\
+      \ de l'Institut Hakai, le programme Nearshore et le programme sur les saumons\
+      \ juvéniles."
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -89,8 +89,8 @@ identification:
   associated_resources:
   - association_type: HasPart
     association_type_iso: isComposedOf
-    authority: URL
-    code: https://catalogue.hakai.org/dataset/ca-cioos_ba41d935-f293-447f-be3d-7098e569b431
+    authority: DOI
+    code: https://doi.org/10.21966/kace-2d24
     title:
       en: Water Property Measurements from Conductivity-Temperature-Depth Profiles,
         BC, Canada (Research)
@@ -197,6 +197,7 @@ identification:
   project:
   - Juvenile Salmon Program
   - Oceanography
+  - Nearshore
   status: submitted
   temporal_begin: '2016-06-06T19:00:00.000Z'
   title:
@@ -212,7 +213,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-03T21:50:47.774Z'
+    revision: '2026-09-08T17:51:06.157Z'
   identifier: 94d216e4-79b5-49cd-a940-bdaecaaa674a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/r2gsDHcT0XUHWoqTuoY0oYazOtn1/-P0cXPSQkhOyMfk9LciL

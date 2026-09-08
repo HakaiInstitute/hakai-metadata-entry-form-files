@@ -468,7 +468,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-03T21:50:47.774Z</gco:DateTime>
+        <gco:DateTime>2026-09-08T17:51:06.157Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -933,8 +933,6 @@ The provisional processed CTD data are then quality controlled by applying a ser
 
 Two versions of the Wirewalker record are included: provisional data offloaded directly from the instrument, which is the more complete, and real-time data received via satellite, which is the more current. 
 
-
-
 Data were collected by the Hakai Institute Oceanography Program, the Nearshore Program, and the Juvenile Salmon Program.</gco:CharacterString>
         <lan:PT_FreeText>
           <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
@@ -945,8 +943,6 @@ Cela inclut des ensembles de données créés par des instruments de profilage o
 Les données CTD traitées provisoires sont ensuite contrôlées de qualité en appliquant une série de tests conformes aux normes QARTOD et d&#39;autres tests spécifiques aux données de l&#39;Institut Hakai (voir Hakai Water Profile Processing and QA/QC Procedure Manual). L&#39;ensemble de données CTD de recherche fournit un sous-ensemble de l&#39;ensemble de données provisoire qui a été examiné manuellement et jugé bon pour le niveau de qualité scientifique.
 
 Deux versions de l&#39;enregistrement Wirewalker sont incluses : les données provisoires provenant directement de l&#39;instrument, qui sont les plus complètes, et les données en temps réel reçues par satellite, qui sont les plus récentes. 
-
-
 
 Les données ont été recueillies par le programme océanographique de l&#39;Institut Hakai, le programme Nearshore et le programme sur les saumons juvéniles.</lan:LocalisedCharacterString>
           </lan:textGroup>
@@ -1251,6 +1247,9 @@ Les données ont été recueillies par le programme océanographique de l&#39;In
           <mri:keyword>
             <gco:CharacterString>Oceanography</gco:CharacterString>
           </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Nearshore</gco:CharacterString>
+          </mri:keyword>
           <mri:type>
             <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
           </mri:type>
@@ -1316,12 +1315,12 @@ Les données ont été recueillies par le programme océanographique de l&#39;In
                   <mcc:authority>
                     <cit:CI_Citation>
                       <cit:title>
-                        <gco:CharacterString>URL</gco:CharacterString>
+                        <gco:CharacterString>DOI</gco:CharacterString>
                       </cit:title>
                     </cit:CI_Citation>
                   </mcc:authority>
                   <mcc:code>
-                    <gco:CharacterString>https://catalogue.hakai.org/dataset/ca-cioos_ba41d935-f293-447f-be3d-7098e569b431</gco:CharacterString>
+                    <gco:CharacterString>https://doi.org/10.21966/kace-2d24</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
