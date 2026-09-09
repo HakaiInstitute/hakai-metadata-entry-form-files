@@ -691,7 +691,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-03T20:20:37.691Z</gco:DateTime>
+        <gco:DateTime>2026-09-09T17:42:23.434Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -758,7 +758,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -771,7 +771,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -1524,15 +1524,15 @@
 
 Data was collected in an extensive, sub-tidal Z. marina meadow in Choked Passage, on the Central Coast of British Columbia (51.675 °N, -128.119 °W) . The dataset includes seagrass habitat data and associated community-level data from underwater visual observations (SCUBA, snorkel) and seagrass shoot collection data. These observations were recorded at transect and quadrat levels, across multiple seagrass site types: meadow interior, Nereocystis luetkeana kelp edge, and sand edge. Fish and primary producer stable isotopes were measured using mass spectrometry, and are also included here. Specifically, this dataset combines:
 
--	Z. marina habitat variables (e.g., shoot density, canopy height)
--	Z. marina shoot biomass
--	Transect-level fish abundances  in seagrass meadow, N. luetkeana kelp forests, and sand habitats
--	Shoot-level amphipod biomass
--	δ13C and δ15N stable isotope values for YOY Copper-Quillback rockfish and dominant primary producers
--	C:N values of YOY Copper-Quillback rockfish
-Stomach contents (i.e., prey) of YOY Copper-Quillback rockfish</gco:CharacterString>
+- Z. marina habitat variables (e.g., shoot density, canopy height)
+- Z. marina shoot biomass
+- Transect-level fish abundances  in seagrass meadow, N. luetkeana kelp forests, and sand habitats
+- Shoot-level amphipod biomass
+- δ13C and δ15N stable isotope values for YOY Copper-Quillback rockfish and dominant primary producers
+- C:N values of YOY Copper-Quillback rockfish
+- Stomach contents (i.e., prey) of YOY Copper-Quillback rockfish</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Ce jeu de données a été utilisé pour déterminer comment la connectivité du paysage marin modifie la fonction de nurserie des prairies d&#39;herbes marines (Zostera marina) pour les sébastes jeunes de l&#39;année (jeunes de l&#39;année). Ici, l&#39;influence de la connectivité du paysage marin a été évaluée via la configuration et la composition des habitats adjacents (forêts de varech, sable), ainsi que les subventions allochtones entrant dans le réseau trophique des herbiers marins.
 
 Les données ont été recueillies dans un vaste pré marin subtidal Z. dans le passage Choked, sur la côte centrale de la Colombie-Britannique (51,675 °N, -128,119 °O). L&#39;ensemble de données comprend des données sur l&#39;habitat des herbiers marins et des données associées au niveau de la communauté provenant d&#39;observations visuelles sous-marines (plongée sous-marine, tuba) et de données de collecte de pousses d&#39;herbes marines Ces observations ont été enregistrées au niveau des transects et des quadrats, dans plusieurs types de sites d&#39;herbiers marins : intérieur des prés, bordure de varech de Nereocystis luetkeana et lisière de sable. Les isotopes stables des poissons et des producteurs primaires ont été mesurés par spectrométrie de masse et sont également inclus ici. Plus précisément, cet ensemble de données combine :
@@ -1543,7 +1543,7 @@ Les données ont été recueillies dans un vaste pré marin subtidal Z. dans le 
 - Biomasse amphipode au niveau des pousses
 - Valeurs isotopiques stables δ13C et δ15N pour le sébaste à dos épineux cuivré et les principaux producteurs primaires
 - Valeurs C:N du sébaste à dos épineux cuivré de l&#39;année
-Contenu stomacal (proie) du sébaste à dos épineux cuivré de l&#39;année</lan:LocalisedCharacterString>
+- Contenu stomacal (proie) du sébaste à dos épineux cuivré de l&#39;année</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -1772,13 +1772,19 @@ Contenu stomacal (proie) du sébaste à dos épineux cuivré de l&#39;année</la
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
+            <gco:CharacterString>Liliopsida</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Zostera</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
             <gco:CharacterString>Alismatales</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Plantae</gco:CharacterString>
+            <gco:CharacterString>Zostera marina</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Zostera marina</gco:CharacterString>
+            <gco:CharacterString>Plantae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Tracheophyta</gco:CharacterString>
@@ -1786,11 +1792,19 @@ Contenu stomacal (proie) du sébaste à dos épineux cuivré de l&#39;année</la
           <mri:keyword>
             <gco:CharacterString>Zosteraceae</gco:CharacterString>
           </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Liliopsida</gco:CharacterString>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Liliopsida</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Zostera</gco:CharacterString>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Zostera</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
@@ -1802,14 +1816,14 @@ Contenu stomacal (proie) du sébaste à dos épineux cuivré de l&#39;année</la
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Plantae</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Zostera marina</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Zostera marina</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Plantae</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -1824,20 +1838,6 @@ Contenu stomacal (proie) du sébaste à dos épineux cuivré de l&#39;année</la
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Zosteraceae</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Liliopsida</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Zostera</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
