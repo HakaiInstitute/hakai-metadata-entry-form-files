@@ -140,11 +140,6 @@ identification:
       \ utiles sur la qualité des données, et 2) communiquer et/ou collaborer avec\
       \ les fournisseurs si vous envisagez d'utiliser cet ensemble de données pour\
       \ des manuscrits ou d'autres formes de reporting."
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
   associated_resources:
   - association_type: IsSupplementedBy
     association_type_iso: crossReference
@@ -155,6 +150,18 @@ identification:
         Community Assessment
       fr: Hakai Nearshore - Protocoles d'enquête de surveillance de la forêt de varech
         et des récifs rocheux - Évaluation communautaire
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsNewVersionOf
+    association_type_iso: revisionOf
+    authority: URL
+    code: https://drive.google.com/drive/folders/1cdvOEI-bFlnNRFEBRXxy2cadgl58nr0c
+    title:
+      en: Archived older versions of this data package
+      fr: Anciennes versions archivées de ce package de données
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -220,7 +227,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-21'
-    revision: '2026-09-09T19:39:54.247Z'
+    revision: '2026-09-09T19:41:03.703Z'
   identifier: 7d3f525a-6ba2-494b-893a-147e2a812306
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/df5J7W5Hk4e0p4yvlOAI0qcU9Gs2/-MtFxWh-RyO-TnboGr5A
