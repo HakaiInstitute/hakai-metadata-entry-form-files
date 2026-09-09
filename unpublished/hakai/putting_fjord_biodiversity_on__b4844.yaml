@@ -186,21 +186,21 @@ distribution:
   url: https://www.ncbi.nlm.nih.gov/bioproject/?term=1289220
 - description:
     en: Processed sequence data repository
-  name:
-    en: Fjords Conservation Github Repository
-  url: https://github.com/loic42/Fjords_conservation
-- description:
-    en: Shiny App allowing for interactive exploration of the fjords eDNA fish diversity
-      data
-  name:
-    en: Fjord eDNA Biodiversity Shiny App
-    fr: Application Fjord DNA Biodiversity Shiny
+    fr: Référentiel de données de séquences traitées
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://fjedna.shinyapps.io/census-app1/
+  name:
+    en: Fjords Conservation Github Repository
+    fr: Référentiel Github pour la conservation des fjords
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/Fjords_conservation
 identification:
   abstract:
     en: "Fjords are deep-water estuaries that support a wide range of marine habitats\
@@ -265,6 +265,11 @@ identification:
       \ locales d'intendance et les efforts de surveillance à long terme, contribuant\
       \ ainsi à une conception et à une gestion plus efficaces des aires marines de\
       \ conservation."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources:
   - association_type: IsPublishedIn
     association_type_iso: largerWorkCitation
@@ -276,6 +281,18 @@ identification:
       fr: 'Article : Le métabarcodage eDNA identifie les priorités en matière de conservation
         des poissons dans les fjords en eau profonde de la Colombie-Britannique, au
         Canada'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSourceOf
+    association_type_iso: dependency
+    authority: URL
+    code: https://fjedna.shinyapps.io/census-app1/
+    title:
+      en: Fjord eDNA Biodiversity Shiny App
+      fr: Application Fjord DNA Biodiversity Shiny
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -326,7 +343,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-09T19:59:27.847Z'
+    revision: '2026-09-09T21:35:45.680Z'
   identifier: b4844ae2-d9c1-42f2-ae4d-a8f994c395a0
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-Ow-ZgW1jkC5-WyrtlLV
