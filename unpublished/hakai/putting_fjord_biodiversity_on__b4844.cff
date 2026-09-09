@@ -1,0 +1,147 @@
+abstract: "Fjords are deep-water estuaries that support a wide range of marine habitats\
+  \ for pelagic fish. Yet, knowledge gaps in fish distribution and habitat use limit\
+  \ the implementation of efficient marine conservation strategies within fjords.\
+  \ Using British Columbia fjords as a case study, we demonstrated that eDNA metabarcoding\
+  \ combined with species traits can enhance the detection and monitoring of conservation\
+  \ priority species (CPS) within systematic conservation planning frameworks. \n\n\
+  Samples were collected at four time-points: late January/February (winter), May\
+  \ (spring), August (summer), and November (fall) 2023 from the five British Columbia\
+  \ Fjords: Indian Arm (s\u0259l \u0313ilw\u0259t in h\u0259n\u0313q\u0313\u0259min\u0313\
+  \u0259m\u0313), Howe Sound (\xC1tl'\u1E35a7tsem in Squamish), Toba Inlet (y\u025B\
+  k\u02B7am\u025Bn in Homalco), Bute Inlet, and Rivers Inlet (W\xE1nu\u01E7vaxsiwa\
+  \ in Oowekyala). Three to five stations were sampled within each fjord and discrete\
+  \ 2 L environmental DNA (eDNA) samples were collected using Niskin bottles at the\
+  \ surface, 10 m below the surface, 100 m below the surface, and 10 m above the bottom.\
+  \  \n\nFrom the eDNA samples, the fish community was mapped using metabarcoding\
+  \ targeting a small region of the mitochondrial 12S rRNA gene using MiFish-U universal\
+  \ primer set. Independent sequencing libraries were prepared for each of the four\
+  \ seasonal datasets, and each was sequenced using Illumina MiSeq V3 chemistry at\
+  \ the Hakai Genome Lab on Quadra Island, BC.\n\nSpatiotemporal eDNA patterns confirmed\
+  \ the presence of endangered eulachon (Thaleichthys pacificus) across three fjords\
+  \ and identified deep fjord habitats as conservation priorities for mesopelagic\
+  \ species, including sensitive elasmobranchs and diel vertical migrators such as\
+  \ northern lampfish (Stenobrachius leucopsarus). eDNA peaks for several CPS during\
+  \ winter and spring matched documented spawning windows, underscoring the importance\
+  \ of fjords as seasonal spawning habitat. This globally transferable approach can\
+  \ supplement local stewardship initiatives and long-term monitoring efforts, contributing\
+  \ to more effective marine conservation area design and management."
+authors:
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  email: loic.jacquemot42@gmail.com
+  family-names: Jacquemot
+  given-names: "Lo\xEFc"
+  orcid: https://orcid.org/0000-0001-7509-840X
+  website: https://www.ubc.ca/
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  email: andreas.novotny@su.se
+  family-names: Novotny
+  given-names: Andreas
+  orcid: https://orcid.org/0000-0001-8910-6183
+  website: https://www.ubc.ca/
+- affiliation: University of Otago
+  city: Dunedin
+  country: NZ
+  email: clare.im.adams@gmail.com
+  family-names: Adams
+  given-names: Clare
+  orcid: https://orcid.org/0000-0002-3379-7795
+  website: http://www.otago.ac.nz/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Clemente-Carvalho
+  given-names: Rute
+  orcid: https://orcid.org/0000-0001-6922-9418
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: drew.jordison@hakai.org
+  family-names: Jordison
+  given-names: Drew
+  orcid: https://orcid.org/0009-0008-0197-9261
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: colleen.kellogg@hakai.org
+  family-names: Kellogg
+  given-names: Colleen
+  orcid: https://orcid.org/0000-0003-4048-5316
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: matt.lemay@hakai.org
+  family-names: Lemay
+  given-names: Matthew
+  orcid: https://orcid.org/0000-0001-7051-0020
+  website: https://www.hakai.org/
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  email: b.hunt@oceans.ubc.ca
+  family-names: Hunt
+  given-names: Brian
+  orcid: https://orcid.org/0000-0003-4718-4962
+  website: https://www.ubc.ca/
+cff-version: 1.2.0
+contact:
+- affiliation: University of British Columbia
+  city: Vancouver
+  country: CA
+  email: loic.jacquemot42@gmail.com
+  family-names: Jacquemot
+  given-names: "Lo\xEFc"
+  orcid: https://orcid.org/0000-0001-7509-840X
+  website: https://www.ubc.ca/
+date-released: '2026-09-09'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: b4844ae2-d9c1-42f2-ae4d-a8f994c395a0
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_b4844ae2-d9c1-42f2-ae4d-a8f994c395a0
+- description: DOI
+  type: doi
+  value: 10.21966/n141-m959
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-Ow-ZgW1jkC5-WyrtlLV
+- description: 'NCBI BioProject: PRJNA1289220: Raw sequence data published to NCBI
+    SRA'
+  type: url
+  value: https://www.ncbi.nlm.nih.gov/bioproject/?term=1289220
+- description: 'Fjords Conservation Github Repository: Processed sequence data repository'
+  type: url
+  value: https://github.com/loic42/Fjords_conservation
+- description: 'Fjord eDNA Biodiversity Shiny App: Shiny App allowing for interactive
+    exploration of the fjords eDNA fish diversity data'
+  type: url
+  value: https://fjedna.shinyapps.io/census-app1/
+keywords:
+- 12S metabarcoding
+- Bute Inlet
+- Environmental DNA
+- Fish eDNA
+- Fjord
+- Howe Sound
+- Indian Arm
+- Rivers Inlet
+- Toba Inlet
+- eDNA
+- fishAbundanceAndDistribution
+- subSurfaceSalinity
+- subSurfaceTemperature
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Putting fjord biodiversity on the map for Britsh Columbia conservation planning
+type: dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_b4844ae2-d9c1-42f2-ae4d-a8f994c395a0
+version: '1.0'

@@ -1,0 +1,353 @@
+contact:
+- inCitation: true
+  individual:
+    email: loic.jacquemot42@gmail.com
+    name: Jacquemot, Loïc
+    orcid: https://orcid.org/0000-0001-7509-840X
+  organization:
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - custodian
+  - owner
+  - distributor
+  - author
+  - pointOfContact
+  - publisher
+  - editor
+  - contributor
+  - originator
+  - processor
+- inCitation: true
+  individual:
+    email: andreas.novotny@su.se
+    name: Novotny, Andreas
+    orcid: https://orcid.org/0000-0001-8910-6183
+  organization:
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - coAuthor
+  - collaborator
+  - contributor
+  - editor
+- inCitation: true
+  individual:
+    email: clare.im.adams@gmail.com
+    name: Adams, Clare
+    orcid: https://orcid.org/0000-0002-3379-7795
+  organization:
+    city: Dunedin
+    country: New Zealand
+    name: University of Otago
+    ror: https://ror.org/01jmxt844
+    url: http://www.otago.ac.nz/
+  roles:
+  - coAuthor
+  - contributor
+  - editor
+- inCitation: true
+  individual:
+    name: Clemente-Carvalho, Rute
+    orcid: https://orcid.org/0000-0001-6922-9418
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - contributor
+  - processor
+  - editor
+- inCitation: true
+  individual:
+    email: drew.jordison@hakai.org
+    name: Jordison, Drew
+    orcid: https://orcid.org/0009-0008-0197-9261
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - contributor
+  - processor
+  - resourceProvider
+  - editor
+- inCitation: true
+  individual:
+    email: colleen.kellogg@hakai.org
+    name: Kellogg, Colleen
+    orcid: https://orcid.org/0000-0003-4048-5316
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - contributor
+  - principalInvestigator
+  - editor
+- inCitation: true
+  individual:
+    email: matt.lemay@hakai.org
+    name: Lemay, Matthew
+    orcid: https://orcid.org/0000-0001-7051-0020
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - contributor
+  - principalInvestigator
+  - editor
+  - resourceProvider
+- inCitation: true
+  individual:
+    email: b.hunt@oceans.ubc.ca
+    name: Hunt, Brian
+    orcid: https://orcid.org/0000-0003-4718-4962
+  organization:
+    city: Vancouver
+    country: Canada
+    name: University of British Columbia
+    ror: https://ror.org/03rmrcq20
+    url: https://www.ubc.ca/
+  roles:
+  - coAuthor
+  - contributor
+  - principalInvestigator
+  - funder
+  - originator
+  - editor
+  - owner
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - distributor
+  - resourceProvider
+  - owner
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+- inCitation: false
+  organization:
+    city: Ottawa
+    country: Canada
+    name: Department of Fisheries and Oceans
+    ror: https://ror.org/02qa1x782
+    url: https://www.dfo-mpo.gc.ca
+  roles:
+  - funder
+distribution:
+- description:
+    en: Raw sequence data published to NCBI SRA
+    fr: Données de séquence brutes publiées sur NCBI SRA
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: 'NCBI BioProject: PRJNA1289220'
+    fr: 'Bioprojet NCBI : PRJNA1289220'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://www.ncbi.nlm.nih.gov/bioproject/?term=1289220
+- description:
+    en: Processed sequence data repository
+  name:
+    en: Fjords Conservation Github Repository
+  url: https://github.com/loic42/Fjords_conservation
+- description:
+    en: Shiny App allowing for interactive exploration of the fjords eDNA fish diversity
+      data
+  name:
+    en: Fjord eDNA Biodiversity Shiny App
+    fr: Application Fjord DNA Biodiversity Shiny
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://fjedna.shinyapps.io/census-app1/
+identification:
+  abstract:
+    en: "Fjords are deep-water estuaries that support a wide range of marine habitats\
+      \ for pelagic fish. Yet, knowledge gaps in fish distribution and habitat use\
+      \ limit the implementation of efficient marine conservation strategies within\
+      \ fjords. Using British Columbia fjords as a case study, we demonstrated that\
+      \ eDNA metabarcoding combined with species traits can enhance the detection\
+      \ and monitoring of conservation priority species (CPS) within systematic conservation\
+      \ planning frameworks. \n\nSamples were collected at four time-points: late\
+      \ January/February (winter), May (spring), August (summer), and November (fall)\
+      \ 2023 from the five British Columbia Fjords: Indian Arm (səl ̓ilwət in hən̓q̓əmin̓əm̓),\
+      \ Howe Sound (Átl'ḵa7tsem in Squamish), Toba Inlet (yɛkʷamɛn in Homalco), Bute\
+      \ Inlet, and Rivers Inlet (Wánuǧvaxsiwa in Oowekyala). Three to five stations\
+      \ were sampled within each fjord and discrete 2 L environmental DNA (eDNA) samples\
+      \ were collected using Niskin bottles at the surface, 10 m below the surface,\
+      \ 100 m below the surface, and 10 m above the bottom.  \n\nFrom the eDNA samples,\
+      \ the fish community was mapped using metabarcoding targeting a small region\
+      \ of the mitochondrial 12S rRNA gene using MiFish-U universal primer set. Independent\
+      \ sequencing libraries were prepared for each of the four seasonal datasets,\
+      \ and each was sequenced using Illumina MiSeq V3 chemistry at the Hakai Genome\
+      \ Lab on Quadra Island, BC.\n\nSpatiotemporal eDNA patterns confirmed the presence\
+      \ of endangered eulachon (Thaleichthys pacificus) across three fjords and identified\
+      \ deep fjord habitats as conservation priorities for mesopelagic species, including\
+      \ sensitive elasmobranchs and diel vertical migrators such as northern lampfish\
+      \ (Stenobrachius leucopsarus). eDNA peaks for several CPS during winter and\
+      \ spring matched documented spawning windows, underscoring the importance of\
+      \ fjords as seasonal spawning habitat. This globally transferable approach can\
+      \ supplement local stewardship initiatives and long-term monitoring efforts,\
+      \ contributing to more effective marine conservation area design and management."
+    fr: "Les fjords sont des estuaires en eau profonde qui abritent un large éventail\
+      \ d'habitats marins pour les poissons pélagiques. Pourtant, les lacunes dans\
+      \ les connaissances sur la distribution des poissons et l'utilisation de l'habitat\
+      \ limitent la mise en œuvre de stratégies efficaces de conservation marine dans\
+      \ les fjords. En utilisant les fjords de la Colombie-Britannique comme étude\
+      \ de cas, nous avons démontré que le métabarcodage de l'ADNe combiné aux caractéristiques\
+      \ des espèces peut améliorer la détection et la surveillance des espèces prioritaires\
+      \ pour la conservation (CPS) dans le cadre de plans de conservation systématiques.\
+      \ \n\nDes échantillons ont été prélevés à quatre moments : fin janvier/février\
+      \ (hiver), mai (printemps), août (été) et novembre (automne) 2023 dans les cinq\
+      \ fjords de la Colombie-Britannique : Indian Arm (səl ̓ilwət in hən̓q̓əmin̓əmde),\
+      \ Howe Sound (Átl'a7tsem à Squamish), Toba Inlet (yṣkamṣamn à Homalco), Bute\
+      \ Inlet et Rivers Inlet (Wánu-vaxsiwa à Oowekyala). Trois à cinq stations ont\
+      \ été échantillonnées dans chaque fjord et des échantillons discrets d'ADN environnemental\
+      \ (ADNe) de 2 L ont été prélevés à l'aide de bouteilles Niskin à la surface,\
+      \ à 10 m sous la surface, à 100 m sous la surface et à 10 m au-dessus du fond.\
+      \ Les données de température et de salinité ont également été collectées à chaque\
+      \ instant à l'aide d'un CTD.\n\nÀ partir des échantillons d'ADNe, la communauté\
+      \ de poissons a été cartographiée à l'aide d'un métabarcoding ciblant une petite\
+      \ région du gène de l'ARNr 12S mitochondrial à l'aide du jeu d'amorces universelles\
+      \ miFISH-U. Des bibliothèques de séquençage indépendantes ont été préparées\
+      \ pour chacun des quatre ensembles de données saisonniers, et chacun a été séquencé\
+      \ à l'aide de la chimie Illumina MiSeq V3 au Hakai Genome Lab sur l'île Quadra,\
+      \ en Colombie-Britannique.\n\nLes profils d'ADNe spatiotemporels ont confirmé\
+      \ la présence d'eulakane (Thaleichthys pacificus) en voie de disparition dans\
+      \ trois fjords et ont identifié les habitats des fjords profonds comme des priorités\
+      \ de conservation pour les espèces mésopélagiques, notamment les élasmobranches\
+      \ sensibles et les migrateurs verticaux quotidiens tels que la lampfish nordique\
+      \ (Stenobrachius leucopsarus). Les pics d'ADNe de plusieurs CPS en hiver et\
+      \ au printemps correspondaient aux périodes de frai documentées, soulignant\
+      \ l'importance des fjords Les morues comme habitat de frai saisonnier. Cette\
+      \ approche transférable à l'échelle mondiale peut compléter les initiatives\
+      \ locales d'intendance et les efforts de surveillance à long terme, contribuant\
+      \ ainsi à une conception et à une gestion plus efficaces des aires marines de\
+      \ conservation."
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.1111/con4.70058
+    title:
+      en: 'Paper: eDNA Metabarcoding Identifies Fish Conservation Priorities in Deep-water
+        Fjords of British Columbia, Canada'
+      fr: 'Article : Le métabarcodage eDNA identifie les priorités en matière de conservation
+        des poissons dans les fjords en eau profonde de la Colombie-Britannique, au
+        Canada'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2023-01-31'
+    publication: '2026-05-17'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/n141-m959
+  keywords:
+    default:
+      en:
+      - Fjord
+      - Rivers Inlet
+      - Bute Inlet
+      - Toba Inlet
+      - Howe Sound
+      - Indian Arm
+      - 12S metabarcoding
+      - eDNA
+      - Environmental DNA
+      - Fish eDNA
+    eov:
+      en:
+      - fishAbundanceAndDistribution
+      - subSurfaceTemperature
+      - subSurfaceSalinity
+      fr:
+      - Abondance et distribution de poissons
+      - Température sous la surface
+      - Salinité sous la surface
+  progress_code: completed
+  project:
+  - Genomics
+  - Oceanography
+  status: submitted
+  temporal_begin: '2023-01-31T20:00:00.000Z'
+  temporal_end: '2023-11-23T20:00:00.000Z'
+  title:
+    en: Putting fjord biodiversity on the map for Britsh Columbia conservation planning
+    fr: Mettre la biodiversité des fjords sur la carte pour la planification de la
+      conservation en Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2026-09-09T19:59:27.847Z'
+  identifier: b4844ae2-d9c1-42f2-ae4d-a8f994c395a0
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-Ow-ZgW1jkC5-WyrtlLV
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  description:
+    en: Coastal British Columbia Fjords
+    fr: Fjords côtiers de la Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  polygon: -128.343,51.8489 -126.3333,51.815 -122.6652,49.5126 -123.9831,49.2554 -128.343,51.8489
+  vertical:
+  - 0.0
+  - 595.0
+  vertical_positive: heightPositive
