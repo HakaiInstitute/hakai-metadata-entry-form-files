@@ -45,7 +45,7 @@ identification:
   abstract:
     en: 'Measurements of the carbon dioxide system, dissolved inorganic nutrients,
       and organic carbon span fresh and marine waters of the Northeast Pacific coast
-      of North America from 2013 to 2026. Variables include pCO2 and total dissolved
+      of North America from 2013 to present. Variables include pCO2 and total dissolved
       inorganic carbon (TCO2), with derived total alkalinity, pH, and aragonite saturation
       state; nutrients; dissolved and particulate matter, with stable isotope ratios
       and dissolved organic matter fluorescence; and supporting physical parameters.
@@ -289,7 +289,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-10T16:16:49.349Z'
+    revision: '2026-09-10T22:35:07.684Z'
   identifier: a787372d-e6f0-4128-bd08-7e9f5e667e1d
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/3LY8ezYsI9hglwZSsfkAdSBcoEG3/-P0d-gfRwatFu4gaeuhY
@@ -309,20 +309,6 @@ spatial:
   - -121.8
   - 62.0
   vertical:
-  - 0
-  - 0
-  vertical_epsg:
-    Area: World
-    Code: 5829
-    DataSource: EPSG
-    Deprecated: false
-    Links:
-    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
-      rel: result
-    Name: Instantaneous Water Level height
-    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
-      specific to any location or epoch.
-    RevisionDate: '2012-08-10T00:00:00'
-    Superseded: false
-    Type: vertical
+  - 600.0
+  - 0.0
   vertical_positive: heightPositive

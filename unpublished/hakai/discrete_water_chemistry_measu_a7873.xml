@@ -360,7 +360,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-10T16:16:49.349Z</gco:DateTime>
+        <gco:DateTime>2026-09-10T22:35:07.684Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -709,7 +709,7 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>Measurements of the carbon dioxide system, dissolved inorganic nutrients, and organic carbon span fresh and marine waters of the Northeast Pacific coast of North America from 2013 to 2026. Variables include pCO2 and total dissolved inorganic carbon (TCO2), with derived total alkalinity, pH, and aragonite saturation state; nutrients; dissolved and particulate matter, with stable isotope ratios and dissolved organic matter fluorescence; and supporting physical parameters.
+        <gco:CharacterString>Measurements of the carbon dioxide system, dissolved inorganic nutrients, and organic carbon span fresh and marine waters of the Northeast Pacific coast of North America from 2013 to present. Variables include pCO2 and total dissolved inorganic carbon (TCO2), with derived total alkalinity, pH, and aragonite saturation state; nutrients; dissolved and particulate matter, with stable isotope ratios and dissolved organic matter fluorescence; and supporting physical parameters.
 
 Sampling ranged from biweekly water column profiles to roughly monthly stream and marine surveys. Sites span rainforest watersheds and channels on Calvert and Hecate Islands, oceanographic stations on the British Columbia Central Coast and northern Strait of Georgia, northern Salish Sea stations, and the Kenai Peninsula, from the surface to 600 m.
 
@@ -761,10 +761,10 @@ Ensemble, ils établissent des bases de référence et caractérisent la variabi
           <gex:verticalElement>
             <gex:EX_VerticalExtent>
               <gex:minimumValue>
-                <gco:Real>0</gco:Real>
+                <gco:Real>600.0</gco:Real>
               </gex:minimumValue>
               <gex:maximumValue>
-                <gco:Real>0</gco:Real>
+                <gco:Real>0.0</gco:Real>
               </gex:maximumValue>
               <gex:verticalCRSId>
                 <mrs:MD_ReferenceSystem>
@@ -777,10 +777,10 @@ Ensemble, ils établissent des bases de référence et caractérisent la variabi
                         <gco:CharacterString>EPSG</gco:CharacterString>
                       </mcc:codeSpace>
                       <mcc:version>
-                        <gco:CharacterString>2012-08-10T00:00:00</gco:CharacterString>
+                        <gco:CharacterString>2012-08-10</gco:CharacterString>
                       </mcc:version>
                       <mcc:description>
-                        <gco:CharacterString>Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                        <gco:CharacterString>EPSG::5829 - Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
                       </mcc:description>
                     </mcc:MD_Identifier>
                   </mrs:referenceSystemIdentifier>
