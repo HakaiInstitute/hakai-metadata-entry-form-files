@@ -805,10 +805,61 @@
       </cit:party>
     </cit:CI_Responsibility>
   </mdb:contact>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="funder"/>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name>
+            <gco:CharacterString>Seaspan Royal</gco:CharacterString>
+          </cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:number>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:deliveryPoint>
+                  <cit:city>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:city>
+                  <cit:country>
+                    <gco:CharacterString></gco:CharacterString>
+                  </cit:country>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage>
+                    <gco:CharacterString>https://www.seaspan.com/</gco:CharacterString>
+                  </cit:linkage>
+                  <cit:protocol>
+                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                  </cit:protocol>
+                  <cit:function>
+                    <cit:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information"></cit:CI_OnLineFunctionCode>
+                  </cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-10T21:56:28.158Z</gco:DateTime>
+        <gco:DateTime>2026-09-10T22:03:45.804Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1956,7 +2007,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>This dataset consists of surface underway measurements collected from the M/V Seaspan Royal as it transited the coastal waters of British Columbia, Canada from 2022-07-01 to 2022-12-20. Seawater was drawn from a depth of 2.5 m to a Sunburst SuperCO2 system and ancillary sensors from Sea-Bird Scientific. Measurements of temperature, salinity, dissolved oxygen content, and CO2 partial pressure were made every 2 seconds on seawater flowing through the system and instruments, and these data were logged by the SuperCO2 system. Seawater was delivered from the intake to analytical equipment using an AMT 1/2 HP pump (4295-98). Temperature and salinity data were collected using a Fluke thermometer (model 1523) with thermistor probe (model 5610) in the equilibrator, a Sea-Bird SBE 45 MicroTSG Thermosalinograph, and a SBE 38 Digital Oceanographic Thermometer at the seawater intake. Dissolved oxygen content was measured using a SBE63 oxygen optode. Raw oxygen measurements (with salinity reference = 0) were corrected for salt content following the approach provided with the SBE63 Manual revision 010. CO2 measurements were made with a LI-COR LI850 non-dispersive infrared detector housed with the SuperCO2 system. Standardization of the CO2 measurements was achieved through the measurement of four gas standards (Linde; 98.83 ppm, 386.30 ppm, 469.69 ppm, and 1248.45 ppm) that had undergone re-calibration using a zero (N2) and span gas (ESRL; 1567.44 ppm) bracketing the gas standard concentrations. A standardization sequence (measurement of each gas standard sequentially for a period of 90 seconds) was conducted every 4 or 12 hours (over different periods of the data record) and included a 90-second measurement period of atmospheric CO2 partial pressure on air drawn to the system from an intake on the aft deck. The final 20 seconds of atmospheric measurements were retained in the final dataset. Position and weather information (from an Airmax 120WX Weatherstation instrument positioned above the bridge) were logged separately from the SuperCO2 system data, and then merged with the SuperCO2 system data by time-matching the position and weather data to the SuperCO2 system data. This project was supported by the Tula Foundation and Seaspan.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">Cet ensemble de données comprend des mesures en cours de surface recueillies par le M/V Seaspan Royal alors qu&#39;il a transité par les eaux côtières de la Colombie-Britannique, au Canada, du 1er juillet au 20 décembre. L&#39;eau de mer a été prélevée à une profondeur de 2,5 m vers un système Sunburst SuperCO2 et des capteurs auxiliaires de Sea-Bird Scientific. Des mesures de température, de salinité, de teneur en oxygène dissous et de pression partielle de CO2 ont été effectuées toutes les 2 secondes sur l&#39;eau de mer circulant dans le système et les instruments, et ces données ont été enregistrées par le système SuperCO2. L&#39;eau de mer a été acheminée de l&#39;admission à l&#39;équipement d&#39;analyse à l&#39;aide d&#39;une pompe AMT de 1/2 HP (4295-98). Les données de température et de salinité ont été recueillies à l&#39;aide d&#39;un thermomètre Fluke (modèle 1523) avec une sonde à thermistance (modèle 5610) dans l&#39;équilibreur, d&#39;un thermosalinographe Sea-Bird SBE 45 microTSG et d&#39;un thermomètre océanographique numérique SBE 38 à la prise d&#39;eau de mer. La teneur en oxygène dissous a été mesurée à l&#39;aide d&#39;un optode d&#39;oxygène SBE63. Les mesures d&#39;oxygène brut (avec une référence de salinité = 0) ont été corrigées pour tenir compte de la teneur en sel en suivant l&#39;approche fournie dans la révision 010 du manuel SBE63. Les mesures de CO2 ont été effectuées à l&#39;aide d&#39;un détecteur infrarouge non dispersif LI-COR LI850 intégré au système SuperCO2. La standardisation des mesures de CO2 a été réalisée grâce à la mesure de quatre étalons de gaz (Linde ; 98,83 ppm, 386,30 ppm, 469,69 ppm et 1248,45 ppm) qui avaient été réétalonnés à l&#39;aide d&#39;un gaz zéro (N2) et d&#39;un gaz de calibrage (ESRL ; 1567,44 ppm) entre parenthèses les concentrations standard de gaz. Une séquence de normalisation (mesure séquentielle de chaque étalon de gaz pendant une période de 90 secondes) a été réalisée toutes les 4 ou 12 heures (sur différentes périodes de l&#39;enregistrement des données) et comprenait une période de mesure de 90 secondes de la pression partielle du CO2 atmosphérique sur l&#39;air aspiré au système par une prise située sur le pont arrière. Les 20 dernières secondes des mesures atmosphériques ont été conservées dans l&#39;ensemble de données final. Les informations de position et météorologiques (provenant d&#39;un instrument de station météo Airmax 120WX positionné au-dessus du pont) ont été enregistrées séparément des données du système SuperCO2, puis fusionnées avec les données du système SuperCO2 en faisant correspondre dans le temps les données de position et météorologiques aux données du système SuperCO2. Ce projet a été soutenu par la Fondation Tula et Seaspan.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
