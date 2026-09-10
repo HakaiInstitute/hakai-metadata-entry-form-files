@@ -360,7 +360,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-10T21:52:14.780Z</gco:DateTime>
+        <gco:DateTime>2026-09-10T21:52:36.096Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1268,7 +1268,7 @@
               <cit:title xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>High-resolution record of surface seawater CO2 content from November 2017 to June 2018 collected in Hyacinthe Bay, British Columbia, Canada</gco:CharacterString>
                 <lan:PT_FreeText>
-                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                  <lan:textGroup>
                     <lan:LocalisedCharacterString locale="#fr">Enregistrement à haute résolution de la teneur en CO2 de l&#39;eau de mer de surface de novembre 2017 à juin 2018 collecté dans la baie d&#39;Hyacinthe, en Colombie-Britannique, au Canada</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
@@ -1290,7 +1290,7 @@
             </cit:CI_Citation>
           </mri:name>
           <mri:associationType>
-            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue=""></mri:DS_AssociationTypeCode>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="isComposedOf"></mri:DS_AssociationTypeCode>
           </mri:associationType>
         </mri:MD_AssociatedResource>
       </mri:associatedResource>
@@ -1298,8 +1298,13 @@
         <mri:MD_AssociatedResource>
           <mri:name>
             <cit:CI_Citation>
-              <cit:title>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>High-resolution record of 8-m seawater CO2 content entering Fanny Bay Oysters in Baynes Sound, British Columbia, Canada from March 2017 to November 2017</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup>
+                    <lan:LocalisedCharacterString locale="#fr">Enregistrement à haute résolution de la teneur en CO2 de l&#39;eau de mer de 8 m pénétrant dans les huîtres de Fanny Bay dans le détroit de Baynes, en Colombie-Britannique, au Canada, de mars 2017 à novembre 2017</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
@@ -1318,7 +1323,7 @@
             </cit:CI_Citation>
           </mri:name>
           <mri:associationType>
-            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue=""></mri:DS_AssociationTypeCode>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="isComposedOf"></mri:DS_AssociationTypeCode>
           </mri:associationType>
         </mri:MD_AssociatedResource>
       </mri:associatedResource>

@@ -174,7 +174,9 @@ identification:
       translations:
         fr:
           verified: true
-  - authority: DOI
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
     code: https://doi.org/10.21966/1.715729
     title:
       en: High-resolution record of surface seawater CO2 content from November 2017
@@ -184,14 +186,20 @@ identification:
         Colombie-Britannique, au Canada
       translations:
         fr:
-          message: text translated using the Amazon translate service / texte traduit
-            à l'aide du service de traduction Amazon
-          verified: false
-  - authority: DOI
+          verified: true
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
     code: https://doi.org/10.21966/1.622315
     title:
       en: High-resolution record of 8-m seawater CO2 content entering Fanny Bay Oysters
         in Baynes Sound, British Columbia, Canada from March 2017 to November 2017
+      fr: Enregistrement à haute résolution de la teneur en CO2 de l'eau de mer de
+        8 m pénétrant dans les huîtres de Fanny Bay dans le détroit de Baynes, en
+        Colombie-Britannique, au Canada, de mars 2017 à novembre 2017
+      translations:
+        fr:
+          verified: true
   - authority: DOI
     code: https://doi.org/10.21966/1.715693
     title:
@@ -311,7 +319,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-10T21:52:14.780Z'
+    revision: '2026-09-10T21:52:36.096Z'
   identifier: e5e61f93-db9b-48d0-b779-45e73fabfd0a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-P0csr75piiewsICpJu8
