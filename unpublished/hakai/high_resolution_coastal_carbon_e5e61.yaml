@@ -253,7 +253,9 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-  - authority: DOI
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
     code: https://doi.org/10.21966/pk18-z035
     title:
       en: High-resolution record of surface seawater CO2 content from August 2016
@@ -264,9 +266,7 @@ identification:
         à Ketchikan, en Alaska, aux États-Unis
       translations:
         fr:
-          message: text translated using the Amazon translate service / texte traduit
-            à l'aide du service de traduction Amazon
-          verified: false
+          verified: true
   - authority: DOI
     code: https://doi.org/10.21966/thz7-es39
     title:
@@ -321,7 +321,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-10T21:53:16.388Z'
+    revision: '2026-09-10T21:53:29.525Z'
   identifier: e5e61f93-db9b-48d0-b779-45e73fabfd0a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-P0csr75piiewsICpJu8
