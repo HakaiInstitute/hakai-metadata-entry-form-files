@@ -1076,7 +1076,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-10T22:06:11.350Z</gco:DateTime>
+        <gco:DateTime>2026-09-10T22:06:15.581Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2756,8 +2756,13 @@
               </mcc:code>
             </mcc:MD_Identifier>
           </mac:identifier>
-          <mac:description>
+          <mac:description xsi:type="lan:PT_FreeText_PropertyType">
             <gco:CharacterString>M/V Seaspan Royal</gco:CharacterString>
+            <lan:PT_FreeText>
+              <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                <lan:LocalisedCharacterString locale="#fr">M/V Seaspan Royal</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
           </mac:description>
           <mac:instrument>
             <mac:MI_Instrument>
