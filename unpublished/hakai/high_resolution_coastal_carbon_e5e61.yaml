@@ -267,7 +267,9 @@ identification:
       translations:
         fr:
           verified: true
-  - authority: DOI
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
     code: https://doi.org/10.21966/thz7-es39
     title:
       en: Seawater Carbon Dioxide (CO2) Content from the Burke-o-Lator pCO2/TCO2 analyzer
@@ -277,9 +279,7 @@ identification:
         (Recherche)
       translations:
         fr:
-          message: text translated using the Amazon translate service / texte traduit
-            à l'aide du service de traduction Amazon
-          verified: false
+          verified: true
   - authority: DOI
     code: https://doi.org/10.21966/fwk1-a364
     title:
@@ -321,7 +321,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-10T21:53:29.525Z'
+    revision: '2026-09-10T21:53:42.777Z'
   identifier: e5e61f93-db9b-48d0-b779-45e73fabfd0a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-P0csr75piiewsICpJu8
