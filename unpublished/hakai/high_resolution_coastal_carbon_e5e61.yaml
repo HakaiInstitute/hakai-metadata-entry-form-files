@@ -280,7 +280,9 @@ identification:
       translations:
         fr:
           verified: true
-  - authority: DOI
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
     code: https://doi.org/10.21966/fwk1-a364
     title:
       en: High-resolution record of surface seawater CO2 content from June 2017 to
@@ -290,9 +292,7 @@ identification:
         aux États-Unis
       translations:
         fr:
-          message: text translated using the Amazon translate service / texte traduit
-            à l'aide du service de traduction Amazon
-          verified: false
+          verified: true
   dates:
     creation: '2014-12-18'
   keywords:
@@ -321,7 +321,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-10T21:53:42.777Z'
+    revision: '2026-09-10T21:53:55.783Z'
   identifier: e5e61f93-db9b-48d0-b779-45e73fabfd0a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-P0csr75piiewsICpJu8
