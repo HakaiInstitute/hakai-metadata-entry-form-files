@@ -360,7 +360,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-09T20:58:21.970Z</gco:DateTime>
+        <gco:DateTime>2026-09-10T21:15:57.860Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -709,10 +709,10 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>This is a collection of high resolution coastal carbon monitoring datasets from instrumentation configured on shore-side infrastructure and oceanographic moorings in the Northeast Pacific beginning in 2014. These data provide information on the variability of inorganic carbon conditions over a range of temporal scales at select coastal sites in British Columbia.</gco:CharacterString>
+        <gco:CharacterString>This is a collection of high resolution coastal carbon monitoring datasets (both provisional and research-ready) from instrumentation configured on shore-side infrastructure and oceanographic moorings in the Northeast Pacific beginning in 2014. These data provide information on the variability of inorganic carbon conditions over a range of temporal scales at select coastal sites in British Columbia.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Il s&#39;agit d&#39;une collection d&#39;ensembles de données de surveillance du carbone côtier à haute résolution à partir d&#39;instruments configurés sur les infrastructures côtières et les amarres océanographiques dans le Pacifique Nord-Est à partir de 2014. Ces données fournissent des informations sur la variabilité des conditions du carbone inorganique sur une gamme d&#39;échelles temporelles sur certains sites côtiers de la Colombie-Britannique.</lan:LocalisedCharacterString>
+          <lan:textGroup>
+            <lan:LocalisedCharacterString locale="#fr">Il s&#39;agit d&#39;une collection d&#39;ensembles de données de surveillance du carbone côtier à haute résolution (à la fois provisoires et prêts pour la recherche) à partir d&#39;instruments configurés sur des infrastructures côtières et des amarres océanographiques dans le Pacifique Nord-Est à partir de 2014. Ces données fournissent des informations sur la variabilité des conditions du carbone inorganique sur une gamme d&#39;échelles temporelles sur certains sites côtiers de la Colombie-Britannique.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -931,6 +931,39 @@
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Seawater Carbon Dioxide (CO2) Content from the Burke-o-Lator pCO2/TCO2 Analyzer located at Bamfield Marine Sciences Centre, Bamfield, BC, Canada (Provisional)</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Teneur en dioxyde de carbone (CO2) de l&#39;eau de mer provenant de l&#39;analyseur pCO2/tCO2 Burke-o-Lator situé au Bamfield Marine Sciences Centre, Bamfield, Colombie-Britannique, Canada (provisoire)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.21966/65d8-k051</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="isComposedOf"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
@@ -1003,26 +1036,6 @@
           </mrd:distributorContact>
         </mrd:MD_Distributor>
       </mrd:distributor>
-      <mrd:transferOptions>
-        <mrd:MD_DigitalTransferOptions>
-          <mrd:onLine>
-            <cit:CI_OnlineResource>
-              <cit:linkage>
-                <gco:CharacterString>https://catalogue.hakai.org/dataset/ca-cioos_fb5c9e1e-a911-46b7-8c1d-e34215a105ed</gco:CharacterString>
-              </cit:linkage>
-              <cit:protocol>
-                <gco:CharacterString>WWW:LINK</gco:CharacterString>
-              </cit:protocol>
-              <cit:name>
-                <gco:CharacterString>Seawater carbon dioxide (CO2) content from the Burke-o-Lator pCO2/TCO2 analyzer located at Bamfield Marine Sciences Centre, Bamfield, BC, Canada (Provisional)</gco:CharacterString>
-              </cit:name>
-              <cit:description>
-                <gco:CharacterString></gco:CharacterString>
-              </cit:description>
-            </cit:CI_OnlineResource>
-          </mrd:onLine>
-        </mrd:MD_DigitalTransferOptions>
-      </mrd:transferOptions>
       <mrd:transferOptions>
         <mrd:MD_DigitalTransferOptions>
           <mrd:onLine>

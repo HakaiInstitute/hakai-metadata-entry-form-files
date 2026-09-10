@@ -24,10 +24,6 @@ contact:
   - funder
 distribution:
 - name:
-    en: Seawater carbon dioxide (CO2) content from the Burke-o-Lator pCO2/TCO2 analyzer
-      located at Bamfield Marine Sciences Centre, Bamfield, BC, Canada (Provisional)
-  url: https://catalogue.hakai.org/dataset/ca-cioos_fb5c9e1e-a911-46b7-8c1d-e34215a105ed
-- name:
     en: Seawater carbon dioxide (CO2) content from the SuperCO2 system in the Pacific
       Ecosystem Autonomous Research Laboratory, Bamfield Marine Sciences Centre, BC,
       Canada (Provisional)
@@ -84,22 +80,36 @@ distribution:
 identification:
   abstract:
     en: This is a collection of high resolution coastal carbon monitoring datasets
-      from instrumentation configured on shore-side infrastructure and oceanographic
-      moorings in the Northeast Pacific beginning in 2014. These data provide information
-      on the variability of inorganic carbon conditions over a range of temporal scales
-      at select coastal sites in British Columbia.
+      (both provisional and research-ready) from instrumentation configured on shore-side
+      infrastructure and oceanographic moorings in the Northeast Pacific beginning
+      in 2014. These data provide information on the variability of inorganic carbon
+      conditions over a range of temporal scales at select coastal sites in British
+      Columbia.
     fr: Il s'agit d'une collection d'ensembles de données de surveillance du carbone
-      côtier à haute résolution à partir d'instruments configurés sur les infrastructures
-      côtières et les amarres océanographiques dans le Pacifique Nord-Est à partir
-      de 2014. Ces données fournissent des informations sur la variabilité des conditions
-      du carbone inorganique sur une gamme d'échelles temporelles sur certains sites
-      côtiers de la Colombie-Britannique.
+      côtier à haute résolution (à la fois provisoires et prêts pour la recherche)
+      à partir d'instruments configurés sur des infrastructures côtières et des amarres
+      océanographiques dans le Pacifique Nord-Est à partir de 2014. Ces données fournissent
+      des informations sur la variabilité des conditions du carbone inorganique sur
+      une gamme d'échelles temporelles sur certains sites côtiers de la Colombie-Britannique.
     translations:
       fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  associated_resources: []
+        verified: true
+  associated_resources:
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
+    code: https://doi.org/10.21966/65d8-k051
+    title:
+      en: Seawater Carbon Dioxide (CO2) Content from the Burke-o-Lator pCO2/TCO2 Analyzer
+        located at Bamfield Marine Sciences Centre, Bamfield, BC, Canada (Provisional)
+      fr: Teneur en dioxyde de carbone (CO2) de l'eau de mer provenant de l'analyseur
+        pCO2/tCO2 Burke-o-Lator situé au Bamfield Marine Sciences Centre, Bamfield,
+        Colombie-Britannique, Canada (provisoire)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2014-12-18'
   keywords:
@@ -128,7 +138,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-09T20:58:21.970Z'
+    revision: '2026-09-10T21:15:57.860Z'
   identifier: e5e61f93-db9b-48d0-b779-45e73fabfd0a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-P0csr75piiewsICpJu8
