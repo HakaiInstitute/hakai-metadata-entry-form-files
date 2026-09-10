@@ -59,12 +59,31 @@ contact:
   organization:
     city: Campbell River
     country: Canada
+    email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
   - owner
   - distributor
+- inCitation: true
+  organization:
+    city: Asheville
+    country: United States
+    name: NOAA National Centers for Environmental Information
+    ror: https://ror.org/04r0wrp59
+    url: https://www.ncei.noaa.gov
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: NCEI Data download
@@ -171,6 +190,7 @@ identification:
           verified: true
   dates:
     creation: '2022-07-01'
+  edition: '1.0'
   keywords:
     default:
       en:
@@ -246,7 +266,7 @@ instruments:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-10T16:39:00.589Z'
+    revision: '2026-09-10T16:40:44.757Z'
   identifier: 1f1774ff-7398-4099-b89f-59df7ef0749e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/64WELpDV0tXYqOqiWFYNzMJdW4k1/-P0d5bTNUbXdaZiFm9zI
