@@ -233,40 +233,9 @@ identification:
     translations:
       fr:
         verified: true
-instruments:
-- id: SuperCO2
-  manufacturer: Sunburst
-  type:
-    en: pCO2 Analyzer
-    fr: Analyseur pCO2
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-- id: SBE 45 MicroTSG
-  manufacturer: Seabird
-  type:
-    en: Thermosalinograph
-    fr: Thermosalinographe
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-- id: SBE38
-  manufacturer: Seabird
-  type:
-    en: Oxygen sensor
-    fr: Sonde d'oxygène
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
 metadata:
   dates:
-    revision: '2026-09-10T16:43:13.997Z'
+    revision: '2026-09-10T16:49:18.474Z'
   identifier: 1f1774ff-7398-4099-b89f-59df7ef0749e
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/64WELpDV0tXYqOqiWFYNzMJdW4k1/-P0d5bTNUbXdaZiFm9zI
@@ -277,6 +246,40 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
+platform:
+- id: M/V Seaspan Royal
+  instruments:
+  - id: SuperCO2
+    manufacturer: Sunburst
+    type:
+      en: pCO2 Analyzer
+      fr: Analyseur pCO2
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - id: SBE 45 MicroTSG
+    manufacturer: Seabird
+    type:
+      en: Thermosalinograph
+      fr: Thermosalinographe
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - id: SBE38
+    manufacturer: Seabird
+    type:
+      en: Oxygen sensor
+      fr: Sonde d'oxygène
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  type: vessel of opportunity
 spatial:
   bbox:
   - -134.4
