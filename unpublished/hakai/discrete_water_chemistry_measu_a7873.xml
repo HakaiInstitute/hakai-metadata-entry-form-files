@@ -360,7 +360,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-10T15:51:32.380Z</gco:DateTime>
+        <gco:DateTime>2026-09-10T16:02:59.869Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1079,12 +1079,12 @@ Ensemble, ils établissent des bases de référence et caractérisent la variabi
                   <mcc:authority>
                     <cit:CI_Citation>
                       <cit:title>
-                        <gco:CharacterString>URL</gco:CharacterString>
+                        <gco:CharacterString>DOI</gco:CharacterString>
                       </cit:title>
                     </cit:CI_Citation>
                   </mcc:authority>
                   <mcc:code>
-                    <gco:CharacterString>https://catalogue.hakai.org/dataset/ca-cioos_17396d02-88ff-4240-837b-5d3a45e70ea0</gco:CharacterString>
+                    <gco:CharacterString>https://doi.org/10.21966/1.715784</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
@@ -1507,8 +1507,13 @@ Ensemble, ils établissent des bases de référence et caractérisent la variabi
               <cit:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
               </cit:protocol>
-              <cit:name>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Data Access Request</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Demande d&#39;accès aux données</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:name>
               <cit:description xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Use this registration form to request permission to access Hakai data (requires Google Account login)</gco:CharacterString>
