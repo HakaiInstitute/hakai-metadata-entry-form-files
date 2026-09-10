@@ -22,7 +22,16 @@ contact:
     url: https://tula.org
   roles:
   - funder
-distribution: []
+distribution:
+- name:
+    en: Use this registration form to request permission to access Hakai data (requires
+      Google Account login)
+    fr: Utilisez ce formulaire d'inscription pour demander l'autorisation d'accéder
+      aux données Hakai (nécessite une connexion à un compte Google)
+    translations:
+      fr:
+        verified: true
+  url: https://hecate.hakai.org/auth/access-request.php
 identification:
   abstract:
     en: This is a collection of high resolution coastal carbon monitoring datasets
@@ -321,7 +330,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-10T21:53:55.783Z'
+    revision: '2026-09-10T21:54:30.735Z'
   identifier: e5e61f93-db9b-48d0-b779-45e73fabfd0a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-P0csr75piiewsICpJu8
