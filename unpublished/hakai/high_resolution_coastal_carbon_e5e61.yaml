@@ -224,7 +224,9 @@ identification:
       translations:
         fr:
           verified: true
-  - authority: DOI
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
     code: https://doi.org/10.21966/nkcy-8c07
     title:
       en: High-resolution record of CO2 content from October 2013 to December 2018
@@ -235,9 +237,7 @@ identification:
         Pride à Seward, en Alaska, aux États-Unis
       translations:
         fr:
-          message: text translated using the Amazon translate service / texte traduit
-            à l'aide du service de traduction Amazon
-          verified: false
+          verified: true
   - authority: DOI
     code: https://doi.org/10.21966/1yev-s239
     title:
@@ -319,7 +319,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-10T21:52:55.392Z'
+    revision: '2026-09-10T21:53:05.055Z'
   identifier: e5e61f93-db9b-48d0-b779-45e73fabfd0a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-P0csr75piiewsICpJu8
