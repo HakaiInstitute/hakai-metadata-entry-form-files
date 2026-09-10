@@ -238,7 +238,9 @@ identification:
       translations:
         fr:
           verified: true
-  - authority: DOI
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
     code: https://doi.org/10.21966/1yev-s239
     title:
       en: High-resolution time series of surface seawater CO2 content from the OceansAlaska
@@ -319,7 +321,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-10T21:53:05.055Z'
+    revision: '2026-09-10T21:53:16.388Z'
   identifier: e5e61f93-db9b-48d0-b779-45e73fabfd0a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-P0csr75piiewsICpJu8
