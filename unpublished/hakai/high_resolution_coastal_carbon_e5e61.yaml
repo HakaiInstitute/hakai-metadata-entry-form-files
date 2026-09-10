@@ -212,7 +212,9 @@ identification:
       translations:
         fr:
           verified: true
-  - authority: DOI
+  - association_type: HasPart
+    association_type_iso: isComposedOf
+    authority: DOI
     code: https://doi.org/10.21966/1.715693
     title:
       en: High-resolution record of surface water pH at Sentry Shoal in the Northern
@@ -221,9 +223,7 @@ identification:
         dans le nord du détroit de Géorgie
       translations:
         fr:
-          message: text translated using the Amazon translate service / texte traduit
-            à l'aide du service de traduction Amazon
-          verified: false
+          verified: true
   - authority: DOI
     code: https://doi.org/10.21966/nkcy-8c07
     title:
@@ -319,7 +319,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-10T21:52:45.803Z'
+    revision: '2026-09-10T21:52:55.392Z'
   identifier: e5e61f93-db9b-48d0-b779-45e73fabfd0a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RLSJmX44tkZoh8ncSpZECUoikBt1/-P0csr75piiewsICpJu8
