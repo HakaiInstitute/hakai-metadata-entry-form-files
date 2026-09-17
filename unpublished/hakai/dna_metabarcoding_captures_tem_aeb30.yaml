@@ -216,8 +216,22 @@ distribution:
   url: https://www.ncbi.nlm.nih.gov/sra/PRJNA1141475
 - description:
     en: Bioinformatics pipeline for COI and 18S analysis of marine zooplankton communities
+    fr: Pipeline bioinformatique pour l'analyse COI et 18S des communautés de zooplancton
+      marin
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   name:
     en: Zenodo Repository Zooplankton Methods Comparison Bioinformatics Code
+    fr: Code bioinformatique de comparaison des méthodes de zooplancton du référentiel
+      Zenodo
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://doi.org/10.5281/zenodo.14241795
 - description:
     en: Processed sequence data and analysis code for publication
@@ -327,6 +341,19 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.5281/zenodo.14241795
+    title:
+      en: Zenodo Repository Zooplankton Methods Comparison Bioinformatics Code
+      fr: Code bioinformatique de comparaison des méthodes de zooplancton du référentiel
+        Zenodo
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2017-01-08'
     publication: '2024-11-30'
@@ -368,7 +395,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-17T17:30:13.483Z'
+    revision: '2026-09-17T19:53:23.369Z'
   identifier: aeb30028-a7eb-462e-ac0f-6c5fe101d4a2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-OvzbmseH_syBXg1RXKd
