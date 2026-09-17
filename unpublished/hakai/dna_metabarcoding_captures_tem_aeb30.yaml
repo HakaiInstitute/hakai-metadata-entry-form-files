@@ -215,29 +215,18 @@ distribution:
         verified: false
   url: https://www.ncbi.nlm.nih.gov/sra/PRJNA1141475
 - description:
-    en: Bioinformatics pipeline for COI and 18S analysis of marine zooplankton communities
-    fr: Pipeline bioinformatique pour l'analyse COI et 18S des communautés de zooplancton
-      marin
+    en: Link for the direct download of the ASV and taxonomy tables, and the code
+      used to analyze data, as deposited to Zenodo
+  name:
+    en: Zenodo Direct Download of data and code
+    fr: Téléchargement direct des tableaux ASV et de taxonomie et du code utilisé
+      pour analyser les données (Zenodo)
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  name:
-    en: Zenodo Repository Zooplankton Methods Comparison Bioinformatics Code
-    fr: Code bioinformatique de comparaison des méthodes de zooplancton du référentiel
-      Zenodo
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
-  url: https://doi.org/10.5281/zenodo.14241795
-- description:
-    en: Processed sequence data and analysis code for publication
-  name:
-    en: Zenodo Repository for Zooplankton Methods Comparison Supplementary Information
-  url: https://doi.org/10.5281/zenodo.14249776
+  url: https://zenodo.org/records/14249776/files/andreasnovotny/ZoopMethodsComp-v1.0.zip?download=1
 identification:
   abstract:
     en: "In this study, we evaluated how well DNA metabarcoding of environmental samples\
@@ -367,6 +356,20 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: https://github.com/HakaiInstitute/Bioinformatics_COI_18S
+    title:
+      en: 'GitHub Repo: DNA Metabarcoding Pipeline for Marine Pelagic Biodiversity
+        Assessment - Bioinformatics'
+      fr: 'Dépôt GitHub : pipeline de métabarcodage de l''ADN pour l''évaluation de
+        la biodiversité marine pélagique - Bioinformatique'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
   dates:
     creation: '2017-01-08'
     publication: '2024-11-30'
@@ -408,7 +411,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-17T19:53:55.617Z'
+    revision: '2026-09-17T20:01:46.041Z'
   identifier: aeb30028-a7eb-462e-ac0f-6c5fe101d4a2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-OvzbmseH_syBXg1RXKd
