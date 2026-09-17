@@ -1053,7 +1053,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-17T20:59:14.934Z</gco:DateTime>
+        <gco:DateTime>2026-09-17T21:03:05.251Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -5636,8 +5636,13 @@ Pour évaluer si les tendances spécifiques aux taxons sont sensibles à la sél
         <mri:MD_AssociatedResource>
           <mri:name>
             <cit:CI_Citation>
-              <cit:title>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Zooplankton time series from the Strait of Georgia: Results from year-round sampling at deep water locations, 1990–2010</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Séries chronologiques sur le zooplancton du détroit de Georgia : résultats d&#39;un échantillonnage effectué tout au long de l&#39;année dans des sites en eau profonde, 1990—2010</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
@@ -5664,8 +5669,13 @@ Pour évaluer si les tendances spécifiques aux taxons sont sensibles à la sél
         <mri:MD_AssociatedResource>
           <mri:name>
             <cit:CI_Citation>
-              <cit:title>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
                 <gco:CharacterString>Zooplankton variability in the Strait of Georgia, Canada, and relationships with the marine survivals of Chinook and Coho salmon</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Variabilité du zooplancton dans le détroit de Georgia, au Canada, et relations avec la survie en mer des saumons quinnat et coho</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
