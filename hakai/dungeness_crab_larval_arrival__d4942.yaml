@@ -144,6 +144,11 @@ identification:
       -Données sur le dénombrement des mégalopes dormeurs du 15 avril au 1er septembre\
       \ pour 2022, 2023 et 2024.\n-Données sur la taille des mégalopes dorcheuses\
       \ (le cas échéant) du 15 avril 2022 au 1er septembre 2024."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources:
   - association_type: IsDocumentedBy
     association_type_iso: crossReference
@@ -188,7 +193,8 @@ identification:
   dates:
     creation: '2022-04-15'
     publication: '2024-11-25'
-  edition: '1.0'
+    revision: '2026-09-17'
+  edition: '1.1'
   identifier: https://doi.org/10.21966/36hp-7f40
   keywords:
     default:
@@ -210,21 +216,21 @@ identification:
       - Abondance et distribution d'invertébrés
     taxa:
       en:
-      - Cancridae
-      - Metacarcinus magister
-      - Malacostraca
       - Decapoda
-      - Arthropoda
       - Metacarcinus
+      - Metacarcinus magister
+      - Cancridae
       - Animalia
+      - Malacostraca
+      - Arthropoda
       fr:
-      - Cancridae
-      - Metacarcinus magister
-      - Malacostraca
       - Decapoda
-      - Arthropoda
       - Metacarcinus
+      - Metacarcinus magister
+      - Cancridae
       - Animalia
+      - Malacostraca
+      - Arthropoda
   progress_code: onGoing
   project:
   - Sentinels of Change
@@ -243,7 +249,7 @@ identification:
 metadata:
   dates:
     publication: '2024-11-25'
-    revision: '2025-05-12T17:36:39.551Z'
+    revision: '2026-09-17T21:28:44.996Z'
   history:
   - additionalDocumentation:
     - authority: URL
