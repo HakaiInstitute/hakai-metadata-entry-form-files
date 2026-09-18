@@ -1436,7 +1436,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-18T16:58:58.387Z</gco:DateTime>
+        <gco:DateTime>2026-09-18T16:59:35.346Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -3614,6 +3614,31 @@
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">NCBI : code promo Maritrema gratiosum BHAK-15066, gène d&#39;ARN ribosomique à grande sous-unité, séquence partielle</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:name>
+              <cit:description>
+                <gco:CharacterString></gco:CharacterString>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://www.ncbi.nlm.nih.gov/nuccore/PZ385595</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>NCBI: Maritrema gratiosum voucher BHAK-15067 large subunit ribosomal RNA gene, partial sequence</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">NCBI : code promo Maritrema gratiosum BHAK-15067, gène d&#39;ARN ribosomique à grande sous-unité, séquence partielle</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:name>
