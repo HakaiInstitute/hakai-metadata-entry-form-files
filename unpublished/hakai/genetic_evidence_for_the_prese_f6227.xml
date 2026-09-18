@@ -1436,7 +1436,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-18T16:15:14.825Z</gco:DateTime>
+        <gco:DateTime>2026-09-18T16:16:17.306Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1538,6 +1538,19 @@
               </cit:dateType>
             </cit:CI_Date>
           </cit:date>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2026-07-13</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
               <mcc:code>
@@ -3036,7 +3049,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>The microphallid trematode Maritrema gratiosum was detected using DNA-based assays in individuals of the barnacle Balanus glandula Darwin, 1854 that were collected from the rocky intertidal zone along the southern coast of British Columbia, Canada. This finding provides the first molecular evidence of this trematode species in the Pacific, complementing earlier records.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Le trématode microphallidé Maritrema gratiosum a été détecté à l&#39;aide de tests basés sur l&#39;ADN chez des individus de la balane Balanus glandula Darwin, 1854, capturés dans la zone intertidale rocheuse le long de la côte sud de la Colombie-Britannique, au Canada. Cette découverte fournit la première preuve moléculaire de cette espèce de trématode dans le Pacifique, complétant ainsi les données antérieures.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
@@ -3045,7 +3058,7 @@
         <gco:CharacterString></gco:CharacterString>
       </mri:credit>
       <mri:status>
-        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="onGoing"></mcc:MD_ProgressCode>
+        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ProgressCode" codeListValue="completed"></mcc:MD_ProgressCode>
       </mri:status>
       <mri:topicCategory>
         <mri:MD_TopicCategoryCode>oceans</mri:MD_TopicCategoryCode>
@@ -3335,19 +3348,19 @@
           <mco:reference>
             <cit:CI_Citation>
               <cit:title>
-                <gco:CharacterString>Creative Commons Attribution 4.0 Attribution-NonCommercial  </gco:CharacterString>
+                <gco:CharacterString>Creative Commons Attribution 4.0 Attribution</gco:CharacterString>
               </cit:title>
               <cit:identifier>
                 <mcc:MD_Identifier>
                   <mcc:code>
-                    <gco:CharacterString>CC-BY-NC-4.0</gco:CharacterString>
+                    <gco:CharacterString>CC-BY-4.0</gco:CharacterString>
                   </mcc:code>
                 </mcc:MD_Identifier>
               </cit:identifier>
               <cit:onlineResource>
                 <cit:CI_OnlineResource>
                   <cit:linkage>
-                    <gco:CharacterString>https://creativecommons.org/licenses/by-nc/4.0/</gco:CharacterString>
+                    <gco:CharacterString>https://creativecommons.org/licenses/by/4.0</gco:CharacterString>
                   </cit:linkage>
                   <cit:protocol>
                     <gco:CharacterString>WWW:LINK</gco:CharacterString>
