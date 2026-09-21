@@ -1,33 +1,4 @@
 contact:
-- inCitation: false
-  organization:
-    city: Vancouver
-    country: Canada
-    name: Tula Foundation
-    ror: https://ror.org/0029jxk29
-    url: https://tula.org
-  roles:
-  - funder
-- inCitation: false
-  organization:
-    address: 303-1100 Island Hwy
-    city: Campbell River
-    country: Canada
-    email: data@hakai.org
-    name: Hakai Institute
-    ror: https://ror.org/02pry0c91
-    url: https://www.hakai.org/
-  roles:
-  - custodian
-  - owner
-  - author
-  - editor
-  - pointOfContact
-  - resourceProvider
-  - rightsHolder
-  - principalInvestigator
-  - processor
-  - originator
 - inCitation: true
   individual:
     email: data@hakai.org
@@ -56,6 +27,35 @@ contact:
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    address: 303-1100 Island Hwy
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - author
+  - editor
+  - pointOfContact
+  - resourceProvider
+  - rightsHolder
+  - principalInvestigator
+  - processor
+  - originator
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
 distribution:
 - description:
     en: Fraser River Airborne Surveys - data request form
@@ -252,7 +252,7 @@ identification:
 metadata:
   dates:
     publication: '2024-10-09'
-    revision: '2026-09-18T20:10:51.364Z'
+    revision: '2026-09-21T18:00:45.655Z'
   identifier: 0507a738-cd65-4ba4-943e-42b9d022b637
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/RvRPlFMSsIaBwoGdQIq5BVYfBBa2/-NHfqx-d8tuAroY8BWc7
