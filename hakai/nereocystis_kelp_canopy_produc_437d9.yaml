@@ -15,16 +15,28 @@ contact:
   roles:
   - custodian
   - owner
-  - distributor
 - inCitation: true
   individual:
-    name: Burt, J.
+    name: Burt, Jenn
+    orcid: https://orcid.org/0000-0001-5536-4694
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
   roles:
   - author
 - inCitation: true
   individual:
     name: Okamoto, Daniel
     orcid: https://orcid.org/0000-0001-8988-4567
+  organization:
+    city: Burnaby
+    country: Canada
+    name: Simon Fraser University
+    ror: https://ror.org/0213rcc28
+    url: https://www.sfu.ca
   roles:
   - author
 - inCitation: true
@@ -45,11 +57,22 @@ contact:
   organization:
     city: Campbell River
     country: Canada
+    email: data@hakai.org
     name: Hakai Institute
     ror: https://ror.org/02pry0c91
     url: https://www.hakai.org/
   roles:
   - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
 - inCitation: false
   organization:
     city: Vancouver
@@ -80,19 +103,20 @@ identification:
     en: 'The nereocystis canopy production dataset is a component of Hakai Institute’s
       Nearshore research and monitoring program. This dataset documents seasonal changes
       in Nereocystis luetkeana density, size structure and growth parameters at multiple
-      locations near Calvert Island on the Central Coast of British Columbia (BC)
-      since 2016.  Each year, sites were visited 1 - 5 times over the summer months
-      (April-September) and 0 - 2 times over the winter months. Fifteen plants were
-      tagged at each site to measure individual stipe growth, blade elongation, blade
-      erosion, change in number of blades and plant survival. Additional plants (up
-      to 45 per site) were measured for stipe and blade size structure distributions.
-      Three permanent transect lines were used to track change in plant density and
-      relocate the tagged plants. Blade growth rate ranged from 0 to 15 cm per day
-      through the summer months and stipe growth ranged from 0 to 12 cm a day, depending
-      on site and time of year. Based on these data we can determine which field parameters
+      locations near Calvert Island on the Central Coast of British Columbia since
+      2016. Each year, sites were visited 1 - 5 times over the summer months (April
+      - September) and 0 - 2 times over the winter months. Fifteen plants were tagged
+      at each site to measure individual stipe growth, blade elongation, blade erosion,
+      change in number of blades and plant survival. Additional plants (up to 45 per
+      site) were measured for stipe and blade size structure distributions. Three
+      permanent transect lines were used to track change in plant density and relocate
+      the tagged plants. Blade growth rate ranged from 0 to 15 cm per day through
+      the summer months and stipe growth ranged from 0 to 12 cm a day, depending on
+      site and time of year. Based on these data we can determine which field parameters
       best correlate with overall kelp productivity and biomass, to refine metrics
       for long-term assessments of Nereocystis luetkeana status in BC and ultimately
       find what environment factors are driving these local temporal and spatial trends.
+
 
       This data package is freely available to everyone, following the principles
       of equitable access and benefit sharing. However, we expect all data users to
@@ -101,44 +125,60 @@ identification:
       providers, and provide helpful feedback on data quality, and 2) communicate
       and/or collaborate with the providers if you are considering using this dataset
       for manuscripts or other forms of reporting.'
-    fr: 'L''ensemble de données sur la production de la canopée du Nereocystis luetkeana
-      fait partie du programme de recherche Nearshore de l''Institut Hakai. Ce jeu
-      de données documente les changements saisonniers de la densité, de la structure
-      de taille et des paramètres de croissance de Nereocystis luetkeana à plusieurs
-      endroits près de l''île Calvert sur la côte centrale de la Colombie-Britannique
-      (C.-B.) depuis 2016. Chaque année, les sites ont été visités 1 à 5 fois pendant
-      les mois d''été (avril-septembre) et 0 à 2 fois pendant les mois d''hiver. Quinze
-      plants ont été marqués à chaque site pour mesurer la croissance individuelle
-      des stipes, l''allongement des pales, l''érosion des pales, le changement du
-      nombre de lames et la survie des plantes. D''autres plants (jusqu''à 45 par
-      site) ont été mesurés pour la distribution de la structure du stipe et de la
-      taille des pales. Trois lignes de transect permanentes ont été utilisées pour
-      suivre l''évolution de la densité des plantes et déplacer les plantes marquées.
-      Le taux de croissance des pales variait de 0 à 15 cm par jour pendant les mois
-      d''été et la croissance du stipe variait de 0 à 12 cm par jour, selon le site
-      et la période de l''année. Sur la base de ces données, nous pouvons déterminer
-      quels paramètres de terrain sont les mieux corrélés avec la productivité et
-      la biomasse globales du varech, afin d''affiner les mesures pour les évaluations
-      à long terme du statut de Nereocystis luetkeana en Colombie-Britannique et,
-      en fin de compte, de déterminer quels facteurs environnementaux sont à l''origine
-      de ces tendances temporelles et spatiales locales.
+    fr: 'L''ensemble de données sur la production de la canopée de néréocystes fait
+      partie du programme de recherche et de surveillance des zones littorales de
+      l''Institut Hakai. Cet ensemble de données documente les changements saisonniers
+      de la densité, de la structure granulométrique et des paramètres de croissance
+      de Nereocystis luetkeana à plusieurs endroits près de l''île Calvert, sur la
+      côte centrale de la Colombie-Britannique, depuis 2016. Chaque année, les sites
+      ont été visités 1 à 5 fois pendant les mois d''été (avril à septembre) et 0
+      à 2 fois pendant les mois d''hiver. Quinze plantes ont été étiquetées sur chaque
+      site afin de mesurer la croissance individuelle des stipes, l''allongement du
+      limbe, l''érosion du limbe, la variation du nombre de limbes et la survie des
+      plants. D''autres plantes (jusqu''à 45 par site) ont été mesurées pour déterminer
+      la distribution de la taille du stipe et de la structure du limbe. Trois lignes
+      de transect permanentes ont été utilisées pour suivre l''évolution de la densité
+      des plantes et déplacer les plantes étiquetées. Le taux de croissance des limbes
+      variait de 0 à 15 cm par jour pendant les mois d''été et la croissance des stipes
+      variait de 0 à 12 cm par jour, selon le site et la période de l''année. Sur
+      la base de ces données, nous pouvons déterminer les paramètres de terrain les
+      mieux corrélés à la productivité et à la biomasse globales du varech, affiner
+      les paramètres pour les évaluations à long terme de la situation de Nereocystis
+      luetkeana en Colombie-Britannique et finalement déterminer quels facteurs environnementaux
+      sont à l''origine de ces tendances temporelles et spatiales locales.
 
-      Ce dossier de données est accessible gratuitement à tous, conformément aux principes
+
+      Ce paquet de données est accessible gratuitement à tous, conformément aux principes
       d''accès équitable et de partage des avantages. Cependant, nous attendons de
-      tous les utilisateurs de données qu''ils attribuent aux fournisseurs de données
-      (lire notre licence de données) et l''utilisation de ces données doit se faire
-      dans le cadre d''un usage loyal, c''est-à-dire : 1) respecter les fournisseurs
-      de données et fournir des commentaires utiles sur la qualité des données, et
-      2) communiquer et/ou collaborer avec les fournisseurs si vous envisagent d''utiliser
-      cet ensemble de données pour des manuscrits ou d''autres formes de rapports.'
+      tous les utilisateurs de données qu''ils attribuent les noms aux fournisseurs
+      de données (lisez notre licence de données) et l''utilisation de ces données
+      doit se faire dans le respect d''une utilisation équitable, c''est-à-dire :
+      1) respecter les fournisseurs de données et fournir des commentaires utiles
+      sur la qualité des données, et 2) communiquer et/ou collaborer avec les fournisseurs
+      si vous envisagez d''utiliser cet ensemble de données pour des manuscrits ou
+      d''autres formes de reporting.'
   associated_resources:
-  - association_type: PreviousVersionOf
+  - association_type: IsPreviousVersionOf
     association_type_iso: crossReference
     authority: URL
     code: https://drive.google.com/drive/u/1/folders/14EWU0zY1prKYkoXglIMxtnjuHt6XyYTa
     title:
       en: nereo v1.2.0
       fr: nereo v1.2.0
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.25607/OBP-2068
+    title:
+      en: Hakai Nearshore - Kelp Forest and Rocky Reef Monitoring Survey Protocols
+        Community Assessment
+      fr: Hakai Nearshore - Protocoles d'enquête de surveillance de la forêt de varech
+        et des récifs rocheux - Évaluation communautaire
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -171,19 +211,21 @@ identification:
       - Composition et couverture de la canopée de macroalgues
     taxa:
       en:
+      - Laminariaceae
+      - Ochrophyta
+      - Nereocystis
+      - Phaeophyceae
       - Laminariales
       - Chromista
-      - Phaeophyceae
-      - Nereocystis
-      - Ochrophyta
-      - Laminariaceae
+      - Nereocystis luetkeana
       fr:
+      - Laminariaceae
+      - Ochrophyta
+      - Nereocystis
+      - Phaeophyceae
       - Laminariales
       - Chromista
-      - Phaeophyceae
-      - Nereocystis
-      - Ochrophyta
-      - Laminariaceae
+      - Nereocystis luetkeana
   progress_code: onGoing
   project:
   - Nearshore
@@ -200,8 +242,8 @@ identification:
         verified: false
 metadata:
   dates:
-    publication: '2022-01-21'
-    revision: '2026-08-04T16:35:44.503Z'
+    publication: '2026-08-04'
+    revision: '2026-09-21T18:17:49.046Z'
   identifier: 3f40326a-23f9-4e30-a16a-f332ace14e2f
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/df5J7W5Hk4e0p4yvlOAI0qcU9Gs2/-MtG8b48aDAEdJoqNT6N
@@ -218,7 +260,15 @@ spatial:
   - 51.19
   - -127.1
   - 52.28
+  description:
+    en: Central Coast, British Columbia
+    fr: Côte centrale, Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   vertical:
   - 0.0
   - 30.0
-  vertical_positive: depthPositive
+  vertical_positive: heightPositive
