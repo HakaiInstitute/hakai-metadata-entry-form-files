@@ -730,7 +730,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-21T17:31:03.555Z</gco:DateTime>
+        <gco:DateTime>2026-09-21T17:31:55.443Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2201,13 +2201,8 @@
                   <mcc:code>
                     <gco:CharacterString>DR 1900 HACH Meter</gco:CharacterString>
                   </mcc:code>
-                  <mcc:description xsi:type="lan:PT_FreeText_PropertyType">
-                    <gco:CharacterString>Used to generate nutrient concentrations from water samples</gco:CharacterString>
-                    <lan:PT_FreeText>
-                      <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-                        <lan:LocalisedCharacterString locale="#fr">Utilisé pour générer des concentrations de nutriments à partir d&#39;échantillons d&#39;eau</lan:LocalisedCharacterString>
-                      </lan:textGroup>
-                    </lan:PT_FreeText>
+                  <mcc:description>
+                    <gco:CharacterString></gco:CharacterString>
                   </mcc:description>
                 </mcc:MD_Identifier>
               </mac:identifier>
