@@ -64,6 +64,12 @@ distribution:
     en: Digital Object Identifier for this dataset
   name:
     en: Data
+    fr: Données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   url: https://drive.google.com/drive/folders/175fEJYwluNCypoUidTtNzBLnosrAuEgD?usp=sharing
 identification:
   abstract:
@@ -82,8 +88,8 @@ identification:
           à l'aide du service de traduction Amazon
         verified: false
   associated_resources:
-  - association_type: IsCitedBy
-    association_type_iso: crossReference
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
     authority: DOI
     code: https://doi.org/10.1016/j.ecss.2020.107103
     title:
@@ -130,7 +136,7 @@ identification:
 metadata:
   dates:
     publication: '2022-02-04'
-    revision: '2026-09-03T20:24:45.919Z'
+    revision: '2026-09-21T17:50:37.622Z'
   identifier: 804b5b42-5550-4620-b789-7c2fe9572c03
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MTZhamNPb0U3cThnR0o
