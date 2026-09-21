@@ -730,7 +730,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-21T16:56:51.502Z</gco:DateTime>
+        <gco:DateTime>2026-09-21T17:24:41.449Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -822,8 +822,18 @@
               </lan:textGroup>
             </lan:PT_FreeText>
           </cit:title>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2025-10-23</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
           <cit:edition>
-            <gco:CharacterString>1.0</gco:CharacterString>
+            <gco:CharacterString>1.1</gco:CharacterString>
           </cit:edition>
           <cit:identifier>
             <mcc:MD_Identifier>
@@ -1651,7 +1661,7 @@
             <gex:EX_TemporalExtent>
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
-                  <gml:beginPosition indeterminatePosition="unknown" />
+                  <gml:beginPosition>2025-10-23T16:00:00.000Z</gml:beginPosition>
                   <gml:endPosition indeterminatePosition="now" />
                 </gml:TimePeriod>
               </gex:extent>
@@ -1692,20 +1702,6 @@
               <cit:edition>
                 <gco:CharacterString>N/A</gco:CharacterString>
               </cit:edition>
-            </cit:CI_Citation>
-          </mri:thesaurusName>
-        </mri:MD_Keywords>
-      </mri:descriptiveKeywords>
-      <mri:descriptiveKeywords>
-        <mri:MD_Keywords>
-          <mri:keyword>
-            <gco:CharacterString>eutrophication</gco:CharacterString>
-          </mri:keyword>
-          <mri:thesaurusName>
-            <cit:CI_Citation>
-              <cit:title>
-                <gco:CharacterString>default</gco:CharacterString>
-              </cit:title>
             </cit:CI_Citation>
           </mri:thesaurusName>
         </mri:MD_Keywords>
