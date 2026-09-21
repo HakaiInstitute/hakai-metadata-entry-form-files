@@ -141,11 +141,6 @@ identification:
       cadres mondiaux, en particulier pour les petits États insulaires en développement
       où les écosystèmes côtiers sont essentiels à la biodiversité, à la pêche et
       à la durabilité économique.
-    translations:
-      fr:
-        message: text translated using the Amazon translate service / texte traduit
-          à l'aide du service de traduction Amazon
-        verified: false
   associated_resources:
   - association_type: IsPartOf
     association_type_iso: largerWorkCitation
@@ -200,7 +195,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-21T17:26:53.055Z'
+    revision: '2026-09-21T17:31:03.555Z'
   identifier: 741bd412-6387-4dcd-8d61-7046b949f406
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/P3VNaxsDaISmZcvgBvJIKlt634d2/-Op0_nycnfen8FFkS3Ti
@@ -225,7 +220,16 @@ platform:
   - id: Aquafluor
   - id: CTD Diver
   - id: MiniDOT
-  - id: DR 1900 HACH Meter
+  - description:
+      en: Used to generate nutrient concentrations from water samples
+      fr: Utilisé pour générer des concentrations de nutriments à partir d'échantillons
+        d'eau
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: DR 1900 HACH Meter
   type: lowered unmanned submersible
 spatial:
   bbox:
