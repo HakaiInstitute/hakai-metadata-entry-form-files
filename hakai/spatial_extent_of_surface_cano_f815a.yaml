@@ -100,7 +100,7 @@ distribution:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
-  url: https://hecate.hakai.org/auth/access-request.php
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/ntdg-e790
 identification:
   abstract:
     en: "This data package consists of digitized surface canopy extent for two species\
@@ -243,25 +243,25 @@ identification:
       - Composition et couverture de la canopée de macroalgues
     taxa:
       en:
-      - Laminariales
+      - Laminariaceae
       - Ochrophyta
       - Macrocystis
-      - Macrocystis pyrifera
-      - Phaeophyceae
-      - Laminariaceae
-      - Nereocystis luetkeana
       - Nereocystis
+      - Phaeophyceae
+      - Laminariales
+      - Macrocystis pyrifera
       - Chromista
+      - Nereocystis luetkeana
       fr:
-      - Laminariales
+      - Laminariaceae
       - Ochrophyta
       - Macrocystis
-      - Macrocystis pyrifera
-      - Phaeophyceae
-      - Laminariaceae
-      - Nereocystis luetkeana
       - Nereocystis
+      - Phaeophyceae
+      - Laminariales
+      - Macrocystis pyrifera
       - Chromista
+      - Nereocystis luetkeana
   progress_code: completed
   project:
   - Airborne Coastal Observatory
@@ -283,7 +283,7 @@ identification:
 metadata:
   dates:
     publication: '2025-10-31'
-    revision: '2026-07-28T15:22:48.850Z'
+    revision: '2026-09-24T16:01:03.353Z'
   history:
   - processingStep:
     - authority: DOI
