@@ -883,7 +883,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-06-17T15:46:20.650Z</gco:DateTime>
+        <gco:DateTime>2026-09-28T19:03:17.383Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1621,7 +1621,6 @@ The place names service consists of 4 layers:
 -Hakai Place Names
 
 The TRIM Annotation metadata is available here http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
-More information about the TRIM program is here: http://geobc.gov.bc.ca/base-mapping/atlas/trim/
 
 The Hakai Places Layer has the following attributes:
 OBJNAM: Name of the feature
@@ -1633,27 +1632,26 @@ LABGROUP: Label group category (unused)
 Processing by:
 Will McInnes, Keith Holmes (Hakai Institute), and BC Base Annotations data</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
-            <lan:LocalisedCharacterString locale="#fr">Le service de noms de lieux est dérivé de la couche d&#39;annotations TRIM (British Columbia Terrain Resource Information Management Program), ainsi que des informations sur les noms de lieux de l&#39;Institut Hakai.
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+            <lan:LocalisedCharacterString locale="#fr">Le service de toponymie est dérivé de la couche d&#39;annotation TRIM (Terrain Resource Information Management Program) de la Colombie-Britannique, ainsi que des informations sur les noms de lieux fournies par l&#39;Institut Hakai.
 
-Le service des noms de lieux se compose de 4 couches :
--TRIM 1:20000 Annotation
+Le service de toponymie comprend 4 niveaux :
+Annotation -TRIM 1:20000
 -TRIM 1:1250000 Annotation
--TRIM 1:250000 Annotation
--Noms de lieux Hakai
+-ANNOTATION TRIM 1:250000
+-Toponymes Hakai
 
-Les métadonnées d&#39;annotation TRIM sont disponibles ici http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
-Vous trouverez plus d&#39;informations sur le programme TRIM ici : http://geobc.gov.bc.ca/base-mapping/atlas/trim/
+Les métadonnées de l&#39;annotation TRIM sont disponibles ici http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
 
 La couche Hakai Places possède les attributs suivants :
 OBJNAM : Nom de la fonctionnalité
-Points de repère : Code utilisé pour classer les objets pour l&#39;étiquetage des dépendances d&#39;échelle
+Points de repère : code utilisé pour classer les objets afin d&#39;étiqueter les dépendances d&#39;échelle
 OBJTYPE : Type d&#39;objet
 OBJCLASS : Classe d&#39;objet
-LABGROUP : catégorie de groupe d&#39;étiquettes (inutilisée)
+LABGROUP : Catégorie de groupe d&#39;étiquettes (non utilisée)
 
-Traitement par :
-Données de Will McInnes, Keith Holmes (Hakai Institute) et BC Base Annotations</lan:LocalisedCharacterString>
+Traitement effectué par :
+Will McInnes, Keith Holmes (Hakai Institute) et les données de BC Base Annotations</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>

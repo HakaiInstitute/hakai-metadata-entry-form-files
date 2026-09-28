@@ -116,8 +116,6 @@ identification:
 
       The TRIM Annotation metadata is available here http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
 
-      More information about the TRIM program is here: http://geobc.gov.bc.ca/base-mapping/atlas/trim/
-
 
       The Hakai Places Layer has the following attributes:
 
@@ -135,44 +133,47 @@ identification:
       Processing by:
 
       Will McInnes, Keith Holmes (Hakai Institute), and BC Base Annotations data'
-    fr: 'Le service de noms de lieux est dérivé de la couche d''annotations TRIM (British
-      Columbia Terrain Resource Information Management Program), ainsi que des informations
-      sur les noms de lieux de l''Institut Hakai.
+    fr: 'Le service de toponymie est dérivé de la couche d''annotation TRIM (Terrain
+      Resource Information Management Program) de la Colombie-Britannique, ainsi que
+      des informations sur les noms de lieux fournies par l''Institut Hakai.
 
 
-      Le service des noms de lieux se compose de 4 couches :
+      Le service de toponymie comprend 4 niveaux :
 
-      -TRIM 1:20000 Annotation
+      Annotation -TRIM 1:20000
 
       -TRIM 1:1250000 Annotation
 
-      -TRIM 1:250000 Annotation
+      -ANNOTATION TRIM 1:250000
 
-      -Noms de lieux Hakai
+      -Toponymes Hakai
 
 
-      Les métadonnées d''annotation TRIM sont disponibles ici http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
-
-      Vous trouverez plus d''informations sur le programme TRIM ici : http://geobc.gov.bc.ca/base-mapping/atlas/trim/
+      Les métadonnées de l''annotation TRIM sont disponibles ici http://catalogue.data.gov.bc.ca/dataset/trim-text-annotation
 
 
       La couche Hakai Places possède les attributs suivants :
 
       OBJNAM : Nom de la fonctionnalité
 
-      Points de repère : Code utilisé pour classer les objets pour l''étiquetage des
+      Points de repère : code utilisé pour classer les objets afin d''étiqueter les
       dépendances d''échelle
 
       OBJTYPE : Type d''objet
 
       OBJCLASS : Classe d''objet
 
-      LABGROUP : catégorie de groupe d''étiquettes (inutilisée)
+      LABGROUP : Catégorie de groupe d''étiquettes (non utilisée)
 
 
-      Traitement par :
+      Traitement effectué par :
 
-      Données de Will McInnes, Keith Holmes (Hakai Institute) et BC Base Annotations'
+      Will McInnes, Keith Holmes (Hakai Institute) et les données de BC Base Annotations'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources: []
   dates:
     publication: '2015-11-18'
@@ -213,7 +214,7 @@ identification:
 metadata:
   dates:
     publication: '2022-01-19'
-    revision: '2026-06-17T15:46:20.650Z'
+    revision: '2026-09-28T19:03:17.383Z'
   identifier: 0a8ff4c9-158a-4a46-9bb0-9d480ff40466
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/qbqh6DF00XZq8MOpQ3kKkI9GUv43/-MWI4eUtoamNrWXJDbmg
