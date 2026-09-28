@@ -1053,7 +1053,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-28T18:55:37.196Z</gco:DateTime>
+        <gco:DateTime>2026-09-28T19:00:09.038Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2016,7 +2016,7 @@ Kelp density / species / and extent are recorded - see attributes listed below.
 
 All digitizing occurred using Arc GIS. SFU volunteer crew (Amanda Schrack and Sebastian Mather) along with principal investigators Jenn Burt and Keith Holmes.
 
-Methods based on KIM 1 methodology as described in Sutherland 2007 report: http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf
+Methods based on KIM 1 methodology as described in Sutherland 2007 report: https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/338662.pdf
 
 Areas covered: West Beach – 7th beach to West Beach + Choked Passage – Surf Pass and North Beach to Wolf Beach North to Hakai Land and Sea Beach.
 
@@ -2043,40 +2043,40 @@ Species_la - full Latin species name for the kelp. macrocystis pyrifera / nereoc
 Dataset created by Jenn Burt and Keith Holmes. Simon Fraser University Volunteers: Amanda Schrack and Sebastian Mather
 Contact: keith.holmes@hakai.org</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
-            <lan:LocalisedCharacterString locale="#fr">Des photos aériennes de 2006 provenant de la province ont été utilisées pour numériser les auvents de varech pour le nord-ouest de l&#39;île Calvert. Les zones focales de West Beach et du passage Choked au large de l&#39;île Calvert ont été choisies pour faire l&#39;objet d&#39;une analyse pluriannuelle des changements de la canopée du varech avant et après l&#39;établissement de la loutre dans la région. 
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+            <lan:LocalisedCharacterString locale="#fr">Des photos aériennes de 2006 provenant de la province ont été utilisées pour numériser les canopées de varech du nord-ouest de l&#39;île Calvert. Les zones d&#39;intérêt de West Beach et de Choked Passage, au large de l&#39;île Calvert, ont été choisies pour effectuer une analyse pluriannuelle de l&#39;évolution de la canopée de varech avant et après l&#39;établissement de la loutre dans la région. 
 
-La densité/espèce/l&#39;étendue du varech sont enregistrées - voir les attributs ci-dessous.
-L&#39;étendue de la canopée de varech en 2006 représente la croissance maximale de l&#39;année. Le niveau des marées était d&#39;environ 2,47 mètres (8,1 pieds), ce qui pourrait avoir un impact sur l&#39;étendue du varech et la capacité des techniciens SIG à détecter et à identifier correctement les espèces. D&#39;autres recherches sont en cours pour valider et tester les niveaux de marée avec les résultats associés à l&#39;étendue du varech.
+La densité, l&#39;espèce et l&#39;étendue du varech sont enregistrées - voir les attributs ci-dessous.
+L&#39;étendue de la canopée de varech en 2006 représente la croissance maximale de l&#39;année. Le niveau de la marée était d&#39;environ 2,47 mètres (8,1 pieds), un niveau qui pourrait avoir une incidence sur l&#39;étendue du varech et sur la capacité des techniciens des SIG à détecter et à identifier correctement les espèces. D&#39;autres recherches sont en cours pour valider et tester le niveau des marées avec les résultats associés à l&#39;étendue du varech.
 
-Toute la numérisation a eu lieu à l&#39;aide d&#39;Arc GIS. L&#39;équipe de bénévoles de la SFU (Amanda Schrack et Sebastian Mather) ainsi que les chercheurs principaux Jenn Burt et Keith Holmes.
+Toutes les numérisations ont été effectuées à l&#39;aide d&#39;Arc GIS. L&#39;équipe de bénévoles de la SFU (Amanda Schrack et Sebastian Mather) ainsi que les chercheurs principaux Jenn Burt et Keith Holmes.
 
-Méthodes basées sur la méthodologie KIM 1 telle que décrite dans le rapport Sutherland 2007 : http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf
+Méthodes basées sur la méthodologie KIM 1 telle que décrite dans le rapport Sutherland 2007 : https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/338662.pdf
 
-Zones couvertes : West Beach - 7e plage à West Beach + passage étranglé - Surf Pass et North Beach à Wolf Beach North jusqu&#39;à Hakai Land et Sea Beach.
+Zones couvertes : West Beach — 7e plage à West Beach + Choked Passage — Surf Pass et North Beach à Wolf Beach North jusqu&#39;à Hakai Land and Sea Beach.
 
 Attributs :
 
-FID - Numéro d&#39;identification unique - ARC généré automatiquement lors de la création d&#39;un polygone
+FID - Numéro d&#39;identification unique - ARC généré automatiquement lors de la création du polygone
 
 Forme - Polygone - représentation spatiale
 
-Espèce - « Macro »/« Nereo »/Mixte détaillant les deux espèces possibles de la canopée de varech. Macro fait référence à macrocystis pyrifera ou varech géant. Nereo fait référence au nereocystis luetkeana ou au varech de taureau. Mixed est un mélange homogène d&#39;espèces Macro et Nereo. Définie par les techniciens SIG - identifiée par le champ « crédit ». 
+Espèces - « Macro »/« Nereo »/Mixte détaillant les deux espèces possibles de la canopée de varech. Macro fait référence à macrocystis pyrifera ou varech géant. Nereo fait référence à nereocystis luetkeana ou varech taureau. Mixed est un mélange homogène d&#39;espèces Macro et Nereo. Défini par les techniciens des SIG - identifié par le champ « crédit ». 
 
-Densité - densité du varech définie comme élevée ou faible. Basé sur la méthodologie Sutherland pour la densité du varech. Élevé = haute densité/basé sur la moyenne des plants de varech trouvés par mètre carré. Faible = faible densité - toujours un lit continu de varech avec de grands espaces sur la longueur de chaque fond.
+Densité : densité du varech définie comme étant élevée ou faible. Basé sur la méthodologie de Sutherland pour la densité du varech. Élevé = haute densité/basé sur la moyenne des plants de varech trouvés par mètre carré. Faible = faible densité - il s&#39;agit toujours d&#39;un lit continu de varech avec de grands espaces sur la longueur de chaque fond.
 
-Superficie sq_m - taille de chaque lit de varech en mètres carrés. Défini par le calcul de la géométrie des arcs.
+Superficie en mètres carrés - taille de chaque lit de varech en mètres carrés. Défini par le calcul de la géométrie de l&#39;arc.
 
-Concat - concaténation des informations sur les espèces et la densité. Utilisé à des fins cartographiques. Définie par la concaténation des espèces et des mesures de densité dans ARC GIS.
+Concat - concaténation d&#39;informations sur les espèces et la densité. Utilisé à des fins cartographiques. Défini par la concaténation des espèces et des métriques de densité dans ARC GIS.
 
-Confiance - Utilisé par un technicien SIG pour identifier les espèces difficiles à détecter, l&#39;étendue du lit de varech et la densité. Utilisé pour informer les réviseurs et contrôler la qualité des informations spatiales. Élevé = niveau de confiance élevé - pas besoin de vérifier, moyen = niveau de confiance moyen - vérification, faible = faible confiance - incertain des principaux éléments - vérification de l&#39;examinateur. Un « vérifié » peut être ajouté aux informations pour déterminer si le contrôle de qualité a été effectué sur les polygones de faible confiance. Déterminé par le dernier examinateur de « crédit ».
+Confiance - Utilisée par un technicien en SIG pour identifier les espèces difficiles à détecter, l&#39;étendue et la densité du lit de varech. Utilisé pour informer les réviseurs et contrôler la qualité des informations spatiales. Haut = niveau de confiance élevé - pas besoin de vérifier, moyen = niveau de confiance moyen - vérification, faible = niveau de confiance faible - incertitude quant aux principaux éléments - vérification par l&#39;évaluateur. La mention « Vérifié » peut être ajoutée aux informations pour déterminer que le contrôle qualité a été effectué sur les polygones à faible niveau de confiance. Déterminé par le dernier évaluateur de « crédit ».
 
-Crédit - Initiales du technicien SIG pour créer et donner le contrôle de qualité final sur le polygone d&#39;étendue de varech. KH = Keith Holmes, JB = Jenn Burt, AS = Amanda Schrack, SM = Sebastian Mather.
+Crédit : Initiales du technicien en SIG chargé de créer le polygone d&#39;étendue du varech et d&#39;effectuer le contrôle de qualité final. KH = Keith Holmes, JB = Jenn Burt, États-Unis = Amanda Schrack, SM = Sebastian Mather.
 
-Species_LA - nom d&#39;espèce latin complet du varech. macrocystis pyrifera/nereocystis luetkeana/mixed. Le mélange mixte contient un mélange homogène d&#39;espèces de macrocystis pyrifera et de nereocystis luetkeana
+Species_LA - nom latin complet de l&#39;espèce pour le varech. macrocystis pyrifera/nereocystis luetkeana/mixed. Mixed contient un mélange homogène d&#39;espèces macrocystis pyrifera et nereocystis luetkeana
 
-Jeu de données créé par Jenn Burt et Keith Holmes. Bénévoles de l&#39;Université Simon Fraser : Amanda Schrack et Sebastian Mather
-Contact : keith.holmes@hakai.org</lan:LocalisedCharacterString>
+Ensemble de données créé par Jenn Burt et Keith Holmes. Bénévoles de l&#39;Université Simon Fraser : Amanda Schrack et Sebastian Mather
+Contactez : keith.holmes@hakai.org</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
@@ -2259,10 +2259,20 @@ Contact : keith.holmes@hakai.org</lan:LocalisedCharacterString>
           <mri:keyword>
             <gco:CharacterString>other</gco:CharacterString>
           </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>macroalgalCanopyCoverAndComposition</gco:CharacterString>
+          </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Autre</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Composition et couverture de la canopée de macroalgues</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
