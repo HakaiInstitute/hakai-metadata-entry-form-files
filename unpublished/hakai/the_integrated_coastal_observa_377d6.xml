@@ -406,7 +406,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-10-02T14:02:07.008Z</gco:DateTime>
+        <gco:DateTime>2026-10-02T16:32:38.364Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -580,6 +580,13 @@
                       <cit:contactInfo>
                         <cit:CI_Contact></cit:CI_Contact>
                       </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0001-7051-0020</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
                       <cit:positionName>
                         <gco:CharacterString></gco:CharacterString>
                       </cit:positionName>
@@ -1089,10 +1096,10 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>This metadata entry contains information about the Integrated Coastal Observatory (ICO), which was a coordinated network of partners along the coast of British Columbia who are using eDNA to monitor marine biodiversity. This diverse network includes First Nations, government scientists, citizen scientists, and NGOs. At the core of this initiative is the desire to generate high-quality open-data that can be used by our partners to quantify regional biodiversity. Environmental DNA samples from seawater are collected monthly to track the diversity of fish present at each partner location site. The resulting data provide an important tool for monitoring changes in diversity over broad spatial and temporal scales. Our results demonstrate the advantages of democratizing the collection and dissemination of eDNA-based biodiversity data. Long-term eDNA-based monitoring in coastal BC will help us to measure ecosystem health and track the impacts of climate change and other disturbances on marine biodiversity.</gco:CharacterString>
+        <gco:CharacterString>This metadata entry contains information about the Integrated Coastal Observatory (ICO), which was a coordinated network of partners along the coast of British Columbia who are using eDNA to monitor marine biodiversity. This diverse network includes First Nations, government scientists, citizen scientists, and NGOs. At the core of this initiative is the desire to generate high-quality open data that can be used by our partners to quantify regional biodiversity. Environmental DNA samples from seawater are collected monthly to track the diversity of fish present at each partner location site. The resulting data provide an important tool for monitoring changes in diversity over broad spatial and temporal scales. Our results demonstrate the advantages of democratizing the collection and dissemination of eDNA-based biodiversity data. Long-term eDNA-based monitoring in coastal BC will help us to measure ecosystem health and track the impacts of climate change and other disturbances on marine biodiversity.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
-            <lan:LocalisedCharacterString locale="#fr">Cette entrée de métadonnées contient des informations sur l&#39;Observatoire côtier intégré (ICO), qui était un réseau coordonné de partenaires le long de la côte de la Colombie-Britannique qui utilisent l&#39;eDNA pour surveiller la biodiversité marine. Ce réseau diversifié comprend des membres des Premières Nations, des scientifiques gouvernementaux, des scientifiques citoyens et des ONG. Au cœur de cette initiative se trouve le désir de générer des données ouvertes de haute qualité pouvant être utilisées par nos partenaires pour quantifier la biodiversité régionale. Des échantillons d&#39;ADN environnemental provenant de l&#39;eau de mer sont collectés tous les mois pour suivre la diversité des poissons présents sur chaque site partenaire. Les données qui en résultent constituent un outil important pour suivre l&#39;évolution de la diversité sur de larges échelles spatiales et temporelles. Nos résultats démontrent les avantages de la démocratisation de la collecte et de la diffusion de données sur la biodiversité basées sur l&#39;EDNA. La surveillance à long terme basée sur l&#39;ADNe sur la côte de la Colombie-Britannique nous aidera à mesurer la santé des écosystèmes et à suivre les impacts du changement climatique et d&#39;autres perturbations sur la biodiversité marine.</lan:LocalisedCharacterString>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+            <lan:LocalisedCharacterString locale="#fr">Cette entrée de métadonnées contient des informations sur l&#39;Observatoire côtier intégré (ICO), qui était un réseau coordonné de partenaires le long de la côte de la Colombie-Britannique qui utilisent l&#39;eDNA pour surveiller la biodiversité marine. Ce réseau diversifié comprend des membres des Premières Nations, des scientifiques gouvernementaux, des scientifiques citoyens et des ONG. Au cœur de cette initiative se trouve le désir de générer des données ouvertes de haute qualité qui peuvent être utilisées par nos partenaires pour quantifier la biodiversité régionale. Des échantillons d&#39;ADN environnemental provenant de l&#39;eau de mer sont collectés tous les mois pour suivre la diversité des poissons présents sur chaque site partenaire. Les données qui en résultent constituent un outil important pour suivre l&#39;évolution de la diversité sur de larges échelles spatiales et temporelles. Nos résultats démontrent les avantages de la démocratisation de la collecte et de la diffusion de données sur la biodiversité basées sur l&#39;EDNA. La surveillance à long terme basée sur l&#39;ADNe sur la côte de la Colombie-Britannique nous aidera à mesurer la santé des écosystèmes et à suivre les impacts du changement climatique et d&#39;autres perturbations sur la biodiversité marine.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
       </mri:abstract>
