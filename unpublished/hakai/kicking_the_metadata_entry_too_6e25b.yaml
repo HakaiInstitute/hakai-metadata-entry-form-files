@@ -1,0 +1,153 @@
+contact:
+- inCitation: true
+  organization:
+    email: grey.knights@hakai.org
+    name: Hakai Institute
+  roles:
+  - custodian
+  - owner
+  - distributor
+distribution:
+- description:
+    en: A github repo to test this form
+    fr: Un dépôt github pour tester ce formulaire
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: HakaiInstitute/genomics-admin
+    fr: Institut Hakai/Genomics-Admin
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/HakaiInstitute/genomics-admin/
+identification:
+  abstract:
+    en: Understanding the scope and process of creating a metadata entry in 2026 via
+      the online form to better understand the process to better support staff
+    fr: Comprendre la portée et le processus de création d'une entrée de métadonnées
+      en 2026 via le formulaire en ligne afin de mieux comprendre le processus et
+      de mieux soutenir le personnel
+  associated_resources:
+  - association_type: Requires
+    association_type_iso: dependency
+    authority: URL
+    code: https://github.com/Textualize/textual
+    title:
+      en: Textual Python library
+      fr: bibliothèque textuelle Python
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2026-10-02'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/ppm1-4z81
+  keywords:
+    default:
+      en:
+      - decision making
+      fr:
+      - aide à la décision
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+    taxa:
+      en:
+      - Streptelasmatidae
+      - Greywinckia
+      - Anthozoa
+      - Animalia
+      - Cnidaria
+      fr:
+      - Streptelasmatidae
+      - Greywinckia
+      - Anthozoa
+      - Animalia
+      - Cnidaria
+  progress_code: tentative
+  project:
+  - Watersheds
+  status: submitted
+  temporal_begin: '2026-10-02T19:00:00.000Z'
+  temporal_end: '2026-10-09T19:00:00.000Z'
+  title:
+    en: Kicking the Metadata Entry Tool Tires
+    fr: Renoncer à l'outil de saisie de métadonnées
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2026-10-02T22:29:06.557Z'
+  identifier: 6e25b070-020f-4c2b-8848-b59b3275410c
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/mP3ZsrmzitVvxGBjC4xYv49eYmD2/-P2yf8ahukPZfJckUGaY
+  naming_authority: ca.cioos
+  scope: dataset
+  use_constraints:
+    licence:
+      code: None
+      title:
+        en: No License
+        fr: Aucune licence
+      url: https://choosealicense.com/no-permission/
+    limitations:
+      en: Not to be used in any way, shape, or form
+      fr: Ne doit pas être utilisé de quelque manière que ce soit
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- description:
+    en: Never sinks, but not thoughtless
+    fr: Ne coule jamais, mais pas de façon irréfléchie
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: '666'
+  instruments: []
+  type: drifting surface float
+spatial:
+  description:
+    en: Downtown Victoria, BC
+    fr: Centre-ville de Victoria, Colombie-Britannique
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  polygon: -123.3635,48.4322 -123.3635,48.4291 -123.3574,48.4299 -123.3599,48.4336
+    -123.3635,48.4322
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
