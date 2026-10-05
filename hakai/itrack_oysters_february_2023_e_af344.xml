@@ -1344,7 +1344,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2024-12-19T19:28:54.820Z</gco:DateTime>
+        <gco:DateTime>2026-10-05T20:17:50.856Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -3855,22 +3855,22 @@ Compte tenu des efforts nécessaires pour obtenir ces données et créer des pac
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>Magallana</gco:CharacterString>
+            <gco:CharacterString>Mollusca</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Ostreidae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Ostreida</gco:CharacterString>
+            <gco:CharacterString>Magallana gigas</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Bivalvia</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Magallana gigas</gco:CharacterString>
+            <gco:CharacterString>Magallana</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Mollusca</gco:CharacterString>
+            <gco:CharacterString>Ostreida</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Animalia</gco:CharacterString>
@@ -3878,7 +3878,7 @@ Compte tenu des efforts nécessaires pour obtenir ces données et créer des pac
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Magallana</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Mollusca</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -3892,7 +3892,7 @@ Compte tenu des efforts nécessaires pour obtenir ces données et créer des pac
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Ostreida</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Magallana gigas</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -3906,14 +3906,14 @@ Compte tenu des efforts nécessaires pour obtenir ces données et créer des pac
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Magallana gigas</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Magallana</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Mollusca</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Ostreida</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -3986,6 +3986,39 @@ Compte tenu des efforts nécessaires pour obtenir ces données et créer des pac
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Paper: Impact of CO2-Induced Aquatic Acidification on Environmental DNA and RNA Shedding and Persistence</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Article : Impact de l&#39;acidification aquatique induite par le CO2 sur l&#39;excrétion et la persistance de l&#39;ADN et de l&#39;ARN dans l&#39;environnement</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>DOI</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://doi.org/10.1002/edn3.70158</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
