@@ -202,6 +202,23 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   url: https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fedn3.586&file=edn3586-sup-0001-DataS1.zip
+- description:
+    en: Bioinformatic scripts for processing raw Illumina data
+    fr: Scripts bioinformatiques pour le traitement des données brutes d'Illumina
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Trawl and eDNA methods and code
+    fr: Méthodes et code relatifs au chalut et à l'eDNA
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://github.com/hakaiInstitute/trawl_eDNA_methods
 identification:
   abstract:
     en: Marine scientific trawl surveys are commonly used to assess the distribution
@@ -267,13 +284,13 @@ identification:
           message: text translated using the Amazon translate service / texte traduit
             à l'aide du service de traduction Amazon
           verified: false
-  - association_type: IsSupplementedBy
+  - association_type: IsIdenticalTo
     association_type_iso: crossReference
-    authority: URL
-    code: https://github.com/hakaiInstitute/trawl_eDNA_methods
+    authority: DOI
+    code: https://doi.org/10.5281/zenodo.8411637
     title:
-      en: Trawl and eDNA methods and code
-      fr: Méthodes et code relatifs au chalut et à l'eDNA
+      en: 'Zenodo: Trawl and eDNA methods and code'
+      fr: 'Zenodo : méthodes et code relatifs au chalut et à l''eDNA'
       translations:
         fr:
           message: text translated using the Amazon translate service / texte traduit
@@ -320,7 +337,7 @@ identification:
 metadata:
   dates:
     publication: '2026-10-05'
-    revision: '2026-10-05T17:08:31.631Z'
+    revision: '2026-10-05T17:30:59.375Z'
   identifier: da232383-781d-4852-8542-cf0cb8aa5f26
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-P1l_Wv09HnWD1is-Yik
