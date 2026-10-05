@@ -1319,7 +1319,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-08-31T19:02:30.327Z</gco:DateTime>
+        <gco:DateTime>2026-10-05T19:12:15.739Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1386,7 +1386,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -1399,7 +1399,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -2823,7 +2823,7 @@
 
 Two species are mapped: Nereocystis luetkeana and Macrocystis pyrifera.
 
-Density is classified as either High or Low according the KIM 1 methodologies detailed in the 2007 Sutherland Kelp Inventory report (http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf)
+Density is classified as either High or Low according the KIM 1 methodologies detailed in the 2007 Sutherland Kelp Inventory report (https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/338662.pdf)
 
 Areas covered: West Beach – 7th beach to West Beach + Choked Passage – Surf Pass and North Beach to Wolf Beach North to Hakai Land and Sea Beach.
 
@@ -2853,16 +2853,15 @@ Credit - Initials of GIS technician to create and give the final quality check o
 
 Species_la - full Latin species name for the kelp. macrocystis pyrifera / nereocystis luetkeana / mixed. Mixed has a homogenous mix of both macrocystis pyrifera and nereocystis luetkeana species
 
-
 Dataset created by Jenn Burt and Keith Holmes. Simon Fraser University Volunteers: Amanda Schrack and Sebastian Mather
 Contact: data@hakai.org</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">Polygones créés manuellement à partir de photos aériennes prises en août 2012.
 
 Deux espèces sont cartographiées : Nereocystis luetkeana et Macrocystis pyrifera.
 
-La densité est classée comme élevée ou faible selon les méthodologies KIM 1 détaillées dans le rapport d&#39;inventaire du varech de Sutherland 2007 (http://www.env.gov.bc.ca/omfd/reports/Kelp2007-HakaiPass.pdf)
+La densité est classée comme élevée ou faible selon les méthodologies KIM 1 détaillées dans le rapport d&#39;inventaire du varech de Sutherland 2007 (https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/338662.pdf)
 
 Zones couvertes : West Beach — 7e plage à West Beach + Choked Passage — Surf Pass et North Beach à Wolf Beach North jusqu&#39;à Hakai Land and Sea Beach.
 
@@ -2878,11 +2877,11 @@ FID - Numéro d&#39;identification unique - ARC généré automatiquement lors d
 
 Forme - Polygone - représentation spatiale
 
-Espèces - « Macro »/« Nereo »/Mixte détaillant les deux espèces possibles de la canopée de varech. Macro fait référence à macrocystis pyrifera ou varech géant. Nereo fait référence à nereocystis luetkeana ou varech taureau. Mixed est un mélange homogène d&#39;espèces Macro et Nereo. Défini par les techniciens des SIG - identifié par le champ « crédit ». 
+Espèces - « Macro »/« Nereo »/Mixte détaillant les deux espèces possibles de la canopée de varech. Macro fait référence à macrocystis pyrifera ou varech géant. Nereo fait référence à nereocystis luetkeana ou varech taureau. Mixed est un mélange homogène d&#39;espèces Macro et Nereo. Défini par les techniciens en SIG - identifié par le champ « crédit ». 
 
 Densité : densité du varech définie comme étant élevée ou faible. Basé sur la méthodologie de Sutherland pour la densité du varech. Élevé = haute densité/basé sur la moyenne des plants de varech trouvés par mètre carré. Faible = faible densité - il s&#39;agit toujours d&#39;un lit continu de varech avec de grands espaces sur la longueur de chaque fond.
 
-Superficie en m² - taille de chaque lit de varech en mètres carrés. Défini par le calcul de la géométrie de l&#39;arc.
+Superficie en mètres carrés - taille de chaque lit de varech en mètres carrés. Défini par le calcul de la géométrie de l&#39;arc.
 
 Concat - concaténation d&#39;informations sur les espèces et la densité. Utilisé à des fins cartographiques. Défini par la concaténation des espèces et des métriques de densité dans ARC GIS.
 
@@ -2891,7 +2890,6 @@ Confiance - Utilisée par un technicien en SIG pour identifier les espèces diff
 Crédit : Initiales du technicien en SIG chargé de créer le polygone d&#39;étendue du varech et d&#39;effectuer le contrôle de qualité final. KH = Keith Holmes, JB = Jenn Burt, États-Unis = Amanda Schrack, SM = Sebastian Mather.
 
 Species_LA - nom latin complet de l&#39;espèce pour le varech. macrocystis pyrifera/nereocystis luetkeana/mixed. Mixed contient un mélange homogène d&#39;espèces macrocystis pyrifera et nereocystis luetkeana
-
 
 Ensemble de données créé par Jenn Burt et Keith Holmes. Bénévoles de l&#39;Université Simon Fraser : Amanda Schrack et Sebastian Mather
 Contactez : data@hakai.org</lan:LocalisedCharacterString>
@@ -3121,71 +3119,36 @@ Contactez : data@hakai.org</lan:LocalisedCharacterString>
       <mri:descriptiveKeywords>
         <mri:MD_Keywords>
           <mri:keyword>
-            <gco:CharacterString>Nereocystis luetkeana</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Macrocystis pyrifera</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Phaeophyceae</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Macrocystis</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Chromista</gco:CharacterString>
-          </mri:keyword>
-          <mri:keyword>
-            <gco:CharacterString>Nereocystis</gco:CharacterString>
+            <gco:CharacterString>Laminariaceae</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
             <gco:CharacterString>Ochrophyta</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
+            <gco:CharacterString>Macrocystis</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Nereocystis</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Phaeophyceae</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
             <gco:CharacterString>Laminariales</gco:CharacterString>
           </mri:keyword>
           <mri:keyword>
-            <gco:CharacterString>Laminariaceae</gco:CharacterString>
+            <gco:CharacterString>Macrocystis pyrifera</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Chromista</gco:CharacterString>
+          </mri:keyword>
+          <mri:keyword>
+            <gco:CharacterString>Nereocystis luetkeana</gco:CharacterString>
           </mri:keyword>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Nereocystis luetkeana</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Macrocystis pyrifera</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Phaeophyceae</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Macrocystis</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Chromista</lan:LocalisedCharacterString>
-              </lan:textGroup>
-            </lan:PT_FreeText>
-          </mri:keyword>
-          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
-            <lan:PT_FreeText>
-              <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Nereocystis</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Laminariaceae</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -3199,6 +3162,27 @@ Contactez : data@hakai.org</lan:LocalisedCharacterString>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Macrocystis</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Nereocystis</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Phaeophyceae</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
                 <lan:LocalisedCharacterString locale="#fr">Laminariales</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
@@ -3206,7 +3190,21 @@ Contactez : data@hakai.org</lan:LocalisedCharacterString>
           <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
             <lan:PT_FreeText>
               <lan:textGroup>
-                <lan:LocalisedCharacterString locale="#fr">Laminariaceae</lan:LocalisedCharacterString>
+                <lan:LocalisedCharacterString locale="#fr">Macrocystis pyrifera</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Chromista</lan:LocalisedCharacterString>
+              </lan:textGroup>
+            </lan:PT_FreeText>
+          </mri:keyword>
+          <mri:keyword xsi:type="lan:PT_FreeText_PropertyType">
+            <lan:PT_FreeText>
+              <lan:textGroup>
+                <lan:LocalisedCharacterString locale="#fr">Nereocystis luetkeana</lan:LocalisedCharacterString>
               </lan:textGroup>
             </lan:PT_FreeText>
           </mri:keyword>
@@ -3334,7 +3332,7 @@ Contactez : data@hakai.org</lan:LocalisedCharacterString>
             </cit:CI_Citation>
           </mri:name>
           <mri:associationType>
-            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="series"></mri:DS_AssociationTypeCode>
           </mri:associationType>
         </mri:MD_AssociatedResource>
       </mri:associatedResource>
@@ -3367,7 +3365,7 @@ Contactez : data@hakai.org</lan:LocalisedCharacterString>
             </cit:CI_Citation>
           </mri:name>
           <mri:associationType>
-            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="series"></mri:DS_AssociationTypeCode>
           </mri:associationType>
         </mri:MD_AssociatedResource>
       </mri:associatedResource>
