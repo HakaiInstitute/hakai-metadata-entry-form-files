@@ -45,7 +45,7 @@ contact:
   - contributor
   - pointOfContact
   - custodian
-- inCitation: true
+- inCitation: false
   individual:
     email: tim.vanderstap@hakai.org
     name: van der Stap, Tim
@@ -202,6 +202,11 @@ identification:
       \ des changements écologiques. Les séries chronologiques à long terme à haute\
       \ résolution temporelle sont inestimables pour étudier la dynamique des eaux\
       \ côtières abritant des communautés de plancton protiste très variables."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources:
   - association_type: IsPublishedIn
     association_type_iso: largerWorkCitation
@@ -391,7 +396,7 @@ instruments:
 metadata:
   dates:
     publication: '2024-10-10'
-    revision: '2026-10-08T19:04:14.108Z'
+    revision: '2026-10-08T19:07:57.877Z'
   history:
   - processingStep:
     - authority: URL
