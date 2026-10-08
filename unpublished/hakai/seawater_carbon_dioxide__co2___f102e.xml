@@ -428,7 +428,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-10-08T19:53:45.616Z</gco:DateTime>
+        <gco:DateTime>2026-10-08T19:55:06.392Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -806,20 +806,23 @@
       <mri:extent>
         <gex:EX_Extent>
           <gex:geographicElement>
-            <gex:EX_BoundingPolygon>
+            <gex:EX_GeographicBoundingBox>
               <gex:extentTypeCode>
                 <gco:Boolean>true</gco:Boolean>
               </gex:extentTypeCode>
-              <gex:polygon>
-                <gml:Polygon gml:id="a1">
-                  <gml:exterior>
-                    <gml:LinearRing>
-                      <gml:coordinates>-125.1361,48.8359</gml:coordinates>
-                    </gml:LinearRing>
-                  </gml:exterior>
-                </gml:Polygon>
-              </gex:polygon>
-            </gex:EX_BoundingPolygon>
+              <gex:westBoundLongitude>
+                <gco:Decimal>-125.1361</gco:Decimal>
+              </gex:westBoundLongitude>
+              <gex:eastBoundLongitude>
+                <gco:Decimal>-125.1361</gco:Decimal>
+              </gex:eastBoundLongitude>
+              <gex:southBoundLatitude>
+                <gco:Decimal>48.8359</gco:Decimal>
+              </gex:southBoundLatitude>
+              <gex:northBoundLatitude>
+                <gco:Decimal>48.8359</gco:Decimal>
+              </gex:northBoundLatitude>
+            </gex:EX_GeographicBoundingBox>
           </gex:geographicElement>
         </gex:EX_Extent>
       </mri:extent>
