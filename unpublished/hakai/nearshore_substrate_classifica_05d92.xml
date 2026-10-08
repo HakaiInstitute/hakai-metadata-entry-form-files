@@ -514,7 +514,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-10-08T19:01:38.368Z</gco:DateTime>
+        <gco:DateTime>2026-10-08T19:02:50.704Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1130,7 +1130,7 @@ Kelp layers were added using existing data generated as per the methods outlined
 
 Eelgrass extent was digitized from a towed underwater video system. Detailed methods for this procedure can be seen at the linked record, &#39;Eelgrass Extent 2014 - Central Coast&#39;.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">Cette couche contient des polygones décrivant les types de substrats présents dans les eaux intertidales et subtidales peu profondes entourant le nord-ouest de l&#39;île Calvert.
 
 Les substrats ont été délimités manuellement à l&#39;aide d&#39;orthomosaïques de résolution de 9 à 10 cm à l&#39;aide d&#39;images capturées à des hauteurs de marées inférieures à +1,0 m de profondeur moyenne des basses eaux. Les orthomosaïques ont été obtenues à l&#39;aide d&#39;un système aérien inoccupé (UAS) et post-traitées à l&#39;aide du progiciel Pix4Dmapper (voir les méthodes UAS ci-jointes) et des substrats numérisés dans ESRI ArcGIS 10.5.
@@ -1401,6 +1401,39 @@ L&#39;étendue de la zostère a été numérisée à partir d&#39;un système vi
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
+      <mri:associatedResource>
+        <mri:MD_AssociatedResource>
+          <mri:name>
+            <cit:CI_Citation>
+              <cit:title xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Drone Methods - 2018 - UAS methods for obtaining imagery used to digitize substrate types</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Méthodes par drone - 2018 - Méthodes UAS pour obtenir des images utilisées pour numériser des types de substrats</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:title>
+              <cit:identifier>
+                <mcc:MD_Identifier>
+                  <mcc:authority>
+                    <cit:CI_Citation>
+                      <cit:title>
+                        <gco:CharacterString>URL</gco:CharacterString>
+                      </cit:title>
+                    </cit:CI_Citation>
+                  </mcc:authority>
+                  <mcc:code>
+                    <gco:CharacterString>https://drive.google.com/file/d/1pX5_kAg2EA6i3h838q6Rwo2u9JgcJgPe/view?usp=sharing</gco:CharacterString>
+                  </mcc:code>
+                </mcc:MD_Identifier>
+              </cit:identifier>
+            </cit:CI_Citation>
+          </mri:name>
+          <mri:associationType>
+            <mri:DS_AssociationTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DS_AssociationTypeCode" codeListValue="crossReference"></mri:DS_AssociationTypeCode>
+          </mri:associationType>
+        </mri:MD_AssociatedResource>
+      </mri:associatedResource>
       <mri:supplementalInformation>
         <gco:CharacterString></gco:CharacterString>
       </mri:supplementalInformation>
