@@ -43,56 +43,112 @@ distribution:
           à l'aide du service de traduction Amazon
         verified: false
   url: https://hecate.hakai.org/auth/access-request.php
-identification:
-  abstract:
-    en: "Temperature, conductivity, dissolved oxygen, fluorescence, photosynthetic\
-      \ active radiation, turbidity, and coloured dissolved organic matter data collected\
-      \ from 2012 to present by the Hakai Institute in waters surrounding Calvert\
-      \ Island, Johnstone Strait, and Quadra Island areas.\n\nThis includes datasets\
-      \ made by oceanographic profiler instruments (RBR XR-620, RBR Concerto, RBR\
-      \ Maestro, and Seabird SBE 19plus v2) which have been automatically processed\
-      \ by following respective manufacturer's guidelines (see Hakai Water Properties\
-      \ Profile Processing and QA/QC Procedure Manual). This also includes a dataset\
-      \ from a C-PROOF (Canadian Pacific Robotic Ocean Observing Facility) Wirewalker,\
-      \ a wave-powered profiler moored in Bute Inlet, a fjord on the British Columbia\
-      \ coast.\n\nThe provisional processed CTD data are then quality controlled by\
-      \ applying a series of tests that are following the QARTOD standards and more\
-      \ tests specific to the Hakai Institute data (see Hakai Water Properties Profile\
-      \ Processing and QA/QC Procedure Manual). The research CTD dataset provides\
-      \ a subset of the provisional dataset which has been manually reviewed and judged\
-      \ good for science quality level.\n\nTwo versions of the Wirewalker record are\
-      \ included: provisional data offloaded directly from the instrument, which is\
-      \ the more complete, and real-time data received via satellite, which is the\
-      \ more current. \n\nData were collected by the Hakai Institute Oceanography\
-      \ Program, the Nearshore Program, and the Juvenile Salmon Program."
-    fr: "Données sur la température, la conductivité, l'oxygène dissous, la fluorescence,\
-      \ le rayonnement photosynthétique actif, la turbidité et la matière organique\
-      \ dissoute colorée recueillies de 2012 à aujourd'hui par l'Institut Hakai dans\
-      \ les eaux entourant les régions de l'île Calvert, du détroit de Johnstone et\
-      \ de l'île Quadra.\n\nCela inclut des ensembles de données créés par des instruments\
-      \ de profilage océanographique (RBR XR-620, RBR Concerto, RBR Maestro et Seabird\
-      \ SBE 19plus v2) qui ont été automatiquement traités conformément aux directives\
-      \ des fabricants respectifs (voir Hakai Water Properties Profile Processing\
-      \ et QA/QC Procedure Manual). Cela inclut également un ensemble de données provenant\
-      \ d'un Wirewalker C-PROOF (Centre robotique d'observation des océans du Canada\
-      \ dans le Pacifique), un profileur houlomoteur amarré à Bute Inlet, un fjord\
-      \ sur la côte de la Colombie-Britannique.\n\nLes données CTD traitées provisoires\
-      \ sont ensuite contrôlées de qualité en appliquant une série de tests conformes\
-      \ aux normes QARTOD et d'autres tests spécifiques aux données de l'Institut\
-      \ Hakai (voir Hakai Water Profile Processing and QA/QC Procedure Manual). L'ensemble\
-      \ de données CTD de recherche fournit un sous-ensemble de l'ensemble de données\
-      \ provisoire qui a été examiné manuellement et jugé bon pour le niveau de qualité\
-      \ scientifique.\n\nDeux versions de l'enregistrement Wirewalker sont incluses :\
-      \ les données provisoires provenant directement de l'instrument, qui sont les\
-      \ plus complètes, et les données en temps réel reçues par satellite, qui sont\
-      \ les plus récentes. \n\nLes données ont été recueillies par le programme océanographique\
-      \ de l'Institut Hakai, le programme Nearshore et le programme sur les saumons\
-      \ juvéniles."
+- description:
+    en: 'Procedure manual (version 1.0, March 2021) for processing and quality-controlling
+      vertical ocean profile data, such as temperature, salinity, dissolved oxygen,
+      turbidity, and light. It describes how CTD instruments from RBR and Seabird
+      are deployed in the field and how their raw data are uploaded and matched with
+      field metadata. It then lists the automated processing steps for each instrument
+      type, which produce a consistent dataset averaged into 1-decibar depth bins.
+      Quality control follows the QARTOD flagging standard, plus custom tests for
+      problems like bottom hits, capped oxygen sensors, and boat shadow on light readings.
+      The data are released in two versions: a provisional dataset with automated
+      flags and a research dataset containing only manually reviewed, good-quality
+      data.'
+    fr: 'Manuel de procédures (version 1.0, mars 2021) pour le traitement et le contrôle
+      de la qualité des données du profil vertical de l''océan, telles que la température,
+      la salinité, l''oxygène dissous, la turbidité et la lumière. Il décrit comment
+      les instruments CTD de RBR et Seabird sont déployés sur le terrain et comment
+      leurs données brutes sont téléchargées et mises en correspondance avec les métadonnées
+      de terrain. Il répertorie ensuite les étapes de traitement automatisées pour
+      chaque type d''instrument, qui produisent un ensemble de données cohérent moyenné
+      dans des tranches de profondeur de 1 décibar. Le contrôle qualité est conforme
+      à la norme de signalisation QARTOD, ainsi que des tests personnalisés pour détecter
+      des problèmes tels que les impacts sur le fond, les capteurs d''oxygène bloqués
+      et l''ombre du bateau sur les lectures de lumière. Les données sont publiées
+      en deux versions : un ensemble de données provisoire avec des indicateurs automatisés
+      et un ensemble de données de recherche contenant uniquement des données de bonne
+      qualité révisées manuellement.'
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
           à l'aide du service de traduction Amazon
         verified: false
+  name:
+    en: Hakai Water Properties Profile Processing and QA/QC Procedure Manual (March
+      31, 2021)
+  url: https://github.com/HakaiInstitute/hakai-erddap/blob/master/datasets_documents/HakaiWaterPropertiesProfiles/Hakai_Water_Properties_Processing_and_QAQC_Procedure_20210331.pdf
+identification:
+  abstract:
+    en: 'This collection contains records that describe data (temperature, conductivity,
+      dissolved oxygen, fluorescence, photosynthetic active radiation, turbidity and
+      coloured dissolved organic matter) collected from vertical water property profiles.
+      These data were collected from ship-based casts and autonomous profilers by
+      the Hakai Institute from 2012 to present in waters surrounding Calvert Island,
+      Johnstone Strait, and Quadra Island areas. Users are encouraged to navigate
+      to the individual records holding their data of interest, or request specific
+      data using the Data Access Request Form.
+
+
+      Specifically, this collection includes CTD datasets made by oceanographic profiler
+      instruments (RBR XR-620, RBR Concerto, RBR Maestro, and Seabird SBE 19plus v2)
+      which have been automatically processed by following respective manufacturer’s
+      guidelines. Both the provisional (no manual QC) and the research-ready dataset
+      are made available. The research-ready dataset provides a subset of the provisional
+      dataset which have been quality controlled by applying a series of tests that
+      are following the QARTOD standards and more tests specific to the Hakai Institute
+      (see Hakai Water Properties Profile Processing and QA/QC Procedure Manual).
+      The research-ready data are judged good for science quality level.
+
+
+      Further, two versions of a dataset from a C-PROOF (Canadian Pacific Robotic
+      Ocean Observing Facility) Wirewalker are made available. The Wirewalker is a
+      wave-powered profiler moored in Bute Inlet, a fjord on the British Columbia
+      coast. The two versions include provisional data offloaded directly from the
+      instrument, which is the more complete dataset, and real-time data received
+      via a satellite, which is the more current dataset.
+
+
+      Data were collected by the Hakai Institute Oceanography Program, the Nearshore
+      Program, and the Juvenile Salmon Program.'
+    fr: 'Cette collection contient des dossiers qui décrivent les données (température,
+      conductivité, oxygène dissous, fluorescence, rayonnement photosynthétique actif,
+      turbidité et matière organique dissoute colorée) recueillies à partir de profils
+      verticaux des propriétés de l''eau. Ces données ont été collectées à partir
+      de moulages embarqués et de profileurs autonomes par l''Institut Hakai de 2012
+      à aujourd''hui dans les eaux entourant les zones de l''île Calvert, du détroit
+      de Johnstone et de l''île Quadra. Les utilisateurs sont invités à accéder aux
+      dossiers individuels contenant les données qui les intéressent ou à demander
+      des données spécifiques à l''aide du formulaire de demande d''accès aux données.
+
+
+      Plus précisément, cette collection comprend des ensembles de données CTD créés
+      par des instruments de profilage océanographique (RBR XR-620, RBR Concerto,
+      RBR Maestro et Seabird SBE 19plus v2) qui ont été traités automatiquement conformément
+      aux directives des fabricants respectifs. L''ensemble de données provisoire
+      (pas de contrôle qualité manuel) et l''ensemble de données prêt pour la recherche
+      sont disponibles. L''ensemble de données prêt pour la recherche fournit un sous-ensemble
+      de l''ensemble de données provisoire dont la qualité a été contrôlée en appliquant
+      une série de tests conformes aux normes QARTOD et d''autres tests spécifiques
+      à l''Institut Hakai (voir Hakai Water Properties Profile Processing and QA/QC
+      Procedure Manual). Les données prêtes pour la recherche sont jugées bonnes pour
+      le niveau de qualité scientifique.
+
+
+      De plus, deux versions d''un ensemble de données provenant d''un Wirewalker
+      C-PROOF (Centre robotique canadien d''observation des océans du Pacifique) sont
+      disponibles. Le Wirewalker est un profileur houlomoteur amarré à Bute Inlet,
+      un fjord situé sur la côte de la Colombie-Britannique. Les deux versions incluent
+      des données provisoires provenant directement de l''instrument, qui est l''ensemble
+      de données le plus complet, et des données en temps réel reçues via un satellite,
+      qui est l''ensemble de données le plus récent.
+
+
+      Les données ont été recueillies par le programme océanographique de l''Institut
+      Hakai, le programme Nearshore et le programme sur les saumons juvéniles.'
+    translations:
+      fr:
+        verified: true
   associated_resources:
   - association_type: HasPart
     association_type_iso: isComposedOf
@@ -152,7 +208,7 @@ identification:
             à l'aide du service de traduction Amazon
           verified: false
   dates:
-    creation: '2016-06-06'
+    creation: '2012-06-06'
   keywords:
     default:
       en:
@@ -206,7 +262,7 @@ identification:
   - Oceanography
   - Nearshore
   status: submitted
-  temporal_begin: '2016-06-06T19:00:00.000Z'
+  temporal_begin: '2012-06-06T19:00:00.000Z'
   title:
     en: Vertical water property profiles from ship-based casts and autonomous profilers
       in coastal British Columbia, Canada
@@ -220,7 +276,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-09-09T16:04:01.788Z'
+    revision: '2026-10-08T18:19:51.218Z'
   identifier: 94d216e4-79b5-49cd-a940-bdaecaaa674a
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/r2gsDHcT0XUHWoqTuoY0oYazOtn1/-P0cXPSQkhOyMfk9LciL

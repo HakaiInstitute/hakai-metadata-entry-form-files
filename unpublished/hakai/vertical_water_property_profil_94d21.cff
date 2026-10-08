@@ -1,22 +1,26 @@
-abstract: "Temperature, conductivity, dissolved oxygen, fluorescence, photosynthetic\
-  \ active radiation, turbidity, and coloured dissolved organic matter data collected\
-  \ from 2012 to present by the Hakai Institute in waters surrounding Calvert Island,\
-  \ Johnstone Strait, and Quadra Island areas.\n\nThis includes datasets made by oceanographic\
-  \ profiler instruments (RBR XR-620, RBR Concerto, RBR Maestro, and Seabird SBE 19plus\
-  \ v2) which have been automatically processed by following respective manufacturer's\
-  \ guidelines (see Hakai Water Properties Profile Processing and QA/QC Procedure\
-  \ Manual). This also includes a dataset from a C-PROOF (Canadian Pacific Robotic\
-  \ Ocean Observing Facility) Wirewalker, a wave-powered profiler moored in Bute Inlet,\
-  \ a fjord on the British Columbia coast.\n\nThe provisional processed CTD data are\
-  \ then quality controlled by applying a series of tests that are following the QARTOD\
-  \ standards and more tests specific to the Hakai Institute data (see Hakai Water\
-  \ Properties Profile Processing and QA/QC Procedure Manual). The research CTD dataset\
-  \ provides a subset of the provisional dataset which has been manually reviewed\
-  \ and judged good for science quality level.\n\nTwo versions of the Wirewalker record\
-  \ are included: provisional data offloaded directly from the instrument, which is\
-  \ the more complete, and real-time data received via satellite, which is the more\
-  \ current. \n\nData were collected by the Hakai Institute Oceanography Program,\
-  \ the Nearshore Program, and the Juvenile Salmon Program."
+abstract: "This collection contains records that describe data (temperature, conductivity,\
+  \ dissolved oxygen, fluorescence, photosynthetic active radiation, turbidity and\
+  \ coloured dissolved organic matter) collected from vertical water property profiles.\
+  \ These data were collected from ship-based casts and autonomous profilers by the\
+  \ Hakai Institute from 2012 to present in waters surrounding Calvert Island, Johnstone\
+  \ Strait, and Quadra Island areas. Users are encouraged to navigate to the individual\
+  \ records holding their data of interest, or request specific data using the Data\
+  \ Access Request Form.\n\nSpecifically, this collection includes CTD datasets made\
+  \ by oceanographic profiler instruments (RBR XR-620, RBR Concerto, RBR Maestro,\
+  \ and Seabird SBE 19plus v2) which have been automatically processed by following\
+  \ respective manufacturer\u2019s guidelines. Both the provisional (no manual QC)\
+  \ and the research-ready dataset are made available. The research-ready dataset\
+  \ provides a subset of the provisional dataset which have been quality controlled\
+  \ by applying a series of tests that are following the QARTOD standards and more\
+  \ tests specific to the Hakai Institute (see Hakai Water Properties Profile Processing\
+  \ and QA/QC Procedure Manual). The research-ready data are judged good for science\
+  \ quality level.\n\nFurther, two versions of a dataset from a C-PROOF (Canadian\
+  \ Pacific Robotic Ocean Observing Facility) Wirewalker are made available. The Wirewalker\
+  \ is a wave-powered profiler moored in Bute Inlet, a fjord on the British Columbia\
+  \ coast. The two versions include provisional data offloaded directly from the instrument,\
+  \ which is the more complete dataset, and real-time data received via a satellite,\
+  \ which is the more current dataset.\n\nData were collected by the Hakai Institute\
+  \ Oceanography Program, the Nearshore Program, and the Juvenile Salmon Program."
 authors:
 - affiliation: Hakai Institute
   city: Campbell River
@@ -24,7 +28,7 @@ authors:
   email: data@hakai.org
   website: https://www.hakai.org/
 cff-version: 1.2.0
-date-released: '2026-09-09'
+date-released: '2026-10-08'
 identifiers:
 - description: ca.cioos Unique Identifier
   type: other
@@ -39,6 +43,20 @@ identifiers:
     to request permission to access Hakai data (requires Google Account login)'
   type: url
   value: https://hecate.hakai.org/auth/access-request.php
+- description: 'Hakai Water Properties Profile Processing and QA/QC Procedure Manual
+    (March 31, 2021): Procedure manual (version 1.0, March 2021) for processing and
+    quality-controlling vertical ocean profile data, such as temperature, salinity,
+    dissolved oxygen, turbidity, and light. It describes how CTD instruments from
+    RBR and Seabird are deployed in the field and how their raw data are uploaded
+    and matched with field metadata. It then lists the automated processing steps
+    for each instrument type, which produce a consistent dataset averaged into 1-decibar
+    depth bins. Quality control follows the QARTOD flagging standard, plus custom
+    tests for problems like bottom hits, capped oxygen sensors, and boat shadow on
+    light readings. The data are released in two versions: a provisional dataset with
+    automated flags and a research dataset containing only manually reviewed, good-quality
+    data.'
+  type: url
+  value: https://github.com/HakaiInstitute/hakai-erddap/blob/master/datasets_documents/HakaiWaterPropertiesProfiles/Hakai_Water_Properties_Processing_and_QAQC_Procedure_20210331.pdf
 keywords:
 - bute-inlet
 - calvert-island

@@ -480,7 +480,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-09-09T16:04:01.788Z</gco:DateTime>
+        <gco:DateTime>2026-10-08T18:19:51.218Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -537,7 +537,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -550,7 +550,7 @@
   <mdb:otherLocale>
     <lan:PT_Locale>
       <lan:language>
-        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="fra"></lan:LanguageCode>
+        <lan:LanguageCode codeList="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" codeListValue="eng"></lan:LanguageCode>
       </lan:language>
       <lan:country>
         <lan:CountryCode codeList="https://en.wikipedia.org/wiki/ISO_3166-1" codeListValue="CAN"></lan:CountryCode>
@@ -575,7 +575,7 @@
           <cit:date>
             <cit:CI_Date>
               <cit:date>
-                <gco:Date>2016-06-06</gco:Date>
+                <gco:Date>2012-06-06</gco:Date>
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -949,24 +949,20 @@
         </cit:CI_Citation>
       </mri:citation>
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
-        <gco:CharacterString>Temperature, conductivity, dissolved oxygen, fluorescence, photosynthetic active radiation, turbidity, and coloured dissolved organic matter data collected from 2012 to present by the Hakai Institute in waters surrounding Calvert Island, Johnstone Strait, and Quadra Island areas.
+        <gco:CharacterString>This collection contains records that describe data (temperature, conductivity, dissolved oxygen, fluorescence, photosynthetic active radiation, turbidity and coloured dissolved organic matter) collected from vertical water property profiles. These data were collected from ship-based casts and autonomous profilers by the Hakai Institute from 2012 to present in waters surrounding Calvert Island, Johnstone Strait, and Quadra Island areas. Users are encouraged to navigate to the individual records holding their data of interest, or request specific data using the Data Access Request Form.
 
-This includes datasets made by oceanographic profiler instruments (RBR XR-620, RBR Concerto, RBR Maestro, and Seabird SBE 19plus v2) which have been automatically processed by following respective manufacturer&#39;s guidelines (see Hakai Water Properties Profile Processing and QA/QC Procedure Manual). This also includes a dataset from a C-PROOF (Canadian Pacific Robotic Ocean Observing Facility) Wirewalker, a wave-powered profiler moored in Bute Inlet, a fjord on the British Columbia coast.
+Specifically, this collection includes CTD datasets made by oceanographic profiler instruments (RBR XR-620, RBR Concerto, RBR Maestro, and Seabird SBE 19plus v2) which have been automatically processed by following respective manufacturer’s guidelines. Both the provisional (no manual QC) and the research-ready dataset are made available. The research-ready dataset provides a subset of the provisional dataset which have been quality controlled by applying a series of tests that are following the QARTOD standards and more tests specific to the Hakai Institute (see Hakai Water Properties Profile Processing and QA/QC Procedure Manual). The research-ready data are judged good for science quality level.
 
-The provisional processed CTD data are then quality controlled by applying a series of tests that are following the QARTOD standards and more tests specific to the Hakai Institute data (see Hakai Water Properties Profile Processing and QA/QC Procedure Manual). The research CTD dataset provides a subset of the provisional dataset which has been manually reviewed and judged good for science quality level.
-
-Two versions of the Wirewalker record are included: provisional data offloaded directly from the instrument, which is the more complete, and real-time data received via satellite, which is the more current. 
+Further, two versions of a dataset from a C-PROOF (Canadian Pacific Robotic Ocean Observing Facility) Wirewalker are made available. The Wirewalker is a wave-powered profiler moored in Bute Inlet, a fjord on the British Columbia coast. The two versions include provisional data offloaded directly from the instrument, which is the more complete dataset, and real-time data received via a satellite, which is the more current dataset.
 
 Data were collected by the Hakai Institute Oceanography Program, the Nearshore Program, and the Juvenile Salmon Program.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
-            <lan:LocalisedCharacterString locale="#fr">Données sur la température, la conductivité, l&#39;oxygène dissous, la fluorescence, le rayonnement photosynthétique actif, la turbidité et la matière organique dissoute colorée recueillies de 2012 à aujourd&#39;hui par l&#39;Institut Hakai dans les eaux entourant les régions de l&#39;île Calvert, du détroit de Johnstone et de l&#39;île Quadra.
+          <lan:textGroup>
+            <lan:LocalisedCharacterString locale="#fr">Cette collection contient des dossiers qui décrivent les données (température, conductivité, oxygène dissous, fluorescence, rayonnement photosynthétique actif, turbidité et matière organique dissoute colorée) recueillies à partir de profils verticaux des propriétés de l&#39;eau. Ces données ont été collectées à partir de moulages embarqués et de profileurs autonomes par l&#39;Institut Hakai de 2012 à aujourd&#39;hui dans les eaux entourant les zones de l&#39;île Calvert, du détroit de Johnstone et de l&#39;île Quadra. Les utilisateurs sont invités à accéder aux dossiers individuels contenant les données qui les intéressent ou à demander des données spécifiques à l&#39;aide du formulaire de demande d&#39;accès aux données.
 
-Cela inclut des ensembles de données créés par des instruments de profilage océanographique (RBR XR-620, RBR Concerto, RBR Maestro et Seabird SBE 19plus v2) qui ont été automatiquement traités conformément aux directives des fabricants respectifs (voir Hakai Water Properties Profile Processing et QA/QC Procedure Manual). Cela inclut également un ensemble de données provenant d&#39;un Wirewalker C-PROOF (Centre robotique d&#39;observation des océans du Canada dans le Pacifique), un profileur houlomoteur amarré à Bute Inlet, un fjord sur la côte de la Colombie-Britannique.
+Plus précisément, cette collection comprend des ensembles de données CTD créés par des instruments de profilage océanographique (RBR XR-620, RBR Concerto, RBR Maestro et Seabird SBE 19plus v2) qui ont été traités automatiquement conformément aux directives des fabricants respectifs. L&#39;ensemble de données provisoire (pas de contrôle qualité manuel) et l&#39;ensemble de données prêt pour la recherche sont disponibles. L&#39;ensemble de données prêt pour la recherche fournit un sous-ensemble de l&#39;ensemble de données provisoire dont la qualité a été contrôlée en appliquant une série de tests conformes aux normes QARTOD et d&#39;autres tests spécifiques à l&#39;Institut Hakai (voir Hakai Water Properties Profile Processing and QA/QC Procedure Manual). Les données prêtes pour la recherche sont jugées bonnes pour le niveau de qualité scientifique.
 
-Les données CTD traitées provisoires sont ensuite contrôlées de qualité en appliquant une série de tests conformes aux normes QARTOD et d&#39;autres tests spécifiques aux données de l&#39;Institut Hakai (voir Hakai Water Profile Processing and QA/QC Procedure Manual). L&#39;ensemble de données CTD de recherche fournit un sous-ensemble de l&#39;ensemble de données provisoire qui a été examiné manuellement et jugé bon pour le niveau de qualité scientifique.
-
-Deux versions de l&#39;enregistrement Wirewalker sont incluses : les données provisoires provenant directement de l&#39;instrument, qui sont les plus complètes, et les données en temps réel reçues par satellite, qui sont les plus récentes. 
+De plus, deux versions d&#39;un ensemble de données provenant d&#39;un Wirewalker C-PROOF (Centre robotique canadien d&#39;observation des océans du Pacifique) sont disponibles. Le Wirewalker est un profileur houlomoteur amarré à Bute Inlet, un fjord situé sur la côte de la Colombie-Britannique. Les deux versions incluent des données provisoires provenant directement de l&#39;instrument, qui est l&#39;ensemble de données le plus complet, et des données en temps réel reçues via un satellite, qui est l&#39;ensemble de données le plus récent.
 
 Les données ont été recueillies par le programme océanographique de l&#39;Institut Hakai, le programme Nearshore et le programme sur les saumons juvéniles.</lan:LocalisedCharacterString>
           </lan:textGroup>
@@ -1045,7 +1041,7 @@ Les données ont été recueillies par le programme océanographique de l&#39;In
             <gex:EX_TemporalExtent>
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
-                  <gml:beginPosition>2016-06-06T19:00:00.000Z</gml:beginPosition>
+                  <gml:beginPosition>2012-06-06T19:00:00.000Z</gml:beginPosition>
                   <gml:endPosition indeterminatePosition="now" />
                 </gml:TimePeriod>
               </gex:extent>
@@ -1579,6 +1575,31 @@ Les données ont été recueillies par le programme océanographique de l&#39;In
                 <lan:PT_FreeText>
                   <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
                     <lan:LocalisedCharacterString locale="#fr">Utilisez ce formulaire d&#39;inscription pour demander l&#39;autorisation d&#39;accéder aux données Hakai (nécessite une connexion à un compte Google)</lan:LocalisedCharacterString>
+                  </lan:textGroup>
+                </lan:PT_FreeText>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>https://github.com/HakaiInstitute/hakai-erddap/blob/master/datasets_documents/HakaiWaterPropertiesProfiles/Hakai_Water_Properties_Processing_and_QAQC_Procedure_20210331.pdf</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol>
+                <gco:CharacterString>WWW:LINK</gco:CharacterString>
+              </cit:protocol>
+              <cit:name>
+                <gco:CharacterString>Hakai Water Properties Profile Processing and QA/QC Procedure Manual (March 31, 2021)</gco:CharacterString>
+              </cit:name>
+              <cit:description xsi:type="lan:PT_FreeText_PropertyType">
+                <gco:CharacterString>Procedure manual (version 1.0, March 2021) for processing and quality-controlling vertical ocean profile data, such as temperature, salinity, dissolved oxygen, turbidity, and light. It describes how CTD instruments from RBR and Seabird are deployed in the field and how their raw data are uploaded and matched with field metadata. It then lists the automated processing steps for each instrument type, which produce a consistent dataset averaged into 1-decibar depth bins. Quality control follows the QARTOD flagging standard, plus custom tests for problems like bottom hits, capped oxygen sensors, and boat shadow on light readings. The data are released in two versions: a provisional dataset with automated flags and a research dataset containing only manually reviewed, good-quality data.</gco:CharacterString>
+                <lan:PT_FreeText>
+                  <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+                    <lan:LocalisedCharacterString locale="#fr">Manuel de procédures (version 1.0, mars 2021) pour le traitement et le contrôle de la qualité des données du profil vertical de l&#39;océan, telles que la température, la salinité, l&#39;oxygène dissous, la turbidité et la lumière. Il décrit comment les instruments CTD de RBR et Seabird sont déployés sur le terrain et comment leurs données brutes sont téléchargées et mises en correspondance avec les métadonnées de terrain. Il répertorie ensuite les étapes de traitement automatisées pour chaque type d&#39;instrument, qui produisent un ensemble de données cohérent moyenné dans des tranches de profondeur de 1 décibar. Le contrôle qualité est conforme à la norme de signalisation QARTOD, ainsi que des tests personnalisés pour détecter des problèmes tels que les impacts sur le fond, les capteurs d&#39;oxygène bloqués et l&#39;ombre du bateau sur les lectures de lumière. Les données sont publiées en deux versions : un ensemble de données provisoire avec des indicateurs automatisés et un ensemble de données de recherche contenant uniquement des données de bonne qualité révisées manuellement.</lan:LocalisedCharacterString>
                   </lan:textGroup>
                 </lan:PT_FreeText>
               </cit:description>
