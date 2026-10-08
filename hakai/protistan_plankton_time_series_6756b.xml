@@ -1283,7 +1283,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-10-08T18:50:30.953Z</gco:DateTime>
+        <gco:DateTime>2026-10-08T18:55:59.009Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2546,7 +2546,7 @@ In the northern Salish Sea, portions of the station QU39 time series were publis
 
 Phytoplankton form the base of the marine food web and drive marine biogeochemical cycling. These species have high turnover rates and quickly respond to environmental perturbation. As a result they are valuable indicators of ecological change. High temporal resolution long term time series are invaluable for investigating dynamic coastal waters with highly variable protistan plankton communities.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
+          <lan:textGroup>
             <lan:LocalisedCharacterString locale="#fr">Le programme océanographique de l&#39;Institut Hakai a surveillé la composition de la communauté de plancton protiste, par microscopie optique, dans plusieurs séries chronologiques et stations de relevés spatiaux dans le nord de la mer des Salish (détroit de Géorgie) et la côte centrale, ainsi qu&#39;à False Creek, en Colombie-Britannique, de 2016 à 2025. 
 
 Des échantillons d&#39;eau ont été prélevés à l&#39;aide d&#39;une bouteille Niskin provenant de petits navires de recherche (moins de 40 pieds). L&#39;échantillon d&#39;eau a été transféré dans des bouteilles en verre ambré de 250 ml et immédiatement fixé à l&#39;aide de la solution acido-iodée de Lugol (concentration de 1 %) (Edler &amp; Elbrächter 2010 ; Del Bel Belluz et al., 2021). Les échantillons ont été conservés au frais et conservés dans un réfrigérateur sombre jusqu&#39;à ce que l&#39;analyse soit effectuée par le Dr Louis Hobson au LCLJ Marine Ecological Services à Victoria, en Colombie-Britannique. Le plancton protiste a été dénombré selon la méthode Utermöhl (Utermöhl, 1931 ; Edler &amp; Elbrächter 2010) en utilisant des chambres de sédimentation de 50 ml et une microscopie à contraste de phase sur un microscope à lumière inversée (Hobson et Galbraith, 2018). L&#39;analyse cible les protistes autotrophes, mais inclut tous les taxons visibles, y compris les espèces de microzooplancton mixotrophes et hétérotrophes. De plus, les espèces d&#39;algues nuisibles sont recensées. L&#39;analyste est généralement capable de déterminer les espèces aussi petites que 4 um et les taxons sont classés au niveau taxonomique le plus bas, généralement selon le genre ou l&#39;espèce. Les résultats sont fournis en termes d&#39;abondance des espèces dans les cellules/L. 
@@ -2573,20 +2573,23 @@ Le phytoplancton constitue la base du réseau trophique marin et stimule le cycl
       <mri:extent>
         <gex:EX_Extent>
           <gex:geographicElement>
-            <gex:EX_BoundingPolygon>
+            <gex:EX_GeographicBoundingBox>
               <gex:extentTypeCode>
                 <gco:Boolean>true</gco:Boolean>
               </gex:extentTypeCode>
-              <gex:polygon>
-                <gml:Polygon gml:id="a1">
-                  <gml:exterior>
-                    <gml:LinearRing>
-                      <gml:coordinates>-128.5,52.27 -127.4,52.21 -127.2,51.66 -125.6,51.13 -124.8,50.96 -124.1,50.43 -124.7,49.98 -124.9,49.80 -126.7,50.45 -128.1,51.37 -128.4,51.69 -128.5,52.27</gml:coordinates>
-                    </gml:LinearRing>
-                  </gml:exterior>
-                </gml:Polygon>
-              </gex:polygon>
-            </gex:EX_BoundingPolygon>
+              <gex:westBoundLongitude>
+                <gco:Decimal>-123.1</gco:Decimal>
+              </gex:westBoundLongitude>
+              <gex:eastBoundLongitude>
+                <gco:Decimal>-128.54</gco:Decimal>
+              </gex:eastBoundLongitude>
+              <gex:southBoundLatitude>
+                <gco:Decimal>52.483</gco:Decimal>
+              </gex:southBoundLatitude>
+              <gex:northBoundLatitude>
+                <gco:Decimal>49.25</gco:Decimal>
+              </gex:northBoundLatitude>
+            </gex:EX_GeographicBoundingBox>
           </gex:geographicElement>
         </gex:EX_Extent>
       </mri:extent>
@@ -2600,7 +2603,7 @@ Le phytoplancton constitue la base du réseau trophique marin et stimule le cycl
               <gex:geographicIdentifier>
                 <mcc:MD_Identifier>
                   <mcc:code>
-                    <gco:CharacterString></gco:CharacterString>
+                    <gco:CharacterString>d6f416e8-5d87-4d8f-93fb-e77797eb7a77</gco:CharacterString>
                   </mcc:code>
                   <mcc:codeSpace>
                     <gco:CharacterString>ca.cioos</gco:CharacterString>
@@ -2609,7 +2612,7 @@ Le phytoplancton constitue la base du réseau trophique marin et stimule le cycl
                     <gco:CharacterString>1</gco:CharacterString>
                   </mcc:version>
                   <mcc:description>
-                    <gco:CharacterString>{&#39;en&#39;: &#39;In the northern Salish Sea, data were collected at station QU39 (50.03N, -125.10W). On the central coast, data were collected monthly at three locations: within a fjord (River’s Inlet, DFO2, 51.52N, -127.56W), Fitz-Hugh Channel (KC10, 51.65N, -127.95W) and on the shelf (QCS01, 51.71N, -128.24W).&#39;, &#39;fr&#39;: &#34;Dans le nord de la mer des Salish, les données ont été recueillies à la station QU39 (50,03N, -125,10W). Sur la côte centrale, les données ont été recueillies chaque mois à trois endroits\xa0: dans un fjord (River&#39;s Inlet, DFO2, 51,52 N, -127,56W), dans le chenal Fitz-Hugh (KC10, 51,65N, -127,95W) et sur le plateau (QCS01, 51,71N, -128,24W).&#34;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
+                    <gco:CharacterString>{&#39;en&#39;: &#39;In the northern Salish Sea, 10-years of data were collected at the core time-series station QU39 (50.03N, -125.10W). Shorter time series and extensive spatial data are provided from stations within Knight, Bute and Toba Inlets and at a nearshore station directly off of the Hakai Quadra Island Field Station  On the central coast, data were collected at three core time series locations: within a fjord (River’s Inlet, DFO2, 51.52N, -127.56W), Fitz-Hugh Channel (KC10, 51.65N, -127.95W) and on the shelf (QCS01, 51.71N, -128.24W). Data now include spatial transect surveys from within Dean and Burke Inlets outwards to the shelf via Hakai Pass.  Spatial data are provided from False Creek, British Columbia, collected during the False Creek Bioblitz.&#39;, &#39;fr&#39;: &#34;Dans le nord de la mer des Salish, 10 ans de données ont été recueillies à la station principale de séries chronologiques QU39 (50,03N, -125,10W). Des séries chronologiques plus courtes et des données spatiales complètes sont fournies par des stations situées dans les bras de mer de Knight, Bute et Toba et par une station côtière située directement au large de la station de terrain de l&#39;île Hakai Quadra. Sur la côte centrale, les données ont été collectées à trois sites de séries chronologiques principaux\xa0: dans un fjord (River&#39;s Inlet, DFO2, 51,52N, -127,56W), dans le chenal Fitz-Hugh (KC10, 51,65N, -127,95W) et sur l&#39;étagère (QCS01, 51,71N, -128,24W). Les données incluent désormais des relevés de transects spatiaux depuis les bras de mer Dean et Burke jusqu&#39;au plateau via le col Hakai. Les données spatiales proviennent de False Creek, en Colombie-Britannique, recueillies lors du Bioblitz de False Creek.&#34;, &#39;translations&#39;: {&#39;fr&#39;: {&#39;message&#39;: &#34;text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon&#34;, &#39;verified&#39;: False}}}</gco:CharacterString>
                   </mcc:description>
                 </mcc:MD_Identifier>
               </gex:geographicIdentifier>
@@ -2625,7 +2628,7 @@ Le phytoplancton constitue la base du réseau trophique marin et stimule le cycl
                 <gco:Real>1.0</gco:Real>
               </gex:minimumValue>
               <gex:maximumValue>
-                <gco:Real>6.0</gco:Real>
+                <gco:Real>21.0</gco:Real>
               </gex:maximumValue>
               <gex:verticalCRSId>
                 <mrs:MD_ReferenceSystem>
