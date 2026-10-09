@@ -1,0 +1,162 @@
+contact:
+- inCitation: true
+  individual:
+    email: chris.hebda@hakai.org
+    name: Hebda, Christopher
+    orcid: https://orcid.org/0000-0003-3816-0897
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - author
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Form to request data access
+    fr: Formulaire de demande d'accès aux données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Data Access Request Form
+    fr: Formulaire de demande d'accès aux données
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://hecate.hakai.org/auth/access-request.php?ref=https://doi.org/10.21966/rnj9-jk18
+identification:
+  abstract:
+    en: Fossil pollen data spanning the late Pleistocene and early Holocene from six
+      sites on northern Vancouver Island, informing postglacial environmental change
+      and glacial history in coastal British Columbia.
+    fr: Des données sur le pollen fossile couvrant la fin du Pléistocène et le début
+      de l'Holocène provenant de six sites du nord de l'île de Vancouver, éclairent
+      les changements environnementaux postglaciaires et l'histoire glaciaire de la
+      côte de la Colombie-Britannique.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources:
+  - association_type: IsPublishedIn
+    association_type_iso: largerWorkCitation
+    authority: DOI
+    code: https://doi.org/10.1016/j.quaint.2025.109955
+    title:
+      en: 'Paper: Late Pleistocene vegetation and climate history of northern Vancouver
+        Island, Canada: spatiotemporal variation in deglacial ecology along the Pacific
+        margin of the Cordilleran Ice Sheet'
+      fr: 'Article : Histoire de la végétation et du climat du Pléistocène supérieur
+        du nord de l''île de Vancouver, au Canada : variation spatio-temporelle de
+        l''écologie déglaciaire le long de la marge pacifique de la calotte glaciaire
+        de la Cordillère'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2020-09-01'
+    publication: '2025-10-10'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/rnj9-jk18
+  keywords:
+    default:
+      en:
+      - pollen
+      - Late Pleistocene
+      - Vancouver Island
+      - Early Holocene
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: completed
+  project:
+  - Paleoecology
+  status: published
+  temporal_begin: '2020-09-01T19:00:00.000Z'
+  temporal_end: '2024-11-30T20:00:00.000Z'
+  title:
+    en: Late Pleistocene and early Holocene pollen data from northern Vancouver Island,
+      Canada
+    fr: Données sur le pollen du Pléistocène supérieur et du début de l'Holocène dans
+      le nord de l'île de Vancouver, au Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+instruments:
+- id: Livingstone corer (5 cm dia.)
+metadata:
+  dates:
+    revision: '2026-10-09T19:59:39.411Z'
+  identifier: a161a9c2-6d65-4a0a-aca0-97fe36e6aac9
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/DHSkuoSvEFfpPXywKVHxZF9D6Lt2/-OHJFzfosnjtiatBiksa
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  bbox:
+  - -128.3
+  - 50.13
+  - -127.5
+  - 50.95
+  description:
+    en: Data from six lakes on northern Vancouver Island
+    fr: Données provenant de six lacs du nord de l'île de Vancouver
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  vertical:
+  - 0.45
+  - 150.0
+  vertical_positive: depthPositive
