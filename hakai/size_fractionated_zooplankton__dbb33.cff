@@ -4,9 +4,9 @@ abstract: 'This dataset contains size-fractionated zooplankton biomass and isoto
   onto GF/F filters where weights are taken throughout the process to help determine
   the biomass prior to being sent for isotope analysis at the University of California
   Davis Stable Isotope Facility. These samples have been collected biweekly to monthly
-  since 2015 in the northern Strait of Georgia, British Columbia, and approximately
-  every 4-6 weeks since 2012 between Kwakshua Channel and Rivers Inlet on British
-  Columbia''s Central Coast.
+  from 2015-2025 in the northern Strait of Georgia, British Columbia, and approximately
+  every 4-6 weeks 2012-2021 between Kwakshua Channel and Rivers Inlet on British Columbia''s
+  Central Coast.
 
 
   This data package includes:
@@ -16,25 +16,9 @@ abstract: 'This dataset contains size-fractionated zooplankton biomass and isoto
   - Size-fractionated stable isotope results
 
 
-  Data will be made publicly available upon paper publication, but until then users
-  are encouraged to reach out to request data access and for collaboration opportunities.'
+  Data packages only include results that have gone through our metadata QC protocol.
+  Users can reach out to request data not included and for collaborative opportunities.'
 authors:
-- affiliation: Hakai Institute
-  city: Campbell River
-  country: CA
-  email: colleen.kellogg@hakai.org
-  family-names: Kellogg
-  given-names: Colleen
-  orcid: https://orcid.org/0000-0003-4048-5316
-  website: https://www.hakai.org/
-- affiliation: Hakai Institute
-  city: Campbell River
-  country: CA
-  email: kimberly.bedard@hakai.org
-  family-names: Bedard
-  given-names: Kimberly
-  orcid: https://orcid.org/0009-0003-0071-867X
-  website: https://www.hakai.org/
 - affiliation: Hakai Institute
   city: Campbell River
   country: CA
@@ -43,20 +27,11 @@ authors:
   given-names: Drew
   orcid: https://orcid.org/0009-0008-0197-9261
   website: https://www.hakai.org/
-- city: Campbell River
-  country: CA
-  email: data@hakai.org
-  name: Hakai Institute
-  website: https://www.hakai.org/
-cff-version: 1.2.0
-contact:
 - affiliation: Hakai Institute
   city: Campbell River
   country: CA
-  email: colleen.kellogg@hakai.org
-  family-names: Kellogg
-  given-names: Colleen
-  orcid: https://orcid.org/0000-0003-4048-5316
+  family-names: Bergshoeff
+  given-names: Jon
   website: https://www.hakai.org/
 - affiliation: Hakai Institute
   city: Campbell River
@@ -66,6 +41,21 @@ contact:
   given-names: Kimberly
   orcid: https://orcid.org/0009-0003-0071-867X
   website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: colleen.kellogg@hakai.org
+  family-names: Kellogg
+  given-names: Colleen
+  orcid: https://orcid.org/0000-0003-4048-5316
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+contact:
 - affiliation: Hakai Institute
   city: Campbell River
   country: CA
@@ -106,4 +96,4 @@ message: If you use this software, please cite it as below
 title: Size-fractionated zooplankton biomass and isotopes along the BC coast
 type: dataset
 url: https://catalogue.hakai.org/dataset/ca-cioos_dbb33efe-c207-4d9c-abef-2350595bf47a
-version: '1.0'
+version: '1.1'
