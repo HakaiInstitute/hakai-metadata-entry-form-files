@@ -16,14 +16,14 @@ Checklist source: https://github.com/HakaiInstitute/hakai-metadata-entry-form/bl
 ## Facts to establish first
 
 - **Resource type:** `metadata.scope`. If absent, treat as `dataset` (the export omits the default). Other values: `collection`, `document`, `service`.
-- **Theme (Oceanographic / Biological / Other):** this form field is NOT exported. Infer it from EOV keywords (`identification.keywords.eov`), title, abstract and keywords, and state the inferred theme in the report so the user can correct it.
 - **Public or not:** follow each Primary Resource link (see Data and Documentation). Data is public only if reachable without a login and not just via the Data Access Request Form.
 - **Has DOI:** `identification.identifier` holds a `https://doi.org/...` value.
 
 ## Start
 
-- **Earlier versions (WARNING if a possible older version is found; CONSIDERATION for related or associated works):** compare the title against the published records in `hakai/*.yaml` (`identification.title.en`). Search only for similar-looking titles. Flag possible older versions and closely related records (same topic, location or instrument), and name them. Possible older versions are a WARNING. Related or associated works (same topic, location, instrument or source data, but not an older version) are only a CONSIDERATION, never a warning. Never FAIL on this; the user decides. For every record named, give its title and a link to it in the report: the catalogue URL `https://catalogue.hakai.org/dataset/ca-cioos_<metadata.identifier>` (take the identifier from that record's yaml). Do not link to the yaml files. Separate "possible older version" from "related or associated work".
+- **Earlier versions (WARNING if a possible older version is found; CONSIDERATION for related or associated works):** compare the title against the published records in `hakai/*.yaml` (`identification.title.en`). Search only for similar-looking titles. Flag possible older versions and closely related records (same topic, location or instrument), and name them. Possible older versions are a WARNING. Related or associated works (same topic, location, instrument or source data, but not an older version) are only a CONSIDERATION, never a warning. A published record that this record already lists in `identification.associated_resources` (matched by DOI or title, e.g. as `HasPart`) is a related work (CONSIDERATION), even if its title is very similar. Never FAIL on this; the user decides. For every record named, give its title and a link to it in the report: the catalogue URL `https://catalogue.hakai.org/dataset/ca-cioos_<metadata.identifier>` (take the identifier from that record's yaml). Do not link to the yaml files. Separate "possible older version" from "related or associated work".
 - **No version info in title (FAIL):** words like "v2", "version", "revised". Year ranges such as "(2020-2025)" are date coverage, not versions, so they pass.
+- **Title style (WARNING):** the title should not include "Hakai Institute" (it is already the publisher) and should not end with a period. Suggest the corrected title.
 - **Region in title (FAIL):** the title must name a geographic region.
 - **French title matches English (WARNING):** compare numbers, years and place names in `title.fr` and `title.en`. A discrepancy usually means the English title changed and the translation did not (e.g. "2025" vs "2050").
 - **EOV keywords match the measured variables (WARNING):** list the variables named in the title and abstract and compare them with `identification.keywords.eov.en`. For each variable with no matching EOV, suggest one. EOV values seen in published records include `oxygen`, `inorganicCarbon`, `nutrients`, `subSurfaceTemperature`, `seaSurfaceTemperature`, `subSurfaceSalinity`, `seaSurfaceSalinity`, `particulateMatter`, `dissolvedOrganicCarbon`, `subSurfaceCurrents`, `seaSurfaceHeight`, and biological ones such as `fishAbundanceAndDistribution`. `other` alone does not count as a match. Use sub-surface vs sea-surface according to the measurement depth. Treat the suggestions as prompts for review, not certainties. It is NOT confirmed which EOV covers pH (do not assume `inorganicCarbon`); when pH or another variable has no clear EOV, ask the user instead of suggesting one.
@@ -37,7 +37,7 @@ Checklist source: https://github.com/HakaiInstitute/hakai-metadata-entry-form/bl
   - Other resource types (e.g. `collection`) do not require a DOI.
   - `identification.dates.publication` is required when the record has a DOI. It should be the date the data were made public. If there is no DOI, a missing publication date is not a failure (report as not yet required). If the data are already public per the link check, a publication date is needed, so flag it.
   - A publication date should only be set when the record is being published.
-- **DOI steps after review (draft, update via form, edit on DataCite Fabrica, Draft to Findable):** skip. Do not report these.
+- **DOI steps after review (draft, update via form, edit on DataCite Fabrica, Draft to Findable):** skip. Do not report these. A DOI that does not resolve yet (404 at doi.org) is expected for a submitted record, so do not report it.
 
 ### Abstract
 
@@ -49,17 +49,16 @@ Checklist source: https://github.com/HakaiInstitute/hakai-metadata-entry-form/bl
 
 ## Spatial
 
-- **Depth or height positive (FAIL, suggest corrected value):** `spatial.vertical_positive`. Depth below the surface means `depthPositive`. Elevation or height above a datum (DEM, LiDAR, terrain) means `heightPositive`. Decide from title, abstract and keywords. If the evidence is ambiguous, WARNING for review and no suggested value. Only applies when `spatial.vertical` is present.
-- **Description for Biological records (FAIL if missing):** a text `spatial.description` is required only when the inferred theme is Biological. For other themes a polygon or bbox is enough.
+- **Depth or height positive (FAIL, suggest corrected value):** `spatial.vertical_positive`. Depth below the surface means `depthPositive`. Elevation or height above a datum (DEM, LiDAR, terrain) means `heightPositive`. Airborne work (drone, UAS, aircraft) is `heightPositive` because the vertical extent is the height of the sensor, even when the mapped subject is underwater or nearshore (e.g. drone-derived substrate or eelgrass maps). Decide from title, abstract and keywords. If the evidence is ambiguous, WARNING for review and no suggested value. Only applies when `spatial.vertical` is present.
 - **Polygon closure (WARNING):** `spatial.polygon` is `lon,lat` pairs. The first pair must equal the last pair.
 
 ## Contact
 
-- **ROR (FAIL if missing):** every organization block should have a ROR.
-- **ORCID (FAIL):** any individual whose organization is Hakai Institute needs an ORCID. Individuals from other organizations are not flagged. Team contacts (e.g. "Hakai Geospatial") are not people, so skip the ORCID check for them. Check the ORCID is linked as a full `https://orcid.org/...` URL.
+- **ROR (FAIL for Hakai Institute, WARNING for other organizations):** a missing ROR on an organization block named "Hakai Institute" is a FAIL (the correct ROR is `https://ror.org/02pry0c91`). For any other organization it is a WARNING, because some organizations do not have an ROR. Check every organization block, including those under individual contacts.
+- **ORCID (WARNING):** any individual whose organization is Hakai Institute needs an ORCID. When it is missing for a Hakai-affiliated person, suggest strongly recommending that they create one (it is free). Individuals from other organizations are not flagged and get no suggestion. Team contacts (e.g. "Hakai Geospatial") are not people, so skip the ORCID check for them. Check the ORCID is linked as a full `https://orcid.org/...` URL.
 - **Publisher (FAIL):** Hakai Institute with role `publisher` and email `data@hakai.org`.
 - **Data owner (WARNING):** if a Hakai-affiliated individual has the `owner` role, Hakai Institute (the organization) should be the owner instead. Suggest removing `owner` from the individual and adding a Hakai Institute owner entry if none exists. If the owner is from outside Hakai, an individual or an organization is fine.
-- **Email on custodian / point of contact (FAIL):** a Metadata Custodian or Point of Contact needs an email. When the contact is an individual, the email belongs on the individual block. A personal email (tied to a named person) sitting on the organization block is a FAIL, with the suggestion to move it to the individual block. A shared address such as `data@hakai.org` on an organization block is fine.
+- **Email on custodian / point of contact (FAIL):** a Metadata Custodian or Point of Contact needs an email. When the contact is an individual, an email on the individual block is required, and an email on the organization block does not count (even a shared one such as `data@hakai.org`). A missing individual email is a FAIL. If a personal email (tied to a named person) sits on the organization block, suggest moving it to the individual block. A shared address on an organization block is otherwise fine and need not be removed.
 - **Point of contact:** a record with no `pointOfContact` role is not a failure. Do not flag it.
 - **Tula Foundation funder (FAIL if missing):** if the resource is (partly) generated by Hakai researchers, `Tula Foundation` (ROR `https://ror.org/0029jxk29`) must be included with the `funder` role.
 
@@ -69,25 +68,38 @@ Checklist source: https://github.com/HakaiInstitute/hakai-metadata-entry-form/bl
 - **Primary Resource:** the first entry in `distribution[]` is a Primary Resource. There can be several.
 - **Link checks (for each Primary Resource, by fetching the URL):**
   - Link works (FAIL if broken).
-  - Login wall (WARNING): data behind a login are not public.
+  - Login wall (WARNING): data behind a login are not public. A redirect to a sign-in page, or an HTTP 401 or 403 response, counts as a login wall (for Google Drive, a 401 on a file link means it is not shared publicly).
   - Points to a specific dataset or data package, not a generic platform or web page (FAIL). Generic means a user cannot retrieve data from the page and must keep searching (e.g. waterproperties.ca). Acceptable hosts: a general, domain-specific or institutional repository (e.g. GitHub, Google Drive).
-  - Data Access Request Form: URLs starting with `https://hecate.hakai.org/auth/access-request.php`. If this is the only data link, the data are not public. The URL must end with `?ref=<DOI>`, where `<DOI>` is the full DOI URL (e.g. `?ref=https://doi.org/10.21966/at9a-1109`). With no DOI (e.g. a `collection`), it must end with `?ref=` followed by the catalogue URL `https://catalogue.hakai.org/dataset/ca-cioos_<metadata.identifier>`.
+  - Data Access Request Form: URLs starting with `https://hecate.hakai.org/auth/access-request.php`, in any distribution entry (not only the first). If this is the only data link, the data are not public. The URL must end with `?ref=<DOI>` (no trailing `#`), where `<DOI>` is the full DOI URL (e.g. `?ref=https://doi.org/10.21966/at9a-1109`). With no DOI (e.g. a `collection`), it must end with `?ref=` followed by the catalogue URL `https://catalogue.hakai.org/dataset/ca-cioos_<metadata.identifier>`.
+- **All links work and have titles (FAIL for distribution entries, WARNING for associated resources):** fetch every URL in `distribution[]` and `identification.associated_resources`, not just the Primary Resource. A broken or empty link (including a bare `#`) needs fixing or removing. Every entry needs a name or title.
+- **Documents listed as distribution entries (CONSIDERATION):** methods documents, reports and similar supporting documents are better as associated resources (related works) or lineage than as distribution links.
+- **Datasets cited in the abstract (CONSIDERATION):** if the abstract (or limitations) names other datasets or records, check that they are listed in `associated_resources`. Look them up in `hakai/*.yaml`, link them with their catalogue URLs, and note any that are still in draft or not published.
+- **Primary Resource is a single data file (WARNING):** if a Primary Resource points to one data file (e.g. a Google Drive `/file/d/` link, or a URL ending in .csv/.xlsx/.txt) instead of a data package, suggest linking a package that also holds a data dictionary, readme, changelog and other supporting material.
+- **Updates and hosting (CONSIDERATION):** when `progress_code` is `onGoing` or `tentative`, ask whether the data are updated regularly (e.g. annually), and if so suggest a GitHub repository or ERDDAP so the package and its history can be maintained.
+- **Provisional and QC'd data together (CONSIDERATION):** if the description, abstract or limitations say the resource mixes provisional and quality-controlled data, suggest separate records for provisional and research-ready data.
 - **Package contents (readme, changelog, data dictionary, protocols; archive folder; files open and not corrupt; no executables):** report as MANUAL CHECK. Do not try to open the package yet.
 
 ## Other checks
 
+- **Status value (FAIL):** `identification.progress_code` must be one of `onGoing`, `tentative`, `historicalArchive` or `completed`. Any other value, such as `underDevelopment`, is a FAIL. Suggest the most likely valid value from the record (e.g. `completed` if it has a DOI, a publication date and an end of collection; `tentative` if provisional; `onGoing` if collection continues) and ask the user to confirm.
+- **Platform (CONSIDERATION):** if the abstract names a platform used for collection (e.g. a UAS or drone, boat, aircraft, buoy, satellite) and the record has no `platform` entry for it, suggest adding one (e.g. "unmanned aerial vehicle" for UAS or drone work).
+- **Version (CONSIDERATION):** if `identification.edition` is missing, ask for the version (e.g. 1.0) and whether later versions exist.
+- **Taxonomic coverage (CONSIDERATION):** if the abstract or keywords name organisms (e.g. kelp, eelgrass, a species) and the EOV keywords hold no taxon names, suggest adding taxonomic coverage. Published records list taxa (e.g. Zostera marina, Macrocystis pyrifera) in `keywords.eov`.
 - **Provisional status (WARNING):** if `identification.progress_code` is `tentative`, `metadata.use_constraints.limitations.en` should say it is a provisional data set. If it does not, suggest adding that.
 - **"(Provisional)" in title (WARNING):** if `progress_code` is `tentative` and `title.en` lacks "(Provisional)", suggest appending it to the end of the title (the convention in published records, e.g. "... Estuary (Provisional)"), and the same in the French title.
+- **"Provisional" title implies Tentative status (WARNING):** if `title.en` includes "Provisional" or "(Provisional)", `identification.progress_code` must be `tentative`. If it is another value (e.g. `completed`, `onGoing`), flag the mismatch and suggest either setting the status to Tentative or removing "(Provisional)" from the title.
 - **Collection dates vs abstract (WARNING):** where the abstract states dates of data collection (e.g. mission or deployment dates), compare them with `temporal_begin` and `temporal_end` (and `dates.creation` where relevant). Flag any date in the abstract that falls outside that range, or a range that starts or ends well before or after the abstract's dates. Skip when the abstract gives no dates.
 - **Dates of collection:** a missing `temporal_end` is fine for ongoing or `tentative` records. If `progress_code` is `completed`, STRONGLY RECOMMEND both `temporal_begin` and `temporal_end` (report as WARNING).
 - **File consistency (FAIL on discrepancy):** the `.xml`, `.cff` and `.erddap` files are generated from the `.yaml` and should agree with it. Compare title, abstract, DOI or identifier, dates, contacts, keywords, bounding box or polygon and licence. Any difference is a FAIL; name the field and the files that differ.
 
 ## Not checked
 
-Instrument descriptions, `platform`, and the DOI Draft-to-Findable workflow are deliberately out of scope.
+Instrument descriptions and the DOI Draft-to-Findable workflow are deliberately out of scope. (Only the platform suggestion under Other checks applies.)
 
 ## Report format
 
-1. Record title, file prefix, resource type, inferred theme and whether the data are public.
-2. Results by section (Start, Resource identification, Abstract, Spatial, Contact, Data and Documentation, Other checks), one line per item: status, short reason, suggested fix. Within each section, group items by status and list the groups in this order: FAIL, WARNING, MANUAL CHECK, CONSIDERATION, PASS. Put a status label as a sub-heading or bold lead-in for each group, and omit groups that have no items.
-3. Summary count of FAIL / WARNING / MANUAL CHECK (list CONSIDERATION items separately, not counted as warnings), then a numbered list of required fixes.
+Start with the summary, then elaborate below it.
+
+1. **Header:** record title, file prefix, resource type, and whether the data are public.
+2. **Summary (first):** counts of FAIL / WARNING / MANUAL CHECK (CONSIDERATION items are counted separately, not as warnings), then a numbered list of the fixes the user needs to make, one line each, each tagged with its section and status.
+3. **Details by section** (Start, Resource identification, Abstract, Spatial, Contact, Data and Documentation, Other checks), one line per item: status, short reason, suggested fix. Within each section, group items by status in this order: FAIL, WARNING, MANUAL CHECK, CONSIDERATION, PASS. Put a status label as a sub-heading or bold lead-in for each group, and omit groups that have no items.
