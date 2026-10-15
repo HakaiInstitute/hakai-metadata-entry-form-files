@@ -35,7 +35,7 @@ Checklist source: https://github.com/HakaiInstitute/hakai-metadata-entry-form/bl
 - **Publication date and DOI:**
   - Resource type `dataset` requires a DOI. Missing identifier: FAIL, "needs DOI drafted".
   - Other resource types (e.g. `collection`) do not require a DOI.
-  - `identification.dates.publication` is required when the record has a DOI. It should be the date the data were made public. If there is no DOI, a missing publication date is not a failure (report as not yet required). If the data are already public per the link check, a publication date is needed, so flag it.
+  - `identification.dates.publication` is required when the record has a DOI. It should be the date the data were made public or the date the metadata record was published, whichever came first. If there is no DOI, a missing publication date is not a failure (report as not yet required). If the data are already public per the link check, a publication date is needed, so flag it.
   - A publication date should only be set when the record is being published.
 - **DOI steps after review (draft, update via form, edit on DataCite Fabrica, Draft to Findable):** skip. Do not report these. A DOI that does not resolve yet (404 at doi.org) is expected for a submitted record, so do not report it.
 
@@ -50,6 +50,7 @@ Checklist source: https://github.com/HakaiInstitute/hakai-metadata-entry-form/bl
 ## Spatial
 
 - **Depth or height positive (FAIL, suggest corrected value):** `spatial.vertical_positive`. Depth below the surface means `depthPositive`. Elevation or height above a datum (DEM, LiDAR, terrain) means `heightPositive`. Airborne work (drone, UAS, aircraft) is `heightPositive` because the vertical extent is the height of the sensor, even when the mapped subject is underwater or nearshore (e.g. drone-derived substrate or eelgrass maps). Decide from title, abstract and keywords. If the evidence is ambiguous, WARNING for review and no suggested value. Only applies when `spatial.vertical` is present.
+- **Bounding box matches stated coordinates (WARNING):** if `spatial.description` (or the abstract) gives coordinates, including degrees-minutes-seconds, convert them to decimal degrees (west and south are negative) and compare with `spatial.bbox` / `spatial.polygon`. Flag a difference of more than about 0.001 degrees.
 - **Polygon closure (WARNING):** `spatial.polygon` is `lon,lat` pairs. The first pair must equal the last pair.
 
 ## Contact
@@ -83,8 +84,9 @@ Checklist source: https://github.com/HakaiInstitute/hakai-metadata-entry-form/bl
 
 - **Status value (FAIL):** `identification.progress_code` must be one of `onGoing`, `tentative`, `historicalArchive` or `completed`. Any other value, such as `underDevelopment`, is a FAIL. Suggest the most likely valid value from the record (e.g. `completed` if it has a DOI, a publication date and an end of collection; `tentative` if provisional; `onGoing` if collection continues) and ask the user to confirm.
 - **Platform (CONSIDERATION):** if the abstract names a platform used for collection (e.g. a UAS or drone, boat, aircraft, buoy, satellite) and the record has no `platform` entry for it, suggest adding one (e.g. "unmanned aerial vehicle" for UAS or drone work).
+- **Licence (WARNING):** `metadata.use_constraints.licence.code` should be `CC-BY-4.0`, the Hakai default. Any other licence (e.g. a non-commercial variant) is flagged as a WARNING, with the suggestion to use CC-BY-4.0.
 - **Version (CONSIDERATION):** if `identification.edition` is missing, ask for the version (e.g. 1.0) and whether later versions exist.
-- **Taxonomic coverage (CONSIDERATION):** if the abstract or keywords name organisms (e.g. kelp, eelgrass, a species) and the EOV keywords hold no taxon names, suggest adding taxonomic coverage. Published records list taxa (e.g. Zostera marina, Macrocystis pyrifera) in `keywords.eov`.
+- **Taxonomic coverage (CONSIDERATION):** if the abstract or keywords name organisms (e.g. kelp, eelgrass, a species) and `identification.keywords.taxa` is missing or does not cover them (including host or prey species named in the abstract), suggest adding taxonomic coverage. Older records may hold taxa in `keywords.eov` (e.g. Zostera marina).
 - **Provisional status (WARNING):** if `identification.progress_code` is `tentative`, `metadata.use_constraints.limitations.en` should say it is a provisional data set. If it does not, suggest adding that.
 - **"(Provisional)" in title (WARNING):** if `progress_code` is `tentative` and `title.en` lacks "(Provisional)", suggest appending it to the end of the title (the convention in published records, e.g. "... Estuary (Provisional)"), and the same in the French title.
 - **"Provisional" title implies Tentative status (WARNING):** if `title.en` includes "Provisional" or "(Provisional)", `identification.progress_code` must be `tentative`. If it is another value (e.g. `completed`, `onGoing`), flag the mismatch and suggest either setting the status to Tentative or removing "(Provisional)" from the title.
