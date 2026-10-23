@@ -13,6 +13,17 @@ Report every item as **PASS**, **FAIL**, **WARNING**, **MANUAL CHECK** or **CONS
 
 Checklist source: https://github.com/HakaiInstitute/hakai-metadata-entry-form/blob/main/firebase-functions/functions/dataset-name.md
 
+## When run in CI
+
+When the prompt says you are running in GitHub Actions, there is no user to talk to:
+
+- The prompt gives the record's file prefix; review `unpublished/hakai/<prefix>.yaml` and its matching `.xml`, `.cff` and `.erddap` files.
+- Do not ask questions or wait for answers. Anything you would ask the user goes in the report as a question for the reviewer, under the item it relates to.
+- Do not edit, create or delete any files.
+- If a link or lookup cannot be completed (timeout, blocked request, tool not available), report that item as MANUAL CHECK with the reason, never as FAIL.
+- The report is posted as a comment on the record's review issue, read by Hakai reviewers who may contact the submitter. Write for them.
+- Output only the finished report in Markdown: no preamble, no closing remarks, no description of the steps you took. Keep it under 60,000 characters.
+
 ## Facts to establish first
 
 - **Resource type:** `metadata.scope`. If absent, treat as `dataset` (the export omits the default). Other values: `collection`, `document`, `service`.
