@@ -17,7 +17,6 @@ contact:
   - owner
   - pointOfContact
   - principalInvestigator
-  - distributor
 - inCitation: true
   individual:
     email: kevin.ma@ubc.ca
@@ -36,7 +35,6 @@ contact:
   - author
   - pointOfContact
   - principalInvestigator
-  - distributor
 - inCitation: true
   individual:
     email: jiouanho@student.ubc.ca
@@ -51,7 +49,6 @@ contact:
   roles:
   - owner
   - coAuthor
-  - distributor
 - inCitation: true
   individual:
     email: cdmacleod@uvic.ca
@@ -67,7 +64,6 @@ contact:
   roles:
   - owner
   - coAuthor
-  - distributor
 - inCitation: true
   individual:
     email: alyssa.gehman@hakai.org
@@ -97,6 +93,44 @@ contact:
   roles:
   - coAuthor
   - principalInvestigator
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: true
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+- inCitation: false
+  organization:
+    city: Ottawa
+    country: Canada
+    name: CRSNG
+    ror: https://ror.org/01h531d29
+    url: https://www.nserc-crsng.gc.ca
+  roles:
+  - funder
 distribution:
 - name:
     en: Supporting data
@@ -247,7 +281,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-10-26T16:13:36.286Z'
+    revision: '2026-10-26T16:17:26.664Z'
   identifier: d1bde732-9401-4cd9-9e4a-2e5b02a69ad2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/6CCQ9zwrplWpVfAIjvwETVli3xA2/-P4patZN_a0eQiJe2BN3
