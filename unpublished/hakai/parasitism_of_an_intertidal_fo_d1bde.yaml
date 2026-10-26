@@ -113,7 +113,7 @@ contact:
   roles:
   - owner
   - distributor
-- inCitation: true
+- inCitation: false
   organization:
     city: Vancouver
     country: Canada
@@ -211,6 +211,11 @@ identification:
       ce qui suggère que la démographie de l''hôte, la durée d''immersion et l''approvisionnement
       en parasites structurent conjointement l''infection chez cette espèce de base
       intertidale.'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources:
   - association_type: IsPublishedIn
     association_type_iso: largerWorkCitation
@@ -297,7 +302,7 @@ identification:
         verified: false
 metadata:
   dates:
-    revision: '2026-10-26T16:36:28.614Z'
+    revision: '2026-10-26T17:58:34.782Z'
   identifier: d1bde732-9401-4cd9-9e4a-2e5b02a69ad2
   language: en
   maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/6CCQ9zwrplWpVfAIjvwETVli3xA2/-P4patZN_a0eQiJe2BN3
@@ -309,6 +314,15 @@ metadata:
       title:
         en: Creative Commons Attribution 4.0 Attribution
       url: https://creativecommons.org/licenses/by/4.0
+    limitations:
+      en: Data has been published in a preprint and has not been peer reviewed.
+      fr: Les données ont été publiées dans une prépublication et n'ont pas fait l'objet
+        d'un examen par les pairs.
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
 spatial:
   bbox:
   - -126.2235
