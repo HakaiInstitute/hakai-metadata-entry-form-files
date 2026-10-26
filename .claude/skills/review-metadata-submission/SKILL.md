@@ -9,7 +9,11 @@ Each submission is four files with the same prefix in `unpublished/hakai/`: `.ya
 
 Review ONE record at a time. The user gives the file prefix. Read the `.yaml` fully, then apply the checks below.
 
-Report every item as **PASS**, **FAIL**, **WARNING**, **MANUAL CHECK** or **CONSIDERATION** (an optional point for the reviewer to weigh, not a problem to fix), each with a suggested fix where there is one. Group the report by checklist section. End with a short list of the fixes the user needs to make. Do not edit the record files unless asked. Fixes are made in the metadata entry form, since the files are generated from it.
+Report every item as **PASS**, **FAIL**, **WARNING**, **MANUAL CHECK** or **CONSIDERATION** (an optional point for the reviewer to weigh, not a problem to fix), each with a suggested fix where there is one. 
+
+**Evidence**. Every finding that is not a PASS must cite evidence so the reviewer can confirm it without opening the record: the field path (e.g. identification.abstract.en) and its current value, quoted and trimmed to about 200 characters; for links, the URL and the HTTP status or redirect target; for counts, the measured value and the threshold; for findings involving other records, the other record’s title and file name. If you cannot cite concrete evidence for a finding, report it as MANUAL CHECK and say what could not be verified, never as FAIL or WARNING. PASS items get one line naming the value checked. Within each section, list FAIL and WARNING items before CONSIDERATION and MANUAL CHECK items.
+
+Group the report by checklist section. End with a short list of the fixes the user needs to make. Do not edit the record files unless asked. Fixes are made in the metadata entry form, since the files are generated from it.
 
 Checklist source: https://github.com/HakaiInstitute/hakai-metadata-entry-form/blob/main/firebase-functions/functions/dataset-name.md
 
