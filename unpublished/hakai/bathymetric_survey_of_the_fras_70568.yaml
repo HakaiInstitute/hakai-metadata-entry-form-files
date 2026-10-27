@@ -1,0 +1,163 @@
+contact:
+- inCitation: true
+  individual:
+    email: nick.viner@hakai.org
+    name: Viner, Nick
+    position: Geospatial Researcher
+  organization:
+    address: 1002 Wharf Street
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - pointOfContact
+  - processor
+- inCitation: true
+  individual:
+    email: data@hakai.org
+    position: Geospatial Science
+  organization:
+    address: 1002 Wharf Street
+    city: Victoria
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: www.hakai.org
+  roles:
+  - publisher
+  - custodian
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Metadata Report
+    fr: Rapport sur les métadonnées
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: Fraser River Survey Metadata Project Report
+    fr: Rapport du projet de métadonnées de l'enquête sur le fleuve Fraser
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://drive.google.com/file/d/1kr76TU4I6ic5H6TjsMpfH_H_xtiJV_CY/view?usp=drive_link
+identification:
+  abstract:
+    en: Between 2022 and 2023, a number of multibeam surveys were performed in the
+      Fraser River in order to characterize the riverbed. Of particular interest was
+      the morphology of canyon walls along the river. The collected data were then
+      used to assess landslide risk along the river, and to select areas where repeat
+      surveys / monitoring could be done.
+    fr: Entre 2022 et 2023, un certain nombre de relevés multifaisceaux ont été réalisés
+      dans le fleuve Fraser afin de caractériser le lit du fleuve. La morphologie
+      des parois des canyons le long de la rivière était particulièrement intéressante.
+      Les données collectées ont ensuite été utilisées pour évaluer le risque de glissement
+      de terrain le long de la rivière et pour sélectionner les zones où des enquêtes/un
+      suivi répétés pourraient être effectués.
+  associated_resources: []
+  dates:
+    creation: '2023-08-02'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/5zh6-2876
+  keywords:
+    default:
+      en:
+      - multibeam
+      - geomorphology
+      - geohazards
+      - landslide
+      - hydrography
+      - Fraser River
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: completed
+  project:
+  - Geospatial
+  status: submitted
+  temporal_begin: '2023-08-02T19:00:00.000Z'
+  temporal_end: '2023-08-10T19:00:00.000Z'
+  title:
+    en: Bathymetric Survey of the Fraser River - 2023
+    fr: Relevé bathymétrique du fleuve Fraser - 2023
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2026-10-27T23:37:08.871Z'
+  identifier: 70568978-7011-4ebf-8857-c5fd538ab0e1
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/G8LjsjnnPxb5TxWL730BxDTQu532/-NkqAAkWnTthyMSVulZl
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-NC-4.0
+      title:
+        en: 'Creative Commons Attribution 4.0 Attribution-NonCommercial  '
+      url: https://creativecommons.org/licenses/by-nc/4.0/
+    limitations:
+      en: Not to be used for navigational purposes
+      fr: Ne doit pas être utilisé à des fins de navigation
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+platform:
+- id: Rivertec pontoon river boat
+  instruments:
+  - description:
+      en: Multibeam Sonar
+      fr: Sonar multifaisceaux
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    id: iWBMS
+    manufacturer: Norbit
+    type:
+      en: Multibeam Sonar
+      fr: Sonar multifaisceaux
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+    version: iWBMS - Norbit Multibeam Sonar
+  type: ship
+spatial:
+  polygon: -121.4,49.56 -121.4,49.56 -121.4,49.68 -121.4,49.67 -121.4,49.90 -121.5,50.01
+    -121.5,50.20 -121.5,50.23 -121.6,50.47 -121.8,50.61 -121.8,50.66 -121.8,50.74
+    -121.8,50.84 -121.9,51.07 -122.1,51.30 -122.1,51.51 -122.2,51.69 -122.3,51.82
+    -122.2,51.99 -122.1,52.27 -122.2,52.44 -122.5,52.41 -122.4,51.96 -122.5,51.80
+    -122.5,51.62 -122.4,51.43 -122.4,51.28 -122.3,51.10 -122.1,50.96 -122.1,50.81
+    -122.1,50.65 -122.0,50.45 -121.9,50.37 -121.8,50.20 -121.7,49.90 -121.6,49.63
+    -121.4,49.56
+  vertical:
+  - 0.0
+  - 50.0
+  vertical_positive: heightPositive
