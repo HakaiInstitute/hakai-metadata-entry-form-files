@@ -1147,7 +1147,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-10-27T22:28:46.194Z</gco:DateTime>
+        <gco:DateTime>2026-10-27T22:30:15.658Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1252,7 +1252,7 @@
           <cit:date>
             <cit:CI_Date>
               <cit:date>
-                <gco:Date>2012-08-04</gco:Date>
+                <gco:Date>2012-08-05</gco:Date>
               </cit:date>
               <cit:dateType>
                 <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -2654,7 +2654,7 @@ Datum: CSRS NAD 83
 Geoid: Ellipsoid heights
 Point density ranged from 22.3 pts/m2 to 3.4 pts/m2</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Il s&#39;agit de l&#39;enregistrement de métadonnées pour les ensembles de données LiDAR acquis pour la région de l&#39;île Calvert, en Colombie-Britannique, au Canada, en 2012 et 2014. Il fournit des détails sur les deux missions LiDAR et le traitement initial pour fusionner les deux ensembles de données ensemble. 
 
 L&#39;ensemble de données a été créé à partir de deux missions, l&#39;une en 2012 et l&#39;autre en 2014. Les deux ensembles de données ont été fusionnés et utilisés pour générer de nombreux produits de données dérivés (voir la section des liens ci-dessous). La mission de 2012 a recueilli des hyperspectrales et des orthophotographies afin que les métadonnées de mission pour l&#39;ensemble de données LiDAR s&#39;appliquent également à ces actifs. 
@@ -2761,8 +2761,8 @@ La densité de points variait de 22,3 pts/m2 à 3,4 pts/m2</lan:LocalisedCharact
             <gex:EX_TemporalExtent>
               <gex:extent>
                 <gml:TimePeriod gml:id="time_period">
-                  <gml:beginPosition>2012-08-04T19:00:00.000Z</gml:beginPosition>
-                  <gml:endPosition>2014-07-23T19:00:00.000Z</gml:endPosition>
+                  <gml:beginPosition>2012-08-05T19:00:00.000Z</gml:beginPosition>
+                  <gml:endPosition>2014-08-07T19:00:00.000Z</gml:endPosition>
                 </gml:TimePeriod>
               </gex:extent>
             </gex:EX_TemporalExtent>
