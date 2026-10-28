@@ -1147,7 +1147,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-10-28T19:19:49.621Z</gco:DateTime>
+        <gco:DateTime>2026-10-28T19:20:32.845Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -2654,7 +2654,7 @@ Datum: CSRS NAD 83
 Geoid: Ellipsoid heights
 Point density ranged from 22.3 pts/m2 to 3.4 pts/m2</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">Il s&#39;agit de l&#39;enregistrement de métadonnées pour les ensembles de données LiDAR acquis pour la région de Calvert Island, en Colombie-Britannique, au Canada, en 2012 et 2014. Il fournit des détails sur les deux missions LiDAR et le traitement initial visant à fusionner les deux ensembles de données. Les données LiDAR constituent la base de nombreux projets de recherche portant sur la délimitation des bassins versants, les études géomorphologiques, la dynamique des forêts et la recherche archéologique.
 
 L&#39;ensemble de données a été créé à partir de deux missions, l&#39;une en 2012 et l&#39;autre en 2014. Les deux ensembles de données ont été fusionnés et utilisés pour générer de nombreux produits de données dérivés. La mission de 2012 a collecté des photos hyperspectrales et orthophotographiques, de sorte que les métadonnées de la mission pour l&#39;ensemble de données LiDAR s&#39;appliquent également à ces actifs. 
@@ -2732,7 +2732,7 @@ La densité de points variait de 22,3 pts/m2 à 3,4 pts/m2</lan:LocalisedCharact
                   <mrs:referenceSystemIdentifier>
                     <mcc:MD_Identifier>
                       <mcc:code>
-                        <gco:CharacterString>5829</gco:CharacterString>
+                        <gco:CharacterString>5831</gco:CharacterString>
                       </mcc:code>
                       <mcc:codeSpace>
                         <gco:CharacterString>EPSG</gco:CharacterString>
@@ -2741,7 +2741,7 @@ La densité de points variait de 22,3 pts/m2 à 3,4 pts/m2</lan:LocalisedCharact
                         <gco:CharacterString>2012-08-10</gco:CharacterString>
                       </mcc:version>
                       <mcc:description>
-                        <gco:CharacterString>EPSG::5829 - Instantaneous Water Level height - Height relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
+                        <gco:CharacterString>EPSG::5831 - Instantaneous Water Level depth - Depth relative to instantaneous water level uncorrected for tide. Not specific to any location or epoch.</gco:CharacterString>
                       </mcc:description>
                     </mcc:MD_Identifier>
                   </mrs:referenceSystemIdentifier>
