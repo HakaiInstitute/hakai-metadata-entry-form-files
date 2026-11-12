@@ -92,11 +92,13 @@ contact:
   - publisher
 distribution:
 - description:
-    en: Compressed folder containing a geodatabase of .tif files for quarterly, annual
-      kelp detections derived from the Landsat satellites constellation (1985-2023).
-    fr: Le jeu de données contient une géodatabase des caractéristiques matricielles
-      des détections trimestrielles et annuelles de varech dérivées de la constellation
-      de satellites Landsat (1985-2023).
+    en: Request access to Hakai Institute data that is not publicly available. While
+      all requests are reviewed, submitting a request does not guarantee access. Some
+      data cannot be shared, or can only be shared in part or under conditions.
+    fr: Demandez l'accès aux données de l'Institut Hakai qui ne sont pas accessibles
+      au public. Bien que toutes les demandes soient examinées, le fait de soumettre
+      une demande ne garantit pas l'accès. Certaines données ne peuvent pas être partagées,
+      ou ne peuvent être partagées que partiellement ou sous certaines conditions.
     translations:
       fr:
         message: text translated using the Amazon translate service / texte traduit
@@ -184,6 +186,11 @@ identification:
       \ Allen, J. G., Cavanaugh, K. C. et Siegel, DA (2020). Trois décennies de variabilité\
       \ dans les forêts de varech géantes de Californie à partir des satellites Landsat.\
       \ Télédétection de l'environnement, 238, 110811."
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
   associated_resources:
   - association_type: IsDerivedFrom
     association_type_iso: dependency
@@ -253,7 +260,7 @@ identification:
 metadata:
   dates:
     publication: '2026-01-29'
-    revision: '2026-11-12T21:43:13.946Z'
+    revision: '2026-11-12T22:17:24.787Z'
   history:
   - additionalDocumentation:
     - authority: DOI
