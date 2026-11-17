@@ -1,0 +1,105 @@
+contact:
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - publisher
+  - distributor
+- inCitation: true
+  individual:
+    name: van der Stap, Tim
+    orcid: https://orcid.org/0000-0002-0053-0795
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - author
+distribution:
+- name:
+    en: Google
+    fr: Google
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://www.google.com/
+identification:
+  abstract:
+    en: This is an abstract that doesn't really say much.
+    fr: C'est un résumé qui ne dit pas grand-chose.
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  associated_resources: []
+  dates:
+    creation: '2026-11-17'
+  keywords:
+    default:
+      en:
+      - abstract
+      - metadata
+    eov:
+      en:
+      - other
+      fr:
+      - Autre
+  progress_code: completed
+  project:
+  - Genomics
+  status: submitted
+  temporal_begin: '2026-11-17T19:00:00.000Z'
+  temporal_end: '2026-11-17T19:00:00.000Z'
+  title:
+    en: Record for testing workflow
+    fr: Enregistrement du flux de travail de test
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+metadata:
+  dates:
+    revision: '2026-11-17T20:59:03.375Z'
+  identifier: 82390f11-2c09-438f-a090-d7a524dcca35
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-P6fHfu0A7FxAA36v3sc
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: None
+      title:
+        en: No License
+        fr: Aucune licence
+      url: https://choosealicense.com/no-permission/
+spatial:
+  polygon: -129.3819,52.7885 -132.37,47.9744 -121.4721,45.4441 -117.7808,50.3866 -129.3819,52.7885
+  vertical:
+  - 0
+  - 0
+  vertical_epsg:
+    Area: World
+    Code: 5829
+    DataSource: EPSG
+    Deprecated: false
+    Links:
+    - href: https://apps.epsg.org/api/v1/VerticalCoordRefSystem/5829
+      rel: result
+    Name: Instantaneous Water Level height
+    Remarks: Height relative to instantaneous water level uncorrected for tide. Not
+      specific to any location or epoch.
+    RevisionDate: '2012-08-10T00:00:00'
+    Superseded: false
+    Type: vertical
+  vertical_positive: heightPositive
