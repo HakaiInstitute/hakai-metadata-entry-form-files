@@ -1,0 +1,449 @@
+contact:
+- inCitation: true
+  individual:
+    email: ctekellogg@gmail.com
+    name: Kellogg, Colleen
+    orcid: https://orcid.org/0000-0003-4048-5316
+    position: Scientist
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - owner
+  - author
+  - contributor
+  - principalInvestigator
+  - pointOfContact
+- inCitation: true
+  individual:
+    email: carolyn.prentice@hakai.org
+    name: Prentice, Carolyn
+    orcid: https://orcid.org/0000-0002-9644-8496
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - coAuthor
+  - contributor
+  - custodian
+- inCitation: true
+  individual:
+    name: Piercey, Rebecca
+    orcid: https://orcid.org/0000-0001-8563-7155
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - coAuthor
+- inCitation: true
+  individual:
+    email: kristin.meagher@hakai.org
+    name: Meagher Robinson, Kristin
+    orcid: https://orcid.org/0000-0002-9500-1983
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - contributor
+  - coAuthor
+- inCitation: true
+  individual:
+    email: shannon.myles@hakai.org
+    name: Myles, Shannon
+    orcid: https://orcid.org/0009-0008-5935-9559
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - contributor
+  - coAuthor
+- inCitation: true
+  individual:
+    name: Savage, Rose-Lynne
+    orcid: https://orcid.org/0009-0002-2521-4032
+  organization:
+    city: Campbell River
+    country: Canada
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - custodian
+  - coAuthor
+- inCitation: true
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - publisher
+- inCitation: false
+  organization:
+    city: Campbell River
+    country: Canada
+    email: data@hakai.org
+    name: Hakai Institute
+    ror: https://ror.org/02pry0c91
+    url: https://www.hakai.org/
+  roles:
+  - owner
+  - distributor
+- inCitation: false
+  organization:
+    city: Vancouver
+    country: Canada
+    name: Tula Foundation
+    ror: https://ror.org/0029jxk29
+    url: https://tula.org
+  roles:
+  - funder
+distribution:
+- description:
+    en: Raw sequence files uploaded to the NCBI Sequence Read Archive (SRA)
+    fr: Fichiers de séquences brutes téléchargés vers le NCBI Sequence Read Archive
+      (SRA)
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  name:
+    en: 'NCBI: BioProject PRJNA1141475'
+    fr: 'NCBI : BioProject PRJNA1141475'
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  url: https://www.ncbi.nlm.nih.gov/sra/PRJNA1141475
+identification:
+  abstract:
+    en: "Microbes (Bacteria, Archaea, and Protists) play important roles in marine\
+      \ food webs. They are primary producers and food for higher trophic levels.\
+      \ They are carbon and nutrient cyclers, driving global biogeochemical cycles.\
+      \ The coastal margin of British Columbia is experiencing multi-stressor events\
+      \ that have the potential to greatly impact ecosystem function. Developing a\
+      \ climatology is essential for uncovering the physical, chemical and biological\
+      \ drivers of marine microbial community change in this region and elucidating\
+      \ community responses to increasingly frequent ocean perturbations. \n\nFrom\
+      \ 2015-2025, The Hakai Institute Ocean Observing Program routinely collected\
+      \ samples from multiple long-term oceanographic monitoring stations to establish\
+      \ planktonic biodiversity baselines in the Northern Salish Sea (weekly; Station\
+      \ QU39: 50.0307, -125.0992) and on the British Columbia Central Coast (every\
+      \ 4-8 weeks; Station FZH01 (2016-2019): 51.6394, -127.8958; Station KC10 (2019-2025):\
+      \ 51.650, -127.9516). As part of this effort, seawater environmental DNA samples\
+      \ were collected from 5 depths spanning the entire water column (0, 5, 30, 100\
+      \ and 260/275/325 m respectively) to genetically characterize marine microbes\
+      \ at an unprecedented temporal resolution. \n\nSpecifically, DNA was extracted\
+      \ from these 0.2 um-filtered seawater samples and marker genes were amplified\
+      \ using up to two different primer sets:\n\n1. The 515FY/926R universal three-domain\
+      \ rRNA gene primers, simultaneously quantifying the relative abundance of amplicon\
+      \ sequencing variants (ASVs) from bacteria 16S, archaea 16S, eukaryotic nuclear\
+      \ 18S, and eukaryotic plastid 16S genes, and\n2. The V4F/V4RB eukaryote-specific\
+      \ primers, quantifying the relative abundance of eukaryotic nuclear 18S ASVs\
+      \ only.\n\nAmplicon libraries were sequenced on an Illumina MiSeq or NextSeq\
+      \ and processed using the open-source bioinformatics software dada2, as implemented\
+      \ in QIIME2. These data constitute a important biomolecular baseline for coastal\
+      \ British Columbia marine planktonic biodiversity.\n\nThis data package contains\
+      \ links to the raw sequence data, wet-lab protocols, and associated physical\
+      \ and chemical oceanographic data. It is freely available to everyone, following\
+      \ the principles of equitable access and benefit sharing. However, we expect\
+      \ all data users to give attribution to the data providers (read our data license)\
+      \ and the use of these data should happen in the light of fair use, i.e.: 1)\
+      \ respect the data providers, and provide helpful feedback on data quality,\
+      \ and 2) communicate and/or collaborate with the providers if you are considering\
+      \ using this dataset for manuscripts or other forms of reporting."
+    fr: "Les microbes (bactéries, archées et protistes) jouent un rôle important dans\
+      \ les réseaux trophiques marins. Ce sont des producteurs primaires et des aliments\
+      \ pour les niveaux trophiques supérieurs. Ce sont des cycleurs du carbone et\
+      \ des nutriments qui sont à l'origine des cycles biogéochimiques mondiaux. La\
+      \ marge côtière de la Colombie-Britannique est confrontée à de multiples facteurs\
+      \ de stress susceptibles d'avoir de graves répercussions sur le fonctionnement\
+      \ de l'écosystème. Le développement d'une climatologie est essentiel pour découvrir\
+      \ les facteurs physiques, chimiques et biologiques du changement de la communauté\
+      \ microbienne marine dans cette région et pour élucider les réponses des communautés\
+      \ aux perturbations océaniques de plus en plus fréquentes. \n\nDe 2015 à 2025,\
+      \ le programme d'observation des océans de l'Institut Hakai a prélevé régulièrement\
+      \ des échantillons auprès de plusieurs stations de surveillance océanographique\
+      \ à long terme afin d'établir des données de référence pour la biodiversité\
+      \ planctonique dans le nord de la mer des Salish (chaque semaine ; station QU39 :\
+      \ 50,0307, -125,0992) et sur la côte centrale de la Colombie-Britannique (toutes\
+      \ les 4 à 8 semaines) ; Station FZH01 (2016-2019) : 51,6394, -127,8958 ; Station\
+      \ KC10 (2019-2025) : 51,6394, -127,8958 ; Station KC10 (2019-2025) : 51,650,\
+      \ -127,9516). Dans le cadre de cet effort, des échantillons d'ADN environnemental\
+      \ d'eau de mer ont été prélevés à 5 profondeurs couvrant l'ensemble de la colonne\
+      \ d'eau (0, 5, 30, 100 et 260/275/325 m respectivement) afin de caractériser\
+      \ génétiquement les microbes marins avec une résolution temporelle sans précédent.\
+      \ \n\nPlus précisément, l'ADN a été extrait de ces échantillons d'eau de mer\
+      \ filtrés à 0,2 µm et les gènes marqueurs ont été amplifiés en utilisant jusqu'à\
+      \ deux ensembles d'amorces différents :\n\n1. Les amorces géniques universelles\
+      \ d'ARNr à trois domaines 515FY/926R, quantifiant simultanément l'abondance\
+      \ relative des variants de séquençage d'amplicons (ASV) provenant des gènes\
+      \ des bactéries 16S, des archées 16S, du noyau eucaryote 18S et des gènes 16S\
+      \ du plaste eucaryote, et\n2. Les amorces spécifiques aux eucaryotes V4F/V4RB,\
+      \ quantifiant uniquement l'abondance relative des ASV 18S nucléaires eucaryotes.\n\
+      \nLes bibliothèques d'amplicons ont été séquencées sur un Illumina MiSeq ou\
+      \ NextSeq et traitées à l'aide du logiciel bioinformatique open source dada2,\
+      \ tel qu'implémenté dans QIIME2. \n\nCes données constituent une base biomoléculaire\
+      \ importante pour la biodiversité planctonique marine côtière de la Colombie-Britannique.\n\
+      \nCe package de métadonnées contient des liens vers les données de séquence\
+      \ brutes et les données océanographiques physiques et chimiques associées."
+  associated_resources:
+  - association_type: IsDescribedBy
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.48321/D1C1E5ED67
+    title:
+      en: 'DMP: Hakai Oceanographic Microbial Ecology Time Series'
+      fr: 'DMP : Série chronologique sur l''écologie microbienne océanographique de
+        Hakai'
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: dx.doi.org/10.17504/protocols.io.rm7vzjxrrlx1/v1
+    title:
+      en: Biomolecular sample collection protocol
+      fr: Protocole de prélèvement d'échantillons biomoléculaires
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: dx.doi.org/10.17504/protocols.io.14egn63oql5d/v1
+    title:
+      en: DNA extraction protocol
+      fr: Protocole d'extraction d'ADN
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: dx.doi.org/10.17504/protocols.io.3byl49842go5/v1
+    title:
+      en: 16S rRNA V4V5 Library Prep Protocol
+      fr: Protocole de préparation de la bibliothèque d'ARNr 16S V4V5
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementedBy
+    association_type_iso: crossReference
+    authority: URL
+    code: dx.doi.org/10.17504/protocols.io.j8nlk9e61v5r/v1
+    title:
+      en: 18S rRNA V4 Library Prep Protocol
+      fr: Protocole de préparation de la bibliothèque d'ARNr 18S V4
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: IsSupplementTo
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.21966/kace-2d24
+    title:
+      en: Water Property Measurements from Conductivity-Temperature-Depth Profiles,
+        BC, Canada (Research)
+      fr: Mesures des propriétés de l'eau à partir de profils de conductivité-température-profondeur,
+        Colombie-Britannique, Canada (Recherche)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: References
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.21966/bw2d-tg65
+    title:
+      en: Phytoplankton Pigment Time Series from High-Performance Liquid Chromatography
+        for the Northern Salish Sea and Central Coast, BC, Canada (Research)
+      fr: Séries chronologiques de pigments phytoplanctoniques obtenues par chromatographie
+        liquide à haute performance pour le nord de la mer des Salish et la côte centrale,
+        Colombie-Britannique, Canada (Recherche)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  - association_type: References
+    association_type_iso: crossReference
+    authority: DOI
+    code: https://doi.org/10.21966/90h6-b497
+    title:
+      en: Bulk and Size-Fractionated Chlorophyll and Phaeopigment Concentrations Collected
+        by Niskin Bottle, BC, Canada (Provisional)
+      fr: Concentrations de chlorophylle et de phéopigments en vrac et fractionnées
+        par taille recueillies par Niskin Bottle, Colombie-Britannique, Canada (provisoire)
+      translations:
+        fr:
+          message: text translated using the Amazon translate service / texte traduit
+            à l'aide du service de traduction Amazon
+          verified: false
+  dates:
+    creation: '2015-03-18'
+  edition: '1.0'
+  identifier: https://doi.org/10.21966/k9pt-br69
+  keywords:
+    default:
+      en:
+      - Kwakshua Channel
+      - Salish Sea
+      - Strait of Georgia
+      - 16S rRNA gene
+      - 18S rRNA gene
+      - Bacteria
+      - Archaea
+      - Protist
+      - Plankton
+      - Phytoplankton
+    eov:
+      en:
+      - microbeBiomassAndDiversity
+      - phytoplanktonBiomassAndDiversity
+      fr:
+      - Biomasse et diversité microbienne
+      - Biomasse et diversité de phytoplancton
+  progress_code: completed
+  project:
+  - Oceanography
+  - Genomics
+  status: submitted
+  temporal_begin: '2015-03-18T19:00:00.000Z'
+  temporal_end: '2025-12-30T20:00:00.000Z'
+  title:
+    en: Microbial Oceangraphy Time Series for the Northern Salish Sea and Central
+      Coast, BC, Canada
+    fr: Série chronologique biomoléculaire sur l'écologie microbienne océanographique
+      de Hakai
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+instruments:
+- description:
+    en: Niskin water sampler attached to a weighted line and triggered using a messenger
+    fr: Échantillonneur d'eau Niskin attaché à une ligne lestée et déclenché à l'aide
+      d'un messager
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: Niskin Bottle
+  manufacturer: General Oceanics
+  type:
+    en: Water Sampler
+    fr: Échantillonneur d'eau
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+- description:
+    en: Compact, benchtop high-throughput sequencing instrument designed for fast,
+      small-to-medium-scale DNA and RNA sequencing
+    fr: Instrument de séquençage haut débit compact et de laboratoire conçu pour le
+      séquençage rapide de l'ADN et de l'ARN à petite et moyenne échelle
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: MiSeq
+  manufacturer: Illumina
+  type:
+    en: Nucleic acid sequencing platform
+    fr: Plateforme de séquençage des acides nucléiques
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+- description:
+    en: Compact, benchtop high-throughput sequencing instrument designed for fast,
+      small-to-medium-scale DNA and RNA sequencing
+    fr: Instrument de séquençage haut débit compact et de laboratoire conçu pour le
+      séquençage rapide de l'ADN et de l'ARN à petite et moyenne échelle
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  id: NextSeq
+  manufacturer: Illumina
+  type:
+    en: Nucleic acid sequencer
+    fr: Séquenceur d'acides nucléiques
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  version: '1000'
+metadata:
+  dates:
+    revision: '2026-11-20T22:07:00.098Z'
+  identifier: 48014fde-f150-4111-8f9f-424488fe000b
+  language: en
+  maintenance_note: Generated from https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/svkIcC6HVpXX9FKSkFWExmteGMH3/-OlwMXwDojAQ3ibe0S28
+  naming_authority: ca.cioos
+  use_constraints:
+    licence:
+      code: CC-BY-4.0
+      title:
+        en: Creative Commons Attribution 4.0 Attribution
+      url: https://creativecommons.org/licenses/by/4.0
+spatial:
+  description:
+    en: This dataset includes samples collected from the Northern Salish Sea and the
+      Central Coast of British Columbia, Canada
+    fr: Cet ensemble de données comprend des échantillons prélevés dans le nord de
+      la mer des Salish et sur la côte centrale de la Colombie-Britannique, au Canada
+    translations:
+      fr:
+        message: text translated using the Amazon translate service / texte traduit
+          à l'aide du service de traduction Amazon
+        verified: false
+  polygon: -127.7,51.89 -128.5,51.74 -128.5,51.07 -125.6,49.98 -125.1,49.72 -124.0,50.64
+    -127.7,51.89
+  vertical:
+  - 0.0
+  - 650.0
+  vertical_positive: heightPositive
