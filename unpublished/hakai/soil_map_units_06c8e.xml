@@ -450,7 +450,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-10-28T18:47:59.148Z</gco:DateTime>
+        <gco:DateTime>2026-11-25T20:49:13.906Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1248,6 +1248,16 @@
           </mri:thesaurusName>
         </mri:MD_Keywords>
       </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword>
+            <gco:CharacterString>Watersheds</gco:CharacterString>
+          </mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
       <mri:resourceConstraints>
         <mco:MD_LegalConstraints>
           <mco:reference>
@@ -1282,7 +1292,7 @@
       <mri:resourceConstraints>
         <mco:MD_Constraints>
           <mco:useLimitation>
-            <gco:CharacterString>the dataset was developed using predictive mapping methods. Error checking was carried out using the predictive models by comparing observed and predicted values for a limited number of locations, but extensive field checking has not been carried out.</gco:CharacterString>
+            <gco:CharacterString>The dataset was developed using predictive mapping methods. Error checking was carried out using the predictive models by comparing observed and predicted values for a limited number of locations, but extensive field checking has not been carried out.</gco:CharacterString>
           </mco:useLimitation>
         </mco:MD_Constraints>
       </mri:resourceConstraints>
