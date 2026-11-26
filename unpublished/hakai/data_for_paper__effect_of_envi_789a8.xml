@@ -621,7 +621,7 @@
   <mdb:dateInfo>
     <cit:CI_Date>
       <cit:date>
-        <gco:DateTime>2026-11-26T19:41:18.373Z</gco:DateTime>
+        <gco:DateTime>2026-11-26T19:43:00.044Z</gco:DateTime>
       </cit:date>
       <cit:dateType>
         <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -1069,6 +1069,13 @@
                       <cit:contactInfo>
                         <cit:CI_Contact></cit:CI_Contact>
                       </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0001-5065-3956</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
                       <cit:positionName>
                         <gco:CharacterString></gco:CharacterString>
                       </cit:positionName>
@@ -1140,6 +1147,13 @@
                       <cit:contactInfo>
                         <cit:CI_Contact></cit:CI_Contact>
                       </cit:contactInfo>
+                      <cit:partyIdentifier>
+                        <mcc:MD_Identifier>
+                          <mcc:code>
+                            <gco:CharacterString>https://orcid.org/0000-0001-5065-3956</gco:CharacterString>
+                          </mcc:code>
+                        </mcc:MD_Identifier>
+                      </cit:partyIdentifier>
                       <cit:positionName>
                         <gco:CharacterString></gco:CharacterString>
                       </cit:positionName>
@@ -2151,7 +2165,7 @@
       <mri:abstract xsi:type="lan:PT_FreeText_PropertyType">
         <gco:CharacterString>Environmental DNA (eDNA) provides a tool that can increase our ability to monitor marine biodiversity, but movement and mixing of eDNA could affect our inference of species distributions. This package contains metadata from a survey used to assess how differing spatial scales influence the inferred species richness and compositional turnover inferred from eDNA vs visual methods. We conducted a paired eDNA metabarcoding and capture (beach seining) survey of fishes on the coast of British Columbia. The region is composed of small islands and archipelagos exposed to the open ocean (Queen Charlotte Sound) in the west and by fjords and channels of mainland British Columbia in the east. As part of Hakai Institute’s nearshore ecological monitoring program, these sites were selected as representative of shallow-water soft-sediment habitats in the region. Our findings indicate that the eDNA sample grain is larger than that of capture surveys. Whereas seining can detect differences in fish distributions at scales of 10s–100s of meters, eDNA can best summarize fish biodiversity at larger scales possibly more relevant to regional biodiversity assessment.</gco:CharacterString>
         <lan:PT_FreeText>
-          <lan:textGroup>
+          <lan:textGroup xlink:href="https://cioos.ca/translation_method" xlink:role="translation" xlink:title="text translated using the Amazon translate service / texte traduit à l&#39;aide du service de traduction Amazon">
             <lan:LocalisedCharacterString locale="#fr">L&#39;ADN environnemental (ADNe) fournit un outil qui peut accroître notre capacité à surveiller la biodiversité marine, mais le mouvement et le mélange de l&#39;ADNe pourraient affecter notre inférence sur la distribution des espèces. Ce package contient les métadonnées d&#39;une enquête utilisée pour évaluer comment différentes échelles spatiales influencent la richesse en espèces déduite et le renouvellement de la composition déduits de l&#39;ADNe par rapport aux méthodes visuelles. Nous avons effectué un relevé apparié de métabarcodage et de capture (pêche à la senne de plage) de poissons sur la côte de la Colombie-Britannique. La région est composée de petites îles et d&#39;archipels exposés à la haute mer (détroit de la Reine-Charlotte) à l&#39;ouest et par les fjords et les canaux de la Colombie-Britannique continentale à l&#39;est. Dans le cadre du programme de surveillance écologique des zones littorales de l&#39;Institut Hakai, ces sites ont été sélectionnés car ils sont représentatifs des habitats de sédiments mous en eau peu profonde de la région. Nos résultats indiquent que le grain de l&#39;échantillon d&#39;ADNe est plus gros que celui des enquêtes de capture. Alors que la pêche à la senne permet de détecter des différences dans la distribution des poissons à des échelles de 10 à 100 mètres, l&#39;ADNe peut mieux résumer la biodiversité des poissons à de plus grandes échelles, peut-être plus pertinentes pour l&#39;évaluation de la biodiversité régionale.</lan:LocalisedCharacterString>
           </lan:textGroup>
         </lan:PT_FreeText>
